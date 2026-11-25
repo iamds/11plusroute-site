@@ -373,3 +373,12 @@ li.special:not(.expanded) .title { font-size: 1rem; }
 .sg-hide { margin-top: 10px; }
 li.special .kicker { color: var(--c); }
 .listbar { scroll-margin-top: 16px; }
+
+/* Plain-HTML fallback (replaced by school.js) */
+.prerender{padding:8px 0 24px;max-width:760px}
+.prerender h1{margin:.4em 0 .2em}
+.prerender dl{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:16px 0}
+.prerender dt{color:var(--ink2,#5d6875);font-weight:600}
+.prerender dd{margin:0}
+.prerender ol,.prerender ul{padding-left:1.3em}
+.prerender li{margin:.35em 0}
