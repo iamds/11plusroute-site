@@ -1,0 +1,138 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:The Judd School admissions
+BEGIN:VEVENT
+UID:judd-school-2026-06-01-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+SUMMARY:The Judd School: Kent Test registration opens
+URL:https://iamds.github.io/11plusroute-site/schools/judd-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:judd-school-2026-07-01-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:The Judd School: Kent Test registration and special-arrangements de
+ adline
+URL:https://iamds.github.io/11plusroute-site/schools/judd-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:judd-school-2026-09-01-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:The Judd School: Secondary applications (SCAF) open
+URL:https://iamds.github.io/11plusroute-site/schools/judd-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:judd-school-2026-09-10-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:The Judd School: Kent Test for children at Kent primary schools
+URL:https://iamds.github.io/11plusroute-site/schools/judd-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:judd-school-2026-09-12-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:The Judd School: Kent Test for children at non-Kent schools (weeken
+ d of 12/13 September)
+URL:https://iamds.github.io/11plusroute-site/schools/judd-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:judd-school-2026-10-15-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:The Judd School: Kent Test assessment decisions emailed after 4pm
+URL:https://iamds.github.io/11plusroute-site/schools/judd-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:judd-school-2026-10-31-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:The Judd School: Inner Area Pupil Premium SIF deadline
+URL:https://iamds.github.io/11plusroute-site/schools/judd-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:judd-school-2026-11-02-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:The Judd School: SCAF closing date
+URL:https://iamds.github.io/11plusroute-site/schools/judd-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:judd-school-2026-12-07-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:The Judd School: Last day to change your application details in tim
+ e for offer day
+URL:https://iamds.github.io/11plusroute-site/schools/judd-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:judd-school-2027-03-01-9@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:The Judd School: National Offer Day (emails after 4pm)
+URL:https://iamds.github.io/11plusroute-site/schools/judd-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:judd-school-2027-03-15-10@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:The Judd School: Deadline to accept/decline\, ask for waiting lists
+  and make late applications for KCC reallocation
+URL:https://iamds.github.io/11plusroute-site/schools/judd-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:judd-school-2027-04-13-11@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:The Judd School: Deadline for lodging appeals to be heard before Se
+ ptember
+URL:https://iamds.github.io/11plusroute-site/schools/judd-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:judd-school-2027-04-27-12@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:The Judd School: KCC Reallocation Day (places from waiting lists)\;
+  schools then run their own waiting lists
+URL:https://iamds.github.io/11plusroute-site/schools/judd-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:judd-school-2028-01-31-13@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20280131
+DTEND;VALUE=DATE:20280201
+SUMMARY:The Judd School: Year 7 waiting list closes
+URL:https://iamds.github.io/11plusroute-site/schools/judd-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

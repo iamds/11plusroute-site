@@ -353,13 +353,29 @@
   }
 
   const p = s.policy || {};
+  function checkedLine() {
+    const m = /^(\d{4})/.exec(p.entry_year || "");
+    const bits = [];
+    if (m) bits.push(`For September ${m[1]} entry`);
+    if (s.last_checked) {
+      const [yy, mm, dd] = s.last_checked.split("-").map(Number);
+      bits.push(`last checked ${new Date(yy, mm - 1, dd).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })}`);
+    }
+    return bits.length ? `<p class="small muted checked">${bits.join(" · ")}</p>` : "";
+  }
   // ---------- key facts strip ----------
   const reg = (y.registration || []);
-  const testReg = reg.find(r => ["test_registration", "sif"].includes(r.kind) && r.deadline) || reg.find(r => r.submit_to !== "home_la" && r.deadline && r.required !== false);
+  const testReg = reg.find(r => ["test_registration", "sif"].includes(r.kind) && r.deadline && r.required !== false) || reg.find(r => ["test_registration", "sif"].includes(r.kind) && r.deadline) || reg.find(r => r.submit_to !== "home_la" && r.deadline && r.required !== false);
   const caf = reg.find(r => r.kind === "caf" && r.deadline);
   const offerDay = (y.key_dates || []).find(k => /offer day/i.test(k.event));
   const firstTest = (a.stages || []).find(st => st.kind !== "aptitude" && st.dates?.from);
-  const qv = (() => { const q = a.qualification || {}; const vals = q.year_values || (q.rules || []).flatMap(r => r.year_values || []); return vals && vals.length ? vals[0] : null; })();
+  const qv = (function find(o) {
+    if (!o || typeof o !== "object") return null;
+    if (Array.isArray(o)) { for (const x of o) { const v = find(x); if (v) return v; } return null; }
+    if (o.year_values && o.year_values.length) return o.year_values[0];
+    for (const k of ["rules", "rule", "then", "else"]) { const v = find(o[k]); if (v) return v; }
+    return null;
+  })(a.qualification);
   const facts = [
     ["Year 7 places", y.pan ? `<b>${y.pan}</b>` : ""],
     ["Entrance test", a.short_name ? esc(a.short_name) + (firstTest ? `<small>${fmtDate(firstTest.dates.from)}</small>` : "") : ""],
@@ -381,6 +397,7 @@
         ${s.attainment8 != null ? `<span>Attainment 8: <b>${s.attainment8}</b></span>` : ""}
         ${s.religious_character ? `<span>${esc(s.religious_character)}</span>` : ""}
       </p>
+      ${checkedLine()}
       ${y.summary ? `<p class="lede">${esc(y.summary)}</p>` : ""}
       ${s.selective_places && s.selection !== "grammar" ? `<p class="small"><b>Selective places:</b> ${esc(s.selective_places)}</p>` : ""}
     </header>
@@ -403,8 +420,8 @@
     </section>
 
     <div class="folds">
-      ${fold("dates", "Important dates", timeline())}
-      ${fold("test", "About the test", dl([["Overview", esc(a.description || "")], ["Set by", esc(a.provider || "")], ["Consortium", esc(a.consortium || "")],
+      ${fold("dates", "Important dates", timeline() && timeline() + `<p class="small"><a href="../ics/${esc(s.slug)}.ics" download>Add these dates to your calendar</a> · <a href="../deadlines.html">Deadlines for all schools</a></p>`)}
+      ${fold("test", "About the test", (s._test ? `<p class="sharedtest">This school uses the <a href="../tests/${esc(s._test.id)}.html"><b>${esc(s._test.name)}</b></a>. See every school that uses it.</p>` : "") + dl([["Overview", esc(a.description || "")], ["Set by", esc(a.provider || "")], ["Consortium", esc(a.consortium || "")],
         ["Attempts", esc(a.attempts || "")], ["Access arrangements", esc(a.access_arrangements || "")], ["Missing the test", esc(a.missed_test || "")],
         ["Results", (a.stages || []).filter(x => x.results).map(x => `<b>${esc(x.name)}:</b> ${esc(x.results)}`).join("<br>")],
         ["Before the council deadline", esc(y.outcomes_before_caf || "")]]))}
@@ -416,7 +433,7 @@
       ${fold("routes", "Other ways in", routesHtml())}
       ${fold("good", "Good to know", (y.good_to_know || []).length ? `<ul>${y.good_to_know.map(n => `<li>${esc(n)}</li>`).join("")}</ul>` : "")}
     </div>
-    <p class="muted small disclaimer">${p.url ? `<a href="${esc(p.url)}" rel="noopener">Read the school's admissions policy</a> · ` : ""}${s.website ? `<a href="${esc(s.website)}" rel="noopener">School website</a> · ` : ""}This page is a summary: always check with the school before applying.</p>
+    <p class="muted small disclaimer">${p.url ? `<a href="${esc(p.url)}" rel="noopener">Read the school's admissions policy</a> · ` : ""}${s.website ? `<a href="${esc(s.website)}" rel="noopener">School website</a> · ` : ""}This page is a summary: always check with the school before applying.${s._report ? ` · <a href="${esc(s._report)}" rel="noopener">Spotted a mistake? Tell us</a>` : ""}</p>
   `;
 
   // ---------- colour-code priority references in free text ----------

@@ -1,0 +1,133 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Watford Grammar School for Boys admissions
+BEGIN:VEVENT
+UID:watford-grammar-school-for-boys-2026-04-01-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260401
+DTEND;VALUE=DATE:20260402
+SUMMARY:Watford Grammar School for Boys: Consortium test registration opens
+URL:https://iamds.github.io/11plusroute-site/schools/watford-grammar-school
+ -for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:watford-grammar-school-for-boys-2026-06-05-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260605
+DTEND;VALUE=DATE:20260606
+SUMMARY:Watford Grammar School for Boys: Consortium test registration and a
+ ccess-arrangement evidence deadline
+URL:https://iamds.github.io/11plusroute-site/schools/watford-grammar-school
+ -for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:watford-grammar-school-for-boys-2026-06-26-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+SUMMARY:Watford Grammar School for Boys: Test venue shown on the parent por
+ tal (around noon)
+URL:https://iamds.github.io/11plusroute-site/schools/watford-grammar-school
+ -for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:watford-grammar-school-for-boys-2026-09-01-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:Watford Grammar School for Boys: School Information Form opens
+URL:https://iamds.github.io/11plusroute-site/schools/watford-grammar-school
+ -for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:watford-grammar-school-for-boys-2026-09-05-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
+SUMMARY:Watford Grammar School for Boys: Academic test (Saturday)
+URL:https://iamds.github.io/11plusroute-site/schools/watford-grammar-school
+ -for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:watford-grammar-school-for-boys-2026-09-07-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:Watford Grammar School for Boys: Music aptitude test round 1 (Monda
+ y)
+URL:https://iamds.github.io/11plusroute-site/schools/watford-grammar-school
+ -for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:watford-grammar-school-for-boys-2026-09-17-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Watford Grammar School for Boys: Music round 1 scores and round 2 i
+ nvitations
+URL:https://iamds.github.io/11plusroute-site/schools/watford-grammar-school
+ -for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:watford-grammar-school-for-boys-2026-09-21-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:Watford Grammar School for Boys: Music round 2 performances (21-25 
+ September)
+URL:https://iamds.github.io/11plusroute-site/schools/watford-grammar-school
+ -for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:watford-grammar-school-for-boys-2026-10-03-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:Watford Grammar School for Boys: Open Morning\, 9am-12 noon
+URL:https://iamds.github.io/11plusroute-site/schools/watford-grammar-school
+ -for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:watford-grammar-school-for-boys-2026-10-15-9@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Watford Grammar School for Boys: Final test scores released (around
+  noon)
+URL:https://iamds.github.io/11plusroute-site/schools/watford-grammar-school
+ -for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:watford-grammar-school-for-boys-2026-10-31-10@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Watford Grammar School for Boys: Application deadline (council form
+  and school SIF)
+URL:https://iamds.github.io/11plusroute-site/schools/watford-grammar-school
+ -for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:watford-grammar-school-for-boys-2027-03-01-11@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Watford Grammar School for Boys: National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/watford-grammar-school
+ -for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

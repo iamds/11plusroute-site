@@ -1,0 +1,139 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:King Edward VI Grammar School\, Chelmsford (KEGS) admissions
+BEGIN:VEVENT
+UID:king-edward-vi-grammar-school-chelmsford-2026-05-12-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260512
+DTEND;VALUE=DATE:20260513
+SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): CSSE registratio
+ n opens
+URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
+ -school-chelmsford.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:king-edward-vi-grammar-school-chelmsford-2026-06-19-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): CSSE registratio
+ n deadline (online or post)\, absolute
+URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
+ -school-chelmsford.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:king-edward-vi-grammar-school-chelmsford-2026-06-26-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): Deadline for acc
+ ess-arrangement requests and evidence
+URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
+ -school-chelmsford.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:king-edward-vi-grammar-school-chelmsford-2026-07-15-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): Test centre lett
+ ers should have arrived by email
+URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
+ -school-chelmsford.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:king-edward-vi-grammar-school-chelmsford-2026-08-31-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): Last date to wit
+ hdraw from the test (email CSSE)
+URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
+ -school-chelmsford.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:king-edward-vi-grammar-school-chelmsford-2026-09-19-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): CSSE 11+ test (S
+ aturday)
+URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
+ -school-chelmsford.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:king-edward-vi-grammar-school-chelmsford-2026-09-29-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): Alternative test
+  day (religious\, illness or exceptional circumstances only)
+URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
+ -school-chelmsford.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:king-edward-vi-grammar-school-chelmsford-2026-10-10-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): Priority-area re
+ sidence must start by this date (10 October in Year 6) and continue until 
+ starting Year 7
+URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
+ -school-chelmsford.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:king-edward-vi-grammar-school-chelmsford-2026-10-12-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): Results emailed 
+ to all candidates after close of business
+URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
+ -school-chelmsford.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:king-edward-vi-grammar-school-chelmsford-2026-10-31-9@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): CAF deadline\; C
+ SSE Pupil Premium Forms due at each CSSE school applied to
+URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
+ -school-chelmsford.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:king-edward-vi-grammar-school-chelmsford-2026-11-20-10@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): Essex: last date
+  for address-change evidence and on-time changes for first-round offers
+URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
+ -school-chelmsford.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:king-edward-vi-grammar-school-chelmsford-2027-03-01-11@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): National Offer D
+ ay
+URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
+ -school-chelmsford.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

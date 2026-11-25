@@ -1,0 +1,128 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:King Edward VI Handsworth Grammar School for Boys admissions
+BEGIN:VEVENT
+UID:king-edward-vi-handsworth-grammar-school-for-boys-2026-05-05-0@iamds.gi
+ thub.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260505
+DTEND;VALUE=DATE:20260506
+SUMMARY:King Edward VI Handsworth Grammar School for Boys: Test registratio
+ n opens (westmidlandsgrammarschools.co.uk)\; PP and adjustments forms avai
+ lable
+URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-handswo
+ rth-grammar-school-for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:king-edward-vi-handsworth-grammar-school-for-boys-2026-06-12-1@iamds.gi
+ thub.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260613
+SUMMARY:King Edward VI Handsworth Grammar School for Boys: 4pm: reasonable 
+ adjustments deadline
+URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-handswo
+ rth-grammar-school-for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:king-edward-vi-handsworth-grammar-school-for-boys-2026-06-26-2@iamds.gi
+ thub.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+SUMMARY:King Edward VI Handsworth Grammar School for Boys: 4pm: test regist
+ ration deadline (also religious-observance letters and out-of-age-group re
+ quests)
+URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-handswo
+ rth-grammar-school-for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:king-edward-vi-handsworth-grammar-school-for-boys-2026-07-31-3@iamds.gi
+ thub.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260801
+SUMMARY:King Edward VI Handsworth Grammar School for Boys: Test venue and s
+ ession (AM/PM) confirmed by email by the end of July
+URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-handswo
+ rth-grammar-school-for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:king-edward-vi-handsworth-grammar-school-for-boys-2026-09-01-4@iamds.gi
+ thub.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:King Edward VI Handsworth Grammar School for Boys: Test-day informa
+ tion sent (early September)
+URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-handswo
+ rth-grammar-school-for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:king-edward-vi-handsworth-grammar-school-for-boys-2026-09-11-5@iamds.gi
+ thub.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:King Edward VI Handsworth Grammar School for Boys: Deadline: Pupil 
+ Premium eligibility form
+URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-handswo
+ rth-grammar-school-for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:king-edward-vi-handsworth-grammar-school-for-boys-2026-09-12-6@iamds.gi
+ thub.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:King Edward VI Handsworth Grammar School for Boys: Entrance test (S
+ aturday\, AM and PM sessions). Pupil Premium status fixed at this date
+URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-handswo
+ rth-grammar-school-for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:king-edward-vi-handsworth-grammar-school-for-boys-2026-10-16-7@iamds.gi
+ thub.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:King Edward VI Handsworth Grammar School for Boys: Test results sen
+ t (by Friday 16 October)
+URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-handswo
+ rth-grammar-school-for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:king-edward-vi-handsworth-grammar-school-for-boys-2026-10-31-8@iamds.gi
+ thub.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:King Edward VI Handsworth Grammar School for Boys: Home LA preferen
+ ce form (CAF) deadline
+URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-handswo
+ rth-grammar-school-for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:king-edward-vi-handsworth-grammar-school-for-boys-2027-03-01-9@iamds.gi
+ thub.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:King Edward VI Handsworth Grammar School for Boys: National Offer D
+ ay (1 March or next working day)
+URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-handswo
+ rth-grammar-school-for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

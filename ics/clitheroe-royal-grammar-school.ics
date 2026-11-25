@@ -1,0 +1,104 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Clitheroe Royal Grammar School admissions
+BEGIN:VEVENT
+UID:clitheroe-royal-grammar-school-2026-06-01-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+SUMMARY:Clitheroe Royal Grammar School: CRGS online application form opens 
+ (12 noon)
+URL:https://iamds.github.io/11plusroute-site/schools/clitheroe-royal-gramma
+ r-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:clitheroe-royal-grammar-school-2026-07-01-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:Clitheroe Royal Grammar School: Open Evening\, 5.30-7.30pm
+URL:https://iamds.github.io/11plusroute-site/schools/clitheroe-royal-gramma
+ r-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:clitheroe-royal-grammar-school-2026-09-01-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:Clitheroe Royal Grammar School: Lancashire online application syste
+ m opens
+URL:https://iamds.github.io/11plusroute-site/schools/clitheroe-royal-gramma
+ r-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:clitheroe-royal-grammar-school-2026-09-04-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SUMMARY:Clitheroe Royal Grammar School: Closing date for the CRGS applicati
+ on form (12 noon)\, and for Pupil Premium/FSM and SEN notices
+URL:https://iamds.github.io/11plusroute-site/schools/clitheroe-royal-gramma
+ r-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:clitheroe-royal-grammar-school-2026-09-22-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:Clitheroe Royal Grammar School: School confirms registration\, catc
+ hment status and exam details by this date
+URL:https://iamds.github.io/11plusroute-site/schools/clitheroe-royal-gramma
+ r-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:clitheroe-royal-grammar-school-2026-09-26-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:Clitheroe Royal Grammar School: Entrance examination at CRGS (Satur
+ day morning)
+URL:https://iamds.github.io/11plusroute-site/schools/clitheroe-royal-gramma
+ r-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:clitheroe-royal-grammar-school-2026-10-09-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Clitheroe Royal Grammar School: Parents told by 12 noon whether the
+ ir child reached the required standard
+URL:https://iamds.github.io/11plusroute-site/schools/clitheroe-royal-gramma
+ r-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:clitheroe-royal-grammar-school-2026-10-31-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Clitheroe Royal Grammar School: Local authority closing date for ap
+ plications
+URL:https://iamds.github.io/11plusroute-site/schools/clitheroe-royal-gramma
+ r-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:clitheroe-royal-grammar-school-2027-03-01-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Clitheroe Royal Grammar School: National Offer Day (CRGS also write
+ s to parents)
+URL:https://iamds.github.io/11plusroute-site/schools/clitheroe-royal-gramma
+ r-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

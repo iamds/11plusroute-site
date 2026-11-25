@@ -1,0 +1,89 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Colyton Grammar School admissions
+BEGIN:VEVENT
+UID:colyton-grammar-school-2026-04-01-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260401
+DTEND;VALUE=DATE:20260402
+SUMMARY:Colyton Grammar School: Online test registration opens (April)
+URL:https://iamds.github.io/11plusroute-site/schools/colyton-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:colyton-grammar-school-2026-07-31-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260801
+SUMMARY:Colyton Grammar School: Test registration deadline
+URL:https://iamds.github.io/11plusroute-site/schools/colyton-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:colyton-grammar-school-2026-09-12-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Colyton Grammar School: 11+ selection test at the school
+URL:https://iamds.github.io/11plusroute-site/schools/colyton-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:colyton-grammar-school-2026-10-24-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Colyton Grammar School: Results by at least one week before the CAF
+  deadline (October)
+URL:https://iamds.github.io/11plusroute-site/schools/colyton-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:colyton-grammar-school-2026-10-31-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Colyton Grammar School: CAF deadline (home LA)
+URL:https://iamds.github.io/11plusroute-site/schools/colyton-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:colyton-grammar-school-2027-03-01-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Colyton Grammar School: National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/colyton-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:colyton-grammar-school-2027-03-22-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+SUMMARY:Colyton Grammar School: First round of allocations\; late-registrat
+ ion testing after this date
+URL:https://iamds.github.io/11plusroute-site/schools/colyton-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:colyton-grammar-school-2027-08-31-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270831
+DTEND;VALUE=DATE:20270901
+SUMMARY:Colyton Grammar School: Devon County Council stops holding the wait
+ ing list (school holds it to 31 December 2027)
+URL:https://iamds.github.io/11plusroute-site/schools/colyton-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

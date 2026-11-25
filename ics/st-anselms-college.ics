@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:St Anselm's College admissions
+BEGIN:VEVENT
+UID:st-anselms-college-2026-07-31-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260801
+SUMMARY:St Anselm's College: Online Registration Form (and baptismal certif
+ icate) deadline
+URL:https://iamds.github.io/11plusroute-site/schools/st-anselms-college.htm
+ l
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-anselms-college-2026-10-31-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:St Anselm's College: Preference form deadline (Wirral)
+URL:https://iamds.github.io/11plusroute-site/schools/st-anselms-college.htm
+ l
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-anselms-college-2027-03-01-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:St Anselm's College: National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/st-anselms-college.htm
+ l
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

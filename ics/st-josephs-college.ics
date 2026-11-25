@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:St Joseph's College admissions
+BEGIN:VEVENT
+UID:st-josephs-college-2026-10-30-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:St Joseph's College: SIF deadline
+URL:https://iamds.github.io/11plusroute-site/schools/st-josephs-college.htm
+ l
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-josephs-college-2026-10-31-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:St Joseph's College: CAF deadline
+URL:https://iamds.github.io/11plusroute-site/schools/st-josephs-college.htm
+ l
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-josephs-college-2027-03-01-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:St Joseph's College: National Offer Day (common offer date)
+URL:https://iamds.github.io/11plusroute-site/schools/st-josephs-college.htm
+ l
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

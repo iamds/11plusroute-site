@@ -1,0 +1,103 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Sutton Coldfield Grammar School for Girls admissions
+BEGIN:VEVENT
+UID:sutton-coldfield-grammar-school-for-girls-2026-05-05-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260505
+DTEND;VALUE=DATE:20260506
+SUMMARY:Sutton Coldfield Grammar School for Girls: Test registration opens 
+ (westmidlandsgrammarschools.co.uk)
+URL:https://iamds.github.io/11plusroute-site/schools/sutton-coldfield-gramm
+ ar-school-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sutton-coldfield-grammar-school-for-girls-2026-06-12-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260613
+SUMMARY:Sutton Coldfield Grammar School for Girls: 4pm: reasonable adjustme
+ nts deadline
+URL:https://iamds.github.io/11plusroute-site/schools/sutton-coldfield-gramm
+ ar-school-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sutton-coldfield-grammar-school-for-girls-2026-06-24-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260624
+DTEND;VALUE=DATE:20260625
+SUMMARY:Sutton Coldfield Grammar School for Girls: Open evening
+URL:https://iamds.github.io/11plusroute-site/schools/sutton-coldfield-gramm
+ ar-school-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sutton-coldfield-grammar-school-for-girls-2026-06-26-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+SUMMARY:Sutton Coldfield Grammar School for Girls: 4pm: test registration d
+ eadline
+URL:https://iamds.github.io/11plusroute-site/schools/sutton-coldfield-gramm
+ ar-school-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sutton-coldfield-grammar-school-for-girls-2026-09-11-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:Sutton Coldfield Grammar School for Girls: Deadline: Pupil Premium 
+ eligibility form
+URL:https://iamds.github.io/11plusroute-site/schools/sutton-coldfield-gramm
+ ar-school-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sutton-coldfield-grammar-school-for-girls-2026-09-12-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Sutton Coldfield Grammar School for Girls: Entrance test (Saturday\
+ , AM and PM sessions)
+URL:https://iamds.github.io/11plusroute-site/schools/sutton-coldfield-gramm
+ ar-school-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sutton-coldfield-grammar-school-for-girls-2026-10-16-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Sutton Coldfield Grammar School for Girls: Test results emailed (by
+  Friday 16 October)
+URL:https://iamds.github.io/11plusroute-site/schools/sutton-coldfield-gramm
+ ar-school-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sutton-coldfield-grammar-school-for-girls-2026-10-31-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Sutton Coldfield Grammar School for Girls: Home LA preference form 
+ (CAF) deadline
+URL:https://iamds.github.io/11plusroute-site/schools/sutton-coldfield-gramm
+ ar-school-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sutton-coldfield-grammar-school-for-girls-2027-03-01-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Sutton Coldfield Grammar School for Girls: National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/sutton-coldfield-gramm
+ ar-school-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

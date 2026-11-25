@@ -1,0 +1,136 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Colchester County High School for Girls admissions
+BEGIN:VEVENT
+UID:colchester-county-high-school-for-girls-2026-05-12-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260512
+DTEND;VALUE=DATE:20260513
+SUMMARY:Colchester County High School for Girls: CSSE registration opens
+URL:https://iamds.github.io/11plusroute-site/schools/colchester-county-high
+ -school-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:colchester-county-high-school-for-girls-2026-06-19-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+SUMMARY:Colchester County High School for Girls: CSSE registration deadline
+  (online or post)\, absolute
+URL:https://iamds.github.io/11plusroute-site/schools/colchester-county-high
+ -school-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:colchester-county-high-school-for-girls-2026-06-26-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+SUMMARY:Colchester County High School for Girls: Deadline for access-arrang
+ ement requests and evidence
+URL:https://iamds.github.io/11plusroute-site/schools/colchester-county-high
+ -school-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:colchester-county-high-school-for-girls-2026-07-15-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+SUMMARY:Colchester County High School for Girls: Test centre information sh
+ ould have arrived by email
+URL:https://iamds.github.io/11plusroute-site/schools/colchester-county-high
+ -school-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:colchester-county-high-school-for-girls-2026-08-31-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+SUMMARY:Colchester County High School for Girls: Last date to withdraw from
+  the test (email CSSE)
+URL:https://iamds.github.io/11plusroute-site/schools/colchester-county-high
+ -school-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:colchester-county-high-school-for-girls-2026-09-19-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:Colchester County High School for Girls: CSSE 11+ test (Saturday)
+URL:https://iamds.github.io/11plusroute-site/schools/colchester-county-high
+ -school-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:colchester-county-high-school-for-girls-2026-09-29-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:Colchester County High School for Girls: Alternative test day (reli
+ gious\, illness or exceptional circumstances only)
+URL:https://iamds.github.io/11plusroute-site/schools/colchester-county-high
+ -school-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:colchester-county-high-school-for-girls-2026-10-12-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Colchester County High School for Girls: Results emailed after clos
+ e of business
+URL:https://iamds.github.io/11plusroute-site/schools/colchester-county-high
+ -school-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:colchester-county-high-school-for-girls-2026-10-31-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Colchester County High School for Girls: Application deadline (home
+  council)
+URL:https://iamds.github.io/11plusroute-site/schools/colchester-county-high
+ -school-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:colchester-county-high-school-for-girls-2026-10-31-9@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Colchester County High School for Girls: CCHSG Supplementary Inform
+ ation Form (Pupil Premium / Service Premium / looked-after) due at the sch
+ ool\; priority-area residence must start by this date
+URL:https://iamds.github.io/11plusroute-site/schools/colchester-county-high
+ -school-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:colchester-county-high-school-for-girls-2026-11-20-10@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Colchester County High School for Girls: Essex: last date for addre
+ ss-change evidence for first-round offers
+URL:https://iamds.github.io/11plusroute-site/schools/colchester-county-high
+ -school-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:colchester-county-high-school-for-girls-2027-03-01-11@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Colchester County High School for Girls: National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/colchester-county-high
+ -school-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

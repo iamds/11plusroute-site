@@ -1,0 +1,79 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Shirley High School admissions
+BEGIN:VEVENT
+UID:shirley-high-school-2026-10-01-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Shirley High School: Open evening (5pm to 7.30pm)
+URL:https://iamds.github.io/11plusroute-site/schools/shirley-high-school.ht
+ ml
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:shirley-high-school-2026-10-05-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:Shirley High School: Performing Arts Scholarship Application Form d
+ eadline\; open-morning week begins (by appointment)
+URL:https://iamds.github.io/11plusroute-site/schools/shirley-high-school.ht
+ ml
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:shirley-high-school-2026-10-10-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Shirley High School: Performing Arts Scholarship workshop
+URL:https://iamds.github.io/11plusroute-site/schools/shirley-high-school.ht
+ ml
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:shirley-high-school-2026-10-31-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Shirley High School: CAF deadline
+URL:https://iamds.github.io/11plusroute-site/schools/shirley-high-school.ht
+ ml
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:shirley-high-school-2027-03-01-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Shirley High School: National Offer Day (scholarship offers made th
+ e same day)
+URL:https://iamds.github.io/11plusroute-site/schools/shirley-high-school.ht
+ ml
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:shirley-high-school-2027-03-15-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Shirley High School: Accept or decline the place in writing
+URL:https://iamds.github.io/11plusroute-site/schools/shirley-high-school.ht
+ ml
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:shirley-high-school-2027-03-17-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:Shirley High School: Deadline to lodge an appeal with the Chair of 
+ Governors
+URL:https://iamds.github.io/11plusroute-site/schools/shirley-high-school.ht
+ ml
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,140 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Queen Elizabeth's Grammar Alford - A Selective Academy admissi
+ ons
+BEGIN:VEVENT
+UID:queen-elizabeths-grammar-alford-a-selective-academy-2026-01-07-0@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260107
+DTEND;VALUE=DATE:20260108
+SUMMARY:Queen Elizabeth's Grammar Alford - A Selective Academy: Registratio
+ n for the September 11+ opens
+URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-gramm
+ ar-alford-a-selective-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queen-elizabeths-grammar-alford-a-selective-academy-2026-03-20-1@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260321
+SUMMARY:Queen Elizabeth's Grammar Alford - A Selective Academy: 11+ registr
+ ation forms back to transport-area primary schools
+URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-gramm
+ ar-alford-a-selective-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queen-elizabeths-grammar-alford-a-selective-academy-2026-03-20-2@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260321
+SUMMARY:Queen Elizabeth's Grammar Alford - A Selective Academy: Deadline: 1
+ 1+ registration form (pupils at a primary school in the transport area)
+URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-gramm
+ ar-alford-a-selective-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queen-elizabeths-grammar-alford-a-selective-academy-2026-06-30-3@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:Queen Elizabeth's Grammar Alford - A Selective Academy: Open Evenin
+ g
+URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-gramm
+ ar-alford-a-selective-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queen-elizabeths-grammar-alford-a-selective-academy-2026-09-12-4@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Queen Elizabeth's Grammar Alford - A Selective Academy: Verbal reas
+ oning test (Fri 11 or Sat 12 September)
+URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-gramm
+ ar-alford-a-selective-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queen-elizabeths-grammar-alford-a-selective-academy-2026-09-19-5@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:Queen Elizabeth's Grammar Alford - A Selective Academy: Non-verbal 
+ reasoning test (Fri 18 or Sat 19 September)
+URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-gramm
+ ar-alford-a-selective-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queen-elizabeths-grammar-alford-a-selective-academy-2026-10-09-6@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Queen Elizabeth's Grammar Alford - A Selective Academy: 11+ results
+  emailed to parents (midday)
+URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-gramm
+ ar-alford-a-selective-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queen-elizabeths-grammar-alford-a-selective-academy-2026-10-31-7@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Queen Elizabeth's Grammar Alford - A Selective Academy: National cl
+ osing date for applications (Lincolnshire accepts on-time applications unt
+ il 14 December)
+URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-gramm
+ ar-alford-a-selective-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queen-elizabeths-grammar-alford-a-selective-academy-2026-12-14-8@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:Queen Elizabeth's Grammar Alford - A Selective Academy: Lincolnshir
+ e's last date for applications and changes to count for National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-gramm
+ ar-alford-a-selective-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queen-elizabeths-grammar-alford-a-selective-academy-2027-03-01-9@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Queen Elizabeth's Grammar Alford - A Selective Academy: National Of
+ fer Day
+URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-gramm
+ ar-alford-a-selective-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queen-elizabeths-grammar-alford-a-selective-academy-2027-04-14-10@iamds
+ .github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+SUMMARY:Queen Elizabeth's Grammar Alford - A Selective Academy: Lincolnshir
+ e's deadline for on-time appeals (midnight)
+URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-gramm
+ ar-alford-a-selective-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

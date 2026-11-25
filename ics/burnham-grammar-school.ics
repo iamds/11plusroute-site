@@ -1,0 +1,154 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Burnham Grammar School admissions
+BEGIN:VEVENT
+UID:burnham-grammar-school-2026-05-01-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:Burnham Grammar School: Test registration opens (10am) for children
+  not at a state-funded Bucks primary
+URL:https://iamds.github.io/11plusroute-site/schools/burnham-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:burnham-grammar-school-2026-06-02-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260602
+DTEND;VALUE=DATE:20260603
+SUMMARY:Burnham Grammar School: Test registration closes (3pm)\; opt-out de
+ adline for Bucks primary pupils\; access arrangement requests from Bucks/P
+ artner schools
+URL:https://iamds.github.io/11plusroute-site/schools/burnham-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:burnham-grammar-school-2026-06-16-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260616
+DTEND;VALUE=DATE:20260617
+SUMMARY:Burnham Grammar School: Access arrangement requests from all other 
+ schools
+URL:https://iamds.github.io/11plusroute-site/schools/burnham-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:burnham-grammar-school-2026-08-07-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:Burnham Grammar School: Test invitations emailed for children teste
+ d at a grammar school or central venue
+URL:https://iamds.github.io/11plusroute-site/schools/burnham-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:burnham-grammar-school-2026-09-01-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:Burnham Grammar School: Must be living at the catchment address fro
+ m this date
+URL:https://iamds.github.io/11plusroute-site/schools/burnham-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:burnham-grammar-school-2026-09-08-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:Burnham Grammar School: Practice Test
+URL:https://iamds.github.io/11plusroute-site/schools/burnham-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:burnham-grammar-school-2026-09-10-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:Burnham Grammar School: Secondary Transfer Test
+URL:https://iamds.github.io/11plusroute-site/schools/burnham-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:burnham-grammar-school-2026-10-09-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Burnham Grammar School: Test results released
+URL:https://iamds.github.io/11plusroute-site/schools/burnham-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:burnham-grammar-school-2026-10-30-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Burnham Grammar School: Selection Review deadline (full case)
+URL:https://iamds.github.io/11plusroute-site/schools/burnham-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:burnham-grammar-school-2026-10-31-9@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Burnham Grammar School: Application deadline (home council)
+URL:https://iamds.github.io/11plusroute-site/schools/burnham-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:burnham-grammar-school-2026-10-31-10@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Burnham Grammar School: Tell the school about Pupil Premium / staff
+  eligibility
+URL:https://iamds.github.io/11plusroute-site/schools/burnham-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:burnham-grammar-school-2027-02-12-11@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:Burnham Grammar School: Selection Review outcomes
+URL:https://iamds.github.io/11plusroute-site/schools/burnham-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:burnham-grammar-school-2027-03-01-12@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Burnham Grammar School: National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/burnham-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:burnham-grammar-school-2027-03-15-13@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Burnham Grammar School: Deadline to accept or decline the offer (11
+ :59pm)
+URL:https://iamds.github.io/11plusroute-site/schools/burnham-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

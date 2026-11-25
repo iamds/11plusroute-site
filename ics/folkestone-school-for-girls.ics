@@ -1,0 +1,168 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:The Folkestone School for Girls admissions
+BEGIN:VEVENT
+UID:folkestone-school-for-girls-2026-06-01-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+SUMMARY:The Folkestone School for Girls: Kent Test registration opens
+URL:https://iamds.github.io/11plusroute-site/schools/folkestone-school-for-
+ girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:folkestone-school-for-girls-2026-07-01-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:The Folkestone School for Girls: Kent Test registration and access-
+ arrangement requests close (midnight)
+URL:https://iamds.github.io/11plusroute-site/schools/folkestone-school-for-
+ girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:folkestone-school-for-girls-2026-07-21-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260722
+SUMMARY:The Folkestone School for Girls: Last date for late Kent Test paper
+  registrations (Kent primary pupils\, where practicable)
+URL:https://iamds.github.io/11plusroute-site/schools/folkestone-school-for-
+ girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:folkestone-school-for-girls-2026-09-01-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:The Folkestone School for Girls: Secondary applications (SCAF) open
+URL:https://iamds.github.io/11plusroute-site/schools/folkestone-school-for-
+ girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:folkestone-school-for-girls-2026-09-01-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:The Folkestone School for Girls: Copy of any KCC access-arrangement
+ s letter to FSG for the Shepway Test
+URL:https://iamds.github.io/11plusroute-site/schools/folkestone-school-for-
+ girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:folkestone-school-for-girls-2026-09-10-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:The Folkestone School for Girls: Kent Test in Kent primary schools
+URL:https://iamds.github.io/11plusroute-site/schools/folkestone-school-for-
+ girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:folkestone-school-for-girls-2026-09-12-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:The Folkestone School for Girls: Shepway Test at FSG (three session
+ s)\; also Kent Test for out-of-county pupils (12/13 September)
+URL:https://iamds.github.io/11plusroute-site/schools/folkestone-school-for-
+ girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:folkestone-school-for-girls-2026-10-15-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:The Folkestone School for Girls: Kent Test assessment decisions ema
+ iled after 4pm
+URL:https://iamds.github.io/11plusroute-site/schools/folkestone-school-for-
+ girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:folkestone-school-for-girls-2026-10-31-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:The Folkestone School for Girls: Pupil Premium supplementary form d
+ eadline
+URL:https://iamds.github.io/11plusroute-site/schools/folkestone-school-for-
+ girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:folkestone-school-for-girls-2026-11-02-9@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:The Folkestone School for Girls: SCAF closing date (midnight\; Kent
+ 's 2027 deadline\, as 31 October is a Saturday)
+URL:https://iamds.github.io/11plusroute-site/schools/folkestone-school-for-
+ girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:folkestone-school-for-girls-2026-12-07-10@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:The Folkestone School for Girls: Last day to change your applicatio
+ n details in time for offer day
+URL:https://iamds.github.io/11plusroute-site/schools/folkestone-school-for-
+ girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:folkestone-school-for-girls-2027-03-01-11@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:The Folkestone School for Girls: National Offer Day (emails after 4
+ pm)
+URL:https://iamds.github.io/11plusroute-site/schools/folkestone-school-for-
+ girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:folkestone-school-for-girls-2027-03-15-12@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:The Folkestone School for Girls: Accept/decline offer and join wait
+ ing lists for KCC reallocation
+URL:https://iamds.github.io/11plusroute-site/schools/folkestone-school-for-
+ girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:folkestone-school-for-girls-2027-04-13-13@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:The Folkestone School for Girls: Lodge appeals by this date to be h
+ eard before September
+URL:https://iamds.github.io/11plusroute-site/schools/folkestone-school-for-
+ girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:folkestone-school-for-girls-2027-04-27-14@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:The Folkestone School for Girls: Kent Reallocation Day: places that
+  have come free are offered from waiting lists
+URL:https://iamds.github.io/11plusroute-site/schools/folkestone-school-for-
+ girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,112 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Aylesbury High School admissions
+BEGIN:VEVENT
+UID:aylesbury-high-school-2026-05-01-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:Aylesbury High School: Secondary Transfer Test registration opens
+URL:https://iamds.github.io/11plusroute-site/schools/aylesbury-high-school.
+ html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aylesbury-high-school-2026-06-02-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260602
+DTEND;VALUE=DATE:20260603
+SUMMARY:Aylesbury High School: Test registration closes (3pm)\, also the de
+ adline to opt out and for headteachers' access-arrangement requests
+URL:https://iamds.github.io/11plusroute-site/schools/aylesbury-high-school.
+ html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aylesbury-high-school-2026-08-07-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:Aylesbury High School: Test invitations emailed to children tested 
+ at grammar schools / central venues
+URL:https://iamds.github.io/11plusroute-site/schools/aylesbury-high-school.
+ html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aylesbury-high-school-2026-09-08-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:Aylesbury High School: Practice Test (in school for Bucks state pri
+ mary and Partner school pupils)
+URL:https://iamds.github.io/11plusroute-site/schools/aylesbury-high-school.
+ html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aylesbury-high-school-2026-09-10-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:Aylesbury High School: Secondary Transfer Test
+URL:https://iamds.github.io/11plusroute-site/schools/aylesbury-high-school.
+ html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aylesbury-high-school-2026-10-09-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Aylesbury High School: Test results released
+URL:https://iamds.github.io/11plusroute-site/schools/aylesbury-high-school.
+ html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aylesbury-high-school-2026-10-30-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Aylesbury High School: Selection Review deadline (for results recei
+ ved on 9 October)
+URL:https://iamds.github.io/11plusroute-site/schools/aylesbury-high-school.
+ html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aylesbury-high-school-2026-10-31-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Aylesbury High School: National secondary application deadline (and
+  deadline for Pupil Premium evidence to schools)
+URL:https://iamds.github.io/11plusroute-site/schools/aylesbury-high-school.
+ html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aylesbury-high-school-2027-02-12-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:Aylesbury High School: Selection Review outcomes released (also the
+  last date to request a review after a late test)
+URL:https://iamds.github.io/11plusroute-site/schools/aylesbury-high-school.
+ html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aylesbury-high-school-2027-03-01-9@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Aylesbury High School: National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/aylesbury-high-school.
+ html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

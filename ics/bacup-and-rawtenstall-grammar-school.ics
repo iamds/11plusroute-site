@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Bacup and Rawtenstall Grammar School admissions
+BEGIN:VEVENT
+UID:bacup-and-rawtenstall-grammar-school-2026-10-31-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Bacup and Rawtenstall Grammar School: Council application deadline 
+ (results of the exam are sent before this)
+URL:https://iamds.github.io/11plusroute-site/schools/bacup-and-rawtenstall-
+ grammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bacup-and-rawtenstall-grammar-school-2027-03-01-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Bacup and Rawtenstall Grammar School: National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/bacup-and-rawtenstall-
+ grammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

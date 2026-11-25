@@ -1,0 +1,80 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:The Henrietta Barnett School admissions
+BEGIN:VEVENT
+UID:henrietta-barnett-school-2026-07-01-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:The Henrietta Barnett School: Entrance Test Entry Form deadline (5p
+ m) and Pupil Premium evidence deadline
+URL:https://iamds.github.io/11plusroute-site/schools/henrietta-barnett-scho
+ ol.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:henrietta-barnett-school-2026-08-17-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260818
+SUMMARY:The Henrietta Barnett School: Round One test details sent out (cont
+ act the school if nothing by 20 Aug)
+URL:https://iamds.github.io/11plusroute-site/schools/henrietta-barnett-scho
+ ol.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:henrietta-barnett-school-2026-09-02-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:The Henrietta Barnett School: Round One test (2\, 3 or 4 September)
+URL:https://iamds.github.io/11plusroute-site/schools/henrietta-barnett-scho
+ ol.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:henrietta-barnett-school-2026-10-01-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:The Henrietta Barnett School: Round Two test (one day in early Octo
+ ber)
+URL:https://iamds.github.io/11plusroute-site/schools/henrietta-barnett-scho
+ ol.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:henrietta-barnett-school-2026-10-20-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:The Henrietta Barnett School: Late October: letters to Round Two ca
+ ndidates (guaranteed place if LAC/PP\, otherwise 'may be eligible')
+URL:https://iamds.github.io/11plusroute-site/schools/henrietta-barnett-scho
+ ol.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:henrietta-barnett-school-2026-10-31-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:The Henrietta Barnett School: CAF deadline (national)
+URL:https://iamds.github.io/11plusroute-site/schools/henrietta-barnett-scho
+ ol.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:henrietta-barnett-school-2027-03-01-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:The Henrietta Barnett School: National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/henrietta-barnett-scho
+ ol.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

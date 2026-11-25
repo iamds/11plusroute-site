@@ -1,0 +1,96 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Queens' School admissions
+BEGIN:VEVENT
+UID:queens-school-2026-04-01-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260401
+DTEND;VALUE=DATE:20260402
+SUMMARY:Queens' School: SW Herts Consortium test registration opens
+URL:https://iamds.github.io/11plusroute-site/schools/queens-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queens-school-2026-06-05-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260605
+DTEND;VALUE=DATE:20260606
+SUMMARY:Queens' School: Test registration closes\; SEND evidence deadline
+URL:https://iamds.github.io/11plusroute-site/schools/queens-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queens-school-2026-06-26-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+SUMMARY:Queens' School: Test venues notified
+URL:https://iamds.github.io/11plusroute-site/schools/queens-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queens-school-2026-09-05-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
+SUMMARY:Queens' School: Academic test
+URL:https://iamds.github.io/11plusroute-site/schools/queens-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queens-school-2026-09-07-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:Queens' School: Music test\, round one
+URL:https://iamds.github.io/11plusroute-site/schools/queens-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queens-school-2026-09-09-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+SUMMARY:Queens' School: Sports aptitude test (Queens' only)
+URL:https://iamds.github.io/11plusroute-site/schools/queens-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queens-school-2026-09-21-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:Queens' School: Music round two (21-25 September)
+URL:https://iamds.github.io/11plusroute-site/schools/queens-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queens-school-2026-10-15-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Queens' School: Test scores on the consortium parent portal
+URL:https://iamds.github.io/11plusroute-site/schools/queens-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queens-school-2026-10-31-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Queens' School: CAF deadline (and SIF for children of staff)
+URL:https://iamds.github.io/11plusroute-site/schools/queens-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queens-school-2027-03-01-9@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Queens' School: National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/queens-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

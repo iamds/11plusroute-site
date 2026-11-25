@@ -1,0 +1,194 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Mayfield Grammar School\, Gravesend admissions
+BEGIN:VEVENT
+UID:mayfield-grammar-school-gravesend-2026-06-01-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+SUMMARY:Mayfield Grammar School\, Gravesend: Kent Test registration opens (
+ kent.gov.uk/kenttest)
+URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
+ l-gravesend.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mayfield-grammar-school-gravesend-2026-07-01-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:Mayfield Grammar School\, Gravesend: Kent Test registration and acc
+ ess-arrangement requests close (midnight)
+URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
+ l-gravesend.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mayfield-grammar-school-gravesend-2026-07-03-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260704
+SUMMARY:Mayfield Grammar School\, Gravesend: Mayfield test registration clo
+ ses (4pm)\; exceptional late registrations to 4pm 6 July
+URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
+ l-gravesend.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mayfield-grammar-school-gravesend-2026-07-21-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260722
+SUMMARY:Mayfield Grammar School\, Gravesend: Last date for late paper regis
+ trations (children at Kent County Council primary schools only)
+URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
+ l-gravesend.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mayfield-grammar-school-gravesend-2026-09-01-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:Mayfield Grammar School\, Gravesend: Secondary applications (SCAF) 
+ open
+URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
+ l-gravesend.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mayfield-grammar-school-gravesend-2026-09-10-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:Mayfield Grammar School\, Gravesend: Kent Test in Kent primary scho
+ ols
+URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
+ l-gravesend.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mayfield-grammar-school-gravesend-2026-09-12-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Mayfield Grammar School\, Gravesend: Kent Test at test centres for 
+ children at non-Kent schools (12/13 September)
+URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
+ l-gravesend.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mayfield-grammar-school-gravesend-2026-09-12-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Mayfield Grammar School\, Gravesend: Mayfield test at Mayfield Gram
+ mar School
+URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
+ l-gravesend.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mayfield-grammar-school-gravesend-2026-10-13-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Mayfield Grammar School\, Gravesend: Open mornings (13 and 14 Octob
+ er\, 9-11am)
+URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
+ l-gravesend.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mayfield-grammar-school-gravesend-2026-10-15-9@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Mayfield Grammar School\, Gravesend: Kent Test decisions emailed af
+ ter 4pm
+URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
+ l-gravesend.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mayfield-grammar-school-gravesend-2026-10-15-10@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Mayfield Grammar School\, Gravesend: Mayfield test results emailed\
+ ; open evening (6-8.30pm)
+URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
+ l-gravesend.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mayfield-grammar-school-gravesend-2026-11-02-11@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Mayfield Grammar School\, Gravesend: National closing date for seco
+ ndary applications (midnight)
+URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
+ l-gravesend.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mayfield-grammar-school-gravesend-2026-12-07-12@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Mayfield Grammar School\, Gravesend: Final date for on-time changes
+  to applications (including address changes)
+URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
+ l-gravesend.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mayfield-grammar-school-gravesend-2027-03-01-13@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Mayfield Grammar School\, Gravesend: National Offer Day (emails aft
+ er 4pm)
+URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
+ l-gravesend.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mayfield-grammar-school-gravesend-2027-03-15-14@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Mayfield Grammar School\, Gravesend: Accept/decline offers\; deadli
+ ne for waiting-list requests and late applications for the KCC reallocatio
+ n
+URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
+ l-gravesend.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mayfield-grammar-school-gravesend-2027-04-13-15@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:Mayfield Grammar School\, Gravesend: Deadline for lodging appeals (
+ to be heard before September)
+URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
+ l-gravesend.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mayfield-grammar-school-gravesend-2027-04-27-16@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:Mayfield Grammar School\, Gravesend: KCC reallocation of places tha
+ t have become available\; schools run their waiting lists after this
+URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
+ l-gravesend.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

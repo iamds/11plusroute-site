@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Nottingham Bluecoat Academy admissions
+BEGIN:VEVENT
+UID:nottingham-bluecoat-academy-2026-09-25-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:Nottingham Bluecoat Academy: Supplementary form deadline for the te
+ chnology aptitude test
+URL:https://iamds.github.io/11plusroute-site/schools/nottingham-bluecoat-ac
+ ademy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nottingham-bluecoat-academy-2026-10-05-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:Nottingham Bluecoat Academy: Technology aptitude tests (week of 5 O
+ ctober)
+URL:https://iamds.github.io/11plusroute-site/schools/nottingham-bluecoat-ac
+ ademy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nottingham-bluecoat-academy-2026-10-31-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Nottingham Bluecoat Academy: Application deadline (council form and
+  supplementary form)
+URL:https://iamds.github.io/11plusroute-site/schools/nottingham-bluecoat-ac
+ ademy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nottingham-bluecoat-academy-2027-03-01-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Nottingham Bluecoat Academy: National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/nottingham-bluecoat-ac
+ ademy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,123 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Alcester Grammar School admissions
+BEGIN:VEVENT
+UID:alcester-grammar-school-2026-05-07-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260507
+DTEND;VALUE=DATE:20260508
+SUMMARY:Alcester Grammar School: 11+ registration opens (Warwickshire Paren
+ t Portal)
+URL:https://iamds.github.io/11plusroute-site/schools/alcester-grammar-schoo
+ l.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:alcester-grammar-school-2026-06-30-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:Alcester Grammar School: 11+ registration and access arrangements d
+ eadline (4pm)
+URL:https://iamds.github.io/11plusroute-site/schools/alcester-grammar-schoo
+ l.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:alcester-grammar-school-2026-08-10-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
+SUMMARY:Alcester Grammar School: Test information packs sent in August (cha
+ se Warwickshire Admissions if nothing by late August)
+URL:https://iamds.github.io/11plusroute-site/schools/alcester-grammar-schoo
+ l.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:alcester-grammar-school-2026-09-12-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Alcester Grammar School: Warwickshire 11+ test (12 and 13 September
+ )
+URL:https://iamds.github.io/11plusroute-site/schools/alcester-grammar-schoo
+ l.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:alcester-grammar-school-2026-10-16-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Alcester Grammar School: 11+ results on the Parent Portal
+URL:https://iamds.github.io/11plusroute-site/schools/alcester-grammar-schoo
+ l.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:alcester-grammar-school-2026-10-31-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Alcester Grammar School: Secondary application deadline (home LA\, 
+ 11.59pm)
+URL:https://iamds.github.io/11plusroute-site/schools/alcester-grammar-schoo
+ l.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:alcester-grammar-school-2026-12-01-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Alcester Grammar School: Proof-of-address requests sent (week comme
+ ncing 1 December)
+URL:https://iamds.github.io/11plusroute-site/schools/alcester-grammar-schoo
+ l.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:alcester-grammar-school-2026-12-31-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Alcester Grammar School: Proof of address and residence deadline (1
+ 1.59pm)
+URL:https://iamds.github.io/11plusroute-site/schools/alcester-grammar-schoo
+ l.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:alcester-grammar-school-2027-01-31-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Alcester Grammar School: Late 11+ candidates tested by this date
+URL:https://iamds.github.io/11plusroute-site/schools/alcester-grammar-schoo
+ l.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:alcester-grammar-school-2027-03-01-9@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Alcester Grammar School: National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/alcester-grammar-schoo
+ l.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:alcester-grammar-school-2027-12-31-10@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20271231
+DTEND;VALUE=DATE:20280101
+SUMMARY:Alcester Grammar School: Year 7 waiting list dissolved
+URL:https://iamds.github.io/11plusroute-site/schools/alcester-grammar-schoo
+ l.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

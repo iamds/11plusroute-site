@@ -1,0 +1,212 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Dover Grammar School for Boys admissions
+BEGIN:VEVENT
+UID:dover-grammar-school-for-boys-2026-06-01-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+SUMMARY:Dover Grammar School for Boys: Kent Test registration opens (kent.g
+ ov.uk/kenttest)
+URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
+ or-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dover-grammar-school-for-boys-2026-06-24-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260624
+DTEND;VALUE=DATE:20260625
+SUMMARY:Dover Grammar School for Boys: Dover Boys Test information event at
+  DGSB (5pm)
+URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
+ or-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dover-grammar-school-for-boys-2026-07-01-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:Dover Grammar School for Boys: Kent Test registration closes at mid
+ night\; deadline for primary schools to request special arrangements
+URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
+ or-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dover-grammar-school-for-boys-2026-07-03-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260704
+SUMMARY:Dover Grammar School for Boys: Dover Boys Test registration deadlin
+ e (no late entries)\; access-arrangement requests due
+URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
+ or-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dover-grammar-school-for-boys-2026-07-21-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260722
+SUMMARY:Dover Grammar School for Boys: Last date for late Kent Test registr
+ ations (paper form\, children at KCC-maintained primary schools only)
+URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
+ or-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dover-grammar-school-for-boys-2026-09-01-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:Dover Grammar School for Boys: Secondary application (SCAF) opens
+URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
+ or-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dover-grammar-school-for-boys-2026-09-10-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:Dover Grammar School for Boys: Kent Test in Kent primary schools
+URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
+ or-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dover-grammar-school-for-boys-2026-09-12-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Dover Grammar School for Boys: Kent Test at test centres for childr
+ en at schools outside Kent (12/13 September)
+URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
+ or-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dover-grammar-school-for-boys-2026-09-12-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Dover Grammar School for Boys: Dover Boys Test at DGSB (Saturday mo
+ rning)
+URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
+ or-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dover-grammar-school-for-boys-2026-10-01-9@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Dover Grammar School for Boys: Year 6 open evening
+URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
+ or-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dover-grammar-school-for-boys-2026-10-15-10@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Dover Grammar School for Boys: Kent Test decisions and scores email
+ ed after 4pm
+URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
+ or-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dover-grammar-school-for-boys-2026-10-31-11@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Dover Grammar School for Boys: Pupil Premium Supplementary Informat
+ ion Form due at the school
+URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
+ or-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dover-grammar-school-for-boys-2026-10-31-12@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Dover Grammar School for Boys: Deadline: Supplementary Information 
+ Form (Pupil Premium Notification)
+URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
+ or-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dover-grammar-school-for-boys-2026-11-02-13@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Dover Grammar School for Boys: SCAF closing date (midnight) for Ken
+ t residents
+URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
+ or-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dover-grammar-school-for-boys-2026-12-07-14@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Dover Grammar School for Boys: Last date for changes to on-time app
+ lications
+URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
+ or-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dover-grammar-school-for-boys-2027-03-01-15@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Dover Grammar School for Boys: National Offer Day (emails after 4pm
+ )
+URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
+ or-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dover-grammar-school-for-boys-2027-03-15-16@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Dover Grammar School for Boys: Accept or decline the offer\; deadli
+ ne to join waiting lists for the reallocation
+URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
+ or-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dover-grammar-school-for-boys-2027-04-13-17@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:Dover Grammar School for Boys: Deadline for lodging appeals to be h
+ eard in the main round
+URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
+ or-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dover-grammar-school-for-boys-2027-04-27-18@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:Dover Grammar School for Boys: KCC reallocation of vacant places\; 
+ schools run their own waiting lists after this
+URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
+ or-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

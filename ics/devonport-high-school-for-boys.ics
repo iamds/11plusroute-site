@@ -1,0 +1,121 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Devonport High School for Boys admissions
+BEGIN:VEVENT
+UID:devonport-high-school-for-boys-2026-04-20-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260420
+DTEND;VALUE=DATE:20260421
+SUMMARY:Devonport High School for Boys: Familiarisation session registratio
+ n opens (sessions in June 2026)
+URL:https://iamds.github.io/11plusroute-site/schools/devonport-high-school-
+ for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:devonport-high-school-for-boys-2026-04-27-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260427
+DTEND;VALUE=DATE:20260428
+SUMMARY:Devonport High School for Boys: Plymouth 11+ registration window op
+ ens (Plymouth scheme)
+URL:https://iamds.github.io/11plusroute-site/schools/devonport-high-school-
+ for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:devonport-high-school-for-boys-2026-07-07-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260707
+DTEND;VALUE=DATE:20260708
+SUMMARY:Devonport High School for Boys: Open evening\, 4:30pm
+URL:https://iamds.github.io/11plusroute-site/schools/devonport-high-school-
+ for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:devonport-high-school-for-boys-2026-08-31-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+SUMMARY:Devonport High School for Boys: 11+ registration deadline
+URL:https://iamds.github.io/11plusroute-site/schools/devonport-high-school-
+ for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:devonport-high-school-for-boys-2026-09-12-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Devonport High School for Boys: Test day 1: Quest English reading +
+  DHSB writing paper
+URL:https://iamds.github.io/11plusroute-site/schools/devonport-high-school-
+ for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:devonport-high-school-for-boys-2026-09-19-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:Devonport High School for Boys: Test day 2: Quest Maths
+URL:https://iamds.github.io/11plusroute-site/schools/devonport-high-school-
+ for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:devonport-high-school-for-boys-2026-10-09-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Devonport High School for Boys: A/B/C results letters posted (Plymo
+ uth scheme)
+URL:https://iamds.github.io/11plusroute-site/schools/devonport-high-school-
+ for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:devonport-high-school-for-boys-2026-10-31-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Devonport High School for Boys: CAF deadline (home LA) and Pupil/Se
+ rvice Premium SIF
+URL:https://iamds.github.io/11plusroute-site/schools/devonport-high-school-
+ for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:devonport-high-school-for-boys-2027-03-01-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Devonport High School for Boys: National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/devonport-high-school-
+ for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:devonport-high-school-for-boys-2027-04-23-9@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270423
+DTEND;VALUE=DATE:20270424
+SUMMARY:Devonport High School for Boys: Plymouth 2nd round of allocations
+URL:https://iamds.github.io/11plusroute-site/schools/devonport-high-school-
+ for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:devonport-high-school-for-boys-2028-07-31-10@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20280731
+DTEND;VALUE=DATE:20280801
+SUMMARY:Devonport High School for Boys: Waiting list closes
+URL:https://iamds.github.io/11plusroute-site/schools/devonport-high-school-
+ for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

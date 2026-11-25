@@ -382,3 +382,34 @@ li.special .kicker { color: var(--c); }
 .prerender dd{margin:0}
 .prerender ol,.prerender ul{padding-left:1.3em}
 .prerender li{margin:.35em 0}
+
+/* Top navigation */
+.masthead .in { flex-wrap: wrap; }
+.topnav { margin-left: auto; display: flex; gap: 4px; }
+.topnav a { padding: 6px 10px; border-radius: 6px; color: var(--ink-2); text-decoration: none; font-weight: 600; font-size: .92rem; }
+.topnav a:hover { color: var(--ink); background: var(--surface-2); }
+.topnav a[aria-current="page"] { color: var(--ink); box-shadow: inset 0 -2px 0 var(--gold); border-radius: 0; }
+@media (max-width: 640px) { .topnav { margin-left: 0; width: 100%; } .masthead .wordmark small { display: none; } }
+
+/* Deadlines */
+.month { font-size: 1.05rem; margin: 18px 0 6px; padding-top: 10px; border-top: 1px solid var(--line); }
+.month:first-child { border-top: 0; margin-top: 0; padding-top: 0; }
+.evlist { list-style: none; margin: 0; padding: 0; }
+.ev { display: grid; grid-template-columns: 15em 1fr; gap: 12px; padding: 7px 0 7px 12px; border-left: 3px solid var(--line); margin: 2px 0; }
+.ev time { color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.ev-deadline { border-left-color: var(--crimson); }
+.ev-test { border-left-color: var(--rail); }
+.ev-result { border-left-color: var(--c-area); }
+.ev-offer { border-left-color: var(--gold); }
+@media (max-width: 640px) { .ev { grid-template-columns: 1fr; gap: 2px; } }
+#dl-list { padding: 16px 18px; }
+#dl-form .filters { margin-top: 10px; align-items: center; }
+#dl-form label.small { display: inline-flex; gap: 6px; align-items: center; }
+
+/* Shared tests + checked line */
+.testlist { list-style: none; padding: 0; margin: 0; }
+.testlist li { padding: 9px 0; border-bottom: 1px solid var(--line); }
+.testlist li:last-child { border-bottom: 0; }
+.sharedtest { margin: 0 0 12px; }
+.school-head .checked { margin: 4px 0 0; }
+.keybar small { display: block; font-weight: 400; }

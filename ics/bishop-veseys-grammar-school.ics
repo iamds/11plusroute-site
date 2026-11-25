@@ -1,0 +1,102 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Bishop Vesey's Grammar School admissions
+BEGIN:VEVENT
+UID:bishop-veseys-grammar-school-2026-05-05-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260505
+DTEND;VALUE=DATE:20260506
+SUMMARY:Bishop Vesey's Grammar School: Test registration opens (westmidland
+ sgrammarschools.co.uk)
+URL:https://iamds.github.io/11plusroute-site/schools/bishop-veseys-grammar-
+ school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bishop-veseys-grammar-school-2026-06-12-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260613
+SUMMARY:Bishop Vesey's Grammar School: 4pm: reasonable adjustments deadline
+URL:https://iamds.github.io/11plusroute-site/schools/bishop-veseys-grammar-
+ school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bishop-veseys-grammar-school-2026-06-26-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+SUMMARY:Bishop Vesey's Grammar School: 4pm: test registration deadline. Tic
+ k the Pupil Premium box when registering
+URL:https://iamds.github.io/11plusroute-site/schools/bishop-veseys-grammar-
+ school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bishop-veseys-grammar-school-2026-09-12-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Bishop Vesey's Grammar School: Entrance test (Saturday\, AM and PM 
+ sessions)
+URL:https://iamds.github.io/11plusroute-site/schools/bishop-veseys-grammar-
+ school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bishop-veseys-grammar-school-2026-10-16-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Bishop Vesey's Grammar School: Test results sent (by Friday 16 Octo
+ ber)
+URL:https://iamds.github.io/11plusroute-site/schools/bishop-veseys-grammar-
+ school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bishop-veseys-grammar-school-2026-10-31-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Bishop Vesey's Grammar School: Home LA preference form (CAF) deadli
+ ne\; Zone 1 residence evidence deadline
+URL:https://iamds.github.io/11plusroute-site/schools/bishop-veseys-grammar-
+ school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bishop-veseys-grammar-school-2026-11-30-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Bishop Vesey's Grammar School: End of November: Pupil Premium evide
+ nce due to the School Business Manager
+URL:https://iamds.github.io/11plusroute-site/schools/bishop-veseys-grammar-
+ school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bishop-veseys-grammar-school-2026-11-30-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Bishop Vesey's Grammar School: Deadline: Pupil Premium evidence
+URL:https://iamds.github.io/11plusroute-site/schools/bishop-veseys-grammar-
+ school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bishop-veseys-grammar-school-2027-03-01-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Bishop Vesey's Grammar School: National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/bishop-veseys-grammar-
+ school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,101 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Urmston Grammar Academy admissions
+BEGIN:VEVENT
+UID:urmston-grammar-academy-2026-04-23-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260423
+DTEND;VALUE=DATE:20260424
+SUMMARY:Urmston Grammar Academy: Test registration opens (12 noon)
+URL:https://iamds.github.io/11plusroute-site/schools/urmston-grammar-academ
+ y.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:urmston-grammar-academy-2026-06-17-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260617
+DTEND;VALUE=DATE:20260618
+SUMMARY:Urmston Grammar Academy: Urmston Grammar open evening (4-8pm)
+URL:https://iamds.github.io/11plusroute-site/schools/urmston-grammar-academ
+ y.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:urmston-grammar-academy-2026-06-19-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+SUMMARY:Urmston Grammar Academy: Test registration and access-arrangement e
+ vidence deadline (12 noon)
+URL:https://iamds.github.io/11plusroute-site/schools/urmston-grammar-academ
+ y.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:urmston-grammar-academy-2026-07-13-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260713
+DTEND;VALUE=DATE:20260714
+SUMMARY:Urmston Grammar Academy: Week of 13 July: exam details\, Attendance
+  Form and Special Circumstances Form sent out
+URL:https://iamds.github.io/11plusroute-site/schools/urmston-grammar-academ
+ y.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:urmston-grammar-academy-2026-09-14-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:Urmston Grammar Academy: Trafford Consortium entrance test
+URL:https://iamds.github.io/11plusroute-site/schools/urmston-grammar-academ
+ y.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:urmston-grammar-academy-2026-09-17-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Urmston Grammar Academy: Special Circumstances Form / illness notif
+ ication deadline (12 noon)
+URL:https://iamds.github.io/11plusroute-site/schools/urmston-grammar-academ
+ y.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:urmston-grammar-academy-2026-10-31-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Urmston Grammar Academy: Results released before this date\; CAF de
+ adline
+URL:https://iamds.github.io/11plusroute-site/schools/urmston-grammar-academ
+ y.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:urmston-grammar-academy-2027-03-01-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Urmston Grammar Academy: National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/urmston-grammar-academ
+ y.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:urmston-grammar-academy-2027-03-15-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Urmston Grammar Academy: Deadline to accept offers with your counci
+ l
+URL:https://iamds.github.io/11plusroute-site/schools/urmston-grammar-academ
+ y.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

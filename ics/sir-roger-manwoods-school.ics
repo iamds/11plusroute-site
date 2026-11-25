@@ -1,0 +1,168 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Sir Roger Manwood's School admissions
+BEGIN:VEVENT
+UID:sir-roger-manwoods-school-2026-06-01-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+SUMMARY:Sir Roger Manwood's School: Kent Test registration opens (kent.gov.
+ uk/kenttest)
+URL:https://iamds.github.io/11plusroute-site/schools/sir-roger-manwoods-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sir-roger-manwoods-school-2026-07-01-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:Sir Roger Manwood's School: Kent Test registration closes at midnig
+ ht\; deadline for primary schools to request special arrangements
+URL:https://iamds.github.io/11plusroute-site/schools/sir-roger-manwoods-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sir-roger-manwoods-school-2026-07-21-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260722
+SUMMARY:Sir Roger Manwood's School: Last date for late Kent Test registrati
+ ons (paper form\, children at KCC-maintained primary schools only)
+URL:https://iamds.github.io/11plusroute-site/schools/sir-roger-manwoods-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sir-roger-manwoods-school-2026-09-01-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:Sir Roger Manwood's School: Secondary application (SCAF) opens
+URL:https://iamds.github.io/11plusroute-site/schools/sir-roger-manwoods-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sir-roger-manwoods-school-2026-09-10-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:Sir Roger Manwood's School: Kent Test in Kent primary schools
+URL:https://iamds.github.io/11plusroute-site/schools/sir-roger-manwoods-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sir-roger-manwoods-school-2026-09-12-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Sir Roger Manwood's School: Kent Test at test centres for children 
+ at schools outside Kent (12/13 September)
+URL:https://iamds.github.io/11plusroute-site/schools/sir-roger-manwoods-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sir-roger-manwoods-school-2026-10-15-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Sir Roger Manwood's School: Kent Test decisions and scores emailed 
+ after 4pm
+URL:https://iamds.github.io/11plusroute-site/schools/sir-roger-manwoods-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sir-roger-manwoods-school-2026-10-31-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Sir Roger Manwood's School: Pupil Premium Supplementary Form due at
+  the school
+URL:https://iamds.github.io/11plusroute-site/schools/sir-roger-manwoods-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sir-roger-manwoods-school-2026-10-31-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Sir Roger Manwood's School: Deadline: Supplementary Form for Y7 Pup
+ il Premium Applications
+URL:https://iamds.github.io/11plusroute-site/schools/sir-roger-manwoods-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sir-roger-manwoods-school-2026-11-02-9@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Sir Roger Manwood's School: SCAF closing date (midnight) for Kent r
+ esidents
+URL:https://iamds.github.io/11plusroute-site/schools/sir-roger-manwoods-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sir-roger-manwoods-school-2026-12-07-10@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Sir Roger Manwood's School: Last date for changes to on-time applic
+ ations
+URL:https://iamds.github.io/11plusroute-site/schools/sir-roger-manwoods-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sir-roger-manwoods-school-2027-03-01-11@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Sir Roger Manwood's School: National Offer Day (emails after 4pm)
+URL:https://iamds.github.io/11plusroute-site/schools/sir-roger-manwoods-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sir-roger-manwoods-school-2027-03-15-12@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Sir Roger Manwood's School: Accept or decline the offer\; deadline 
+ to join waiting lists for the reallocation
+URL:https://iamds.github.io/11plusroute-site/schools/sir-roger-manwoods-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sir-roger-manwoods-school-2027-04-13-13@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:Sir Roger Manwood's School: Deadline for lodging appeals to be hear
+ d in the main round
+URL:https://iamds.github.io/11plusroute-site/schools/sir-roger-manwoods-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sir-roger-manwoods-school-2027-04-27-14@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:Sir Roger Manwood's School: KCC reallocation of vacant places\; sch
+ ools run their own waiting lists after this
+URL:https://iamds.github.io/11plusroute-site/schools/sir-roger-manwoods-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

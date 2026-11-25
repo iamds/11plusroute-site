@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Old Swinford Hospital admissions
+BEGIN:VEVENT
+UID:old-swinford-hospital-2026-09-19-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:Old Swinford Hospital: Open Morning
+URL:https://iamds.github.io/11plusroute-site/schools/old-swinford-hospital.
+ html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:old-swinford-hospital-2026-09-25-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:Old Swinford Hospital: Flexi-boarding registration closes (12 noon)
+URL:https://iamds.github.io/11plusroute-site/schools/old-swinford-hospital.
+ html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:old-swinford-hospital-2026-10-31-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Old Swinford Hospital: Day and tailored-boarding registration close
+ s\; council application deadline
+URL:https://iamds.github.io/11plusroute-site/schools/old-swinford-hospital.
+ html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:old-swinford-hospital-2027-03-01-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Old Swinford Hospital: National Offer Day (offers for all place typ
+ es)
+URL:https://iamds.github.io/11plusroute-site/schools/old-swinford-hospital.
+ html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

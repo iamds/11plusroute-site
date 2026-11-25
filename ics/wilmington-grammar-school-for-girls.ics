@@ -1,0 +1,161 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Wilmington Grammar School for Girls admissions
+BEGIN:VEVENT
+UID:wilmington-grammar-school-for-girls-2026-06-01-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+SUMMARY:Wilmington Grammar School for Girls: Kent Test registration opens (
+ kent.gov.uk/kenttest)
+URL:https://iamds.github.io/11plusroute-site/schools/wilmington-grammar-sch
+ ool-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wilmington-grammar-school-for-girls-2026-07-01-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:Wilmington Grammar School for Girls: Kent Test registration and acc
+ ess-arrangement requests close (midnight)
+URL:https://iamds.github.io/11plusroute-site/schools/wilmington-grammar-sch
+ ool-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wilmington-grammar-school-for-girls-2026-07-21-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260722
+SUMMARY:Wilmington Grammar School for Girls: Last date for late paper regis
+ trations (children at Kent County Council primary schools only)
+URL:https://iamds.github.io/11plusroute-site/schools/wilmington-grammar-sch
+ ool-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wilmington-grammar-school-for-girls-2026-09-01-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:Wilmington Grammar School for Girls: Secondary applications (SCAF) 
+ open
+URL:https://iamds.github.io/11plusroute-site/schools/wilmington-grammar-sch
+ ool-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wilmington-grammar-school-for-girls-2026-09-10-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:Wilmington Grammar School for Girls: Kent Test in Kent primary scho
+ ols
+URL:https://iamds.github.io/11plusroute-site/schools/wilmington-grammar-sch
+ ool-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wilmington-grammar-school-for-girls-2026-09-12-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Wilmington Grammar School for Girls: Kent Test at test centres for 
+ children at non-Kent schools (12/13 September)
+URL:https://iamds.github.io/11plusroute-site/schools/wilmington-grammar-sch
+ ool-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wilmington-grammar-school-for-girls-2026-10-15-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Wilmington Grammar School for Girls: Kent Test decisions emailed af
+ ter 4pm
+URL:https://iamds.github.io/11plusroute-site/schools/wilmington-grammar-sch
+ ool-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wilmington-grammar-school-for-girls-2026-10-31-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Wilmington Grammar School for Girls: Deadline: Supplementary Form (
+ siblings / Pupil Premium only)
+URL:https://iamds.github.io/11plusroute-site/schools/wilmington-grammar-sch
+ ool-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wilmington-grammar-school-for-girls-2026-11-02-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Wilmington Grammar School for Girls: National closing date for seco
+ ndary applications (midnight)
+URL:https://iamds.github.io/11plusroute-site/schools/wilmington-grammar-sch
+ ool-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wilmington-grammar-school-for-girls-2026-12-07-9@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Wilmington Grammar School for Girls: Final date for on-time changes
+  to applications (including address changes)
+URL:https://iamds.github.io/11plusroute-site/schools/wilmington-grammar-sch
+ ool-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wilmington-grammar-school-for-girls-2027-03-01-10@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Wilmington Grammar School for Girls: National Offer Day (emails aft
+ er 4pm)
+URL:https://iamds.github.io/11plusroute-site/schools/wilmington-grammar-sch
+ ool-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wilmington-grammar-school-for-girls-2027-03-15-11@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Wilmington Grammar School for Girls: Accept/decline offers\; deadli
+ ne for waiting-list requests and late applications for the KCC reallocatio
+ n
+URL:https://iamds.github.io/11plusroute-site/schools/wilmington-grammar-sch
+ ool-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wilmington-grammar-school-for-girls-2027-04-07-12@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+SUMMARY:Wilmington Grammar School for Girls: Deadline for lodging appeals (
+ to be heard before September)
+URL:https://iamds.github.io/11plusroute-site/schools/wilmington-grammar-sch
+ ool-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wilmington-grammar-school-for-girls-2027-04-27-13@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:Wilmington Grammar School for Girls: KCC reallocation of places tha
+ t have become available\; schools run their waiting lists after this
+URL:https://iamds.github.io/11plusroute-site/schools/wilmington-grammar-sch
+ ool-for-girls.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

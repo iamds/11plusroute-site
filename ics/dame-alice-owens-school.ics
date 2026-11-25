@@ -1,0 +1,90 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Dame Alice Owen's School admissions
+BEGIN:VEVENT
+UID:dame-alice-owens-school-2026-04-29-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260429
+DTEND;VALUE=DATE:20260430
+SUMMARY:Dame Alice Owen's School: Test registration opens (10am)
+URL:https://iamds.github.io/11plusroute-site/schools/dame-alice-owens-schoo
+ l.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dame-alice-owens-school-2026-06-10-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260610
+DTEND;VALUE=DATE:20260611
+SUMMARY:Dame Alice Owen's School: Test registration closes (4pm)\; access-a
+ rrangement forms due from primary schools
+URL:https://iamds.github.io/11plusroute-site/schools/dame-alice-owens-schoo
+ l.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dame-alice-owens-school-2026-07-16-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+SUMMARY:Dame Alice Owen's School: Open afternoon
+URL:https://iamds.github.io/11plusroute-site/schools/dame-alice-owens-schoo
+ l.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dame-alice-owens-school-2026-09-01-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:Dame Alice Owen's School: Part I verbal reasoning test and Music Te
+ st 1 (2 September only if needed)
+URL:https://iamds.github.io/11plusroute-site/schools/dame-alice-owens-schoo
+ l.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dame-alice-owens-school-2026-09-26-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:Dame Alice Owen's School: Part II English and maths (top 325 only)
+URL:https://iamds.github.io/11plusroute-site/schools/dame-alice-owens-schoo
+ l.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dame-alice-owens-school-2026-09-28-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+SUMMARY:Dame Alice Owen's School: Music Test 2 individual tests from the we
+ ek of 28 September
+URL:https://iamds.github.io/11plusroute-site/schools/dame-alice-owens-schoo
+ l.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dame-alice-owens-school-2026-10-31-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Dame Alice Owen's School: CAF deadline (home LA). Ranks and recent 
+ lowest-offered ranks emailed before this date
+URL:https://iamds.github.io/11plusroute-site/schools/dame-alice-owens-schoo
+ l.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dame-alice-owens-school-2027-03-01-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Dame Alice Owen's School: National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/dame-alice-owens-schoo
+ l.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

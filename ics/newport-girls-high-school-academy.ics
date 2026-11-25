@@ -1,0 +1,103 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Newport Girls' High School Academy admissions
+BEGIN:VEVENT
+UID:newport-girls-high-school-academy-2026-03-24-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260324
+DTEND;VALUE=DATE:20260325
+SUMMARY:Newport Girls' High School Academy: Open events for September 2027 
+ entry (9:30-11am and 4:30-7pm)
+URL:https://iamds.github.io/11plusroute-site/schools/newport-girls-high-sch
+ ool-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:newport-girls-high-school-academy-2026-05-05-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260505
+DTEND;VALUE=DATE:20260506
+SUMMARY:Newport Girls' High School Academy: Online test registration portal
+  opens
+URL:https://iamds.github.io/11plusroute-site/schools/newport-girls-high-sch
+ ool-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:newport-girls-high-school-academy-2026-06-12-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260613
+SUMMARY:Newport Girls' High School Academy: Reasonable adjustments form dea
+ dline (4pm)
+URL:https://iamds.github.io/11plusroute-site/schools/newport-girls-high-sch
+ ool-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:newport-girls-high-school-academy-2026-06-26-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+SUMMARY:Newport Girls' High School Academy: Online test registration deadli
+ ne (4pm)
+URL:https://iamds.github.io/11plusroute-site/schools/newport-girls-high-sch
+ ool-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:newport-girls-high-school-academy-2026-09-07-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:Newport Girls' High School Academy: Test invitation letters issued 
+ by this date\; Pupil Premium evidence due (five working days before the te
+ st)
+URL:https://iamds.github.io/11plusroute-site/schools/newport-girls-high-sch
+ ool-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:newport-girls-high-school-academy-2026-09-14-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:Newport Girls' High School Academy: Entrance test at NGHS
+URL:https://iamds.github.io/11plusroute-site/schools/newport-girls-high-sch
+ ool-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:newport-girls-high-school-academy-2026-10-14-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:Newport Girls' High School Academy: Results emailed (by 16 October)
+URL:https://iamds.github.io/11plusroute-site/schools/newport-girls-high-sch
+ ool-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:newport-girls-high-school-academy-2026-10-31-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Newport Girls' High School Academy: Deadline for preference forms t
+ o home council
+URL:https://iamds.github.io/11plusroute-site/schools/newport-girls-high-sch
+ ool-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:newport-girls-high-school-academy-2027-03-01-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Newport Girls' High School Academy: National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/newport-girls-high-sch
+ ool-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

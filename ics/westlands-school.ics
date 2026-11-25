@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Westlands School admissions
+BEGIN:VEVENT
+UID:westlands-school-2026-10-23-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Westlands School: Deadline to book the maths aptitude test (online 
+ form)
+URL:https://iamds.github.io/11plusroute-site/schools/westlands-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:westlands-school-2026-11-02-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Westlands School: Kent SCAF closing date
+URL:https://iamds.github.io/11plusroute-site/schools/westlands-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:westlands-school-2026-11-07-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Westlands School: Maths aptitude test at Westlands School
+URL:https://iamds.github.io/11plusroute-site/schools/westlands-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:westlands-school-2027-03-01-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Westlands School: National Offer Day (emails after 4pm)
+URL:https://iamds.github.io/11plusroute-site/schools/westlands-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

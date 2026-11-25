@@ -1,0 +1,156 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Tiffin School admissions
+BEGIN:VEVENT
+UID:tiffin-school-2026-06-05-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260605
+DTEND;VALUE=DATE:20260606
+SUMMARY:Tiffin School: Online registration (SIF) opens at midday
+URL:https://iamds.github.io/11plusroute-site/schools/tiffin-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tiffin-school-2026-06-30-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:Tiffin School: Year 7 open evening (no booking)
+URL:https://iamds.github.io/11plusroute-site/schools/tiffin-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tiffin-school-2026-07-06-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260706
+DTEND;VALUE=DATE:20260707
+SUMMARY:Tiffin School: 9am: early SIF deadline for the sport/music aptitude
+  assessments
+URL:https://iamds.github.io/11plusroute-site/schools/tiffin-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tiffin-school-2026-07-08-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260708
+DTEND;VALUE=DATE:20260709
+SUMMARY:Tiffin School: Music Aptitude Assessment Part One
+URL:https://iamds.github.io/11plusroute-site/schools/tiffin-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tiffin-school-2026-07-10-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260711
+SUMMARY:Tiffin School: Music Aptitude Assessment Part Two (by invitation)
+URL:https://iamds.github.io/11plusroute-site/schools/tiffin-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tiffin-school-2026-07-13-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260713
+DTEND;VALUE=DATE:20260714
+SUMMARY:Tiffin School: Sporting Aptitude Assessments (13-14 July)
+URL:https://iamds.github.io/11plusroute-site/schools/tiffin-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tiffin-school-2026-07-17-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260718
+SUMMARY:Tiffin School: Recommended last date to get SEN/access-arrangement 
+ information from the primary school
+URL:https://iamds.github.io/11plusroute-site/schools/tiffin-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tiffin-school-2026-09-02-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:Tiffin School: 12 noon: SIF deadline for the Stage One test\, inclu
+ ding all evidence
+URL:https://iamds.github.io/11plusroute-site/schools/tiffin-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tiffin-school-2026-09-18-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:Tiffin School: Stage One test-day arrangements emailed. Sport/music
+  aptitude results emailed.
+URL:https://iamds.github.io/11plusroute-site/schools/tiffin-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tiffin-school-2026-10-02-9@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:Tiffin School: Stage One test at Tiffin (morning or afternoon slot)
+URL:https://iamds.github.io/11plusroute-site/schools/tiffin-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tiffin-school-2026-10-16-10@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Tiffin School: Parents told whether their son is invited to Stage T
+ wo
+URL:https://iamds.github.io/11plusroute-site/schools/tiffin-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tiffin-school-2026-10-31-11@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Tiffin School: CAF deadline (home local authority)
+URL:https://iamds.github.io/11plusroute-site/schools/tiffin-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tiffin-school-2026-11-12-12@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Tiffin School: Stage Two test
+URL:https://iamds.github.io/11plusroute-site/schools/tiffin-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tiffin-school-2027-03-01-13@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Tiffin School: National Offer Day. Boys not offered a place are the
+ n emailed their scores.
+URL:https://iamds.github.io/11plusroute-site/schools/tiffin-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tiffin-school-2027-03-15-14@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Tiffin School: Mid-March: deadline to accept or decline the offer
+URL:https://iamds.github.io/11plusroute-site/schools/tiffin-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tiffin-school-2027-04-01-15@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:Tiffin School: Early April: waiting-list offers made via your LA
+URL:https://iamds.github.io/11plusroute-site/schools/tiffin-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

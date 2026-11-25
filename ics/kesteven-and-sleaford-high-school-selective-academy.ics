@@ -1,0 +1,149 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Kesteven and Sleaford High School Selective Academy admissions
+BEGIN:VEVENT
+UID:kesteven-and-sleaford-high-school-selective-academy-2026-03-31-0@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+SUMMARY:Kesteven and Sleaford High School Selective Academy: Consortium dea
+ dline for returning 11+ registration forms
+URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-sleaford-
+ high-school-selective-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kesteven-and-sleaford-high-school-selective-academy-2026-06-13-1@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260613
+DTEND;VALUE=DATE:20260614
+SUMMARY:Kesteven and Sleaford High School Selective Academy: Familiarisatio
+ n tests at KSHS (for primaries that don't run them)
+URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-sleaford-
+ high-school-selective-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kesteven-and-sleaford-high-school-selective-academy-2026-06-30-2@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:Kesteven and Sleaford High School Selective Academy: Open Evening
+URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-sleaford-
+ high-school-selective-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kesteven-and-sleaford-high-school-selective-academy-2026-09-12-3@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Kesteven and Sleaford High School Selective Academy: 11+ Verbal Rea
+ soning test
+URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-sleaford-
+ high-school-selective-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kesteven-and-sleaford-high-school-selective-academy-2026-09-19-4@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:Kesteven and Sleaford High School Selective Academy: 11+ Non-Verbal
+  & Spatial Reasoning test
+URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-sleaford-
+ high-school-selective-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kesteven-and-sleaford-high-school-selective-academy-2026-10-09-5@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Kesteven and Sleaford High School Selective Academy: 11+ results em
+ ailed to parents (12 noon)
+URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-sleaford-
+ high-school-selective-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kesteven-and-sleaford-high-school-selective-academy-2026-10-14-6@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:Kesteven and Sleaford High School Selective Academy: Open Morning
+URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-sleaford-
+ high-school-selective-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kesteven-and-sleaford-high-school-selective-academy-2026-10-31-7@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Kesteven and Sleaford High School Selective Academy: Secondary appl
+ ication deadline (national closing date)
+URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-sleaford-
+ high-school-selective-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kesteven-and-sleaford-high-school-selective-academy-2026-12-14-8@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:Kesteven and Sleaford High School Selective Academy: Lincolnshire's
+  final closing date for applications to be co-ordinated with the main roun
+ d (12 noon)
+URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-sleaford-
+ high-school-selective-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kesteven-and-sleaford-high-school-selective-academy-2027-03-01-9@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Kesteven and Sleaford High School Selective Academy: National Offer
+  Day
+URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-sleaford-
+ high-school-selective-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kesteven-and-sleaford-high-school-selective-academy-2027-03-02-10@iamds
+ .github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270302
+DTEND;VALUE=DATE:20270303
+SUMMARY:Kesteven and Sleaford High School Selective Academy: School writes 
+ to confirm offers and ask for acceptance
+URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-sleaford-
+ high-school-selective-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kesteven-and-sleaford-high-school-selective-academy-2027-03-12-11@iamds
+ .github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:Kesteven and Sleaford High School Selective Academy: Deadline to ac
+ cept the offer of a place
+URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-sleaford-
+ high-school-selective-academy.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

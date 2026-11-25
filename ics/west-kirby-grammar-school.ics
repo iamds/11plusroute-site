@@ -1,0 +1,78 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:West Kirby Grammar School admissions
+BEGIN:VEVENT
+UID:west-kirby-grammar-school-2026-05-31-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+SUMMARY:West Kirby Grammar School: Request for Assessment registration clos
+ es
+URL:https://iamds.github.io/11plusroute-site/schools/west-kirby-grammar-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:west-kirby-grammar-school-2026-06-07-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260607
+DTEND;VALUE=DATE:20260608
+SUMMARY:West Kirby Grammar School: Deadline for access-arrangement evidence
+URL:https://iamds.github.io/11plusroute-site/schools/west-kirby-grammar-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:west-kirby-grammar-school-2026-07-17-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260718
+SUMMARY:West Kirby Grammar School: Access-arrangement decisions sent
+URL:https://iamds.github.io/11plusroute-site/schools/west-kirby-grammar-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:west-kirby-grammar-school-2026-09-15-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:West Kirby Grammar School: Wirral Consortium 11+ test
+URL:https://iamds.github.io/11plusroute-site/schools/west-kirby-grammar-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:west-kirby-grammar-school-2026-10-21-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:West Kirby Grammar School: Results sent to parents (by this date)
+URL:https://iamds.github.io/11plusroute-site/schools/west-kirby-grammar-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:west-kirby-grammar-school-2026-10-31-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:West Kirby Grammar School: Secondary application (preference form) 
+ deadline
+URL:https://iamds.github.io/11plusroute-site/schools/west-kirby-grammar-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:west-kirby-grammar-school-2027-03-01-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:West Kirby Grammar School: National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/west-kirby-grammar-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,101 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:St Bernard's Catholic Grammar School admissions
+BEGIN:VEVENT
+UID:st-bernards-catholic-grammar-school-2026-04-28-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260428
+DTEND;VALUE=DATE:20260429
+SUMMARY:St Bernard's Catholic Grammar School: Consortium online 11+ informa
+ tion evening (6pm)
+URL:https://iamds.github.io/11plusroute-site/schools/st-bernards-catholic-g
+ rammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-bernards-catholic-grammar-school-2026-05-01-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:St Bernard's Catholic Grammar School: 11+ registration opens (10am)
+URL:https://iamds.github.io/11plusroute-site/schools/st-bernards-catholic-g
+ rammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-bernards-catholic-grammar-school-2026-06-05-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260605
+DTEND;VALUE=DATE:20260606
+SUMMARY:St Bernard's Catholic Grammar School: 11+ registration closes (10am
+ )
+URL:https://iamds.github.io/11plusroute-site/schools/st-bernards-catholic-g
+ rammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-bernards-catholic-grammar-school-2026-06-12-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260613
+SUMMARY:St Bernard's Catholic Grammar School: Evidence for access arrangeme
+ nts due (3pm)
+URL:https://iamds.github.io/11plusroute-site/schools/st-bernards-catholic-g
+ rammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-bernards-catholic-grammar-school-2026-09-19-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:St Bernard's Catholic Grammar School: Slough Consortium 11+ test
+URL:https://iamds.github.io/11plusroute-site/schools/st-bernards-catholic-g
+ rammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-bernards-catholic-grammar-school-2026-10-15-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:St Bernard's Catholic Grammar School: Results online from 4pm
+URL:https://iamds.github.io/11plusroute-site/schools/st-bernards-catholic-g
+ rammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-bernards-catholic-grammar-school-2026-10-31-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:St Bernard's Catholic Grammar School: St Bernard's Supplementary Fo
+ rm deadline (and CAF deadline)
+URL:https://iamds.github.io/11plusroute-site/schools/st-bernards-catholic-g
+ rammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-bernards-catholic-grammar-school-2027-03-01-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:St Bernard's Catholic Grammar School: National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/st-bernards-catholic-g
+ rammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-bernards-catholic-grammar-school-2027-12-31-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20271231
+DTEND;VALUE=DATE:20280101
+SUMMARY:St Bernard's Catholic Grammar School: Waiting list closes (end of D
+ ecember)
+URL:https://iamds.github.io/11plusroute-site/schools/st-bernards-catholic-g
+ rammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

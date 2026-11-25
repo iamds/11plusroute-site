@@ -1,0 +1,139 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Bishop Wordsworth's Church of England Grammar School admission
+ s
+BEGIN:VEVENT
+UID:bishop-wordsworths-church-of-england-grammar-school-2026-03-25-0@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260325
+DTEND;VALUE=DATE:20260326
+SUMMARY:Bishop Wordsworth's Church of England Grammar School: 11+ applicati
+ ons open
+URL:https://iamds.github.io/11plusroute-site/schools/bishop-wordsworths-chu
+ rch-of-england-grammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bishop-wordsworths-church-of-england-grammar-school-2026-06-26-1@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+SUMMARY:Bishop Wordsworth's Church of England Grammar School: Evidence uplo
+ ads due (access arrangements\, EHCP\, LAC\, FSM\, medical)
+URL:https://iamds.github.io/11plusroute-site/schools/bishop-wordsworths-chu
+ rch-of-england-grammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bishop-wordsworths-church-of-england-grammar-school-2026-06-26-2@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+SUMMARY:Bishop Wordsworth's Church of England Grammar School: Deadline: Evi
+ dence uploads: access arrangements\, EHCP\, looked-after status\, free sch
+ ool meals\, medical needs
+URL:https://iamds.github.io/11plusroute-site/schools/bishop-wordsworths-chu
+ rch-of-england-grammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bishop-wordsworths-church-of-england-grammar-school-2026-07-03-3@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260704
+SUMMARY:Bishop Wordsworth's Church of England Grammar School: 11+ applicati
+ ons close
+URL:https://iamds.github.io/11plusroute-site/schools/bishop-wordsworths-chu
+ rch-of-england-grammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bishop-wordsworths-church-of-england-grammar-school-2026-09-01-4@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:Bishop Wordsworth's Church of England Grammar School: Council appli
+ cations open
+URL:https://iamds.github.io/11plusroute-site/schools/bishop-wordsworths-chu
+ rch-of-england-grammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bishop-wordsworths-church-of-england-grammar-school-2026-09-26-5@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:Bishop Wordsworth's Church of England Grammar School: 11+ test
+URL:https://iamds.github.io/11plusroute-site/schools/bishop-wordsworths-chu
+ rch-of-england-grammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bishop-wordsworths-church-of-england-grammar-school-2026-10-06-6@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:Bishop Wordsworth's Church of England Grammar School: 11+ result le
+ tters available
+URL:https://iamds.github.io/11plusroute-site/schools/bishop-wordsworths-chu
+ rch-of-england-grammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bishop-wordsworths-church-of-england-grammar-school-2026-10-31-7@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Bishop Wordsworth's Church of England Grammar School: Council appli
+ cation deadline
+URL:https://iamds.github.io/11plusroute-site/schools/bishop-wordsworths-chu
+ rch-of-england-grammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bishop-wordsworths-church-of-england-grammar-school-2026-12-16-8@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:Bishop Wordsworth's Church of England Grammar School: Deadline for 
+ Service Premium and house-move evidence (5pm for SPP)
+URL:https://iamds.github.io/11plusroute-site/schools/bishop-wordsworths-chu
+ rch-of-england-grammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bishop-wordsworths-church-of-england-grammar-school-2027-03-01-9@iamds.
+ github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Bishop Wordsworth's Church of England Grammar School: National Offe
+ r Day
+URL:https://iamds.github.io/11plusroute-site/schools/bishop-wordsworths-chu
+ rch-of-england-grammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bishop-wordsworths-church-of-england-grammar-school-2027-03-15-10@iamds
+ .github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Bishop Wordsworth's Church of England Grammar School: Deadline to a
+ ccept offers
+URL:https://iamds.github.io/11plusroute-site/schools/bishop-wordsworths-chu
+ rch-of-england-grammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

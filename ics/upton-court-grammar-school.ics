@@ -1,0 +1,88 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Upton Court Grammar School admissions
+BEGIN:VEVENT
+UID:upton-court-grammar-school-2026-04-28-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260428
+DTEND;VALUE=DATE:20260429
+SUMMARY:Upton Court Grammar School: Consortium online 11+ information eveni
+ ng (6pm)
+URL:https://iamds.github.io/11plusroute-site/schools/upton-court-grammar-sc
+ hool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:upton-court-grammar-school-2026-05-01-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:Upton Court Grammar School: 11+ registration opens (10am)
+URL:https://iamds.github.io/11plusroute-site/schools/upton-court-grammar-sc
+ hool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:upton-court-grammar-school-2026-06-05-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260605
+DTEND;VALUE=DATE:20260606
+SUMMARY:Upton Court Grammar School: 11+ registration closes (10am)
+URL:https://iamds.github.io/11plusroute-site/schools/upton-court-grammar-sc
+ hool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:upton-court-grammar-school-2026-06-12-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260613
+SUMMARY:Upton Court Grammar School: Evidence for access arrangements due (3
+ pm)
+URL:https://iamds.github.io/11plusroute-site/schools/upton-court-grammar-sc
+ hool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:upton-court-grammar-school-2026-09-19-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:Upton Court Grammar School: Slough Consortium 11+ test
+URL:https://iamds.github.io/11plusroute-site/schools/upton-court-grammar-sc
+ hool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:upton-court-grammar-school-2026-10-15-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Upton Court Grammar School: Results online from 4pm
+URL:https://iamds.github.io/11plusroute-site/schools/upton-court-grammar-sc
+ hool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:upton-court-grammar-school-2026-10-31-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Upton Court Grammar School: CAF deadline (home council)
+URL:https://iamds.github.io/11plusroute-site/schools/upton-court-grammar-sc
+ hool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:upton-court-grammar-school-2027-03-01-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Upton Court Grammar School: National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/upton-court-grammar-sc
+ hool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

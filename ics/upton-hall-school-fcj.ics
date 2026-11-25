@@ -1,0 +1,110 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Upton Hall School FCJ admissions
+BEGIN:VEVENT
+UID:upton-hall-school-fcj-2026-06-18-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260618
+DTEND;VALUE=DATE:20260619
+SUMMARY:Upton Hall School FCJ: Summer Open Evening (5.30-8pm)
+URL:https://iamds.github.io/11plusroute-site/schools/upton-hall-school-fcj.
+ html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:upton-hall-school-fcj-2026-07-10-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260711
+SUMMARY:Upton Hall School FCJ: Deadline for the school's application form\,
+  Catholic baptism certificates and SEN/medical evidence
+URL:https://iamds.github.io/11plusroute-site/schools/upton-hall-school-fcj.
+ html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:upton-hall-school-fcj-2026-08-31-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+SUMMARY:Upton Hall School FCJ: End of August: letter with entrance exam arr
+ angements
+URL:https://iamds.github.io/11plusroute-site/schools/upton-hall-school-fcj.
+ html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:upton-hall-school-fcj-2026-09-10-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:Upton Hall School FCJ: Autumn Open Evening (5.30-8pm)
+URL:https://iamds.github.io/11plusroute-site/schools/upton-hall-school-fcj.
+ html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:upton-hall-school-fcj-2026-09-19-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:Upton Hall School FCJ: Entrance examination (Saturday)
+URL:https://iamds.github.io/11plusroute-site/schools/upton-hall-school-fcj.
+ html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:upton-hall-school-fcj-2026-09-23-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:Upton Hall School FCJ: Second exam sitting (illness with medical ev
+ idence\, SEN/disability)
+URL:https://iamds.github.io/11plusroute-site/schools/upton-hall-school-fcj.
+ html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:upton-hall-school-fcj-2026-10-23-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Upton Hall School FCJ: Exam results sent to parents (by this date)
+URL:https://iamds.github.io/11plusroute-site/schools/upton-hall-school-fcj.
+ html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:upton-hall-school-fcj-2026-10-31-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Upton Hall School FCJ: Preference form deadline (Wirral)
+URL:https://iamds.github.io/11plusroute-site/schools/upton-hall-school-fcj.
+ html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:upton-hall-school-fcj-2026-11-01-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Upton Hall School FCJ: Early November: special exam sitting for lat
+ e applicants
+URL:https://iamds.github.io/11plusroute-site/schools/upton-hall-school-fcj.
+ html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:upton-hall-school-fcj-2027-03-01-9@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Upton Hall School FCJ: Allocation Day (National Offer Day)
+URL:https://iamds.github.io/11plusroute-site/schools/upton-hall-school-fcj.
+ html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,119 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Caistor Grammar School admissions
+BEGIN:VEVENT
+UID:caistor-grammar-school-2026-08-14-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+SUMMARY:Caistor Grammar School: 11+ registration deadline (and Pupil Premiu
+ m declaration)
+URL:https://iamds.github.io/11plusroute-site/schools/caistor-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:caistor-grammar-school-2026-09-11-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:Caistor Grammar School: Access arrangements forms due\; test detail
+ s emailed
+URL:https://iamds.github.io/11plusroute-site/schools/caistor-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:caistor-grammar-school-2026-09-11-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:Caistor Grammar School: Deadline: Access arrangements form
+URL:https://iamds.github.io/11plusroute-site/schools/caistor-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:caistor-grammar-school-2026-09-19-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:Caistor Grammar School: First 11+ paper: Standard Verbal Reasoning
+URL:https://iamds.github.io/11plusroute-site/schools/caistor-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:caistor-grammar-school-2026-09-26-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:Caistor Grammar School: Second 11+ paper: Multiple Choice Verbal Re
+ asoning
+URL:https://iamds.github.io/11plusroute-site/schools/caistor-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:caistor-grammar-school-2026-10-13-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Caistor Grammar School: Test outcomes emailed
+URL:https://iamds.github.io/11plusroute-site/schools/caistor-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:caistor-grammar-school-2026-10-31-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Caistor Grammar School: Secondary application deadline
+URL:https://iamds.github.io/11plusroute-site/schools/caistor-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:caistor-grammar-school-2027-03-01-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Caistor Grammar School: National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/caistor-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:caistor-grammar-school-2027-03-24-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270324
+DTEND;VALUE=DATE:20270325
+SUMMARY:Caistor Grammar School: Contact the school to appeal
+URL:https://iamds.github.io/11plusroute-site/schools/caistor-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:caistor-grammar-school-2027-04-16-9@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270417
+SUMMARY:Caistor Grammar School: Notice of Appeal deadline
+URL:https://iamds.github.io/11plusroute-site/schools/caistor-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:caistor-grammar-school-2027-06-07-10@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270607
+DTEND;VALUE=DATE:20270608
+SUMMARY:Caistor Grammar School: Appeals heard (week commencing)
+URL:https://iamds.github.io/11plusroute-site/schools/caistor-grammar-school
+ .html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

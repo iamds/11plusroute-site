@@ -1,0 +1,145 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Wycombe High School admissions
+BEGIN:VEVENT
+UID:wycombe-high-school-2026-05-01-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:Wycombe High School: STT registration opens (10am) for children not
+  at a state-funded Buckinghamshire primary school
+URL:https://iamds.github.io/11plusroute-site/schools/wycombe-high-school.ht
+ ml
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wycombe-high-school-2026-06-02-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260602
+DTEND;VALUE=DATE:20260603
+SUMMARY:Wycombe High School: STT registration closes (3pm)\; withdrawal dea
+ dline for Bucks state primaries\; access-arrangement deadline for Bucks/Pa
+ rtner schools
+URL:https://iamds.github.io/11plusroute-site/schools/wycombe-high-school.ht
+ ml
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wycombe-high-school-2026-06-16-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260616
+DTEND;VALUE=DATE:20260617
+SUMMARY:Wycombe High School: Access-arrangement deadline for all other scho
+ ols
+URL:https://iamds.github.io/11plusroute-site/schools/wycombe-high-school.ht
+ ml
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wycombe-high-school-2026-08-07-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:Wycombe High School: Test invitations emailed for children testing 
+ at a grammar school or central venue (by this date)
+URL:https://iamds.github.io/11plusroute-site/schools/wycombe-high-school.ht
+ ml
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wycombe-high-school-2026-09-08-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:Wycombe High School: Practice test
+URL:https://iamds.github.io/11plusroute-site/schools/wycombe-high-school.ht
+ ml
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wycombe-high-school-2026-09-10-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:Wycombe High School: Secondary Transfer Test
+URL:https://iamds.github.io/11plusroute-site/schools/wycombe-high-school.ht
+ ml
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wycombe-high-school-2026-10-09-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Wycombe High School: STT results released
+URL:https://iamds.github.io/11plusroute-site/schools/wycombe-high-school.ht
+ ml
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wycombe-high-school-2026-10-30-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Wycombe High School: Selection Review cases due (if result received
+  9 October)
+URL:https://iamds.github.io/11plusroute-site/schools/wycombe-high-school.ht
+ ml
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wycombe-high-school-2026-10-31-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Wycombe High School: Secondary application deadline (home local aut
+ hority)
+URL:https://iamds.github.io/11plusroute-site/schools/wycombe-high-school.ht
+ ml
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wycombe-high-school-2026-10-31-9@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Wycombe High School: Wycombe High School Supplementary Information 
+ Form deadline (4pm)
+URL:https://iamds.github.io/11plusroute-site/schools/wycombe-high-school.ht
+ ml
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wycombe-high-school-2026-11-21-10@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Wycombe High School: Late applications with a good reason accepted 
+ as on time up to this date (Bucks coordinated scheme)
+URL:https://iamds.github.io/11plusroute-site/schools/wycombe-high-school.ht
+ ml
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wycombe-high-school-2027-02-12-11@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:Wycombe High School: Selection Review outcomes
+URL:https://iamds.github.io/11plusroute-site/schools/wycombe-high-school.ht
+ ml
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wycombe-high-school-2027-03-01-12@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Wycombe High School: National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/wycombe-high-school.ht
+ ml
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

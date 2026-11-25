@@ -1,0 +1,168 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Dane Court Grammar School admissions
+BEGIN:VEVENT
+UID:dane-court-grammar-school-2026-06-01-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+SUMMARY:Dane Court Grammar School: Kent Test registration opens (kent.gov.u
+ k/kenttest)
+URL:https://iamds.github.io/11plusroute-site/schools/dane-court-grammar-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dane-court-grammar-school-2026-07-01-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:Dane Court Grammar School: Kent Test registration closes at midnigh
+ t\; deadline for primary schools to request special arrangements
+URL:https://iamds.github.io/11plusroute-site/schools/dane-court-grammar-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dane-court-grammar-school-2026-07-21-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260722
+SUMMARY:Dane Court Grammar School: Last date for late Kent Test registratio
+ ns (paper form\, children at KCC-maintained primary schools only)
+URL:https://iamds.github.io/11plusroute-site/schools/dane-court-grammar-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dane-court-grammar-school-2026-09-01-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:Dane Court Grammar School: Secondary application (SCAF) opens
+URL:https://iamds.github.io/11plusroute-site/schools/dane-court-grammar-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dane-court-grammar-school-2026-09-10-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:Dane Court Grammar School: Kent Test in Kent primary schools
+URL:https://iamds.github.io/11plusroute-site/schools/dane-court-grammar-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dane-court-grammar-school-2026-09-12-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Dane Court Grammar School: Kent Test at test centres for children a
+ t schools outside Kent (12/13 September)
+URL:https://iamds.github.io/11plusroute-site/schools/dane-court-grammar-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dane-court-grammar-school-2026-10-15-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Dane Court Grammar School: Kent Test decisions and scores emailed a
+ fter 4pm
+URL:https://iamds.github.io/11plusroute-site/schools/dane-court-grammar-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dane-court-grammar-school-2026-10-31-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Dane Court Grammar School: Supplementary Information Form (Pupil Pr
+ emium) due at the school
+URL:https://iamds.github.io/11plusroute-site/schools/dane-court-grammar-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dane-court-grammar-school-2026-10-31-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Dane Court Grammar School: Deadline: Supplementary Information Form
+  (Pupil Premium)
+URL:https://iamds.github.io/11plusroute-site/schools/dane-court-grammar-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dane-court-grammar-school-2026-11-02-9@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Dane Court Grammar School: SCAF closing date (midnight) for Kent re
+ sidents
+URL:https://iamds.github.io/11plusroute-site/schools/dane-court-grammar-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dane-court-grammar-school-2026-12-07-10@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Dane Court Grammar School: Last date for changes to on-time applica
+ tions
+URL:https://iamds.github.io/11plusroute-site/schools/dane-court-grammar-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dane-court-grammar-school-2027-03-01-11@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Dane Court Grammar School: National Offer Day (emails after 4pm)
+URL:https://iamds.github.io/11plusroute-site/schools/dane-court-grammar-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dane-court-grammar-school-2027-03-15-12@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Dane Court Grammar School: Accept or decline the offer\; deadline t
+ o join waiting lists for the reallocation
+URL:https://iamds.github.io/11plusroute-site/schools/dane-court-grammar-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dane-court-grammar-school-2027-04-13-13@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:Dane Court Grammar School: Deadline for lodging appeals to be heard
+  in the main round
+URL:https://iamds.github.io/11plusroute-site/schools/dane-court-grammar-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dane-court-grammar-school-2027-04-27-14@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:Dane Court Grammar School: KCC reallocation of vacant places\; scho
+ ols run their own waiting lists after this
+URL:https://iamds.github.io/11plusroute-site/schools/dane-court-grammar-sch
+ ool.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

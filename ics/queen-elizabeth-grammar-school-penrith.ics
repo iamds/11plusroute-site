@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Queen Elizabeth Grammar School Penrith admissions
+BEGIN:VEVENT
+UID:queen-elizabeth-grammar-school-penrith-2026-07-11-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260711
+DTEND;VALUE=DATE:20260712
+SUMMARY:Queen Elizabeth Grammar School Penrith: Deadline for access-arrange
+ ment and medical evidence\; contact the school if no registration confirma
+ tion by 4pm
+URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeth-gramma
+ r-school-penrith.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queen-elizabeth-grammar-school-penrith-2026-07-12-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260712
+DTEND;VALUE=DATE:20260713
+SUMMARY:Queen Elizabeth Grammar School Penrith: Entrance test registration 
+ closes (midnight)
+URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeth-gramma
+ r-school-penrith.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queen-elizabeth-grammar-school-penrith-2026-10-31-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Queen Elizabeth Grammar School Penrith: Council application (SA3) d
+ eadline\, and Pupil Premium Supplementary Information Form deadline
+URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeth-gramma
+ r-school-penrith.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queen-elizabeth-grammar-school-penrith-2027-03-01-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Queen Elizabeth Grammar School Penrith: National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeth-gramma
+ r-school-penrith.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queen-elizabeth-grammar-school-penrith-2027-12-31-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20271231
+DTEND;VALUE=DATE:20280101
+SUMMARY:Queen Elizabeth Grammar School Penrith: Year 7 waiting list closes
+URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeth-gramma
+ r-school-penrith.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

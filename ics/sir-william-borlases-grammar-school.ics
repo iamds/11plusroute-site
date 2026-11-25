@@ -1,0 +1,145 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Sir William Borlase's Grammar School admissions
+BEGIN:VEVENT
+UID:sir-william-borlases-grammar-school-2026-05-01-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:Sir William Borlase's Grammar School: Test registration opens (10am
+ ) for children not at a state-funded Bucks primary
+URL:https://iamds.github.io/11plusroute-site/schools/sir-william-borlases-g
+ rammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sir-william-borlases-grammar-school-2026-06-02-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260602
+DTEND;VALUE=DATE:20260603
+SUMMARY:Sir William Borlase's Grammar School: Test registration closes (3pm
+ )\; opt-out deadline for Bucks primary pupils\; access arrangement request
+ s from Bucks/Partner schools
+URL:https://iamds.github.io/11plusroute-site/schools/sir-william-borlases-g
+ rammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sir-william-borlases-grammar-school-2026-06-16-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260616
+DTEND;VALUE=DATE:20260617
+SUMMARY:Sir William Borlase's Grammar School: Access arrangement requests f
+ rom all other schools
+URL:https://iamds.github.io/11plusroute-site/schools/sir-william-borlases-g
+ rammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sir-william-borlases-grammar-school-2026-08-07-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:Sir William Borlase's Grammar School: Test invitations emailed for 
+ children tested at a grammar school or central venue
+URL:https://iamds.github.io/11plusroute-site/schools/sir-william-borlases-g
+ rammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sir-william-borlases-grammar-school-2026-09-08-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:Sir William Borlase's Grammar School: Practice Test
+URL:https://iamds.github.io/11plusroute-site/schools/sir-william-borlases-g
+ rammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sir-william-borlases-grammar-school-2026-09-10-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:Sir William Borlase's Grammar School: Secondary Transfer Test
+URL:https://iamds.github.io/11plusroute-site/schools/sir-william-borlases-g
+ rammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sir-william-borlases-grammar-school-2026-10-09-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Sir William Borlase's Grammar School: Test results released
+URL:https://iamds.github.io/11plusroute-site/schools/sir-william-borlases-g
+ rammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sir-william-borlases-grammar-school-2026-10-30-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Sir William Borlase's Grammar School: Selection Review deadline (fu
+ ll case)
+URL:https://iamds.github.io/11plusroute-site/schools/sir-william-borlases-g
+ rammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sir-william-borlases-grammar-school-2026-10-31-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Sir William Borlase's Grammar School: Application deadline (home co
+ uncil)
+URL:https://iamds.github.io/11plusroute-site/schools/sir-william-borlases-g
+ rammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sir-william-borlases-grammar-school-2026-10-31-9@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Sir William Borlase's Grammar School: Pupil Premium letter and evid
+ ence to the school (rules 2-3)
+URL:https://iamds.github.io/11plusroute-site/schools/sir-william-borlases-g
+ rammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sir-william-borlases-grammar-school-2027-02-12-10@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:Sir William Borlase's Grammar School: Selection Review outcomes
+URL:https://iamds.github.io/11plusroute-site/schools/sir-william-borlases-g
+ rammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sir-william-borlases-grammar-school-2027-03-01-11@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Sir William Borlase's Grammar School: National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/sir-william-borlases-g
+ rammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sir-william-borlases-grammar-school-2027-03-15-12@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Sir William Borlase's Grammar School: Deadline to accept or decline
+  the offer (11:59pm)
+URL:https://iamds.github.io/11plusroute-site/schools/sir-william-borlases-g
+ rammar-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

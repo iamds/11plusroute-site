@@ -1,0 +1,123 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Denmark Road High School admissions
+BEGIN:VEVENT
+UID:denmark-road-high-school-2026-05-18-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260518
+DTEND;VALUE=DATE:20260519
+SUMMARY:Denmark Road High School: Online test registration opens (12 noon)
+URL:https://iamds.github.io/11plusroute-site/schools/denmark-road-high-scho
+ ol.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:denmark-road-high-school-2026-06-26-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+SUMMARY:Denmark Road High School: Test registration\, result-sharing and SE
+ N evidence deadline (12 noon)
+URL:https://iamds.github.io/11plusroute-site/schools/denmark-road-high-scho
+ ol.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:denmark-road-high-school-2026-09-08-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:Denmark Road High School: Test centre arrangements sent by this dat
+ e
+URL:https://iamds.github.io/11plusroute-site/schools/denmark-road-high-scho
+ ol.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:denmark-road-high-school-2026-09-12-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Denmark Road High School: Gloucestershire Grammar Schools Entrance 
+ Test
+URL:https://iamds.github.io/11plusroute-site/schools/denmark-road-high-scho
+ ol.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:denmark-road-high-school-2026-09-12-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Denmark Road High School: Deadline: Test Day ID Form
+URL:https://iamds.github.io/11plusroute-site/schools/denmark-road-high-scho
+ ol.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:denmark-road-high-school-2026-10-15-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Denmark Road High School: Results emailed (mid-October)
+URL:https://iamds.github.io/11plusroute-site/schools/denmark-road-high-scho
+ ol.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:denmark-road-high-school-2026-10-31-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Denmark Road High School: CAF deadline
+URL:https://iamds.github.io/11plusroute-site/schools/denmark-road-high-scho
+ ol.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:denmark-road-high-school-2027-01-25-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:Denmark Road High School: Joint Late Test (late January)\, for the 
+ waiting list only
+URL:https://iamds.github.io/11plusroute-site/schools/denmark-road-high-scho
+ ol.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:denmark-road-high-school-2027-03-01-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Denmark Road High School: National Allocation Day (Late Test result
+ s also sent)
+URL:https://iamds.github.io/11plusroute-site/schools/denmark-road-high-scho
+ ol.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:denmark-road-high-school-2027-03-15-9@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Denmark Road High School: Deadline to accept a place / ask Gloucest
+ ershire CC for the waiting list
+URL:https://iamds.github.io/11plusroute-site/schools/denmark-road-high-scho
+ ol.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:denmark-road-high-school-2027-04-05-10@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270406
+SUMMARY:Denmark Road High School: Gloucestershire CC tells parents the outc
+ ome of waiting list requests
+URL:https://iamds.github.io/11plusroute-site/schools/denmark-road-high-scho
+ ol.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

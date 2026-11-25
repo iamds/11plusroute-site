@@ -1,0 +1,139 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:The Queen Elizabeth's High School\, Gainsborough admissions
+BEGIN:VEVENT
+UID:queen-elizabeths-high-school-gainsborough-2026-01-07-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260107
+DTEND;VALUE=DATE:20260108
+SUMMARY:The Queen Elizabeth's High School\, Gainsborough: Registration for 
+ the September 11+ opens
+URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-high-
+ school-gainsborough.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queen-elizabeths-high-school-gainsborough-2026-03-20-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260321
+SUMMARY:The Queen Elizabeth's High School\, Gainsborough: 11+ registration 
+ deadline (later extended to 15 May)
+URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-high-
+ school-gainsborough.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queen-elizabeths-high-school-gainsborough-2026-06-27-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260628
+SUMMARY:The Queen Elizabeth's High School\, Gainsborough: Familiarisation d
+ ay - verbal reasoning
+URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-high-
+ school-gainsborough.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queen-elizabeths-high-school-gainsborough-2026-07-04-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260704
+DTEND;VALUE=DATE:20260705
+SUMMARY:The Queen Elizabeth's High School\, Gainsborough: Familiarisation d
+ ay - non-verbal reasoning
+URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-high-
+ school-gainsborough.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queen-elizabeths-high-school-gainsborough-2026-09-12-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:The Queen Elizabeth's High School\, Gainsborough: Verbal reasoning 
+ test at QEHS
+URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-high-
+ school-gainsborough.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queen-elizabeths-high-school-gainsborough-2026-09-19-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:The Queen Elizabeth's High School\, Gainsborough: Non-verbal reason
+ ing test at QEHS
+URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-high-
+ school-gainsborough.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queen-elizabeths-high-school-gainsborough-2026-10-09-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:The Queen Elizabeth's High School\, Gainsborough: 11+ results email
+ ed to parents (midday)
+URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-high-
+ school-gainsborough.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queen-elizabeths-high-school-gainsborough-2026-10-31-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:The Queen Elizabeth's High School\, Gainsborough: National closing 
+ date for applications (Lincolnshire accepts on-time applications until 14 
+ December)
+URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-high-
+ school-gainsborough.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queen-elizabeths-high-school-gainsborough-2026-12-11-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:The Queen Elizabeth's High School\, Gainsborough: Last day to tell 
+ QEHS about new Ever 6 FSM eligibility for National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-high-
+ school-gainsborough.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queen-elizabeths-high-school-gainsborough-2026-12-14-9@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:The Queen Elizabeth's High School\, Gainsborough: Lincolnshire's la
+ st date for applications and changes to count for National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-high-
+ school-gainsborough.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queen-elizabeths-high-school-gainsborough-2027-03-01-10@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:The Queen Elizabeth's High School\, Gainsborough: National Offer Da
+ y
+URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-high-
+ school-gainsborough.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:queen-elizabeths-high-school-gainsborough-2027-04-14-11@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+SUMMARY:The Queen Elizabeth's High School\, Gainsborough: Lincolnshire's de
+ adline for on-time appeals (midnight)
+URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-high-
+ school-gainsborough.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

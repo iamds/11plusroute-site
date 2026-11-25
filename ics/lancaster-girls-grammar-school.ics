@@ -1,0 +1,111 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Lancaster Girls' Grammar School admissions
+BEGIN:VEVENT
+UID:lancaster-girls-grammar-school-2026-06-01-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+SUMMARY:Lancaster Girls' Grammar School: 11+ registration opens
+URL:https://iamds.github.io/11plusroute-site/schools/lancaster-girls-gramma
+ r-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lancaster-girls-grammar-school-2026-06-25-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260625
+DTEND;VALUE=DATE:20260626
+SUMMARY:Lancaster Girls' Grammar School: Open evening for Year 4/5 families
+URL:https://iamds.github.io/11plusroute-site/schools/lancaster-girls-gramma
+ r-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lancaster-girls-grammar-school-2026-09-09-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+SUMMARY:Lancaster Girls' Grammar School: 11+ registration closes (12 noon)
+URL:https://iamds.github.io/11plusroute-site/schools/lancaster-girls-gramma
+ r-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lancaster-girls-grammar-school-2026-09-26-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:Lancaster Girls' Grammar School: FSCE entrance test (Saturday)
+URL:https://iamds.github.io/11plusroute-site/schools/lancaster-girls-gramma
+ r-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lancaster-girls-grammar-school-2026-09-29-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:Lancaster Girls' Grammar School: Deadline to tell LGGS about circum
+ stances that may have affected performance in the test
+URL:https://iamds.github.io/11plusroute-site/schools/lancaster-girls-gramma
+ r-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lancaster-girls-grammar-school-2026-10-17-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Lancaster Girls' Grammar School: Parents told whether she reached t
+ he pass mark
+URL:https://iamds.github.io/11plusroute-site/schools/lancaster-girls-gramma
+ r-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lancaster-girls-grammar-school-2026-10-31-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Lancaster Girls' Grammar School: Local authority application deadli
+ ne
+URL:https://iamds.github.io/11plusroute-site/schools/lancaster-girls-gramma
+ r-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lancaster-girls-grammar-school-2027-03-01-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Lancaster Girls' Grammar School: National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/lancaster-girls-gramma
+ r-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lancaster-girls-grammar-school-2027-03-15-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Lancaster Girls' Grammar School: Deadline to accept or decline a pl
+ ace at LGGS
+URL:https://iamds.github.io/11plusroute-site/schools/lancaster-girls-gramma
+ r-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lancaster-girls-grammar-school-2027-04-01-9@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:Lancaster Girls' Grammar School: Further offers from the waiting li
+ st via the local authority from this date
+URL:https://iamds.github.io/11plusroute-site/schools/lancaster-girls-gramma
+ r-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

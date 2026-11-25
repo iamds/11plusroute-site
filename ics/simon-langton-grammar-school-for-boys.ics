@@ -1,0 +1,160 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Simon Langton Grammar School for Boys admissions
+BEGIN:VEVENT
+UID:simon-langton-grammar-school-for-boys-2026-06-01-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+SUMMARY:Simon Langton Grammar School for Boys: Kent Test registration opens
+  (KTAF online at kent.gov.uk/ola)
+URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-grammar-
+ school-for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:simon-langton-grammar-school-for-boys-2026-07-01-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:Simon Langton Grammar School for Boys: Kent Test registration close
+ s\; deadline for schools to request special arrangements
+URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-grammar-
+ school-for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:simon-langton-grammar-school-for-boys-2026-07-21-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260722
+SUMMARY:Simon Langton Grammar School for Boys: Late paper KTAF deadline (ch
+ ildren at KCC primary schools only)
+URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-grammar-
+ school-for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:simon-langton-grammar-school-for-boys-2026-09-01-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:Simon Langton Grammar School for Boys: Secondary applications open
+URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-grammar-
+ school-for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:simon-langton-grammar-school-for-boys-2026-09-10-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:Simon Langton Grammar School for Boys: Kent Test for children at Ke
+ nt primary schools
+URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-grammar-
+ school-for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:simon-langton-grammar-school-for-boys-2026-09-12-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Simon Langton Grammar School for Boys: Kent Test at test centres fo
+ r children not at Kent schools (weekend of 12/13 September)
+URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-grammar-
+ school-for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:simon-langton-grammar-school-for-boys-2026-10-15-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Simon Langton Grammar School for Boys: Kent Test assessment decisio
+ ns sent (after 4pm)
+URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-grammar-
+ school-for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:simon-langton-grammar-school-for-boys-2026-10-31-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Simon Langton Grammar School for Boys: Pupil Premium SIF to the sch
+ ool
+URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-grammar-
+ school-for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:simon-langton-grammar-school-for-boys-2026-11-02-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Simon Langton Grammar School for Boys: Secondary application (SCAF)
+  deadline for Kent residents (midnight)
+URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-grammar-
+ school-for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:simon-langton-grammar-school-for-boys-2026-12-07-9@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Simon Langton Grammar School for Boys: Last day to change your appl
+ ication details in time for offer day
+URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-grammar-
+ school-for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:simon-langton-grammar-school-for-boys-2027-03-01-10@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Simon Langton Grammar School for Boys: National Offer Day (emails a
+ fter 4pm)
+URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-grammar-
+ school-for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:simon-langton-grammar-school-for-boys-2027-03-15-11@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Simon Langton Grammar School for Boys: Accept/decline the offer\; d
+ eadline for waiting-list requests and late applications in KCC's reallocat
+ ion
+URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-grammar-
+ school-for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:simon-langton-grammar-school-for-boys-2027-04-13-12@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:Simon Langton Grammar School for Boys: Lodge appeals by this date t
+ o be heard before September
+URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-grammar-
+ school-for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:simon-langton-grammar-school-for-boys-2027-04-27-13@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:Simon Langton Grammar School for Boys: Kent Reallocation Day: place
+ s that have come free are offered from waiting lists
+URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-grammar-
+ school-for-boys.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

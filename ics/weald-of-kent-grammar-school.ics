@@ -1,0 +1,178 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Weald of Kent Grammar School admissions
+BEGIN:VEVENT
+UID:weald-of-kent-grammar-school-2026-06-01-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+SUMMARY:Weald of Kent Grammar School: Kent Test registration opens
+URL:https://iamds.github.io/11plusroute-site/schools/weald-of-kent-grammar-
+ school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:weald-of-kent-grammar-school-2026-07-01-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:Weald of Kent Grammar School: Kent Test registration and special-ar
+ rangements deadline
+URL:https://iamds.github.io/11plusroute-site/schools/weald-of-kent-grammar-
+ school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:weald-of-kent-grammar-school-2026-07-10-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260711
+SUMMARY:Weald of Kent Grammar School: Weald Grammar Assessment registration
+  closes (4pm)\; late registration with evidence until 21 July
+URL:https://iamds.github.io/11plusroute-site/schools/weald-of-kent-grammar-
+ school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:weald-of-kent-grammar-school-2026-07-21-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260722
+SUMMARY:Weald of Kent Grammar School: Deadline for Weald Grammar Assessment
+  special arrangements requests and late registrations
+URL:https://iamds.github.io/11plusroute-site/schools/weald-of-kent-grammar-
+ school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:weald-of-kent-grammar-school-2026-09-01-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:Weald of Kent Grammar School: Secondary applications (SCAF) open
+URL:https://iamds.github.io/11plusroute-site/schools/weald-of-kent-grammar-
+ school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:weald-of-kent-grammar-school-2026-09-10-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:Weald of Kent Grammar School: Kent Test for children at Kent primar
+ y schools
+URL:https://iamds.github.io/11plusroute-site/schools/weald-of-kent-grammar-
+ school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:weald-of-kent-grammar-school-2026-09-12-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Weald of Kent Grammar School: Weald Grammar Assessment (Saturday af
+ ter the Kent Test)
+URL:https://iamds.github.io/11plusroute-site/schools/weald-of-kent-grammar-
+ school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:weald-of-kent-grammar-school-2026-09-12-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Weald of Kent Grammar School: Kent Test for children at non-Kent sc
+ hools (weekend of 12/13 September)
+URL:https://iamds.github.io/11plusroute-site/schools/weald-of-kent-grammar-
+ school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:weald-of-kent-grammar-school-2026-10-15-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Weald of Kent Grammar School: Kent Test assessment decisions emaile
+ d after 4pm
+URL:https://iamds.github.io/11plusroute-site/schools/weald-of-kent-grammar-
+ school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:weald-of-kent-grammar-school-2026-10-31-9@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Weald of Kent Grammar School: Pupil Premium SIF and medical-claim d
+ eadline
+URL:https://iamds.github.io/11plusroute-site/schools/weald-of-kent-grammar-
+ school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:weald-of-kent-grammar-school-2026-11-02-10@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Weald of Kent Grammar School: SCAF closing date
+URL:https://iamds.github.io/11plusroute-site/schools/weald-of-kent-grammar-
+ school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:weald-of-kent-grammar-school-2026-12-07-11@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Weald of Kent Grammar School: Last day to change your application d
+ etails in time for offer day
+URL:https://iamds.github.io/11plusroute-site/schools/weald-of-kent-grammar-
+ school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:weald-of-kent-grammar-school-2027-03-01-12@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Weald of Kent Grammar School: National Offer Day (emails after 4pm)
+URL:https://iamds.github.io/11plusroute-site/schools/weald-of-kent-grammar-
+ school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:weald-of-kent-grammar-school-2027-03-15-13@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Weald of Kent Grammar School: Deadline to accept/decline\, ask for 
+ waiting lists and make late applications for KCC reallocation
+URL:https://iamds.github.io/11plusroute-site/schools/weald-of-kent-grammar-
+ school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:weald-of-kent-grammar-school-2027-04-13-14@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:Weald of Kent Grammar School: Deadline for lodging appeals to be he
+ ard before September
+URL:https://iamds.github.io/11plusroute-site/schools/weald-of-kent-grammar-
+ school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:weald-of-kent-grammar-school-2027-04-27-15@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:Weald of Kent Grammar School: KCC Reallocation Day (places from wai
+ ting lists)\; schools then run their own waiting lists
+URL:https://iamds.github.io/11plusroute-site/schools/weald-of-kent-grammar-
+ school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

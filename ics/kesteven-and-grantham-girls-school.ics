@@ -1,0 +1,111 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//11plusroute//admissions//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Kesteven and Grantham Girls' School admissions
+BEGIN:VEVENT
+UID:kesteven-and-grantham-girls-school-2026-01-08-0@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260108
+DTEND;VALUE=DATE:20260109
+SUMMARY:Kesteven and Grantham Girls' School: 11+ registration opens
+URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-grantham-
+ girls-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kesteven-and-grantham-girls-school-2026-03-31-1@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+SUMMARY:Kesteven and Grantham Girls' School: 11+ registration closes
+URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-grantham-
+ girls-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kesteven-and-grantham-girls-school-2026-06-26-2@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+SUMMARY:Kesteven and Grantham Girls' School: Familiarisation materials issu
+ ed to primary schools
+URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-grantham-
+ girls-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kesteven-and-grantham-girls-school-2026-07-09-3@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
+SUMMARY:Kesteven and Grantham Girls' School: Year 5 Open Evening (5-7pm)
+URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-grantham-
+ girls-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kesteven-and-grantham-girls-school-2026-09-12-4@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Kesteven and Grantham Girls' School: 11+ Verbal Reasoning test
+URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-grantham-
+ girls-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kesteven-and-grantham-girls-school-2026-09-19-5@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:Kesteven and Grantham Girls' School: 11+ Non-Verbal & Spatial Reaso
+ ning test
+URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-grantham-
+ girls-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kesteven-and-grantham-girls-school-2026-10-09-6@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Kesteven and Grantham Girls' School: 11+ results emailed to parents
+  (12 noon)
+URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-grantham-
+ girls-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kesteven-and-grantham-girls-school-2026-10-31-7@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Kesteven and Grantham Girls' School: Secondary application deadline
+  (national closing date)
+URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-grantham-
+ girls-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kesteven-and-grantham-girls-school-2026-12-14-8@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:Kesteven and Grantham Girls' School: Lincolnshire's final closing d
+ ate for applications to be co-ordinated with the main round (12 noon)
+URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-grantham-
+ girls-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kesteven-and-grantham-girls-school-2027-03-01-9@iamds.github.io
+DTSTAMP:20261125T231742Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Kesteven and Grantham Girls' School: National Offer Day
+URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-grantham-
+ girls-school.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
