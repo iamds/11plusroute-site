@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Westcliff High School for Boys Academy admissions
 BEGIN:VEVENT
 UID:westcliff-high-school-for-boys-academy-2026-05-12-0@iamds.github.io
-DTSTAMP:20261125T232259Z
+DTSTAMP:20261125T233014Z
 DTSTART;VALUE=DATE:20260512
 DTEND;VALUE=DATE:20260513
 SUMMARY:Westcliff High School for Boys Academy: CSSE registration opens
@@ -15,7 +15,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:westcliff-high-school-for-boys-academy-2026-06-19-1@iamds.github.io
-DTSTAMP:20261125T232259Z
+DTSTAMP:20261125T233014Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
 SUMMARY:Westcliff High School for Boys Academy: CSSE registration deadline 
@@ -26,7 +26,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:westcliff-high-school-for-boys-academy-2026-06-26-2@iamds.github.io
-DTSTAMP:20261125T232259Z
+DTSTAMP:20261125T233014Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:Westcliff High School for Boys Academy: Deadline for access-arrange
@@ -37,7 +37,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:westcliff-high-school-for-boys-academy-2026-07-15-3@iamds.github.io
-DTSTAMP:20261125T232259Z
+DTSTAMP:20261125T233014Z
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260716
 SUMMARY:Westcliff High School for Boys Academy: Test centre information sho
@@ -48,7 +48,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:westcliff-high-school-for-boys-academy-2026-08-31-4@iamds.github.io
-DTSTAMP:20261125T232259Z
+DTSTAMP:20261125T233014Z
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 SUMMARY:Westcliff High School for Boys Academy: Last date to withdraw from 
@@ -59,7 +59,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:westcliff-high-school-for-boys-academy-2026-09-19-5@iamds.github.io
-DTSTAMP:20261125T232259Z
+DTSTAMP:20261125T233014Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Westcliff High School for Boys Academy: CSSE 11+ test (Saturday)
@@ -69,7 +69,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:westcliff-high-school-for-boys-academy-2026-09-29-6@iamds.github.io
-DTSTAMP:20261125T232259Z
+DTSTAMP:20261125T233014Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:Westcliff High School for Boys Academy: Alternative test day (relig
@@ -80,7 +80,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:westcliff-high-school-for-boys-academy-2026-10-12-7@iamds.github.io
-DTSTAMP:20261125T232259Z
+DTSTAMP:20261125T233014Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 SUMMARY:Westcliff High School for Boys Academy: Results emailed after close
@@ -91,7 +91,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:westcliff-high-school-for-boys-academy-2026-10-31-8@iamds.github.io
-DTSTAMP:20261125T232259Z
+DTSTAMP:20261125T233014Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Westcliff High School for Boys Academy: Application deadline (home 
@@ -102,7 +102,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:westcliff-high-school-for-boys-academy-2026-11-20-9@iamds.github.io
-DTSTAMP:20261125T232259Z
+DTSTAMP:20261125T233014Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Westcliff High School for Boys Academy: Southend: last date for a c
@@ -113,7 +113,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:westcliff-high-school-for-boys-academy-2026-11-20-10@iamds.github.io
-DTSTAMP:20261125T232259Z
+DTSTAMP:20261125T233014Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Westcliff High School for Boys Academy: Deadline: Proof of address 
@@ -124,7 +124,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:westcliff-high-school-for-boys-academy-2027-03-01-11@iamds.github.io
-DTSTAMP:20261125T232259Z
+DTSTAMP:20261125T233014Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Westcliff High School for Boys Academy: National Offer Day
