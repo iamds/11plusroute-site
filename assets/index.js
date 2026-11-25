@@ -114,28 +114,11 @@
   // ---------- map (MapLibre + OpenFreeMap vector tiles: free, no API key; loaded on first use) ----------
   let map, markers = [], mapLoading;
   const CDN = "https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/";
-  function loadMapLib() {
-    if (window.maplibregl) return Promise.resolve();
-    if (mapLoading) return mapLoading;
-    mapLoading = new Promise((res, rej) => {
-      const css = document.createElement("link"); css.rel = "stylesheet"; css.href = CDN + "maplibre-gl.min.css"; document.head.appendChild(css);
-      const js = document.createElement("script"); js.src = CDN + "maplibre-gl.min.js"; js.onload = res; js.onerror = rej; document.head.appendChild(js);
-    });
-    return mapLoading;
-  }
+  const loadMapLib = GS.loadMapLib;
   const isDark = () => document.documentElement.dataset.theme === "dark" || (document.documentElement.dataset.theme !== "light" && matchMedia("(prefers-color-scheme: dark)").matches);
   const colour = r => r.selection === "grammar" ? "#1f4e79" : r.selection === "aptitude_only" ? "#c2186b" : "#c98a00";
   const pcq = () => home ? "?pc=" + encodeURIComponent(home.postcode).replace(/%20/g, "+") : "";
-  function circleGeo(lat, lng, miles) {
-    const pts = [], R = 3958.8, d = miles / R;
-    for (let i = 0; i <= 64; i++) {
-      const brg = 2 * Math.PI * i / 64, la1 = lat * Math.PI / 180, lo1 = lng * Math.PI / 180;
-      const la2 = Math.asin(Math.sin(la1) * Math.cos(d) + Math.cos(la1) * Math.sin(d) * Math.cos(brg));
-      const lo2 = lo1 + Math.atan2(Math.sin(brg) * Math.sin(d) * Math.cos(la1), Math.cos(d) - Math.sin(la1) * Math.sin(la2));
-      pts.push([lo2 * 180 / Math.PI, la2 * 180 / Math.PI]);
-    }
-    return { type: "Feature", geometry: { type: "Polygon", coordinates: [pts] } };
-  }
+  const circleGeo = GS.circleGeo;
   async function drawMap(list) {
     try { await loadMapLib(); } catch (e) { $("map").innerHTML = '<p class="empty">The map couldn\'t load. Check your connection.</p>'; return; }
     if (!map) {
@@ -167,7 +150,7 @@
     if (map.isStyleLoaded()) setRadius();
     else map.once("styledata", function retry() { map.isStyleLoaded() ? setRadius() : map.once("styledata", retry); });
     if (home) {
-      const hel = document.createElement("div"); hel.className = "mhome"; hel.title = home.postcode;
+      const hel = GS.homeMarkerEl(home.postcode);
       markers.push(new maplibregl.Marker({ element: hel }).setLngLat([home.lng, home.lat])
         .setPopup(new maplibregl.Popup({ offset: 12 }).setHTML(`Your postcode: <b>${esc(home.postcode)}</b>`)).addTo(map));
       bounds.extend([home.lng, home.lat]);

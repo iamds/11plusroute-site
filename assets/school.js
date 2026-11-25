@@ -45,8 +45,8 @@
       case "staff_child": return `Child of a member of staff?${c.description ? ` <span class="muted">${esc(c.description)}</span>` : ""}`;
       case "faith": return `Meets the faith requirement?${c.requirement ? ` <span class="muted">${esc(c.faith ? c.faith + ": " : "")}${esc(c.requirement)}</span>` : ""}`;
       case "feeder_school": return `Attends a feeder school?${c.schools ? ` <span class="muted">${esc(c.schools.join(", "))}</span>` : ""}`;
-      case "in_area": return `Lives in <a href="#area-${esc(c.ref)}">${esc(areas[c.ref]?.name || c.ref)}</a>?`;
-      case "not_in_area": return `Lives outside <a href="#area-${esc(c.ref)}">${esc(areas[c.ref]?.name || c.ref)}</a>?`;
+      case "in_area": return `Lives in <a href="#area-${esc(c.ref)}">${esc(areas[c.ref]?.name || c.ref)}</a>? <span class="you" data-area="${esc(c.ref)}"></span>`;
+      case "not_in_area": return `Lives outside <a href="#area-${esc(c.ref)}">${esc(areas[c.ref]?.name || c.ref)}</a>? <span class="you" data-area="${esc(c.ref)}" data-neg="1"></span>`;
       case "aptitude": return `Shows ${esc(c.subject || "")} aptitude${c.ref ? ` in the ${esc(stageName(c.ref))}` : ""}?${c.requirement ? ` <span class="muted">${esc(c.requirement)}</span>` : ""}`;
       case "any_of": return (c.conditions || []).map(x => cond(x).replace(/\?(?=(\s*<span[^>]*>[^<]*<\/span>)?\s*$)/, "")).join(` <b class="or">or</b> `) + "?";
       default: return esc(c.description || c.type) + (c.description?.endsWith("?") ? "" : "?");
@@ -285,6 +285,53 @@
     const shown = xs.slice(0, max).map(esc).join(", ");
     return xs.length > max ? `${shown} … <span class="muted">(+${xs.length - max} more)</span>` : shown;
   }
+  // Map of radius-based priority areas, the school and (if known) the visitor's home
+  const G0 = s._geo || {};
+  const drawable = (G0.areas || []).filter(x => x.radius != null && x.centred_on_school);
+  const AREA_COLOURS = ["#0f7b4f", "#0a58b8", "#c25a00", "#7a2ea0", "#c2186b"];
+  function areaMapHolder() {
+    if (G0.lat == null || !drawable.length) return "";
+    const others = (G0.areas || []).length - drawable.length;
+    return `<div class="areamap-wrap"><div id="areamap" class="areamap" role="img" aria-label="Map of ${esc(s.name)}'s priority areas"></div>
+      <p class="small muted maplegend">${drawable.map((x, i) => `<span class="dot" style="background:${AREA_COLOURS[i % 5]}"></span>${esc(x.name)} (${x.radius} mi)`).join(" ")}
+      <span class="dot sch"></span>School <span class="dot hm"></span>Your postcode${others ? `<br>Areas defined by postcode, council, ward or parish aren't drawn: see the details below.` : ""}</p></div>`;
+  }
+  let areaMap = null, homeMk = null;
+  async function drawAreaMap() {
+    const el = document.getElementById("areamap");
+    if (!el || areaMap || drawAreaMap.started) return;
+    drawAreaMap.started = true;
+    try { await window.GS.loadMapLib(); } catch (e) { el.innerHTML = '<p class="empty">The map couldn\'t load. Check your connection.</p>'; return; }
+    areaMap = new maplibregl.Map({ container: el, style: window.GS.mapStyle(), center: [G0.lng, G0.lat], zoom: 11, cooperativeGestures: true, attributionControl: { compact: true } });
+    areaMap.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-left");
+    const sch = document.createElement("div"); sch.className = "mpin"; sch.style.background = "#1f4e79"; sch.title = s.name;
+    new maplibregl.Marker({ element: sch }).setLngLat([G0.lng, G0.lat]).addTo(areaMap);
+    const bounds = new maplibregl.LngLatBounds([G0.lng, G0.lat], [G0.lng, G0.lat]);
+    const circles = drawable.map((x, i) => ({ x, i, f: window.GS.circleGeo(G0.lat, G0.lng, x.radius) }));
+    circles.forEach(c => c.f.geometry.coordinates[0].forEach(p => bounds.extend(p)));
+    const add = () => circles.slice().reverse().forEach(c => {
+      const id = "area-" + c.i;
+      if (areaMap.getSource(id)) return;
+      areaMap.addSource(id, { type: "geojson", data: c.f });
+      areaMap.addLayer({ id: id + "-fill", type: "fill", source: id, paint: { "fill-color": AREA_COLOURS[c.i % 5], "fill-opacity": 0.08 } });
+      areaMap.addLayer({ id: id + "-line", type: "line", source: id, paint: { "line-color": AREA_COLOURS[c.i % 5], "line-width": 2 } });
+    });
+    if (areaMap.isStyleLoaded()) add(); else areaMap.once("styledata", function retry() { areaMap.isStyleLoaded() ? add() : areaMap.once("styledata", retry); });
+    areaMap.fitBounds(bounds, { padding: 30, duration: 0, maxZoom: 13 });
+    setAreaMapHome(currentHome);
+  }
+  let currentHome = null;
+  function setAreaMapHome(home) {
+    currentHome = home;
+    if (!areaMap) return;
+    if (homeMk) { homeMk.remove(); homeMk = null; }
+    if (!home) return;
+    homeMk = new maplibregl.Marker({ element: window.GS.homeMarkerEl(home.postcode) }).setLngLat([home.lng, home.lat]).addTo(areaMap);
+    const b = new maplibregl.LngLatBounds([G0.lng, G0.lat], [G0.lng, G0.lat]);
+    drawable.forEach(x => window.GS.circleGeo(G0.lat, G0.lng, x.radius).geometry.coordinates[0].forEach(p => b.extend(p)));
+    b.extend([home.lng, home.lat]);
+    areaMap.fitBounds(b, { padding: 40, duration: 0, maxZoom: 13 });
+  }
   function areasHtml() {
     return (y.areas || []).map(ar => {
       const radius = ar.radius_km != null ? `${ar.radius_km} km${ar.radius_miles != null ? ` (${ar.radius_miles} miles)` : ""}` : ar.radius_miles != null ? `${ar.radius_miles} miles` : "";
@@ -426,7 +473,7 @@
         ["Results", (a.stages || []).filter(x => x.results).map(x => `<b>${esc(x.name)}:</b> ${esc(x.results)}`).join("<br>")],
         ["Before the council deadline", esc(y.outcomes_before_caf || "")]]))}
       ${fold("allocations", "How many got in", allocationsHtml() + statsHtml())}
-      ${fold("areas", "Priority areas", areasHtml())}
+      ${fold("areas", "Priority areas", areasHtml() && areaMapHolder() + areasHtml())}
       ${fold("distance", "Distance and tie-breaks", tie + dl([["Method", esc(y.distance?.method?.replace("_", " ") || "")], ["From", esc(y.distance?.from || "")],
         ["To", esc(y.distance?.to || "")], ["Measured by", esc(y.distance?.system || "")], ["Home address", esc(y.distance?.home_address_rule || "")]]))}
       ${fold("waiting", "Waiting list and late applications", dl([["Waiting list", esc(y.waiting_list || "")], ["Late applications", esc(y.late_applications || "")]]))}
@@ -484,6 +531,7 @@
     if (el.classList.contains("special")) el.classList.add("expanded");
     const grp = el.closest(".sg-list");
     if (grp && grp.hidden) { grp.hidden = false; const btn = out.querySelector(`[aria-controls="${grp.id}"]`); if (btn) { btn.setAttribute("aria-expanded", "true"); btn.textContent = "Hide"; } }
+    if (el.tagName === "DETAILS") el.open = true;
     for (let p = el.parentElement; p; p = p.parentElement) if (p.tagName === "DETAILS") p.open = true;
     el.querySelectorAll("details").forEach(d => d.open = true);
     el.scrollIntoView({ block: "start" });
@@ -498,6 +546,8 @@
   });
   out.addEventListener("click", e => { const a = e.target.closest("a.ppill, a.pmini"); if (a && a.getAttribute("href") === location.hash) openTarget(); });
   openTarget();
+  const areasFold = document.getElementById("areas");
+  if (areasFold) { areasFold.addEventListener("toggle", () => { if (areasFold.open) drawAreaMap(); }); if (areasFold.open) drawAreaMap(); }
 
   // ---------- distance from the visitor's postcode ----------
   (function nearMe() {
@@ -505,8 +555,27 @@
     const holder = document.createElement("div"); holder.className = "nearme";
     const bar = out.querySelector(".keybar");
     (bar || out.querySelector("section.flow")).insertAdjacentElement(bar ? "afterend" : "beforebegin", holder);
+    function markStations(r) {
+      const byId = {};
+      (r ? r.areas : []).forEach(a => { if (a.id) byId[a.id] = a; });
+      out.querySelectorAll(".you").forEach(el => {
+        const a = byId[el.dataset.area];
+        el.className = "you"; el.textContent = ""; el.title = "";
+        if (!r || !a) return;
+        let st = a.status;
+        if (st !== "unknown" && el.dataset.neg) st = st === "in" ? "out" : "in";
+        const away = a.radius != null && a.centred_on_school ? ` (${r.miles.toFixed(1)} mi away, limit ${a.radius} mi)` : "";
+        if (st === "in") { el.classList.add("yes"); el.textContent = `✓ Yes, from ${home_pc}${away}`; }
+        else if (st === "out") { el.classList.add("no"); el.textContent = `✗ No, from ${home_pc}${away}`; }
+        else { el.classList.add("maybe"); el.textContent = "Check the area map"; }
+      });
+    }
+    let home_pc = "";
     function show(home) {
       const r = home ? G.assess(s._geo, home) : null;
+      home_pc = home ? home.postcode : "";
+      markStations(r);
+      setAreaMapHome(home);
       const pcq = home ? "?pc=" + encodeURIComponent(home.postcode).replace(/%20/g, "+") : "";
       history.replaceState(null, "", location.pathname + pcq + location.hash);
       const back = out.querySelector(".crumbs a"); if (back) back.href = "../index.html" + pcq;

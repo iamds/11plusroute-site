@@ -78,6 +78,35 @@ window.GS = (function () {
       b.disabled = false;
     });
   }
+  // ---------- shared map helpers (MapLibre + OpenFreeMap, loaded on first use) ----------
+  const MAP_CDN = "https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/";
+  let mapLoading;
+  function loadMapLib() {
+    if (window.maplibregl) return Promise.resolve();
+    if (mapLoading) return mapLoading;
+    mapLoading = new Promise((res, rej) => {
+      const css = document.createElement("link"); css.rel = "stylesheet"; css.href = MAP_CDN + "maplibre-gl.min.css"; document.head.appendChild(css);
+      const js = document.createElement("script"); js.src = MAP_CDN + "maplibre-gl.min.js"; js.onload = res; js.onerror = rej; document.head.appendChild(js);
+    });
+    return mapLoading;
+  }
+  const isDark = () => document.documentElement.dataset.theme === "dark" || (document.documentElement.dataset.theme !== "light" && matchMedia("(prefers-color-scheme: dark)").matches);
+  const mapStyle = () => "https://tiles.openfreemap.org/styles/" + (isDark() ? "dark" : "positron");
+  function circleGeo(lat, lng, miles) {
+    const pts = [], R = 3958.8, d = miles / R;
+    for (let i = 0; i <= 64; i++) {
+      const brg = 2 * Math.PI * i / 64, la1 = lat * Math.PI / 180, lo1 = lng * Math.PI / 180;
+      const la2 = Math.asin(Math.sin(la1) * Math.cos(d) + Math.cos(la1) * Math.sin(d) * Math.cos(brg));
+      const lo2 = lo1 + Math.atan2(Math.sin(brg) * Math.sin(d) * Math.cos(la1), Math.cos(d) - Math.sin(la1) * Math.sin(la2));
+      pts.push([lo2 * 180 / Math.PI, la2 * 180 / Math.PI]);
+    }
+    return { type: "Feature", geometry: { type: "Polygon", coordinates: [pts] } };
+  }
+  function homeMarkerEl(postcode) {
+    const el = document.createElement("div"); el.className = "mhome"; el.title = "Your postcode: " + postcode;
+    el.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 3 2 11.5h3V21h5.5v-6h3v6H19v-9.5h3z"/></svg>';
+    return el;
+  }
   function loadHome() { try { return JSON.parse(localStorage.getItem(HOME_KEY) || "null"); } catch (e) { return null; } }
   function saveHome(h) { try { h ? localStorage.setItem(HOME_KEY, JSON.stringify(h)) : localStorage.removeItem(HOME_KEY); } catch (e) {} }
   function miles(a, b) {
@@ -101,7 +130,7 @@ window.GS = (function () {
   function assess(g, home) {
     if (!g || g.lat == null || !home) return null;
     const d = miles(home, g);
-    const areas = (g.areas || []).map(a => ({ name: a.name, status: areaStatus(a, home, d) }));
+    const areas = (g.areas || []).map(a => ({ id: a.id, name: a.name, radius: a.radius, centred_on_school: a.centred_on_school, status: areaStatus(a, home, d) }));
     return { miles: d, areas, score_based: g.score_based,
              last: g.last ? { miles: g.last.miles, year: g.last.year, within: d <= g.last.miles } : null };
   }
@@ -116,5 +145,5 @@ window.GS = (function () {
     if (r.score_based) out.push(`<span class="gchip neutral">Places go by test score</span>`);
     return out.join("");
   }
-  return { CATEGORIES, SUBJECTS, GENDER, esc, fmtDate, catBadge, lookupPostcode, addLocateButton, loadHome, saveHome, miles, assess, statusChips };
+  return { CATEGORIES, SUBJECTS, GENDER, esc, fmtDate, catBadge, lookupPostcode, addLocateButton, loadMapLib, mapStyle, isDark, circleGeo, homeMarkerEl, loadHome, saveHome, miles, assess, statusChips };
 })();
