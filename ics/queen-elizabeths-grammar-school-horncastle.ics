@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Queen Elizabeth's Grammar School\, Horncastle admissions
 BEGIN:VEVENT
 UID:queen-elizabeths-grammar-school-horncastle-2026-01-07-0@iamds.github.io
-DTSTAMP:20261125T235035Z
+DTSTAMP:20261125T235334Z
 DTSTART;VALUE=DATE:20260107
 DTEND;VALUE=DATE:20260108
 SUMMARY:Queen Elizabeth's Grammar School\, Horncastle: Registration for the
@@ -16,7 +16,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-elizabeths-grammar-school-horncastle-2026-03-31-1@iamds.github.io
-DTSTAMP:20261125T235035Z
+DTSTAMP:20261125T235334Z
 DTSTART;VALUE=DATE:20260331
 DTEND;VALUE=DATE:20260401
 SUMMARY:Queen Elizabeth's Grammar School\, Horncastle: 11+ registration dea
@@ -27,7 +27,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-elizabeths-grammar-school-horncastle-2026-09-12-2@iamds.github.io
-DTSTAMP:20261125T235035Z
+DTSTAMP:20261125T235334Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Queen Elizabeth's Grammar School\, Horncastle: Verbal reasoning tes
@@ -38,7 +38,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-elizabeths-grammar-school-horncastle-2026-09-19-3@iamds.github.io
-DTSTAMP:20261125T235035Z
+DTSTAMP:20261125T235334Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Queen Elizabeth's Grammar School\, Horncastle: Non-verbal reasoning
@@ -49,7 +49,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-elizabeths-grammar-school-horncastle-2026-10-09-4@iamds.github.io
-DTSTAMP:20261125T235035Z
+DTSTAMP:20261125T235334Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:Queen Elizabeth's Grammar School\, Horncastle: 11+ results emailed 
@@ -60,7 +60,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-elizabeths-grammar-school-horncastle-2026-10-31-5@iamds.github.io
-DTSTAMP:20261125T235035Z
+DTSTAMP:20261125T235334Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Queen Elizabeth's Grammar School\, Horncastle: National closing dat
@@ -72,7 +72,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-elizabeths-grammar-school-horncastle-2026-12-14-6@iamds.github.io
-DTSTAMP:20261125T235035Z
+DTSTAMP:20261125T235334Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:Queen Elizabeth's Grammar School\, Horncastle: Lincolnshire's last 
@@ -83,7 +83,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-elizabeths-grammar-school-horncastle-2027-03-01-7@iamds.github.io
-DTSTAMP:20261125T235035Z
+DTSTAMP:20261125T235334Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Queen Elizabeth's Grammar School\, Horncastle: National Offer Day
@@ -93,7 +93,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-elizabeths-grammar-school-horncastle-2027-04-14-8@iamds.github.io
-DTSTAMP:20261125T235035Z
+DTSTAMP:20261125T235334Z
 DTSTART;VALUE=DATE:20270414
 DTEND;VALUE=DATE:20270415
 SUMMARY:Queen Elizabeth's Grammar School\, Horncastle: Lincolnshire's deadl

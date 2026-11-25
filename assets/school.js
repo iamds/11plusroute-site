@@ -534,7 +534,8 @@
     if (el.tagName === "DETAILS") el.open = true;
     for (let p = el.parentElement; p; p = p.parentElement) if (p.tagName === "DETAILS") p.open = true;
     el.querySelectorAll("details").forEach(d => d.open = true);
-    el.scrollIntoView({ block: "start" });
+    const smooth = !matchMedia("(prefers-reduced-motion: reduce)").matches && openTarget.ready;
+    requestAnimationFrame(() => el.scrollIntoView({ block: "start", behavior: smooth ? "smooth" : "auto" }));
   }
   window.addEventListener("hashchange", openTarget);
   out.addEventListener("click", e => {
@@ -546,6 +547,7 @@
   });
   out.addEventListener("click", e => { const a = e.target.closest("a.ppill, a.pmini"); if (a && a.getAttribute("href") === location.hash) openTarget(); });
   openTarget();
+  openTarget.ready = true;  // first jump on page load is instant; later in-page jumps animate
   const areasFold = document.getElementById("areas");
   if (areasFold) { areasFold.addEventListener("toggle", () => { if (areasFold.open) drawAreaMap(); }); if (areasFold.open) drawAreaMap(); }
 

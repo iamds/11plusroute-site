@@ -452,3 +452,7 @@ li.special .kicker { color: var(--c); }
 .areamap { height: 340px; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); background: var(--surface-2); }
 .maplegend .dot.sch { background: #1f4e79; }
 .maplegend .dot.hm { background: var(--crimson); }
+
+/* Smooth in-page jumps (not for people who prefer reduced motion) */
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+[id] { scroll-margin-top: 16px; }
