@@ -456,3 +456,4 @@ li.special .kicker { color: var(--c); }
 /* Smooth in-page jumps (not for people who prefer reduced motion) */
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
 [id] { scroll-margin-top: 16px; }
+.maplegend .ring { display: inline-block; width: 12px; height: 12px; border-radius: 50%; border: 1px dashed var(--ink-2); margin: 0 2px 0 8px; vertical-align: -1px; }

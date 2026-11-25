@@ -147,8 +147,21 @@
       map.addLayer({ id: "radius-fill", type: "fill", source: "radius", paint: { "fill-color": "#1f4e79", "fill-opacity": 0.06 } });
       map.addLayer({ id: "radius-line", type: "line", source: "radius", paint: { "line-color": "#1f4e79", "line-width": 1.5 } });
     };
-    if (map.isStyleLoaded()) setRadius();
-    else map.once("styledata", function retry() { map.isStyleLoaded() ? setRadius() : map.once("styledata", retry); });
+    // Faint priority-area circles for each school shown (radius areas centred on the school)
+    const areaFC = { type: "FeatureCollection", features: list.flatMap(r => (r.geo && r.geo.lat != null ? (r.geo.areas || []) : [])
+      .filter(x => x.radius != null && x.centred_on_school)
+      .map(x => Object.assign(circleGeo(r.geo.lat, r.geo.lng, x.radius), { properties: { c: colour(r) } }))) };
+    const setAreas = () => {
+      const src = map.getSource("areas");
+      if (src) { src.setData(areaFC); return; }
+      map.addSource("areas", { type: "geojson", data: areaFC });
+      const before = map.getLayer("radius-fill") ? "radius-fill" : undefined;
+      map.addLayer({ id: "areas-fill", type: "fill", source: "areas", paint: { "fill-color": ["get", "c"], "fill-opacity": 0.035 } }, before);
+      map.addLayer({ id: "areas-line", type: "line", source: "areas", paint: { "line-color": ["get", "c"], "line-opacity": 0.3, "line-width": 1, "line-dasharray": [2, 2] } }, before);
+    };
+    const setLayers = () => { setAreas(); setRadius(); };
+    if (map.isStyleLoaded()) setLayers();
+    else map.once("styledata", function retry() { map.isStyleLoaded() ? setLayers() : map.once("styledata", retry); });
     if (home) {
       const hel = GS.homeMarkerEl(home.postcode);
       markers.push(new maplibregl.Marker({ element: hel }).setLngLat([home.lng, home.lat])
