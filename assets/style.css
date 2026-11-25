@@ -413,3 +413,28 @@ li.special .kicker { color: var(--c); }
 .sharedtest { margin: 0 0 12px; }
 .school-head .checked { margin: 4px 0 0; }
 .keybar small { display: block; font-weight: 400; }
+
+/* Info pages + footer links */
+.prose { max-width: 720px; padding: 8px 0 24px; }
+.prose h2 { font-size: 1.15rem; margin: 1.6em 0 .4em; }
+.prose p { line-height: 1.6; }
+.footnav { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-top: 10px; }
+.footnav a { color: inherit; }
+
+/* Dark mode: light fills need dark text for contrast */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .btn-primary,
+  :root:not([data-theme="light"]) .stop.crit .marker,
+  :root:not([data-theme="light"]) .ppill .pn,
+  :root:not([data-theme="light"]) a.pmini,
+  :root:not([data-theme="light"]) .sg-head .pn { color: #0b1118; }
+}
+:root[data-theme="dark"] .btn-primary, :root[data-theme="dark"] .stop.crit .marker, :root[data-theme="dark"] .ppill .pn,
+:root[data-theme="dark"] a.pmini, :root[data-theme="dark"] .sg-head .pn { color: #0b1118; }
+
+/* Use my location */
+.locate { font: inherit; font-size: .9rem; font-weight: 600; display: inline-flex; align-items: center; gap: 6px; padding: 9px 12px;
+  border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); color: var(--link); cursor: pointer; white-space: nowrap; }
+.locate:hover { background: var(--surface-2); }
+.locate:disabled { opacity: .6; cursor: wait; }
+@media (max-width: 640px) { .locate span { display: none; } }

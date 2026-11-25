@@ -53,6 +53,31 @@ window.GS = (function () {
     return { postcode: d.postcode, lat: d.latitude, lng: d.longitude, outcode: d.outcode, sector: d.postcode.slice(0, -2).trim(),
              district: d.admin_district, county: d.admin_county, ward: d.admin_ward, parish: d.parish };
   }
+  // "Use my location": browser geolocation -> nearest postcode (postcodes.io) -> fill the input and submit its form
+  async function nearestPostcode() {
+    if (!navigator.geolocation) throw new Error("Your browser can't share its location. Type your postcode instead.");
+    const pos = await new Promise((ok, bad) => navigator.geolocation.getCurrentPosition(ok, bad, { enableHighAccuracy: false, timeout: 15000, maximumAge: 600000 }))
+      .catch(err => { throw new Error(err && err.code === 1 ? "Location permission was turned off. Type your postcode instead." : "Couldn't find your location. Type your postcode instead."); });
+    let r;
+    try { r = await fetch(`https://api.postcodes.io/postcodes?lon=${pos.coords.longitude}&lat=${pos.coords.latitude}&limit=1&radius=2000`); }
+    catch (e) { throw new Error("Couldn't reach the postcode service. Check your connection and try again."); }
+    const d = r.ok ? (await r.json()).result : null;
+    if (!d || !d.length) throw new Error("No UK postcode found near your location. Type your postcode instead.");
+    return d[0].postcode;
+  }
+  function addLocateButton(input, form, errEl) {
+    if (!input || !form || !navigator.geolocation || !window.isSecureContext || form.querySelector(".locate")) return;
+    const b = document.createElement("button");
+    b.type = "button"; b.className = "locate"; b.title = "Use my location";
+    b.innerHTML = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm9 3h-2.07A7 7 0 0 0 13 5.07V3h-2v2.07A7 7 0 0 0 5.07 11H3v2h2.07A7 7 0 0 0 11 18.93V21h2v-2.07A7 7 0 0 0 18.93 13H21v-2Zm-9 6a5 5 0 1 1 0-10 5 5 0 0 1 0 10Z"/></svg><span>Use my location</span>';
+    input.insertAdjacentElement("afterend", b);
+    b.addEventListener("click", async () => {
+      b.disabled = true; if (errEl) errEl.textContent = "";
+      try { input.value = await nearestPostcode(); form.requestSubmit ? form.requestSubmit() : form.dispatchEvent(new Event("submit", { cancelable: true })); }
+      catch (err) { if (errEl) errEl.textContent = err.message; }
+      b.disabled = false;
+    });
+  }
   function loadHome() { try { return JSON.parse(localStorage.getItem(HOME_KEY) || "null"); } catch (e) { return null; } }
   function saveHome(h) { try { h ? localStorage.setItem(HOME_KEY, JSON.stringify(h)) : localStorage.removeItem(HOME_KEY); } catch (e) {} }
   function miles(a, b) {
@@ -91,5 +116,5 @@ window.GS = (function () {
     if (r.score_based) out.push(`<span class="gchip neutral">Places go by test score</span>`);
     return out.join("");
   }
-  return { CATEGORIES, SUBJECTS, GENDER, esc, fmtDate, catBadge, lookupPostcode, loadHome, saveHome, miles, assess, statusChips };
+  return { CATEGORIES, SUBJECTS, GENDER, esc, fmtDate, catBadge, lookupPostcode, addLocateButton, loadHome, saveHome, miles, assess, statusChips };
 })();

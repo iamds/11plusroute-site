@@ -37,6 +37,7 @@
     if (home && !state.sortChosen) { state.sort = "miles"; state.dir = 1; }
     if (!home && state.sort === "miles") { state.sort = "attainment8"; state.dir = -1; }
   }
+  GS.addLocateButton($("pc"), $("pc-form"), $("pc-error"));
   $("pc-form").addEventListener("submit", async e => {
     e.preventDefault();
     const btn = $("pc-go"); btn.disabled = true; $("pc-error").textContent = "";

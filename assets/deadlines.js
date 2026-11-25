@@ -68,6 +68,7 @@
     catch (err) { $("dl-error").textContent = err.message; }
     render();
   }
+  GS.addLocateButton($("dl-pc"), $("dl-form"), $("dl-error"));
   $("dl-form").addEventListener("submit", e => { e.preventDefault(); state.within = $("dl-within").value; setPostcode($("dl-pc").value); });
   $("dl-within").addEventListener("change", () => { state.within = $("dl-within").value; render(); });
   $("dl-q").addEventListener("input", () => { state.q = $("dl-q").value.trim(); render(); });

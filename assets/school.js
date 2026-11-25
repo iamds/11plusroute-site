@@ -518,6 +518,7 @@
         holder.innerHTML = `<form class="nm-form"><label for="nm-pc">How far are you from this school?</label>
           <input id="nm-pc" autocomplete="postal-code" placeholder="Your postcode" value="${home ? esc(home.postcode) : ""}"><button class="btn-primary" type="submit">Check</button>
           <span class="small err" role="alert"></span></form>`;
+        G.addLocateButton(holder.querySelector("#nm-pc"), holder.querySelector("form"), holder.querySelector(".err"));
         holder.querySelector("form").onsubmit = async e => {
           e.preventDefault(); const err = holder.querySelector(".err"); err.textContent = "";
           try { const h = await G.lookupPostcode(holder.querySelector("#nm-pc").value); G.saveHome(h); show(h); } catch (x) { err.textContent = x.message; }
