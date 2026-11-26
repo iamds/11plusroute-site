@@ -108,13 +108,17 @@
   const byDistance = c => c.category === "distance" || (c.order_within || []).some(o => o.type === "distance");
   function furthestFor(c, isLastDistance) {
     if (!byDistance(c)) return null;
+    const rowFor = a => (a.by_criterion || []).find(r => r.priority != null && String(r.priority) === String(c.priority));
+    // no places went under this priority in the latest year: there's no furthest offer to show
+    const latest = latestAlloc && rowFor(latestAlloc);
+    if (latest && latest.offers === 0) return null;
     for (const a of y.allocations || []) {
-      const r = (a.by_criterion || []).find(r => r.priority != null && String(r.priority) === String(c.priority));
-      if (r && r.last_distance_miles != null) return { mi: r.last_distance_miles, year: a.entry_year };
+      const r = rowFor(a);
+      if (r && r.last_distance_miles != null && r.offers !== 0) return { mi: r.last_distance_miles, year: a.entry_year, own: true };
     }
     if (isLastDistance) for (const a of y.allocations || []) {
       const d = a.last_offered && a.last_offered.distance_miles;
-      if (d) return { mi: d, year: a.entry_year };
+      if (d) return { mi: d, year: a.entry_year, own: false };
     }
     return null;
   }
@@ -270,7 +274,8 @@
       // small fixed map for stations that depend on where you live
       const refs = []; (function walk(cs) { (cs || []).forEach(k => { if (k.type === "in_area" && k.ref) refs.push(k.ref); if (k.type === "any_of") walk(k.conditions); }); })(c.conditions);
       const ids = [...new Set(refs.map(id => areaGroupOf[id] || id))].filter(id => drawable.some(x => x.id === id));
-      const far = !ids.length ? furthestFor(c, i === lastDistIdx) : null;
+      const farAny = !ids.length ? furthestFor(c, i === lastDistIdx) : null;
+      const far = farAny && farAny.own ? farAny : null;  // only map a priority's own furthest-offer figure
       const mini = G0.lat != null && (ids.length || far) ? `<div class="minimap linked" role="button" tabindex="0" data-areas="${esc(ids.join(","))}" data-last="${far ? far.mi : ""}" aria-label="Open a larger map"><span class="mm-hint" aria-hidden="true">⤢ Enlarge</span></div>` : "";
       return { c, cat, conds, outcome, title, acad: acad + mini, noLabel, id: "p-" + String(c.priority).replace(/[^\w-]/g, "_"), special: !!SPECIAL[c.category] };
     });
