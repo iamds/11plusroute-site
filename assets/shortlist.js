@@ -36,6 +36,21 @@
 
     $("sl-count").textContent = items.length ? `${items.length} school${items.length === 1 ? "" : "s"}${home ? ` · distances from ${home.postcode}` : ""}` : "";
     $("sl-share").hidden = !items.length;
+    // personal shortlist calendar (follows changes to this shortlist), when the calendar service is configured
+    if (GS.calFeed() && items.length && !shared.length) {
+      if (!$("sl-calall").firstChild) {
+        $("sl-calall").innerHTML = GS.calMenu('<p class="small muted">Setting up your calendar…</p>', "Add whole shortlist to calendar");
+        const btn = $("sl-calall").querySelector(".calmain"), menu = $("sl-calall").querySelector(".calmenu");
+        btn.addEventListener("click", async () => {
+          if (menu.dataset.ready) return;
+          try {
+            const url = await GS.ensureShortlistCalendar();
+            menu.innerHTML = GS.calItems(url, "My grammar school shortlist", null).replace("Google, Apple and Outlook stay up to date if dates change.", "Your calendar updates by itself when dates change or you add or remove schools on this device.");
+            menu.dataset.ready = "1";
+          } catch (e) { menu.innerHTML = '<p class="small">The calendar service isn\'t available right now. Use the button next to each school instead.</p>'; }
+        });
+      }
+    } else $("sl-calall").innerHTML = "";
     $("sl-share").textContent = "Share shortlist";
 
     if (!items.length) {

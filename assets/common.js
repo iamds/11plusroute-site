@@ -121,7 +121,7 @@ window.GS = (function () {
   const SL_KEY = "gs-shortlist";
   const shortlist = {
     get() { try { const v = JSON.parse(localStorage.getItem(SL_KEY) || "[]"); return Array.isArray(v) ? v : []; } catch (e) { return []; } },
-    set(list) { try { localStorage.setItem(SL_KEY, JSON.stringify([...new Set(list)])); } catch (e) {} paintCount(); document.dispatchEvent(new CustomEvent("shortlist")); },
+    set(list) { try { localStorage.setItem(SL_KEY, JSON.stringify([...new Set(list)])); } catch (e) {} paintCount(); calSyncSoon(); document.dispatchEvent(new CustomEvent("shortlist")); },
     has(slug) { return this.get().includes(slug); },
     toggle(slug) { const l = this.get(); this.set(l.includes(slug) ? l.filter(x => x !== slug) : l.concat(slug)); return this.has(slug); },
   };
@@ -141,6 +141,32 @@ window.GS = (function () {
     document.addEventListener("keydown", function k(e) { if (e.key === "Escape") { close(); document.removeEventListener("keydown", k); } });
     d.querySelector("button").focus();
     return true;
+  }
+  // ---------- personal shortlist calendar (Cloudflare Worker; only used once someone sets one up) ----------
+  const CAL_KEY = "gs-cal";
+  const calFeed = () => { const m = document.querySelector('meta[name="cal-feed"]'); return m ? m.content.replace(/\/?$/, "/") : ""; };
+  const calRec = () => { try { return JSON.parse(localStorage.getItem(CAL_KEY) || "null"); } catch (e) { return null; } };
+  let calTimer = null;
+  function calSyncSoon() {
+    const rec = calRec(), feed = calFeed();
+    if (!rec || !feed) return;
+    clearTimeout(calTimer);
+    calTimer = setTimeout(() => {
+      fetch(feed + "api/shortlist", { method: "POST", headers: { "content-type": "application/json" }, keepalive: true,
+        body: JSON.stringify({ id: rec.id, key: rec.key, slugs: shortlist.get() }) }).catch(() => {});
+    }, 600);
+  }
+  async function ensureShortlistCalendar() {
+    const feed = calFeed();
+    if (!feed) throw new Error("no feed");
+    let rec = calRec();
+    if (!rec) {
+      const r = await fetch(feed + "api/shortlist", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ slugs: shortlist.get() }) });
+      if (!r.ok) throw new Error("calendar service unavailable");
+      rec = await r.json();
+      try { localStorage.setItem(CAL_KEY, JSON.stringify(rec)); } catch (e) {}
+    } else calSyncSoon();
+    return feed + "u/" + rec.id + ".ics";
   }
   function paintCount() {
     const n = shortlist.get().length;
@@ -274,5 +300,5 @@ window.GS = (function () {
     if (r.score_based) out.push(`<span class="gchip neutral">Places go by test score</span>`);
     return out.join("");
   }
-  return { CATEGORIES, SUBJECTS, GENDER, esc, fmtDate, catBadge, lookupPostcode, addLocateButton, loadMapLib, mapStyle, isDark, circleGeo, homeMarkerEl, onStyle, loadHome, saveHome, miles, assess, statusChips, shortlist, shortlistTip, STAR, glossarize, calButtons, calMenu, calItems };
+  return { CATEGORIES, SUBJECTS, GENDER, esc, fmtDate, catBadge, lookupPostcode, addLocateButton, loadMapLib, mapStyle, isDark, circleGeo, homeMarkerEl, onStyle, loadHome, saveHome, miles, assess, statusChips, shortlist, shortlistTip, STAR, glossarize, calButtons, calMenu, calItems, ensureShortlistCalendar, calFeed };
 })();
