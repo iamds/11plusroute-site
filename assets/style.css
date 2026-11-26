@@ -749,3 +749,7 @@ footer { background: var(--surface); border: 1px solid var(--line); border-top: 
 .you.yes { background: var(--yes); color: #fff; }
 .you.no { background: var(--no); color: #fff; }
 @media (max-width: 720px) { .youbanner { margin: -8px -12px 8px; padding: 6px 12px; } }
+/* the map fills the right-hand side of the card, top to bottom, beside everything on the left */
+.cbody.hasmap { align-items: stretch; }
+.cbody.hasmap .minimap { width: 320px; height: auto; min-height: 170px; margin: 4px 0 0; align-self: stretch; }
+@media (max-width: 720px) { .cbody.hasmap .minimap { width: 100%; height: 170px; min-height: 0; margin-top: 10px; } }

@@ -511,7 +511,7 @@
       const mini = G0.lat != null && (ids.length || far) ? `<div class="minimap linked" role="button" tabindex="0" data-areas="${esc(ids.join(","))}" data-last="${far ? far.mi : ""}" aria-label="Open a larger map"><span class="mm-hint" aria-hidden="true">⤢ Enlarge</span></div>` : "";
       const facthtml = facts.replace(/<[^>]+>|\s/g, "") ? `<div class="cfacts">${facts}</div>` : "";
       const rows = acad.replace(/<\/div>$/, placesRow + "</div>") || `<div class="decides">${placesRow}</div>`;
-      const card = `<div class="cbody"><div class="cmain">${acad ? rows : `<div class="decides">${placesRow}</div>`}${facthtml}</div>${mini}</div>${det}`;
+      const card = `<div class="cbody${mini ? " hasmap" : ""}"><div class="cmain">${acad ? rows : `<div class="decides">${placesRow}</div>`}${facthtml}${det}</div>${mini}</div>`;
       return { c, cat, conds, qchip: "", card, title, noLabel, id: "p-" + String(c.priority).replace(/[^\w-]/g, "_"), special: !!SPECIAL[c.category] };
     });
     const gcls = () => "", gattr = () => "", gseg = () => "";
@@ -619,6 +619,7 @@
         m.resize(); m.fitBounds(bb, { padding: 16, duration: 0, maxZoom: 13 });
       };
       rec.fit = fit;
+      if ("ResizeObserver" in window) { let t; new ResizeObserver(() => { clearTimeout(t); t = setTimeout(fit, 120); }).observe(el); }
       fit(); m.once("load", fit); m.once("idle", fit); setTimeout(fit, 400);
       window.GS.onStyle(m, () => {
         if (m.getSource("mini")) return;

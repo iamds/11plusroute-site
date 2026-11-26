@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-1e281e40c576@www.11plusadmissions
  .co.uk
-DTSTAMP:20261126T223912Z
+DTSTAMP:20261126T224235Z
 DTSTART;VALUE=DATE:20260301
 DTEND;VALUE=DATE:20260302
 SUMMARY:Chislehurst and Sidcup Grammar School: Bexley Selection Test regist
@@ -22,7 +22,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-3eb2b30ef881@www.11plusadmissions
  .co.uk
-DTSTAMP:20261126T223912Z
+DTSTAMP:20261126T224235Z
 DTSTART;VALUE=DATE:20260331
 DTEND;VALUE=DATE:20260401
 SUMMARY:Chislehurst and Sidcup Grammar School: Registration closes (midnigh
@@ -37,7 +37,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-403acbe2bbf7@www.11plusadmissions
  .co.uk
-DTSTAMP:20261126T223912Z
+DTSTAMP:20261126T224235Z
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
 SUMMARY:Chislehurst and Sidcup Grammar School: Primary schools send special
@@ -51,7 +51,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-8cedbd7ac2c4@www.11plusadmissions
  .co.uk
-DTSTAMP:20261126T223912Z
+DTSTAMP:20261126T224235Z
 DTSTART;VALUE=DATE:20260803
 DTEND;VALUE=DATE:20260804
 SUMMARY:Chislehurst and Sidcup Grammar School: Test centre\, date and time 
@@ -65,7 +65,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-aef6469b22d2@www.11plusadmissions
  .co.uk
-DTSTAMP:20261126T223912Z
+DTSTAMP:20261126T224235Z
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
 SUMMARY:Chislehurst and Sidcup Grammar School: Bexley Selection Test window
@@ -80,7 +80,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-a498d6803113@www.11plusadmissions
  .co.uk
-DTSTAMP:20261126T223912Z
+DTSTAMP:20261126T224235Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Chislehurst and Sidcup Grammar School: Last day of the test window
@@ -93,7 +93,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-52b0b322393d@www.11plusadmissions
  .co.uk
-DTSTAMP:20261126T223912Z
+DTSTAMP:20261126T224235Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Chislehurst and Sidcup Grammar School: Test results emailed (from 4
@@ -107,7 +107,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-66bf1e06013f@www.11plusadmissions
  .co.uk
-DTSTAMP:20261126T223912Z
+DTSTAMP:20261126T224235Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Chislehurst and Sidcup Grammar School: Pupil Premium Supplementary 
@@ -121,7 +121,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-779e98cc208f@www.11plusadmissions
  .co.uk
-DTSTAMP:20261126T223912Z
+DTSTAMP:20261126T224235Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Chislehurst and Sidcup Grammar School: CAF deadline (national)
@@ -134,7 +134,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-01b830ee0f97@www.11plusadmissions
  .co.uk
-DTSTAMP:20261126T223912Z
+DTSTAMP:20261126T224235Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Chislehurst and Sidcup Grammar School: Bexley deadline for evidence
@@ -148,7 +148,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-189e2ef7c69a@www.11plusadmissions
  .co.uk
-DTSTAMP:20261126T223912Z
+DTSTAMP:20261126T224235Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Chislehurst and Sidcup Grammar School: Bexley deadline for late app
@@ -162,7 +162,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-b6c34c92fe76@www.11plusadmissions
  .co.uk
-DTSTAMP:20261126T223912Z
+DTSTAMP:20261126T224235Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Chislehurst and Sidcup Grammar School: National Offer Day
@@ -175,7 +175,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-44a61e091ecf@www.11plusadmissions
  .co.uk
-DTSTAMP:20261126T223912Z
+DTSTAMP:20261126T224235Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
 SUMMARY:Chislehurst and Sidcup Grammar School: Bexley deadline to accept or
@@ -189,7 +189,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-cf3180b81cf6@www.11plusadmissions
  .co.uk
-DTSTAMP:20261126T223912Z
+DTSTAMP:20261126T224235Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Chislehurst and Sidcup Grammar School: Bexley's published deadline 
