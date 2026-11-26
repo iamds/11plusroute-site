@@ -527,3 +527,9 @@ summary:hover .seclink, .stop:hover .seclink, .seclink:focus-visible { opacity: 
 .topnav .navsl svg { display: none; }
 .topnav .navsl.has svg { display: inline; }
 .slbtn svg { color: var(--gold); }
+.sltable td.past { color: var(--ink-2); text-decoration: line-through; text-decoration-color: color-mix(in srgb, var(--ink-2) 50%, transparent); }
+.sltable td.name .small { margin-top: 2px; font-weight: 400; }
+.sl-empty { padding: 18px 20px; }
+.slbtn.navsl { text-decoration: none; }
+.slbtn.navsl[hidden] { display: none; }
+.slbtn.navsl svg { display: inline; color: var(--gold); }
