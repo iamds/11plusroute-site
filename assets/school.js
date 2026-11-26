@@ -287,14 +287,17 @@
   }
   // Map of radius-based priority areas, the school and (if known) the visitor's home
   const G0 = s._geo || {};
-  const drawable = (G0.areas || []).filter(x => x.radius != null && x.centred_on_school);
+  const SHAPES = s._shapes || {};
+  const drawable = (G0.areas || []).filter(x => (x.radius != null && x.centred_on_school) || SHAPES[x.id]);
+  const areaFeature = x => x.radius != null && x.centred_on_school ? window.GS.circleGeo(G0.lat, G0.lng, x.radius) : { type: "Feature", geometry: SHAPES[x.id] };
+  const eachCoord = (geom, fn) => { const walk = c => typeof c[0] === "number" ? fn(c) : c.forEach(walk); walk(geom.coordinates); };
   const AREA_COLOURS = ["#0f7b4f", "#0a58b8", "#c25a00", "#7a2ea0", "#c2186b"];
   function areaMapHolder() {
     if (G0.lat == null || !drawable.length) return "";
     const others = (G0.areas || []).length - drawable.length;
     return `<div class="areamap-wrap"><div id="areamap" class="areamap" role="img" aria-label="Map of ${esc(s.name)}'s priority areas"></div>
-      <p class="small muted maplegend">${drawable.map((x, i) => `<span class="dot" style="background:${AREA_COLOURS[i % 5]}"></span>${esc(x.name)} (${x.radius} mi)`).join(" ")}
-      <span class="dot sch"></span>School <span class="dot hm"></span>Your postcode${others ? `<br>Areas defined by postcode, council, ward or parish aren't drawn: see the details below.` : ""}</p></div>`;
+      <p class="small muted maplegend">${drawable.map((x, i) => `<span class="dot" style="background:${AREA_COLOURS[i % 5]}"></span>${esc(x.name)}${x.radius != null && x.centred_on_school ? ` (${x.radius} mi)` : ""}`).join(" ")}
+      <span class="dot sch"></span>School <span class="dot hm"></span>Your postcode${Object.keys(SHAPES).length ? `<br>Shapes are approximate: check the school's own map or the details below if you live near an edge.` : ""}${others ? `<br>Some areas can't be drawn: see the details below.` : ""}</p></div>`;
   }
   let areaMap = null, homeMk = null;
   async function drawAreaMap() {
@@ -307,9 +310,11 @@
     const sch = document.createElement("div"); sch.className = "mpin"; sch.style.background = "#1f4e79"; sch.title = s.name;
     new maplibregl.Marker({ element: sch }).setLngLat([G0.lng, G0.lat]).addTo(areaMap);
     const bounds = new maplibregl.LngLatBounds([G0.lng, G0.lat], [G0.lng, G0.lat]);
-    const circles = drawable.map((x, i) => ({ x, i, f: window.GS.circleGeo(G0.lat, G0.lng, x.radius) }));
-    circles.forEach(c => c.f.geometry.coordinates[0].forEach(p => bounds.extend(p)));
-    const add = () => circles.slice().reverse().forEach(c => {
+    const circles = drawable.map((x, i) => ({ x, i, f: areaFeature(x) }));
+    circles.forEach(c => eachCoord(c.f.geometry, p => bounds.extend(p)));
+    // draw bigger areas first so smaller ones (often inside them) stay visible on top
+    const span = f => { let x0 = 180, x1 = -180, y0 = 90, y1 = -90; eachCoord(f.geometry, p => { x0 = Math.min(x0, p[0]); x1 = Math.max(x1, p[0]); y0 = Math.min(y0, p[1]); y1 = Math.max(y1, p[1]); }); return (x1 - x0) * (y1 - y0); };
+    const add = () => circles.slice().sort((p, q) => span(q.f) - span(p.f)).forEach(c => {
       const id = "area-" + c.i;
       if (areaMap.getSource(id)) return;
       areaMap.addSource(id, { type: "geojson", data: c.f });
@@ -328,7 +333,7 @@
     if (!home) return;
     homeMk = new maplibregl.Marker({ element: window.GS.homeMarkerEl(home.postcode) }).setLngLat([home.lng, home.lat]).addTo(areaMap);
     const b = new maplibregl.LngLatBounds([G0.lng, G0.lat], [G0.lng, G0.lat]);
-    drawable.forEach(x => window.GS.circleGeo(G0.lat, G0.lng, x.radius).geometry.coordinates[0].forEach(p => b.extend(p)));
+    drawable.forEach(x => eachCoord(areaFeature(x).geometry, p => b.extend(p)));
     b.extend([home.lng, home.lat]);
     areaMap.fitBounds(b, { padding: 40, duration: 0, maxZoom: 13 });
   }
@@ -535,7 +540,10 @@
     for (let p = el.parentElement; p; p = p.parentElement) if (p.tagName === "DETAILS") p.open = true;
     el.querySelectorAll("details").forEach(d => d.open = true);
     const smooth = !matchMedia("(prefers-reduced-motion: reduce)").matches && openTarget.ready;
-    requestAnimationFrame(() => el.scrollIntoView({ block: "start", behavior: smooth ? "smooth" : "auto" }));
+    // Links to a priority area land on the top of the "Priority areas" section so its map is in view
+    const scrollTo = el.classList.contains("area") && document.getElementById("areamap") ? document.getElementById("areas") : el;
+    if (scrollTo !== el) { el.classList.add("flash"); setTimeout(() => el.classList.remove("flash"), 1800); }
+    requestAnimationFrame(() => scrollTo.scrollIntoView({ block: "start", behavior: smooth ? "smooth" : "auto" }));
   }
   window.addEventListener("hashchange", openTarget);
   out.addEventListener("click", e => {

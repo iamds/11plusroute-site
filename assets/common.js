@@ -131,8 +131,14 @@ window.GS = (function () {
     const pcs = [...(a.postcode_districts || []).map(x => ["d", x]), ...(a.postcode_sectors || []).map(x => ["s", x])];
     if (pcs.length) checks.push(pcs.some(([k, x]) => k === "d" ? norm(x) === norm(home.outcode) : norm(x) === norm(home.sector)));
     if (a.units) checks.push(a.units.includes(home.postcode.replace(/\s/g, "")));
-    const places = [...(a.local_authorities || []).map(x => [x, [home.district, home.county]]), ...(a.wards || []).map(x => [x, [home.ward]]), ...(a.parishes || []).map(x => [x, [home.parish]])];
-    if (places.length) checks.push(places.some(([x, mine]) => mine.some(m => m && (norm(m) === norm(x) || norm(m).includes(norm(x)) || norm(x).includes(norm(m))))));
+    // When an area lists wards or parishes, its councils only say where those wards are; they aren't part of the area.
+    const fine = (a.wards && a.wards.length) || (a.parishes && a.parishes.length);
+    const near = (x, mine) => mine.some(m => m && (norm(m) === norm(x) || norm(m).includes(norm(x)) || norm(x).includes(norm(m))));
+    const places = [...(fine ? [] : (a.local_authorities || []).map(x => [x, [home.district, home.county]])), ...(a.wards || []).map(x => [x, [home.ward]]), ...(a.parishes || []).map(x => [x, [home.parish]])];
+    if (places.length) {
+      const inCouncil = !fine || !(a.local_authorities || []).length || (a.local_authorities || []).some(x => near(x, [home.district, home.county]));
+      checks.push(inCouncil && places.some(([x, mine]) => mine.some(m => m && norm(m) === norm(x))));
+    }
     const known = checks.filter(c => c !== null);
     if (!known.length) return "unknown";
     return known.some(Boolean) ? "in" : "out";
