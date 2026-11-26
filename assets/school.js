@@ -223,10 +223,12 @@
         ${(st.alternative_dates || []).map(ad => `<div class="desc">Alternative sitting${ad.who ? ` for ${esc(ad.who)}` : ""}${ad.dates?.from ? `: ${fmtDate(ad.dates.from)}` : ""}${ad.description ? ` (${esc(ad.description)})` : ""}</div>`).join("")}`)}`;
       const next = list[i + 1];
       h += stop({ id: list.length > 1 ? `test-${i + 1}` : "test-day", cls: "test", kicker: list.length > 1 ? `Test · stage ${i + 1} of ${list.length}` : "Entrance test", title: esc(st.name), body,
-        branch: st.progression && next ? { label: "Not through", cls: "exit", html: `<div class="title">Not invited to ${esc(next.name)}</div>${st.progression.ties ? `<div class="desc">Ties: ${esc(st.progression.ties)}</div>` : ""}` } : null });
+        branch: null });
       if (st.progression && next) {
+        // say who goes through to the next round, rather than a "not invited" exit off to the side
         const exc = (st.progression.exceptions || []).map(e => `<div class="exc">${esc(e.applies_to || "Some groups")}: ${rule(e.rule)}</div>`).join("");
-        h += seg(`<span class="go">Goes on</span> ${rule(st.progression)}${exc ? more(exc, "Exceptions") : ""}`, "yes");
+        const ties = st.progression.ties ? `<div class="exc">Ties: ${esc(st.progression.ties)}</div>` : "";
+        h += seg(`<span class="go">Through to ${esc(next.name)} if:</span> ${rule(st.progression)}<div class="muted small">${s.selection === "grammar" ? "If not, there's no place at this school." : "If not, the test places are closed, but the other priorities below still apply."}</div>${exc || ties ? more(exc + ties, exc ? "Exceptions" : "Ties") : ""}`, "yes");
       }
     });
     if (apt.length) h += stop({ id: "aptitude", cls: "apt", kicker: "Optional, alongside", title: "Aptitude tests", body: `<div class="steps">${apt.map(st => `
