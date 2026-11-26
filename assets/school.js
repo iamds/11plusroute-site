@@ -78,7 +78,8 @@
       }
       case "in_area": return `${areaQ(c.ref, false)} <span class="you" data-area="${esc(c.ref)}"></span>`;
       case "not_in_area": return `${areaQ(c.ref, true)} <span class="you" data-area="${esc(c.ref)}" data-neg="1"></span>`;
-      case "aptitude": return `Shows ${esc(c.subject || "")} aptitude${c.ref ? ` in the ${esc(stageName(c.ref))}` : ""}?${c.requirement ? ` <span class="muted">${esc(c.requirement)}</span>` : ""}`;
+      // the test details (who goes on, how it's marked) live in the test section; keep the question short
+      case "aptitude": return `Shows ${esc(c.subject || "")} aptitude?${c.requirement && !/test|score|mark|assess|audition|round|stage/i.test(c.requirement) ? ` <span class="muted">${esc(c.requirement)}</span>` : ""}`;
       case "any_of": return (c.conditions || []).map(x => cond(x).replace(/\?(?=(\s*<span[^>]*>[^<]*<\/span>)?\s*$)/, "")).join(` <b class="or">or</b> `) + "?";
       default: return esc(c.description || c.type) + (c.description?.endsWith("?") ? "" : "?");
     }
