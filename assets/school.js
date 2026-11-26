@@ -103,6 +103,22 @@
     return (latestAlloc.by_criterion || []).find(r => r.priority != null && String(r.priority) === String(priority));
   }
 
+  // Furthest offer for a distance-based priority: this priority's figure from the latest year that has one,
+  // otherwise the school's overall furthest offer (for the last distance-ordered priority only).
+  const byDistance = c => c.category === "distance" || (c.order_within || []).some(o => o.type === "distance");
+  function furthestFor(c, isLastDistance) {
+    if (!byDistance(c)) return null;
+    for (const a of y.allocations || []) {
+      const r = (a.by_criterion || []).find(r => r.priority != null && String(r.priority) === String(c.priority));
+      if (r && r.last_distance_miles != null) return { mi: r.last_distance_miles, year: a.entry_year };
+    }
+    if (isLastDistance) for (const a of y.allocations || []) {
+      const d = a.last_offered && a.last_offered.distance_miles;
+      if (d) return { mi: d, year: a.entry_year };
+    }
+    return null;
+  }
+
   // ---------- flowchart: a transit-map line. Each step is a station; branches leave to the right. ----------
   function stop(o) {
     return `<li class="stop ${o.cls || ""}${o.branch ? " has-branch" : ""}"${o.id ? ` id="${o.id}"` : ""}>
@@ -227,6 +243,7 @@
         ${aoDiffers ? `<div class="pool">Places are actually handed out in a different order from the list below:<div class="pills">${ao.map(pill).join('<span class="parrow">→</span>')}</div>${ov.allocation_order_description ? more(`<div class="desc">${esc(ov.allocation_order_description)}</div>`) : ""}</div>` : ""}` });
     }
     const SPECIAL = { looked_after: "looked-after children", disadvantaged: "Pupil Premium or free school meals", medical_social: "medical or social need", staff: "staff children" };
+    const lastDistIdx = (() => { let k = -1; crit.forEach((c, i) => { if (byDistance(c)) k = i; }); return k; })();
     const built = crit.map((c, i) => {
       const cat = CATEGORIES[c.category] || CATEGORIES.other;
       const conds = (c.conditions || []).map(cond);
@@ -236,6 +253,7 @@
       const outcome = `<div class="title">${esc(c.label)}</div>
         ${c.quota && quotaSize(c.quota) ? `<div class="quota">${esc(quotaSize(c.quota))}</div>` : ""}
         ${al && al.offers != null ? `<div class="alloc"><b>${al.offers}</b> offered in ${esc(latestAlloc.entry_year)}${al.last_distance_miles != null ? ` · furthest ${al.last_distance_miles} mi` : ""}${al.last_score != null ? ` · lowest score ${al.last_score}` : ""}</div>` : ""}
+        ${(() => { if (al && al.last_distance_miles != null) return ""; const f = furthestFor(c, i === lastDistIdx); return f ? `<div class="alloc">Furthest offer in ${esc(String(f.year).slice(0, 4))}: <b>${f.mi} mi</b></div>` : ""; })()}
         ${more(`${c.quota ? quota(c.quota).replace(/^<div class="quota">.*?<\/div>/, "") : ""}
         ${groupOf(c.priority).map(g => `<div class="desc">Counts towards the ${esc(groupAmount(g).replace(/^(up to|at least) /, ""))} shared with: ${(g.priorities || []).map(String).filter(x => x !== String(c.priority)).map(x => esc(shortLabel(critByP()[x]?.label || x))).join("; ") || "no other priority"}.</div>`).join("")}
         ${c.applies_at === "initial_allocation" ? `<div class="desc">Only applies when places are first offered on National Offer Day, not to later offers from the waiting list.</div>` : ""}
@@ -247,7 +265,12 @@
       const acad = c.academic_requirement ? `<div class="acad"><span>Academic bar</span> ${rule(c.academic_requirement)}</div>` : "";
       const qs = c.quota ? quotaSize(c.quota).replace(/^Up to /, "").replace(/^At least /, "") : "";
       const noLabel = !conds.length ? "" : c.quota ? (qs ? `No, or its ${esc(qs)} have gone` : "No, or its share of places has gone") : "No";
-      return { c, cat, conds, outcome, title, acad, noLabel, id: "p-" + String(c.priority).replace(/[^\w-]/g, "_"), special: !!SPECIAL[c.category] };
+      // small fixed map for stations that depend on where you live
+      const refs = []; (function walk(cs) { (cs || []).forEach(k => { if (k.type === "in_area" && k.ref) refs.push(k.ref); if (k.type === "any_of") walk(k.conditions); }); })(c.conditions);
+      const ids = refs.filter(id => drawable.some(x => x.id === id));
+      const far = !ids.length ? furthestFor(c, i === lastDistIdx) : null;
+      const mini = G0.lat != null && (ids.length || far) ? `<div class="minimap${ids.length ? " linked" : ""}" role="${ids.length ? "link" : "img"}" tabindex="${ids.length ? 0 : -1}" data-areas="${esc(ids.join(","))}" data-last="${far ? far.mi : ""}" aria-label="${ids.length ? "Open the priority areas map" : "Map of last year's furthest offer"}"></div>` : "";
+      return { c, cat, conds, outcome, title, acad: acad + mini, noLabel, id: "p-" + String(c.priority).replace(/[^\w-]/g, "_"), special: !!SPECIAL[c.category] };
     });
     let i = 0;
     while (i < built.length) {
@@ -325,9 +348,50 @@
     areaMap.fitBounds(bounds, { padding: 30, duration: 0, maxZoom: 13 });
     setAreaMapHome(currentHome);
   }
+  // ---------- small fixed maps inside the flowchart (built when scrolled into view) ----------
+  const minis = [];
+  function initMiniMaps() {
+    const els = [...out.querySelectorAll(".minimap")];
+    if (!els.length || G0.lat == null) return;
+    const build = async el => {
+      try { await window.GS.loadMapLib(); } catch (e) { el.remove(); return; }
+      const ids = el.dataset.areas ? el.dataset.areas.split(",") : [];
+      const feats = ids.map(id => drawable.find(x => x.id === id)).filter(Boolean).map(x => Object.assign(areaFeature(x), { properties: { k: "area" } }));
+      if (el.dataset.last) feats.push(Object.assign(window.GS.circleGeo(G0.lat, G0.lng, +el.dataset.last), { properties: { k: "last" } }));
+      const m = new maplibregl.Map({ container: el, style: window.GS.mapStyle(), center: [G0.lng, G0.lat], zoom: 10, interactive: false, attributionControl: false });
+      m.addControl(new maplibregl.AttributionControl({ compact: true }), "bottom-right");
+      setTimeout(() => el.querySelectorAll(".maplibregl-compact-show").forEach(x => x.classList.remove("maplibregl-compact-show")), 600);
+      const sch = document.createElement("div"); sch.className = "mpin"; sch.style.background = "#1f4e79";
+      new maplibregl.Marker({ element: sch }).setLngLat([G0.lng, G0.lat]).addTo(m);
+      const b = new maplibregl.LngLatBounds([G0.lng, G0.lat], [G0.lng, G0.lat]);
+      feats.forEach(f => eachCoord(f.geometry, p => b.extend(p)));
+      const fit = () => { m.resize(); m.fitBounds(b, { padding: 14, duration: 0, maxZoom: 13 }); };
+      fit(); m.once("load", fit); m.once("idle", fit); setTimeout(fit, 400);
+      window.GS.onStyle(m, () => {
+        if (m.getSource("mini")) return;
+        m.addSource("mini", { type: "geojson", data: { type: "FeatureCollection", features: feats } });
+        m.addLayer({ id: "mini-fill", type: "fill", source: "mini", filter: ["==", ["get", "k"], "area"], paint: { "fill-color": "#0f7b4f", "fill-opacity": 0.12 } });
+        m.addLayer({ id: "mini-line", type: "line", source: "mini", filter: ["==", ["get", "k"], "area"], paint: { "line-color": "#0f7b4f", "line-width": 2 } });
+        m.addLayer({ id: "mini-dash", type: "line", source: "mini", filter: ["==", ["get", "k"], "last"], paint: { "line-color": "#c25a00", "line-width": 2, "line-dasharray": [2, 1.5] } });
+      });
+      const rec = { m, home: null }; minis.push(rec); setMiniHome(rec, currentHome);
+    };
+    const io = "IntersectionObserver" in window ? new IntersectionObserver(es => es.forEach(en => { if (en.isIntersecting) { io.unobserve(en.target); build(en.target); } }), { rootMargin: "200px" }) : null;
+    els.forEach(el => {
+      const go = () => { if (el.dataset.areas && document.getElementById("areas")) location.hash = "#areas"; };
+      el.addEventListener("click", go);
+      el.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(); } });
+      io ? io.observe(el) : build(el);
+    });
+  }
+  function setMiniHome(rec, home) {
+    if (rec.home) { rec.home.remove(); rec.home = null; }
+    if (home) rec.home = new maplibregl.Marker({ element: window.GS.homeMarkerEl(home.postcode) }).setLngLat([home.lng, home.lat]).addTo(rec.m);
+  }
   let currentHome = null;
   function setAreaMapHome(home) {
     currentHome = home;
+    minis.forEach(rec => setMiniHome(rec, home));
     if (!areaMap) return;
     if (homeMk) { homeMk.remove(); homeMk = null; }
     if (!home) return;
@@ -555,6 +619,7 @@
   });
   out.addEventListener("click", e => { const a = e.target.closest("a.ppill, a.pmini"); if (a && a.getAttribute("href") === location.hash) openTarget(); });
   openTarget();
+  initMiniMaps();
   openTarget.ready = true;  // first jump on page load is instant; later in-page jumps animate
   const areasFold = document.getElementById("areas");
   if (areasFold) { areasFold.addEventListener("toggle", () => { if (areasFold.open) drawAreaMap(); }); if (areasFold.open) drawAreaMap(); }

@@ -141,9 +141,13 @@
       x.radius != null && x.centred_on_school ? circleGeo(r.geo.lat, r.geo.lng, x.radius)
       : shapes[x.id] ? { type: "Feature", geometry: shapes[x.id] } : null).filter(Boolean);
     // no priority area at all (places go purely by score, e.g. QE Barnet): show a 100-mile circle
+    feats.forEach(f => f.properties = { c: areaColour(r), k: "area" });
+    // nothing drawable but places went by distance: last year's furthest offer, dashed
+    if (!feats.length && r.geo.last && r.geo.last.miles)
+      feats.push(Object.assign(circleGeo(r.geo.lat, r.geo.lng, r.geo.last.miles), { properties: { c: areaColour(r), k: "last" } }));
     // no priority area at all, or "anywhere in the UK": show a 100-mile circle
-    if (!(r.geo.areas || []).length || (r.geo.areas || []).some(x => /anywhere/i.test(x.name || ""))) feats.push(circleGeo(r.geo.lat, r.geo.lng, 100));
-    feats.forEach(f => f.properties = { c: areaColour(r) });
+    else if (!(r.geo.areas || []).length || (r.geo.areas || []).some(x => /anywhere/i.test(x.name || "")))
+      feats.push(Object.assign(circleGeo(r.geo.lat, r.geo.lng, 100), { properties: { c: areaColour(r), k: "area" } }));
     return { type: "FeatureCollection", features: feats };
   }
   function showAreas(r) {
@@ -153,6 +157,14 @@
     if (r && !areaShapes) loadAreaShapes().then(() => { if ((pinned || hovered) === r) src.setData(schoolAreas(r)); });
   }
   let hovered = null, hoverTip = null;
+  // School name in a fixed corner panel (not on the map), so it never hides the home marker or the area
+  function showTip(r) {
+    if (!hoverTip) return;
+    if (!r || r === pinned && r !== hovered) { hoverTip.hidden = true; return; }
+    hoverTip.innerHTML = `<b>${esc(r.name)}</b>${r.miles != null ? ` · ${r.miles.toFixed(1)} mi` : ""}${tipNote(r)}`;
+    hoverTip.hidden = false;
+  }
+  const tipNote = r => { const f = schoolAreas(r).features; return f.length && f[0].properties.k === "last" ? `<br><span class="small">Dashed: furthest offer in ${esc(String(r.geo.last.year).slice(0, 4))}, ${r.geo.last.miles.toFixed(2)} mi</span>` : ""; };
   async function drawMap(list) {
     loadAreaShapes();
     try { await loadMapLib(); } catch (e) { $("map").innerHTML = '<p class="empty">The map couldn\'t load. Check your connection.</p>'; return; }
@@ -162,7 +174,7 @@
       map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-left");
     }
     markers.forEach(m => m.remove()); markers = [];
-    if (!hoverTip) hoverTip = new maplibregl.Popup({ closeButton: false, closeOnClick: false, offset: 12, className: "hovertip" });
+    if (!hoverTip) { hoverTip = document.createElement("div"); hoverTip.className = "maptip"; hoverTip.hidden = true; hoverTip.setAttribute("aria-live", "polite"); $("map").appendChild(hoverTip); }
     const bounds = new maplibregl.LngLatBounds();
     list.forEach(r => {
       if (!r.geo || r.geo.lat == null) return;
@@ -170,11 +182,11 @@
       const pop = new maplibregl.Popup({ offset: 10, maxWidth: "280px" }).setHTML(
         `<b><a href="schools/${r.slug}.html${pcq()}">${esc(r.name)}</a></b><br>${esc(r.town)} · ${GENDER[r.gender]}${r.miles != null ? ` · ${r.miles.toFixed(1)} mi` : ""}${home ? `<div class="gchips">${GS.statusChips(r._a, esc)}</div>` : ""}`);
       const mk = new maplibregl.Marker({ element: el }).setLngLat([r.geo.lng, r.geo.lat]).setPopup(pop).addTo(map);
-      el.addEventListener("mouseenter", () => { hovered = r; showAreas(r); if (!pop.isOpen()) hoverTip.setLngLat([r.geo.lng, r.geo.lat]).setHTML(`<b>${esc(r.name)}</b>${r.miles != null ? ` · ${r.miles.toFixed(1)} mi` : ""}`).addTo(map); });
-      el.addEventListener("mouseleave", () => { hovered = null; showAreas(pinned); hoverTip.remove(); });
+      el.addEventListener("mouseenter", () => { hovered = r; showAreas(r); showTip(r); });
+      el.addEventListener("mouseleave", () => { hovered = null; showAreas(pinned); showTip(pinned); });
       el.addEventListener("focus", () => { hovered = r; showAreas(r); });
       el.addEventListener("blur", () => { hovered = null; showAreas(pinned); });
-      pop.on("open", () => { pinned = r; showAreas(r); hoverTip.remove(); });
+      pop.on("open", () => { pinned = r; showAreas(r); showTip(null); });
       pop.on("close", () => { if (pinned === r) { pinned = null; showAreas(hovered); } });
       mk.getElement().setAttribute("aria-label", r.name + (r.miles != null ? `, ${r.miles.toFixed(1)} miles` : ""));
       markers.push(mk);
@@ -193,7 +205,8 @@
       if (map.getSource("hover-areas")) return;
       map.addSource("hover-areas", { type: "geojson", data: EMPTY });
       map.addLayer({ id: "hover-fill", type: "fill", source: "hover-areas", paint: { "fill-color": ["get", "c"], "fill-opacity": 0.12 } });
-      map.addLayer({ id: "hover-line", type: "line", source: "hover-areas", paint: { "line-color": ["get", "c"], "line-width": 2 } });
+      map.addLayer({ id: "hover-line", type: "line", source: "hover-areas", filter: ["!=", ["get", "k"], "last"], paint: { "line-color": ["get", "c"], "line-width": 2 } });
+      map.addLayer({ id: "hover-dash", type: "line", source: "hover-areas", filter: ["==", ["get", "k"], "last"], paint: { "line-color": ["get", "c"], "line-width": 2, "line-dasharray": [2, 1.5] } });
     };
     const setLayers = () => { setHover(); setRadius(); };
     GS.onStyle(map, setLayers);
