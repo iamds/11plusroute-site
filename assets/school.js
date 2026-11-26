@@ -129,7 +129,7 @@
   function stop(o) {
     return `<li class="stop ${o.cls || ""}${o.branch ? " has-branch" : ""}"${o.id ? ` id="${o.id}"` : ""}>
       <div class="rail"><span class="marker">${o.marker || ""}</span></div>
-      <div class="main">${o.kicker ? `<div class="kicker">${o.kicker}</div>` : ""}${o.title ? `<div class="title">${o.title}</div>` : ""}${o.body || ""}</div>
+      <div class="main">${o.kicker ? `<div class="kicker">${o.kicker}${o.id ? linkBtn(o.id) : ""}</div>` : ""}${o.title ? `<div class="title">${o.title}</div>` : ""}${o.body || ""}</div>
       ${o.branch ? `<div class="branch ${o.branch.cls || ""}"><div class="bcard"><span class="blabel">${o.branch.label}</span>${o.branch.html}</div></div>` : ""}
     </li>`;
   }
@@ -296,7 +296,7 @@
       if (i < built.length - 1) h += seg(b.noLabel, "no");
       i++;
     }
-    h += stop({ cls: "end", kicker: "End of the line", title: "No place offered", body: `<div class="desc">You can join the waiting list or appeal. See "Waiting list" below.</div>` });
+    h += stop({ cls: "end", kicker: "End of the line", title: "No place offered", body: `<div class="desc">You can join the waiting list or appeal. See <a href="#waiting">Waiting list and late applications</a> below.</div>` });
     return h;
   }
 
@@ -697,7 +697,7 @@
     ["Apply to council by", caf ? `<b>${fmtDate(caf.deadline)}</b>` : ""],
     ["Offers", offerDay ? `<b>${fmtDate(offerDay.date)}</b>` : ""],
   ].filter(([, v]) => v);
-  const fold = (id, title, body, open = false) => body && body.replace(/<[^>]+>|\s/g, "") ? `<details class="fold card" id="${id}"${open ? " open" : ""}><summary><h2>${title}</h2></summary><div class="fold-body">${body}</div></details>` : "";
+  const fold = (id, title, body, open = false) => body && body.replace(/<[^>]+>|\s/g, "") ? `<details class="fold card" id="${id}"${open ? " open" : ""}><summary><h2>${title}${linkBtn(id)}</h2></summary><div class="fold-body">${body}</div></details>` : "";
   const tie = (y.tie_breaks || []).length ? `<p><b>Tie-breaks:</b> ${(y.tie_breaks).map(t => esc(t.description || ordering(t))).join(" → ")}</p>` : "";
 
   out.innerHTML = `
@@ -817,7 +817,7 @@
     li.classList.toggle("expanded", open);
     li.querySelectorAll(".sg-toggle").forEach(x => x.setAttribute("aria-expanded", String(open)));
   });
-  out.addEventListener("click", e => { const a = e.target.closest("a.ppill, a.pmini"); if (a && a.getAttribute("href") === location.hash) openTarget(); });
+  out.addEventListener("click", e => { const a = e.target.closest('a[href^="#"]'); if (a && a.getAttribute("href") === location.hash) { e.preventDefault(); openTarget(); } });
   // remember this school for "Recently viewed" on the home page (this device only)
   try { const k = "gs-recent", l = JSON.parse(localStorage.getItem(k) || "[]").filter(x => x !== s.slug); l.unshift(s.slug); localStorage.setItem(k, JSON.stringify(l.slice(0, 8))); } catch (e) {}
   openTarget();
