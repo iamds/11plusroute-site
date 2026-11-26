@@ -15,7 +15,7 @@
     if (!r) return "";
     const known = ["none", "top_n", "score_at_least", "pass_mark", "sat_stage", "progressed_from", "score_relative"];
     if (known.includes(r.type)) {
-      if (r.type === "pass_mark") return r.value ? `Reach the pass mark (${esc(r.value)})` : "Reach the pass mark";
+      if (r.type === "pass_mark") return r.value ? `Reach the pass mark (${esc(r.value)})` : /set (each|every) year|set after|governors|decided|varies|not a fixed/i.test(r.description || "") ? "Reach a pass mark the school sets each year" : "Reach the pass mark";
       if (r.type === "top_n") return `Rank in the top ${esc(r.n)}${r.stage ? ` in ${esc(stageShort(r.stage))}` : ""}`;
       if (r.type === "score_at_least") return `Score at least ${esc(r.value)}${r.stage ? ` in ${esc(stageShort(r.stage))}` : ""}`;
       if (r.type === "none") return "No minimum score";
@@ -40,10 +40,10 @@
       case "any_of": return (r.rules || []).map(rule).join(" <b>or</b> ");
       case "score_relative": {
         const b = r.base || {};
-        const base = b.type === "rank_score" ? `the ${b.n}th-ranked score` : "the qualifying score";
+        const base = b.type === "rank_score" ? `the ${b.n}th-ranked score` : "the pass mark";
         if (r.within_percent != null) return `Within ${r.within_percent}% of ${base}`;
-        if (r.offset_points != null) return `${Math.abs(r.offset_points)} points ${r.offset_points < 0 ? "below" : "above"} ${base}`;
-        return `Relative to ${base}`;
+        if (r.offset_points != null) return r.offset_points < 0 ? `Up to ${Math.abs(r.offset_points)} points below ${base}` : `${r.offset_points} points above ${base}`;
+        return `At or above ${base}`;
       }
       case "school_determined": return `Number set by the school${r.typical_n ? ` (typically about ${r.typical_n})` : ""}`;
       case "date_of_birth_range": return `Born ${fmtDate(r.from)} – ${fmtDate(r.to)}`;
@@ -155,8 +155,9 @@
     const scoreOrder = (c.order_within || []).some(o => o.type === "score") || c.category === "score_rank";
     const tested = scoreOrder || c.category === "aptitude";
     let req = "";
+    let reqFull = "";
     if (c.academic_requirement && c.academic_requirement.type === "none") req = tested ? "Must sit the test (no minimum score)" : "";
-    else if (c.academic_requirement) req = rule(c.academic_requirement);
+    else if (c.academic_requirement) { req = shortRule(c.academic_requirement); reqFull = rule(c.academic_requirement); if (reqFull === req) reqFull = ""; }
     else if (s.selection === "grammar" && q.type && q.type !== "none") req = q.type === "sat_stage" ? `Must have sat ${esc(stageShort(q.ref))}` : "Must reach the pass mark";
     // "sat Stage Two" / "got through Part I" just repeats the test stages; when places go by score it adds nothing
     const stageOnly = r => r && (["sat_stage", "progressed_from"].includes(r.type) || (r.type === "all_of" && (r.rules || []).every(x => ["sat_stage", "progressed_from", "top_n"].includes(x.type))));
@@ -174,7 +175,7 @@
     // "Test score → Test score (VR) → Test score (English)..." is just the total with sub-score tie-breaks: say it once
     const slim = []; chain.forEach(o => { const prev = slim[slim.length - 1]; if (o.type === "score" && prev && prev.type === "score") return; slim.push(o); });
     const order = slim.map(o => o.type === "score" && !o.component && chain.filter(x => x.type === "score").length > 1 ? "Total test score" : SHORT_ORDER(o)).filter(Boolean);
-    const gate = req ? `<div class="gate need"><span class="rk-l">Needs</span><span class="rk-v">${req.replace(/^./, m => m.toUpperCase())}</span></div>`
+    const gate = req ? `<div class="gate need"><span class="rk-l">Needs</span><span class="rk-v">${req.replace(/^./, m => m.toUpperCase())}</span>${reqFull ? `<details class="feeders"><summary>more</summary><span class="muted">${reqFull}</span></details>` : ""}</div>`
       : (!tested ? `<div class="gate free"><span class="rk-l">Needs</span><span class="rk-v">No test needed</span></div>` : "");
     const rank = order.length ? `<div class="rank"><span class="rk-l">Ranked by</span>${order.map((o, k) => `<span class="rk-v${k ? " tb" : ""}">${o}</span>`).join('<span class="rk-arrow">→</span>')}</div>` : "";
     return gate || rank ? `<div class="decides">${gate}${rank}</div>` : "";
@@ -320,9 +321,10 @@
         ${w ? `<div class="subjects">${fs.weights_unit === "ratio" ? '<span class="muted small">Ratio</span>' : ""}${w}</div>` : ""}
         ${adj ? `<div class="desc">Adjusted for: ${adj}</div>` : ""}`, "How it's worked out") });
     }
-    if (q && q.type === "other") h += stop({ id: "pass-mark", cls: "decision passmark", kicker: "Pass mark", title: "Reach the qualifying standard?", body: `<div class="desc">${rule(q)}</div>` });
-    else if (q && q.type !== "none") {
-      h += stop({ id: "pass-mark", cls: "decision passmark", kicker: "Pass mark", title: rule(q) });
+    if (q && q.type !== "none") {
+      const short = q.type === "other" ? "Reach the school's qualifying standard" : shortRule(q);
+      const full = rule(q);
+      h += stop({ id: "pass-mark", cls: "decision passmark", kicker: "Pass mark", title: short.replace(/^./, m => m.toUpperCase()), body: full && full !== short ? more(`<div class="desc">${full}</div>`, "How it's set") : "" });
     }
     return h;
   }
