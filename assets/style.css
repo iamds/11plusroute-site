@@ -533,3 +533,4 @@ summary:hover .seclink, .stop:hover .seclink, .seclink:focus-visible { opacity: 
 .slbtn.navsl { text-decoration: none; }
 .slbtn.navsl[hidden] { display: none; }
 .slbtn.navsl svg { display: inline; color: var(--gold); }
+.mpin.mstar { width: 26px; height: 26px; padding: 0; border: 0; border-radius: 0; background: none !important; box-shadow: none; display: grid; place-items: center; filter: drop-shadow(0 1px 2px rgba(0,0,0,.5)); z-index: 2; }

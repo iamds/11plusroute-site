@@ -208,7 +208,11 @@
     const bounds = new maplibregl.LngLatBounds();
     list.forEach(r => {
       if (!r.geo || r.geo.lat == null) return;
-      const el = document.createElement("button"); el.type = "button"; el.className = "mpin"; el.style.background = colour(r); el.setAttribute("aria-label", r.name);
+      const el = document.createElement("button"); el.type = "button"; el.setAttribute("aria-label", r.name);
+      if (GS.shortlist.has(r.slug)) {  // shortlisted schools show as stars in the school's map colour
+        el.className = "mpin mstar"; el.style.color = colour(r);
+        el.innerHTML = '<svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" stroke="#fff" stroke-width="1.6" stroke-linejoin="round" d="m12 2.5 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5L12 17.3l-5.8 3.1 1.1-6.5-4.7-4.6 6.5-.9z"/></svg>';
+      } else { el.className = "mpin"; el.style.background = colour(r); }
       const pop = new maplibregl.Popup({ offset: 10, maxWidth: "280px" }).setHTML(
         `<button type="button" class="star${GS.shortlist.has(r.slug) ? " on" : ""}" data-slug="${r.slug}" aria-pressed="${GS.shortlist.has(r.slug)}" aria-label="Shortlist ${esc(r.name)}">${GS.STAR(GS.shortlist.has(r.slug))}</button><b><a href="schools/${r.slug}.html${pcq()}">${esc(r.name)}</a></b><br>${esc(r.town)} · ${GENDER[r.gender]}${r.miles != null ? ` · ${r.miles.toFixed(1)} mi` : ""}${home ? `<div class="gchips">${GS.statusChips(r._a, esc)}</div>` : ""}`);
       const mk = new maplibregl.Marker({ element: el }).setLngLat([r.geo.lng, r.geo.lat]).setPopup(pop).addTo(map);

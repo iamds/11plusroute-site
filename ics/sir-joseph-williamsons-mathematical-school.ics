@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Sir Joseph Williamson's Mathematical School admissions
 BEGIN:VEVENT
 UID:sir-joseph-williamsons-mathematical-school-2026-05-18-0@iamds.github.io
-DTSTAMP:20261126T084504Z
+DTSTAMP:20261126T084538Z
 DTSTART;VALUE=DATE:20260518
 DTEND;VALUE=DATE:20260519
 SUMMARY:Sir Joseph Williamson's Mathematical School: Medway Test registrati
@@ -16,7 +16,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sir-joseph-williamsons-mathematical-school-2026-06-12-1@iamds.github.io
-DTSTAMP:20261126T084504Z
+DTSTAMP:20261126T084538Z
 DTSTART;VALUE=DATE:20260612
 DTEND;VALUE=DATE:20260613
 SUMMARY:Sir Joseph Williamson's Mathematical School: Medway Test registrati
@@ -27,7 +27,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sir-joseph-williamsons-mathematical-school-2026-06-22-2@iamds.github.io
-DTSTAMP:20261126T084504Z
+DTSTAMP:20261126T084538Z
 DTSTART;VALUE=DATE:20260622
 DTEND;VALUE=DATE:20260623
 SUMMARY:Sir Joseph Williamson's Mathematical School: Deadline for schools t
@@ -38,7 +38,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sir-joseph-williamsons-mathematical-school-2026-09-01-3@iamds.github.io
-DTSTAMP:20261126T084504Z
+DTSTAMP:20261126T084538Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Sir Joseph Williamson's Mathematical School: Secondary applications
@@ -49,7 +49,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sir-joseph-williamsons-mathematical-school-2026-09-15-4@iamds.github.io
-DTSTAMP:20261126T084504Z
+DTSTAMP:20261126T084538Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:Sir Joseph Williamson's Mathematical School: Medway Test at Medway 
@@ -60,7 +60,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sir-joseph-williamsons-mathematical-school-2026-09-19-5@iamds.github.io
-DTSTAMP:20261126T084504Z
+DTSTAMP:20261126T084538Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Sir Joseph Williamson's Mathematical School: Medway Test at test ce
@@ -71,7 +71,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sir-joseph-williamsons-mathematical-school-2026-10-14-6@iamds.github.io
-DTSTAMP:20261126T084504Z
+DTSTAMP:20261126T084538Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 SUMMARY:Sir Joseph Williamson's Mathematical School: Medway Test results
@@ -81,7 +81,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sir-joseph-williamsons-mathematical-school-2026-10-31-7@iamds.github.io
-DTSTAMP:20261126T084504Z
+DTSTAMP:20261126T084538Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Sir Joseph Williamson's Mathematical School: Secondary application 
@@ -92,7 +92,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sir-joseph-williamsons-mathematical-school-2027-03-01-8@iamds.github.io
-DTSTAMP:20261126T084504Z
+DTSTAMP:20261126T084538Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Sir Joseph Williamson's Mathematical School: National Offer Day
@@ -102,7 +102,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sir-joseph-williamsons-mathematical-school-2027-03-12-9@iamds.github.io
-DTSTAMP:20261126T084504Z
+DTSTAMP:20261126T084538Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:Sir Joseph Williamson's Mathematical School: Deadline to accept/ref
@@ -114,7 +114,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sir-joseph-williamsons-mathematical-school-2027-04-13-10@iamds.github.i
  o
-DTSTAMP:20261126T084504Z
+DTSTAMP:20261126T084538Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Sir Joseph Williamson's Mathematical School: Deadline for on-time a
@@ -126,7 +126,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sir-joseph-williamsons-mathematical-school-2027-04-19-11@iamds.github.i
  o
-DTSTAMP:20261126T084504Z
+DTSTAMP:20261126T084538Z
 DTSTART;VALUE=DATE:20270419
 DTEND;VALUE=DATE:20270420
 SUMMARY:Sir Joseph Williamson's Mathematical School: Reallocation from wait
@@ -138,7 +138,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sir-joseph-williamsons-mathematical-school-2027-08-31-12@iamds.github.i
  o
-DTSTAMP:20261126T084504Z
+DTSTAMP:20261126T084538Z
 DTSTART;VALUE=DATE:20270831
 DTEND;VALUE=DATE:20270901
 SUMMARY:Sir Joseph Williamson's Mathematical School: Council waiting lists 
