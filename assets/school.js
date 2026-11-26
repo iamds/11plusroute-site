@@ -156,7 +156,9 @@
     else if (s.selection === "grammar" && q.type && q.type !== "none") req = q.type === "sat_stage" ? `Must have sat ${esc(stageShort(q.ref))}` : "Must reach the pass mark";
     req = req.replace(/[.\s]+$/, "");
     const chain = (c.order_within || []).length ? c.order_within : (y.tie_breaks || []);
-    const order = chain.map(SHORT_ORDER).filter(Boolean);
+    // "Test score → Test score (VR) → Test score (English)..." is just the total with sub-score tie-breaks: say it once
+    const slim = []; chain.forEach(o => { const prev = slim[slim.length - 1]; if (o.type === "score" && prev && prev.type === "score") return; slim.push(o); });
+    const order = slim.map(o => o.type === "score" && !o.component && chain.filter(x => x.type === "score").length > 1 ? "Total test score" : SHORT_ORDER(o)).filter(Boolean);
     const gate = req ? `<div class="gate need"><span class="rk-l">Needs</span><span class="rk-v">${req.replace(/^./, m => m.toUpperCase())}</span></div>`
       : (!tested ? `<div class="gate free"><span class="rk-l">Needs</span><span class="rk-v">No test needed</span></div>` : "");
     const rank = order.length ? `<div class="rank"><span class="rk-l">Ranked by</span>${order.map((o, k) => `<span class="rk-v${k ? " tb" : ""}">${o}</span>`).join('<span class="rk-arrow">→</span>')}</div>` : "";

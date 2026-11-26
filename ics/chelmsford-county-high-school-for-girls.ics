@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:chelmsford-county-high-school-for-girls-3f1ddb886cdd@www.11plusadmissio
  ns.co.uk
-DTSTAMP:20261126T175220Z
+DTSTAMP:20261126T180448Z
 DTSTART;VALUE=DATE:20260413
 DTEND;VALUE=DATE:20260414
 SUMMARY:Chelmsford County High School for Girls: Test registration opens (9
@@ -22,7 +22,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chelmsford-county-high-school-for-girls-3e8e9596aa49@www.11plusadmissio
  ns.co.uk
-DTSTAMP:20261126T175220Z
+DTSTAMP:20261126T180448Z
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
 SUMMARY:Chelmsford County High School for Girls: CCHS open evening
@@ -35,7 +35,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chelmsford-county-high-school-for-girls-a294ae9fcc15@www.11plusadmissio
  ns.co.uk
-DTSTAMP:20261126T175220Z
+DTSTAMP:20261126T180448Z
 DTSTART;VALUE=DATE:20260603
 DTEND;VALUE=DATE:20260604
 SUMMARY:Chelmsford County High School for Girls: Test registration closes (
@@ -49,7 +49,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chelmsford-county-high-school-for-girls-d5eaeb6a6d5b@www.11plusadmissio
  ns.co.uk
-DTSTAMP:20261126T175220Z
+DTSTAMP:20261126T180448Z
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
 SUMMARY:Chelmsford County High School for Girls: CCHS Entrance Test (Thursd
@@ -63,7 +63,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chelmsford-county-high-school-for-girls-c3d0d9b54521@www.11plusadmissio
  ns.co.uk
-DTSTAMP:20261126T175220Z
+DTSTAMP:20261126T180448Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 SUMMARY:Chelmsford County High School for Girls: Results emailed
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chelmsford-county-high-school-for-girls-92efd38aa67d@www.11plusadmissio
  ns.co.uk
-DTSTAMP:20261126T175220Z
+DTSTAMP:20261126T180448Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Chelmsford County High School for Girls: Application deadline\; Pup
@@ -91,7 +91,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chelmsford-county-high-school-for-girls-fa2552d34024@www.11plusadmissio
  ns.co.uk
-DTSTAMP:20261126T175220Z
+DTSTAMP:20261126T180448Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Chelmsford County High School for Girls: Consultation on 2028 admis
@@ -105,7 +105,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chelmsford-county-high-school-for-girls-b6c34c92fe76@www.11plusadmissio
  ns.co.uk
-DTSTAMP:20261126T175220Z
+DTSTAMP:20261126T180448Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Chelmsford County High School for Girls: National Offer Day
