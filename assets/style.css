@@ -622,3 +622,7 @@ dl.glossary dd { margin: 4px 0 0; color: var(--ink-2); }
 .sltable td.cal { white-space: nowrap; text-align: right; }
 .sltable .calmain { font-size: .82rem; padding: 5px 9px; }
 .sltable .calmenu { right: 0; left: auto; }
+.recent { display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: center; margin: 4px 0 10px; }
+.recent[hidden] { display: none; }
+.recent a { font-size: .85rem; font-weight: 600; padding: 4px 10px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--ink); text-decoration: none; }
+.recent a:hover { background: var(--surface-2); }

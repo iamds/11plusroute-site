@@ -94,6 +94,17 @@
     }
     render();
   });
+  // Recently viewed schools (saved on this device by school pages)
+  (function recent() {
+    let l = []; try { l = JSON.parse(localStorage.getItem("gs-recent") || "[]"); } catch (e) {}
+    const by = Object.fromEntries(rows.map(r => [r.slug, r]));
+    const items = l.map(x => by[x]).filter(Boolean).slice(0, 6);
+    if (!items.length) return;
+    const box = $("recent");
+    box.innerHTML = `<span class="small muted">Recently viewed:</span> ${items.map(r => `<a href="schools/${r.slug}.html">${esc(r.name)}</a>`).join("")}<button type="button" class="linkbtn small" id="recent-clear">Clear</button>`;
+    box.hidden = false;
+    $("recent-clear").onclick = () => { try { localStorage.removeItem("gs-recent"); } catch (e) {} box.hidden = true; };
+  })();
   function render() {
     const list = filtered();
     const k = state.sort, d = state.dir;

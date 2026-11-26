@@ -818,6 +818,8 @@
     li.querySelectorAll(".sg-toggle").forEach(x => x.setAttribute("aria-expanded", String(open)));
   });
   out.addEventListener("click", e => { const a = e.target.closest("a.ppill, a.pmini"); if (a && a.getAttribute("href") === location.hash) openTarget(); });
+  // remember this school for "Recently viewed" on the home page (this device only)
+  try { const k = "gs-recent", l = JSON.parse(localStorage.getItem(k) || "[]").filter(x => x !== s.slug); l.unshift(s.slug); localStorage.setItem(k, JSON.stringify(l.slice(0, 8))); } catch (e) {}
   openTarget();
   window.GS.glossarize(out);
   initMiniMaps();
