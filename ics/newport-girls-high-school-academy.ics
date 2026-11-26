@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:newport-girls-high-school-academy-95d3564117c4@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T180448Z
+DTSTAMP:20261126T180745Z
 DTSTART;VALUE=DATE:20260324
 DTEND;VALUE=DATE:20260325
 SUMMARY:Newport Girls' High School Academy: Open events for September 2027 
@@ -22,7 +22,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:newport-girls-high-school-academy-c39e05fea86d@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T180448Z
+DTSTAMP:20261126T180745Z
 DTSTART;VALUE=DATE:20260505
 DTEND;VALUE=DATE:20260506
 SUMMARY:Newport Girls' High School Academy: Online test registration portal
@@ -36,7 +36,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:newport-girls-high-school-academy-fdc741a2c2fd@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T180448Z
+DTSTAMP:20261126T180745Z
 DTSTART;VALUE=DATE:20260612
 DTEND;VALUE=DATE:20260613
 SUMMARY:Newport Girls' High School Academy: Reasonable adjustments form dea
@@ -50,7 +50,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:newport-girls-high-school-academy-8d2263f55a47@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T180448Z
+DTSTAMP:20261126T180745Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:Newport Girls' High School Academy: Online test registration deadli
@@ -64,7 +64,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:newport-girls-high-school-academy-ec58e71e5166@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T180448Z
+DTSTAMP:20261126T180745Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:Newport Girls' High School Academy: Test invitation letters issued 
@@ -79,7 +79,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:newport-girls-high-school-academy-44cb926eeb84@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T180448Z
+DTSTAMP:20261126T180745Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 SUMMARY:Newport Girls' High School Academy: Entrance test at NGHS
@@ -92,7 +92,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:newport-girls-high-school-academy-392e3b446091@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T180448Z
+DTSTAMP:20261126T180745Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 SUMMARY:Newport Girls' High School Academy: Results emailed (by 16 October)
@@ -105,7 +105,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:newport-girls-high-school-academy-209ac71e0679@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T180448Z
+DTSTAMP:20261126T180745Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Newport Girls' High School Academy: Deadline for preference forms t
@@ -119,7 +119,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:newport-girls-high-school-academy-b6c34c92fe76@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T180448Z
+DTSTAMP:20261126T180745Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Newport Girls' High School Academy: National Offer Day

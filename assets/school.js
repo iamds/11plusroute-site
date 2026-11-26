@@ -154,6 +154,9 @@
     if (c.academic_requirement && c.academic_requirement.type === "none") req = tested ? "Must sit the test (no minimum score)" : "";
     else if (c.academic_requirement) req = rule(c.academic_requirement);
     else if (s.selection === "grammar" && q.type && q.type !== "none") req = q.type === "sat_stage" ? `Must have sat ${esc(stageShort(q.ref))}` : "Must reach the pass mark";
+    // "sat Stage Two" / "got through Part I" just repeats the test stages; when places go by score it adds nothing
+    const stageOnly = r => r && (["sat_stage", "progressed_from"].includes(r.type) || (r.type === "all_of" && (r.rules || []).every(x => ["sat_stage", "progressed_from", "top_n"].includes(x.type))));
+    if (scoreOrder && (stageOnly(c.academic_requirement) || (!c.academic_requirement && q.type === "sat_stage"))) req = "";
     req = req.replace(/[.\s]+$/, "");
     const chain = (c.order_within || []).length ? c.order_within : (y.tie_breaks || []);
     // "Test score → Test score (VR) → Test score (English)..." is just the total with sub-score tie-breaks: say it once
