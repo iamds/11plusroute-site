@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-school-e6f6c5df2f80@www.11plusadmissions.co.u
  k
-DTSTAMP:20261126T120537Z
+DTSTAMP:20261126T120916Z
 DTSTART;VALUE=DATE:20260505
 DTEND;VALUE=DATE:20260506
 SUMMARY:King Edward VI Handsworth School: Test registration opens (westmidl
@@ -22,7 +22,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-school-bbc42125a58e@www.11plusadmissions.co.u
  k
-DTSTAMP:20261126T120537Z
+DTSTAMP:20261126T120916Z
 DTSTART;VALUE=DATE:20260612
 DTEND;VALUE=DATE:20260613
 SUMMARY:King Edward VI Handsworth School: 4pm: reasonable adjustments deadl
@@ -36,7 +36,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-school-3191da08558c@www.11plusadmissions.co.u
  k
-DTSTAMP:20261126T120537Z
+DTSTAMP:20261126T120916Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:King Edward VI Handsworth School: 4pm: test registration deadline (
@@ -50,7 +50,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-school-aab2f79d98b6@www.11plusadmissions.co.u
  k
-DTSTAMP:20261126T120537Z
+DTSTAMP:20261126T120916Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 SUMMARY:King Edward VI Handsworth School: Test venue and session (AM/PM) co
@@ -64,7 +64,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-school-3c24a6f428ca@www.11plusadmissions.co.u
  k
-DTSTAMP:20261126T120537Z
+DTSTAMP:20261126T120916Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:King Edward VI Handsworth School: Test-day information sent (early 
@@ -78,7 +78,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-school-4321f539b7fe@www.11plusadmissions.co.u
  k
-DTSTAMP:20261126T120537Z
+DTSTAMP:20261126T120916Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:King Edward VI Handsworth School: Deadline: Pupil Premium eligibili
@@ -92,7 +92,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-school-89e979fefb81@www.11plusadmissions.co.u
  k
-DTSTAMP:20261126T120537Z
+DTSTAMP:20261126T120916Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:King Edward VI Handsworth School: Entrance test (Saturday\, AM and 
@@ -106,7 +106,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-school-be7df177b9bb@www.11plusadmissions.co.u
  k
-DTSTAMP:20261126T120537Z
+DTSTAMP:20261126T120916Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:King Edward VI Handsworth School: Test results sent (by Friday 16 O
@@ -120,7 +120,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-school-a1a855dd06e1@www.11plusadmissions.co.u
  k
-DTSTAMP:20261126T120537Z
+DTSTAMP:20261126T120916Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:King Edward VI Handsworth School: Home LA preference form (CAF) dea
@@ -134,7 +134,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-school-40680e68d86c@www.11plusadmissions.co.u
  k
-DTSTAMP:20261126T120537Z
+DTSTAMP:20261126T120916Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:King Edward VI Handsworth School: National Offer Day (1 March or ne
