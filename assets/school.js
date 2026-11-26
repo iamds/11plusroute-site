@@ -365,7 +365,14 @@
       new maplibregl.Marker({ element: sch }).setLngLat([G0.lng, G0.lat]).addTo(m);
       const b = new maplibregl.LngLatBounds([G0.lng, G0.lat], [G0.lng, G0.lat]);
       feats.forEach(f => eachCoord(f.geometry, p => b.extend(p)));
-      const fit = () => { m.resize(); m.fitBounds(b, { padding: 14, duration: 0, maxZoom: 13 }); };
+      const rec = { m, home: null, b, homeLL: null };
+      // include home when known and not too far away (otherwise the area shrinks to a dot)
+      const fit = () => {
+        const bb = new maplibregl.LngLatBounds(b.getSouthWest(), b.getNorthEast());
+        if (rec.homeLL) bb.extend(rec.homeLL);
+        m.resize(); m.fitBounds(bb, { padding: 16, duration: 0, maxZoom: 13 });
+      };
+      rec.fit = fit;
       fit(); m.once("load", fit); m.once("idle", fit); setTimeout(fit, 400);
       window.GS.onStyle(m, () => {
         if (m.getSource("mini")) return;
@@ -374,7 +381,7 @@
         m.addLayer({ id: "mini-line", type: "line", source: "mini", filter: ["==", ["get", "k"], "area"], paint: { "line-color": "#0f7b4f", "line-width": 2 } });
         m.addLayer({ id: "mini-dash", type: "line", source: "mini", filter: ["==", ["get", "k"], "last"], paint: { "line-color": "#c25a00", "line-width": 2, "line-dasharray": [2, 1.5] } });
       });
-      const rec = { m, home: null }; minis.push(rec); setMiniHome(rec, currentHome);
+      minis.push(rec); setMiniHome(rec, currentHome);
     };
     const io = "IntersectionObserver" in window ? new IntersectionObserver(es => es.forEach(en => { if (en.isIntersecting) { io.unobserve(en.target); build(en.target); } }), { rootMargin: "200px" }) : null;
     els.forEach(el => {
@@ -386,7 +393,12 @@
   }
   function setMiniHome(rec, home) {
     if (rec.home) { rec.home.remove(); rec.home = null; }
-    if (home) rec.home = new maplibregl.Marker({ element: window.GS.homeMarkerEl(home.postcode) }).setLngLat([home.lng, home.lat]).addTo(rec.m);
+    rec.homeLL = null;
+    if (home) {
+      rec.home = new maplibregl.Marker({ element: window.GS.homeMarkerEl(home.postcode) }).setLngLat([home.lng, home.lat]).addTo(rec.m);
+      if (window.GS.miles(home, G0) <= 30) rec.homeLL = [home.lng, home.lat];
+    }
+    if (rec.fit) rec.fit();
   }
   let currentHome = null;
   function setAreaMapHome(home) {

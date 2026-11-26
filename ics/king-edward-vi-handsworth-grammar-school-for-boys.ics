@@ -6,7 +6,7 @@ X-WR-CALNAME:King Edward VI Handsworth Grammar School for Boys admissions
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-grammar-school-for-boys-2026-05-05-0@iamds.gi
  thub.io
-DTSTAMP:20261126T070522Z
+DTSTAMP:20261126T070655Z
 DTSTART;VALUE=DATE:20260505
 DTEND;VALUE=DATE:20260506
 SUMMARY:King Edward VI Handsworth Grammar School for Boys: Test registratio
@@ -19,7 +19,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-grammar-school-for-boys-2026-06-12-1@iamds.gi
  thub.io
-DTSTAMP:20261126T070522Z
+DTSTAMP:20261126T070655Z
 DTSTART;VALUE=DATE:20260612
 DTEND;VALUE=DATE:20260613
 SUMMARY:King Edward VI Handsworth Grammar School for Boys: 4pm: reasonable 
@@ -31,7 +31,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-grammar-school-for-boys-2026-06-26-2@iamds.gi
  thub.io
-DTSTAMP:20261126T070522Z
+DTSTAMP:20261126T070655Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:King Edward VI Handsworth Grammar School for Boys: 4pm: test regist
@@ -44,7 +44,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-grammar-school-for-boys-2026-07-31-3@iamds.gi
  thub.io
-DTSTAMP:20261126T070522Z
+DTSTAMP:20261126T070655Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 SUMMARY:King Edward VI Handsworth Grammar School for Boys: Test venue and s
@@ -56,7 +56,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-grammar-school-for-boys-2026-09-01-4@iamds.gi
  thub.io
-DTSTAMP:20261126T070522Z
+DTSTAMP:20261126T070655Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:King Edward VI Handsworth Grammar School for Boys: Test-day informa
@@ -68,7 +68,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-grammar-school-for-boys-2026-09-11-5@iamds.gi
  thub.io
-DTSTAMP:20261126T070522Z
+DTSTAMP:20261126T070655Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:King Edward VI Handsworth Grammar School for Boys: Deadline: Pupil 
@@ -80,7 +80,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-grammar-school-for-boys-2026-09-12-6@iamds.gi
  thub.io
-DTSTAMP:20261126T070522Z
+DTSTAMP:20261126T070655Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:King Edward VI Handsworth Grammar School for Boys: Entrance test (S
@@ -92,7 +92,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-grammar-school-for-boys-2026-10-16-7@iamds.gi
  thub.io
-DTSTAMP:20261126T070522Z
+DTSTAMP:20261126T070655Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:King Edward VI Handsworth Grammar School for Boys: Test results sen
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-grammar-school-for-boys-2026-10-31-8@iamds.gi
  thub.io
-DTSTAMP:20261126T070522Z
+DTSTAMP:20261126T070655Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:King Edward VI Handsworth Grammar School for Boys: Home LA preferen
@@ -116,7 +116,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-grammar-school-for-boys-2027-03-01-9@iamds.gi
  thub.io
-DTSTAMP:20261126T070522Z
+DTSTAMP:20261126T070655Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:King Edward VI Handsworth Grammar School for Boys: National Offer D
