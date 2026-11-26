@@ -11,20 +11,56 @@
   function stageName(ref) { return ref === "final" ? "the final score" : (stages[ref]?.name || ref); }
   function stageShort(ref) { return stageName(ref).replace(/\s*\(.*\)\s*$/, ""); }
   // short version of a rule for headlines: ignore the long description where the type says it all
+  // One short, predictable line for the pass mark step; the full rule is under "How it's set"
+  function passTitle(q) {
+    const flat = []; (function w(r) { if (!r) return; if (r.type === "all_of" || r.type === "any_of") (r.rules || []).forEach(w); else flat.push(r); })(q);
+    const setBySchool = t => /set (each|every) year|set after|governors|decided|varies|not a fixed|required standard|qualifying standard/i.test(t || "");
+    const val = flat.find(r => (r.type === "score_at_least" || r.type === "pass_mark") && r.value != null);
+    const top = flat.find(r => r.type === "top_n");
+    const review = q.type === "any_of" && flat.some(r => r.type === "other" && /review|headteacher|panel|appeal|refer/i.test(r.description || ""));
+    let t;
+    if (q.type === "sat_stage") t = `No fixed pass mark: must sit ${esc(stageShort(q.ref))}`;
+    else if (val) t = `Score at least ${esc(val.value)}${val.stage ? ` in the ${esc(stageShort(val.stage))}` : ""}`;
+    else if (top) t = `Rank in the top ${esc(top.n)}${top.stage ? ` in the ${esc(stageShort(top.stage))}` : ""}`;
+    else if (setBySchool(q.description) || flat.some(r => setBySchool(r.description))) t = "Reach a pass mark the school sets";
+    else t = "Reach the pass mark";
+    return review ? t + ", or be selected on review" : t;
+  }
   function shortRule(r) {
     if (!r) return "";
     const known = ["none", "top_n", "score_at_least", "pass_mark", "sat_stage", "progressed_from", "score_relative"];
     if (known.includes(r.type)) {
-      if (r.type === "pass_mark") return r.value ? `Reach the pass mark (${esc(r.value)})` : /set (each|every) year|set after|governors|decided|varies|not a fixed/i.test(r.description || "") ? "Reach a pass mark the school sets each year" : "Reach the pass mark";
+      if (r.type === "pass_mark") {
+        const where = [r.component ? esc(SUBJECTS[r.component] || r.component) : "", r.stage ? esc(stageShort(r.stage)) : ""].filter(Boolean).join(", ");
+        if (r.value) return `Reach the pass mark${where ? ` in ${where}` : ""} (${esc(r.value)})`;
+        if (where) return `Reach the pass mark in ${where}`;
+        return /set (each|every) year|set after|governors|decided|varies|not a fixed/i.test(r.description || "") ? "Reach a pass mark the school sets" : "Reach the pass mark";
+      }
       if (r.type === "top_n") return `Rank in the top ${esc(r.n)}${r.stage ? ` in ${esc(stageShort(r.stage))}` : ""}`;
       if (r.type === "score_at_least") return `Score at least ${esc(r.value)}${r.stage ? ` in ${esc(stageShort(r.stage))}` : ""}`;
       if (r.type === "none") return "No minimum score";
       return rule({ ...r, description: undefined });
     }
-    if (r.type === "all_of" || r.type === "any_of") return (r.rules || []).map(shortRule).join(r.type === "all_of" ? " <b>and</b> " : " <b>or</b> ");
-    if (r.type === "school_determined") return "Be one of those the school invites (enough to fill its places)";
+    if (r.type === "all_of" || r.type === "any_of") {
+      const parts = [...new Set((r.rules || []).map(shortRule).filter(Boolean))];
+      // "Reach the pass mark in A", "...in B" -> "Reach the pass mark in A and B"
+      const pm = parts.filter(p => /^Reach the pass mark in /.test(p) && !/\(/.test(p)), rest = parts.filter(p => !pm.includes(p));
+      const merged = pm.length > 1 ? [`Reach the pass mark in ${pm.map(p => p.replace(/^Reach the pass mark in /, "")).join(r.type === "all_of" ? " and " : " or ")}`] : pm;
+      let all = [...merged, ...rest];
+      // "within 20 points of the pass mark OR reach the pass mark" is just "within 20 points of the pass mark"
+      if (r.type === "any_of" && all.some(p => /below the pass mark|of the pass mark/.test(p))) all = all.filter(p => !/^Reach the pass mark$/.test(p));
+      if (r.type === "any_of") {
+        // "Score at least 115 in X or Score at least 110 in X" -> the lower one
+        const sc = all.map(p => /^Score at least (\d+) in (.+)$/.exec(p));
+        if (sc.every(Boolean) && new Set(sc.map(m => m[2])).size === 1) all = [`Score at least ${Math.min(...sc.map(m => +m[1]))} in ${sc[0][2]}`];
+        if (all.length > 1 && all.includes("Meet the school's score requirement")) all = [all.filter(p => p !== "Meet the school's score requirement")[0] + " (or another route)"];
+      }
+      const out = all.join(r.type === "all_of" ? " <b>and</b> " : " <b>or</b> ");
+      return out.replace(/<[^>]+>/g, "").length > 110 ? `${all[0]} ${r.type === "all_of" ? "(and other conditions)" : "(or another route)"}` : out;
+    }
+    if (r.type === "school_determined") return "Be one of those invited (the school invites at least enough to fill its places)";
     const t = String(r.description || r.type).split(/(?<=[.;])\s/)[0].replace(/[.;]$/, "");
-    return esc(t.length > 120 ? t.slice(0, 117) + "…" : t);
+    return t.length > 90 ? "Meet the school's score requirement" : esc(t);
   }
   function rule(r) {
     if (!r) return "";
@@ -42,7 +78,7 @@
         const b = r.base || {};
         const base = b.type === "rank_score" ? `the ${b.n}th-ranked score` : "the pass mark";
         if (r.within_percent != null) return `Within ${r.within_percent}% of ${base}`;
-        if (r.offset_points != null) return r.offset_points < 0 ? `Up to ${Math.abs(r.offset_points)} points below ${base}` : `${r.offset_points} points above ${base}`;
+        if (r.offset_points != null) return r.offset_points < 0 ? `Up to ${Math.abs(r.offset_points)} points below ${base}` : `At least ${r.offset_points} points above ${base}`;
         return `At or above ${base}`;
       }
       case "school_determined": return `Number set by the school${r.typical_n ? ` (typically about ${r.typical_n})` : ""}`;
@@ -52,7 +88,7 @@
   }
   // "Lives in <area>?" reads badly for names like "Within 3 miles" or "The 22 nearest applicants"
   function areaQ(ref, neg) {
-    const name = areas[ref]?.name || ref;
+    const name = String(areas[ref]?.name || ref).replace(/^lives (in|within)\s+/i, "");
     const link = t => `<a href="#area-${esc(ref)}">${esc(t)}</a>`;
     let m;
     if ((m = /^within\s+(.*)$/i.exec(name))) return neg ? `Doesn't live within ${link(m[1])}?` : `Lives within ${link(m[1])}?`;
@@ -64,25 +100,40 @@
   function cond(c) {
     switch (c.type) {
       case "looked_after": return "Is looked after, or was previously looked after?";
-      case "pupil_premium": return `Eligible for Pupil Premium${c.basis && !/^eligible for pupil premium/i.test(c.basis) ?` <span class="muted">(${esc(c.basis)})</span>` : ""}?`;
-      case "free_school_meals": return `Eligible for free school meals${c.basis ? ` <span class="muted">(${esc(c.basis)})</span>` : ""}?`;
+      case "pupil_premium": return `Eligible for Pupil Premium${c.basis && !/^eligible for pupil premium/i.test(c.basis) ?` <span class="cdesc">(${esc(c.basis)})</span>` : ""}?`;
+      case "free_school_meals": return `Eligible for free school meals${c.basis ? ` <span class="cdesc">(${esc(c.basis)})</span>` : ""}?`;
       case "service_premium": return "Eligible for Service Premium?";
-      case "medical_social": return `Exceptional medical or social need?${c.description ? ` <span class="muted">${esc(c.description)}</span>` : ""}`;
-      case "sibling": return `Has a sibling at the school?${c.description ? ` <span class="muted">${esc(c.description)}</span>` : ""}`;
-      case "staff_child": return `Child of a member of staff?${c.description ? ` <span class="muted">${esc(c.description)}</span>` : ""}`;
-      case "faith": return `Meets the faith requirement?${c.requirement ? ` <span class="muted">${esc(c.faith ? c.faith + ": " : "")}${esc(c.requirement)}</span>` : ""}`;
+      case "medical_social": return `Exceptional medical or social need?${c.description ? ` <span class="cdesc">${esc(c.description)}</span>` : ""}`;
+      case "sibling": return `Has a sibling at the school?${c.description ? ` <span class="cdesc">${esc(c.description)}</span>` : ""}`;
+      case "staff_child": return `Child of a member of staff?${c.description ? ` <span class="cdesc">${esc(c.description)}</span>` : ""}`;
+      case "faith": return `Meets the faith requirement?${c.requirement ? ` <span class="cdesc">${esc(c.faith ? c.faith + ": " : "")}${esc(c.requirement)}</span>` : ""}`;
       case "feeder_school": {
         const l = c.schools || [];
-        if (l.length <= 4) return `Attends a feeder school?${l.length ? ` <span class="muted">${esc(l.join(", "))}</span>` : ""}`;
+        if (l.length <= 1) return `Attends ${l.length ? esc(l[0]) : "a feeder school"}?`;
         return `Attends one of ${l.length} feeder schools? <details class="feeders"><summary>Show the list</summary><span class="muted">${esc(l.join(", "))}</span></details>`;
       }
       case "in_area": return `${areaQ(c.ref, false)} <span class="you" data-area="${esc(c.ref)}"></span>`;
       case "not_in_area": return `${areaQ(c.ref, true)} <span class="you" data-area="${esc(c.ref)}" data-neg="1"></span>`;
       // the test details (who goes on, how it's marked) live in the test section; keep the question short
-      case "aptitude": return `Shows ${esc(c.subject || "")} aptitude?${c.requirement && !/test|score|mark|assess|audition|round|stage/i.test(c.requirement) ? ` <span class="muted">${esc(c.requirement)}</span>` : ""}`;
-      case "any_of": return (c.conditions || []).map(x => cond(x).replace(/\?(?=(\s*<span[^>]*>[^<]*<\/span>)?\s*$)/, "")).join(` <b class="or">or</b> `) + "?";
-      default: return esc(c.description || c.type) + (c.description?.endsWith("?") ? "" : "?");
+      case "aptitude": return `Shows ${esc(c.subject || "")} aptitude?${c.requirement && !/test|score|mark|assess|audition|round|stage/i.test(c.requirement) ? ` <span class="cdesc">${esc(c.requirement)}</span>` : ""}`;
+      case "any_of": return (c.conditions || []).map(x => cond(x).replace(/\?(?=(\s*<span[^>]*>[^<]*<\/span>)*\s*$)/, "").replace(/\?\s*(<details)/, " $1")).join(` <b class="or">or</b> `).replace(/\?\s*$/, "") + "?";
+      default: {
+        // long free-text conditions: keep the first sentence without brackets as the question, the rest goes in the details
+        const full = String(c.description || c.type), first = full.replace(/\s*\([^)]*\)/g, "").split(/(?<=[a-z0-9]{2}\.)\s+(?=[A-Z])/)[0].replace(/[.?\s]+$/, "");
+        return esc(first) + "?" + (first.length < full.replace(/[.?\s]+$/, "").length ? ` <span class="cdesc">${esc(full)}</span>` : "");
+      }
     }
+  }
+  // the explanation of each condition (who counts as a sibling, what Pupil Premium means here...) goes in the details
+  function condNotes(list) {
+    const out = [];
+    (function w(cs) { (cs || []).forEach(c => {
+      if (c.type === "any_of") return w(c.conditions);
+      const longOther = !["looked_after", "pupil_premium", "free_school_meals", "service_premium", "medical_social", "sibling", "staff_child", "faith", "feeder_school", "in_area", "not_in_area", "aptitude"].includes(c.type) && c.description && c.description.replace(/\s*\([^)]*\)/g, "").split(/(?<=[a-z0-9]{2}\.)\s+(?=[A-Z])/)[0].length < c.description.length - 2 ? c.description : "";
+      const t = longOther || c.basis || (c.type === "faith" ? (c.faith ? c.faith + ": " : "") + (c.requirement || "") : "") || (["sibling", "staff_child", "medical_social"].includes(c.type) ? c.description : "") || (c.type === "aptitude" ? c.requirement : "");
+      if (t) out.push(esc(t));
+    }); })(list);
+    return out.length ? `<div class="desc"><b>Who counts:</b> ${out.join(" ")}</div>` : "";
   }
   function ordering(o) {
     switch (o.type) {
@@ -148,7 +199,7 @@
       case "distance": return o.area_first ? `Living in ${esc(areas[o.area_first]?.name || o.area_first)} first, then distance` : "Distance";
       case "random": return "Random draw";
       case "sub_criteria": return "Sub-priorities in order";
-      default: { const t = String(o.description || (o.type === "condition" ? cond(o.condition || {}).replace(/<[^>]+>/g, "").replace(/\?.*$/, "") : o.type)); return esc(t.length > 60 ? t.slice(0, 57) + "…" : t); }
+      default: { const t = String(o.description || (o.type === "condition" ? cond(o.condition || {}).replace(/<[^>]+>/g, "").replace(/\?.*$/, "") : o.type)).replace(/[.\s]+$/, ""); return t.length > 45 || /^(equal|tie|if |ties|identical|rule \()/i.test(t) ? "" : esc(t); }
     }
   };
   function needsLine(c) {
@@ -175,7 +226,8 @@
     const chain = (c.order_within || []).length ? c.order_within : (y.tie_breaks || []);
     // "Test score → Test score (VR) → Test score (English)..." is just the total with sub-score tie-breaks: say it once
     const slim = []; chain.forEach(o => { const prev = slim[slim.length - 1]; if (o.type === "score" && prev && prev.type === "score") return; slim.push(o); });
-    const order = slim.map(o => o.type === "score" && !o.component && chain.filter(x => x.type === "score").length > 1 ? "Total test score" : SHORT_ORDER(o)).filter(Boolean);
+    const tidy = t => { let x = t, prev; do { prev = x; x = x.replace(/^(\(?[ivx]+\)|\d+(st|nd|rd|th)\s*(\([^)]*\))?:|then)\s*/i, ""); } while (x !== prev); return x.replace(/^./, m => m.toUpperCase()); };
+    const order = slim.map(o => o.type === "score" && !o.component && chain.filter(x => x.type === "score").length > 1 ? "Total test score" : SHORT_ORDER(o)).filter(Boolean).map(tidy);
     const gate = req ? `<div class="gate need"><span class="rk-l">Needs</span><span class="rk-v">${req.replace(/^./, m => m.toUpperCase())}</span>${reqFull ? `<details class="feeders"><summary>more</summary><span class="muted">${reqFull}</span></details>` : ""}</div>`
       : (!tested ? `<div class="gate free"><span class="rk-l">Needs</span><span class="rk-v">No test needed</span></div>` : "");
     const rank = order.length ? `<div class="rank"><span class="rk-l">Ranked by</span>${order.map((o, k) => `<span class="rk-v${k ? " tb" : ""}">${o}</span>`).join('<span class="rk-arrow">→</span>')}</div>` : "";
@@ -184,9 +236,10 @@
   function addressLine() {
     const ad = y.address_date;
     if (!ad || (!ad.date && !ad.when)) return `<div class="addr"><b>Address date:</b> the policy doesn't say which date your address is taken on. Ask the school or council.${ad && ad.after_move ? ` <span class="muted">${esc(ad.after_move)}</span>` : ""}</div>`;
-    const w = ad.when ? (/^(the|when|a|an)\b/i.test(ad.when) || /^\d/.test(ad.when) ? ad.when : "the " + ad.when) : "";
+    const w = ad.when ? (/^(the|when|a|an)\b/i.test(ad.when) || /^[\dA-Z]/.test(ad.when) ? ad.when : "the " + ad.when) : "";
+    if (/^the address/i.test(w) && !ad.date) return `<div class="addr"><b>Address date:</b> ${esc(w)}.${ad.after_move ? ` <span class="muted">${esc(ad.after_move)}</span>` : ""}</div>`;
     const when = ad.date ? `${fmtDate(ad.date)}${w && !/^\d/.test(w) ? `, ${esc(w)}` : ""}` : esc(w);
-    return `<div class="addr"><b>Address date:</b> where you live on ${when}${ad.continuous_from ? (ad.continuous_from === ad.date ? ", and keep living there until your child starts" : `, having lived there since ${fmtDate(ad.continuous_from)}`) : ""}.${ad.after_move ? ` <span class="muted">${esc(ad.after_move)}</span>` : ""}</div>`;
+    return `<div class="addr"><b>Address date:</b> where you live on ${when}${ad.continuous_from && !/since/i.test(w) ? (ad.continuous_from === ad.date ? ", and keep living there until your child starts" : `, having lived there since ${fmtDate(ad.continuous_from)}`) : ""}.${ad.after_move ? ` <span class="muted">${esc(ad.after_move)}</span>` : ""}</div>`;
   }
   function furthestFor(c, isLastDistance) {
     if (!byDistance(c)) return null;
@@ -300,7 +353,7 @@
         const exc = (st.progression.exceptions || []).map(e => `<div class="exc">${esc(e.applies_to || "Some groups")}: ${rule(e.rule)}</div>`).join("");
         const ties = st.progression.ties ? `<div class="exc">Ties: ${esc(st.progression.ties)}</div>` : "";
         const full = st.progression.description && shortRule(st.progression) !== esc(st.progression.description) ? `<div class="exc">${esc(st.progression.description)}</div>` : "";
-        h += seg(`<span class="go">Through to ${esc(stageShort(next.id) || next.name)} if you:</span> ${shortRule(st.progression).replace(/^./, m => m.toLowerCase())}${full || exc || ties ? more(full + exc + ties, "More") : ""}`, "yes");
+        h += seg(`<span class="go">To reach ${esc(stageShort(next.id) || next.name)}:</span> ${shortRule(st.progression).replace(/^./, m => m.toLowerCase())}${full || exc || ties ? more(full + exc + ties, "More") : ""}`, "yes");
       }
     });
     if (apt.length) h += stop({ id: "aptitude", cls: "apt", kicker: "Optional, alongside", title: "Aptitude tests", body: `<div class="steps">${apt.map(st => `
@@ -323,7 +376,7 @@
         ${adj ? `<div class="desc">Adjusted for: ${adj}</div>` : ""}`, "How it's worked out") });
     }
     if (q && q.type !== "none") {
-      const short = q.type === "other" ? "Reach the school's qualifying standard" : shortRule(q);
+      const short = passTitle(q);
       const full = rule(q);
       h += stop({ id: "pass-mark", cls: "decision passmark", kicker: "Pass mark", title: short.replace(/^./, m => m.toUpperCase()), body: full && full !== short ? more(`<div class="desc">${full}</div>`, "How it's set") : "" });
     }
@@ -368,6 +421,7 @@
         ${more(`${c.quota ? quota(c.quota).replace(/^<div class="quota">.*?<\/div>/, "") : ""}
         ${groupOf(c.priority).filter(hasSize).map(g => g.description ? `<div class="desc">${esc(g.description)}</div>` : "").join("")}
         ${c.applies_at === "initial_allocation" ? `<div class="desc">Only applies when places are first offered on National Offer Day, not to later offers from the waiting list.</div>` : ""}
+        ${condNotes(c.conditions)}
         ${c.description ? `<div class="desc">${esc(c.description)}</div>` : ""}
         ${subs}
         ${(c.order_within || []).length ? `<div class="desc"><b>If oversubscribed:</b> ${c.order_within.map(ordering).join(", then ")}</div>` : ""}
