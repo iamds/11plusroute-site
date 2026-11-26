@@ -34,6 +34,17 @@
       default: return esc(r.type);
     }
   }
+  // "Lives in <area>?" reads badly for names like "Within 3 miles" or "The 22 nearest applicants"
+  function areaQ(ref, neg) {
+    const name = areas[ref]?.name || ref;
+    const link = t => `<a href="#area-${esc(ref)}">${esc(t)}</a>`;
+    let m;
+    if ((m = /^within\s+(.*)$/i.exec(name))) return neg ? `Doesn't live within ${link(m[1])}?` : `Lives within ${link(m[1])}?`;
+    if (/^\d+(\.\d+)?\s*(miles?|km)\b/i.test(name)) return neg ? `Lives outside ${link(name)}?` : `Lives within ${link(name)}?`;
+    if (/^anywhere\b/i.test(name)) return neg ? `Lives outside ${link(name.replace(/^anywhere\s+/i, ""))}?` : `Lives ${link(name.charAt(0).toLowerCase() + name.slice(1))}?`;
+    if ((m = /^the\s+(\d+\s+nearest.*)$/i.exec(name))) return neg ? `Not one of ${link("the " + m[1])}?` : `One of ${link("the " + m[1])}?`;
+    return neg ? `Lives outside ${link(name)}?` : `Lives in ${link(name)}?`;
+  }
   function cond(c) {
     switch (c.type) {
       case "looked_after": return "Is looked after, or was previously looked after?";
@@ -45,8 +56,8 @@
       case "staff_child": return `Child of a member of staff?${c.description ? ` <span class="muted">${esc(c.description)}</span>` : ""}`;
       case "faith": return `Meets the faith requirement?${c.requirement ? ` <span class="muted">${esc(c.faith ? c.faith + ": " : "")}${esc(c.requirement)}</span>` : ""}`;
       case "feeder_school": return `Attends a feeder school?${c.schools ? ` <span class="muted">${esc(c.schools.join(", "))}</span>` : ""}`;
-      case "in_area": return `Lives in <a href="#area-${esc(c.ref)}">${esc(areas[c.ref]?.name || c.ref)}</a>? <span class="you" data-area="${esc(c.ref)}"></span>`;
-      case "not_in_area": return `Lives outside <a href="#area-${esc(c.ref)}">${esc(areas[c.ref]?.name || c.ref)}</a>? <span class="you" data-area="${esc(c.ref)}" data-neg="1"></span>`;
+      case "in_area": return `${areaQ(c.ref, false)} <span class="you" data-area="${esc(c.ref)}"></span>`;
+      case "not_in_area": return `${areaQ(c.ref, true)} <span class="you" data-area="${esc(c.ref)}" data-neg="1"></span>`;
       case "aptitude": return `Shows ${esc(c.subject || "")} aptitude${c.ref ? ` in the ${esc(stageName(c.ref))}` : ""}?${c.requirement ? ` <span class="muted">${esc(c.requirement)}</span>` : ""}`;
       case "any_of": return (c.conditions || []).map(x => cond(x).replace(/\?(?=(\s*<span[^>]*>[^<]*<\/span>)?\s*$)/, "")).join(` <b class="or">or</b> `) + "?";
       default: return esc(c.description || c.type) + (c.description?.endsWith("?") ? "" : "?");
@@ -179,7 +190,10 @@
         c.description ? esc(c.description) : "",
         c.weight != null && +c.weight > 0 ? `Counts for ${+c.weight <= 1 ? Math.round(c.weight * 100) : esc(c.weight)}% of the score.` : "",
       ].filter(Boolean);
-      if (!lines.length) return `<span class="subj">${name}</span>`;
+      // every subject opens the same way; add the glossary definition of the term, if there is one
+      const gl = (window.GLOSSARY || []).find(g => { try { return new RegExp(`^(?:${g.match})$`, "i").test(SUBJECTS[c.subject] || ""); } catch (e) { return false; } });
+      if (gl) lines.push(`<span class="muted">${esc(gl.term)}: ${esc(gl.def)}</span>`);
+      if (!lines.length) lines.push(`<span class="muted">The school hasn't published more detail about this part of the test.</span>`);
       const id = `si-${i}-${j}`;
       return `<button type="button" class="subj subjbtn" aria-expanded="false" aria-controls="${id}">${name}${tag ? `<small>${tag}</small>` : ""}</button><div class="subjinfo" id="${id}" hidden>${lines.map(l => `<p>${l}</p>`).join("")}</div>`;
     }).join("");

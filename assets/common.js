@@ -180,7 +180,7 @@ window.GS = (function () {
     entries = entries || window.GLOSSARY || [];
     if (!root || !entries.length) return;
     const seen = new Set([...document.querySelectorAll(".gl")].map(e => e.dataset.term));
-    const SKIP = "A,BUTTON,INPUT,SELECT,TEXTAREA,LABEL,SCRIPT,STYLE,SVG,SUMMARY,H1,H2,TIME,CODE,.gl,.kicker,.crumbs,.keybar dt,.sharemenu,.maplegend";
+    const SKIP = "A,BUTTON,INPUT,SELECT,TEXTAREA,LABEL,SCRIPT,STYLE,SVG,SUMMARY,H1,H2,TIME,CODE,.gl,.subjects,.kicker,.crumbs,.keybar dt,.sharemenu,.maplegend";
     const res = entries.map(e => ({ e, re: new RegExp("(" + e.match + ")", "i") }));
     const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: n => n.nodeValue.trim().length > 2 && !n.parentElement.closest(SKIP) ? 1 : 2 });
     const queue = []; while (walker.nextNode()) queue.push(walker.currentNode);
