@@ -609,9 +609,21 @@
   }
   // ---------- small fixed maps inside the flowchart (built when scrolled into view) ----------
   const minis = [];
+  // the map keeps the card's height as it is with Details closed, so opening Details doesn't stretch it
+  function sizeMaps() {
+    out.querySelectorAll(".cbody.hasmap .minimap").forEach(el => {
+      const main = el.closest(".main"); if (!main || main.querySelector("details[open]")) return;
+      if (getComputedStyle(el).position !== "absolute") { el.style.removeProperty("--mh"); return; }
+      el.style.setProperty("--mh", Math.max(150, main.clientHeight - el.offsetTop - 12) + "px");
+    });
+  }
+  window.addEventListener("resize", () => { clearTimeout(sizeMaps.t); sizeMaps.t = setTimeout(sizeMaps, 150); });
+  out.addEventListener("toggle", e => { if (e.target.closest && e.target.closest(".stop.crit") && !e.target.open) sizeMaps(); }, true);
+  out.addEventListener("click", e => { if (e.target.closest(".sg-toggle")) setTimeout(sizeMaps, 0); });
   function initMiniMaps() {
     const els = [...out.querySelectorAll(".minimap")];
     if (!els.length || G0.lat == null) return;
+    sizeMaps();
     const build = async el => {
       try { await window.GS.loadMapLib(); } catch (e) { el.remove(); return; }
       const feats = miniFeatures(el);
@@ -1134,6 +1146,7 @@
         b.textContent = txt;
         const main = li.querySelector(".main"); main.insertBefore(b, main.firstChild);
       });
+      sizeMaps();
     }
     let home_pc = "", home_place = false;
     function show(home) {

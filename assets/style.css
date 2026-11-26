@@ -771,3 +771,4 @@ footer { background: var(--surface); border: 1px solid var(--line); border-top: 
 .stop.crit.for-you .you, .stop.crit.not-you .you { display: none; }
 /* banner corners follow the card's inner edge: the 5px left border leaves a square inner corner on the left, 1px top border leaves radius-1 on the right */
 .youbanner { border-radius: 0 calc(var(--radius) - 1px) 0 0; }
+@media (min-width: 721px) { .cbody.hasmap .minimap { bottom: auto; height: var(--mh, calc(100% - 24px)); } }

@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:kesteven-and-grantham-girls-school-39f74aac3050@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T231649Z
+DTSTAMP:20261126T232354Z
 DTSTART;VALUE=DATE:20260108
 DTEND;VALUE=DATE:20260109
 SUMMARY:Kesteven and Grantham Girls' School: 11+ registration opens
@@ -21,7 +21,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:kesteven-and-grantham-girls-school-126cc91fdee7@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T231649Z
+DTSTAMP:20261126T232354Z
 DTSTART;VALUE=DATE:20260331
 DTEND;VALUE=DATE:20260401
 SUMMARY:Kesteven and Grantham Girls' School: 11+ registration closes
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:kesteven-and-grantham-girls-school-83ad292ccf8e@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T231649Z
+DTSTAMP:20261126T232354Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:Kesteven and Grantham Girls' School: Familiarisation materials issu
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:kesteven-and-grantham-girls-school-abb1c61ab5ab@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T231649Z
+DTSTAMP:20261126T232354Z
 DTSTART;VALUE=DATE:20260709
 DTEND;VALUE=DATE:20260710
 SUMMARY:Kesteven and Grantham Girls' School: Year 5 Open Evening (5-7pm)
@@ -61,7 +61,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:kesteven-and-grantham-girls-school-a1159b22cd0c@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T231649Z
+DTSTAMP:20261126T232354Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Kesteven and Grantham Girls' School: 11+ Verbal Reasoning test
@@ -74,7 +74,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:kesteven-and-grantham-girls-school-7822fe920fd7@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T231649Z
+DTSTAMP:20261126T232354Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Kesteven and Grantham Girls' School: 11+ Non-Verbal & Spatial Reaso
@@ -88,7 +88,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:kesteven-and-grantham-girls-school-427a7481f4b2@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T231649Z
+DTSTAMP:20261126T232354Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:Kesteven and Grantham Girls' School: 11+ results emailed to parents
@@ -102,7 +102,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:kesteven-and-grantham-girls-school-fa0210f8df80@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T231649Z
+DTSTAMP:20261126T232354Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Kesteven and Grantham Girls' School: Secondary application deadline
@@ -116,7 +116,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:kesteven-and-grantham-girls-school-ce7ca1406a54@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T231649Z
+DTSTAMP:20261126T232354Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:Kesteven and Grantham Girls' School: Lincolnshire's final closing d
@@ -130,7 +130,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:kesteven-and-grantham-girls-school-b6c34c92fe76@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T231649Z
+DTSTAMP:20261126T232354Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Kesteven and Grantham Girls' School: National Offer Day

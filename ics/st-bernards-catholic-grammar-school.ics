@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:st-bernards-catholic-grammar-school-0c440106834f@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261126T231649Z
+DTSTAMP:20261126T232354Z
 DTSTART;VALUE=DATE:20260428
 DTEND;VALUE=DATE:20260429
 SUMMARY:St Bernard's Catholic Grammar School: Consortium online 11+ informa
@@ -22,7 +22,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:st-bernards-catholic-grammar-school-a56393c485c6@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261126T231649Z
+DTSTAMP:20261126T232354Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 SUMMARY:St Bernard's Catholic Grammar School: 11+ registration opens (10am)
@@ -35,7 +35,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:st-bernards-catholic-grammar-school-ff2ca0e82e9c@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261126T231649Z
+DTSTAMP:20261126T232354Z
 DTSTART;VALUE=DATE:20260605
 DTEND;VALUE=DATE:20260606
 SUMMARY:St Bernard's Catholic Grammar School: 11+ registration closes (10am
@@ -49,7 +49,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:st-bernards-catholic-grammar-school-e74de3737936@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261126T231649Z
+DTSTAMP:20261126T232354Z
 DTSTART;VALUE=DATE:20260612
 DTEND;VALUE=DATE:20260613
 SUMMARY:St Bernard's Catholic Grammar School: Evidence for access arrangeme
@@ -63,7 +63,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:st-bernards-catholic-grammar-school-d99985e2a073@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261126T231649Z
+DTSTAMP:20261126T232354Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:St Bernard's Catholic Grammar School: Slough Consortium 11+ test
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:st-bernards-catholic-grammar-school-1b344e1312e1@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261126T231649Z
+DTSTAMP:20261126T232354Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:St Bernard's Catholic Grammar School: Results online from 4pm
@@ -89,7 +89,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:st-bernards-catholic-grammar-school-029d0b12d235@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261126T231649Z
+DTSTAMP:20261126T232354Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:St Bernard's Catholic Grammar School: St Bernard's Supplementary Fo
@@ -103,7 +103,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:st-bernards-catholic-grammar-school-b6c34c92fe76@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261126T231649Z
+DTSTAMP:20261126T232354Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:St Bernard's Catholic Grammar School: National Offer Day
@@ -116,7 +116,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:st-bernards-catholic-grammar-school-94f925201309@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261126T231649Z
+DTSTAMP:20261126T232354Z
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
 SUMMARY:St Bernard's Catholic Grammar School: Waiting list closes (end of D
