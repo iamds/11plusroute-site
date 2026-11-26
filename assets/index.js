@@ -203,7 +203,23 @@
       el.addEventListener("mouseleave", () => { hovered = null; showAreas(pinned); showTip(pinned); });
       el.addEventListener("focus", () => { hovered = r; showAreas(r); });
       el.addEventListener("blur", () => { hovered = null; showAreas(pinned); });
-      pop.on("open", () => { pinned = r; showAreas(r); showTip(null); });
+      pop.on("open", () => {
+        pinned = r; showAreas(r); showTip(null);
+        // offer to zoom out when the school's area runs off the visible map
+        const go = () => {
+          const f = schoolAreas(r).features.filter(x => x.properties.k !== "sel" || (r.geo.sel_areas || []).length);
+          if (!f.length) return null;
+          const b = new maplibregl.LngLatBounds([r.geo.lng, r.geo.lat], [r.geo.lng, r.geo.lat]);
+          f.forEach(x => { const w = c => typeof c[0] === "number" ? b.extend(c) : c.forEach(w); w(x.geometry.coordinates); });
+          return b;
+        };
+        const b = go(), v = map.getBounds(), el = pop.getElement();
+        if (b && el && !el.querySelector(".zoomarea") && !(v.contains(b.getSouthWest()) && v.contains(b.getNorthEast()))) {
+          const btn = document.createElement("button"); btn.type = "button"; btn.className = "linkbtn small zoomarea"; btn.textContent = "Zoom to its priority area";
+          btn.onclick = () => { pop.remove(); map.fitBounds(b, { padding: 40, maxZoom: 13, duration: 600 }); };
+          el.querySelector(".maplibregl-popup-content").appendChild(btn);
+        }
+      });
       pop.on("close", () => { if (pinned === r) { pinned = null; showAreas(hovered); } });
       mk.getElement().setAttribute("aria-label", r.name + (r.miles != null ? `, ${r.miles.toFixed(1)} miles` : ""));
       markers.push(mk);

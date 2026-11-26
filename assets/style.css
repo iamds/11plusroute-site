@@ -473,3 +473,4 @@ li.special .kicker { color: var(--c); }
 .maptip .tiplines { margin-top: 3px; color: var(--ink-2); }
 .maptip .sw { display: inline-block; width: 14px; height: 0; border-top: 3px solid; margin-right: 6px; vertical-align: 3px; }
 .maptip .sw.dash { border-top-style: dashed; }
+.zoomarea { display: block; margin-top: 6px; padding: 0; }
