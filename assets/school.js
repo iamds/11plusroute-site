@@ -199,7 +199,7 @@
       case "distance": return o.area_first ? `Living in ${esc(areas[o.area_first]?.name || o.area_first)} first, then distance` : "Distance";
       case "random": return "Random draw";
       case "sub_criteria": return "Sub-priorities in order";
-      default: { const t = String(o.description || (o.type === "condition" ? cond(o.condition || {}).replace(/<[^>]+>/g, "").replace(/\?.*$/, "") : o.type)).replace(/[.\s]+$/, ""); return t.length > 45 || /^(equal|tie|if |ties|identical|rule \()/i.test(t) ? "" : esc(t); }
+      default: { const t = String(o.description || (o.type === "condition" ? cond(o.condition || {}).replace(/<[^>]+>/g, "").replace(/\?.*$/, "") : o.type)).replace(/[.\s]+$/, ""); return t.length > 45 || /^(equal|tie|if |ties|identical|rule \()/i.test(t) || /not published|isn't published/i.test(t) ? "" : esc(t); }
     }
   };
   function reqFor(c) {
@@ -249,7 +249,7 @@
     let rkLabel = "Ranked by";
     { const k = saysOrder ? slim.findIndex(o => o.type === saysOrder) : -1;
       if (k >= 0 && slim.slice(0, k).every(o => o.type !== "sub_criteria" && !SHORT_ORDER(o))) { slim.splice(0, k + 1); rkLabel = "Ties broken by"; } }
-    const tidy = t => { let x = t, prev; do { prev = x; x = x.replace(/^(\(?[ivx]+\)|\d+(st|nd|rd|th)\s*(\([^)]*\))?:|then)\s*/i, ""); } while (x !== prev); return x.replace(/^./, m => m.toUpperCase()); };
+    const tidy = t => { let x = t, prev; do { prev = x; x = x.replace(/^(\(?[ivx]+\)|\d+(st|nd|rd|th)\s*(\([^)]*\))?:|then)\s*/i, ""); } while (x !== prev); return x.replace(/\s*\((nearest first|by distance|in distance order)\)/i, "").replace(/^./, m => m.toUpperCase()); };
     // sub-priorities: name each group in turn, and say once how each group is ordered when they all share it
     let sfx = "";
     const order = slim.flatMap(o => {
@@ -501,7 +501,7 @@
       const acad = needsLine(c, "", true, noMin);
       // 3. PLACES: the cap if there is one; otherwise how many got in this way last time
       const capTxt = sharedRest ? `The rest of the ${sharedRest}` : c.quota && quotaSize(c.quota) ? quotaSize(c.quota)
-        : groupOf(c.priority).filter(hasSize).filter(g => !together(g)).map(g => { const others = (g.priorities || []).map(String).filter(x => x !== String(c.priority)); return others.length ? `Shares ${groupAmount(g)} with ${others.map(x => shortLabel(critByP()[x]?.label || x)).join(" and ")}` : ""; }).filter(Boolean)[0] || "";
+        : groupOf(c.priority).filter(hasSize).filter(g => !together(g)).map(g => { const others = (g.priorities || []).map(String).filter(x => x !== String(c.priority)); const all = (g.priorities || []).map(String); return others.length ? `${groupAmount(g).replace(/^./, m => m.toUpperCase())}, shared by priorities ${all.slice(0, -1).join(", ")} and ${all[all.length - 1]}` : ""; }).filter(Boolean)[0] || "";
       // with a hard cap, last year's count only matters when it fell short of the cap
       const capN = sharedRest ? null : c.quota ? (c.quota.places ?? null) : null;
       const showCount = al && al.offers != null && !(capN != null && +al.offers === +capN);

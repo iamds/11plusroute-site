@@ -753,3 +753,17 @@ footer { background: var(--surface); border: 1px solid var(--line); border-top: 
 .cbody.hasmap { align-items: stretch; }
 .cbody.hasmap .minimap { width: 320px; height: auto; min-height: 170px; margin: 4px 0 0; align-self: stretch; }
 @media (max-width: 720px) { .cbody.hasmap .minimap { width: 100%; height: 170px; min-height: 0; margin-top: 10px; } }
+/* map: pinned to the card's right edge with even margins top, right and bottom */
+@media (min-width: 721px) {
+  .stop.crit .main:has(.cbody.hasmap) { position: relative; padding-right: calc(36% + 28px); min-height: 230px; }
+  li.special:not(.expanded) .main:has(.cbody.hasmap) { padding-right: 16px; min-height: 0; }
+  .cbody.hasmap { display: block; }
+  .cbody.hasmap .minimap { position: absolute; top: 12px; right: 12px; bottom: 12px; width: 36%; height: auto; min-height: 0; max-width: none; margin: 0; }
+  .stop.crit.for-you .cbody.hasmap .minimap, .stop.crit.not-you .cbody.hasmap .minimap { top: 46px; }
+}
+/* the verdict banner always spans the whole card, map or not */
+.stop.crit .main { position: relative; }
+.stop.crit .main:has(> .youbanner) { padding-top: 46px; }
+.youbanner { position: absolute; top: 0; left: 0; right: 0; margin: 0; padding: 7px 16px; }
+@media (max-width: 720px) { .youbanner { margin: 0; padding: 7px 12px; } .stop.crit .main:has(> .youbanner) { padding-top: 52px; } }
+.stop.crit.for-you .cbody.hasmap .minimap, .stop.crit.not-you .cbody.hasmap .minimap { top: 48px; }
