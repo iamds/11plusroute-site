@@ -329,6 +329,7 @@
     let h = reordered ? `<li class="seg"><div class="rail"></div><div class="seglabel muted small">Shown in the order places are given out, which differs from the school's numbering.</div></li>` : "";
     const hasSize = g => g.places != null || g.max_places != null || g.min_places != null || g.percent != null;
     const SPECIAL = { looked_after: "looked-after children", disadvantaged: "Pupil Premium or free school meals", medical_social: "medical or social need", staff: "staff children" };
+    const pos = p => crit.findIndex(x => String(x.priority) === String(p));
     const together = g => { const idx = (g.priorities || []).map(p => crit.findIndex(x => String(x.priority) === String(p))).filter(k => k >= 0).sort((x, y2) => x - y2); return idx.length >= 2 && idx[idx.length - 1] - idx[0] === idx.length - 1; };
     const lastDistIdx = (() => { let k = -1; crit.forEach((c, i) => { if (byDistance(c)) k = i; }); return k; })();
     const built = crit.map((c, i) => {
@@ -350,14 +351,17 @@
         ${subs}
         ${(c.order_within || []).length ? `<div class="desc"><b>If oversubscribed:</b> ${c.order_within.map(ordering).join(", then ")}</div>` : ""}
         ${c.evidence ? `<div class="desc"><b>Evidence:</b> ${esc(c.evidence)}${c.evidence_deadline ? ` by ${fmtDate(c.evidence_deadline)}` : ""}</div>` : ""}`)}`;
+      // in a shared pot after other priorities: these places are what's left of the pot, not a fixed number
+      const shG = groupOf(c.priority).find(g => hasSize(g) && together(g) && String((g.priorities || [])[0]) !== String(c.priority) && pos(c.priority) > Math.min(...(g.priorities || []).map(pos)));
+      const sharedRest = shG ? (shG.places ?? shG.max_places ?? "") + "" : "";
       const anyone = s.selection === "grammar" ? "Anyone who qualifies" : "Any applicant";
       const title = conds.length ? conds.join(`<span class="and">and</span>`)
         : c.category === "distance" ? `${i < crit.length - 1 ? anyone : "Everyone else" + (s.selection === "grammar" ? " who qualifies" : "")}, nearest first`
-        : (i < crit.length - 1 || (c.category === "score_rank" && s.selection && s.selection !== "grammar")) ? (c.category === "score_rank" || (c.order_within || [])[0]?.type === "score" ? (c.quota && (c.quota.places || c.quota.max_places) ? `Highest ${c.quota.places || c.quota.max_places} test scores` : "Highest test scores") : "Took the test for these places?")
+        : (i < crit.length - 1 || (c.category === "score_rank" && s.selection && s.selection !== "grammar")) ? (c.category === "score_rank" || (c.order_within || [])[0]?.type === "score" ? (sharedRest ? `Highest test scores take the rest of the ${sharedRest}` : c.quota && (c.quota.places || c.quota.max_places) ? `Highest ${c.quota.places || c.quota.max_places} test scores` : "Highest test scores") : "Took the test for these places?")
         : "Everyone else who qualifies";
       // the order that decides who gets in goes in the title itself
       const first = (c.order_within || [])[0];
-      const qn = c.quota ? (c.quota.places || c.quota.max_places) : null, upto = c.quota && !c.quota.places && c.quota.max_places ? "up to " : "";
+      const qn = sharedRest ? null : c.quota ? (c.quota.places || c.quota.max_places) : null, upto = c.quota && !c.quota.places && c.quota.max_places ? "up to " : "";
       let tord = conds.length && first ? (first.type === "score" ? (qn ? (upto ? `up to ${qn} places, highest scores first` : `top ${qn} test scores`) : "highest test scores first") : first.type === "distance" ? (qn ? (upto ? `up to ${qn} places, nearest first` : `nearest ${qn} children`) : "nearest first") : first.type === "random" ? "by random draw" : "") : "";
       if (!tord && conds.length && qn) tord = `${upto}${qn} places`;
       const titleFull = tord ? `${title} <span class="tord">→ ${tord}</span>` : title;
