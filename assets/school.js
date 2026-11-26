@@ -10,6 +10,22 @@
   // ---------- describing rules / conditions in plain English ----------
   function stageName(ref) { return ref === "final" ? "the final score" : (stages[ref]?.name || ref); }
   function stageShort(ref) { return stageName(ref).replace(/\s*\(.*\)\s*$/, ""); }
+  // short version of a rule for headlines: ignore the long description where the type says it all
+  function shortRule(r) {
+    if (!r) return "";
+    const known = ["none", "top_n", "score_at_least", "pass_mark", "sat_stage", "progressed_from", "score_relative"];
+    if (known.includes(r.type)) {
+      if (r.type === "pass_mark") return r.value ? `Reach the pass mark (${esc(r.value)})` : "Reach the pass mark";
+      if (r.type === "top_n") return `Rank in the top ${esc(r.n)}${r.stage ? ` in ${esc(stageShort(r.stage))}` : ""}`;
+      if (r.type === "score_at_least") return `Score at least ${esc(r.value)}${r.stage ? ` in ${esc(stageShort(r.stage))}` : ""}`;
+      if (r.type === "none") return "No minimum score";
+      return rule({ ...r, description: undefined });
+    }
+    if (r.type === "all_of" || r.type === "any_of") return (r.rules || []).map(shortRule).join(r.type === "all_of" ? " <b>and</b> " : " <b>or</b> ");
+    if (r.type === "school_determined") return "Be one of those the school invites (enough to fill its places)";
+    const t = String(r.description || r.type).split(/(?<=[.;])\s/)[0].replace(/[.;]$/, "");
+    return esc(t.length > 120 ? t.slice(0, 117) + "…" : t);
+  }
   function rule(r) {
     if (!r) return "";
     if (r.description) return esc(r.description);
@@ -118,7 +134,7 @@
   // otherwise the school's overall furthest offer (for the last distance-ordered priority only).
   const byDistance = c => c.category === "distance" || (c.order_within || []).some(o => o.type === "distance");
   // which home address counts, and on what date: shown on every step that depends on where you live
-  const usesAddress = c => byDistance(c) || c.category === "area" || JSON.stringify(c.conditions || []).match(/"(in_area|not_in_area)"/);
+  const usesAddress = c => c.category === "distance" || c.category === "area" || JSON.stringify(c.conditions || []).match(/"(in_area|not_in_area)"/);
   // Does this step need a test result as well as the address, or is the address enough?
   // How places are decided inside a priority: shown on the left with the question, because it decides who gets in.
   const SHORT_ORDER = o => {
@@ -264,7 +280,8 @@
         // say who goes through to the next round, rather than a "not invited" exit off to the side
         const exc = (st.progression.exceptions || []).map(e => `<div class="exc">${esc(e.applies_to || "Some groups")}: ${rule(e.rule)}</div>`).join("");
         const ties = st.progression.ties ? `<div class="exc">Ties: ${esc(st.progression.ties)}</div>` : "";
-        h += seg(`<span class="go">Through to ${esc(next.name)} if:</span> ${rule(st.progression)}${exc || ties ? more(exc + ties, exc ? "Exceptions" : "Ties") : ""}`, "yes");
+        const full = st.progression.description && shortRule(st.progression) !== esc(st.progression.description) ? `<div class="exc">${esc(st.progression.description)}</div>` : "";
+        h += seg(`<span class="go">Through to ${esc(stageShort(next.id) || next.name)} if you:</span> ${shortRule(st.progression).replace(/^./, m => m.toLowerCase())}${full || exc || ties ? more(full + exc + ties, "More") : ""}`, "yes");
       }
     });
     if (apt.length) h += stop({ id: "aptitude", cls: "apt", kicker: "Optional, alongside", title: "Aptitude tests", body: `<div class="steps">${apt.map(st => `
@@ -324,7 +341,7 @@
         ${usesAddress(c) ? addressLine() : ""}
         ${c.quota && quotaSize(c.quota) ? `<div class="quota">${esc(quotaSize(c.quota))}</div>` : ""}
         ${groupOf(c.priority).filter(hasSize).map(g => { const others = (g.priorities || []).map(String).filter(x => x !== String(c.priority)); return others.length ? `<div class="quota">Shares ${esc(groupAmount(g))} with ${others.map(x => esc(shortLabel(critByP()[x]?.label || x))).join(" and ")}</div>` : ""; }).join("")}
-        ${al && al.offers != null ? `<div class="alloc"><b>${al.offers}</b> offered in ${esc(latestAlloc.entry_year)}${al.last_distance_miles != null ? ` · furthest ${al.last_distance_miles} mi` : ""}${al.last_score != null ? ` · lowest score ${al.last_score}` : ""}</div>` : ""}
+        ${al && al.offers != null ? `<div class="alloc"><b>${al.offers}</b> got a place this way in ${esc(latestAlloc.entry_year)}${al.last_distance_miles != null ? ` · furthest ${al.last_distance_miles} mi` : ""}${al.last_score != null ? ` · lowest score ${al.last_score}` : ""}</div>` : ""}
         ${(() => { if (al && al.last_distance_miles != null) return ""; const f = furthestFor(c, i === lastDistIdx); return f ? `<div class="alloc">Furthest offer in ${esc(String(f.year).slice(0, 4))}: <b>${f.mi} mi</b></div>` : ""; })()}
         ${more(`${c.quota ? quota(c.quota).replace(/^<div class="quota">.*?<\/div>/, "") : ""}
         ${groupOf(c.priority).filter(hasSize).map(g => g.description ? `<div class="desc">${esc(g.description)}</div>` : "").join("")}
@@ -336,8 +353,14 @@
       const anyone = s.selection === "grammar" ? "Anyone who qualifies" : "Any applicant";
       const title = conds.length ? conds.join(`<span class="and">and</span>`)
         : c.category === "distance" ? `${i < crit.length - 1 ? anyone : "Everyone else" + (s.selection === "grammar" ? " who qualifies" : "")}, nearest first`
-        : (i < crit.length - 1 || (c.category === "score_rank" && s.selection && s.selection !== "grammar")) ? "Took the test for these places?"
+        : (i < crit.length - 1 || (c.category === "score_rank" && s.selection && s.selection !== "grammar")) ? (c.category === "score_rank" || (c.order_within || [])[0]?.type === "score" ? (c.quota && (c.quota.places || c.quota.max_places) ? `Highest ${c.quota.places || c.quota.max_places} test scores` : "Highest test scores") : "Took the test for these places?")
         : "Everyone else who qualifies";
+      // the order that decides who gets in goes in the title itself
+      const first = (c.order_within || [])[0];
+      const qn = c.quota ? (c.quota.places || c.quota.max_places) : null, upto = c.quota && !c.quota.places && c.quota.max_places ? "up to " : "";
+      let tord = conds.length && first ? (first.type === "score" ? (qn ? (upto ? `up to ${qn} places, highest scores first` : `top ${qn} test scores`) : "highest test scores first") : first.type === "distance" ? (qn ? (upto ? `up to ${qn} places, nearest first` : `nearest ${qn} children`) : "nearest first") : first.type === "random" ? "by random draw" : "") : "";
+      if (!tord && conds.length && qn) tord = `${upto}${qn} places`;
+      const titleFull = tord ? `${title} <span class="tord">→ ${tord}</span>` : title;
       const acad = needsLine(c);
       const qs = c.quota ? quotaSize(c.quota).replace(/^Up to /, "").replace(/^At least /, "") : "";
       const noLabel = !conds.length ? "" : c.quota ? (qs ? `No, or its ${esc(qs)} have gone` : "No, or its share of places has gone") : "No";
@@ -347,7 +370,7 @@
       const farAny = !ids.length ? furthestFor(c, i === lastDistIdx) : null;
       const far = farAny && farAny.own ? farAny : null;  // only map a priority's own furthest-offer figure
       const mini = G0.lat != null && (ids.length || far) ? `<div class="minimap linked" role="button" tabindex="0" data-areas="${esc(ids.join(","))}" data-last="${far ? far.mi : ""}" aria-label="Open a larger map"><span class="mm-hint" aria-hidden="true">⤢ Enlarge</span></div>` : "";
-      return { c, cat, conds, outcome, title, acad: acad + mini, noLabel, id: "p-" + String(c.priority).replace(/[^\w-]/g, "_"), special: !!SPECIAL[c.category] };
+      return { c, cat, conds, outcome, title: titleFull, acad: acad + mini, noLabel, id: "p-" + String(c.priority).replace(/[^\w-]/g, "_"), special: !!SPECIAL[c.category] };
     });
     let i = 0;
     while (i < built.length) {
@@ -729,7 +752,9 @@
   const reg = (y.registration || []);
   const testReg = reg.find(r => ["test_registration", "sif"].includes(r.kind) && r.deadline && r.required !== false) || reg.find(r => ["test_registration", "sif"].includes(r.kind) && r.deadline) || reg.find(r => r.submit_to !== "home_la" && r.deadline && r.required !== false);
   const caf = reg.find(r => r.kind === "caf" && r.deadline);
-  const offerDay = (y.key_dates || []).find(k => /offer day/i.test(k.event));
+  // offer day itself, not "last day to change your application in time for offer day"
+  const isOfferDay = e => /offer day|national allocation day|offers? (are )?(sent|emailed|made|released)/i.test(e) && !/in time for|before|change|deadline|last day|by offer/i.test(e);
+  const offerDay = (y.key_dates || []).find(k => /national offer day/i.test(k.event) && isOfferDay(k.event)) || (y.key_dates || []).find(k => isOfferDay(k.event));
   const firstTest = (a.stages || []).find(st => st.kind !== "aptitude" && st.dates?.from);
   const qv = (function find(o) {
     if (!o || typeof o !== "object") return null;

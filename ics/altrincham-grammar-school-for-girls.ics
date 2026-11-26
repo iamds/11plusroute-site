@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-girls-8453164905e3@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261126T173418Z
+DTSTAMP:20261126T174248Z
 DTSTART;VALUE=DATE:20260423
 DTEND;VALUE=DATE:20260424
 SUMMARY:Altrincham Grammar School for Girls: Entrance exam applications ope
@@ -22,7 +22,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-girls-c589be4998b9@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261126T173418Z
+DTSTAMP:20261126T174248Z
 DTSTART;VALUE=DATE:20260611
 DTEND;VALUE=DATE:20260612
 SUMMARY:Altrincham Grammar School for Girls: AGGS Open Evening\, 4pm-8pm (n
@@ -36,7 +36,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-girls-e5c47b5a986c@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261126T173418Z
+DTSTAMP:20261126T174248Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
 SUMMARY:Altrincham Grammar School for Girls: Consortium exam applications c
@@ -50,7 +50,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-girls-6ff7360d007e@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261126T173418Z
+DTSTAMP:20261126T174248Z
 DTSTART;VALUE=DATE:20260620
 DTEND;VALUE=DATE:20260621
 SUMMARY:Altrincham Grammar School for Girls: Requests for admission outside
@@ -64,7 +64,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-girls-e061ee2d969b@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261126T173418Z
+DTSTAMP:20261126T174248Z
 DTSTART;VALUE=DATE:20260620
 DTEND;VALUE=DATE:20260621
 SUMMARY:Altrincham Grammar School for Girls: Deadline: Request for admissio
@@ -78,7 +78,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-girls-3b0c85d460d0@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261126T173418Z
+DTSTAMP:20261126T174248Z
 DTSTART;VALUE=DATE:20260713
 DTEND;VALUE=DATE:20260714
 SUMMARY:Altrincham Grammar School for Girls: Exam details and attendance fo
@@ -92,7 +92,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-girls-c409df557078@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261126T173418Z
+DTSTAMP:20261126T174248Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:Altrincham Grammar School for Girls: Exam details and attendance fo
@@ -106,7 +106,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-girls-336300bd3dba@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261126T173418Z
+DTSTAMP:20261126T174248Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 SUMMARY:Altrincham Grammar School for Girls: Trafford Consortium Entrance E
@@ -120,7 +120,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-girls-bef2f2ad1480@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261126T173418Z
+DTSTAMP:20261126T174248Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 SUMMARY:Altrincham Grammar School for Girls: Deadline: Attendance Form with
@@ -134,7 +134,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-girls-5bf0533973fa@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261126T173418Z
+DTSTAMP:20261126T174248Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:Altrincham Grammar School for Girls: Special Circumstances Forms (i
@@ -148,7 +148,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-girls-31c9b5b5916c@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261126T173418Z
+DTSTAMP:20261126T174248Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Altrincham Grammar School for Girls: CAF deadline (home LA)
@@ -161,7 +161,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-girls-b6c34c92fe76@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261126T173418Z
+DTSTAMP:20261126T174248Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Altrincham Grammar School for Girls: National Offer Day
@@ -174,7 +174,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-girls-308c729c2327@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261126T173418Z
+DTSTAMP:20261126T174248Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Altrincham Grammar School for Girls: Deadline to accept offers
