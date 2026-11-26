@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:chatham-and-clarendon-grammar-school-d243f6744a52@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T132733Z
+DTSTAMP:20261126T133120Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 SUMMARY:Chatham & Clarendon Grammar School: Kent Test registration opens (k
@@ -22,7 +22,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chatham-and-clarendon-grammar-school-2106ebf2c429@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T132733Z
+DTSTAMP:20261126T133120Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Chatham & Clarendon Grammar School: Kent Test registration closes a
@@ -36,7 +36,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chatham-and-clarendon-grammar-school-aec1d67d12b7@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T132733Z
+DTSTAMP:20261126T133120Z
 DTSTART;VALUE=DATE:20260721
 DTEND;VALUE=DATE:20260722
 SUMMARY:Chatham & Clarendon Grammar School: Last date for late Kent Test re
@@ -50,7 +50,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chatham-and-clarendon-grammar-school-9e0db8c63a66@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T132733Z
+DTSTAMP:20261126T133120Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Chatham & Clarendon Grammar School: Secondary application (SCAF) op
@@ -64,7 +64,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chatham-and-clarendon-grammar-school-425301044e7d@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T132733Z
+DTSTAMP:20261126T133120Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Chatham & Clarendon Grammar School: Kent Test in Kent primary schoo
@@ -78,7 +78,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chatham-and-clarendon-grammar-school-8cb0fc8b6a00@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T132733Z
+DTSTAMP:20261126T133120Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Chatham & Clarendon Grammar School: Kent Test at test centres for c
@@ -92,7 +92,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chatham-and-clarendon-grammar-school-739b9031e357@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T132733Z
+DTSTAMP:20261126T133120Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Chatham & Clarendon Grammar School: Kent Test decisions and scores 
@@ -106,7 +106,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chatham-and-clarendon-grammar-school-07816bb3da62@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T132733Z
+DTSTAMP:20261126T133120Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:Chatham & Clarendon Grammar School: SCAF closing date (midnight) fo
@@ -120,7 +120,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chatham-and-clarendon-grammar-school-7a7fc89d717d@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T132733Z
+DTSTAMP:20261126T133120Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Chatham & Clarendon Grammar School: Last date for changes to on-tim
@@ -134,7 +134,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chatham-and-clarendon-grammar-school-e66f0502bb93@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T132733Z
+DTSTAMP:20261126T133120Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Chatham & Clarendon Grammar School: National Offer Day (emails afte
@@ -148,7 +148,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chatham-and-clarendon-grammar-school-a44ef2d19a32@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T132733Z
+DTSTAMP:20261126T133120Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Chatham & Clarendon Grammar School: Accept or decline the offer\; d
@@ -162,7 +162,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chatham-and-clarendon-grammar-school-d9d16f6627f7@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T132733Z
+DTSTAMP:20261126T133120Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Chatham & Clarendon Grammar School: Deadline for lodging appeals to
@@ -176,7 +176,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chatham-and-clarendon-grammar-school-c2c9033db383@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T132733Z
+DTSTAMP:20261126T133120Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
 SUMMARY:Chatham & Clarendon Grammar School: KCC reallocation of vacant plac

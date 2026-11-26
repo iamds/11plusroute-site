@@ -803,10 +803,12 @@
     if (el.tagName === "DETAILS") el.open = true;
     for (let p = el.parentElement; p; p = p.parentElement) if (p.tagName === "DETAILS") p.open = true;
     el.querySelectorAll("details").forEach(d => d.open = true);
-    const smooth = !matchMedia("(prefers-reduced-motion: reduce)").matches && openTarget.ready;
+    const smooth = !matchMedia("(prefers-reduced-motion: reduce)").matches;
     // Links to a priority area land on the top of the "Priority areas" section so its map is in view
     const scrollTo = el.classList.contains("area") && document.getElementById("areamap") ? document.getElementById("areas") : el;
     if (scrollTo !== el) { el.classList.add("flash"); setTimeout(() => el.classList.remove("flash"), 1800); }
+    // opened from a fresh link: start at the top, then glide down once the page has settled
+    if (!openTarget.ready && smooth) { window.scrollTo(0, 0); setTimeout(() => scrollTo.scrollIntoView({ block: "start", behavior: "smooth" }), 400); return; }
     requestAnimationFrame(() => scrollTo.scrollIntoView({ block: "start", behavior: smooth ? "smooth" : "auto" }));
   }
   window.addEventListener("hashchange", openTarget);
@@ -825,7 +827,7 @@
   initMiniMaps();
   initShare();
   initStar();
-  openTarget.ready = true;  // first jump on page load is instant; later in-page jumps animate
+  openTarget.ready = true;  // later in-page jumps animate straight away
   const areasFold = document.getElementById("areas");
   if (areasFold) { areasFold.addEventListener("toggle", () => { if (areasFold.open) drawAreaMap(); }); if (areasFold.open) drawAreaMap(); }
 
