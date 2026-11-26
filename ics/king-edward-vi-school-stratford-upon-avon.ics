@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:king-edward-vi-school-stratford-upon-avon-e8d2107d70e0@www.11plusadmiss
  ions.co.uk
-DTSTAMP:20261126T165532Z
+DTSTAMP:20261126T170738Z
 DTSTART;VALUE=DATE:20260507
 DTEND;VALUE=DATE:20260508
 SUMMARY:King Edward VI School (Stratford-upon-Avon): 11+ registration opens
@@ -22,7 +22,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-school-stratford-upon-avon-db7523bc8c4a@www.11plusadmiss
  ions.co.uk
-DTSTAMP:20261126T165532Z
+DTSTAMP:20261126T170738Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 SUMMARY:King Edward VI School (Stratford-upon-Avon): 11+ registration and a
@@ -36,7 +36,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-school-stratford-upon-avon-222de3ba5267@www.11plusadmiss
  ions.co.uk
-DTSTAMP:20261126T165532Z
+DTSTAMP:20261126T170738Z
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 SUMMARY:King Edward VI School (Stratford-upon-Avon): Test invitation packs 
@@ -51,7 +51,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-school-stratford-upon-avon-bdf2acbb2463@www.11plusadmiss
  ions.co.uk
-DTSTAMP:20261126T165532Z
+DTSTAMP:20261126T170738Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:King Edward VI School (Stratford-upon-Avon): Warwickshire 11+ test 
@@ -65,7 +65,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-school-stratford-upon-avon-bd09b5bcff6b@www.11plusadmiss
  ions.co.uk
-DTSTAMP:20261126T165532Z
+DTSTAMP:20261126T170738Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:King Edward VI School (Stratford-upon-Avon): 11+ results on the Par
@@ -79,7 +79,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-school-stratford-upon-avon-d9e8ed2cec37@www.11plusadmiss
  ions.co.uk
-DTSTAMP:20261126T165532Z
+DTSTAMP:20261126T170738Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:King Edward VI School (Stratford-upon-Avon): Secondary application 
@@ -93,7 +93,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-school-stratford-upon-avon-2c9fc833df89@www.11plusadmiss
  ions.co.uk
-DTSTAMP:20261126T165532Z
+DTSTAMP:20261126T170738Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:King Edward VI School (Stratford-upon-Avon): Proof-of-address reque
@@ -107,7 +107,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-school-stratford-upon-avon-66c99103035d@www.11plusadmiss
  ions.co.uk
-DTSTAMP:20261126T165532Z
+DTSTAMP:20261126T170738Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:King Edward VI School (Stratford-upon-Avon): Proof of address and r
@@ -121,7 +121,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-school-stratford-upon-avon-b6c34c92fe76@www.11plusadmiss
  ions.co.uk
-DTSTAMP:20261126T165532Z
+DTSTAMP:20261126T170738Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:King Edward VI School (Stratford-upon-Avon): National Offer Day
@@ -134,7 +134,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-school-stratford-upon-avon-ae6aa2cca72a@www.11plusadmiss
  ions.co.uk
-DTSTAMP:20261126T165532Z
+DTSTAMP:20261126T170738Z
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
 SUMMARY:King Edward VI School (Stratford-upon-Avon): Year 7 waiting list di

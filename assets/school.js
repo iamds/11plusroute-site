@@ -374,7 +374,7 @@
     if (!el || areaMap || drawAreaMap.started) return;
     drawAreaMap.started = true;
     try { await window.GS.loadMapLib(); } catch (e) { el.innerHTML = '<p class="empty">The map couldn\'t load. Check your connection.</p>'; return; }
-    areaMap = new maplibregl.Map({ container: el, style: window.GS.mapStyle(), center: [G0.lng, G0.lat], zoom: 11, cooperativeGestures: true, attributionControl: { compact: true } });
+    areaMap = new maplibregl.Map({ container: el, style: window.GS.mapStyle(true), center: [G0.lng, G0.lat], zoom: 11, cooperativeGestures: true, attributionControl: { compact: true } });
     areaMap.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-left");
     const sch = document.createElement("div"); sch.className = "mpin"; sch.style.background = "#1f4e79"; sch.title = s.name;
     new maplibregl.Marker({ element: sch }).setLngLat([G0.lng, G0.lat]).addTo(areaMap);
@@ -402,7 +402,7 @@
     const build = async el => {
       try { await window.GS.loadMapLib(); } catch (e) { el.remove(); return; }
       const feats = miniFeatures(el);
-      const m = new maplibregl.Map({ container: el, style: window.GS.mapStyle(), center: [G0.lng, G0.lat], zoom: 10, interactive: false, attributionControl: false });
+      const m = new maplibregl.Map({ container: el, style: window.GS.mapStyle(true), center: [G0.lng, G0.lat], zoom: 10, interactive: false, attributionControl: false });
       m.addControl(new maplibregl.AttributionControl({ compact: true }), "bottom-right");
       setTimeout(() => el.querySelectorAll(".maplibregl-compact-show").forEach(x => x.classList.remove("maplibregl-compact-show")), 600);
       const sch = document.createElement("div"); sch.className = "mpin"; sch.style.background = "#1f4e79";
@@ -533,7 +533,7 @@
     dlg.showModal();
     const holder = dlg.querySelector(".bigmap");
     window.GS.loadMapLib().then(() => {
-      const m = dlg._map = new maplibregl.Map({ container: holder, style: window.GS.mapStyle(), center: [G0.lng, G0.lat], zoom: 10, attributionControl: { compact: true } });
+      const m = dlg._map = new maplibregl.Map({ container: holder, style: window.GS.mapStyle(true), center: [G0.lng, G0.lat], zoom: 10, attributionControl: { compact: true } });
       m.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-left");
       const sch = document.createElement("div"); sch.className = "mpin"; sch.style.background = "#1f4e79"; sch.title = s.name;
       new maplibregl.Marker({ element: sch }).setLngLat([G0.lng, G0.lat]).addTo(m);

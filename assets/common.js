@@ -123,7 +123,8 @@ window.GS = (function () {
     return mapLoading;
   }
   const isDark = () => document.documentElement.dataset.theme === "dark" || (document.documentElement.dataset.theme !== "light" && matchMedia("(prefers-color-scheme: dark)").matches);
-  const mapStyle = () => "https://tiles.openfreemap.org/styles/" + (isDark() ? "dark" : "positron");
+  // detailed: street names, parks and stations, for maps where a family needs to see which streets fall inside an area
+  const mapStyle = detailed => "https://tiles.openfreemap.org/styles/" + (isDark() ? "dark" : detailed ? "liberty" : "positron");
   function circleGeo(lat, lng, miles) {
     const pts = [], R = 3958.8, d = miles / R;
     for (let i = 0; i <= 64; i++) {
