@@ -316,7 +316,7 @@
       areaMap.addLayer({ id: id + "-fill", type: "fill", source: id, paint: { "fill-color": AREA_COLOURS[c.i % 5], "fill-opacity": 0.08 } });
       areaMap.addLayer({ id: id + "-line", type: "line", source: id, paint: { "line-color": AREA_COLOURS[c.i % 5], "line-width": 2 } });
     });
-    if (areaMap.isStyleLoaded()) add(); else areaMap.once("styledata", function retry() { areaMap.isStyleLoaded() ? add() : areaMap.once("styledata", retry); });
+    window.GS.onStyle(areaMap, add);
     areaMap.fitBounds(bounds, { padding: 30, duration: 0, maxZoom: 13 });
     setAreaMapHome(currentHome);
   }

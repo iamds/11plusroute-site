@@ -102,6 +102,16 @@ window.GS = (function () {
     }
     return { type: "Feature", geometry: { type: "Polygon", coordinates: [pts] } };
   }
+  // Run fn as soon as the map style accepts sources/layers. isStyleLoaded() stays false while tiles load,
+  // so don't wait for it: just try, and retry on style events and a short timer. fn must be idempotent.
+  function onStyle(map, fn) {
+    const attempt = () => { try { fn(); return true; } catch (e) { return false; } };
+    if (attempt()) return;
+    let done = false, timer;
+    const h = () => { if (!done && attempt()) { done = true; map.off("styledata", h); map.off("load", h); clearInterval(timer); } };
+    map.on("styledata", h); map.on("load", h);
+    timer = setInterval(h, 250); setTimeout(() => clearInterval(timer), 30000);
+  }
   function homeMarkerEl(postcode) {
     const el = document.createElement("div"); el.className = "mhome"; el.title = "Your postcode: " + postcode;
     el.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 3 2 11.5h3V21h5.5v-6h3v6H19v-9.5h3z"/></svg>';
@@ -145,5 +155,5 @@ window.GS = (function () {
     if (r.score_based) out.push(`<span class="gchip neutral">Places go by test score</span>`);
     return out.join("");
   }
-  return { CATEGORIES, SUBJECTS, GENDER, esc, fmtDate, catBadge, lookupPostcode, addLocateButton, loadMapLib, mapStyle, isDark, circleGeo, homeMarkerEl, loadHome, saveHome, miles, assess, statusChips };
+  return { CATEGORIES, SUBJECTS, GENDER, esc, fmtDate, catBadge, lookupPostcode, addLocateButton, loadMapLib, mapStyle, isDark, circleGeo, homeMarkerEl, onStyle, loadHome, saveHome, miles, assess, statusChips };
 })();

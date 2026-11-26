@@ -160,8 +160,7 @@
       map.addLayer({ id: "areas-line", type: "line", source: "areas", paint: { "line-color": ["get", "c"], "line-opacity": 0.3, "line-width": 1, "line-dasharray": [2, 2] } }, before);
     };
     const setLayers = () => { setAreas(); setRadius(); };
-    if (map.isStyleLoaded()) setLayers();
-    else map.once("styledata", function retry() { map.isStyleLoaded() ? setLayers() : map.once("styledata", retry); });
+    GS.onStyle(map, setLayers);
     if (home) {
       const hel = GS.homeMarkerEl(home.postcode);
       markers.push(new maplibregl.Marker({ element: hel }).setLngLat([home.lng, home.lat])
