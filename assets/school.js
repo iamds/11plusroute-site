@@ -167,6 +167,36 @@
       </div>`).join("")}</div>` });
   }
 
+  // ---------- subject chips: tap one to see what that part of the test is like ----------
+  const SUBJECT_INFO = {
+    english: "Usually reading comprehension plus vocabulary, spelling, punctuation and grammar questions. Some schools include a piece of writing.",
+    comprehension: "Read one or more passages (fiction, non-fiction or poetry) and answer questions about meaning, vocabulary and the writer's choices.",
+    creative_writing: "Write a story, description or other piece in a set time, often from a picture or opening line. Marked for content, organisation, vocabulary and accuracy.",
+    maths: "Arithmetic and problem solving, usually based on the Key Stage 2 curriculum up to the end of Year 5: number, fractions, measures, shape, data and word problems.",
+    verbal_reasoning: "Word and letter puzzles: codes, analogies, odd one out, hidden words, letter sequences and vocabulary. Tests reasoning with language rather than school knowledge.",
+    non_verbal_reasoning: "Puzzles with shapes and patterns: spotting the next in a sequence, the odd one out, matrices and codes. No reading or maths needed.",
+    spatial_reasoning: "Picturing shapes in your head: rotations, reflections, folding nets into cubes and fitting pieces together.",
+    music: "Listening and response tasks to judge musical aptitude, such as comparing pitch, rhythm and melody. Some schools also hear a performance.",
+    sport: "Physical tests of fitness, coordination and agility. Usually not about one particular sport.",
+  };
+  const FORMAT = { multiple_choice: "Multiple choice", written: "Written answers", standard_answer: "Write-in answers" };
+  function subjectChips(st, i) {
+    return (st.components || []).map((c, j) => {
+      const name = esc(c.label && c.subject === "other" ? c.label : SUBJECTS[c.subject] || c.subject);
+      const tag = [FORMAT[c.format] && FORMAT[c.format].replace("Multiple choice", "multiple choice").replace("Written answers", "written").replace("Write-in answers", "write-in"), c.duration_minutes != null ? dur(c.duration_minutes) : ""].filter(Boolean).join(" · ");
+      const lines = [
+        FORMAT[c.format] ? `<b>${FORMAT[c.format]}</b>${c.duration_minutes != null ? ` · ${dur(c.duration_minutes)}` : ""}` : c.duration_minutes != null ? `<b>${dur(c.duration_minutes)}</b>` : "",
+        c.label && c.subject !== "other" ? esc(c.label) : "",
+        c.description ? esc(c.description) : "",
+        c.weight != null ? `Counts for ${esc(c.weight)}% of the score.` : "",
+        SUBJECT_INFO[c.subject] ? `<span class="muted">What it usually means: ${SUBJECT_INFO[c.subject]}</span>` : "",
+      ].filter(Boolean);
+      if (!lines.length) return `<span class="subj">${name}</span>`;
+      const id = `si-${i}-${j}`;
+      return `<button type="button" class="subj subjbtn" aria-expanded="false" aria-controls="${id}">${name}${tag ? `<small>${tag}</small>` : ""}</button><div class="subjinfo" id="${id}" hidden>${lines.map(l => `<p>${l}</p>`).join("")}</div>`;
+    }).join("");
+  }
+
   function stagesBlock() {
     const all = a.stages || [];
     const list = all.filter(st => st.kind !== "aptitude");
@@ -174,7 +204,7 @@
     if (!all.length) return stop({ title: "No entrance test details recorded" });
     let h = "";
     list.forEach((st, i) => {
-      let comps = (st.components || []).map(c => `<span class="subj" title="${esc(c.label || "")}">${esc(c.label && c.subject === "other" ? c.label : SUBJECTS[c.subject] || c.subject)}</span>`).join("");
+      let comps = subjectChips(st, i);
       const papersHaveSubjects = (st.papers || []).some(pp => (pp.subjects || []).filter(x => x !== "other").length);
       const nums = ["", "One", "Two", "Three", "Four", "Five", "Six"];
       const paperDesc = pp => esc(pp.name || "Paper") + (pp.duration_minutes != null ? `, ${dur(pp.duration_minutes)}` : "");
@@ -820,6 +850,13 @@
     const open = !li.classList.contains("expanded");
     li.classList.toggle("expanded", open);
     li.querySelectorAll(".sg-toggle").forEach(x => x.setAttribute("aria-expanded", String(open)));
+  });
+  out.addEventListener("click", e => {
+    const b = e.target.closest(".subjbtn"); if (!b) return;
+    const box = b.closest(".subjects"), info = document.getElementById(b.getAttribute("aria-controls"));
+    const open = b.getAttribute("aria-expanded") !== "true";
+    box.querySelectorAll(".subjbtn").forEach(x => { x.setAttribute("aria-expanded", "false"); document.getElementById(x.getAttribute("aria-controls")).hidden = true; });
+    if (open) { b.setAttribute("aria-expanded", "true"); info.hidden = false; box.appendChild(info); }
   });
   out.addEventListener("click", e => { const a = e.target.closest('a[href^="#"]'); if (a && a.getAttribute("href") === location.hash) { e.preventDefault(); openTarget(); } });
   // remember this school for "Recently viewed" on the home page (this device only)
