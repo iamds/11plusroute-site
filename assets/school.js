@@ -748,7 +748,6 @@
         ${stagesBlock()}
         ${qualificationBlock()}
         ${zone("3", "Who gets the places")}
-        ${ehcpBlock()}
         ${criteriaBlock()}
       </ol>
     </section>
