@@ -7,38 +7,46 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:westlands-school-eca11c25b1f9@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Westlands School: Deadline to book the maths aptitude test (online 
  form)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/westlands-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/westlands-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:westlands-school-48046316da93@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:Westlands School: Kent SCAF closing date
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/westlands-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/westlands-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:westlands-school-33fef9629898@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:Westlands School: Maths aptitude test at Westlands School
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/westlands-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/westlands-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:westlands-school-e66f0502bb93@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Westlands School: National Offer Day (emails after 4pm)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/westlands-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/westlands-school.html
 TRANSP:TRANSPARENT
 END:VEVENT

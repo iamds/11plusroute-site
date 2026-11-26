@@ -7,116 +7,138 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:st-clement-danes-school-2210c39bf660@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260401
 DTEND;VALUE=DATE:20260402
 SUMMARY:St Clement Danes School: Consortium test registration opens
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/st-clement-danes-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/st-clement-danes-schoo
  l.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-clement-danes-school-3b123ad51160@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260605
 DTEND;VALUE=DATE:20260606
 SUMMARY:St Clement Danes School: Consortium test registration and access-ar
  rangement evidence deadline
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/st-clement-danes-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/st-clement-danes-schoo
  l.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-clement-danes-school-cc555898bb1d@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:St Clement Danes School: Test venue shown on the parent portal (aro
  und noon)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/st-clement-danes-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/st-clement-danes-schoo
  l.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-clement-danes-school-9e9d22dcd744@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20260906
 SUMMARY:St Clement Danes School: Academic test (Saturday)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/st-clement-danes-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/st-clement-danes-schoo
  l.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-clement-danes-school-0b954cf290da@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:St Clement Danes School: Music aptitude test round 1 (Monday)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/st-clement-danes-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/st-clement-danes-schoo
  l.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-clement-danes-school-9cf3df681e87@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:St Clement Danes School: Music round 1 scores and round 2 invitatio
  ns
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/st-clement-danes-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/st-clement-danes-schoo
  l.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-clement-danes-school-877471752494@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
 SUMMARY:St Clement Danes School: Music round 2 performances (21-25 Septembe
  r)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/st-clement-danes-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/st-clement-danes-schoo
  l.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-clement-danes-school-45a09c7bac79@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:St Clement Danes School: Final test scores released (around noon)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/st-clement-danes-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/st-clement-danes-schoo
  l.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-clement-danes-school-f88b3fe24e98@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:St Clement Danes School: Application deadline (council form and sch
  ool SIF)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/st-clement-danes-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/st-clement-danes-schoo
  l.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-clement-danes-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:St Clement Danes School: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/st-clement-danes-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/st-clement-danes-schoo
  l.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-clement-danes-school-1c70d18ee863@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270308
 DTEND;VALUE=DATE:20270309
 SUMMARY:St Clement Danes School: Accept or decline the offered place by thi
  s date (school request)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/st-clement-danes-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/st-clement-danes-schoo
  l.html
 TRANSP:TRANSPARENT

@@ -7,110 +7,134 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:parmiters-school-a82abca2a451@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260401
 DTEND;VALUE=DATE:20260402
 SUMMARY:Parmiter's School: SW Herts Consortium test registration opens
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/parmiters-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/parmiters-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:parmiters-school-9ebe0211fb91@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260605
 DTEND;VALUE=DATE:20260606
 SUMMARY:Parmiter's School: Test registration closes\; SEND evidence deadlin
  e
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/parmiters-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/parmiters-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:parmiters-school-550708ed5a5b@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260625
 DTEND;VALUE=DATE:20260626
 SUMMARY:Parmiter's School: Open Day (4-8pm)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/parmiters-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/parmiters-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:parmiters-school-81ac1ab9e13b@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:Parmiter's School: Test venues notified
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/parmiters-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/parmiters-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:parmiters-school-18b959b9c1d6@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20260906
 SUMMARY:Parmiter's School: Academic test (verbal reasoning and maths)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/parmiters-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/parmiters-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:parmiters-school-4dbd5bbd056e@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:Parmiter's School: Music aptitude test\, first stage
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/parmiters-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/parmiters-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:parmiters-school-7e77263f7193@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:Parmiter's School: First-stage music scores released
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/parmiters-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/parmiters-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:parmiters-school-ef35d78314bf@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
 SUMMARY:Parmiter's School: Second-stage music assessments (21-25 September)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/parmiters-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/parmiters-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:parmiters-school-92d39058507d@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Parmiter's School: Test scores on the consortium parent portal
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/parmiters-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/parmiters-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:parmiters-school-17ab830c097c@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Parmiter's School: CAF and SIF deadline
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/parmiters-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/parmiters-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:parmiters-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Parmiter's School: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/parmiters-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/parmiters-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:parmiters-school-c020647e1e93@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 SUMMARY:Parmiter's School: Appeal deadline (4pm)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/parmiters-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/parmiters-school.html
 TRANSP:TRANSPARENT
 END:VEVENT

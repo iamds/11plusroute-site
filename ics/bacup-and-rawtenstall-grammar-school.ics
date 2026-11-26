@@ -7,21 +7,25 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:bacup-and-rawtenstall-grammar-school-94de910f40c7@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Bacup and Rawtenstall Grammar School: Council application deadline 
  (results of the exam are sent before this)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/bacup-and-rawtenstall-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/bacup-and-rawtenstall-
  grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bacup-and-rawtenstall-grammar-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Bacup and Rawtenstall Grammar School: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/bacup-and-rawtenstall-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/bacup-and-rawtenstall-
  grammar-school.html
 TRANSP:TRANSPARENT

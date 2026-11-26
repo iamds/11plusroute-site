@@ -7,135 +7,161 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:ermysteds-grammar-school-8f5fd919e34d@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260413
 DTEND;VALUE=DATE:20260414
 SUMMARY:Ermysted's Grammar School: Test registration opens (noon)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ermysteds-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ermysteds-grammar-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ermysteds-grammar-school-f77f88a57402@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 SUMMARY:Ermysted's Grammar School: Open Evening\, 6-8pm
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ermysteds-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ermysteds-grammar-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ermysteds-grammar-school-abcd0945dd39@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 SUMMARY:Ermysted's Grammar School: Test registration and special arrangemen
  t requests close (noon)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ermysteds-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ermysteds-grammar-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ermysteds-grammar-school-a33df958c729@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 SUMMARY:Ermysted's Grammar School: Special arrangement decisions sent by th
  is date
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ermysteds-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ermysteds-grammar-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ermysteds-grammar-school-e9dd9969b6f7@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260927
 SUMMARY:Ermysted's Grammar School: Entrance Test (Saturday morning)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ermysteds-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ermysteds-grammar-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ermysteds-grammar-school-0ba3398aa10c@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 SUMMARY:Ermysted's Grammar School: Deadline to report absence through illne
  ss/bereavement (noon). Evidence by noon 2 October
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ermysteds-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ermysteds-grammar-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ermysteds-grammar-school-669237d9226f@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 SUMMARY:Ermysted's Grammar School: Test outcome letters during this week
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ermysteds-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ermysteds-grammar-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ermysteds-grammar-school-b91afe15558d@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
 SUMMARY:Ermysted's Grammar School: Deadline to request a score if below the
   standard (noon)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ermysteds-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ermysteds-grammar-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ermysteds-grammar-school-12b72e86d7fe@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Ermysted's Grammar School: CAF deadline
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ermysteds-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ermysteds-grammar-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ermysteds-grammar-school-a918214ee94b@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Ermysted's Grammar School: SIF and evidence deadline (noon)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ermysteds-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ermysteds-grammar-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ermysteds-grammar-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Ermysted's Grammar School: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ermysteds-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ermysteds-grammar-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ermysteds-grammar-school-38c292309518@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270405
 DTEND;VALUE=DATE:20270406
 SUMMARY:Ermysted's Grammar School: Registration opens for late (summer term
  ) testing
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ermysteds-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ermysteds-grammar-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ermysteds-grammar-school-fcfe6ab18c0c@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
 SUMMARY:Ermysted's Grammar School: Waiting list closes
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ermysteds-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ermysteds-grammar-scho
  ol.html
 TRANSP:TRANSPARENT

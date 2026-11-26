@@ -7,84 +7,100 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:lancaster-royal-grammar-school-e5ba35f62f3d@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260413
 DTEND;VALUE=DATE:20260414
 SUMMARY:Lancaster Royal Grammar School: LRGS 11+ registration opens (online
  )
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/lancaster-royal-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/lancaster-royal-gramma
  r-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:lancaster-royal-grammar-school-07a4f4b59f6d@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260620
 DTEND;VALUE=DATE:20260621
 SUMMARY:Lancaster Royal Grammar School: Open Day\, 9am-1pm
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/lancaster-royal-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/lancaster-royal-gramma
  r-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:lancaster-royal-grammar-school-1b0a9d4aae5d@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:Lancaster Royal Grammar School: Closing date for the LRGS 11+ appli
  cation form
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/lancaster-royal-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/lancaster-royal-gramma
  r-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:lancaster-royal-grammar-school-a9807cd80780@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260927
 SUMMARY:Lancaster Royal Grammar School: 11+ entrance test at LRGS (day and 
  boarding)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/lancaster-royal-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/lancaster-royal-gramma
  r-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:lancaster-royal-grammar-school-b6cd7eacf461@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261006
 DTEND;VALUE=DATE:20261007
 SUMMARY:Lancaster Royal Grammar School: 11+ results emailed to parents
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/lancaster-royal-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/lancaster-royal-gramma
  r-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:lancaster-royal-grammar-school-53c99b3a85f1@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Lancaster Royal Grammar School: Lancashire closing date for seconda
  ry applications
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/lancaster-royal-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/lancaster-royal-gramma
  r-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:lancaster-royal-grammar-school-75eea74935dd@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
 SUMMARY:Lancaster Royal Grammar School: Boarders' entrance test
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/lancaster-royal-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/lancaster-royal-gramma
  r-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:lancaster-royal-grammar-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Lancaster Royal Grammar School: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/lancaster-royal-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/lancaster-royal-gramma
  r-school.html
 TRANSP:TRANSPARENT

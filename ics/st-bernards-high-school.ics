@@ -7,136 +7,162 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:st-bernards-high-school-305f2611e092@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260512
 DTEND;VALUE=DATE:20260513
 SUMMARY:St Bernard's High School: CSSE registration opens
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/st-bernards-high-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/st-bernards-high-schoo
  l.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-bernards-high-school-a76b42f9be75@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
 SUMMARY:St Bernard's High School: CSSE registration deadline (online or pos
  t)\, absolute
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/st-bernards-high-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/st-bernards-high-schoo
  l.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-bernards-high-school-5441773fb595@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:St Bernard's High School: Deadline for access-arrangement requests 
  and evidence
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/st-bernards-high-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/st-bernards-high-schoo
  l.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-bernards-high-school-b2f052913e26@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260709
 DTEND;VALUE=DATE:20260710
 SUMMARY:St Bernard's High School: Open evening (5:30-8:30pm)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/st-bernards-high-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/st-bernards-high-schoo
  l.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-bernards-high-school-efaa19ae8f6e@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 SUMMARY:St Bernard's High School: Last date to withdraw from the test (emai
  l CSSE)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/st-bernards-high-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/st-bernards-high-schoo
  l.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-bernards-high-school-e1201920b4b6@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:St Bernard's High School: Southend online applications open
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/st-bernards-high-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/st-bernards-high-schoo
  l.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-bernards-high-school-e03e9e37a826@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:St Bernard's High School: CSSE 11+ test (Saturday)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/st-bernards-high-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/st-bernards-high-schoo
  l.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-bernards-high-school-cfbaaea9a323@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:St Bernard's High School: Alternative test day (religious\, illness
   or exceptional circumstances only)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/st-bernards-high-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/st-bernards-high-schoo
  l.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-bernards-high-school-a519e776e18a@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 SUMMARY:St Bernard's High School: Results emailed to all candidates after c
  lose of business
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/st-bernards-high-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/st-bernards-high-schoo
  l.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-bernards-high-school-361883a3458d@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:St Bernard's High School: SIF deadline (to the school)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/st-bernards-high-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/st-bernards-high-schoo
  l.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-bernards-high-school-7aa911945cee@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:St Bernard's High School: Southend: address used for secondary tran
  sfer is the child's residence on or before this date
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/st-bernards-high-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/st-bernards-high-schoo
  l.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-bernards-high-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:St Bernard's High School: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/st-bernards-high-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/st-bernards-high-schoo
  l.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-bernards-high-school-f0b4aecf1edd@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:St Bernard's High School: Closing date for on-time appeals
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/st-bernards-high-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/st-bernards-high-schoo
  l.html
 TRANSP:TRANSPARENT

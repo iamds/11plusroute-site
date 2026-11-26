@@ -131,7 +131,7 @@
       const [y, m, d] = x.d.split("-").map(Number);
       const next = new Date(Date.UTC(y, m - 1, d + 1)).toISOString().slice(0, 10).replace(/-/g, "");
       lines.push("BEGIN:VEVENT", `UID:${x.s.slug}-${x.d}-${i}@11plusroute`, `DTSTAMP:${stamp}`, `DTSTART;VALUE=DATE:${x.d.replace(/-/g, "")}`, `DTEND;VALUE=DATE:${next}`,
-        `SUMMARY:${e(x.s.name + ": " + x.t)}`, "TRANSP:TRANSPARENT", "END:VEVENT");
+        `SUMMARY:${e(x.s.name + ": " + x.t)}`, `DESCRIPTION:${e("Admissions details: " + new URL("schools/" + x.s.slug + ".html", location.href).href)}`, `URL:${new URL("schools/" + x.s.slug + ".html", location.href).href}`, "TRANSP:TRANSPARENT", "END:VEVENT");
     });
     lines.push("END:VCALENDAR");
     const a = document.createElement("a");

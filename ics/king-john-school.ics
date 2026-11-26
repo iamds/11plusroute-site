@@ -7,75 +7,91 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:king-john-school-b037d5b92a92@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20260906
 SUMMARY:The King John School: Open morning (9am-1pm)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-john-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-john-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-john-school-c03063c8dfb3@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:The King John School: Entry Test Application Form (SIF) deadline
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-john-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-john-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-john-school-b58efa5017df@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:The King John School: Entry test (Saturday)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-john-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-john-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-john-school-ee6eb95b51e3@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
 SUMMARY:The King John School: Week of the alternative test date (exceptiona
  l circumstances only)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-john-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-john-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-john-school-ffcf0aa745f9@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:The King John School: Test results posted
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-john-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-john-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-john-school-5bc2889ed70a@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:The King John School: CAF deadline (home council)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-john-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-john-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-john-school-592ea6f7388f@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The King John School: Deadline for proof of a new address to Essex 
  County Council
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-john-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-john-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-john-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:The King John School: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-john-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-john-school.html
 TRANSP:TRANSPARENT
 END:VEVENT

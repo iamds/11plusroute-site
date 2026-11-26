@@ -7,148 +7,176 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:southend-high-school-for-boys-305f2611e092@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260512
 DTEND;VALUE=DATE:20260513
 SUMMARY:Southend High School for Boys: CSSE registration opens
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/southend-high-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/southend-high-school-f
  or-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:southend-high-school-for-boys-a76b42f9be75@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
 SUMMARY:Southend High School for Boys: CSSE registration deadline (online o
  r post)\, absolute
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/southend-high-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/southend-high-school-f
  or-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:southend-high-school-for-boys-09215a6d8fde@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260625
 DTEND;VALUE=DATE:20260626
 SUMMARY:Southend High School for Boys: Open Evening for 2027 entry (classro
  oms open 4.30–8pm\; Headteacher talks at 5.45\, 6.45 and 8pm)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/southend-high-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/southend-high-school-f
  or-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:southend-high-school-for-boys-5441773fb595@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:Southend High School for Boys: Deadline for access-arrangement requ
  ests and evidence
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/southend-high-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/southend-high-school-f
  or-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:southend-high-school-for-boys-efaa19ae8f6e@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 SUMMARY:Southend High School for Boys: Last date to withdraw from the test 
  (email CSSE)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/southend-high-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/southend-high-school-f
  or-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:southend-high-school-for-boys-e1201920b4b6@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Southend High School for Boys: Southend online applications open
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/southend-high-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/southend-high-school-f
  or-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:southend-high-school-for-boys-e03e9e37a826@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Southend High School for Boys: CSSE 11+ test (Saturday)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/southend-high-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/southend-high-school-f
  or-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:southend-high-school-for-boys-cfbaaea9a323@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:Southend High School for Boys: Alternative test day (religious\, il
  lness or exceptional circumstances only)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/southend-high-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/southend-high-school-f
  or-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:southend-high-school-for-boys-a519e776e18a@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 SUMMARY:Southend High School for Boys: Results emailed to all candidates af
  ter close of business
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/southend-high-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/southend-high-school-f
  or-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:southend-high-school-for-boys-7ad99257e346@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
 SUMMARY:Southend High School for Boys: Open Afternoon (from 2.15pm)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/southend-high-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/southend-high-school-f
  or-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:southend-high-school-for-boys-8652b6c44c5c@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Southend High School for Boys: CAF deadline\; CSSE Pupil Premium Fo
  rms due at each CSSE school applied to
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/southend-high-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/southend-high-school-f
  or-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:southend-high-school-for-boys-a52d73fea48f@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Southend High School for Boys: Address used for secondary transfer 
  is the child's residence on or before this date
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/southend-high-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/southend-high-school-f
  or-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:southend-high-school-for-boys-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Southend High School for Boys: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/southend-high-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/southend-high-school-f
  or-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:southend-high-school-for-boys-f0b4aecf1edd@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Southend High School for Boys: Closing date for on-time appeals
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/southend-high-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/southend-high-school-f
  or-boys.html
 TRANSP:TRANSPARENT

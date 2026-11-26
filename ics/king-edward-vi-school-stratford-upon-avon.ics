@@ -7,110 +7,130 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:king-edward-vi-school-stratford-upon-avon-e8d2107d70e0@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260507
 DTEND;VALUE=DATE:20260508
 SUMMARY:King Edward VI School (Stratford-upon-Avon): 11+ registration opens
   (Warwickshire Parent Portal)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-school-stratford-upon-avon.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-school-
  stratford-upon-avon.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-school-stratford-upon-avon-db7523bc8c4a@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 SUMMARY:King Edward VI School (Stratford-upon-Avon): 11+ registration and a
  ccess arrangements deadline (11.59pm)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-school-stratford-upon-avon.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-school-
  stratford-upon-avon.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-school-stratford-upon-avon-222de3ba5267@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 SUMMARY:King Edward VI School (Stratford-upon-Avon): Test invitation packs 
  sent from this week (chase Warwickshire Admissions if nothing by 17 August
  )
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-school-stratford-upon-avon.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-school-
  stratford-upon-avon.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-school-stratford-upon-avon-bdf2acbb2463@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:King Edward VI School (Stratford-upon-Avon): Warwickshire 11+ test 
  (12 and 13 September)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-school-stratford-upon-avon.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-school-
  stratford-upon-avon.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-school-stratford-upon-avon-bd09b5bcff6b@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:King Edward VI School (Stratford-upon-Avon): 11+ results on the Par
  ent Portal
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-school-stratford-upon-avon.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-school-
  stratford-upon-avon.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-school-stratford-upon-avon-d9e8ed2cec37@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:King Edward VI School (Stratford-upon-Avon): Secondary application 
  deadline (home LA\, 11.59pm)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-school-stratford-upon-avon.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-school-
  stratford-upon-avon.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-school-stratford-upon-avon-2c9fc833df89@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:King Edward VI School (Stratford-upon-Avon): Proof-of-address reque
  sts sent (week commencing 1 December)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-school-stratford-upon-avon.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-school-
  stratford-upon-avon.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-school-stratford-upon-avon-66c99103035d@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:King Edward VI School (Stratford-upon-Avon): Proof of address and r
  esidence deadline (11.59pm)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-school-stratford-upon-avon.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-school-
  stratford-upon-avon.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-school-stratford-upon-avon-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:King Edward VI School (Stratford-upon-Avon): National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-school-stratford-upon-avon.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-school-
  stratford-upon-avon.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-school-stratford-upon-avon-ae6aa2cca72a@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
 SUMMARY:King Edward VI School (Stratford-upon-Avon): Year 7 waiting list di
  ssolved
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-school-stratford-upon-avon.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-school-
  stratford-upon-avon.html
 TRANSP:TRANSPARENT

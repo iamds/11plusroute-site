@@ -7,103 +7,123 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:ripon-grammar-school-bb84798f135e@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
 SUMMARY:Ripon Grammar School: Online entrance test registration opens
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ripon-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ripon-grammar-school.h
  tml
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ripon-grammar-school-9f8226b2b148@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 SUMMARY:Ripon Grammar School: Test registration closes (including special a
  rrangement requests and evidence)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ripon-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ripon-grammar-school.h
  tml
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ripon-grammar-school-aa2fe06ca5cd@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 SUMMARY:Ripon Grammar School: Special arrangements decisions sent by the en
  d of July
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ripon-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ripon-grammar-school.h
  tml
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ripon-grammar-school-5985ec9921ad@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260825
 DTEND;VALUE=DATE:20260826
 SUMMARY:Ripon Grammar School: Test-day invitations sent during this week
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ripon-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ripon-grammar-school.h
  tml
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ripon-grammar-school-6b9c741a2615@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Ripon Grammar School: Entrance test at Ripon Grammar School
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ripon-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ripon-grammar-school.h
  tml
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ripon-grammar-school-ca2369521055@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Ripon Grammar School: Test results sent by this date
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ripon-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ripon-grammar-school.h
  tml
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ripon-grammar-school-12b72e86d7fe@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Ripon Grammar School: CAF deadline
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ripon-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ripon-grammar-school.h
  tml
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ripon-grammar-school-4e6b7c0a3455@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Ripon Grammar School: Last date for changes of preference or addres
  s
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ripon-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ripon-grammar-school.h
  tml
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ripon-grammar-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Ripon Grammar School: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ripon-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ripon-grammar-school.h
  tml
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ripon-grammar-school-f8f1f9d74a32@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
 SUMMARY:Ripon Grammar School: Waiting lists close
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ripon-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ripon-grammar-school.h
  tml
 TRANSP:TRANSPARENT

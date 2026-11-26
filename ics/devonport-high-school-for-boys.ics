@@ -7,115 +7,137 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:devonport-high-school-for-boys-b5202c2f8b80@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260420
 DTEND;VALUE=DATE:20260421
 SUMMARY:Devonport High School for Boys: Familiarisation session registratio
  n opens (sessions in June 2026)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/devonport-high-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/devonport-high-school-
  for-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:devonport-high-school-for-boys-737d5c71d22c@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260427
 DTEND;VALUE=DATE:20260428
 SUMMARY:Devonport High School for Boys: Plymouth 11+ registration window op
  ens (Plymouth scheme)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/devonport-high-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/devonport-high-school-
  for-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:devonport-high-school-for-boys-6182eb364aca@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260707
 DTEND;VALUE=DATE:20260708
 SUMMARY:Devonport High School for Boys: Open evening\, 4:30pm
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/devonport-high-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/devonport-high-school-
  for-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:devonport-high-school-for-boys-9100d9251869@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 SUMMARY:Devonport High School for Boys: 11+ registration deadline
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/devonport-high-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/devonport-high-school-
  for-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:devonport-high-school-for-boys-5bf9de81bbae@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Devonport High School for Boys: Test day 1: Quest English reading +
   DHSB writing paper
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/devonport-high-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/devonport-high-school-
  for-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:devonport-high-school-for-boys-30ff2778a3a5@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Devonport High School for Boys: Test day 2: Quest Maths
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/devonport-high-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/devonport-high-school-
  for-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:devonport-high-school-for-boys-5d930df746d0@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:Devonport High School for Boys: A/B/C results letters posted (Plymo
  uth scheme)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/devonport-high-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/devonport-high-school-
  for-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:devonport-high-school-for-boys-1c706bb41a7a@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Devonport High School for Boys: CAF deadline (home LA) and Pupil/Se
  rvice Premium SIF
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/devonport-high-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/devonport-high-school-
  for-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:devonport-high-school-for-boys-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Devonport High School for Boys: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/devonport-high-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/devonport-high-school-
  for-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:devonport-high-school-for-boys-330ad48199ad@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270423
 DTEND;VALUE=DATE:20270424
 SUMMARY:Devonport High School for Boys: Plymouth 2nd round of allocations
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/devonport-high-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/devonport-high-school-
  for-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:devonport-high-school-for-boys-ca274d8205d2@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20280731
 DTEND;VALUE=DATE:20280801
 SUMMARY:Devonport High School for Boys: Waiting list closes
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/devonport-high-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/devonport-high-school-
  for-boys.html
 TRANSP:TRANSPARENT

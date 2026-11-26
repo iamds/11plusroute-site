@@ -7,146 +7,174 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:queen-marys-grammar-school-c4a5826e1e29@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260505
 DTEND;VALUE=DATE:20260506
 SUMMARY:Queen Mary's Grammar School: Test registration opens (westmidlandsg
  rammarschools.co.uk)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/queen-marys-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/queen-marys-grammar-sc
  hool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-marys-grammar-school-55db0fc7f3a4@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260604
 DTEND;VALUE=DATE:20260605
 SUMMARY:Queen Mary's Grammar School: Open evening
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/queen-marys-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/queen-marys-grammar-sc
  hool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-marys-grammar-school-561ee26e1297@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260612
 DTEND;VALUE=DATE:20260613
 SUMMARY:Queen Mary's Grammar School: 4pm: special arrangements deadline
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/queen-marys-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/queen-marys-grammar-sc
  hool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-marys-grammar-school-fdf29dbd597e@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:Queen Mary's Grammar School: 4pm: test registration deadline
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/queen-marys-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/queen-marys-grammar-sc
  hool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-marys-grammar-school-4cdd567a4f83@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:Queen Mary's Grammar School: Contact the school if test details hav
  en't arrived by now
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/queen-marys-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/queen-marys-grammar-sc
  hool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-marys-grammar-school-ef5754615294@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:Queen Mary's Grammar School: Deadline: Pupil Premium confirmation f
  orm
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/queen-marys-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/queen-marys-grammar-sc
  hool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-marys-grammar-school-9ae598ee98da@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Queen Mary's Grammar School: Entrance test
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/queen-marys-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/queen-marys-grammar-sc
  hool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-marys-grammar-school-0016e6d3e3de@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Queen Mary's Grammar School: Results sent by this date (sent 14 Oct
  ober 2026)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/queen-marys-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/queen-marys-grammar-sc
  hool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-marys-grammar-school-e0e06dcc9fba@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Queen Mary's Grammar School: Home LA application deadline
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/queen-marys-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/queen-marys-grammar-sc
  hool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-marys-grammar-school-8c4bf1c77b82@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Queen Mary's Grammar School: Governors confirm the minimum qualifyi
  ng score (early to mid-November)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/queen-marys-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/queen-marys-grammar-sc
  hool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-marys-grammar-school-3268efc5a57b@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 SUMMARY:Queen Mary's Grammar School: Late registrations after this date are
  n't covered by the late-application rules
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/queen-marys-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/queen-marys-grammar-sc
  hool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-marys-grammar-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Queen Mary's Grammar School: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/queen-marys-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/queen-marys-grammar-sc
  hool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-marys-grammar-school-a78a75f1ab67@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270311
 DTEND;VALUE=DATE:20270312
 SUMMARY:Queen Mary's Grammar School: Late entrance test
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/queen-marys-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/queen-marys-grammar-sc
  hool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-marys-grammar-school-5ad4f8ea9d41@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
 SUMMARY:Queen Mary's Grammar School: Main-round waiting list closes
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/queen-marys-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/queen-marys-grammar-sc
  hool.html
 TRANSP:TRANSPARENT

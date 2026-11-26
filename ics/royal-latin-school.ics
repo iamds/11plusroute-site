@@ -7,117 +7,139 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:royal-latin-school-82e31c3f9102@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 SUMMARY:Royal Latin School: Secondary Transfer Test registration opens
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/royal-latin-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/royal-latin-school.htm
  l
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:royal-latin-school-3879945e70d3@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260602
 DTEND;VALUE=DATE:20260603
 SUMMARY:Royal Latin School: Test registration closes (3pm)\, also the deadl
  ine to opt out and for headteachers' access-arrangement requests
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/royal-latin-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/royal-latin-school.htm
  l
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:royal-latin-school-4019d45cfea7@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 SUMMARY:Royal Latin School: Test invitations emailed to children tested at 
  grammar schools / central venues
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/royal-latin-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/royal-latin-school.htm
  l
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:royal-latin-school-3afa43e8b29c@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:Royal Latin School: Practice Test (in school for Bucks state primar
  y and Partner school pupils)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/royal-latin-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/royal-latin-school.htm
  l
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:royal-latin-school-8ff6b2356e5e@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Royal Latin School: Secondary Transfer Test
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/royal-latin-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/royal-latin-school.htm
  l
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:royal-latin-school-ce189e95620d@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:Royal Latin School: Test results released
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/royal-latin-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/royal-latin-school.htm
  l
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:royal-latin-school-a35ebaa4f643@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:Royal Latin School: Selection Review deadline (for results received
   on 9 October)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/royal-latin-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/royal-latin-school.htm
  l
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:royal-latin-school-f5d734ee134a@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Royal Latin School: National secondary application deadline (and de
  adline for Pupil Premium evidence to schools)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/royal-latin-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/royal-latin-school.htm
  l
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:royal-latin-school-3106cf31e7f2@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:Royal Latin School: Selection Review outcomes released (also the la
  st date to request a review after a late test)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/royal-latin-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/royal-latin-school.htm
  l
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:royal-latin-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Royal Latin School: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/royal-latin-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/royal-latin-school.htm
  l
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:royal-latin-school-3819d62ada6d@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270701
 DTEND;VALUE=DATE:20270702
 SUMMARY:Royal Latin School: Royal Latin 11+ Open Evening (for 2028 entry)\,
   4.30-7.30pm
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/royal-latin-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/royal-latin-school.htm
  l
 TRANSP:TRANSPARENT

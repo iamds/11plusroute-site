@@ -7,118 +7,140 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:colchester-royal-grammar-school-305f2611e092@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260512
 DTEND;VALUE=DATE:20260513
 SUMMARY:Colchester Royal Grammar School: CSSE registration opens
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/colchester-royal-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/colchester-royal-gramm
  ar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:colchester-royal-grammar-school-a76b42f9be75@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
 SUMMARY:Colchester Royal Grammar School: CSSE registration deadline (online
   or post)\, absolute
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/colchester-royal-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/colchester-royal-gramm
  ar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:colchester-royal-grammar-school-5441773fb595@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:Colchester Royal Grammar School: Deadline for access-arrangement re
  quests and evidence
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/colchester-royal-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/colchester-royal-gramm
  ar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:colchester-royal-grammar-school-7e8c288c0b71@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260716
 SUMMARY:Colchester Royal Grammar School: Test centre information should hav
  e arrived by email
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/colchester-royal-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/colchester-royal-gramm
  ar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:colchester-royal-grammar-school-efaa19ae8f6e@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 SUMMARY:Colchester Royal Grammar School: Last date to withdraw from the tes
  t (email CSSE)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/colchester-royal-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/colchester-royal-gramm
  ar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:colchester-royal-grammar-school-e03e9e37a826@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Colchester Royal Grammar School: CSSE 11+ test (Saturday)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/colchester-royal-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/colchester-royal-gramm
  ar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:colchester-royal-grammar-school-cfbaaea9a323@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:Colchester Royal Grammar School: Alternative test day (religious\, 
  illness or exceptional circumstances only)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/colchester-royal-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/colchester-royal-gramm
  ar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:colchester-royal-grammar-school-0f5391e2310d@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 SUMMARY:Colchester Royal Grammar School: Results emailed after close of bus
  iness
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/colchester-royal-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/colchester-royal-gramm
  ar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:colchester-royal-grammar-school-3262517da203@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Colchester Royal Grammar School: Application deadline (home council
  )
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/colchester-royal-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/colchester-royal-gramm
  ar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:colchester-royal-grammar-school-044e716fdc59@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Colchester Royal Grammar School: Essex: last date for address-chang
  e evidence and on-time changes for first-round offers
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/colchester-royal-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/colchester-royal-gramm
  ar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:colchester-royal-grammar-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Colchester Royal Grammar School: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/colchester-royal-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/colchester-royal-gramm
  ar-school.html
 TRANSP:TRANSPARENT

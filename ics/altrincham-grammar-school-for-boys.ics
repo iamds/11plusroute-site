@@ -7,131 +7,155 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-boys-8453164905e3@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260423
 DTEND;VALUE=DATE:20260424
 SUMMARY:Altrincham Grammar School for Boys: Entrance exam applications open
   (12 noon)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/altrincham-grammar-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/altrincham-grammar-sch
  ool-for-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-boys-6303ae859417@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260505
 DTEND;VALUE=DATE:20260506
 SUMMARY:Altrincham Grammar School for Boys: AGSB Open Evening\, 5pm-7.30pm 
  (drop in)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/altrincham-grammar-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/altrincham-grammar-sch
  ool-for-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-boys-ff4d5a1b9279@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
 SUMMARY:Altrincham Grammar School for Boys: Entrance exam applications\, Pu
  pil Premium evidence and access-arrangement requests close (12 noon)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/altrincham-grammar-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/altrincham-grammar-sch
  ool-for-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-boys-6a07f9dbda9a@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260713
 DTEND;VALUE=DATE:20260714
 SUMMARY:Altrincham Grammar School for Boys: Exam details\, Attendance Form 
  and Special Circumstances Form posted (week commencing)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/altrincham-grammar-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/altrincham-grammar-sch
  ool-for-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-boys-ca651f5851da@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260821
 SUMMARY:Altrincham Grammar School for Boys: Exam details should have arrive
  d by this date
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/altrincham-grammar-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/altrincham-grammar-sch
  ool-for-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-boys-336300bd3dba@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 SUMMARY:Altrincham Grammar School for Boys: Trafford Consortium Entrance Ex
  am
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/altrincham-grammar-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/altrincham-grammar-sch
  ool-for-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-boys-bef2f2ad1480@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 SUMMARY:Altrincham Grammar School for Boys: Deadline: Attendance Form with 
  photograph
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/altrincham-grammar-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/altrincham-grammar-sch
  ool-for-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-boys-5bf0533973fa@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:Altrincham Grammar School for Boys: Special Circumstances Forms (il
  lness etc.) due by 12 noon
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/altrincham-grammar-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/altrincham-grammar-sch
  ool-for-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-boys-2b3a9f3ab410@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Altrincham Grammar School for Boys: Results sent before this date. 
  CAF deadline (home LA)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/altrincham-grammar-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/altrincham-grammar-sch
  ool-for-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-boys-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Altrincham Grammar School for Boys: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/altrincham-grammar-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/altrincham-grammar-sch
  ool-for-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-boys-308c729c2327@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Altrincham Grammar School for Boys: Deadline to accept offers
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/altrincham-grammar-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/altrincham-grammar-sch
  ool-for-boys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-boys-afa300dc55a5@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
 SUMMARY:Altrincham Grammar School for Boys: Renters must still live in the 
  priority area. Boys who leave the area before this date have their place r
  eviewed
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/altrincham-grammar-school-for-boys.html
 URL:https://iamds.github.io/11plusroute-site/schools/altrincham-grammar-sch
  ool-for-boys.html
 TRANSP:TRANSPARENT

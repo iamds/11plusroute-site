@@ -7,94 +7,112 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:woodford-county-high-school-8bb568cd7aaf@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
 SUMMARY:Woodford County High School: Open evening
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/woodford-county-high-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/woodford-county-high-s
  chool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:woodford-county-high-school-5cdee53f65cb@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 SUMMARY:Woodford County High School: 11+ registration opens
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/woodford-county-high-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/woodford-county-high-s
  chool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:woodford-county-high-school-bd25a4107f85@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
 SUMMARY:Woodford County High School: Registration closes (5pm). Last day to
   request test adjustments
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/woodford-county-high-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/woodford-county-high-s
  chool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:woodford-county-high-school-5779fbda7542@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Woodford County High School: Early September: invite letter and pho
  to ID form emailed
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/woodford-county-high-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/woodford-county-high-s
  chool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:woodford-county-high-school-b11a993a3c04@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Woodford County High School: Redbridge 11+ test
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/woodford-county-high-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/woodford-county-high-s
  chool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:woodford-county-high-school-158cd5c8a985@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Woodford County High School: Mid-October: results emailed
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/woodford-county-high-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/woodford-county-high-s
  chool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:woodford-county-high-school-12b72e86d7fe@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Woodford County High School: CAF deadline
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/woodford-county-high-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/woodford-county-high-s
  chool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:woodford-county-high-school-145e91104db8@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Woodford County High School: National Offer Day (on or about 1 Marc
  h 2027)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/woodford-county-high-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/woodford-county-high-s
  chool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:woodford-county-high-school-9420859deefb@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
 SUMMARY:Woodford County High School: Waiting list for September 2027 entry 
  ends
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/woodford-county-high-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/woodford-county-high-s
  chool.html
 TRANSP:TRANSPARENT

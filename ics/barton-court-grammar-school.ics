@@ -7,151 +7,179 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:barton-court-grammar-school-048371a3aa36@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 SUMMARY:Barton Court Grammar School: Kent Test registration opens (KTAF onl
  ine at kent.gov.uk/ola)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/barton-court-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/barton-court-grammar-s
  chool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:barton-court-grammar-school-4449d0dc7157@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Barton Court Grammar School: Kent Test registration closes\; deadli
  ne for schools to request special arrangements
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/barton-court-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/barton-court-grammar-s
  chool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:barton-court-grammar-school-dc367874cd3e@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260721
 DTEND;VALUE=DATE:20260722
 SUMMARY:Barton Court Grammar School: Late paper KTAF deadline (children at 
  KCC primary schools only)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/barton-court-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/barton-court-grammar-s
  chool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:barton-court-grammar-school-f7e2cb2f52bb@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Barton Court Grammar School: Secondary applications open
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/barton-court-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/barton-court-grammar-s
  chool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:barton-court-grammar-school-ab2da8706ba3@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Barton Court Grammar School: Kent Test for children at Kent primary
   schools
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/barton-court-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/barton-court-grammar-s
  chool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:barton-court-grammar-school-05d62c71d2db@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Barton Court Grammar School: Kent Test at test centres for children
   not at Kent schools (weekend of 12/13 September)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/barton-court-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/barton-court-grammar-s
  chool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:barton-court-grammar-school-430271fea67e@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Barton Court Grammar School: Kent Test assessment decisions sent (a
  fter 4pm)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/barton-court-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/barton-court-grammar-s
  chool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:barton-court-grammar-school-ecafa3887e48@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Barton Court Grammar School: Pupil Premium SIF to the school
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/barton-court-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/barton-court-grammar-s
  chool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:barton-court-grammar-school-9fbbbdd37152@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:Barton Court Grammar School: Secondary application (SCAF) deadline 
  for Kent residents (midnight)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/barton-court-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/barton-court-grammar-s
  chool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:barton-court-grammar-school-995de5ee548d@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Barton Court Grammar School: Last day to change your application de
  tails in time for offer day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/barton-court-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/barton-court-grammar-s
  chool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:barton-court-grammar-school-e66f0502bb93@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Barton Court Grammar School: National Offer Day (emails after 4pm)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/barton-court-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/barton-court-grammar-s
  chool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:barton-court-grammar-school-0c61eb2dde83@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Barton Court Grammar School: Accept/decline the offer\; deadline fo
  r waiting-list requests and late applications in KCC's reallocation
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/barton-court-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/barton-court-grammar-s
  chool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:barton-court-grammar-school-32f76fbd9c71@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Barton Court Grammar School: Lodge appeals by this date to be heard
   before September
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/barton-court-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/barton-court-grammar-s
  chool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:barton-court-grammar-school-07657d7a5e83@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
 SUMMARY:Barton Court Grammar School: Kent Reallocation Day: places that hav
  e come free are offered from waiting lists
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/barton-court-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/barton-court-grammar-s
  chool.html
 TRANSP:TRANSPARENT

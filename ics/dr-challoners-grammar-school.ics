@@ -7,171 +7,203 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:dr-challoners-grammar-school-51a992d8700c@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260401
 DTEND;VALUE=DATE:20260402
 SUMMARY:Dr Challoner's Grammar School: Must be living at the catchment addr
  ess from this date
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/dr-challoners-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/dr-challoners-grammar-
  school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dr-challoners-grammar-school-8b86f16b35cc@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 SUMMARY:Dr Challoner's Grammar School: Test registration opens (10am) for c
  hildren not at a state-funded Bucks primary
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/dr-challoners-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/dr-challoners-grammar-
  school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dr-challoners-grammar-school-3892702b8397@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260602
 DTEND;VALUE=DATE:20260603
 SUMMARY:Dr Challoner's Grammar School: Test registration closes (3pm)\; opt
  -out deadline for Bucks primary pupils\; access arrangement requests from 
  Bucks/Partner schools
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/dr-challoners-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/dr-challoners-grammar-
  school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dr-challoners-grammar-school-6340a5a4077d@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260616
 DTEND;VALUE=DATE:20260617
 SUMMARY:Dr Challoner's Grammar School: Access arrangement requests from all
   other schools
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/dr-challoners-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/dr-challoners-grammar-
  school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dr-challoners-grammar-school-af3e9352b947@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 SUMMARY:Dr Challoner's Grammar School: Test invitations emailed for childre
  n tested at a grammar school or central venue
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/dr-challoners-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/dr-challoners-grammar-
  school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dr-challoners-grammar-school-6dd7a6ce8513@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Dr Challoner's Grammar School: Deadline to have sold a former famil
  y home within 20 miles
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/dr-challoners-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/dr-challoners-grammar-
  school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dr-challoners-grammar-school-6d393b5d2a2f@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:Dr Challoner's Grammar School: Practice Test
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/dr-challoners-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/dr-challoners-grammar-
  school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dr-challoners-grammar-school-8ff6b2356e5e@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Dr Challoner's Grammar School: Secondary Transfer Test
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/dr-challoners-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/dr-challoners-grammar-
  school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dr-challoners-grammar-school-ce189e95620d@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:Dr Challoner's Grammar School: Test results released
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/dr-challoners-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/dr-challoners-grammar-
  school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dr-challoners-grammar-school-7d97d264ed55@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:Dr Challoner's Grammar School: Selection Review deadline (full case
  )
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/dr-challoners-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/dr-challoners-grammar-
  school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dr-challoners-grammar-school-3262517da203@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Dr Challoner's Grammar School: Application deadline (home council)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/dr-challoners-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/dr-challoners-grammar-
  school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dr-challoners-grammar-school-a413e6a86c1d@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Dr Challoner's Grammar School: DCGS Supplementary Information Form 
  deadline (4pm) for the first allocation round
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/dr-challoners-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/dr-challoners-grammar-
  school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dr-challoners-grammar-school-50da406e28b3@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:Dr Challoner's Grammar School: Evidence deadline for Service/Crown 
  families being posted to the area
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/dr-challoners-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/dr-challoners-grammar-
  school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dr-challoners-grammar-school-c7d39e723e1a@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:Dr Challoner's Grammar School: Selection Review outcomes
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/dr-challoners-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/dr-challoners-grammar-
  school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dr-challoners-grammar-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Dr Challoner's Grammar School: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/dr-challoners-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/dr-challoners-grammar-
  school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dr-challoners-grammar-school-7844aedc2a04@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Dr Challoner's Grammar School: Deadline to accept or decline the of
  fer (11:59pm)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/dr-challoners-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/dr-challoners-grammar-
  school.html
 TRANSP:TRANSPARENT

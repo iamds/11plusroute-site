@@ -7,63 +7,75 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:king-david-high-school-622ca713e418@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260702
 DTEND;VALUE=DATE:20260703
 SUMMARY:King David High School: Open evening (held)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-david-high-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-david-high-school
  .html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-david-high-school-608f9a4f5195@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:King David High School: Musical Aptitude Form deadline
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-david-high-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-david-high-school
  .html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-david-high-school-0a63c0ed07bc@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 SUMMARY:King David High School: Music aptitude assessments begin (week of 1
  4 Sept)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-david-high-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-david-high-school
  .html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-david-high-school-7d71f5bccafa@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:King David High School: Music assessment rank order emailed to pare
  nts
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-david-high-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-david-high-school
  .html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-david-high-school-96dde692efeb@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:King David High School: SIF\, Certificate of Religious Practice and
   council application deadline
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-david-high-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-david-high-school
  .html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-david-high-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:King David High School: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-david-high-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-david-high-school
  .html
 TRANSP:TRANSPARENT

@@ -7,96 +7,114 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:stratford-girls-grammar-school-e7c4799dda13@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260507
 DTEND;VALUE=DATE:20260508
 SUMMARY:Stratford Girls' Grammar School: 11+ registration opens
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/stratford-girls-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/stratford-girls-gramma
  r-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:stratford-girls-grammar-school-db7523bc8c4a@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 SUMMARY:Stratford Girls' Grammar School: 11+ registration and access arrang
  ements deadline (11.59pm)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/stratford-girls-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/stratford-girls-gramma
  r-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:stratford-girls-grammar-school-b26dd2fb3892@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 SUMMARY:Stratford Girls' Grammar School: Test invitation packs sent from w/
  c 10 August (chase Warwickshire Admissions if none by 17 August)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/stratford-girls-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/stratford-girls-gramma
  r-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:stratford-girls-grammar-school-0ffbdc093c3a@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Stratford Girls' Grammar School: Warwickshire 11+ test (12-13 Septe
  mber 2026)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/stratford-girls-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/stratford-girls-gramma
  r-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:stratford-girls-grammar-school-bd09b5bcff6b@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Stratford Girls' Grammar School: 11+ results on the Parent Portal
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/stratford-girls-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/stratford-girls-gramma
  r-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:stratford-girls-grammar-school-0a9a3f9b18ed@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Stratford Girls' Grammar School: Secondary application (CAF) deadli
  ne\, 11.59pm
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/stratford-girls-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/stratford-girls-gramma
  r-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:stratford-girls-grammar-school-a00c9c73950b@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Stratford Girls' Grammar School: Proof of address requested (week c
  ommencing 1 December)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/stratford-girls-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/stratford-girls-gramma
  r-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:stratford-girls-grammar-school-8b9b56fc45b2@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Stratford Girls' Grammar School: Proof of address / move-in deadlin
  e (11.59pm)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/stratford-girls-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/stratford-girls-gramma
  r-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:stratford-girls-grammar-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Stratford Girls' Grammar School: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/stratford-girls-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/stratford-girls-gramma
  r-school.html
 TRANSP:TRANSPARENT

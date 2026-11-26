@@ -7,127 +7,151 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:nonsuch-high-school-for-girls-0bdbd5d6a5bd@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 SUMMARY:Nonsuch High School for Girls: SET registration opens
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/nonsuch-high-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/nonsuch-high-school-fo
  r-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:nonsuch-high-school-for-girls-8e65a43200aa@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260612
 DTEND;VALUE=DATE:20260613
 SUMMARY:Nonsuch High School for Girls: Deadline for access-arrangement requ
  ests and SENCO evidence
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/nonsuch-high-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/nonsuch-high-school-fo
  r-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:nonsuch-high-school-for-girls-63e41cf27cee@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 SUMMARY:Nonsuch High School for Girls: SET registration closes (midnight). 
  No late registrations
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/nonsuch-high-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/nonsuch-high-school-fo
  r-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:nonsuch-high-school-for-girls-7b092ed978e5@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 SUMMARY:Nonsuch High School for Girls: Latest date for the primary school t
  o return the GLT Pupil Premium / looked-after form
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/nonsuch-high-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/nonsuch-high-school-fo
  r-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:nonsuch-high-school-for-girls-adaa02c598c5@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:Nonsuch High School for Girls: Selective Eligibility Test (SET)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/nonsuch-high-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/nonsuch-high-school-fo
  r-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:nonsuch-high-school-for-girls-0ac5a61403e7@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Nonsuch High School for Girls: Deadline for SET unfit-to-sit eviden
  ce
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/nonsuch-high-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/nonsuch-high-school-fo
  r-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:nonsuch-high-school-for-girls-1a37351fbb4a@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260927
 SUMMARY:Nonsuch High School for Girls: NWSSEE (Saturday morning)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/nonsuch-high-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/nonsuch-high-school-fo
  r-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:nonsuch-high-school-for-girls-950609178635@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:Nonsuch High School for Girls: Deadline for NWSSEE unfit-to-sit evi
  dence
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/nonsuch-high-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/nonsuch-high-school-fo
  r-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:nonsuch-high-school-for-girls-635d035fb662@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Nonsuch High School for Girls: CAF deadline\; home address on this 
  date is used for the catchment
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/nonsuch-high-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/nonsuch-high-school-fo
  r-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:nonsuch-high-school-for-girls-c2ce969f7228@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Nonsuch High School for Girls: Last date for applications late for 
  good reason (Sutton scheme)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/nonsuch-high-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/nonsuch-high-school-fo
  r-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:nonsuch-high-school-for-girls-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Nonsuch High School for Girls: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/nonsuch-high-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/nonsuch-high-school-fo
  r-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:nonsuch-high-school-for-girls-121951845897@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
 SUMMARY:Nonsuch High School for Girls: Ranked waiting lists close
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/nonsuch-high-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/nonsuch-high-school-fo
  r-girls.html
 TRANSP:TRANSPARENT

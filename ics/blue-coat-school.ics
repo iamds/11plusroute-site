@@ -7,111 +7,135 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:blue-coat-school-d7b73730348a@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260326
 DTEND;VALUE=DATE:20260327
 SUMMARY:The Blue Coat School: Open Day. Online test applications open at 3.
  30pm
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/blue-coat-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/blue-coat-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:blue-coat-school-f43003156498@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260424
 DTEND;VALUE=DATE:20260425
 SUMMARY:The Blue Coat School: Test application deadline (4pm)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/blue-coat-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/blue-coat-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:blue-coat-school-db447e9962b9@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260702
 DTEND;VALUE=DATE:20260703
 SUMMARY:The Blue Coat School: Phase 1 tests (2\, 3 or 4 July)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/blue-coat-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/blue-coat-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:blue-coat-school-961a8e324e24@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260716
 SUMMARY:The Blue Coat School: Phase 1 results
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/blue-coat-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/blue-coat-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:blue-coat-school-3e75ca348b54@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:The Blue Coat School: Phase 2 arrangements sent to parents
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/blue-coat-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/blue-coat-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:blue-coat-school-f55e3795a5e9@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:The Blue Coat School: Phase 2 test
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/blue-coat-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/blue-coat-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:blue-coat-school-76697d990522@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:The Blue Coat School: Phase 2 results (Group A/B/C)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/blue-coat-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/blue-coat-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:blue-coat-school-f29e39788c33@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:The Blue Coat School: Common Application Form deadline
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/blue-coat-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/blue-coat-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:blue-coat-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:The Blue Coat School: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/blue-coat-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/blue-coat-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:blue-coat-school-d339a6855d61@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270325
 DTEND;VALUE=DATE:20270326
 SUMMARY:The Blue Coat School: Open Day for September 2028 entry
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/blue-coat-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/blue-coat-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:blue-coat-school-e93417fe5f34@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270412
 DTEND;VALUE=DATE:20270413
 SUMMARY:The Blue Coat School: Appeals lodged by (aim for 31 March 2027 to b
  e safe)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/blue-coat-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/blue-coat-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:blue-coat-school-2112175b5fe5@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270615
 DTEND;VALUE=DATE:20270616
 SUMMARY:The Blue Coat School: Appeals heard by
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/blue-coat-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/blue-coat-school.html
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -7,111 +7,135 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:ashlawn-school-1012669c52a6@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260507
 DTEND;VALUE=DATE:20260508
 SUMMARY:Ashlawn School: Warwickshire 11+ registration opens
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ashlawn-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ashlawn-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ashlawn-school-c7ab42cb6eaa@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 SUMMARY:Ashlawn School: 11+ registration and special testing requirements d
  eadline
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ashlawn-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ashlawn-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ashlawn-school-a97396a129f0@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 SUMMARY:Ashlawn School: MFL aptitude test application deadline
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ashlawn-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ashlawn-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ashlawn-school-91168e6b7a00@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260713
 DTEND;VALUE=DATE:20260714
 SUMMARY:Ashlawn School: 11+ access arrangement decisions sent (week commenc
  ing)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ashlawn-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ashlawn-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ashlawn-school-130f3584f467@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 SUMMARY:Ashlawn School: 11+ invitation letters sent (week commencing)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ashlawn-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ashlawn-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ashlawn-school-bdf2acbb2463@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Ashlawn School: Warwickshire 11+ test (12 and 13 September)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ashlawn-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ashlawn-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ashlawn-school-5f216e9ae58d@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Ashlawn School: Ashlawn MFL aptitude test
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ashlawn-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ashlawn-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ashlawn-school-bd09b5bcff6b@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Ashlawn School: 11+ results on the Parent Portal
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ashlawn-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ashlawn-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ashlawn-school-41a9c7e68643@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Ashlawn School: Secondary application deadline (home LA)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ashlawn-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ashlawn-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ashlawn-school-b8f0cc32e0ea@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Ashlawn School: Proof-of-address requests for selective applicants
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ashlawn-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ashlawn-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ashlawn-school-8661dd886273@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Ashlawn School: Proof-of-address deadline
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ashlawn-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ashlawn-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ashlawn-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092008Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Ashlawn School: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/ashlawn-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/ashlawn-school.html
 TRANSP:TRANSPARENT
 END:VEVENT

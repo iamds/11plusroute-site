@@ -7,150 +7,178 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:royal-grammar-school-high-wycombe-e96f698052e7@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 SUMMARY:The Royal Grammar School\, High Wycombe: STT registration opens (10
  am) for children not at a state-funded Buckinghamshire primary school
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/royal-grammar-school-high-wycombe.html
 URL:https://iamds.github.io/11plusroute-site/schools/royal-grammar-school-h
  igh-wycombe.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:royal-grammar-school-high-wycombe-efa541978d7f@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260602
 DTEND;VALUE=DATE:20260603
 SUMMARY:The Royal Grammar School\, High Wycombe: STT registration closes (3
  pm)\; withdrawal deadline for Bucks state primaries\; access-arrangement d
  eadline for Bucks/Partner schools
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/royal-grammar-school-high-wycombe.html
 URL:https://iamds.github.io/11plusroute-site/schools/royal-grammar-school-h
  igh-wycombe.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:royal-grammar-school-high-wycombe-c4d7f9aa14c6@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260616
 DTEND;VALUE=DATE:20260617
 SUMMARY:The Royal Grammar School\, High Wycombe: Access-arrangement deadlin
  e for all other schools
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/royal-grammar-school-high-wycombe.html
 URL:https://iamds.github.io/11plusroute-site/schools/royal-grammar-school-h
  igh-wycombe.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:royal-grammar-school-high-wycombe-455966d4cd06@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 SUMMARY:The Royal Grammar School\, High Wycombe: Test invitations emailed f
  or children testing at a grammar school or central venue (by this date)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/royal-grammar-school-high-wycombe.html
 URL:https://iamds.github.io/11plusroute-site/schools/royal-grammar-school-h
  igh-wycombe.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:royal-grammar-school-high-wycombe-15e7e3384df0@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:The Royal Grammar School\, High Wycombe: Practice test
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/royal-grammar-school-high-wycombe.html
 URL:https://iamds.github.io/11plusroute-site/schools/royal-grammar-school-h
  igh-wycombe.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:royal-grammar-school-high-wycombe-8ff6b2356e5e@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:The Royal Grammar School\, High Wycombe: Secondary Transfer Test
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/royal-grammar-school-high-wycombe.html
 URL:https://iamds.github.io/11plusroute-site/schools/royal-grammar-school-h
  igh-wycombe.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:royal-grammar-school-high-wycombe-c31a59a7b69b@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:The Royal Grammar School\, High Wycombe: STT results released
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/royal-grammar-school-high-wycombe.html
 URL:https://iamds.github.io/11plusroute-site/schools/royal-grammar-school-h
  igh-wycombe.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:royal-grammar-school-high-wycombe-8331cbec79ed@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:The Royal Grammar School\, High Wycombe: Selection Review cases due
   (if result received 9 October)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/royal-grammar-school-high-wycombe.html
 URL:https://iamds.github.io/11plusroute-site/schools/royal-grammar-school-h
  igh-wycombe.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:royal-grammar-school-high-wycombe-7e8533c959f0@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:The Royal Grammar School\, High Wycombe: Secondary application dead
  line (home local authority)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/royal-grammar-school-high-wycombe.html
 URL:https://iamds.github.io/11plusroute-site/schools/royal-grammar-school-h
  igh-wycombe.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:royal-grammar-school-high-wycombe-04a3dfe4b2a6@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:The Royal Grammar School\, High Wycombe: Confirm RGS Boarding prefe
  rence by email (boarding applicants)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/royal-grammar-school-high-wycombe.html
 URL:https://iamds.github.io/11plusroute-site/schools/royal-grammar-school-h
  igh-wycombe.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:royal-grammar-school-high-wycombe-cedbe286591a@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:The Royal Grammar School\, High Wycombe: Late applications with a g
  ood reason accepted as on time up to this date (Bucks coordinated scheme)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/royal-grammar-school-high-wycombe.html
 URL:https://iamds.github.io/11plusroute-site/schools/royal-grammar-school-h
  igh-wycombe.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:royal-grammar-school-high-wycombe-903531726fb2@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:The Royal Grammar School\, High Wycombe: Suitability-to-board inter
  views (December 2026 to January 2027)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/royal-grammar-school-high-wycombe.html
 URL:https://iamds.github.io/11plusroute-site/schools/royal-grammar-school-h
  igh-wycombe.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:royal-grammar-school-high-wycombe-c7d39e723e1a@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:The Royal Grammar School\, High Wycombe: Selection Review outcomes
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/royal-grammar-school-high-wycombe.html
 URL:https://iamds.github.io/11plusroute-site/schools/royal-grammar-school-h
  igh-wycombe.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:royal-grammar-school-high-wycombe-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:The Royal Grammar School\, High Wycombe: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/royal-grammar-school-high-wycombe.html
 URL:https://iamds.github.io/11plusroute-site/schools/royal-grammar-school-h
  igh-wycombe.html
 TRANSP:TRANSPARENT

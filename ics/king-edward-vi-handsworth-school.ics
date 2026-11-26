@@ -7,110 +7,130 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-school-e6f6c5df2f80@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260505
 DTEND;VALUE=DATE:20260506
 SUMMARY:King Edward VI Handsworth School: Test registration opens (westmidl
  andsgrammarschools.co.uk)\; PP and adjustments forms available
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-handsworth-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-handswo
  rth-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-school-bbc42125a58e@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260612
 DTEND;VALUE=DATE:20260613
 SUMMARY:King Edward VI Handsworth School: 4pm: reasonable adjustments deadl
  ine
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-handsworth-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-handswo
  rth-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-school-3191da08558c@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:King Edward VI Handsworth School: 4pm: test registration deadline (
  also religious-observance letters and out-of-age-group requests)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-handsworth-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-handswo
  rth-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-school-aab2f79d98b6@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 SUMMARY:King Edward VI Handsworth School: Test venue and session (AM/PM) co
  nfirmed by email by the end of July
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-handsworth-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-handswo
  rth-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-school-3c24a6f428ca@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:King Edward VI Handsworth School: Test-day information sent (early 
  September)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-handsworth-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-handswo
  rth-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-school-4321f539b7fe@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:King Edward VI Handsworth School: Deadline: Pupil Premium eligibili
  ty form
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-handsworth-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-handswo
  rth-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-school-89e979fefb81@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:King Edward VI Handsworth School: Entrance test (Saturday\, AM and 
  PM sessions). Pupil Premium status fixed at this date
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-handsworth-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-handswo
  rth-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-school-be7df177b9bb@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:King Edward VI Handsworth School: Test results sent (by Friday 16 O
  ctober)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-handsworth-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-handswo
  rth-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-school-a1a855dd06e1@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:King Edward VI Handsworth School: Home LA preference form (CAF) dea
  dline
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-handsworth-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-handswo
  rth-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-handsworth-school-40680e68d86c@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:King Edward VI Handsworth School: National Offer Day (1 March or ne
  xt working day)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-handsworth-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-handswo
  rth-school.html
 TRANSP:TRANSPARENT

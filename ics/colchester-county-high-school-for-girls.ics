@@ -7,130 +7,154 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:colchester-county-high-school-for-girls-305f2611e092@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260512
 DTEND;VALUE=DATE:20260513
 SUMMARY:Colchester County High School for Girls: CSSE registration opens
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/colchester-county-high-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/colchester-county-high
  -school-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:colchester-county-high-school-for-girls-a76b42f9be75@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
 SUMMARY:Colchester County High School for Girls: CSSE registration deadline
   (online or post)\, absolute
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/colchester-county-high-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/colchester-county-high
  -school-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:colchester-county-high-school-for-girls-5441773fb595@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:Colchester County High School for Girls: Deadline for access-arrang
  ement requests and evidence
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/colchester-county-high-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/colchester-county-high
  -school-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:colchester-county-high-school-for-girls-7e8c288c0b71@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260716
 SUMMARY:Colchester County High School for Girls: Test centre information sh
  ould have arrived by email
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/colchester-county-high-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/colchester-county-high
  -school-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:colchester-county-high-school-for-girls-efaa19ae8f6e@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 SUMMARY:Colchester County High School for Girls: Last date to withdraw from
   the test (email CSSE)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/colchester-county-high-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/colchester-county-high
  -school-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:colchester-county-high-school-for-girls-e03e9e37a826@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Colchester County High School for Girls: CSSE 11+ test (Saturday)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/colchester-county-high-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/colchester-county-high
  -school-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:colchester-county-high-school-for-girls-cfbaaea9a323@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:Colchester County High School for Girls: Alternative test day (reli
  gious\, illness or exceptional circumstances only)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/colchester-county-high-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/colchester-county-high
  -school-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:colchester-county-high-school-for-girls-0f5391e2310d@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 SUMMARY:Colchester County High School for Girls: Results emailed after clos
  e of business
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/colchester-county-high-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/colchester-county-high
  -school-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:colchester-county-high-school-for-girls-3262517da203@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Colchester County High School for Girls: Application deadline (home
   council)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/colchester-county-high-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/colchester-county-high
  -school-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:colchester-county-high-school-for-girls-3a4fd0a453ef@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Colchester County High School for Girls: CCHSG Supplementary Inform
  ation Form (Pupil Premium / Service Premium / looked-after) due at the sch
  ool\; priority-area residence must start by this date
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/colchester-county-high-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/colchester-county-high
  -school-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:colchester-county-high-school-for-girls-49bbb31233c2@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Colchester County High School for Girls: Essex: last date for addre
  ss-change evidence for first-round offers
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/colchester-county-high-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/colchester-county-high
  -school-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:colchester-county-high-school-for-girls-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Colchester County High School for Girls: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/colchester-county-high-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/colchester-county-high
  -school-for-girls.html
 TRANSP:TRANSPARENT

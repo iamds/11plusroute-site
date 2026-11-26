@@ -7,72 +7,86 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:west-kirby-grammar-school-9f2f59e1f9aa@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260531
 DTEND;VALUE=DATE:20260601
 SUMMARY:West Kirby Grammar School: Request for Assessment registration clos
  es
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/west-kirby-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/west-kirby-grammar-sch
  ool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:west-kirby-grammar-school-9899c58c6f08@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260607
 DTEND;VALUE=DATE:20260608
 SUMMARY:West Kirby Grammar School: Deadline for access-arrangement evidence
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/west-kirby-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/west-kirby-grammar-sch
  ool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:west-kirby-grammar-school-679a01d19f64@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260717
 DTEND;VALUE=DATE:20260718
 SUMMARY:West Kirby Grammar School: Access-arrangement decisions sent
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/west-kirby-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/west-kirby-grammar-sch
  ool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:west-kirby-grammar-school-cacac76f55b1@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:West Kirby Grammar School: Wirral Consortium 11+ test
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/west-kirby-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/west-kirby-grammar-sch
  ool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:west-kirby-grammar-school-a150b93359bf@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 SUMMARY:West Kirby Grammar School: Results sent to parents (by this date)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/west-kirby-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/west-kirby-grammar-sch
  ool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:west-kirby-grammar-school-55a980f24881@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:West Kirby Grammar School: Secondary application (preference form) 
  deadline
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/west-kirby-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/west-kirby-grammar-sch
  ool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:west-kirby-grammar-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:West Kirby Grammar School: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/west-kirby-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/west-kirby-grammar-sch
  ool.html
 TRANSP:TRANSPARENT

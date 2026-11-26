@@ -7,110 +7,130 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:king-edward-vi-camp-hill-school-for-girls-e6f6c5df2f80@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260505
 DTEND;VALUE=DATE:20260506
 SUMMARY:King Edward VI Camp Hill School for Girls: Test registration opens 
  (westmidlandsgrammarschools.co.uk)\; PP and adjustments forms available
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-camp-hill-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-camp-hi
  ll-school-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-camp-hill-school-for-girls-bbc42125a58e@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260612
 DTEND;VALUE=DATE:20260613
 SUMMARY:King Edward VI Camp Hill School for Girls: 4pm: reasonable adjustme
  nts deadline
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-camp-hill-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-camp-hi
  ll-school-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-camp-hill-school-for-girls-3191da08558c@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:King Edward VI Camp Hill School for Girls: 4pm: test registration d
  eadline (also religious-observance letters and out-of-age-group requests)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-camp-hill-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-camp-hi
  ll-school-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-camp-hill-school-for-girls-aab2f79d98b6@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 SUMMARY:King Edward VI Camp Hill School for Girls: Test venue and session (
  AM/PM) confirmed by email by the end of July
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-camp-hill-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-camp-hi
  ll-school-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-camp-hill-school-for-girls-3c24a6f428ca@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:King Edward VI Camp Hill School for Girls: Test-day information sen
  t (early September)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-camp-hill-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-camp-hi
  ll-school-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-camp-hill-school-for-girls-4321f539b7fe@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:King Edward VI Camp Hill School for Girls: Deadline: Pupil Premium 
  eligibility form
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-camp-hill-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-camp-hi
  ll-school-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-camp-hill-school-for-girls-89e979fefb81@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:King Edward VI Camp Hill School for Girls: Entrance test (Saturday\
  , AM and PM sessions). Pupil Premium status fixed at this date
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-camp-hill-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-camp-hi
  ll-school-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-camp-hill-school-for-girls-be7df177b9bb@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:King Edward VI Camp Hill School for Girls: Test results sent (by Fr
  iday 16 October)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-camp-hill-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-camp-hi
  ll-school-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-camp-hill-school-for-girls-a1a855dd06e1@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:King Edward VI Camp Hill School for Girls: Home LA preference form 
  (CAF) deadline
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-camp-hill-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-camp-hi
  ll-school-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-camp-hill-school-for-girls-40680e68d86c@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:King Edward VI Camp Hill School for Girls: National Offer Day (1 Ma
  rch or next working day)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/king-edward-vi-camp-hill-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-camp-hi
  ll-school-for-girls.html
 TRANSP:TRANSPARENT

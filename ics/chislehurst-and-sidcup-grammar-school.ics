@@ -7,153 +7,181 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-1e281e40c576@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260301
 DTEND;VALUE=DATE:20260302
 SUMMARY:Chislehurst and Sidcup Grammar School: Bexley Selection Test regist
  ration opens
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/chislehurst-and-sidcup-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/chislehurst-and-sidcup
  -grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-3eb2b30ef881@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260331
 DTEND;VALUE=DATE:20260401
 SUMMARY:Chislehurst and Sidcup Grammar School: Registration closes (midnigh
  t). Special-arrangement requests due at the primary school by the end of t
  he spring term.
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/chislehurst-and-sidcup-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/chislehurst-and-sidcup
  -grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-403acbe2bbf7@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
 SUMMARY:Chislehurst and Sidcup Grammar School: Primary schools send special
  -arrangement applications to Bexley
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/chislehurst-and-sidcup-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/chislehurst-and-sidcup
  -grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-8cedbd7ac2c4@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260803
 DTEND;VALUE=DATE:20260804
 SUMMARY:Chislehurst and Sidcup Grammar School: Test centre\, date and time 
  emailed
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/chislehurst-and-sidcup-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/chislehurst-and-sidcup
  -grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-aef6469b22d2@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
 SUMMARY:Chislehurst and Sidcup Grammar School: Bexley Selection Test window
   opens (in participating primary schools\, 2-10 Sept\; at the grammar scho
  ols\, 7-10 Sept)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/chislehurst-and-sidcup-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/chislehurst-and-sidcup
  -grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-a498d6803113@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Chislehurst and Sidcup Grammar School: Last day of the test window
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/chislehurst-and-sidcup-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/chislehurst-and-sidcup
  -grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-52b0b322393d@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Chislehurst and Sidcup Grammar School: Test results emailed (from 4
  pm)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/chislehurst-and-sidcup-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/chislehurst-and-sidcup
  -grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-66bf1e06013f@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Chislehurst and Sidcup Grammar School: Pupil Premium Supplementary 
  Form deadline (school)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/chislehurst-and-sidcup-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/chislehurst-and-sidcup
  -grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-779e98cc208f@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Chislehurst and Sidcup Grammar School: CAF deadline (national)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/chislehurst-and-sidcup-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/chislehurst-and-sidcup
  -grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-01b830ee0f97@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Chislehurst and Sidcup Grammar School: Bexley deadline for evidence
   of a change of address within Bexley
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/chislehurst-and-sidcup-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/chislehurst-and-sidcup
  -grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-189e2ef7c69a@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Chislehurst and Sidcup Grammar School: Bexley deadline for late app
  lications with a good reason
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/chislehurst-and-sidcup-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/chislehurst-and-sidcup
  -grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Chislehurst and Sidcup Grammar School: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/chislehurst-and-sidcup-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/chislehurst-and-sidcup
  -grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-44a61e091ecf@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
 SUMMARY:Chislehurst and Sidcup Grammar School: Bexley deadline to accept or
   decline offers (first-preference offers are accepted automatically)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/chislehurst-and-sidcup-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/chislehurst-and-sidcup
  -grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-cf3180b81cf6@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Chislehurst and Sidcup Grammar School: Bexley's published deadline 
  for lodging Year 7 appeals (appeals go to the school)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/chislehurst-and-sidcup-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/chislehurst-and-sidcup
  -grammar-school.html
 TRANSP:TRANSPARENT

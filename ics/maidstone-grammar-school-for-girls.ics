@@ -7,142 +7,168 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:maidstone-grammar-school-for-girls-a86b1ba5487a@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 SUMMARY:Maidstone Grammar School for Girls: Kent Test registration opens
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/maidstone-grammar-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/maidstone-grammar-scho
  ol-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:maidstone-grammar-school-for-girls-1febe30ba189@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Maidstone Grammar School for Girls: Kent Test registration and spec
  ial-arrangements requests close (midnight)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/maidstone-grammar-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/maidstone-grammar-scho
  ol-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:maidstone-grammar-school-for-girls-f7e2cb2f52bb@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Maidstone Grammar School for Girls: Secondary applications open
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/maidstone-grammar-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/maidstone-grammar-scho
  ol-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:maidstone-grammar-school-for-girls-425301044e7d@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Maidstone Grammar School for Girls: Kent Test in Kent primary schoo
  ls
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/maidstone-grammar-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/maidstone-grammar-scho
  ol-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:maidstone-grammar-school-for-girls-8961a247e8bc@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Maidstone Grammar School for Girls: Kent Test at test centres for c
  hildren from outside Kent (12/13 September)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/maidstone-grammar-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/maidstone-grammar-scho
  ol-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:maidstone-grammar-school-for-girls-9a0a1bb01bfb@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Maidstone Grammar School for Girls: Kent Test decisions emailed aft
  er 4pm
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/maidstone-grammar-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/maidstone-grammar-scho
  ol-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:maidstone-grammar-school-for-girls-27eb649a0afc@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Maidstone Grammar School for Girls: Deadline: Supplementary Informa
  tion Form (Pupil Premium / previously in care outside England)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/maidstone-grammar-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/maidstone-grammar-scho
  ol-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:maidstone-grammar-school-for-girls-9d86cb5a794b@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:Maidstone Grammar School for Girls: Application deadline for Kent r
  esidents (midnight)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/maidstone-grammar-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/maidstone-grammar-scho
  ol-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:maidstone-grammar-school-for-girls-995de5ee548d@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Maidstone Grammar School for Girls: Last day to change your applica
  tion details in time for offer day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/maidstone-grammar-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/maidstone-grammar-scho
  ol-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:maidstone-grammar-school-for-girls-e66f0502bb93@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Maidstone Grammar School for Girls: National Offer Day (emails afte
  r 4pm)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/maidstone-grammar-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/maidstone-grammar-scho
  ol-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:maidstone-grammar-school-for-girls-a305afa8c96e@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Maidstone Grammar School for Girls: Accept/decline the offer\; dead
  line for late applications and waiting-list requests for KCC's reallocatio
  n
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/maidstone-grammar-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/maidstone-grammar-scho
  ol-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:maidstone-grammar-school-for-girls-22f68b3e8025@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Maidstone Grammar School for Girls: Deadline to lodge an appeal to 
  be heard before September
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/maidstone-grammar-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/maidstone-grammar-scho
  ol-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:maidstone-grammar-school-for-girls-d79cbbda45bc@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
 SUMMARY:Maidstone Grammar School for Girls: KCC reallocates places from wai
  ting lists\; schools then run their own waiting lists
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/maidstone-grammar-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/maidstone-grammar-scho
  ol-for-girls.html
 TRANSP:TRANSPARENT

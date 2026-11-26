@@ -7,76 +7,92 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:homewood-school-f7e2cb2f52bb@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Homewood School: Secondary applications open
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/homewood-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/homewood-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:homewood-school-48046316da93@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:Homewood School: Kent SCAF closing date
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/homewood-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/homewood-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:homewood-school-482d811d0bbe@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Homewood School: Homewood Test (Saturday)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/homewood-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/homewood-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:homewood-school-995de5ee548d@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Homewood School: Last day to change your application details in tim
  e for offer day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/homewood-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/homewood-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:homewood-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Homewood School: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/homewood-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/homewood-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:homewood-school-daf0616d5274@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Homewood School: Accept or decline your offer\; deadline for waitin
  g-list requests and late applications for KCC's reallocation
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/homewood-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/homewood-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:homewood-school-0d7dc6eb68c8@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Homewood School: Appeal deadline for places refused on offer day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/homewood-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/homewood-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:homewood-school-07657d7a5e83@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
 SUMMARY:Homewood School: Kent Reallocation Day: places that have come free 
  are offered from waiting lists
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/homewood-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/homewood-school.html
 TRANSP:TRANSPARENT
 END:VEVENT

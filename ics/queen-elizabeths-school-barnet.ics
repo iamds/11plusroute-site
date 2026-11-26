@@ -7,108 +7,128 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:queen-elizabeths-school-barnet-93fb8dc155ac@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 SUMMARY:Queen Elizabeth's School\, Barnet: Entrance test request form opens
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/queen-elizabeths-school-barnet.html
 URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-schoo
  l-barnet.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-elizabeths-school-barnet-b1ae1fe340e4@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260702
 DTEND;VALUE=DATE:20260703
 SUMMARY:Queen Elizabeth's School\, Barnet: School Open Day (boys registered
   for the test get first priority for booking)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/queen-elizabeths-school-barnet.html
 URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-schoo
  l-barnet.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-elizabeths-school-barnet-6f3b48774e17@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260708
 DTEND;VALUE=DATE:20260709
 SUMMARY:Queen Elizabeth's School\, Barnet: Entrance test request form deadl
  ine (noon)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/queen-elizabeths-school-barnet.html
 URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-schoo
  l-barnet.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-elizabeths-school-barnet-acde0c57b2a6@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260716
 DTEND;VALUE=DATE:20260717
 SUMMARY:Queen Elizabeth's School\, Barnet: School closed for summer until 2
   September\; queries may not be answered
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/queen-elizabeths-school-barnet.html
 URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-schoo
  l-barnet.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-elizabeths-school-barnet-31e454cfc7ff@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
 SUMMARY:Queen Elizabeth's School\, Barnet: Entrance test (16 or 17 Septembe
  r\, one session)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/queen-elizabeths-school-barnet.html
 URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-schoo
  l-barnet.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-elizabeths-school-barnet-5f624bee86bd@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
 SUMMARY:Queen Elizabeth's School\, Barnet: Reserve test (illness or other a
  pproved reason only)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/queen-elizabeths-school-barnet.html
 URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-schoo
  l-barnet.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-elizabeths-school-barnet-1c95598483a8@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:Queen Elizabeth's School\, Barnet: Test outcomes sent to parents (p
  rovisional date)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/queen-elizabeths-school-barnet.html
 URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-schoo
  l-barnet.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-elizabeths-school-barnet-93a588c86092@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Queen Elizabeth's School\, Barnet: Qualifying boys contacted to boo
  k a school tour (early to mid-October)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/queen-elizabeths-school-barnet.html
 URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-schoo
  l-barnet.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-elizabeths-school-barnet-6320e92c0d62@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Queen Elizabeth's School\, Barnet: CAF deadline (Barnet residents\;
   check your own council's deadline)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/queen-elizabeths-school-barnet.html
 URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-schoo
  l-barnet.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-elizabeths-school-barnet-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Queen Elizabeth's School\, Barnet: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/queen-elizabeths-school-barnet.html
 URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-schoo
  l-barnet.html
 TRANSP:TRANSPARENT

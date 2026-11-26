@@ -7,97 +7,115 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:sutton-coldfield-grammar-school-for-girls-c4a5826e1e29@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260505
 DTEND;VALUE=DATE:20260506
 SUMMARY:Sutton Coldfield Grammar School for Girls: Test registration opens 
  (westmidlandsgrammarschools.co.uk)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/sutton-coldfield-grammar-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/sutton-coldfield-gramm
  ar-school-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sutton-coldfield-grammar-school-for-girls-bbc42125a58e@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260612
 DTEND;VALUE=DATE:20260613
 SUMMARY:Sutton Coldfield Grammar School for Girls: 4pm: reasonable adjustme
  nts deadline
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/sutton-coldfield-grammar-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/sutton-coldfield-gramm
  ar-school-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sutton-coldfield-grammar-school-for-girls-780ff341304a@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260624
 DTEND;VALUE=DATE:20260625
 SUMMARY:Sutton Coldfield Grammar School for Girls: Open evening
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/sutton-coldfield-grammar-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/sutton-coldfield-gramm
  ar-school-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sutton-coldfield-grammar-school-for-girls-fdf29dbd597e@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:Sutton Coldfield Grammar School for Girls: 4pm: test registration d
  eadline
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/sutton-coldfield-grammar-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/sutton-coldfield-gramm
  ar-school-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sutton-coldfield-grammar-school-for-girls-4321f539b7fe@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:Sutton Coldfield Grammar School for Girls: Deadline: Pupil Premium 
  eligibility form
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/sutton-coldfield-grammar-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/sutton-coldfield-gramm
  ar-school-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sutton-coldfield-grammar-school-for-girls-b00ebd09e0bd@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Sutton Coldfield Grammar School for Girls: Entrance test (Saturday\
  , AM and PM sessions)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/sutton-coldfield-grammar-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/sutton-coldfield-gramm
  ar-school-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sutton-coldfield-grammar-school-for-girls-edfb930b61ba@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Sutton Coldfield Grammar School for Girls: Test results emailed (by
   Friday 16 October)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/sutton-coldfield-grammar-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/sutton-coldfield-gramm
  ar-school-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sutton-coldfield-grammar-school-for-girls-a1a855dd06e1@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Sutton Coldfield Grammar School for Girls: Home LA preference form 
  (CAF) deadline
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/sutton-coldfield-grammar-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/sutton-coldfield-gramm
  ar-school-for-girls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sutton-coldfield-grammar-school-for-girls-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Sutton Coldfield Grammar School for Girls: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/sutton-coldfield-grammar-school-for-girls.html
 URL:https://iamds.github.io/11plusroute-site/schools/sutton-coldfield-gramm
  ar-school-for-girls.html
 TRANSP:TRANSPARENT

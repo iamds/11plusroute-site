@@ -7,51 +7,61 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:winston-churchill-school-b76941d36b0d@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:The Winston Churchill School: SIF window opens for specialist acade
  mic/music places (1-30 September)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/winston-churchill-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/winston-churchill-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:winston-churchill-school-bfd0e2a13a86@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:The Winston Churchill School: Open evening (5pm-7.30pm)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/winston-churchill-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/winston-churchill-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:winston-churchill-school-31f5ea51419a@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:The Winston Churchill School: SIF deadline for specialist places
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/winston-churchill-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/winston-churchill-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:winston-churchill-school-24fedeedfe0b@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:The Winston Churchill School: Surrey application closing date
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/winston-churchill-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/winston-churchill-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:winston-churchill-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:The Winston Churchill School: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/winston-churchill-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/winston-churchill-scho
  ol.html
 TRANSP:TRANSPARENT

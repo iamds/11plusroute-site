@@ -7,31 +7,37 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:st-anselms-college-f28c688d663c@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 SUMMARY:St Anselm's College: Online Registration Form (and baptismal certif
  icate) deadline
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/st-anselms-college.html
 URL:https://iamds.github.io/11plusroute-site/schools/st-anselms-college.htm
  l
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-anselms-college-b2fac7f73364@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:St Anselm's College: Preference form deadline (Wirral)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/st-anselms-college.html
 URL:https://iamds.github.io/11plusroute-site/schools/st-anselms-college.htm
  l
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-anselms-college-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:St Anselm's College: National Offer Day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/st-anselms-college.html
 URL:https://iamds.github.io/11plusroute-site/schools/st-anselms-college.htm
  l
 TRANSP:TRANSPARENT

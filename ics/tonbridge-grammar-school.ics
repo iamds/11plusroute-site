@@ -7,168 +7,200 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:tonbridge-grammar-school-a86b1ba5487a@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 SUMMARY:Tonbridge Grammar School: Kent Test registration opens
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/tonbridge-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/tonbridge-grammar-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tonbridge-grammar-school-40286883fdfd@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Tonbridge Grammar School: Kent Test registration and special-arrang
  ements deadline
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/tonbridge-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/tonbridge-grammar-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tonbridge-grammar-school-916601f3d6b1@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Tonbridge Grammar School: Secondary applications (SCAF) open
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/tonbridge-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/tonbridge-grammar-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tonbridge-grammar-school-ab2da8706ba3@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Tonbridge Grammar School: Kent Test for children at Kent primary sc
  hools
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/tonbridge-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/tonbridge-grammar-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tonbridge-grammar-school-c76cddd69629@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Tonbridge Grammar School: Kent Test for children at non-Kent school
  s (weekend of 12/13 September)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/tonbridge-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/tonbridge-grammar-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tonbridge-grammar-school-490c45c4c588@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
 SUMMARY:Tonbridge Grammar School: Open morning
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/tonbridge-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/tonbridge-grammar-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tonbridge-grammar-school-7e54d9492049@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
 SUMMARY:Tonbridge Grammar School: Open morning
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/tonbridge-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/tonbridge-grammar-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tonbridge-grammar-school-aacd1954213a@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Tonbridge Grammar School: Kent Test assessment decisions emailed af
  ter 4pm
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/tonbridge-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/tonbridge-grammar-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tonbridge-grammar-school-3ed19bee552c@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Tonbridge Grammar School: Pupil Premium SIF deadline
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/tonbridge-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/tonbridge-grammar-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tonbridge-grammar-school-7d45dbabfd61@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:Tonbridge Grammar School: SCAF closing date
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/tonbridge-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/tonbridge-grammar-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tonbridge-grammar-school-995de5ee548d@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Tonbridge Grammar School: Last day to change your application detai
  ls in time for offer day
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/tonbridge-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/tonbridge-grammar-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tonbridge-grammar-school-e66f0502bb93@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Tonbridge Grammar School: National Offer Day (emails after 4pm)
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/tonbridge-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/tonbridge-grammar-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tonbridge-grammar-school-1703f3f7ce76@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Tonbridge Grammar School: Deadline to accept/decline\, ask for wait
  ing lists and make late applications for KCC reallocation
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/tonbridge-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/tonbridge-grammar-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tonbridge-grammar-school-f671c2264afb@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Tonbridge Grammar School: Deadline for lodging appeals to be heard 
  before September
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/tonbridge-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/tonbridge-grammar-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tonbridge-grammar-school-90c914875f53@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
 SUMMARY:Tonbridge Grammar School: KCC Reallocation Day (places from waiting
   lists)\; schools then run their own waiting lists
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/tonbridge-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/tonbridge-grammar-scho
  ol.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tonbridge-grammar-school-fcfe6ab18c0c@iamds.github.io
-DTSTAMP:20261126T092009Z
+DTSTAMP:20261126T092400Z
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
 SUMMARY:Tonbridge Grammar School: Waiting list closes
+DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
+ hools/tonbridge-grammar-school.html
 URL:https://iamds.github.io/11plusroute-site/schools/tonbridge-grammar-scho
  ol.html
 TRANSP:TRANSPARENT
