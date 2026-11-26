@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:dartford-grammar-school-for-girls-d243f6744a52@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T143032Z
+DTSTAMP:20261126T144038Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 SUMMARY:Dartford Grammar School for Girls: Kent Test registration opens (ke
@@ -22,7 +22,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:dartford-grammar-school-for-girls-8d841080b810@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T143032Z
+DTSTAMP:20261126T144038Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Dartford Grammar School for Girls: Kent Test registration and acces
@@ -36,7 +36,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:dartford-grammar-school-for-girls-c11010fa1142@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T143032Z
+DTSTAMP:20261126T144038Z
 DTSTART;VALUE=DATE:20260721
 DTEND;VALUE=DATE:20260722
 SUMMARY:Dartford Grammar School for Girls: Last date for late paper registr
@@ -50,7 +50,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:dartford-grammar-school-for-girls-916601f3d6b1@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T143032Z
+DTSTAMP:20261126T144038Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Dartford Grammar School for Girls: Secondary applications (SCAF) op
@@ -64,7 +64,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:dartford-grammar-school-for-girls-425301044e7d@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T143032Z
+DTSTAMP:20261126T144038Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Dartford Grammar School for Girls: Kent Test in Kent primary school
@@ -78,7 +78,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:dartford-grammar-school-for-girls-2e02080775d8@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T143032Z
+DTSTAMP:20261126T144038Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Dartford Grammar School for Girls: Kent Test at test centres for ch
@@ -92,7 +92,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:dartford-grammar-school-for-girls-9a0a1bb01bfb@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T143032Z
+DTSTAMP:20261126T144038Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Dartford Grammar School for Girls: Kent Test decisions emailed afte
@@ -106,7 +106,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:dartford-grammar-school-for-girls-01651fa82936@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T143032Z
+DTSTAMP:20261126T144038Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Dartford Grammar School for Girls: Deadline: Admissions Supplementa
@@ -120,7 +120,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:dartford-grammar-school-for-girls-aec12d9ca45a@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T143032Z
+DTSTAMP:20261126T144038Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:Dartford Grammar School for Girls: National closing date for second
@@ -134,7 +134,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:dartford-grammar-school-for-girls-f80cd6766b64@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T143032Z
+DTSTAMP:20261126T144038Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Dartford Grammar School for Girls: Final date for on-time changes t
@@ -148,7 +148,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:dartford-grammar-school-for-girls-e66f0502bb93@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T143032Z
+DTSTAMP:20261126T144038Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Dartford Grammar School for Girls: National Offer Day (emails after
@@ -162,7 +162,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:dartford-grammar-school-for-girls-10c78c9623b8@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T143032Z
+DTSTAMP:20261126T144038Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Dartford Grammar School for Girls: Accept/decline offers\; deadline
@@ -176,7 +176,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:dartford-grammar-school-for-girls-03d8152b75d5@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T143032Z
+DTSTAMP:20261126T144038Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Dartford Grammar School for Girls: Deadline for lodging appeals (to
@@ -190,7 +190,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:dartford-grammar-school-for-girls-b77a76eb0903@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T143032Z
+DTSTAMP:20261126T144038Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
 SUMMARY:Dartford Grammar School for Girls: KCC reallocation of places that 
