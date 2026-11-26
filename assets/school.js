@@ -256,7 +256,8 @@
       if (o.type === "sub_criteria") {
         const sc = o.criteria || [];
         const t0 = sc.map(x => ((x.order_within || [])[0] || {}).type);
-        if (t0.length && t0.every(t => t && t === t0[0]) && ["score", "distance", "random"].includes(t0[0])) sfx = { score: "each by test score", distance: "each by distance", random: "each by random draw" }[t0[0]];
+        // every group is ordered the same way: that order is what decides, the groups are detail (shown in Details)
+        if (t0.length && t0.every(t => t && t === t0[0]) && ["score", "distance", "random"].includes(t0[0])) return [{ score: "Test score", distance: "Distance", random: "Random draw" }[t0[0]]];
         return sc.map(x => esc(String(x.label).replace(/\s*\([^)]*\)/g, "").trim()));
       }
       return [o.type === "score" && !o.component && chain.filter(x => x.type === "score").length > 1 ? "Total test score" : SHORT_ORDER(o)];
