@@ -117,6 +117,32 @@
   // Furthest offer for a distance-based priority: this priority's figure from the latest year that has one,
   // otherwise the school's overall furthest offer (for the last distance-ordered priority only).
   const byDistance = c => c.category === "distance" || (c.order_within || []).some(o => o.type === "distance");
+  // which home address counts, and on what date: shown on every step that depends on where you live
+  const usesAddress = c => byDistance(c) || c.category === "area" || JSON.stringify(c.conditions || []).match(/"(in_area|not_in_area)"/);
+  // Does this step need a test result as well as the address, or is the address enough?
+  function needsLine(c) {
+    const q = a.qualification || {};
+    const scoreOrder = (c.order_within || []).some(o => o.type === "score") || c.category === "score_rank";
+    let req = "";
+    const tested = scoreOrder || c.category === "aptitude";
+    if (c.academic_requirement && c.academic_requirement.type === "none") req = tested ? "To take the test (there's no minimum score)" : "";
+    else if (c.academic_requirement) req = rule(c.academic_requirement);
+    else if (s.selection === "grammar" && q.type && q.type !== "none") req = q.type === "sat_stage" ? `Sat ${esc(stageShort(q.ref))}` : "Reach the pass mark (see Pass mark above)";
+    else if (scoreOrder) req = "A high enough test score";
+    const then = scoreOrder && req && !/high enough test score/.test(req) ? " Places then go to the highest scores first." : (c.order_within || []).some(o => o.type === "distance") || c.category === "distance" ? " Places then go to the nearest first." : "";
+    const area = /"in_area"/.test(JSON.stringify(c.conditions || []));
+    req = req.replace(/[.\s]+$/, "");
+    return req
+      ? `<div class="needs both"><b>Test needed too:</b> as well as ${area ? "living here" : "meeting this priority"}, you need: ${req.replace(/^./, m => m.toUpperCase())}.${then}</div>`
+      : `<div class="needs only"><b>No test needed</b> for this priority${area ? ": living here is what counts" : ""}.${then}</div>`;
+  }
+  function addressLine() {
+    const ad = y.address_date;
+    if (!ad || (!ad.date && !ad.when)) return `<div class="addr"><b>Address date:</b> the policy doesn't say which date your address is taken on. Ask the school or council.${ad && ad.after_move ? ` <span class="muted">${esc(ad.after_move)}</span>` : ""}</div>`;
+    const w = ad.when ? (/^(the|when|a|an)\b/i.test(ad.when) || /^\d/.test(ad.when) ? ad.when : "the " + ad.when) : "";
+    const when = ad.date ? `${fmtDate(ad.date)}${w && !/^\d/.test(w) ? `, ${esc(w)}` : ""}` : esc(w);
+    return `<div class="addr"><b>Address date:</b> where you live on ${when}${ad.continuous_from ? (ad.continuous_from === ad.date ? ", and keep living there until your child starts" : `, having lived there since ${fmtDate(ad.continuous_from)}`) : ""}.${ad.after_move ? ` <span class="muted">${esc(ad.after_move)}</span>` : ""}</div>`;
+  }
   function furthestFor(c, isLastDistance) {
     if (!byDistance(c)) return null;
     const rowFor = a => (a.by_criterion || []).find(r => r.priority != null && String(r.priority) === String(c.priority));
@@ -285,6 +311,7 @@
       const subs = (c.order_within || []).filter(o => o.type === "sub_criteria").map(o =>
         `<ol class="subcrit">${(o.criteria || []).map(sc => `<li>${esc(sc.label)}${sc.description ? ` <span class="muted">· ${esc(sc.description)}</span>` : ""}</li>`).join("")}</ol>`).join("");
       const outcome = `<div class="title">${esc(c.label)}</div>
+        ${usesAddress(c) ? needsLine(c) + addressLine() : ""}
         ${c.quota && quotaSize(c.quota) ? `<div class="quota">${esc(quotaSize(c.quota))}</div>` : ""}
         ${groupOf(c.priority).filter(hasSize).map(g => { const others = (g.priorities || []).map(String).filter(x => x !== String(c.priority)); return others.length ? `<div class="quota">Shares ${esc(groupAmount(g))} with ${others.map(x => esc(shortLabel(critByP()[x]?.label || x))).join(" and ")}</div>` : ""; }).join("")}
         ${al && al.offers != null ? `<div class="alloc"><b>${al.offers}</b> offered in ${esc(latestAlloc.entry_year)}${al.last_distance_miles != null ? ` · furthest ${al.last_distance_miles} mi` : ""}${al.last_score != null ? ` · lowest score ${al.last_score}` : ""}</div>` : ""}
@@ -778,7 +805,7 @@
       ${fold("allocations", "How many got in", trendHtml() + allocationsHtml() + statsHtml())}
       ${fold("areas", "Priority areas", areasHtml() && areaMapHolder() + areasHtml())}
       ${fold("distance", "Distance and tie-breaks", tie + dl([["Method", esc(y.distance?.method?.replace("_", " ") || "")], ["From", esc(y.distance?.from || "")],
-        ["To", esc(y.distance?.to || "")], ["Measured by", esc(y.distance?.system || "")], ["Home address", esc(y.distance?.home_address_rule || "")]]))}
+        ["To", esc(y.distance?.to || "")], ["Measured by", esc(y.distance?.system || "")], ["Home address", esc(y.distance?.home_address_rule || "")], ["Address date", addressLine().replace(/^<div class="addr"><b>Address date:<\/b> /, "").replace(/<\/div>$/, "")]]))}
       ${fold("waiting", "Waiting list and late applications", dl([["Waiting list", esc(y.waiting_list || "")], ["Late applications", esc(y.late_applications || "")]]))}
       ${fold("routes", "Other ways in", routesHtml())}
       ${fold("good", "Good to know", (y.good_to_know || []).length ? `<ul>${y.good_to_know.map(n => `<li>${esc(n)}</li>`).join("")}</ul>` : "")}

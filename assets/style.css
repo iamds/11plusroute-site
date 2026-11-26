@@ -193,6 +193,10 @@ td.empty { text-align: center; padding: 36px; color: var(--ink-2); }
 .stop.crit .marker { width: 34px; height: 34px; top: 10px; border-color: var(--rail); background: var(--c); color: #fff; font-weight: 800; font-size: .78rem; }
 .stop.crit .kicker { color: var(--c); }
 .stop.crit .branch { --bc: var(--c); }
+.needs { font-size: .84rem; margin: 6px 0 2px; padding: 5px 8px; border-radius: 4px; border-left: 3px solid var(--ink-2); background: var(--surface-2); }
+.needs.both { border-left-color: var(--crimson); } .needs.only { border-left-color: var(--yes); }
+.addr { font-size: .84rem; margin: 6px 0 2px; padding: 5px 8px; border-radius: 4px; background: var(--surface-2); }
+.addr b { font-weight: 700; }
 .stop.crit .branch .bcard { background: color-mix(in srgb, var(--c) 6%, var(--surface)); }
 .stop.crit .and { display: block; font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--ink-2); margin: 3px 0; }
 b.or { color: var(--c, var(--link)); text-transform: uppercase; font-size: .7rem; letter-spacing: .06em; margin: 0 3px; }
