@@ -736,7 +736,7 @@
     </section>
 
     <div class="folds">
-      ${fold("dates", "Important dates", timeline() && timeline() + `<p class="small calsub">${s._ics ? `<a href="${esc(s._ics.replace(/^https?:/, "webcal:"))}"><b>Subscribe in your calendar</b></a> (updates automatically if dates change) · ` : ""}<a href="../ics/${esc(s.slug)}.ics" download>Download once (.ics)</a> · <a href="../deadlines.html">Deadlines for all schools</a>${s._ics ? `<br><span class="muted">Google Calendar on a computer: Other calendars → From URL, then paste <input class="icsurl" readonly value="${esc(s._ics)}" aria-label="Calendar link" onfocus="this.select()"></span>` : ""}</p>`)}
+      ${fold("dates", "Important dates", timeline() && timeline() + `<div class="calsub"><p class="small"><b>Add these dates to your calendar</b> <span class="muted">(subscribing keeps them up to date if anything changes)</span></p>${window.GS.calButtons(s._ics, s.name + " admissions", "../ics/" + s.slug + ".ics")}<p class="small"><a href="../deadlines.html">Deadlines for all schools</a></p></div>`)}
       ${fold("test", "About the test", (s._test ? `<p class="sharedtest">This school uses the <a href="../tests/${esc(s._test.id)}.html"><b>${esc(s._test.name)}</b></a>. See every school that uses it.</p>` : "") + dl([["Overview", esc(a.description || "")], ["Set by", esc(a.provider || "")], ["Consortium", esc(a.consortium || "")],
         ["Attempts", esc(a.attempts || "")], ["Access arrangements", esc(a.access_arrangements || "")], ["Missing the test", esc(a.missed_test || "")],
         ["Results", (a.stages || []).filter(x => x.results).map(x => `<b>${esc(x.name)}:</b> ${esc(x.results)}`).join("<br>")],

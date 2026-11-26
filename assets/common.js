@@ -194,6 +194,14 @@ window.GS = (function () {
   document.addEventListener("click", e => { const g = e.target.closest && e.target.closest(".gl"); if (g) { e.preventDefault(); e.stopPropagation(); tipFor === g ? hideGl() : showGl(g); } else if (tipFor) hideGl(); }, true);
   document.addEventListener("keydown", e => { if (e.key === "Escape") hideGl(); });
 
+  // Calendar buttons: subscribe in Google / Apple / Outlook (updates automatically), or download once
+  function calButtons(icsUrl, name, downloadHref) {
+    if (!icsUrl) return "";
+    const webcal = icsUrl.replace(/^https?:/, "webcal:");
+    const g = "https://calendar.google.com/calendar/render?cid=" + encodeURIComponent(webcal);
+    const o = "https://outlook.live.com/calendar/0/addfromweb?url=" + encodeURIComponent(icsUrl) + "&name=" + encodeURIComponent(name);
+    return `<span class="calbtns"><a class="calbtn" href="${esc(g)}" target="_blank" rel="noopener">Google Calendar</a><a class="calbtn" href="${esc(webcal)}">Apple / iPhone</a><a class="calbtn" href="${esc(o)}" target="_blank" rel="noopener">Outlook</a><a class="calbtn ghost" href="${esc(downloadHref || icsUrl)}" download>Download (.ics)</a></span>`;
+  }
   function loadHome() { try { return JSON.parse(localStorage.getItem(HOME_KEY) || "null"); } catch (e) { return null; } }
   function saveHome(h) { try { h ? localStorage.setItem(HOME_KEY, JSON.stringify(h)) : localStorage.removeItem(HOME_KEY); } catch (e) {} }
   function miles(a, b) {
@@ -238,5 +246,5 @@ window.GS = (function () {
     if (r.score_based) out.push(`<span class="gchip neutral">Places go by test score</span>`);
     return out.join("");
   }
-  return { CATEGORIES, SUBJECTS, GENDER, esc, fmtDate, catBadge, lookupPostcode, addLocateButton, loadMapLib, mapStyle, isDark, circleGeo, homeMarkerEl, onStyle, loadHome, saveHome, miles, assess, statusChips, shortlist, shortlistTip, STAR, glossarize };
+  return { CATEGORIES, SUBJECTS, GENDER, esc, fmtDate, catBadge, lookupPostcode, addLocateButton, loadMapLib, mapStyle, isDark, circleGeo, homeMarkerEl, onStyle, loadHome, saveHome, miles, assess, statusChips, shortlist, shortlistTip, STAR, glossarize, calButtons };
 })();

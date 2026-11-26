@@ -600,3 +600,9 @@ dl.glossary dd { margin: 4px 0 0; color: var(--ink-2); }
 #od-table tr[hidden] { display: none; }
 .keybar .cd { color: var(--ink-2); }
 .keybar .cd.soon { color: var(--crimson); font-weight: 700; }
+.calbtns { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 4px; }
+.calbtn { font-size: .85rem; font-weight: 700; padding: 6px 11px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); color: var(--ink); text-decoration: none; }
+.calbtn:hover { background: var(--surface-2); }
+.calbtn.ghost { color: var(--ink-2); font-weight: 600; }
+.sublist li { display: block; }
+@media print { .calsub, .calbtns { display: none !important; } }

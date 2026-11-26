@@ -66,7 +66,7 @@
       <span><a href="schools/${e.s.slug}.html${pcq}">${esc(e.s.name)}</a>: ${esc(e.t)}</span></li>`).join("")}</ul>`;
     window._slEvents = evs;
     $("sl-sub-card").hidden = false;
-    $("sl-subs").innerHTML = items.map(s => `<li><a href="${esc((s.ics || "").replace(/^https?:/, "webcal:"))}">${esc(s.name)}</a> <input class="icsurl" readonly value="${esc(s.ics || "")}" aria-label="Calendar link for ${esc(s.name)}" onfocus="this.select()"></li>`).join("");
+    $("sl-subs").innerHTML = items.map(s => `<li><b>${esc(s.name)}</b>${GS.calButtons(s.ics, s.name + " admissions", "ics/" + s.slug + ".ics")}</li>`).join("");
   }
 
   // Unstarring keeps the row (faded) until the page is reloaded, with an Undo, so a slip is easy to fix
