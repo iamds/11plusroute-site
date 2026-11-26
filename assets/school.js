@@ -616,8 +616,29 @@
     for (const k of ["rules", "rule", "then", "else"]) { const v = find(o[k]); if (v) return v; }
     return null;
   })(a.qualification);
+  // Partially selective schools: how many places go by ability/aptitude, and of what kind
+  const selFact = (() => {
+    if (!s.selection || s.selection === "grammar") return "";
+    const KIND = { music: "music", dance: "dance", sport: "sport", technology: "technology", art_and_design: "art", modern_foreign_languages: "languages", performing_arts: "performing arts" };
+    const parts = []; let total = 0, unknown = false;
+    critList.forEach(c => {
+      const sel = c.category === "score_rank" || c.category === "aptitude" || /^selective\b/i.test(c.label || "");
+      if (!sel) return;
+      const q = c.quota || {};
+      let n = q.places || q.max_places || null;
+      if (!n) { const m = /(\d+(?:\.\d+)?)\s*%/.exec(c.label || ""); if (m && y.pan) n = Math.round(+m[1] * y.pan / 100); }
+      const apt = (c.conditions || []).find(k => k.type === "aptitude");
+      const kind = c.category === "aptitude" ? (KIND[apt && apt.subject] || (/language/i.test(c.label) ? "languages" : "aptitude")) : "test";
+      if (n) { total += n; const p = parts.find(x => x.kind === kind); p ? p.n += n : parts.push({ kind, n }); } else unknown = true;
+    });
+    if (!parts.length) return "";
+    parts.sort((a, b) => (b.kind === "test") - (a.kind === "test"));
+    const showTotal = !y.pan || total <= y.pan;
+    return `${showTotal ? `<b>${total}${unknown ? "+" : ""}</b>${y.pan ? ` of ${y.pan}` : ""}` : ""}<small>${parts.map(p => `${p.n} ${esc(p.kind)}`).join(" · ")}${unknown ? " · more by test" : ""}</small>`;
+  })();
   const facts = [
     ["Year 7 places", y.pan ? `<b>${y.pan}</b>` : ""],
+    ["Places by ability", selFact],
     ["Entrance test", a.short_name ? esc(a.short_name) + (firstTest ? `<small>${fmtDate(firstTest.dates.from)}</small>` : "") : ""],
     ["Pass mark", qv ? `<b>${esc(qv.value)}</b><small>${esc(qv.entry_year)} entry</small>` : ""],
     ["Register for test by", testReg ? `<b>${fmtDate(testReg.deadline)}</b>` : ""],
@@ -632,7 +653,7 @@
       <div class="headrow"><p class="crumbs"><a href="../index.html">All schools</a></p>
         <div class="headtools"><button type="button" class="star sharebtn" data-slug="${esc(s.slug)}" aria-pressed="false"></button><div class="sharewrap"><button type="button" class="sharebtn" aria-haspopup="true" aria-expanded="false"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M18 16a3 3 0 0 0-2.4 1.2l-6.7-3.4a3 3 0 0 0 0-1.6l6.7-3.4A3 3 0 1 0 15 7l-6.7 3.4a3 3 0 1 0 0 3.2L15 17a3 3 0 1 0 3-1Z"/></svg>Share</button>
         <div class="sharemenu" hidden><label class="small"><input type="checkbox" class="share-pc"> Include my postcode</label>
-          <button type="button" class="share-copy">Copy link</button><a class="share-wa" target="_blank" rel="noopener">Send on WhatsApp</a><a class="share-mail">Email</a></div></div></div></div>
+          <button type="button" class="share-copy">Copy link</button><a class="share-wa" target="_blank" rel="noopener">Send on WhatsApp</a><a class="share-mail" target="_blank" rel="noopener">Email</a></div></div></div></div>
       <h1>${esc(s.name)}</h1>
       <p class="facts">
         <span>${esc(s.town)}</span><span class="g g-${s.gender}">${window.GS.GENDER[s.gender]}</span>
@@ -771,7 +792,7 @@
         const away = a.radius != null && a.centred_on_school ? ` (${r.miles.toFixed(1)} mi away, limit ${a.radius} mi)` : "";
         if (st === "in") { el.classList.add("yes"); el.textContent = `✓ Yes, from ${home_pc}${away}`; }
         else if (st === "out") { el.classList.add("no"); el.textContent = `✗ No, from ${home_pc}${away}`; }
-        else { el.classList.add("maybe"); el.textContent = "Check the area map"; }
+        // unknown: say nothing (the map and area details are on the page)
       });
     }
     let home_pc = "";
