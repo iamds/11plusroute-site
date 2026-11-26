@@ -7,7 +7,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:wolverhampton-girls-high-school-43a3bbfe2b07@www.11plusadmissions.co.uk
-DTSTAMP:20261126T184914Z
+DTSTAMP:20261126T221907Z
 DTSTART;VALUE=DATE:20260505
 DTEND;VALUE=DATE:20260506
 SUMMARY:Wolverhampton Girls' High School: Test registration opens (consorti
@@ -20,7 +20,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wolverhampton-girls-high-school-fdf29dbd597e@www.11plusadmissions.co.uk
-DTSTAMP:20261126T184914Z
+DTSTAMP:20261126T221907Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:Wolverhampton Girls' High School: 4pm: test registration deadline
@@ -32,7 +32,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wolverhampton-girls-high-school-6b70f7058e01@www.11plusadmissions.co.uk
-DTSTAMP:20261126T184914Z
+DTSTAMP:20261126T221907Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:Wolverhampton Girls' High School: Deadline: Pupil Premium proof (tw
@@ -45,7 +45,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wolverhampton-girls-high-school-1d547f28355d@www.11plusadmissions.co.uk
-DTSTAMP:20261126T184914Z
+DTSTAMP:20261126T221907Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Wolverhampton Girls' High School: Consortium entrance test (12-14 S
@@ -58,7 +58,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wolverhampton-girls-high-school-ca90e92665e9@www.11plusadmissions.co.uk
-DTSTAMP:20261126T184914Z
+DTSTAMP:20261126T221907Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Wolverhampton Girls' High School: Notification letter with test sco
@@ -71,7 +71,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wolverhampton-girls-high-school-6d5f54f9026f@www.11plusadmissions.co.uk
-DTSTAMP:20261126T184914Z
+DTSTAMP:20261126T221907Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Wolverhampton Girls' High School: Home LA preference form deadline
@@ -83,7 +83,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wolverhampton-girls-high-school-b6c34c92fe76@www.11plusadmissions.co.uk
-DTSTAMP:20261126T184914Z
+DTSTAMP:20261126T221907Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Wolverhampton Girls' High School: National Offer Day
@@ -95,7 +95,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wolverhampton-girls-high-school-d272bdedb9f4@www.11plusadmissions.co.uk
-DTSTAMP:20261126T184914Z
+DTSTAMP:20261126T221907Z
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
 SUMMARY:Wolverhampton Girls' High School: Waiting list closes (end of autum

@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:royal-grammar-school-high-wycombe-e96f698052e7@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T184913Z
+DTSTAMP:20261126T221907Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 SUMMARY:The Royal Grammar School\, High Wycombe: STT registration opens (10
@@ -22,7 +22,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:royal-grammar-school-high-wycombe-efa541978d7f@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T184913Z
+DTSTAMP:20261126T221907Z
 DTSTART;VALUE=DATE:20260602
 DTEND;VALUE=DATE:20260603
 SUMMARY:The Royal Grammar School\, High Wycombe: STT registration closes (3
@@ -37,7 +37,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:royal-grammar-school-high-wycombe-c4d7f9aa14c6@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T184913Z
+DTSTAMP:20261126T221907Z
 DTSTART;VALUE=DATE:20260616
 DTEND;VALUE=DATE:20260617
 SUMMARY:The Royal Grammar School\, High Wycombe: Access-arrangement deadlin
@@ -51,7 +51,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:royal-grammar-school-high-wycombe-455966d4cd06@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T184913Z
+DTSTAMP:20261126T221907Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 SUMMARY:The Royal Grammar School\, High Wycombe: Test invitations emailed f
@@ -65,7 +65,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:royal-grammar-school-high-wycombe-15e7e3384df0@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T184913Z
+DTSTAMP:20261126T221907Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:The Royal Grammar School\, High Wycombe: Practice test
@@ -78,7 +78,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:royal-grammar-school-high-wycombe-8ff6b2356e5e@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T184913Z
+DTSTAMP:20261126T221907Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:The Royal Grammar School\, High Wycombe: Secondary Transfer Test
@@ -91,7 +91,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:royal-grammar-school-high-wycombe-c31a59a7b69b@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T184913Z
+DTSTAMP:20261126T221907Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:The Royal Grammar School\, High Wycombe: STT results released
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:royal-grammar-school-high-wycombe-8331cbec79ed@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T184913Z
+DTSTAMP:20261126T221907Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:The Royal Grammar School\, High Wycombe: Selection Review cases due
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:royal-grammar-school-high-wycombe-7e8533c959f0@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T184913Z
+DTSTAMP:20261126T221907Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:The Royal Grammar School\, High Wycombe: Secondary application dead
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:royal-grammar-school-high-wycombe-04a3dfe4b2a6@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T184913Z
+DTSTAMP:20261126T221907Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:The Royal Grammar School\, High Wycombe: Confirm RGS Boarding prefe
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:royal-grammar-school-high-wycombe-cedbe286591a@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T184913Z
+DTSTAMP:20261126T221907Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:The Royal Grammar School\, High Wycombe: Late applications with a g
@@ -160,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:royal-grammar-school-high-wycombe-903531726fb2@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T184913Z
+DTSTAMP:20261126T221907Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:The Royal Grammar School\, High Wycombe: Suitability-to-board inter
@@ -174,7 +174,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:royal-grammar-school-high-wycombe-c7d39e723e1a@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T184913Z
+DTSTAMP:20261126T221907Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:The Royal Grammar School\, High Wycombe: Selection Review outcomes
@@ -187,7 +187,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:royal-grammar-school-high-wycombe-b6c34c92fe76@www.11plusadmissions.co.
  uk
-DTSTAMP:20261126T184913Z
+DTSTAMP:20261126T221907Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:The Royal Grammar School\, High Wycombe: National Offer Day

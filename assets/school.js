@@ -418,20 +418,20 @@
       const al = allocFor(c.priority);
       const subs = (c.order_within || []).filter(o => o.type === "sub_criteria").map(o =>
         `<ol class="subcrit">${(o.criteria || []).map(sc => `<li>${esc(sc.label)}${sc.description ? ` <span class="muted">· ${esc(sc.description)}</span>` : ""}</li>`).join("")}</ol>`).join("");
-      const outcome = `<div class="title">${esc(c.label)}</div>
-        ${usesAddress(c) ? addressShort() : ""}
-        ${c.quota && quotaSize(c.quota) ? `<div class="quota">${esc(quotaSize(c.quota))}</div>` : ""}
+      const qchip = c.quota && quotaSize(c.quota) ? `<span class="quota">${esc(quotaSize(c.quota))}</span>` : "";
+      const facts = `${usesAddress(c) ? addressShort() : ""}
         ${groupOf(c.priority).filter(hasSize).filter(g => !together(g)).map(g => { const others = (g.priorities || []).map(String).filter(x => x !== String(c.priority)); return others.length ? `<div class="quota">Shares ${esc(groupAmount(g))} with ${others.map(x => esc(shortLabel(critByP()[x]?.label || x))).join(" and ")}</div>` : ""; }).join("")}
         ${al && al.offers != null ? `<div class="alloc"><b>${al.offers}</b> got a place this way in ${esc(latestAlloc.entry_year)}${al.last_distance_miles != null ? ` · furthest ${al.last_distance_miles} mi` : ""}${al.last_score != null ? ` · lowest score ${al.last_score}` : ""}</div>` : ""}
-        ${(() => { if (al && al.last_distance_miles != null) return ""; const f = furthestFor(c, i === lastDistIdx); return f ? `<div class="alloc">Furthest offer in ${esc(String(f.year).slice(0, 4))}: <b>${f.mi} mi</b></div>` : ""; })()}
-        ${more(`${c.quota ? quota(c.quota).replace(/^<div class="quota">.*?<\/div>/, "") : ""}
+        ${(() => { if (al && al.last_distance_miles != null) return ""; const f = furthestFor(c, i === lastDistIdx); return f ? `<div class="alloc">Furthest offer in ${esc(String(f.year).slice(0, 4))}: <b>${f.mi} mi</b></div>` : ""; })()}`;
+      const det = more(`<div class="desc"><b>The policy calls this:</b> ${esc(c.label)}</div>
+        ${c.quota ? quota(c.quota).replace(/^<div class="quota">.*?<\/div>/, "") : ""}
         ${groupOf(c.priority).filter(hasSize).map(g => g.description ? `<div class="desc">${esc(g.description)}</div>` : "").join("")}
         ${c.applies_at === "initial_allocation" ? `<div class="desc">Only applies when places are first offered on National Offer Day, not to later offers from the waiting list.</div>` : ""}
         ${condNotes(c.conditions)}
         ${c.description ? `<div class="desc">${esc(c.description)}</div>` : ""}
         ${subs}
         ${(c.order_within || []).length ? `<div class="desc"><b>If oversubscribed:</b> ${c.order_within.map(ordering).join(", then ")}</div>` : ""}
-        ${c.evidence ? `<div class="desc"><b>Evidence:</b> ${esc(c.evidence)}${c.evidence_deadline ? ` by ${fmtDate(c.evidence_deadline)}` : ""}</div>` : ""}`)}`;
+        ${c.evidence ? `<div class="desc"><b>Evidence:</b> ${esc(c.evidence)}${c.evidence_deadline ? ` by ${fmtDate(c.evidence_deadline)}` : ""}</div>` : ""}`);
       // in a shared pot after other priorities: these places are what's left of the pot, not a fixed number
       const shG = groupOf(c.priority).find(g => hasSize(g) && together(g) && String((g.priorities || [])[0]) !== String(c.priority) && pos(c.priority) > Math.min(...(g.priorities || []).map(pos)));
       const sharedRest = shG ? (shG.places ?? shG.max_places ?? "") + "" : "";
@@ -455,7 +455,9 @@
       const farAny = !ids.length ? furthestFor(c, i === lastDistIdx) : null;
       const far = farAny && farAny.own ? farAny : null;  // only map a priority's own furthest-offer figure
       const mini = G0.lat != null && (ids.length || far) ? `<div class="minimap linked" role="button" tabindex="0" data-areas="${esc(ids.join(","))}" data-last="${far ? far.mi : ""}" aria-label="Open a larger map"><span class="mm-hint" aria-hidden="true">⤢ Enlarge</span></div>` : "";
-      return { c, cat, conds, outcome, title: titleFull, acad: acad + mini, noLabel, id: "p-" + String(c.priority).replace(/[^\w-]/g, "_"), special: !!SPECIAL[c.category] };
+      const facthtml = facts.replace(/<[^>]+>|\s/g, "") ? `<div class="cfacts">${facts}</div>` : "";
+      const card = `<div class="cbody"><div class="cmain">${acad}${facthtml}</div>${mini}</div>${det}`;
+      return { c, cat, conds, qchip: (/\d/.test(tord) || sharedRest || /^Highest \d/.test(title)) ? "" : qchip, card, title: titleFull, noLabel, id: "p-" + String(c.priority).replace(/[^\w-]/g, "_"), special: !!SPECIAL[c.category] };
     });
     const gcls = () => "", gattr = () => "", gseg = () => "";
     let i = 0;
@@ -464,14 +466,13 @@
       if (b.special) {
         h += stop({ id: b.id, cls: `crit special ${b.cat.cls}${gcls(i)}`, attrs: gattr(i), marker: esc(markText(b.c.priority)),
           kicker: esc(b.cat.label) + (String(b.c.priority).length > 5 ? ` · <span class="plabel">${esc(b.c.priority)}</span>` : ""),
-          title: `<span class="sg-short">${esc(b.c.label)} <button type="button" class="sg-toggle" aria-expanded="false">Show</button></span><span class="sg-full">${b.title}</span>`,
-          body: `<div class="sg-full">${b.acad}<button type="button" class="sg-toggle sg-hide" aria-expanded="true">Hide</button></div>`,
-          branch: { label: b.conds.length ? "Yes" : "In order", cls: "in", html: b.outcome } });
+          title: `<span class="sg-short">${esc(b.c.label)} <button type="button" class="sg-toggle" aria-expanded="false">Show</button></span><span class="sg-full ctitle"><span>${b.title}</span>${b.qchip}</span>`,
+          body: `<div class="sg-full">${b.card}<button type="button" class="sg-toggle sg-hide" aria-expanded="true">Hide</button></div>` });
         if (i < built.length - 1) h += seg("", "no" + gseg(i));
         i++; continue;
       }
       h += stop({ id: b.id, cls: `crit ${b.cat.cls}${gcls(i)}`, attrs: gattr(i), marker: esc(markText(b.c.priority)), kicker: esc(b.cat.label) + aptSubject(b.c) + (String(b.c.priority).length > 5 ? ` · <span class="plabel">${esc(b.c.priority)}</span>` : ""),
-        title: b.title, body: b.acad, branch: { label: b.conds.length ? "Yes" : "In order", cls: "in", html: b.outcome } });
+        title: `<span class="ctitle"><span>${b.title}</span>${b.qchip}</span>`, body: b.card });
       if (i < built.length - 1) h += seg("", "no" + gseg(i));
       i++;
     }
