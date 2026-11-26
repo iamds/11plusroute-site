@@ -239,7 +239,7 @@
     let out = ""; for (let k = 0; k < parts.length; k += 2) out += (k ? ` ${parts[k - 1]} ` : "") + one(parts[k], k);
     return out.trim().replace(/^./, x => x.toUpperCase()) + "?" + tail;
   }
-  function needsLine(c, saysOrder, inTitle) {
+  function needsLine(c, saysOrder, inTitle, noMin) {
     const { req: req0, reqFull, tested } = reqFor(c);
     const req = inTitle ? "" : req0;
     const chain = (c.order_within || []).length ? c.order_within : (y.tie_breaks || []);
@@ -262,7 +262,7 @@
       return [o.type === "score" && !o.component && chain.filter(x => x.type === "score").length > 1 ? "Total test score" : SHORT_ORDER(o)];
     }).filter(Boolean).map(tidy);
     const gate = req ? `<div class="gate need"><span class="rk-l">Needs</span><span class="rk-v">${req.replace(/^./, m => m.toUpperCase())}</span>${reqFull ? `<details class="feeders"><summary>more</summary><span class="muted">${reqFull}</span></details>` : ""}</div>`
-      : (!tested && !req0 ? `<div class="gate free"><span class="rk-l">Test score</span><span class="rk-v">Not needed</span></div>` : "");
+      : noMin ? `<div class="gate free"><span class="rk-l">Test score</span><span class="rk-v">No minimum score</span></div>` : (!tested && !req0 ? `<div class="gate free"><span class="rk-l">Test score</span><span class="rk-v">Not needed</span></div>` : "");
     const rank = order.length ? `<div class="rank"><span class="rk-l">${rkLabel}</span>${order.map((o, k) => `<span class="rk-v${k ? " tb" : ""}">${o}</span>`).join('<span class="rk-arrow">→</span>')}${sfx ? `<span class="rk-sfx">· ${sfx}</span>` : ""}</div>` : "";
     return gate || rank ? `<div class="decides">${gate}${rank}</div>` : "";
   }
@@ -457,13 +457,15 @@
     const SPECIAL = { looked_after: "looked-after children", disadvantaged: "Pupil Premium or free school meals", medical_social: "medical or social need", staff: "staff children" };
     const pos = p => crit.findIndex(x => String(x.priority) === String(p));
     const together = g => { const idx = (g.priorities || []).map(p => crit.findIndex(x => String(x.priority) === String(p))).filter(k => k >= 0).sort((x, y2) => x - y2); return idx.length >= 2 && idx[idx.length - 1] - idx[0] === idx.length - 1; };
-    const lastDistIdx = (() => { let k = -1; crit.forEach((c, i) => { if (byDistance(c)) k = i; }); return k; })();
+    // the school-wide "furthest offer" belongs to the last priority that is decided by distance, not one that only uses it to break ties
+    const lastDistIdx = (() => { let k = -1; crit.forEach((c, i) => { if (c.category === "distance" || ((c.order_within || [])[0] || {}).type === "distance") k = i; }); return k; })();
     const built = crit.map((c, i) => {
       const cat = CATEGORIES[c.category] || CATEGORIES.other;
       const rq = reqFor(c);
       // a score the priority needs is just another "and" condition: put it in the title with the others
-      const conds0 = (c.conditions || []).map(k => ["in_area", "not_in_area"].includes(k.type) ? cond(k).replace('<span class="you"', '<span class="you" data-top="1"') : cond(k));
-      const conds = conds0.length && rq.req ? conds0.concat(reqQ(rq.req)) : conds0;
+      const conds0 = (c.conditions || []).map(k => ["in_area", "not_in_area"].includes(k.type) ? cond(k).replace('<span class="you"', '<span class="you" data-top="1"') : k.type === "any_of" ? cond(k).replace(/<span class="you"/g, '<span class="you" data-or="1"') : cond(k));
+      const noMin = /no minimum score/.test(rq.req);
+      const conds = conds0.length && rq.req && !noMin ? conds0.concat(reqQ(rq.req)) : conds0;
       const al = allocFor(c.priority);
       const subs = (c.order_within || []).filter(o => o.type === "sub_criteria").map(o =>
         `<ol class="subcrit">${(o.criteria || []).map(sc => `<li>${esc(sc.label)}${sc.description ? ` <span class="muted">· ${esc(sc.description)}</span>` : ""}</li>`).join("")}</ol>`).join("");
@@ -489,17 +491,25 @@
         const base = i < crit.length - 1 ? (s.selection === "grammar" ? "Anyone" : "Any applicant") : "Everyone else";
         const who = base === "Any applicant" ? "Anyone" : base;
         const r = rq.req, topN = /^Rank in the top (\d+)\b/.exec(r || ""), cap = c.quota ? (c.quota.places || c.quota.max_places) : null;
-        if (r && !(topN && cap && +topN[1] === +cap)) title = /^(Must reach|Reach) the pass mark$/.test(r) ? `${who} who reaches the pass mark`
+        if (noMin) title = `${who} who sat the test`;
+        else if (r && !(topN && cap && +topN[1] === +cap)) title = /^(Must reach|Reach) the pass mark$/.test(r) ? `${who} who reaches the pass mark`
           : `${who} who ${reqQ(r).replace(/\?.*$/, "").replace(/^./, x => x.toLowerCase()).replace(/^(assessed|ranked)/, "is $1")}`;
         else if (rq.tested) title = `${who} who ${s.selection === "grammar" ? "qualifies" : "sat the test"}`;
         else title = base;
       }
-      const acad = needsLine(c, "", true);
+      const acad = needsLine(c, "", true, noMin);
       // 3. PLACES: the cap if there is one; otherwise how many got in this way last time
       const capTxt = sharedRest ? `The rest of the ${sharedRest}` : c.quota && quotaSize(c.quota) ? quotaSize(c.quota)
         : groupOf(c.priority).filter(hasSize).filter(g => !together(g)).map(g => { const others = (g.priorities || []).map(String).filter(x => x !== String(c.priority)); return others.length ? `Shares ${groupAmount(g)} with ${others.map(x => shortLabel(critByP()[x]?.label || x)).join(" and ")}` : ""; }).filter(Boolean)[0] || "";
-      const lastYr = al && al.offers != null ? `<b>${al.offers}</b> got a place this way in ${esc(latestAlloc.entry_year)}${al.last_distance_miles != null ? ` · furthest ${al.last_distance_miles} mi` : ""}${al.last_score != null ? ` · lowest score ${al.last_score}` : ""}`
-        : (() => { const f = furthestFor(c, i === lastDistIdx); return f ? `Furthest offer in ${esc(String(f.year).slice(0, 4))}: <b>${f.mi} mi</b>` : ""; })();
+      // with a hard cap, last year's count only matters when it fell short of the cap
+      const capN = sharedRest ? null : c.quota ? (c.quota.places ?? null) : null;
+      const showCount = al && al.offers != null && !(capN != null && +al.offers === +capN);
+      const fAny = furthestFor(c, i === lastDistIdx);
+      const farMi = al && al.last_distance_miles != null ? al.last_distance_miles : fAny ? fAny.mi : null;
+      const farYr = al && al.last_distance_miles != null ? latestAlloc.entry_year : fAny ? String(fAny.year).slice(0, 4) : "";
+      const lastYr = [showCount ? `<b>${al.offers}</b> got a place this way in ${esc(latestAlloc.entry_year)}` : "",
+        farMi != null ? `furthest offer in ${esc(farYr)}: <b>${farMi} mi</b>` : "",
+        al && al.last_score != null ? `lowest score ${al.last_score}` : ""].filter(Boolean).join(" · ").replace(/^./, x => x.toUpperCase());
       const placesRow = `<div class="placesrow"><span class="rk-l">Places</span><span class="rk-v${capTxt ? " cap" : " nocap"}">${capTxt ? esc(capTxt) : "No set number"}</span>${lastYr ? `<span class="lastyr">${lastYr}</span>` : ""}</div>`;
       const qs = c.quota ? quotaSize(c.quota).replace(/^Up to /, "").replace(/^At least /, "") : "";
       const noLabel = !conds.length ? "" : c.quota ? (qs ? `No, or its ${esc(qs)} have gone` : "No, or its share of places has gone") : "No";
@@ -512,21 +522,21 @@
       const facthtml = facts.replace(/<[^>]+>|\s/g, "") ? `<div class="cfacts">${facts}</div>` : "";
       const rows = acad.replace(/<\/div>$/, placesRow + "</div>") || `<div class="decides">${placesRow}</div>`;
       const card = `<div class="cbody${mini ? " hasmap" : ""}"><div class="cmain">${acad ? rows : `<div class="decides">${placesRow}</div>`}${facthtml}${det}</div>${mini}</div>`;
-      return { c, cat, conds, qchip: "", card, title, noLabel, id: "p-" + String(c.priority).replace(/[^\w-]/g, "_"), special: !!SPECIAL[c.category] };
+      return { attrs: farMi != null && byDistance(c) ? ` data-far="${farMi}" data-faryr="${esc(farYr)}"` : "", c, cat, conds, qchip: "", card, title, noLabel, id: "p-" + String(c.priority).replace(/[^\w-]/g, "_"), special: !!SPECIAL[c.category] };
     });
     const gcls = () => "", gattr = () => "", gseg = () => "";
     let i = 0;
     while (i < built.length) {
       const b = built[i];
       if (b.special) {
-        h += stop({ id: b.id, cls: `crit special ${b.cat.cls}${gcls(i)}`, attrs: gattr(i), marker: esc(markText(b.c.priority)),
+        h += stop({ id: b.id, cls: `crit special ${b.cat.cls}${gcls(i)}`, attrs: b.attrs, marker: esc(markText(b.c.priority)),
           kicker: esc(b.cat.label) + (String(b.c.priority).length > 5 ? ` · <span class="plabel">${esc(b.c.priority)}</span>` : ""),
           title: `<span class="sg-short">${esc(b.c.label)} <button type="button" class="sg-toggle" aria-expanded="false">Show</button></span><span class="sg-full ctitle"><span>${b.title}</span>${b.qchip}</span>`,
           body: `<div class="sg-full">${b.card}<button type="button" class="sg-toggle sg-hide" aria-expanded="true">Hide</button></div>` });
         if (i < built.length - 1) h += seg("", "no" + gseg(i));
         i++; continue;
       }
-      h += stop({ id: b.id, cls: `crit ${b.cat.cls}${gcls(i)}`, attrs: gattr(i), marker: esc(markText(b.c.priority)), kicker: esc(b.cat.label) + aptSubject(b.c) + (String(b.c.priority).length > 5 ? ` · <span class="plabel">${esc(b.c.priority)}</span>` : ""),
+      h += stop({ id: b.id, cls: `crit ${b.cat.cls}${gcls(i)}`, attrs: b.attrs, marker: esc(markText(b.c.priority)), kicker: esc(b.cat.label) + aptSubject(b.c) + (String(b.c.priority).length > 5 ? ` · <span class="plabel">${esc(b.c.priority)}</span>` : ""),
         title: `<span class="ctitle"><span>${b.title}</span>${b.qchip}</span>`, body: b.card });
       if (i < built.length - 1) h += seg("", "no" + gseg(i));
       i++;
@@ -1101,19 +1111,33 @@
       out.querySelectorAll(".stop.crit").forEach(li => {
         li.classList.remove("for-you", "not-you");
         const old = li.querySelector(".youbanner"); if (old) old.remove();
+        if (!r) return;
         const tops = [...li.querySelectorAll('.you[data-top]')];
-        if (!r || !tops.length || tops.some(t => !t.classList.contains("yes") && !t.classList.contains("no"))) return;
-        const no = tops.some(t => t.classList.contains("no"));
-        li.classList.add(no ? "not-you" : "for-you");
+        // an area that is one side of an "or" settles it when you're inside; outside, the other route may still apply
+        const orYes = [...li.querySelectorAll('.you[data-or]')].some(t => t.classList.contains("yes"));
+        const topsKnown = tops.length && tops.every(t => t.classList.contains("yes") || t.classList.contains("no"));
+        const areaNo = topsKnown && tops.some(t => t.classList.contains("no"));
+        const areaKnown = topsKnown || (orYes && !tops.length);
+        const far = li.dataset.far ? +li.dataset.far : null;
+        let cls = "", txt = "";
+        if (areaNo) { cls = "not-you"; txt = `✗ Not for you: ${home_pc} is outside this area`; }
+        else if (far != null && !home_place) {
+          // a guess from last year's furthest offer (straight line from the school)
+          const d = r.miles.toFixed(2) + " mi (straight line)";
+          if (r.miles <= far) { cls = "for-you"; txt = `${areaKnown ? "✓ You're in this area, and" : "✓"} ${d} from ${home_pc}: closer than last year's furthest offer (${far} mi in ${li.dataset.faryr})`; }
+          else { cls = "not-you"; txt = `${areaKnown ? "You're in this area, but" : "✗"} ${d} from ${home_pc}: further than last year's furthest offer (${far} mi in ${li.dataset.faryr})`; }
+        } else if (areaKnown) { cls = "for-you"; txt = `✓ You're in this area (${home_pc})`; }
+        if (!cls) return;
+        li.classList.add(cls);
         const b = document.createElement("div"); b.className = "youbanner";
-        b.textContent = no ? `✗ Not for you: ${home_pc} is outside this area` : `✓ You're in this area (${home_pc})`;
+        b.textContent = txt;
         const main = li.querySelector(".main"); main.insertBefore(b, main.firstChild);
       });
     }
-    let home_pc = "";
+    let home_pc = "", home_place = false;
     function show(home) {
       const r = home ? G.assess(s._geo, home) : null;
-      home_pc = home ? home.postcode : "";
+      home_pc = home ? home.postcode : ""; home_place = !!(home && home.place);
       markStations(r);
       setAreaMapHome(home);
       const pcq = home ? "?pc=" + encodeURIComponent(home.postcode).replace(/%20/g, "+") : "";
