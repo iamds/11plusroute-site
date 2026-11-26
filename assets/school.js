@@ -697,7 +697,7 @@
     ["Apply to council by", caf ? `<b>${fmtDate(caf.deadline)}</b>` : ""],
     ["Offers", offerDay ? `<b>${fmtDate(offerDay.date)}</b>` : ""],
   ].filter(([, v]) => v);
-  const fold = (id, title, body, open = false) => body && body.replace(/<[^>]+>|\s/g, "") ? `<details class="fold card" id="${id}"${open ? " open" : ""}><summary><h2>${title}${linkBtn(id)}</h2></summary><div class="fold-body">${body}</div></details>` : "";
+  const fold = (id, title, body, open = false) => body && body.replace(/<[^>]+>|\s/g, "") ? `<details class="fold card" id="${id}"${open ? " open" : ""}><summary><h2>${title}</h2></summary><div class="fold-body">${body}</div></details>` : "";
   const tie = (y.tie_breaks || []).length ? `<p><b>Tie-breaks:</b> ${(y.tie_breaks).map(t => esc(t.description || ordering(t))).join(" → ")}</p>` : "";
 
   out.innerHTML = `

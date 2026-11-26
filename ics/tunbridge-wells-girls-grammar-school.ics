@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:tunbridge-wells-girls-grammar-school-b79cf3a6e93a@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T113658Z
+DTSTAMP:20261126T114519Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 SUMMARY:Tunbridge Wells Girls' Grammar School: Kent Test registration opens
@@ -22,7 +22,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tunbridge-wells-girls-grammar-school-1978a76e5ab4@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T113658Z
+DTSTAMP:20261126T114519Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Tunbridge Wells Girls' Grammar School: Kent Test registration close
@@ -36,7 +36,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tunbridge-wells-girls-grammar-school-c9b37a50800a@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T113658Z
+DTSTAMP:20261126T114519Z
 DTSTART;VALUE=DATE:20260721
 DTEND;VALUE=DATE:20260722
 SUMMARY:Tunbridge Wells Girls' Grammar School: Last date for late paper KTA
@@ -50,7 +50,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tunbridge-wells-girls-grammar-school-916601f3d6b1@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T113658Z
+DTSTAMP:20261126T114519Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Tunbridge Wells Girls' Grammar School: Secondary applications (SCAF
@@ -64,7 +64,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tunbridge-wells-girls-grammar-school-e1bf20e67730@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T113658Z
+DTSTAMP:20261126T114519Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Tunbridge Wells Girls' Grammar School: Kent Test for pupils at Kent
@@ -78,7 +78,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tunbridge-wells-girls-grammar-school-214ea77b6458@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T113658Z
+DTSTAMP:20261126T114519Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Tunbridge Wells Girls' Grammar School: Kent Test for pupils not at 
@@ -92,7 +92,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tunbridge-wells-girls-grammar-school-aacd1954213a@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T113658Z
+DTSTAMP:20261126T114519Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Tunbridge Wells Girls' Grammar School: Kent Test assessment decisio
@@ -106,7 +106,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tunbridge-wells-girls-grammar-school-1c46e546a435@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T113658Z
+DTSTAMP:20261126T114519Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Tunbridge Wells Girls' Grammar School: Deadline: Supplementary Info
@@ -120,7 +120,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tunbridge-wells-girls-grammar-school-07816bb3da62@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T113658Z
+DTSTAMP:20261126T114519Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:Tunbridge Wells Girls' Grammar School: SCAF closing date (midnight)
@@ -134,7 +134,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tunbridge-wells-girls-grammar-school-f4860472d594@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T113658Z
+DTSTAMP:20261126T114519Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Tunbridge Wells Girls' Grammar School: Last date for on-time change
@@ -148,7 +148,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tunbridge-wells-girls-grammar-school-3a5bc5ba9f93@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T113658Z
+DTSTAMP:20261126T114519Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Tunbridge Wells Girls' Grammar School: Last date for KCC's late tes
@@ -162,7 +162,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tunbridge-wells-girls-grammar-school-e66f0502bb93@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T113658Z
+DTSTAMP:20261126T114519Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Tunbridge Wells Girls' Grammar School: National Offer Day (emails a
@@ -176,7 +176,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tunbridge-wells-girls-grammar-school-b1479449bddb@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T113658Z
+DTSTAMP:20261126T114519Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Tunbridge Wells Girls' Grammar School: Accept or decline the offer.
@@ -191,7 +191,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tunbridge-wells-girls-grammar-school-f671c2264afb@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T113658Z
+DTSTAMP:20261126T114519Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Tunbridge Wells Girls' Grammar School: Deadline for lodging appeals
@@ -205,7 +205,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tunbridge-wells-girls-grammar-school-723af0ab4b56@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T113658Z
+DTSTAMP:20261126T114519Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
 SUMMARY:Tunbridge Wells Girls' Grammar School: KCC reallocation. Schools th
