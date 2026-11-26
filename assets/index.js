@@ -87,9 +87,9 @@
   function renderShortlistUI() {
     const mine = GS.shortlist.get();
     const b = $("sl-only");
-    b.innerHTML = `${GS.STAR(state.slOnly)}<span>Shortlist${mine.length ? ` (${mine.length})` : ""}</span>`;
+    b.innerHTML = `${GS.STAR(mine.length > 0)}<span>My shortlist${mine.length ? ` (${mine.length})` : ""}</span>`;
     b.setAttribute("aria-pressed", String(state.slOnly)); b.classList.toggle("on", state.slOnly);
-    b.disabled = !mine.length && !state.slOnly;
+    b.disabled = false;
     b.title = mine.length ? "Show only your shortlisted schools" : "Star schools to build a shortlist";
     $("sl-share").hidden = !mine.length;
     const box = $("sl-shared");
@@ -139,7 +139,7 @@
         <td class="num">${r.attainment8 != null ? r.attainment8.toFixed(1) : "–"}</td>
         <td class="num">${r.pan ?? ""}</td>
       </tr>`;
-    }).join("") || `<tr><td colspan="7" class="empty">No schools match these filters.</td></tr>`;
+    }).join("") || `<tr><td colspan="7" class="empty">${state.slOnly && !GS.shortlist.get().length && !state.shared.length ? "Your shortlist is empty. Tap the ☆ next to a school to add it, then come back here." : "No schools match these filters."}</td></tr>`;
     document.querySelectorAll(".viewtoggle button").forEach(b => b.setAttribute("aria-pressed", b.dataset.view === state.view));
     $("listview").hidden = state.view !== "list";
     $("mapview").hidden = state.view !== "map";

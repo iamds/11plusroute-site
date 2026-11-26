@@ -521,3 +521,9 @@ summary:hover .seclink, .stop:hover .seclink, .seclink:focus-visible { opacity: 
 .sltip p { margin: 6px 0; }
 .sltip ul { margin: 6px 0 12px; padding-left: 1.2em; }
 .sltip li { margin: 4px 0; }
+.topnav .navsl { display: inline-flex; align-items: center; gap: 5px; }
+.topnav .navsl svg { color: var(--gold); }
+@media (max-width: 640px) { .topnav { flex-wrap: wrap; } }
+.topnav .navsl svg { display: none; }
+.topnav .navsl.has svg { display: inline; }
+.slbtn svg { color: var(--gold); }

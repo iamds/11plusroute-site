@@ -121,7 +121,7 @@ window.GS = (function () {
   const SL_KEY = "gs-shortlist";
   const shortlist = {
     get() { try { const v = JSON.parse(localStorage.getItem(SL_KEY) || "[]"); return Array.isArray(v) ? v : []; } catch (e) { return []; } },
-    set(list) { try { localStorage.setItem(SL_KEY, JSON.stringify([...new Set(list)])); } catch (e) {} document.dispatchEvent(new CustomEvent("shortlist")); },
+    set(list) { try { localStorage.setItem(SL_KEY, JSON.stringify([...new Set(list)])); } catch (e) {} paintCount(); document.dispatchEvent(new CustomEvent("shortlist")); },
     has(slug) { return this.get().includes(slug); },
     toggle(slug) { const l = this.get(); this.set(l.includes(slug) ? l.filter(x => x !== slug) : l.concat(slug)); return this.has(slug); },
   };
@@ -131,7 +131,7 @@ window.GS = (function () {
     const d = document.createElement("div"); d.className = "sltip"; d.setAttribute("role", "dialog"); d.setAttribute("aria-label", "About your shortlist");
     d.innerHTML = `<b>Added to your shortlist ★</b>
       <p>Star the schools you're considering. Your shortlist is saved on this device only, with no account needed.</p>
-      <ul><li>Press <b>Shortlist</b> above the school list to see just these schools.</li>
+      <ul><li>Press <b>★ My shortlist</b> at the top of any page to see just these schools.</li>
       <li>On the <a href="${up}deadlines.html?sl=1">Deadlines</a> page, tick <b>Only my shortlist</b> to get their dates in one calendar.</li>
       <li>Use <b>Share shortlist</b> to send the list to someone.</li></ul>
       <button type="button" class="btn-primary">Got it</button>`;
@@ -142,6 +142,12 @@ window.GS = (function () {
     d.querySelector("button").focus();
     return true;
   }
+  function paintCount() {
+    const n = shortlist.get().length;
+    document.querySelectorAll(".slcount").forEach(e => e.textContent = n ? ` (${n})` : "");
+    document.querySelectorAll(".navsl").forEach(e => e.classList.toggle("has", n > 0));
+  }
+  window.addEventListener("storage", e => { if (e.key === SL_KEY) paintCount(); });
   const STAR = on => `<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="${on ? "currentColor" : "none"}" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg>`;
   function loadHome() { try { return JSON.parse(localStorage.getItem(HOME_KEY) || "null"); } catch (e) { return null; } }
   function saveHome(h) { try { h ? localStorage.setItem(HOME_KEY, JSON.stringify(h)) : localStorage.removeItem(HOME_KEY); } catch (e) {} }
