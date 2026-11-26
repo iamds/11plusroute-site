@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:king-edward-vi-camp-hill-school-for-boys-e6f6c5df2f80@www.11plusadmissi
  ons.co.uk
-DTSTAMP:20261126T180745Z
+DTSTAMP:20261126T181110Z
 DTSTART;VALUE=DATE:20260505
 DTEND;VALUE=DATE:20260506
 SUMMARY:King Edward VI Camp Hill School for Boys: Test registration opens (
@@ -22,7 +22,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-camp-hill-school-for-boys-bbc42125a58e@www.11plusadmissi
  ons.co.uk
-DTSTAMP:20261126T180745Z
+DTSTAMP:20261126T181110Z
 DTSTART;VALUE=DATE:20260612
 DTEND;VALUE=DATE:20260613
 SUMMARY:King Edward VI Camp Hill School for Boys: 4pm: reasonable adjustmen
@@ -36,7 +36,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-camp-hill-school-for-boys-3191da08558c@www.11plusadmissi
  ons.co.uk
-DTSTAMP:20261126T180745Z
+DTSTAMP:20261126T181110Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:King Edward VI Camp Hill School for Boys: 4pm: test registration de
@@ -50,7 +50,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-camp-hill-school-for-boys-aab2f79d98b6@www.11plusadmissi
  ons.co.uk
-DTSTAMP:20261126T180745Z
+DTSTAMP:20261126T181110Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 SUMMARY:King Edward VI Camp Hill School for Boys: Test venue and session (A
@@ -64,7 +64,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-camp-hill-school-for-boys-3c24a6f428ca@www.11plusadmissi
  ons.co.uk
-DTSTAMP:20261126T180745Z
+DTSTAMP:20261126T181110Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:King Edward VI Camp Hill School for Boys: Test-day information sent
@@ -78,7 +78,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-camp-hill-school-for-boys-4321f539b7fe@www.11plusadmissi
  ons.co.uk
-DTSTAMP:20261126T180745Z
+DTSTAMP:20261126T181110Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:King Edward VI Camp Hill School for Boys: Deadline: Pupil Premium e
@@ -92,7 +92,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-camp-hill-school-for-boys-89e979fefb81@www.11plusadmissi
  ons.co.uk
-DTSTAMP:20261126T180745Z
+DTSTAMP:20261126T181110Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:King Edward VI Camp Hill School for Boys: Entrance test (Saturday\,
@@ -106,7 +106,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-camp-hill-school-for-boys-be7df177b9bb@www.11plusadmissi
  ons.co.uk
-DTSTAMP:20261126T180745Z
+DTSTAMP:20261126T181110Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:King Edward VI Camp Hill School for Boys: Test results sent (by Fri
@@ -120,7 +120,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-camp-hill-school-for-boys-a1a855dd06e1@www.11plusadmissi
  ons.co.uk
-DTSTAMP:20261126T180745Z
+DTSTAMP:20261126T181110Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:King Edward VI Camp Hill School for Boys: Home LA preference form (
@@ -134,7 +134,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-camp-hill-school-for-boys-40680e68d86c@www.11plusadmissi
  ons.co.uk
-DTSTAMP:20261126T180745Z
+DTSTAMP:20261126T181110Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:King Edward VI Camp Hill School for Boys: National Offer Day (1 Mar

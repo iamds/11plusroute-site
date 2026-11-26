@@ -157,6 +157,10 @@
     // "sat Stage Two" / "got through Part I" just repeats the test stages; when places go by score it adds nothing
     const stageOnly = r => r && (["sat_stage", "progressed_from"].includes(r.type) || (r.type === "all_of" && (r.rules || []).every(x => ["sat_stage", "progressed_from", "top_n"].includes(x.type))));
     if (scoreOrder && (stageOnly(c.academic_requirement) || (!c.academic_requirement && q.type === "sat_stage"))) req = "";
+    // when places go by score, the pass mark only matters if fewer children qualify than there are places
+    const qs = (y.stats || []).filter(r => r.qualified).sort((p1, p2) => String(p2.entry_year).localeCompare(String(p1.entry_year)))[0];
+    const tight = qs && y.pan && qs.qualified <= y.pan * 1.1;
+    if (scoreOrder && !tight && ((!c.academic_requirement && /pass mark/.test(req)) || (c.academic_requirement && c.academic_requirement.type === "pass_mark"))) req = "";
     req = req.replace(/[.\s]+$/, "");
     const chain = (c.order_within || []).length ? c.order_within : (y.tie_breaks || []);
     // "Test score → Test score (VR) → Test score (English)..." is just the total with sub-score tie-breaks: say it once
