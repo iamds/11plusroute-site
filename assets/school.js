@@ -158,7 +158,7 @@
   function registrationBlock() {
     const steps = y.registration || [];
     if (!steps.length) return "";
-    return stop({ cls: "reg", kicker: "Before the test", title: "Register and apply", body: `<div class="steps">${steps.map(st => `
+    return stop({ id: "register", cls: "reg", kicker: "Before the test", title: "Register and apply", body: `<div class="steps">${steps.map(st => `
       <div class="step${st.required === false ? " optional" : ""}">
         <div class="who">${st.required === false ? "If it applies · " : ""}${esc({ school: "to the school", home_la: "to your council", consortium: "to the consortium" }[st.submit_to] || st.submit_to || "")}</div>
         <div class="what">${esc(st.name)}</div>
@@ -190,14 +190,14 @@
         ${(st.shared_with || []).length ? `<div class="desc">Shared with ${esc(st.shared_with.join(", "))}${st.pass_mark_set_by === "school" ? "; each school sets its own pass mark" : ""}</div>` : ""}
         ${(st.alternative_dates || []).map(ad => `<div class="desc">Alternative sitting${ad.who ? ` for ${esc(ad.who)}` : ""}${ad.dates?.from ? `: ${fmtDate(ad.dates.from)}` : ""}${ad.description ? ` (${esc(ad.description)})` : ""}</div>`).join("")}`)}`;
       const next = list[i + 1];
-      h += stop({ cls: "test", kicker: list.length > 1 ? `Test · stage ${i + 1} of ${list.length}` : "Entrance test", title: esc(st.name), body,
+      h += stop({ id: list.length > 1 ? `test-${i + 1}` : "test-day", cls: "test", kicker: list.length > 1 ? `Test · stage ${i + 1} of ${list.length}` : "Entrance test", title: esc(st.name), body,
         branch: st.progression && next ? { label: "Not through", cls: "exit", html: `<div class="title">Not invited to ${esc(next.name)}</div>${st.progression.ties ? `<div class="desc">Ties: ${esc(st.progression.ties)}</div>` : ""}` } : null });
       if (st.progression && next) {
         const exc = (st.progression.exceptions || []).map(e => `<div class="exc">${esc(e.applies_to || "Some groups")}: ${rule(e.rule)}</div>`).join("");
         h += seg(`<span class="go">Goes on</span> ${rule(st.progression)}${exc ? more(exc, "Exceptions") : ""}`, "yes");
       }
     });
-    if (apt.length) h += stop({ cls: "apt", kicker: "Optional, alongside", title: "Aptitude tests", body: `<div class="steps">${apt.map(st => `
+    if (apt.length) h += stop({ id: "aptitude", cls: "apt", kicker: "Optional, alongside", title: "Aptitude tests", body: `<div class="steps">${apt.map(st => `
       <div class="step"><div class="what">${esc(st.name)}</div>${st.dates?.from ? `<div class="when">${range(st.dates)}</div>` : ""}
       ${more(`${st.entry ? `<div class="desc">Who can sit it: ${rule(st.entry)}</div>` : ""}
       ${(st.used_for || []).length ? `<div class="desc">Counts only for criteria ${st.used_for.map(esc).join(", ")}</div>` : ""}`)}</div>`).join("")}</div>` });
@@ -211,13 +211,13 @@
       const unit = fs.weights_unit === "percent" ? "%" : "";
       const w = (Array.isArray(fs.weights) ? fs.weights : []).map(x => `<span class="subj">${esc(stageShort(x.stage))}${x.subject ? " · " + esc(SUBJECTS[x.subject] || x.subject) : ""} <b>${esc(x.weight)}${unit}</b></span>`).join("");
       const adj = (fs.adjustments || []).map(x => esc(x.description || x.type)).join("; ");
-      h += stop({ cls: "minor", kicker: "Scoring", title: "Final score", body: more(`<div class="desc">${esc(fs.description || "")}</div>
+      h += stop({ id: "final-score", cls: "minor", kicker: "Scoring", title: "Final score", body: more(`<div class="desc">${esc(fs.description || "")}</div>
         ${w ? `<div class="subjects">${fs.weights_unit === "ratio" ? '<span class="muted small">Ratio</span>' : ""}${w}</div>` : ""}
         ${adj ? `<div class="desc">Adjusted for: ${adj}</div>` : ""}`, "How it's worked out") });
     }
-    if (q && q.type === "other") h += stop({ cls: "decision passmark", kicker: "Pass mark", title: "Reach the qualifying standard?", body: `<div class="desc">${rule(q)}</div>` });
+    if (q && q.type === "other") h += stop({ id: "pass-mark", cls: "decision passmark", kicker: "Pass mark", title: "Reach the qualifying standard?", body: `<div class="desc">${rule(q)}</div>` });
     else if (q && q.type !== "none") {
-      h += stop({ cls: "decision passmark", kicker: "Pass mark", title: rule(q), branch: { label: "No", cls: "exit", html: `<div class="title">Not eligible for a place</div>` } });
+      h += stop({ id: "pass-mark", cls: "decision passmark", kicker: "Pass mark", title: rule(q), branch: { label: "No", cls: "exit", html: `<div class="title">Not eligible for a place</div>` } });
       h += seg(`<span class="go">Qualifies</span>`, "yes");
     }
     return h;
@@ -225,7 +225,7 @@
 
   function ehcpBlock() {
     if (!y.ehcp) return "";
-    return stop({ cls: "decision", kicker: "Checked first", title: "Does an EHCP name the school?",
+    return stop({ id: "ehcp", cls: "decision", kicker: "Checked first", title: "Does an EHCP name the school?",
       branch: { label: "Yes", cls: "in", html: `<div class="title">Admitted</div>${more(`<div class="desc">${esc(y.ehcp.description || "")}</div>`)}` } }) + seg("No", "no");
   }
 
@@ -244,7 +244,7 @@
     const ao = (ov.allocation_order || []).map(String);
     const aoDiffers = ao.length && ao.join("|") !== listOrder.filter(p => ao.includes(p)).join("|");
     if (sized.length || aoDiffers) {
-      h += stop({ cls: "minor note", kicker: "Before you read the priorities", title: "How the places are split", body: `${sized.map(g => `<div class="pool">${groupSentence(g)}${g.description ? more(`<div class="desc">${esc(g.description)}</div>`) : ""}</div>`).join("")}
+      h += stop({ id: "place-split", cls: "minor note", kicker: "Before you read the priorities", title: "How the places are split", body: `${sized.map(g => `<div class="pool">${groupSentence(g)}${g.description ? more(`<div class="desc">${esc(g.description)}</div>`) : ""}</div>`).join("")}
         ${sized.length && restExists ? `<div class="pool desc">All other places go through the remaining priorities, in the order shown below.</div>` : ""}
         ${aoDiffers ? `<div class="pool">Places are actually handed out in a different order from the list below:<div class="pills">${ao.map(pill).join('<span class="parrow">→</span>')}</div>${ov.allocation_order_description ? more(`<div class="desc">${esc(ov.allocation_order_description)}</div>`) : ""}</div>` : ""}` });
     }
@@ -296,7 +296,7 @@
       if (i < built.length - 1) h += seg(b.noLabel, "no");
       i++;
     }
-    h += stop({ cls: "end", kicker: "End of the line", title: "No place offered", body: `<div class="desc">You can join the waiting list or appeal. See <a href="#waiting">Waiting list and late applications</a> below.</div>` });
+    h += stop({ id: "no-place", cls: "end", kicker: "End of the line", title: "No place offered", body: `<div class="desc">You can join the waiting list or appeal. See <a href="#waiting">Waiting list and late applications</a> below.</div>` });
     return h;
   }
 
