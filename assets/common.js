@@ -221,8 +221,14 @@ window.GS = (function () {
       const open = b && w.contains(b) ? m.hidden : false;
       if (!(b && w.contains(b)) && w.contains(e.target)) return;  // clicks inside an open menu
       m.hidden = !open; btn.setAttribute("aria-expanded", String(open));
+      // inside a scrolling table the menu would be clipped, so float it above the page
+      if (open && w.closest(".table-wrap")) {
+        const r = btn.getBoundingClientRect(), mw = Math.max(m.offsetWidth, 240);
+        Object.assign(m.style, { position: "fixed", top: (r.bottom + 6) + "px", left: Math.max(8, Math.min(r.right - mw, window.innerWidth - mw - 8)) + "px", right: "auto" });
+      }
     });
   });
+  window.addEventListener("scroll", () => document.querySelectorAll(".table-wrap .calmenu:not([hidden])").forEach(m => { m.hidden = true; }), { passive: true });
   document.addEventListener("keydown", e => { if (e.key === "Escape") document.querySelectorAll(".calmenu").forEach(m => { m.hidden = true; }); });
   function loadHome() { try { return JSON.parse(localStorage.getItem(HOME_KEY) || "null"); } catch (e) { return null; } }
   function saveHome(h) { try { h ? localStorage.setItem(HOME_KEY, JSON.stringify(h)) : localStorage.removeItem(HOME_KEY); } catch (e) {} }

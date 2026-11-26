@@ -618,3 +618,7 @@ dl.glossary dd { margin: 4px 0 0; color: var(--ink-2); }
 .calsub .calmenu { left: 0; right: auto; }
 @media (max-width: 640px) { .headtools { flex-wrap: wrap; justify-content: flex-end; } .headrow { align-items: flex-start; } }
 @media print { .calwrap { display: none !important; } }
+.vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.sltable td.cal { white-space: nowrap; text-align: right; }
+.sltable .calmain { font-size: .82rem; padding: 5px 9px; }
+.sltable .calmenu { right: 0; left: auto; }

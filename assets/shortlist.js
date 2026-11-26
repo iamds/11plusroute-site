@@ -35,17 +35,17 @@
     if (shared.length) $("sl-save").onclick = () => { GS.shortlist.set(GS.shortlist.get().concat(shared)); location.replace("shortlist.html"); };
 
     $("sl-count").textContent = items.length ? `${items.length} school${items.length === 1 ? "" : "s"}${home ? ` · distances from ${home.postcode}` : ""}` : "";
-    $("sl-cal").hidden = $("sl-share").hidden = !items.length;
+    $("sl-share").hidden = !items.length;
     $("sl-share").textContent = "Share shortlist";
 
     if (!items.length) {
       $("sl-list").innerHTML = `<div class="card sl-empty"><p><b>Your shortlist is empty.</b></p>
         <p>Tap the ☆ next to a school in the <a href="index.html">school list</a>, on the map, or on a school's page to add it here.</p></div>`;
-      $("sl-dates-card").hidden = true; $("sl-sub-card").hidden = true;
+      $("sl-dates-card").hidden = true;
       return;
     }
     $("sl-list").innerHTML = `<div class="card table-wrap" style="padding:0"><table class="sltable"><thead><tr>
-      <th>School</th>${home ? '<th class="num">Distance</th>' : ""}<th>Register by</th><th>Test</th><th>Apply by</th><th>Offers</th><th class="num">Places</th></tr></thead><tbody>
+      <th>School</th>${home ? '<th class="num">Distance</th>' : ""}<th>Register by</th><th>Test</th><th>Apply by</th><th>Offers</th><th class="num">Places</th><th><span class="vh">Calendar</span></th></tr></thead><tbody>
       ${items.map(s => {
         const on = GS.shortlist.has(s.slug);
 
@@ -55,7 +55,7 @@
             <div class="small muted">${esc(s.town || "")} · ${GENDER[s.gender] || ""} · ${TYPE[s.selection] || ""}${s.test ? ` · ${esc(s.test)}` : ""}</div></td>
           ${home ? `<td class="num">${s._mi != null ? s._mi.toFixed(1) + " mi" : ""}</td>` : ""}
           <td${past(s.reg)}>${fmt(s.reg) || "–"}</td><td${past(s.testDate)}>${fmt(s.testDate) || "–"}</td>
-          <td${past(s.caf)}>${fmt(s.caf) || "–"}</td><td${past(s.offer)}>${fmt(s.offer) || "–"}</td><td class="num">${s.pan ?? ""}</td></tr>`;
+          <td${past(s.caf)}>${fmt(s.caf) || "–"}</td><td${past(s.offer)}>${fmt(s.offer) || "–"}</td><td class="num">${s.pan ?? ""}</td><td class="cal">${s.ics ? GS.calMenu(GS.calItems(s.ics, s.name + " admissions", "ics/" + s.slug + ".ics"), "Add to calendar") : ""}</td></tr>`;
       }).join("")}</tbody></table></div>
       <p class="small muted">Dates already passed are greyed out. Always check each school's page and admissions policy.</p>`;
 
@@ -65,8 +65,7 @@
     $("sl-dates").innerHTML = `<ul class="evlist">${evs.slice(0, 12).map(e => `<li class="ev ev-${e.k}"><time>${new Date(e.d + "T12:00").toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "long", year: "numeric" })}</time>
       <span><a href="schools/${e.s.slug}.html${pcq}">${esc(e.s.name)}</a>: ${esc(e.t)}</span></li>`).join("")}</ul>`;
     window._slEvents = evs;
-    $("sl-sub-card").hidden = false;
-    $("sl-subs").innerHTML = items.map(s => `<li><b>${esc(s.name)}</b>${GS.calButtons(s.ics, s.name + " admissions", "ics/" + s.slug + ".ics")}</li>`).join("");
+
   }
 
   // Unstarring keeps the row (faded) until the page is reloaded, with an Undo, so a slip is easy to fix
@@ -122,22 +121,7 @@
     sharePanel(url, await Promise.race([copy(url), new Promise(r => setTimeout(() => r(false), 800))]));
   });
 
-  $("sl-ics").addEventListener("click", () => {
-    const evs = window._slEvents || [];
-    const e = t => String(t).replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,");
-    const stamp = new Date().toISOString().replace(/[-:]/g, "").slice(0, 15) + "Z";
-    const lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//11plusroute//shortlist//EN", "CALSCALE:GREGORIAN", "X-WR-CALNAME:My grammar school shortlist"];
-    evs.forEach((x, i) => {
-      const [y, m, d] = x.d.split("-").map(Number);
-      const next = new Date(Date.UTC(y, m - 1, d + 1)).toISOString().slice(0, 10).replace(/-/g, "");
-      lines.push("BEGIN:VEVENT", `UID:${x.s.slug}-${x.d}-${i}@11plusroute`, `DTSTAMP:${stamp}`, `DTSTART;VALUE=DATE:${x.d.replace(/-/g, "")}`, `DTEND;VALUE=DATE:${next}`,
-        `SUMMARY:${e(x.s.name + ": " + x.t)}`, `DESCRIPTION:${e("Admissions details: " + new URL("schools/" + x.s.slug + ".html", location.href).href)}`, `URL:${new URL("schools/" + x.s.slug + ".html", location.href).href}`, "TRANSP:TRANSPARENT", "END:VEVENT");
-    });
-    lines.push("END:VCALENDAR");
-    const a = document.createElement("a");
-    a.href = URL.createObjectURL(new Blob([lines.join("\r\n") + "\r\n"], { type: "text/calendar" }));
-    a.download = "my-shortlist-dates.ics"; document.body.appendChild(a); a.click(); a.remove();
-  });
+
 
   render();
 })();
