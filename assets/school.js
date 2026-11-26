@@ -269,7 +269,7 @@
       const refs = []; (function walk(cs) { (cs || []).forEach(k => { if (k.type === "in_area" && k.ref) refs.push(k.ref); if (k.type === "any_of") walk(k.conditions); }); })(c.conditions);
       const ids = [...new Set(refs.map(id => areaGroupOf[id] || id))].filter(id => drawable.some(x => x.id === id));
       const far = !ids.length ? furthestFor(c, i === lastDistIdx) : null;
-      const mini = G0.lat != null && (ids.length || far) ? `<div class="minimap${ids.length ? " linked" : ""}" role="${ids.length ? "link" : "img"}" tabindex="${ids.length ? 0 : -1}" data-areas="${esc(ids.join(","))}" data-last="${far ? far.mi : ""}" aria-label="${ids.length ? "Open the priority areas map" : "Map of last year's furthest offer"}"></div>` : "";
+      const mini = G0.lat != null && (ids.length || far) ? `<div class="minimap linked" role="button" tabindex="0" data-areas="${esc(ids.join(","))}" data-last="${far ? far.mi : ""}" aria-label="Open a larger map"><span class="mm-hint" aria-hidden="true">⤢ Enlarge</span></div>` : "";
       return { c, cat, conds, outcome, title, acad: acad + mini, noLabel, id: "p-" + String(c.priority).replace(/[^\w-]/g, "_"), special: !!SPECIAL[c.category] };
     });
     let i = 0;
@@ -361,9 +361,7 @@
     if (!els.length || G0.lat == null) return;
     const build = async el => {
       try { await window.GS.loadMapLib(); } catch (e) { el.remove(); return; }
-      const ids = el.dataset.areas ? el.dataset.areas.split(",") : [];
-      const feats = ids.map(id => drawable.find(x => x.id === id)).filter(Boolean).map(x => Object.assign(areaFeature(x), { properties: { k: "area" } }));
-      if (el.dataset.last) feats.push(Object.assign(window.GS.circleGeo(G0.lat, G0.lng, +el.dataset.last), { properties: { k: "last" } }));
+      const feats = miniFeatures(el);
       const m = new maplibregl.Map({ container: el, style: window.GS.mapStyle(), center: [G0.lng, G0.lat], zoom: 10, interactive: false, attributionControl: false });
       m.addControl(new maplibregl.AttributionControl({ compact: true }), "bottom-right");
       setTimeout(() => el.querySelectorAll(".maplibregl-compact-show").forEach(x => x.classList.remove("maplibregl-compact-show")), 600);
@@ -391,11 +389,58 @@
     };
     const io = "IntersectionObserver" in window ? new IntersectionObserver(es => es.forEach(en => { if (en.isIntersecting) { io.unobserve(en.target); build(en.target); } }), { rootMargin: "200px" }) : null;
     els.forEach(el => {
-      const go = () => { if (el.dataset.areas && document.getElementById("areas")) location.hash = "#areas"; };
+      const go = () => openBigMap(el);
       el.addEventListener("click", go);
       el.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(); } });
       io ? io.observe(el) : build(el);
     });
+  }
+  // Click a small map to open it large and zoomable in a dialog (one map instance, removed on close)
+  function miniFeatures(el) {
+    const ids = el.dataset.areas ? el.dataset.areas.split(",") : [];
+    const feats = ids.map(id => drawable.find(x => x.id === id)).filter(Boolean).map(x => Object.assign(areaFeature(x), { properties: { k: "area" } }));
+    if (el.dataset.last) feats.push(Object.assign(window.GS.circleGeo(G0.lat, G0.lng, +el.dataset.last), { properties: { k: "last" } }));
+    return feats;
+  }
+  function openBigMap(el) {
+    const feats = miniFeatures(el);
+    let dlg = document.getElementById("bigmap-dlg");
+    if (!dlg) {
+      dlg = document.createElement("dialog"); dlg.id = "bigmap-dlg"; dlg.className = "bigmap-dlg";
+      dlg.innerHTML = `<div class="bigmap-head"><b class="bigmap-title"></b><button type="button" class="bigmap-close" aria-label="Close map">×</button></div><div class="bigmap"></div><p class="small muted bigmap-note"></p>`;
+      document.body.appendChild(dlg);
+      dlg.querySelector(".bigmap-close").onclick = () => dlg.close();
+      dlg.addEventListener("click", e => { if (e.target === dlg) dlg.close(); });
+      dlg.addEventListener("close", () => { if (dlg._map) { dlg._map.remove(); dlg._map = null; } });
+    }
+    const st = el.closest(".stop");
+    const t = st && (st.querySelector(".branch .title") || st.querySelector(".main .title"));
+    const title = t ? t.textContent : "";
+    dlg.querySelector(".bigmap-title").textContent = (title || s.name).replace(/\s+/g, " ").trim().slice(0, 120);
+    dlg.querySelector(".bigmap-note").textContent = feats.some(f => f.properties.k === "last") ? "Dashed circle: last year's furthest offer. Shapes are approximate." : "Shapes are approximate: check the school's own map if you live near an edge.";
+    dlg.showModal();
+    const holder = dlg.querySelector(".bigmap");
+    window.GS.loadMapLib().then(() => {
+      const m = dlg._map = new maplibregl.Map({ container: holder, style: window.GS.mapStyle(), center: [G0.lng, G0.lat], zoom: 10, attributionControl: { compact: true } });
+      m.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-left");
+      const sch = document.createElement("div"); sch.className = "mpin"; sch.style.background = "#1f4e79"; sch.title = s.name;
+      new maplibregl.Marker({ element: sch }).setLngLat([G0.lng, G0.lat]).addTo(m);
+      const b = new maplibregl.LngLatBounds([G0.lng, G0.lat], [G0.lng, G0.lat]);
+      feats.forEach(f => eachCoord(f.geometry, p => b.extend(p)));
+      if (currentHome) {
+        new maplibregl.Marker({ element: window.GS.homeMarkerEl(currentHome.postcode) }).setLngLat([currentHome.lng, currentHome.lat]).addTo(m);
+        if (window.GS.miles(currentHome, G0) <= 30) b.extend([currentHome.lng, currentHome.lat]);
+      }
+      const fit = () => { if (dlg._map !== m) return; m.resize(); m.fitBounds(b, { padding: 40, duration: 0, maxZoom: 14 }); };
+      requestAnimationFrame(fit); m.once("load", fit); m.once("idle", fit); setTimeout(fit, 300);
+      window.GS.onStyle(m, () => {
+        if (m.getSource("big")) return;
+        m.addSource("big", { type: "geojson", data: { type: "FeatureCollection", features: feats } });
+        m.addLayer({ id: "big-fill", type: "fill", source: "big", filter: ["==", ["get", "k"], "area"], paint: { "fill-color": "#0f7b4f", "fill-opacity": 0.12 } });
+        m.addLayer({ id: "big-line", type: "line", source: "big", filter: ["==", ["get", "k"], "area"], paint: { "line-color": "#0f7b4f", "line-width": 2.5 } });
+        m.addLayer({ id: "big-dash", type: "line", source: "big", filter: ["==", ["get", "k"], "last"], paint: { "line-color": "#c25a00", "line-width": 2.5, "line-dasharray": [2, 1.5] } });
+      });
+    }).catch(() => { holder.innerHTML = '<p class="empty">The map couldn\'t load. Check your connection.</p>'; });
   }
   function setMiniHome(rec, home) {
     if (rec.home) { rec.home.remove(); rec.home = null; }

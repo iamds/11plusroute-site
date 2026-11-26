@@ -474,3 +474,12 @@ li.special .kicker { color: var(--c); }
 .maptip .sw { display: inline-block; width: 14px; height: 0; border-top: 3px solid; margin-right: 6px; vertical-align: 3px; }
 .maptip .sw.dash { border-top-style: dashed; }
 .zoomarea { display: block; margin-top: 6px; padding: 0; }
+
+/* Enlarged map dialog */
+.minimap .mm-hint { position: absolute; z-index: 2; top: 6px; right: 6px; padding: 2px 7px; border-radius: 4px; background: var(--surface); color: var(--ink-2); font-size: .72rem; font-weight: 700; pointer-events: none; opacity: .9; }
+.bigmap-dlg { width: min(960px, 94vw); max-width: none; padding: 0; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--ink); box-shadow: 0 10px 40px rgba(0,0,0,.45); }
+.bigmap-dlg::backdrop { background: rgba(0,0,0,.55); }
+.bigmap-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 14px; border-bottom: 1px solid var(--line); }
+.bigmap-close { font: inherit; font-size: 1.6rem; line-height: 1; background: none; border: 0; color: var(--ink-2); cursor: pointer; padding: 0 4px; }
+.bigmap { height: min(70vh, 640px); }
+.bigmap-note { margin: 8px 14px 12px; }
