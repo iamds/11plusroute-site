@@ -137,7 +137,8 @@ td.empty { text-align: center; padding: 36px; color: var(--ink-2); }
 .zlabel span { width: 28px; height: 28px; font-size: .9rem; }
 .line > li.zone:not(:first-child) .zlabel { padding-top: 44px; }
 .line > li.zone::before { content: ""; position: absolute; left: 26px; right: 0; bottom: 18.5px; height: 3px; background: color-mix(in srgb, var(--ink) 22%, transparent); }
-.line > li.zone:first-child .rail::before { top: calc(100% - 21.5px); }
+.line > li.zone:first-child .zlabel { padding-top: 46px; }
+.line > li.zone:first-child .rail::before { top: calc(100% - 59.5px); }  /* the line starts about 1cm above the first bar */
 @media (max-width: 640px) { .line > li.zone::before { left: 17px; } .line > li.zone:not(:first-child) .zlabel { padding-top: 36px; } }
 
 .seg { min-height: 30px; }
