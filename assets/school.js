@@ -161,6 +161,10 @@
     // "sat Stage Two" / "got through Part I" just repeats the test stages; when places go by score it adds nothing
     const stageOnly = r => r && (["sat_stage", "progressed_from"].includes(r.type) || (r.type === "all_of" && (r.rules || []).every(x => ["sat_stage", "progressed_from", "top_n"].includes(x.type))));
     if (scoreOrder && (stageOnly(c.academic_requirement) || (!c.academic_requirement && q.type === "sat_stage"))) req = "";
+    // a mark needed to get through an earlier test stage is a test rule (shown in the test section), not a priority rule
+    const gateStages = new Set((a.stages || []).filter(st => st.progression).map(st => st.id));
+    const isGate = r => r && ((r.stage && gateStages.has(r.stage)) || (r.ref && gateStages.has(r.ref)) || (["all_of", "any_of"].includes(r.type) && (r.rules || []).length && r.rules.every(x => isGate(x) || stageOnly(x))));
+    if (isGate(c.academic_requirement)) req = "";
     // when places go by score, the pass mark only matters if fewer children qualify than there are places
     const qs = (y.stats || []).filter(r => r.qualified).sort((p1, p2) => String(p2.entry_year).localeCompare(String(p1.entry_year)))[0];
     const tight = qs && y.pan && qs.qualified <= y.pan * 1.1;
@@ -299,6 +303,7 @@
     });
     if (apt.length) h += stop({ id: "aptitude", cls: "apt", kicker: "Optional, alongside", title: "Aptitude tests", body: `<div class="steps">${apt.map(st => `
       <div class="step"><div class="what">${esc(st.name)}</div>${st.dates?.from ? `<div class="when">${range(st.dates)}</div>` : ""}
+      ${st.progression ? `<div class="desc"><span class="go">To go on:</span> ${shortRule(st.progression).replace(/^./, m => m.toLowerCase())}</div>` : ""}
       ${more(`${st.entry ? `<div class="desc">Who can sit it: ${rule(st.entry)}</div>` : ""}
       ${(st.used_for || []).length ? `<div class="desc">Counts only for criteria ${st.used_for.map(esc).join(", ")}</div>` : ""}`)}</div>`).join("")}</div>` });
     return h;

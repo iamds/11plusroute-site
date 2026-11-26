@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-boys-8453164905e3@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T181406Z
+DTSTAMP:20261126T181723Z
 DTSTART;VALUE=DATE:20260423
 DTEND;VALUE=DATE:20260424
 SUMMARY:Altrincham Grammar School for Boys: Entrance exam applications open
@@ -22,7 +22,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-boys-6303ae859417@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T181406Z
+DTSTAMP:20261126T181723Z
 DTSTART;VALUE=DATE:20260505
 DTEND;VALUE=DATE:20260506
 SUMMARY:Altrincham Grammar School for Boys: AGSB Open Evening\, 5pm-7.30pm 
@@ -36,7 +36,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-boys-ff4d5a1b9279@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T181406Z
+DTSTAMP:20261126T181723Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
 SUMMARY:Altrincham Grammar School for Boys: Entrance exam applications\, Pu
@@ -50,7 +50,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-boys-6a07f9dbda9a@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T181406Z
+DTSTAMP:20261126T181723Z
 DTSTART;VALUE=DATE:20260713
 DTEND;VALUE=DATE:20260714
 SUMMARY:Altrincham Grammar School for Boys: Exam details\, Attendance Form 
@@ -64,7 +64,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-boys-ca651f5851da@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T181406Z
+DTSTAMP:20261126T181723Z
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260821
 SUMMARY:Altrincham Grammar School for Boys: Exam details should have arrive
@@ -78,7 +78,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-boys-336300bd3dba@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T181406Z
+DTSTAMP:20261126T181723Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 SUMMARY:Altrincham Grammar School for Boys: Trafford Consortium Entrance Ex
@@ -92,7 +92,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-boys-bef2f2ad1480@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T181406Z
+DTSTAMP:20261126T181723Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 SUMMARY:Altrincham Grammar School for Boys: Deadline: Attendance Form with 
@@ -106,7 +106,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-boys-5bf0533973fa@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T181406Z
+DTSTAMP:20261126T181723Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:Altrincham Grammar School for Boys: Special Circumstances Forms (il
@@ -120,7 +120,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-boys-2b3a9f3ab410@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T181406Z
+DTSTAMP:20261126T181723Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Altrincham Grammar School for Boys: Results sent before this date. 
@@ -134,7 +134,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-boys-b6c34c92fe76@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T181406Z
+DTSTAMP:20261126T181723Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Altrincham Grammar School for Boys: National Offer Day
@@ -147,7 +147,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-boys-308c729c2327@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T181406Z
+DTSTAMP:20261126T181723Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Altrincham Grammar School for Boys: Deadline to accept offers
@@ -160,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:altrincham-grammar-school-for-boys-afa300dc55a5@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T181406Z
+DTSTAMP:20261126T181723Z
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
 SUMMARY:Altrincham Grammar School for Boys: Renters must still live in the 
