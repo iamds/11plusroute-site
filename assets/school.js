@@ -65,7 +65,7 @@
   }
   function ordering(o) {
     switch (o.type) {
-      case "score": return "highest " + (o.component ? esc(SUBJECTS[o.component] || o.component) + " " : "test ") + "score" + (o.stage && o.stage !== "final" ? ` (${esc(stageName(o.stage))})` : "");
+      case "score": return "highest " + (o.component ? esc(SUBJECTS[o.component] || o.component) + " " : "test ") + "score" + (o.stage && o.stage !== "final" ? ` (${esc(stageShort(o.stage))})` : "");
       case "distance": return (o.area_first ? `living in ${esc(areas[o.area_first]?.name || o.area_first)} first, then ` : "") + "nearest to the school";
       case "condition": return o.description ? esc(o.description) : "those meeting: " + cond(o.condition || {}).replace(/\?$/, "");
       case "random": return "random allocation";
@@ -127,14 +127,14 @@
     const tested = scoreOrder || c.category === "aptitude";
     if (c.academic_requirement && c.academic_requirement.type === "none") req = tested ? "To take the test (there's no minimum score)" : "";
     else if (c.academic_requirement) req = rule(c.academic_requirement);
-    else if (s.selection === "grammar" && q.type && q.type !== "none") req = q.type === "sat_stage" ? `Sat ${esc(stageShort(q.ref))}` : "Reach the pass mark (see Pass mark above)";
-    else if (scoreOrder) req = "A high enough test score";
-    const then = scoreOrder && req && !/high enough test score/.test(req) ? " Places then go to the highest scores first." : (c.order_within || []).some(o => o.type === "distance") || c.category === "distance" ? " Places then go to the nearest first." : "";
-    const area = /"in_area"/.test(JSON.stringify(c.conditions || []));
+    else if (s.selection === "grammar" && q.type && q.type !== "none") req = q.type === "sat_stage" ? `To have sat ${esc(stageShort(q.ref))}` : "The pass mark (see Pass mark above)";
+    // lead with the order places go in within this priority (score, distance, random...), then any test requirement
+    const chain = (c.order_within || []).length ? c.order_within : (y.tie_breaks || []);
+    const order = chain.map(ordering).filter(Boolean);
+    const orderTxt = order.length ? `<b>Places go to:</b> ${order.join(", then ")}.` : "";
     req = req.replace(/[.\s]+$/, "");
-    return req
-      ? `<div class="needs both"><b>Test needed too:</b> as well as ${area ? "living here" : "meeting this priority"}, you need: ${req.replace(/^./, m => m.toUpperCase())}.${then}</div>`
-      : `<div class="needs only"><b>No test needed</b> for this priority${area ? ": living here is what counts" : ""}.${then}</div>`;
+    const reqTxt = req ? ` <b>Also needs:</b> ${req.replace(/^./, m => m.toUpperCase())}.` : (s.selection !== "grammar" && !tested ? " No test needed." : "");
+    return orderTxt || reqTxt ? `<div class="needs${req ? " both" : " only"}">${orderTxt}${reqTxt}</div>` : "";
   }
   function addressLine() {
     const ad = y.address_date;
@@ -311,7 +311,7 @@
       const subs = (c.order_within || []).filter(o => o.type === "sub_criteria").map(o =>
         `<ol class="subcrit">${(o.criteria || []).map(sc => `<li>${esc(sc.label)}${sc.description ? ` <span class="muted">· ${esc(sc.description)}</span>` : ""}</li>`).join("")}</ol>`).join("");
       const outcome = `<div class="title">${esc(c.label)}</div>
-        ${usesAddress(c) ? needsLine(c) + addressLine() : ""}
+        ${needsLine(c)}${usesAddress(c) ? addressLine() : ""}
         ${c.quota && quotaSize(c.quota) ? `<div class="quota">${esc(quotaSize(c.quota))}</div>` : ""}
         ${groupOf(c.priority).filter(hasSize).map(g => { const others = (g.priorities || []).map(String).filter(x => x !== String(c.priority)); return others.length ? `<div class="quota">Shares ${esc(groupAmount(g))} with ${others.map(x => esc(shortLabel(critByP()[x]?.label || x))).join(" and ")}</div>` : ""; }).join("")}
         ${al && al.offers != null ? `<div class="alloc"><b>${al.offers}</b> offered in ${esc(latestAlloc.entry_year)}${al.last_distance_miles != null ? ` · furthest ${al.last_distance_miles} mi` : ""}${al.last_score != null ? ` · lowest score ${al.last_score}` : ""}</div>` : ""}
