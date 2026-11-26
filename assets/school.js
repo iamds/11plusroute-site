@@ -167,18 +167,7 @@
       </div>`).join("")}</div>` });
   }
 
-  // ---------- subject chips: tap one to see what that part of the test is like ----------
-  const SUBJECT_INFO = {
-    english: "Usually reading comprehension plus vocabulary, spelling, punctuation and grammar questions. Some schools include a piece of writing.",
-    comprehension: "Read one or more passages (fiction, non-fiction or poetry) and answer questions about meaning, vocabulary and the writer's choices.",
-    creative_writing: "Write a story, description or other piece in a set time, often from a picture or opening line. Marked for content, organisation, vocabulary and accuracy.",
-    maths: "Arithmetic and problem solving, usually based on the Key Stage 2 curriculum up to the end of Year 5: number, fractions, measures, shape, data and word problems.",
-    verbal_reasoning: "Word and letter puzzles: codes, analogies, odd one out, hidden words, letter sequences and vocabulary. Tests reasoning with language rather than school knowledge.",
-    non_verbal_reasoning: "Puzzles with shapes and patterns: spotting the next in a sequence, the odd one out, matrices and codes. No reading or maths needed.",
-    spatial_reasoning: "Picturing shapes in your head: rotations, reflections, folding nets into cubes and fitting pieces together.",
-    music: "Listening and response tasks to judge musical aptitude, such as comparing pitch, rhythm and melody. Some schools also hear a performance.",
-    sport: "Physical tests of fitness, coordination and agility. Usually not about one particular sport.",
-  };
+  // ---------- subject chips: tap one to see this school's details for that part of the test ----------
   const FORMAT = { multiple_choice: "Multiple choice", written: "Written answers", standard_answer: "Write-in answers" };
   function subjectChips(st, i) {
     return (st.components || []).map((c, j) => {
@@ -189,7 +178,6 @@
         c.label && c.subject !== "other" ? esc(c.label) : "",
         c.description ? esc(c.description) : "",
         c.weight != null && +c.weight > 0 ? `Counts for ${+c.weight <= 1 ? Math.round(c.weight * 100) : esc(c.weight)}% of the score.` : "",
-        SUBJECT_INFO[c.subject] ? `<span class="muted">What it usually means: ${SUBJECT_INFO[c.subject]}</span>` : "",
       ].filter(Boolean);
       if (!lines.length) return `<span class="subj">${name}</span>`;
       const id = `si-${i}-${j}`;
