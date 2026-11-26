@@ -515,6 +515,7 @@ summary:hover .seclink, .stop:hover .seclink, .seclink:focus-visible { opacity: 
 .slbtn.on { border-color: var(--gold); box-shadow: inset 0 0 0 1px var(--gold); }
 .slbtn.on svg { color: var(--gold); }
 .slbtn:disabled { opacity: .55; cursor: default; }
+.slbtn[hidden] { display: none; }
 .sl-shared { padding: 12px 16px; margin-bottom: 10px; border-left: 4px solid var(--gold); }
 .maplibregl-popup-content .star { margin: 0 4px 0 0; width: 22px; height: 22px; vertical-align: -5px; }
 .maplibregl-popup-content { padding-right: 26px; }
