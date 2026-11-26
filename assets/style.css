@@ -720,3 +720,32 @@ footer { background: var(--surface); border: 1px solid var(--line); border-top: 
 }
 .line > li.seg.no { min-height: 8px; }
 .line > li.seg.no .seglabel:empty { padding: 0; }
+/* Needs / Ranked by rows: labels line up when both rows are there; a lone row sits tight to its label */
+.decides .rk-l { min-width: 72px; margin-right: 8px; }
+.decides:has(> :only-child) .rk-l { min-width: 0; }
+.gate, .rank { gap: 6px; }
+.gate .feeders { margin-left: 6px; font-size: .8rem; }
+.gate .feeders summary { color: var(--ink-2); text-decoration: underline dotted; text-underline-offset: 3px; }
+.gate .feeders summary::-webkit-details-marker { display: none; }
+.gate .feeders[open] { flex-basis: 100%; margin: 2px 0 0 80px; }
+.decides:has(> :only-child) .gate .feeders[open] { margin-left: 0; }
+.gate .feeders[open] summary { font-size: .8rem; }
+.gate .feeders[open] span { font-size: .86rem; }
+.rk-sfx { color: var(--ink-2); font-size: .84rem; margin-left: 2px; }
+.placesrow { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: .9rem; }
+.placesrow .rk-v { font-weight: 700; padding: 2px 9px; border-radius: 4px; }
+.placesrow .rk-v.cap { background: var(--ink); color: var(--surface); }
+.placesrow .rk-v.nocap { background: var(--surface-2); border: 1px solid var(--line); color: var(--ink-2); font-weight: 600; }
+.placesrow .lastyr { color: var(--ink-2); margin-left: 4px; }
+.placesrow .lastyr b { color: var(--ink); }
+/* postcode known: does this priority's area apply to you? */
+.youbanner { margin: -10px -16px 10px; padding: 6px 16px; font-weight: 800; font-size: .9rem; border-radius: var(--radius) var(--radius) 0 0; }
+.stop.crit.for-you .main { border-color: var(--yes); box-shadow: 0 0 0 2px color-mix(in srgb, var(--yes) 35%, transparent); }
+.stop.crit.for-you .youbanner { background: var(--yes); color: #fff; }
+.stop.crit.not-you .main { border-color: var(--no); background: color-mix(in srgb, var(--no) 4%, var(--surface)); }
+.stop.crit.not-you .youbanner { background: color-mix(in srgb, var(--no) 14%, var(--surface)); color: var(--no); }
+.stop.crit.not-you .ctitle, .stop.crit.not-you .cbody { opacity: .6; }
+.you { font-size: .84rem; padding: 2px 10px; }
+.you.yes { background: var(--yes); color: #fff; }
+.you.no { background: var(--no); color: #fff; }
+@media (max-width: 720px) { .youbanner { margin: -8px -12px 8px; padding: 6px 12px; } }
