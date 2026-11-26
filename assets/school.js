@@ -376,17 +376,7 @@
       const mini = G0.lat != null && (ids.length || far) ? `<div class="minimap linked" role="button" tabindex="0" data-areas="${esc(ids.join(","))}" data-last="${far ? far.mi : ""}" aria-label="Open a larger map"><span class="mm-hint" aria-hidden="true">⤢ Enlarge</span></div>` : "";
       return { c, cat, conds, outcome, title: titleFull, acad: acad + mini, noLabel, id: "p-" + String(c.priority).replace(/[^\w-]/g, "_"), special: !!SPECIAL[c.category] };
     });
-    // priorities that share a limited pot of places get a labelled box around them
-    const gmark = {};
-    groups.filter(hasSize).forEach(g => {
-      const idx = (g.priorities || []).map(p => built.findIndex(x => String(x.c.priority) === String(p))).filter(k => k >= 0).sort((x, y2) => x - y2);
-      if (idx.length < 2 || idx[idx.length - 1] - idx[0] !== idx.length - 1) return;  // only when they sit together
-      const label = groupAmount(g).replace(/^./, m => m.toUpperCase()) + " shared by these priorities";
-      idx.forEach((k, n) => { gmark[k] = { first: n === 0, last: n === idx.length - 1, label }; });
-    });
-    const gcls = k => gmark[k] ? ` grp${gmark[k].first ? " grp-first" : ""}${gmark[k].last ? " grp-last" : ""}` : "";
-    const gattr = k => gmark[k] && gmark[k].first ? ` data-grp="${esc(gmark[k].label)}"` : "";
-    const gseg = k => gmark[k] && !gmark[k].last ? " grp" : "";
+    const gcls = () => "", gattr = () => "", gseg = () => "";
     let i = 0;
     while (i < built.length) {
       const b = built[i];
