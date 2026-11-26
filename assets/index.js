@@ -12,7 +12,7 @@
     const p = new URLSearchParams(location.search.length > 1 ? location.search.slice(1) : location.hash.slice(1));
     pcParam = (p.get("pc") || "").trim();
     state.q = p.get("q") || ""; state.type = p.get("ty") || ""; state.gender = p.get("g") || ""; state.town = p.get("t") || "";
-    state.la = p.get("la") || ""; state.within = p.get("w") || ""; state.view = p.get("v") === "map" ? "map" : "list";
+    state.la = p.get("la") || ""; state.within = p.get("w") || ""; state.slOnly = p.get("only") === "sl"; state.shared = (p.get("sl") || "").split(",").filter(Boolean); state.view = p.get("v") === "map" ? "map" : "list";
     if (p.get("s")) { state.sort = p.get("s"); state.dir = p.get("d") === "-1" ? -1 : 1; }
   } catch (e) {}
 
@@ -60,7 +60,7 @@
   function sync() {
     const p = new URLSearchParams();
     if (state.q) p.set("q", state.q); if (state.type) p.set("ty", state.type); if (state.gender) p.set("g", state.gender);
-    if (state.town) p.set("t", state.town); if (state.la) p.set("la", state.la); if (state.within) p.set("w", state.within);
+    if (state.town) p.set("t", state.town); if (state.la) p.set("la", state.la); if (state.within) p.set("w", state.within); if (state.slOnly) p.set("only", "sl"); if (state.shared.length) p.set("sl", state.shared.join(","));
     if (state.view === "map") p.set("v", "map");
     if (state.sortChosen) { p.set("s", state.sort); p.set("d", state.dir); }
     const qs = p.toString();
@@ -78,10 +78,46 @@
       (!state.town || r.town === state.town) &&
       (!state.la || r.local_authority === state.la) &&
       (w == null || (r.miles != null && r.miles <= w)) &&
+      (!state.shared.length || state.shared.includes(r.slug)) &&
+      (!state.slOnly || state.shared.length || GS.shortlist.has(r.slug)) &&
       [...state.cats].every(c => (r.categories || []).includes(c)));
   }
 
+  // ---------- shortlist ----------
+  function renderShortlistUI() {
+    const mine = GS.shortlist.get();
+    const b = $("sl-only");
+    b.innerHTML = `${GS.STAR(state.slOnly)}<span>Shortlist${mine.length ? ` (${mine.length})` : ""}</span>`;
+    b.setAttribute("aria-pressed", String(state.slOnly)); b.classList.toggle("on", state.slOnly);
+    b.disabled = !mine.length && !state.slOnly;
+    b.title = mine.length ? "Show only your shortlisted schools" : "Star schools to build a shortlist";
+    $("sl-share").hidden = !mine.length;
+    const box = $("sl-shared");
+    if (state.shared.length) {
+      box.hidden = false;
+      box.innerHTML = `<b>A shared shortlist of ${state.shared.length} school${state.shared.length === 1 ? "" : "s"}.</b> <button type="button" class="linkbtn" id="sl-save">Add them to my shortlist</button> · <button type="button" class="linkbtn" id="sl-clear-shared">Show all schools</button>`;
+      $("sl-save").onclick = () => { GS.shortlist.set(GS.shortlist.get().concat(state.shared)); state.shared = []; state.slOnly = true; render(); };
+      $("sl-clear-shared").onclick = () => { state.shared = []; render(); };
+    } else box.hidden = true;
+  }
+  document.addEventListener("click", e => {
+    const st = e.target.closest(".star[data-slug]");
+    if (!st) return;
+    e.preventDefault();
+    if (GS.shortlist.toggle(st.dataset.slug)) GS.shortlistTip("");
+    if (state.slOnly && !GS.shortlist.get().length) state.slOnly = false;
+    render();
+  });
+  $("sl-only").addEventListener("click", () => { state.slOnly = !state.slOnly; render(); });
+  window.addEventListener("storage", e => { if (e.key === "gs-shortlist") render(); });
+  $("sl-share").addEventListener("click", async () => {
+    const u = new URL(location.href); u.search = ""; u.hash = ""; u.searchParams.set("sl", GS.shortlist.get().join(","));
+    const url = u.toString();
+    try { await navigator.clipboard.writeText(url); $("sl-share").textContent = "Link copied"; } catch (x) { prompt("Copy this link:", url); }
+    setTimeout(() => { $("sl-share").textContent = "Share shortlist"; }, 1800);
+  });
   function render() {
+    renderShortlistUI();
     const list = filtered();
     const k = state.sort, d = state.dir;
     list.sort((a, b) => {
@@ -91,11 +127,11 @@
       return (typeof x === "string" ? x.localeCompare(y) : x - y) * d || a.name.localeCompare(b.name);
     });
     document.querySelectorAll("th[data-sort]").forEach(th => th.setAttribute("aria-sort", th.dataset.sort === k ? (d === 1 ? "ascending" : "descending") : "none"));
-    $("count").textContent = `${list.length} of ${rows.length} schools${home && state.within ? ` within ${state.within} miles` : ""}`;
+    $("count").textContent = `${list.length} of ${rows.length} schools${home && state.within ? ` within ${state.within} miles` : ""}${state.slOnly || state.shared.length ? " · shortlist" : ""}`;
     $("rows").innerHTML = list.map(r => {
       const chips = home ? `<div class="gchips">${GS.statusChips(r._a, esc)}</div>` : "";
       return `<tr>
-        <td class="name"><a href="schools/${r.slug}.html${home ? "?pc=" + encodeURIComponent(home.postcode).replace(/%20/g, "+") : ""}">${esc(r.name)}</a>${chips}</td>
+        <td class="name"><button type="button" class="star${GS.shortlist.has(r.slug) ? " on" : ""}" data-slug="${r.slug}" aria-pressed="${GS.shortlist.has(r.slug)}" aria-label="Shortlist ${esc(r.name)}">${GS.STAR(GS.shortlist.has(r.slug))}</button><a href="schools/${r.slug}.html${home ? "?pc=" + encodeURIComponent(home.postcode).replace(/%20/g, "+") : ""}">${esc(r.name)}</a>${chips}</td>
         <td class="num dist">${r.miles != null ? r.miles.toFixed(1) + " mi" : ""}</td>
         <td>${esc(r.town)}</td>
         <td><span class="g g-${r.gender}">${GENDER[r.gender]}</span></td>
@@ -203,7 +239,7 @@
       if (!r.geo || r.geo.lat == null) return;
       const el = document.createElement("button"); el.type = "button"; el.className = "mpin"; el.style.background = colour(r); el.setAttribute("aria-label", r.name);
       const pop = new maplibregl.Popup({ offset: 10, maxWidth: "280px" }).setHTML(
-        `<b><a href="schools/${r.slug}.html${pcq()}">${esc(r.name)}</a></b><br>${esc(r.town)} · ${GENDER[r.gender]}${r.miles != null ? ` · ${r.miles.toFixed(1)} mi` : ""}${home ? `<div class="gchips">${GS.statusChips(r._a, esc)}</div>` : ""}`);
+        `<button type="button" class="star${GS.shortlist.has(r.slug) ? " on" : ""}" data-slug="${r.slug}" aria-pressed="${GS.shortlist.has(r.slug)}" aria-label="Shortlist ${esc(r.name)}">${GS.STAR(GS.shortlist.has(r.slug))}</button><b><a href="schools/${r.slug}.html${pcq()}">${esc(r.name)}</a></b><br>${esc(r.town)} · ${GENDER[r.gender]}${r.miles != null ? ` · ${r.miles.toFixed(1)} mi` : ""}${home ? `<div class="gchips">${GS.statusChips(r._a, esc)}</div>` : ""}`);
       const mk = new maplibregl.Marker({ element: el }).setLngLat([r.geo.lng, r.geo.lat]).setPopup(pop).addTo(map);
       el.addEventListener("mouseenter", () => { hovered = r; showAreas(r); showTip(r); });
       el.addEventListener("mouseleave", () => { hovered = null; showAreas(pinned); showTip(pinned); });
@@ -275,7 +311,7 @@
   $("f-la").addEventListener("change", e => { state.la = e.target.value; render(); });
   $("f-within").addEventListener("change", e => { state.within = e.target.value; render(); });
   $("f-reset").addEventListener("click", () => {
-    Object.assign(state, { q: "", type: "", gender: "", town: "", la: "", within: "", sortChosen: false }); state.cats.clear();
+    Object.assign(state, { q: "", type: "", gender: "", town: "", la: "", within: "", slOnly: false, shared: [], sortChosen: false }); state.cats.clear();
     ["f-q", "f-type", "f-gender", "f-town", "f-la", "f-within"].forEach(id => $(id).value = "");
     if (home) { state.sort = "miles"; state.dir = 1; } else { state.sort = "attainment8"; state.dir = -1; }
     render();

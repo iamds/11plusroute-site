@@ -120,10 +120,12 @@
   }
 
   // ---------- flowchart: a transit-map line. Each step is a station; branches leave to the right. ----------
+  const LINK_SVG = '<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M10.6 13.4a1 1 0 0 1 0-1.4l3.4-3.4a1 1 0 1 1 1.4 1.4L12 13.4a1 1 0 0 1-1.4 0Zm-2.8 5.3a3.5 3.5 0 0 1-2.5-6l2.1-2.1a1 1 0 0 1 1.4 1.4l-2.1 2.1a1.5 1.5 0 0 0 2.1 2.1l2.1-2.1a1 1 0 0 1 1.4 1.4l-2.1 2.1a3.5 3.5 0 0 1-2.4 1Zm7.8-5.3a1 1 0 0 1-.7-1.7l2.1-2.1a1.5 1.5 0 0 0-2.1-2.1l-2.1 2.1a1 1 0 0 1-1.4-1.4l2.1-2.1a3.5 3.5 0 0 1 5 5l-2.1 2.1a1 1 0 0 1-.8.2Z"/></svg>';
+  const linkBtn = id => `<button type="button" class="seclink" data-target="${esc(id)}" aria-label="Copy a link to this part of the page" title="Copy link">${LINK_SVG}</button>`;
   function stop(o) {
     return `<li class="stop ${o.cls || ""}${o.branch ? " has-branch" : ""}"${o.id ? ` id="${o.id}"` : ""}>
       <div class="rail"><span class="marker">${o.marker || ""}</span></div>
-      <div class="main">${o.kicker ? `<div class="kicker">${o.kicker}</div>` : ""}${o.title ? `<div class="title">${o.title}</div>` : ""}${o.body || ""}</div>
+      <div class="main">${o.kicker ? `<div class="kicker">${o.kicker}${o.id ? linkBtn(o.id) : ""}</div>` : ""}${o.title ? `<div class="title">${o.title}</div>` : ""}${o.body || ""}</div>
       ${o.branch ? `<div class="branch ${o.branch.cls || ""}"><div class="bcard"><span class="blabel">${o.branch.label}</span>${o.branch.html}</div></div>` : ""}
     </li>`;
   }
@@ -402,6 +404,65 @@
     if (el.dataset.last) feats.push(Object.assign(window.GS.circleGeo(G0.lat, G0.lng, +el.dataset.last), { properties: { k: "last" } }));
     return feats;
   }
+  // ---------- sharing ----------
+  function shareUrl(hash, withPc) {
+    const u = new URL(location.href);
+    u.search = ""; u.hash = hash ? "#" + hash : "";
+    if (withPc && currentHome) u.searchParams.set("pc", currentHome.postcode);
+    return u.toString().replace(/%20/g, "+");
+  }
+  async function copyText(t) {
+    try { await navigator.clipboard.writeText(t); return true; }
+    catch (e) { const ta = document.createElement("textarea"); ta.value = t; document.body.appendChild(ta); ta.select(); let ok = false; try { ok = document.execCommand("copy"); } catch (x) {} ta.remove(); return ok; }
+  }
+  function toast(msg) {
+    let t = document.getElementById("toast");
+    if (!t) { t = document.createElement("div"); t.id = "toast"; t.setAttribute("role", "status"); document.body.appendChild(t); }
+    t.textContent = msg; t.classList.add("show"); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove("show"), 1800);
+  }
+  function initStar() {
+    const b = out.querySelector(".headtools .star");
+    if (!b) return;
+    const paint = () => { const on = window.GS.shortlist.has(s.slug); b.classList.toggle("on", on); b.setAttribute("aria-pressed", String(on)); b.innerHTML = `${window.GS.STAR(on)}${on ? "Shortlisted" : "Shortlist"}`; };
+    b.addEventListener("click", () => {
+      const on = window.GS.shortlist.toggle(s.slug); paint();
+      if (!(on && window.GS.shortlistTip("../"))) toast(on ? "Added to your shortlist" : "Removed from your shortlist");
+    });
+    document.addEventListener("shortlist", paint);
+    paint();
+  }
+  function initShare() {
+    out.addEventListener("click", async e => {
+      const b = e.target.closest(".seclink");
+      if (!b) return;
+      e.preventDefault(); e.stopPropagation();  // don't toggle the fold
+      const url = shareUrl(b.dataset.target, false);
+      history.replaceState(null, "", location.pathname + location.search + "#" + b.dataset.target);
+      toast(await copyText(url) ? "Link copied" : url);
+    });
+    const btn = out.querySelector(".sharewrap .sharebtn"), menu = out.querySelector(".sharemenu");
+    if (!btn) return;
+    const pcBox = menu.querySelector(".share-pc");
+    const title = `${s.name}: how to get a Year 7 place`;
+    const refresh = () => {
+      pcBox.disabled = !currentHome;
+      const url = shareUrl("", pcBox.checked);
+      menu.querySelector(".share-wa").href = "https://wa.me/?text=" + encodeURIComponent(title + " " + url);
+      menu.querySelector(".share-mail").href = "mailto:?subject=" + encodeURIComponent(title) + "&body=" + encodeURIComponent(url);
+    };
+    pcBox.addEventListener("change", refresh);
+    btn.addEventListener("click", async () => {
+      // phones: the system share sheet (postcode left out)
+      if (navigator.share && matchMedia("(pointer: coarse)").matches) {
+        try { await navigator.share({ title, url: shareUrl("", false) }); } catch (x) {}
+        return;
+      }
+      const open = menu.hidden; menu.hidden = !open; btn.setAttribute("aria-expanded", String(open)); refresh();
+    });
+    menu.querySelector(".share-copy").addEventListener("click", async () => { toast(await copyText(shareUrl("", pcBox.checked)) ? "Link copied" : shareUrl("", pcBox.checked)); menu.hidden = true; btn.setAttribute("aria-expanded", "false"); });
+    document.addEventListener("click", e => { if (!e.target.closest(".sharewrap")) { menu.hidden = true; btn.setAttribute("aria-expanded", "false"); } });
+    document.addEventListener("keydown", e => { if (e.key === "Escape" && !menu.hidden) { menu.hidden = true; btn.setAttribute("aria-expanded", "false"); btn.focus(); } });
+  }
   function openBigMap(el) {
     const feats = miniFeatures(el);
     let dlg = document.getElementById("bigmap-dlg");
@@ -563,12 +624,15 @@
     ["Apply to council by", caf ? `<b>${fmtDate(caf.deadline)}</b>` : ""],
     ["Offers", offerDay ? `<b>${fmtDate(offerDay.date)}</b>` : ""],
   ].filter(([, v]) => v);
-  const fold = (id, title, body, open = false) => body && body.replace(/<[^>]+>|\s/g, "") ? `<details class="fold card" id="${id}"${open ? " open" : ""}><summary><h2>${title}</h2></summary><div class="fold-body">${body}</div></details>` : "";
+  const fold = (id, title, body, open = false) => body && body.replace(/<[^>]+>|\s/g, "") ? `<details class="fold card" id="${id}"${open ? " open" : ""}><summary><h2>${title}${linkBtn(id)}</h2></summary><div class="fold-body">${body}</div></details>` : "";
   const tie = (y.tie_breaks || []).length ? `<p><b>Tie-breaks:</b> ${(y.tie_breaks).map(t => esc(t.description || ordering(t))).join(" → ")}</p>` : "";
 
   out.innerHTML = `
     <header class="school-head">
-      <p class="crumbs"><a href="../index.html">All schools</a></p>
+      <div class="headrow"><p class="crumbs"><a href="../index.html">All schools</a></p>
+        <div class="headtools"><button type="button" class="star sharebtn" data-slug="${esc(s.slug)}" aria-pressed="false"></button><div class="sharewrap"><button type="button" class="sharebtn" aria-haspopup="true" aria-expanded="false"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M18 16a3 3 0 0 0-2.4 1.2l-6.7-3.4a3 3 0 0 0 0-1.6l6.7-3.4A3 3 0 1 0 15 7l-6.7 3.4a3 3 0 1 0 0 3.2L15 17a3 3 0 1 0 3-1Z"/></svg>Share</button>
+        <div class="sharemenu" hidden><label class="small"><input type="checkbox" class="share-pc"> Include my postcode</label>
+          <button type="button" class="share-copy">Copy link</button><a class="share-wa" target="_blank" rel="noopener">Send on WhatsApp</a><a class="share-mail">Email</a></div></div></div></div>
       <h1>${esc(s.name)}</h1>
       <p class="facts">
         <span>${esc(s.town)}</span><span class="g g-${s.gender}">${window.GS.GENDER[s.gender]}</span>
@@ -683,6 +747,8 @@
   out.addEventListener("click", e => { const a = e.target.closest("a.ppill, a.pmini"); if (a && a.getAttribute("href") === location.hash) openTarget(); });
   openTarget();
   initMiniMaps();
+  initShare();
+  initStar();
   openTarget.ready = true;  // first jump on page load is instant; later in-page jumps animate
   const areasFold = document.getElementById("areas");
   if (areasFold) { areasFold.addEventListener("toggle", () => { if (areasFold.open) drawAreaMap(); }); if (areasFold.open) drawAreaMap(); }

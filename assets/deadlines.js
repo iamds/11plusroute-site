@@ -5,7 +5,7 @@
   const events = data.events.map(([date, kind, si, event]) => ({ date, kind, s: S[si], event }));
   const $ = id => document.getElementById(id);
   const today = new Date().toISOString().slice(0, 10);
-  const state = { within: "10", q: "", other: false, past: false };
+  const state = { within: "10", q: "", other: false, past: false, sl: false };
   let home = GS.loadHome();
 
   let pcParam = "";
@@ -13,9 +13,12 @@
     const p = new URLSearchParams(location.search);
     pcParam = (p.get("pc") || "").trim();
     if (p.has("w")) state.within = p.get("w");
-    state.q = p.get("q") || ""; state.other = p.get("o") === "1"; state.past = p.get("past") === "1";
+    state.q = p.get("q") || ""; state.other = p.get("o") === "1"; state.past = p.get("past") === "1"; state.sl = p.get("sl") === "1";
   } catch (e) {}
   $("dl-within").value = state.within; $("dl-q").value = state.q; $("dl-other").checked = state.other; $("dl-past").checked = state.past;
+  const slCount = () => GS.shortlist.get().length;
+  $("dl-sl").checked = state.sl && slCount() > 0; $("dl-sl").disabled = !slCount();
+  $("dl-sl-n").textContent = slCount() ? `(${slCount()})` : "(star schools to build one)";
 
   function sync() {
     const p = new URLSearchParams();
@@ -23,6 +26,7 @@
     if (state.q) p.set("q", state.q);
     if (state.other) p.set("o", "1");
     if (state.past) p.set("past", "1");
+    if (state.sl) p.set("sl", "1");
     const qs = p.toString().replace(/%20/g, "+");
     history.replaceState(null, "", location.pathname + (qs ? "?" + qs : ""));
   }
@@ -38,7 +42,8 @@
     S.forEach(s => { s._mi = home && s.lat != null ? GS.miles(home, s) : null; });
     shown = events.filter(x =>
       (state.past || x.date >= today) && (state.other || x.kind !== "other") &&
-      (!home || !state.within || (x.s._mi != null && x.s._mi <= +state.within)) &&
+      (!state.sl || GS.shortlist.has(x.s.slug)) &&
+      (state.sl || !home || !state.within || (x.s._mi != null && x.s._mi <= +state.within)) &&
       (!q || [x.s.name, x.s.town, x.s.test, x.event].some(t => t && t.toLowerCase().includes(q))));
     const schoolsN = new Set(shown.map(x => x.s.slug)).size;
     $("dl-count").textContent = `${shown.length} dates for ${schoolsN} school${schoolsN === 1 ? "" : "s"}`;
@@ -74,6 +79,7 @@
   $("dl-q").addEventListener("input", () => { state.q = $("dl-q").value.trim(); render(); });
   $("dl-other").addEventListener("change", () => { state.other = $("dl-other").checked; render(); });
   $("dl-past").addEventListener("change", () => { state.past = $("dl-past").checked; render(); });
+  $("dl-sl").addEventListener("change", () => { state.sl = $("dl-sl").checked; render(); });
 
   // Calendar file for whatever is listed
   $("dl-ics").addEventListener("click", () => {

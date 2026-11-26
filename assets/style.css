@@ -483,3 +483,41 @@ li.special .kicker { color: var(--c); }
 .bigmap-close { font: inherit; font-size: 1.6rem; line-height: 1; background: none; border: 0; color: var(--ink-2); cursor: pointer; padding: 0 4px; }
 .bigmap { height: min(70vh, 640px); }
 .bigmap-note { margin: 8px 14px 12px; }
+
+/* Share */
+.headrow { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.headrow .crumbs { margin: 0; }
+.sharewrap { position: relative; }
+.sharebtn { font: inherit; font-size: .9rem; font-weight: 700; display: inline-flex; align-items: center; gap: 6px; padding: 7px 12px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); color: var(--ink); cursor: pointer; }
+.sharebtn:hover { background: var(--surface-2); }
+.sharemenu { position: absolute; right: 0; top: calc(100% + 6px); z-index: 20; min-width: 220px; display: flex; flex-direction: column; gap: 2px; padding: 8px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); box-shadow: 0 6px 24px rgba(0,0,0,.25); }
+.sharemenu[hidden] { display: none; }
+.sharemenu label { display: flex; gap: 6px; align-items: center; padding: 4px 6px 8px; border-bottom: 1px solid var(--line); margin-bottom: 4px; color: var(--ink-2); }
+.sharemenu button, .sharemenu a { font: inherit; text-align: left; padding: 7px 8px; border: 0; border-radius: 5px; background: none; color: var(--ink); text-decoration: none; cursor: pointer; }
+.sharemenu button:hover, .sharemenu a:hover { background: var(--surface-2); }
+.seclink { display: inline-grid; place-items: center; width: 24px; height: 24px; margin-left: 6px; padding: 0; border: 0; border-radius: 5px; background: none; color: var(--ink-2); cursor: pointer; opacity: 0; vertical-align: middle; transition: opacity .15s; }
+summary:hover .seclink, .stop:hover .seclink, .seclink:focus-visible { opacity: 1; }
+.seclink:hover { background: var(--surface-2); color: var(--link); }
+@media (hover: none) { .seclink { opacity: .55; } }
+.kicker .seclink { width: 20px; height: 20px; margin-left: 4px; }
+#toast { position: fixed; left: 50%; bottom: 24px; transform: translate(-50%, 20px); z-index: 50; padding: 9px 16px; border-radius: 8px; background: var(--ink); color: var(--bg); font-weight: 600; font-size: .9rem; opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s; max-width: 90vw; overflow-wrap: anywhere; }
+#toast.show { opacity: 1; transform: translate(-50%, 0); }
+
+/* Shortlist */
+.star { display: inline-grid; place-items: center; width: 28px; height: 28px; margin: -4px 4px -4px -4px; padding: 0; border: 0; border-radius: 6px; background: none; color: var(--ink-2); cursor: pointer; vertical-align: middle; }
+.star:hover { background: var(--surface-2); color: var(--gold); }
+.star.on { color: var(--gold); }
+.headtools { display: flex; gap: 8px; align-items: center; }
+.headtools .star { width: auto; height: auto; margin: 0; padding: 7px 12px; gap: 6px; display: inline-flex; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font-weight: 700; }
+.headtools .star.on svg { color: var(--gold); }
+.listtools { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.slbtn { font: inherit; font-size: .88rem; font-weight: 700; display: inline-flex; align-items: center; gap: 6px; padding: 6px 11px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); color: var(--ink); cursor: pointer; }
+.slbtn.on { border-color: var(--gold); box-shadow: inset 0 0 0 1px var(--gold); }
+.slbtn.on svg { color: var(--gold); }
+.slbtn:disabled { opacity: .55; cursor: default; }
+.sl-shared { padding: 12px 16px; margin-bottom: 10px; border-left: 4px solid var(--gold); }
+.maplibregl-popup-content .star { margin: -4px 2px 0 -6px; width: 24px; height: 24px; }
+.sltip { position: fixed; right: 16px; bottom: 16px; z-index: 60; width: min(380px, calc(100vw - 32px)); padding: 16px 18px; border: 1px solid var(--line); border-left: 4px solid var(--gold); border-radius: 10px; background: var(--surface); color: var(--ink); box-shadow: 0 10px 30px rgba(0,0,0,.35); }
+.sltip p { margin: 6px 0; }
+.sltip ul { margin: 6px 0 12px; padding-left: 1.2em; }
+.sltip li { margin: 4px 0; }
