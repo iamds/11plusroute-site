@@ -202,6 +202,28 @@ window.GS = (function () {
     const o = "https://outlook.live.com/calendar/0/addfromweb?url=" + encodeURIComponent(icsUrl) + "&name=" + encodeURIComponent(name);
     return `<span class="calbtns"><a class="calbtn" href="${esc(g)}" target="_blank" rel="noopener">Google Calendar</a><a class="calbtn" href="${esc(webcal)}">Apple / iPhone</a><a class="calbtn" href="${esc(o)}" target="_blank" rel="noopener">Outlook</a><a class="calbtn ghost" href="${esc(downloadHref || icsUrl)}" download>Download (.ics)</a></span>`;
   }
+  // One "Add to calendar" button that opens a small menu of options
+  const CAL_SVG = '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M7 2v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2V2h-2v2H9V2H7Zm12 8H5v10h14V10ZM5 8h14V6H5v2Zm2 4h4v4H7v-4Z"/></svg>';
+  function calMenu(itemsHtml, label) {
+    return `<div class="calwrap"><button type="button" class="sharebtn calmain" aria-haspopup="true" aria-expanded="false">${CAL_SVG}${label || "Add to calendar"}</button><div class="calmenu" hidden>${itemsHtml}</div></div>`;
+  }
+  function calItems(icsUrl, name, downloadHref) {
+    if (!icsUrl) return "";
+    const webcal = icsUrl.replace(/^https?:/, "webcal:");
+    const g = "https://calendar.google.com/calendar/render?cid=" + encodeURIComponent(webcal);
+    const o = "https://outlook.live.com/calendar/0/addfromweb?url=" + encodeURIComponent(icsUrl) + "&name=" + encodeURIComponent(name);
+    return `<a href="${esc(g)}" target="_blank" rel="noopener">Google Calendar</a><a href="${esc(webcal)}">Apple Calendar / iPhone</a><a href="${esc(o)}" target="_blank" rel="noopener">Outlook</a><a href="${esc(downloadHref || icsUrl)}" download>Download (.ics)</a><p class="small muted">Google, Apple and Outlook stay up to date if dates change.</p>`;
+  }
+  document.addEventListener("click", e => {
+    const b = e.target.closest && e.target.closest(".calmain");
+    document.querySelectorAll(".calwrap").forEach(w => {
+      const m = w.querySelector(".calmenu"), btn = w.querySelector(".calmain");
+      const open = b && w.contains(b) ? m.hidden : false;
+      if (!(b && w.contains(b)) && w.contains(e.target)) return;  // clicks inside an open menu
+      m.hidden = !open; btn.setAttribute("aria-expanded", String(open));
+    });
+  });
+  document.addEventListener("keydown", e => { if (e.key === "Escape") document.querySelectorAll(".calmenu").forEach(m => { m.hidden = true; }); });
   function loadHome() { try { return JSON.parse(localStorage.getItem(HOME_KEY) || "null"); } catch (e) { return null; } }
   function saveHome(h) { try { h ? localStorage.setItem(HOME_KEY, JSON.stringify(h)) : localStorage.removeItem(HOME_KEY); } catch (e) {} }
   function miles(a, b) {
@@ -246,5 +268,5 @@ window.GS = (function () {
     if (r.score_based) out.push(`<span class="gchip neutral">Places go by test score</span>`);
     return out.join("");
   }
-  return { CATEGORIES, SUBJECTS, GENDER, esc, fmtDate, catBadge, lookupPostcode, addLocateButton, loadMapLib, mapStyle, isDark, circleGeo, homeMarkerEl, onStyle, loadHome, saveHome, miles, assess, statusChips, shortlist, shortlistTip, STAR, glossarize, calButtons };
+  return { CATEGORIES, SUBJECTS, GENDER, esc, fmtDate, catBadge, lookupPostcode, addLocateButton, loadMapLib, mapStyle, isDark, circleGeo, homeMarkerEl, onStyle, loadHome, saveHome, miles, assess, statusChips, shortlist, shortlistTip, STAR, glossarize, calButtons, calMenu, calItems };
 })();

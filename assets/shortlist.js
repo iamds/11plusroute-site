@@ -35,7 +35,7 @@
     if (shared.length) $("sl-save").onclick = () => { GS.shortlist.set(GS.shortlist.get().concat(shared)); location.replace("shortlist.html"); };
 
     $("sl-count").textContent = items.length ? `${items.length} school${items.length === 1 ? "" : "s"}${home ? ` · distances from ${home.postcode}` : ""}` : "";
-    $("sl-ics").hidden = $("sl-share").hidden = !items.length;
+    $("sl-cal").hidden = $("sl-share").hidden = !items.length;
     $("sl-share").textContent = "Share shortlist";
 
     if (!items.length) {

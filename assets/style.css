@@ -606,3 +606,15 @@ dl.glossary dd { margin: 4px 0 0; color: var(--ink-2); }
 .calbtn.ghost { color: var(--ink-2); font-weight: 600; }
 .sublist li { display: block; }
 @media print { .calsub, .calbtns { display: none !important; } }
+.calwrap { position: relative; display: inline-block; }
+.calwrap[hidden] { display: none; }
+.calmain { display: inline-flex; align-items: center; gap: 6px; }
+.calmenu { position: absolute; right: 0; top: calc(100% + 6px); z-index: 25; min-width: 240px; display: flex; flex-direction: column; gap: 2px; padding: 8px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); box-shadow: 0 6px 24px rgba(0,0,0,.25); text-align: left; }
+.calmenu[hidden] { display: none; }
+.calmenu a, .calmenu button { font: inherit; font-weight: 600; text-align: left; padding: 7px 8px; border: 0; border-radius: 5px; background: none; color: var(--ink); text-decoration: none; cursor: pointer; }
+.calmenu a:hover, .calmenu button:hover { background: var(--surface-2); }
+.calmenu p { margin: 0 8px 6px; }
+.calsub { margin-top: 12px; display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.calsub .calmenu { left: 0; right: auto; }
+@media (max-width: 640px) { .headtools { flex-wrap: wrap; justify-content: flex-end; } .headrow { align-items: flex-start; } }
+@media print { .calwrap { display: none !important; } }
