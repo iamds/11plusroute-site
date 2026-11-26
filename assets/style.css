@@ -767,3 +767,5 @@ footer { background: var(--surface); border: 1px solid var(--line); border-top: 
 .youbanner { position: absolute; top: 0; left: 0; right: 0; margin: 0; padding: 7px 16px; }
 @media (max-width: 720px) { .youbanner { margin: 0; padding: 7px 12px; } .stop.crit .main:has(> .youbanner) { padding-top: 52px; } }
 .stop.crit.for-you .cbody.hasmap .minimap, .stop.crit.not-you .cbody.hasmap .minimap { top: 48px; }
+/* the banner says it: no inline tick/cross beside the area name as well */
+.stop.crit.for-you .you, .stop.crit.not-you .you { display: none; }
