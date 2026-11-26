@@ -190,7 +190,7 @@
   const LINK_SVG = '<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M10.6 13.4a1 1 0 0 1 0-1.4l3.4-3.4a1 1 0 1 1 1.4 1.4L12 13.4a1 1 0 0 1-1.4 0Zm-2.8 5.3a3.5 3.5 0 0 1-2.5-6l2.1-2.1a1 1 0 0 1 1.4 1.4l-2.1 2.1a1.5 1.5 0 0 0 2.1 2.1l2.1-2.1a1 1 0 0 1 1.4 1.4l-2.1 2.1a3.5 3.5 0 0 1-2.4 1Zm7.8-5.3a1 1 0 0 1-.7-1.7l2.1-2.1a1.5 1.5 0 0 0-2.1-2.1l-2.1 2.1a1 1 0 0 1-1.4-1.4l2.1-2.1a3.5 3.5 0 0 1 5 5l-2.1 2.1a1 1 0 0 1-.8.2Z"/></svg>';
   const linkBtn = id => `<button type="button" class="seclink" data-target="${esc(id)}" aria-label="Copy a link to this part of the page" title="Copy link">${LINK_SVG}</button>`;
   function stop(o) {
-    return `<li class="stop ${o.cls || ""}${o.branch ? " has-branch" : ""}"${o.id ? ` id="${o.id}"` : ""}>
+    return `<li class="stop ${o.cls || ""}${o.branch ? " has-branch" : ""}"${o.id ? ` id="${o.id}"` : ""}${o.attrs || ""}>
       <div class="rail"><span class="marker">${o.marker || ""}</span></div>
       <div class="main">${o.kicker ? `<div class="kicker">${o.kicker}${o.id ? linkBtn(o.id) : ""}</div>` : ""}${o.title ? `<div class="title">${o.title}</div>` : ""}${o.body || ""}</div>
       ${o.branch ? `<div class="branch ${o.branch.cls || ""}"><div class="bcard"><span class="blabel">${o.branch.label}</span>${o.branch.html}</div></div>` : ""}
@@ -304,8 +304,7 @@
     }
     if (q && q.type === "other") h += stop({ id: "pass-mark", cls: "decision passmark", kicker: "Pass mark", title: "Reach the qualifying standard?", body: `<div class="desc">${rule(q)}</div>` });
     else if (q && q.type !== "none") {
-      h += stop({ id: "pass-mark", cls: "decision passmark", kicker: "Pass mark", title: rule(q), branch: { label: "No", cls: "exit", html: `<div class="title">Not eligible for a place</div>` } });
-      h += seg(`<span class="go">Qualifies</span>`, "yes");
+      h += stop({ id: "pass-mark", cls: "decision passmark", kicker: "Pass mark", title: rule(q) });
     }
     return h;
   }
@@ -330,6 +329,7 @@
     let h = reordered ? `<li class="seg"><div class="rail"></div><div class="seglabel muted small">Shown in the order places are given out, which differs from the school's numbering.</div></li>` : "";
     const hasSize = g => g.places != null || g.max_places != null || g.min_places != null || g.percent != null;
     const SPECIAL = { looked_after: "looked-after children", disadvantaged: "Pupil Premium or free school meals", medical_social: "medical or social need", staff: "staff children" };
+    const together = g => { const idx = (g.priorities || []).map(p => crit.findIndex(x => String(x.priority) === String(p))).filter(k => k >= 0).sort((x, y2) => x - y2); return idx.length >= 2 && idx[idx.length - 1] - idx[0] === idx.length - 1; };
     const lastDistIdx = (() => { let k = -1; crit.forEach((c, i) => { if (byDistance(c)) k = i; }); return k; })();
     const built = crit.map((c, i) => {
       const cat = CATEGORIES[c.category] || CATEGORIES.other;
@@ -340,7 +340,7 @@
       const outcome = `<div class="title">${esc(c.label)}</div>
         ${usesAddress(c) ? addressLine() : ""}
         ${c.quota && quotaSize(c.quota) ? `<div class="quota">${esc(quotaSize(c.quota))}</div>` : ""}
-        ${groupOf(c.priority).filter(hasSize).map(g => { const others = (g.priorities || []).map(String).filter(x => x !== String(c.priority)); return others.length ? `<div class="quota">Shares ${esc(groupAmount(g))} with ${others.map(x => esc(shortLabel(critByP()[x]?.label || x))).join(" and ")}</div>` : ""; }).join("")}
+        ${groupOf(c.priority).filter(hasSize).filter(g => !together(g)).map(g => { const others = (g.priorities || []).map(String).filter(x => x !== String(c.priority)); return others.length ? `<div class="quota">Shares ${esc(groupAmount(g))} with ${others.map(x => esc(shortLabel(critByP()[x]?.label || x))).join(" and ")}</div>` : ""; }).join("")}
         ${al && al.offers != null ? `<div class="alloc"><b>${al.offers}</b> got a place this way in ${esc(latestAlloc.entry_year)}${al.last_distance_miles != null ? ` · furthest ${al.last_distance_miles} mi` : ""}${al.last_score != null ? ` · lowest score ${al.last_score}` : ""}</div>` : ""}
         ${(() => { if (al && al.last_distance_miles != null) return ""; const f = furthestFor(c, i === lastDistIdx); return f ? `<div class="alloc">Furthest offer in ${esc(String(f.year).slice(0, 4))}: <b>${f.mi} mi</b></div>` : ""; })()}
         ${more(`${c.quota ? quota(c.quota).replace(/^<div class="quota">.*?<\/div>/, "") : ""}
@@ -372,21 +372,32 @@
       const mini = G0.lat != null && (ids.length || far) ? `<div class="minimap linked" role="button" tabindex="0" data-areas="${esc(ids.join(","))}" data-last="${far ? far.mi : ""}" aria-label="Open a larger map"><span class="mm-hint" aria-hidden="true">⤢ Enlarge</span></div>` : "";
       return { c, cat, conds, outcome, title: titleFull, acad: acad + mini, noLabel, id: "p-" + String(c.priority).replace(/[^\w-]/g, "_"), special: !!SPECIAL[c.category] };
     });
+    // priorities that share a limited pot of places get a labelled box around them
+    const gmark = {};
+    groups.filter(hasSize).forEach(g => {
+      const idx = (g.priorities || []).map(p => built.findIndex(x => String(x.c.priority) === String(p))).filter(k => k >= 0).sort((x, y2) => x - y2);
+      if (idx.length < 2 || idx[idx.length - 1] - idx[0] !== idx.length - 1) return;  // only when they sit together
+      const label = groupAmount(g).replace(/^./, m => m.toUpperCase()) + " shared by these priorities";
+      idx.forEach((k, n) => { gmark[k] = { first: n === 0, last: n === idx.length - 1, label }; });
+    });
+    const gcls = k => gmark[k] ? ` grp${gmark[k].first ? " grp-first" : ""}${gmark[k].last ? " grp-last" : ""}` : "";
+    const gattr = k => gmark[k] && gmark[k].first ? ` data-grp="${esc(gmark[k].label)}"` : "";
+    const gseg = k => gmark[k] && !gmark[k].last ? " grp" : "";
     let i = 0;
     while (i < built.length) {
       const b = built[i];
       if (b.special) {
-        h += stop({ id: b.id, cls: `crit special ${b.cat.cls}`, marker: esc(markText(b.c.priority)),
+        h += stop({ id: b.id, cls: `crit special ${b.cat.cls}${gcls(i)}`, attrs: gattr(i), marker: esc(markText(b.c.priority)),
           kicker: esc(b.cat.label) + (String(b.c.priority).length > 5 ? ` · <span class="plabel">${esc(b.c.priority)}</span>` : ""),
           title: `<span class="sg-short">${esc(b.c.label)} <button type="button" class="sg-toggle" aria-expanded="false">Show</button></span><span class="sg-full">${b.title}</span>`,
           body: `<div class="sg-full">${b.acad}<button type="button" class="sg-toggle sg-hide" aria-expanded="true">Hide</button></div>`,
           branch: { label: b.conds.length ? "Yes" : "In order", cls: "in", html: b.outcome } });
-        if (i < built.length - 1) h += seg("", "no");
+        if (i < built.length - 1) h += seg("", "no" + gseg(i));
         i++; continue;
       }
-      h += stop({ id: b.id, cls: `crit ${b.cat.cls}`, marker: esc(markText(b.c.priority)), kicker: esc(b.cat.label) + aptSubject(b.c) + (String(b.c.priority).length > 5 ? ` · <span class="plabel">${esc(b.c.priority)}</span>` : ""),
+      h += stop({ id: b.id, cls: `crit ${b.cat.cls}${gcls(i)}`, attrs: gattr(i), marker: esc(markText(b.c.priority)), kicker: esc(b.cat.label) + aptSubject(b.c) + (String(b.c.priority).length > 5 ? ` · <span class="plabel">${esc(b.c.priority)}</span>` : ""),
         title: b.title, body: b.acad, branch: { label: b.conds.length ? "Yes" : "In order", cls: "in", html: b.outcome } });
-      if (i < built.length - 1) h += seg("", "no");
+      if (i < built.length - 1) h += seg("", "no" + gseg(i));
       i++;
     }
     h += stop({ id: "no-place", cls: "end", kicker: "End of the line", title: "No place offered", body: `<div class="desc">You can join the waiting list or appeal. See <a href="#waiting">Waiting list and late applications</a> below.</div>` });
