@@ -30,7 +30,7 @@ window.GS = (function () {
     if (!m) return esc(d);
     const dt = new Date(+m[1], +m[2] - 1, +m[3]);
     let s = dt.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
-    if (m[4]) s += ", " + m[4];
+    if (m[4] && m[4] !== "23:59") s += ", " + m[4];  // midnight deadlines don't need the time
     return s;
   }
   function catBadge(cat, text) {

@@ -552,3 +552,6 @@ html { scrollbar-gutter: stable; }
 .sharebox p { margin: 0 0 8px; }
 .sharebox-row { display: flex; gap: 8px; }
 .sharebox-row input { flex: 1; min-width: 0; font: inherit; font-size: .85rem; padding: 7px 9px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface-2); color: var(--ink); }
+.keybar .of { font-weight: 400; color: var(--ink-2); font-size: .9em; }
+.keybar .selparts { display: grid; grid-template-columns: auto auto; justify-content: start; column-gap: 12px; row-gap: 1px; margin-top: 5px; font-size: .78rem; color: var(--ink-2); font-weight: 500; }
+.keybar .selparts span:nth-child(even) { font-variant-numeric: tabular-nums; text-align: right; color: var(--ink); font-weight: 700; }

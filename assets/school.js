@@ -634,7 +634,9 @@
     if (!parts.length) return "";
     parts.sort((a, b) => (b.kind === "test") - (a.kind === "test"));
     const showTotal = !y.pan || total <= y.pan;
-    return `${showTotal ? `<b>${total}${unknown ? "+" : ""}</b>${y.pan ? ` of ${y.pan}` : ""}` : ""}<small>${parts.map(p => `${p.n} ${esc(p.kind)}`).join(" · ")}${unknown ? " · more by test" : ""}</small>`;
+    const cap = t => t.charAt(0).toUpperCase() + t.slice(1);
+    return `${showTotal ? `<b>${total}${unknown ? "+" : ""}</b><span class="of"> of ${y.pan || "?"}</span>` : ""}
+      <span class="selparts">${parts.map(p => `<span>${esc(cap(p.kind))}</span><span>${p.n}</span>`).join("")}${unknown ? `<span>More by test</span><span>?</span>` : ""}</span>`;
   })();
   const facts = [
     ["Year 7 places", y.pan ? `<b>${y.pan}</b>` : ""],
