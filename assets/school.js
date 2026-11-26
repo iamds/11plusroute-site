@@ -321,12 +321,12 @@
           title: `<span class="sg-short">${esc(b.c.label)} <button type="button" class="sg-toggle" aria-expanded="false">Show</button></span><span class="sg-full">${b.title}</span>`,
           body: `<div class="sg-full">${b.acad}<button type="button" class="sg-toggle sg-hide" aria-expanded="true">Hide</button></div>`,
           branch: { label: b.conds.length ? "Yes" : "In order", cls: "in", html: b.outcome } });
-        if (i < built.length - 1) h += seg(built[i + 1].special ? "" : (b.noLabel || ""), "no");
+        if (i < built.length - 1) h += seg("", "no");
         i++; continue;
       }
       h += stop({ id: b.id, cls: `crit ${b.cat.cls}`, marker: esc(markText(b.c.priority)), kicker: esc(b.cat.label) + aptSubject(b.c) + (String(b.c.priority).length > 5 ? ` · <span class="plabel">${esc(b.c.priority)}</span>` : ""),
         title: b.title, body: b.acad, branch: { label: b.conds.length ? "Yes" : "In order", cls: "in", html: b.outcome } });
-      if (i < built.length - 1) h += seg(b.noLabel, "no");
+      if (i < built.length - 1) h += seg("", "no");
       i++;
     }
     h += stop({ id: "no-place", cls: "end", kicker: "End of the line", title: "No place offered", body: `<div class="desc">You can join the waiting list or appeal. See <a href="#waiting">Waiting list and late applications</a> below.</div>` });
