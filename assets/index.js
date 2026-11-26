@@ -122,7 +122,12 @@
   // Hover (or tap) a school to see its priority areas: circles from the index data, other shapes from assets/areas.json
   let areaShapes = null, areaShapesLoading = null, pinned = null;
   function loadAreaShapes() {
-    if (!areaShapesLoading) areaShapesLoading = fetch("assets/areas.json").then(r => r.ok ? r.json() : {}).catch(() => ({})).then(d => (areaShapes = d));
+    // a script tag (not fetch) so it also works when the site is opened from local files
+    if (!areaShapesLoading) areaShapesLoading = new Promise(res => {
+      const js = document.createElement("script"); js.src = "assets/areas.js";
+      js.onload = () => res(areaShapes = window.AREA_SHAPES || {}); js.onerror = () => res(areaShapes = {});
+      document.head.appendChild(js);
+    });
     return areaShapesLoading;
   }
   const areaColour = r => isDark()
@@ -136,7 +141,8 @@
       x.radius != null && x.centred_on_school ? circleGeo(r.geo.lat, r.geo.lng, x.radius)
       : shapes[x.id] ? { type: "Feature", geometry: shapes[x.id] } : null).filter(Boolean);
     // no priority area at all (places go purely by score, e.g. QE Barnet): show a 100-mile circle
-    if (!(r.geo.areas || []).length) feats.push(circleGeo(r.geo.lat, r.geo.lng, 100));
+    // no priority area at all, or "anywhere in the UK": show a 100-mile circle
+    if (!(r.geo.areas || []).length || (r.geo.areas || []).some(x => /anywhere/i.test(x.name || ""))) feats.push(circleGeo(r.geo.lat, r.geo.lng, 100));
     feats.forEach(f => f.properties = { c: areaColour(r) });
     return { type: "FeatureCollection", features: feats };
   }
@@ -146,7 +152,7 @@
     src.setData(schoolAreas(r));
     if (r && !areaShapes) loadAreaShapes().then(() => { if ((pinned || hovered) === r) src.setData(schoolAreas(r)); });
   }
-  let hovered = null;
+  let hovered = null, hoverTip = null;
   async function drawMap(list) {
     loadAreaShapes();
     try { await loadMapLib(); } catch (e) { $("map").innerHTML = '<p class="empty">The map couldn\'t load. Check your connection.</p>'; return; }
@@ -156,6 +162,7 @@
       map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-left");
     }
     markers.forEach(m => m.remove()); markers = [];
+    if (!hoverTip) hoverTip = new maplibregl.Popup({ closeButton: false, closeOnClick: false, offset: 12, className: "hovertip" });
     const bounds = new maplibregl.LngLatBounds();
     list.forEach(r => {
       if (!r.geo || r.geo.lat == null) return;
@@ -163,11 +170,11 @@
       const pop = new maplibregl.Popup({ offset: 10, maxWidth: "280px" }).setHTML(
         `<b><a href="schools/${r.slug}.html${pcq()}">${esc(r.name)}</a></b><br>${esc(r.town)} · ${GENDER[r.gender]}${r.miles != null ? ` · ${r.miles.toFixed(1)} mi` : ""}${home ? `<div class="gchips">${GS.statusChips(r._a, esc)}</div>` : ""}`);
       const mk = new maplibregl.Marker({ element: el }).setLngLat([r.geo.lng, r.geo.lat]).setPopup(pop).addTo(map);
-      el.addEventListener("mouseenter", () => { hovered = r; showAreas(r); });
-      el.addEventListener("mouseleave", () => { hovered = null; showAreas(pinned); });
+      el.addEventListener("mouseenter", () => { hovered = r; showAreas(r); if (!pop.isOpen()) hoverTip.setLngLat([r.geo.lng, r.geo.lat]).setHTML(`<b>${esc(r.name)}</b>${r.miles != null ? ` · ${r.miles.toFixed(1)} mi` : ""}`).addTo(map); });
+      el.addEventListener("mouseleave", () => { hovered = null; showAreas(pinned); hoverTip.remove(); });
       el.addEventListener("focus", () => { hovered = r; showAreas(r); });
       el.addEventListener("blur", () => { hovered = null; showAreas(pinned); });
-      pop.on("open", () => { pinned = r; showAreas(r); });
+      pop.on("open", () => { pinned = r; showAreas(r); hoverTip.remove(); });
       pop.on("close", () => { if (pinned === r) { pinned = null; showAreas(hovered); } });
       mk.getElement().setAttribute("aria-label", r.name + (r.miles != null ? `, ${r.miles.toFixed(1)} miles` : ""));
       markers.push(mk);

@@ -459,3 +459,5 @@ li.special .kicker { color: var(--c); }
 .maplegend .ring { display: inline-block; width: 12px; height: 12px; border-radius: 50%; border: 1.5px solid var(--ink-2); margin: 0 2px 0 8px; vertical-align: -1px; }
 .area.flash { animation: flash 1.8s ease-out; border-radius: 6px; }
 @keyframes flash { 0%, 30% { background: color-mix(in srgb, var(--gold) 22%, transparent); } 100% { background: transparent; } }
+.hovertip .maplibregl-popup-content { padding: 6px 10px; font-size: .85rem; pointer-events: none; }
+.hovertip { pointer-events: none; }
