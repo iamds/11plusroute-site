@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Tunbridge Wells Grammar School for Boys admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:tunbridge-wells-grammar-school-for-boys-2026-06-01-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:tunbridge-wells-grammar-school-for-boys-b79cf3a6e93a@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 SUMMARY:Tunbridge Wells Grammar School for Boys: Kent Test registration ope
@@ -15,8 +17,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/tunbridge-wells-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tunbridge-wells-grammar-school-for-boys-2026-07-01-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:tunbridge-wells-grammar-school-for-boys-1978a76e5ab4@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Tunbridge Wells Grammar School for Boys: Kent Test registration clo
@@ -26,8 +28,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/tunbridge-wells-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tunbridge-wells-grammar-school-for-boys-2026-07-21-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:tunbridge-wells-grammar-school-for-boys-c9b37a50800a@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260721
 DTEND;VALUE=DATE:20260722
 SUMMARY:Tunbridge Wells Grammar School for Boys: Last date for late paper K
@@ -37,8 +39,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/tunbridge-wells-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tunbridge-wells-grammar-school-for-boys-2026-09-01-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:tunbridge-wells-grammar-school-for-boys-916601f3d6b1@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Tunbridge Wells Grammar School for Boys: Secondary applications (SC
@@ -48,8 +50,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/tunbridge-wells-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tunbridge-wells-grammar-school-for-boys-2026-09-10-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:tunbridge-wells-grammar-school-for-boys-e1bf20e67730@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Tunbridge Wells Grammar School for Boys: Kent Test for pupils at Ke
@@ -59,8 +61,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/tunbridge-wells-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tunbridge-wells-grammar-school-for-boys-2026-09-12-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:tunbridge-wells-grammar-school-for-boys-214ea77b6458@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Tunbridge Wells Grammar School for Boys: Kent Test for pupils not a
@@ -70,8 +72,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/tunbridge-wells-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tunbridge-wells-grammar-school-for-boys-2026-10-15-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:tunbridge-wells-grammar-school-for-boys-aacd1954213a@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Tunbridge Wells Grammar School for Boys: Kent Test assessment decis
@@ -81,8 +83,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/tunbridge-wells-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tunbridge-wells-grammar-school-for-boys-2026-10-31-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:tunbridge-wells-grammar-school-for-boys-37a416b0cc00@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Tunbridge Wells Grammar School for Boys: Deadline: Supplementary Fo
@@ -92,8 +94,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/tunbridge-wells-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tunbridge-wells-grammar-school-for-boys-2026-11-02-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:tunbridge-wells-grammar-school-for-boys-07816bb3da62@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:Tunbridge Wells Grammar School for Boys: SCAF closing date (midnigh
@@ -103,8 +105,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/tunbridge-wells-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tunbridge-wells-grammar-school-for-boys-2026-12-07-9@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:tunbridge-wells-grammar-school-for-boys-f4860472d594@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Tunbridge Wells Grammar School for Boys: Last date for on-time chan
@@ -114,8 +116,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/tunbridge-wells-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tunbridge-wells-grammar-school-for-boys-2026-12-31-10@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:tunbridge-wells-grammar-school-for-boys-3a5bc5ba9f93@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Tunbridge Wells Grammar School for Boys: Last date for KCC's late t
@@ -125,8 +127,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/tunbridge-wells-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tunbridge-wells-grammar-school-for-boys-2027-03-01-11@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:tunbridge-wells-grammar-school-for-boys-e66f0502bb93@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Tunbridge Wells Grammar School for Boys: National Offer Day (emails
@@ -136,8 +138,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/tunbridge-wells-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tunbridge-wells-grammar-school-for-boys-2027-03-08-12@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:tunbridge-wells-grammar-school-for-boys-7e45a7a3f21d@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270308
 DTEND;VALUE=DATE:20270309
 SUMMARY:Tunbridge Wells Grammar School for Boys: TWGSB emails campus alloca
@@ -147,8 +149,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/tunbridge-wells-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tunbridge-wells-grammar-school-for-boys-2027-03-15-13@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:tunbridge-wells-grammar-school-for-boys-b1479449bddb@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Tunbridge Wells Grammar School for Boys: Accept or decline the offe
@@ -159,8 +161,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/tunbridge-wells-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tunbridge-wells-grammar-school-for-boys-2027-04-13-14@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:tunbridge-wells-grammar-school-for-boys-f671c2264afb@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Tunbridge Wells Grammar School for Boys: Deadline for lodging appea
@@ -170,8 +172,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/tunbridge-wells-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tunbridge-wells-grammar-school-for-boys-2027-04-27-15@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:tunbridge-wells-grammar-school-for-boys-723af0ab4b56@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
 SUMMARY:Tunbridge Wells Grammar School for Boys: KCC reallocation. Schools 

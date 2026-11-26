@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Watford Grammar School for Girls admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:watford-grammar-school-for-girls-2026-04-01-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:watford-grammar-school-for-girls-2210c39bf660@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260401
 DTEND;VALUE=DATE:20260402
 SUMMARY:Watford Grammar School for Girls: Consortium test registration open
@@ -15,8 +17,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/watford-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:watford-grammar-school-for-girls-2026-06-05-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:watford-grammar-school-for-girls-3b123ad51160@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260605
 DTEND;VALUE=DATE:20260606
 SUMMARY:Watford Grammar School for Girls: Consortium test registration and 
@@ -26,8 +28,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/watford-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:watford-grammar-school-for-girls-2026-06-26-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:watford-grammar-school-for-girls-cc555898bb1d@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:Watford Grammar School for Girls: Test venue shown on the parent po
@@ -37,8 +39,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/watford-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:watford-grammar-school-for-girls-2026-09-05-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:watford-grammar-school-for-girls-9e9d22dcd744@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20260906
 SUMMARY:Watford Grammar School for Girls: Academic test (Saturday)
@@ -47,8 +49,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/watford-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:watford-grammar-school-for-girls-2026-09-07-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:watford-grammar-school-for-girls-0b954cf290da@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:Watford Grammar School for Girls: Music aptitude test round 1 (Mond
@@ -58,8 +60,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/watford-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:watford-grammar-school-for-girls-2026-09-17-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:watford-grammar-school-for-girls-9cf3df681e87@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:Watford Grammar School for Girls: Music round 1 scores and round 2 
@@ -69,8 +71,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/watford-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:watford-grammar-school-for-girls-2026-09-21-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:watford-grammar-school-for-girls-877471752494@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
 SUMMARY:Watford Grammar School for Girls: Music round 2 performances (21-25
@@ -80,8 +82,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/watford-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:watford-grammar-school-for-girls-2026-10-15-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:watford-grammar-school-for-girls-45a09c7bac79@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Watford Grammar School for Girls: Final test scores released (aroun
@@ -91,8 +93,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/watford-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:watford-grammar-school-for-girls-2026-10-31-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:watford-grammar-school-for-girls-f88b3fe24e98@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Watford Grammar School for Girls: Application deadline (council for
@@ -102,8 +104,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/watford-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:watford-grammar-school-for-girls-2027-03-01-9@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:watford-grammar-school-for-girls-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Watford Grammar School for Girls: National Offer Day
@@ -112,8 +114,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/watford-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:watford-grammar-school-for-girls-2027-07-01-10@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:watford-grammar-school-for-girls-0cefdbb2d7c2@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270701
 DTEND;VALUE=DATE:20270702
 SUMMARY:Watford Grammar School for Girls: Next Open Evening\, 5-8pm (for 20

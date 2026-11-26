@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Oakwood Park Grammar School admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:oakwood-park-grammar-school-2026-06-01-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:oakwood-park-grammar-school-a86b1ba5487a@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 SUMMARY:Oakwood Park Grammar School: Kent Test registration opens
@@ -14,8 +16,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/oakwood-park-grammar-s
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:oakwood-park-grammar-school-2026-07-01-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:oakwood-park-grammar-school-1febe30ba189@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Oakwood Park Grammar School: Kent Test registration and special-arr
@@ -25,8 +27,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/oakwood-park-grammar-s
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:oakwood-park-grammar-school-2026-09-01-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:oakwood-park-grammar-school-f7e2cb2f52bb@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Oakwood Park Grammar School: Secondary applications open
@@ -35,8 +37,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/oakwood-park-grammar-s
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:oakwood-park-grammar-school-2026-09-10-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:oakwood-park-grammar-school-425301044e7d@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Oakwood Park Grammar School: Kent Test in Kent primary schools
@@ -45,8 +47,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/oakwood-park-grammar-s
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:oakwood-park-grammar-school-2026-09-12-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:oakwood-park-grammar-school-8961a247e8bc@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Oakwood Park Grammar School: Kent Test at test centres for children
@@ -56,8 +58,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/oakwood-park-grammar-s
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:oakwood-park-grammar-school-2026-10-15-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:oakwood-park-grammar-school-9a0a1bb01bfb@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Oakwood Park Grammar School: Kent Test decisions emailed after 4pm
@@ -66,8 +68,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/oakwood-park-grammar-s
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:oakwood-park-grammar-school-2026-10-31-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:oakwood-park-grammar-school-3e16665c8b02@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Oakwood Park Grammar School: Deadline: Supplementary Information Fo
@@ -77,8 +79,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/oakwood-park-grammar-s
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:oakwood-park-grammar-school-2026-11-02-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:oakwood-park-grammar-school-9d86cb5a794b@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:Oakwood Park Grammar School: Application deadline for Kent resident
@@ -88,8 +90,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/oakwood-park-grammar-s
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:oakwood-park-grammar-school-2026-12-07-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:oakwood-park-grammar-school-995de5ee548d@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Oakwood Park Grammar School: Last day to change your application de
@@ -99,8 +101,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/oakwood-park-grammar-s
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:oakwood-park-grammar-school-2027-03-01-9@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:oakwood-park-grammar-school-e66f0502bb93@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Oakwood Park Grammar School: National Offer Day (emails after 4pm)
@@ -109,8 +111,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/oakwood-park-grammar-s
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:oakwood-park-grammar-school-2027-03-15-10@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:oakwood-park-grammar-school-a305afa8c96e@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Oakwood Park Grammar School: Accept/decline the offer\; deadline fo
@@ -120,8 +122,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/oakwood-park-grammar-s
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:oakwood-park-grammar-school-2027-04-13-11@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:oakwood-park-grammar-school-22f68b3e8025@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Oakwood Park Grammar School: Deadline to lodge an appeal to be hear
@@ -131,8 +133,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/oakwood-park-grammar-s
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:oakwood-park-grammar-school-2027-04-27-12@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:oakwood-park-grammar-school-d79cbbda45bc@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
 SUMMARY:Oakwood Park Grammar School: KCC reallocates places from waiting li

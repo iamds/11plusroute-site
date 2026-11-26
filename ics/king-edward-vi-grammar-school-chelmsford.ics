@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:King Edward VI Grammar School\, Chelmsford (KEGS) admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:king-edward-vi-grammar-school-chelmsford-2026-05-12-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:king-edward-vi-grammar-school-chelmsford-305f2611e092@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260512
 DTEND;VALUE=DATE:20260513
 SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): CSSE registratio
@@ -15,8 +17,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:king-edward-vi-grammar-school-chelmsford-2026-06-19-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:king-edward-vi-grammar-school-chelmsford-a76b42f9be75@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
 SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): CSSE registratio
@@ -26,8 +28,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:king-edward-vi-grammar-school-chelmsford-2026-06-26-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:king-edward-vi-grammar-school-chelmsford-5441773fb595@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): Deadline for acc
@@ -37,8 +39,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:king-edward-vi-grammar-school-chelmsford-2026-07-15-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:king-edward-vi-grammar-school-chelmsford-ca5d2fe9df50@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260716
 SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): Test centre lett
@@ -48,8 +50,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:king-edward-vi-grammar-school-chelmsford-2026-08-31-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:king-edward-vi-grammar-school-chelmsford-efaa19ae8f6e@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): Last date to wit
@@ -59,8 +61,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:king-edward-vi-grammar-school-chelmsford-2026-09-19-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:king-edward-vi-grammar-school-chelmsford-e03e9e37a826@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): CSSE 11+ test (S
@@ -70,8 +72,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:king-edward-vi-grammar-school-chelmsford-2026-09-29-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:king-edward-vi-grammar-school-chelmsford-cfbaaea9a323@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): Alternative test
@@ -81,8 +83,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:king-edward-vi-grammar-school-chelmsford-2026-10-10-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:king-edward-vi-grammar-school-chelmsford-c05c7d6ea91a@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): Priority-area re
@@ -93,8 +95,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:king-edward-vi-grammar-school-chelmsford-2026-10-12-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:king-edward-vi-grammar-school-chelmsford-a519e776e18a@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): Results emailed 
@@ -104,8 +106,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:king-edward-vi-grammar-school-chelmsford-2026-10-31-9@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:king-edward-vi-grammar-school-chelmsford-8652b6c44c5c@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): CAF deadline\; C
@@ -115,8 +117,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:king-edward-vi-grammar-school-chelmsford-2026-11-20-10@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:king-edward-vi-grammar-school-chelmsford-044e716fdc59@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): Essex: last date
@@ -126,8 +128,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:king-edward-vi-grammar-school-chelmsford-2027-03-01-11@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:king-edward-vi-grammar-school-chelmsford-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): National Offer D

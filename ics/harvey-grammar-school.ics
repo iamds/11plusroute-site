@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:The Harvey Grammar School admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:harvey-grammar-school-2026-06-01-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:harvey-grammar-school-a86b1ba5487a@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 SUMMARY:The Harvey Grammar School: Kent Test registration opens
@@ -14,8 +16,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/harvey-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:harvey-grammar-school-2026-06-30-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:harvey-grammar-school-919c0334c7f2@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 SUMMARY:The Harvey Grammar School: Open Evening (18:15-20:30)
@@ -24,8 +26,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/harvey-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:harvey-grammar-school-2026-07-01-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:harvey-grammar-school-8d841080b810@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:The Harvey Grammar School: Kent Test registration and access-arrang
@@ -35,8 +37,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/harvey-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:harvey-grammar-school-2026-07-03-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:harvey-grammar-school-75c4e5b12ac3@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260703
 DTEND;VALUE=DATE:20260704
 SUMMARY:The Harvey Grammar School: Shepway Test registration closes (9am)
@@ -45,8 +47,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/harvey-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:harvey-grammar-school-2026-07-21-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:harvey-grammar-school-78912647f455@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260721
 DTEND;VALUE=DATE:20260722
 SUMMARY:The Harvey Grammar School: Last date for late Kent Test paper regis
@@ -56,8 +58,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/harvey-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:harvey-grammar-school-2026-09-01-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:harvey-grammar-school-916601f3d6b1@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:The Harvey Grammar School: Secondary applications (SCAF) open
@@ -66,8 +68,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/harvey-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:harvey-grammar-school-2026-09-10-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:harvey-grammar-school-425301044e7d@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:The Harvey Grammar School: Kent Test in Kent primary schools
@@ -76,8 +78,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/harvey-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:harvey-grammar-school-2026-09-12-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:harvey-grammar-school-5c0f64f94b23@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:The Harvey Grammar School: Shepway Test at the school (morning)\; a
@@ -87,8 +89,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/harvey-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:harvey-grammar-school-2026-10-15-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:harvey-grammar-school-aacd1954213a@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:The Harvey Grammar School: Kent Test assessment decisions emailed a
@@ -98,8 +100,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/harvey-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:harvey-grammar-school-2026-10-31-9@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:harvey-grammar-school-95332530702f@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:The Harvey Grammar School: Pupil Premium supplementary form deadlin
@@ -109,8 +111,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/harvey-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:harvey-grammar-school-2026-11-02-10@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:harvey-grammar-school-62e8adf9d7df@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:The Harvey Grammar School: SCAF closing date (midnight\; Kent's 202
@@ -120,8 +122,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/harvey-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:harvey-grammar-school-2026-12-07-11@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:harvey-grammar-school-995de5ee548d@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:The Harvey Grammar School: Last day to change your application deta
@@ -131,8 +133,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/harvey-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:harvey-grammar-school-2027-03-01-12@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:harvey-grammar-school-e66f0502bb93@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:The Harvey Grammar School: National Offer Day (emails after 4pm)
@@ -141,8 +143,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/harvey-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:harvey-grammar-school-2027-03-15-13@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:harvey-grammar-school-dc81d4f65fae@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:The Harvey Grammar School: Accept/decline offer and join waiting li
@@ -152,8 +154,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/harvey-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:harvey-grammar-school-2027-04-13-14@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:harvey-grammar-school-32f76fbd9c71@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:The Harvey Grammar School: Lodge appeals by this date to be heard b
@@ -163,8 +165,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/harvey-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:harvey-grammar-school-2027-04-27-15@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:harvey-grammar-school-07657d7a5e83@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
 SUMMARY:The Harvey Grammar School: Kent Reallocation Day: places that have 

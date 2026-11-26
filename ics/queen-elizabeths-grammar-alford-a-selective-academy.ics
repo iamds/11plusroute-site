@@ -4,10 +4,12 @@ PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Queen Elizabeth's Grammar Alford - A Selective Academy admissi
  ons
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:queen-elizabeths-grammar-alford-a-selective-academy-2026-01-07-0@iamds.
+UID:queen-elizabeths-grammar-alford-a-selective-academy-97d140405448@iamds.
  github.io
-DTSTAMP:20261126T091009Z
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260107
 DTEND;VALUE=DATE:20260108
 SUMMARY:Queen Elizabeth's Grammar Alford - A Selective Academy: Registratio
@@ -17,9 +19,9 @@ URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-gramm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:queen-elizabeths-grammar-alford-a-selective-academy-2026-03-20-1@iamds.
+UID:queen-elizabeths-grammar-alford-a-selective-academy-84f22633a1e1@iamds.
  github.io
-DTSTAMP:20261126T091009Z
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260320
 DTEND;VALUE=DATE:20260321
 SUMMARY:Queen Elizabeth's Grammar Alford - A Selective Academy: 11+ registr
@@ -29,9 +31,9 @@ URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-gramm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:queen-elizabeths-grammar-alford-a-selective-academy-2026-03-20-2@iamds.
+UID:queen-elizabeths-grammar-alford-a-selective-academy-d816588f4e46@iamds.
  github.io
-DTSTAMP:20261126T091009Z
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260320
 DTEND;VALUE=DATE:20260321
 SUMMARY:Queen Elizabeth's Grammar Alford - A Selective Academy: Deadline: 1
@@ -41,9 +43,9 @@ URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-gramm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:queen-elizabeths-grammar-alford-a-selective-academy-2026-06-30-3@iamds.
+UID:queen-elizabeths-grammar-alford-a-selective-academy-72105c260b20@iamds.
  github.io
-DTSTAMP:20261126T091009Z
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 SUMMARY:Queen Elizabeth's Grammar Alford - A Selective Academy: Open Evenin
@@ -53,9 +55,9 @@ URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-gramm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:queen-elizabeths-grammar-alford-a-selective-academy-2026-09-12-4@iamds.
+UID:queen-elizabeths-grammar-alford-a-selective-academy-5491ef5f278f@iamds.
  github.io
-DTSTAMP:20261126T091009Z
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Queen Elizabeth's Grammar Alford - A Selective Academy: Verbal reas
@@ -65,9 +67,9 @@ URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-gramm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:queen-elizabeths-grammar-alford-a-selective-academy-2026-09-19-5@iamds.
+UID:queen-elizabeths-grammar-alford-a-selective-academy-42d0704eccf3@iamds.
  github.io
-DTSTAMP:20261126T091009Z
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Queen Elizabeth's Grammar Alford - A Selective Academy: Non-verbal 
@@ -77,9 +79,9 @@ URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-gramm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:queen-elizabeths-grammar-alford-a-selective-academy-2026-10-09-6@iamds.
+UID:queen-elizabeths-grammar-alford-a-selective-academy-d667e3ba7c8a@iamds.
  github.io
-DTSTAMP:20261126T091009Z
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:Queen Elizabeth's Grammar Alford - A Selective Academy: 11+ results
@@ -89,9 +91,9 @@ URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-gramm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:queen-elizabeths-grammar-alford-a-selective-academy-2026-10-31-7@iamds.
+UID:queen-elizabeths-grammar-alford-a-selective-academy-b23a0bf38c13@iamds.
  github.io
-DTSTAMP:20261126T091009Z
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Queen Elizabeth's Grammar Alford - A Selective Academy: National cl
@@ -102,9 +104,9 @@ URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-gramm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:queen-elizabeths-grammar-alford-a-selective-academy-2026-12-14-8@iamds.
+UID:queen-elizabeths-grammar-alford-a-selective-academy-b244b033d8c7@iamds.
  github.io
-DTSTAMP:20261126T091009Z
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:Queen Elizabeth's Grammar Alford - A Selective Academy: Lincolnshir
@@ -114,9 +116,9 @@ URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-gramm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:queen-elizabeths-grammar-alford-a-selective-academy-2027-03-01-9@iamds.
+UID:queen-elizabeths-grammar-alford-a-selective-academy-b6c34c92fe76@iamds.
  github.io
-DTSTAMP:20261126T091009Z
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Queen Elizabeth's Grammar Alford - A Selective Academy: National Of
@@ -126,9 +128,9 @@ URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeths-gramm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:queen-elizabeths-grammar-alford-a-selective-academy-2027-04-14-10@iamds
- .github.io
-DTSTAMP:20261126T091009Z
+UID:queen-elizabeths-grammar-alford-a-selective-academy-29e89191a185@iamds.
+ github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270414
 DTEND;VALUE=DATE:20270415
 SUMMARY:Queen Elizabeth's Grammar Alford - A Selective Academy: Lincolnshir

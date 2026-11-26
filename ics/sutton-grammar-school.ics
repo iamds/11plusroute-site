@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Sutton Grammar School admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:sutton-grammar-school-2026-05-01-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:sutton-grammar-school-0bdbd5d6a5bd@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 SUMMARY:Sutton Grammar School: SET registration opens
@@ -14,8 +16,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/sutton-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:sutton-grammar-school-2026-06-12-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:sutton-grammar-school-8e65a43200aa@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260612
 DTEND;VALUE=DATE:20260613
 SUMMARY:Sutton Grammar School: Deadline for access-arrangement requests and
@@ -25,8 +27,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/sutton-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:sutton-grammar-school-2026-07-31-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:sutton-grammar-school-63e41cf27cee@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 SUMMARY:Sutton Grammar School: SET registration closes (midnight). No late 
@@ -36,8 +38,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/sutton-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:sutton-grammar-school-2026-09-09-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:sutton-grammar-school-0506733247b8@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
 SUMMARY:Sutton Grammar School: Latest date for access-arrangement decisions
@@ -47,8 +49,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/sutton-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:sutton-grammar-school-2026-09-15-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:sutton-grammar-school-adaa02c598c5@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:Sutton Grammar School: Selective Eligibility Test (SET)
@@ -57,8 +59,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/sutton-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:sutton-grammar-school-2026-09-22-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:sutton-grammar-school-9aa19404273b@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
 SUMMARY:Sutton Grammar School: SET outcome emailed (week after the test)
@@ -67,8 +69,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/sutton-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:sutton-grammar-school-2026-10-03-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:sutton-grammar-school-be9e15736c24@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:Sutton Grammar School: Shared Second Stage test (Saturday morning)
@@ -77,8 +79,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/sutton-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:sutton-grammar-school-2026-10-07-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:sutton-grammar-school-46e771366470@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 SUMMARY:Sutton Grammar School: Deadline for unfit-to-sit evidence for the S
@@ -88,8 +90,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/sutton-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:sutton-grammar-school-2026-10-23-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:sutton-grammar-school-67d8c3bea396@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Sutton Grammar School: Second Stage outcome emailed before October 
@@ -99,8 +101,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/sutton-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:sutton-grammar-school-2026-10-31-9@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:sutton-grammar-school-4f04474871a4@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Sutton Grammar School: CAF deadline (11.59pm)\; must be living at t
@@ -110,8 +112,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/sutton-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:sutton-grammar-school-2026-12-07-10@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:sutton-grammar-school-c2ce969f7228@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Sutton Grammar School: Last date for applications late for good rea
@@ -121,8 +123,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/sutton-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:sutton-grammar-school-2027-03-01-11@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:sutton-grammar-school-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Sutton Grammar School: National Offer Day
@@ -131,8 +133,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/sutton-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:sutton-grammar-school-2027-03-02-12@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:sutton-grammar-school-42a8f74e1dd6@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270302
 DTEND;VALUE=DATE:20270303
 SUMMARY:Sutton Grammar School: School confirms the status of your applicati
@@ -142,8 +144,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/sutton-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:sutton-grammar-school-2027-04-16-13@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:sutton-grammar-school-7115b4cef227@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270416
 DTEND;VALUE=DATE:20270417
 SUMMARY:Sutton Grammar School: Appeals deadline
@@ -152,8 +154,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/sutton-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:sutton-grammar-school-2027-12-31-14@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:sutton-grammar-school-fcfe6ab18c0c@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
 SUMMARY:Sutton Grammar School: Waiting list closes

@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Dartford Grammar School admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:dartford-grammar-school-2026-06-01-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:dartford-grammar-school-d243f6744a52@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 SUMMARY:Dartford Grammar School: Kent Test registration opens (kent.gov.uk/
@@ -15,8 +17,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/dartford-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dartford-grammar-school-2026-07-01-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:dartford-grammar-school-8d841080b810@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Dartford Grammar School: Kent Test registration and access-arrangem
@@ -26,8 +28,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/dartford-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dartford-grammar-school-2026-07-21-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:dartford-grammar-school-c11010fa1142@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260721
 DTEND;VALUE=DATE:20260722
 SUMMARY:Dartford Grammar School: Last date for late paper registrations (ch
@@ -37,8 +39,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/dartford-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dartford-grammar-school-2026-09-01-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:dartford-grammar-school-916601f3d6b1@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Dartford Grammar School: Secondary applications (SCAF) open
@@ -47,8 +49,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/dartford-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dartford-grammar-school-2026-09-10-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:dartford-grammar-school-425301044e7d@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Dartford Grammar School: Kent Test in Kent primary schools
@@ -57,8 +59,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/dartford-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dartford-grammar-school-2026-09-12-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:dartford-grammar-school-2e02080775d8@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Dartford Grammar School: Kent Test at test centres for children at 
@@ -68,8 +70,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/dartford-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dartford-grammar-school-2026-10-15-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:dartford-grammar-school-9a0a1bb01bfb@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Dartford Grammar School: Kent Test decisions emailed after 4pm
@@ -78,8 +80,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/dartford-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dartford-grammar-school-2026-11-02-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:dartford-grammar-school-aec12d9ca45a@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:Dartford Grammar School: National closing date for secondary applic
@@ -89,8 +91,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/dartford-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dartford-grammar-school-2026-12-07-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:dartford-grammar-school-f80cd6766b64@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Dartford Grammar School: Final date for on-time changes to applicat
@@ -100,8 +102,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/dartford-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dartford-grammar-school-2026-12-07-9@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:dartford-grammar-school-410327b3a6ec@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Dartford Grammar School: Deadline: Proof of Priority Area address (
@@ -111,8 +113,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/dartford-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dartford-grammar-school-2027-03-01-10@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:dartford-grammar-school-e66f0502bb93@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Dartford Grammar School: National Offer Day (emails after 4pm)
@@ -121,8 +123,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/dartford-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dartford-grammar-school-2027-03-15-11@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:dartford-grammar-school-10c78c9623b8@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Dartford Grammar School: Accept/decline offers\; deadline for waiti
@@ -132,8 +134,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/dartford-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dartford-grammar-school-2027-04-07-12@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:dartford-grammar-school-fc750a636cf8@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270407
 DTEND;VALUE=DATE:20270408
 SUMMARY:Dartford Grammar School: Deadline for lodging appeals (to be heard 
@@ -143,8 +145,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/dartford-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dartford-grammar-school-2027-04-27-13@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:dartford-grammar-school-b77a76eb0903@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
 SUMMARY:Dartford Grammar School: KCC reallocation of places that have becom

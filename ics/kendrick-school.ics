@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Kendrick School admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:kendrick-school-2026-03-01-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:kendrick-school-85c4b637fa7f@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260301
 DTEND;VALUE=DATE:20260302
 SUMMARY:Kendrick School: GL familiarisation material available on the schoo
@@ -14,8 +16,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/kendrick-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kendrick-school-2026-04-22-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:kendrick-school-d6cf7341d445@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260422
 DTEND;VALUE=DATE:20260423
 SUMMARY:Kendrick School: Open Day sessions
@@ -23,8 +25,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/kendrick-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kendrick-school-2026-05-01-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:kendrick-school-56a9aa88c510@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 SUMMARY:Kendrick School: Online test registration opens
@@ -32,8 +34,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/kendrick-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kendrick-school-2026-07-01-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:kendrick-school-202469bbc29c@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Kendrick School: Test registration deadline (midnight)\, including 
@@ -42,8 +44,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/kendrick-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kendrick-school-2026-07-17-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:kendrick-school-ee9c829373d1@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260717
 DTEND;VALUE=DATE:20260718
 SUMMARY:Kendrick School: Session time and test arrangements emailed by this
@@ -52,8 +54,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/kendrick-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kendrick-school-2026-08-31-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:kendrick-school-c021f2d6d695@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 SUMMARY:Kendrick School: Date for permanent home address and Pupil/Service 
@@ -62,8 +64,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/kendrick-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kendrick-school-2026-09-18-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:kendrick-school-f88bfc08fd33@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Kendrick School: Admission Test (am or pm) at Kendrick School
@@ -71,8 +73,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/kendrick-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kendrick-school-2026-09-18-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:kendrick-school-1efcf92ba9ad@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Kendrick School: Deadline: Test Day Registration Card
@@ -80,8 +82,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/kendrick-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kendrick-school-2026-10-31-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:kendrick-school-21204d0f6e7e@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Kendrick School: Test results emailed before this date. CAF deadlin
@@ -90,8 +92,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/kendrick-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kendrick-school-2027-03-01-9@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:kendrick-school-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Kendrick School: National Offer Day
@@ -99,8 +101,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/kendrick-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kendrick-school-2027-09-08-10@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:kendrick-school-94777535f9ee@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270908
 DTEND;VALUE=DATE:20270909
 SUMMARY:Kendrick School: Waiting list re-ranked for families who moved into
@@ -109,8 +111,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/kendrick-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kendrick-school-2028-01-31-11@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:kendrick-school-8b26629fa849@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20280131
 DTEND;VALUE=DATE:20280201
 SUMMARY:Kendrick School: Year 7 waiting list from the routine round closes

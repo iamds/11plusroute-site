@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Ashlawn School admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:ashlawn-school-2026-05-07-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:ashlawn-school-1012669c52a6@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260507
 DTEND;VALUE=DATE:20260508
 SUMMARY:Ashlawn School: Warwickshire 11+ registration opens
@@ -13,8 +15,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/ashlawn-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ashlawn-school-2026-06-30-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:ashlawn-school-c7ab42cb6eaa@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 SUMMARY:Ashlawn School: 11+ registration and special testing requirements d
@@ -23,8 +25,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/ashlawn-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ashlawn-school-2026-07-10-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:ashlawn-school-a97396a129f0@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 SUMMARY:Ashlawn School: MFL aptitude test application deadline
@@ -32,8 +34,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/ashlawn-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ashlawn-school-2026-07-13-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:ashlawn-school-91168e6b7a00@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260713
 DTEND;VALUE=DATE:20260714
 SUMMARY:Ashlawn School: 11+ access arrangement decisions sent (week commenc
@@ -42,8 +44,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/ashlawn-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ashlawn-school-2026-08-10-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:ashlawn-school-130f3584f467@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 SUMMARY:Ashlawn School: 11+ invitation letters sent (week commencing)
@@ -51,8 +53,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/ashlawn-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ashlawn-school-2026-09-12-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:ashlawn-school-bdf2acbb2463@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Ashlawn School: Warwickshire 11+ test (12 and 13 September)
@@ -60,8 +62,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/ashlawn-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ashlawn-school-2026-09-19-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:ashlawn-school-5f216e9ae58d@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Ashlawn School: Ashlawn MFL aptitude test
@@ -69,8 +71,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/ashlawn-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ashlawn-school-2026-10-16-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:ashlawn-school-bd09b5bcff6b@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Ashlawn School: 11+ results on the Parent Portal
@@ -78,8 +80,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/ashlawn-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ashlawn-school-2026-10-31-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:ashlawn-school-41a9c7e68643@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Ashlawn School: Secondary application deadline (home LA)
@@ -87,8 +89,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/ashlawn-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ashlawn-school-2026-12-01-9@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:ashlawn-school-b8f0cc32e0ea@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Ashlawn School: Proof-of-address requests for selective applicants
@@ -96,8 +98,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/ashlawn-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ashlawn-school-2026-12-31-10@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:ashlawn-school-8661dd886273@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Ashlawn School: Proof-of-address deadline
@@ -105,8 +107,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/ashlawn-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ashlawn-school-2027-03-01-11@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:ashlawn-school-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Ashlawn School: National Offer Day

@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:St Joseph's College admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:st-josephs-college-2026-10-30-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:st-josephs-college-f43d968fdc0e@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:St Joseph's College: SIF deadline
@@ -14,8 +16,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/st-josephs-college.htm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:st-josephs-college-2026-10-31-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:st-josephs-college-12b72e86d7fe@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:St Joseph's College: CAF deadline
@@ -24,8 +26,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/st-josephs-college.htm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:st-josephs-college-2027-03-01-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:st-josephs-college-e9a0c1ade557@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:St Joseph's College: National Offer Day (common offer date)

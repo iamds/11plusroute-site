@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Bournemouth School for Girls admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:bournemouth-school-for-girls-2026-04-13-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:bournemouth-school-for-girls-4beeb08a0512@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260413
 DTEND;VALUE=DATE:20260414
 SUMMARY:Bournemouth School for Girls: Test registration opens
@@ -14,8 +16,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/bournemouth-school-for
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bournemouth-school-for-girls-2026-07-01-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:bournemouth-school-for-girls-1ee19f2c3ab1@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Bournemouth School for Girls: Open afternoon (4-6.30pm)
@@ -24,8 +26,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/bournemouth-school-for
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bournemouth-school-for-girls-2026-09-04-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:bournemouth-school-for-girls-c35a520ca8bd@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:Bournemouth School for Girls: Test registration closes (12 noon)
@@ -34,8 +36,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/bournemouth-school-for
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bournemouth-school-for-girls-2026-09-07-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:bournemouth-school-for-girls-11ca557a97fb@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:Bournemouth School for Girls: Access arrangements deadline (12 noon
@@ -45,8 +47,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/bournemouth-school-for
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bournemouth-school-for-girls-2026-09-26-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:bournemouth-school-for-girls-b2c12a91912f@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260927
 SUMMARY:Bournemouth School for Girls: Consortium entrance test
@@ -55,8 +57,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/bournemouth-school-for
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bournemouth-school-for-girls-2026-10-02-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:bournemouth-school-for-girls-bfd878724a49@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Bournemouth School for Girls: Catch-up test
@@ -65,8 +67,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/bournemouth-school-for
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bournemouth-school-for-girls-2026-10-16-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:bournemouth-school-for-girls-f709544c7c30@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Bournemouth School for Girls: Test results emailed (by 4pm)
@@ -75,8 +77,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/bournemouth-school-for
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bournemouth-school-for-girls-2026-10-31-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:bournemouth-school-for-girls-d9b0609e1b79@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Bournemouth School for Girls: Council application deadline
@@ -85,8 +87,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/bournemouth-school-for
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bournemouth-school-for-girls-2027-01-29-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:bournemouth-school-for-girls-7e2086a730fd@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Bournemouth School for Girls: Late test registration closes (12 noo
@@ -96,8 +98,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/bournemouth-school-for
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bournemouth-school-for-girls-2027-02-23-9@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:bournemouth-school-for-girls-35a5bcb02fe5@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270223
 DTEND;VALUE=DATE:20270224
 SUMMARY:Bournemouth School for Girls: Late test (for late registrations/app
@@ -107,8 +109,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/bournemouth-school-for
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bournemouth-school-for-girls-2027-03-01-10@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:bournemouth-school-for-girls-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Bournemouth School for Girls: National Offer Day
@@ -117,8 +119,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/bournemouth-school-for
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bournemouth-school-for-girls-2027-03-15-11@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:bournemouth-school-for-girls-953c6ee1e62e@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Bournemouth School for Girls: Deadline to accept offer (BCP)

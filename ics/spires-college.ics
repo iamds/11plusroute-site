@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:The Spires College admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:spires-college-2026-07-15-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:spires-college-17eabde10c0d@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260716
 SUMMARY:The Spires College: Preferred date for returning the 11+ registrati
@@ -14,8 +16,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/spires-college.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:spires-college-2026-09-04-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:spires-college-b07a2450c10c@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:The Spires College: Final 11+ registration deadline (midday)
@@ -23,8 +25,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/spires-college.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:spires-college-2026-09-19-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:spires-college-c8637c02f929@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:The Spires College: Torbay 11+ test
@@ -32,8 +34,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/spires-college.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:spires-college-2026-09-25-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:spires-college-3bcf79609ffc@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:The Spires College: Catch-up test date
@@ -41,8 +43,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/spires-college.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:spires-college-2026-10-03-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:spires-college-0d2b18b8baa0@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:The Spires College: About 14 days after the test: deadline for exce
@@ -51,8 +53,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/spires-college.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:spires-college-2026-10-12-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:spires-college-ae10e70ed7a4@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 SUMMARY:The Spires College: Guidance letters (on or as soon as possible aft
@@ -61,8 +63,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/spires-college.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:spires-college-2026-10-31-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:spires-college-f29e39788c33@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:The Spires College: Common Application Form deadline
@@ -70,8 +72,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/spires-college.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:spires-college-2027-01-30-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:spires-college-4fdeeef805e3@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:The Spires College: Last date for a house move to count for the app
@@ -80,8 +82,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/spires-college.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:spires-college-2027-03-01-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:spires-college-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:The Spires College: National Offer Day

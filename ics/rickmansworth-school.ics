@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Rickmansworth School admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:rickmansworth-school-2026-04-01-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:rickmansworth-school-a82abca2a451@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260401
 DTEND;VALUE=DATE:20260402
 SUMMARY:Rickmansworth School: SW Herts Consortium test registration opens
@@ -14,8 +16,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/rickmansworth-school.h
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:rickmansworth-school-2026-06-05-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:rickmansworth-school-9ebe0211fb91@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260605
 DTEND;VALUE=DATE:20260606
 SUMMARY:Rickmansworth School: Test registration closes\; SEND evidence dead
@@ -25,8 +27,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/rickmansworth-school.h
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:rickmansworth-school-2026-06-26-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:rickmansworth-school-81ac1ab9e13b@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:Rickmansworth School: Test venues notified
@@ -35,8 +37,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/rickmansworth-school.h
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:rickmansworth-school-2026-09-05-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:rickmansworth-school-7710753cf333@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20260906
 SUMMARY:Rickmansworth School: Academic test
@@ -45,8 +47,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/rickmansworth-school.h
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:rickmansworth-school-2026-09-07-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:rickmansworth-school-6bb2dda70427@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:Rickmansworth School: Music written test
@@ -55,8 +57,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/rickmansworth-school.h
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:rickmansworth-school-2026-09-21-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:rickmansworth-school-932976dc56f2@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
 SUMMARY:Rickmansworth School: Music auditions (21-25 September)
@@ -65,8 +67,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/rickmansworth-school.h
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:rickmansworth-school-2026-10-15-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:rickmansworth-school-92d39058507d@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Rickmansworth School: Test scores on the consortium parent portal
@@ -75,8 +77,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/rickmansworth-school.h
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:rickmansworth-school-2026-10-31-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:rickmansworth-school-17ab830c097c@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Rickmansworth School: CAF and SIF deadline
@@ -85,8 +87,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/rickmansworth-school.h
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:rickmansworth-school-2027-03-01-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:rickmansworth-school-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Rickmansworth School: National Offer Day

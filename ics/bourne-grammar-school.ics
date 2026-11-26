@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Bourne Grammar School admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:bourne-grammar-school-2026-06-30-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:bourne-grammar-school-50acf189c9e0@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 SUMMARY:Bourne Grammar School: Normal 11+ registration deadline
@@ -14,8 +16,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/bourne-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bourne-grammar-school-2026-09-05-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:bourne-grammar-school-45ff2fc1bed0@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20260906
 SUMMARY:Bourne Grammar School: Familiarisation test at BGS (optional)
@@ -24,8 +26,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/bourne-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bourne-grammar-school-2026-09-11-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:bourne-grammar-school-2cf123359da8@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:Bourne Grammar School: VR test at Bourne primaries\, Malcolm Sargen
@@ -35,8 +37,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/bourne-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bourne-grammar-school-2026-09-12-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:bourne-grammar-school-a1159b22cd0c@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Bourne Grammar School: 11+ Verbal Reasoning test
@@ -45,8 +47,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/bourne-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bourne-grammar-school-2026-09-18-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:bourne-grammar-school-a61c64181421@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Bourne Grammar School: NVR test at Bourne primaries\, Malcolm Sarge
@@ -56,8 +58,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/bourne-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bourne-grammar-school-2026-09-19-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:bourne-grammar-school-7822fe920fd7@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Bourne Grammar School: 11+ Non-Verbal & Spatial Reasoning test
@@ -66,8 +68,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/bourne-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bourne-grammar-school-2026-10-09-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:bourne-grammar-school-427a7481f4b2@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:Bourne Grammar School: 11+ results emailed to parents (12 noon)
@@ -76,8 +78,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/bourne-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bourne-grammar-school-2026-10-31-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:bourne-grammar-school-54e723615a0f@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Bourne Grammar School: Pupil Premium evidence deadline
@@ -86,8 +88,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/bourne-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bourne-grammar-school-2026-10-31-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:bourne-grammar-school-fa0210f8df80@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Bourne Grammar School: Secondary application deadline (national clo
@@ -97,8 +99,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/bourne-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bourne-grammar-school-2026-12-14-9@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:bourne-grammar-school-ce7ca1406a54@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:Bourne Grammar School: Lincolnshire's final closing date for applic
@@ -108,8 +110,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/bourne-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bourne-grammar-school-2027-03-01-10@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:bourne-grammar-school-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Bourne Grammar School: National Offer Day
@@ -118,8 +120,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/bourne-grammar-school.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bourne-grammar-school-2027-03-30-11@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:bourne-grammar-school-0b9f568695ea@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20270330
 DTEND;VALUE=DATE:20270331
 SUMMARY:Bourne Grammar School: Revised offers after refusals and late entri

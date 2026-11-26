@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Wirral Grammar School for Girls admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:wirral-grammar-school-for-girls-2026-05-01-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:wirral-grammar-school-for-girls-758d532d5ad1@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 SUMMARY:Wirral Grammar School for Girls: Wirral 11+ registration opens
@@ -14,8 +16,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/wirral-grammar-school-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wirral-grammar-school-for-girls-2026-05-31-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:wirral-grammar-school-for-girls-3dd73a4a4e8e@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260531
 DTEND;VALUE=DATE:20260601
 SUMMARY:Wirral Grammar School for Girls: Wirral 11+ registration deadline
@@ -24,8 +26,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/wirral-grammar-school-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wirral-grammar-school-for-girls-2026-06-07-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:wirral-grammar-school-for-girls-9899c58c6f08@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260607
 DTEND;VALUE=DATE:20260608
 SUMMARY:Wirral Grammar School for Girls: Deadline for access-arrangement ev
@@ -35,8 +37,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/wirral-grammar-school-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wirral-grammar-school-for-girls-2026-07-17-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:wirral-grammar-school-for-girls-f75ec6201548@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260717
 DTEND;VALUE=DATE:20260718
 SUMMARY:Wirral Grammar School for Girls: Access-arrangement decisions confi
@@ -46,8 +48,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/wirral-grammar-school-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wirral-grammar-school-for-girls-2026-09-15-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:wirral-grammar-school-for-girls-61e42ac247ec@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:Wirral Grammar School for Girls: Wirral 11+ test day
@@ -56,8 +58,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/wirral-grammar-school-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wirral-grammar-school-for-girls-2026-10-21-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:wirral-grammar-school-for-girls-c313ba171700@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 SUMMARY:Wirral Grammar School for Girls: Results sent to parents
@@ -66,8 +68,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/wirral-grammar-school-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wirral-grammar-school-for-girls-2026-10-31-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:wirral-grammar-school-for-girls-578e61e97c23@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Wirral Grammar School for Girls: Secondary application (CAF) deadli
@@ -77,8 +79,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/wirral-grammar-school-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wirral-grammar-school-for-girls-2027-03-01-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:wirral-grammar-school-for-girls-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Wirral Grammar School for Girls: National Offer Day
@@ -87,8 +89,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/wirral-grammar-school-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wirral-grammar-school-for-girls-2027-03-15-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:wirral-grammar-school-for-girls-6f7c391c3fe3@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Wirral Grammar School for Girls: Deadline to decline an offer or as

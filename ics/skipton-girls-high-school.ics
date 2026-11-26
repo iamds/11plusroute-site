@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Skipton Girls' High School admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:skipton-girls-high-school-2026-07-09-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:skipton-girls-high-school-797f98438669@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260709
 DTEND;VALUE=DATE:20260710
 SUMMARY:Skipton Girls' High School: Year 5 Open Evening\, 6-8pm (presentati
@@ -15,8 +17,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/skipton-girls-high-sch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:skipton-girls-high-school-2026-08-19-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:skipton-girls-high-school-8f6c89091e13@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260819
 DTEND;VALUE=DATE:20260820
 SUMMARY:Skipton Girls' High School: Online test registration closes (midnig
@@ -26,8 +28,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/skipton-girls-high-sch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:skipton-girls-high-school-2026-09-18-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:skipton-girls-high-school-5c3ea88fcb48@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Skipton Girls' High School: Contact the school if the registration 
@@ -37,8 +39,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/skipton-girls-high-sch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:skipton-girls-high-school-2026-09-26-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:skipton-girls-high-school-78dd188cc2d6@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260927
 SUMMARY:Skipton Girls' High School: Selection tests at the school\, 9.30am 
@@ -48,8 +50,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/skipton-girls-high-sch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:skipton-girls-high-school-2026-09-30-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:skipton-girls-high-school-c0d43683a6a4@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:Skipton Girls' High School: 4pm: medical evidence for illness\, or 
@@ -60,8 +62,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/skipton-girls-high-sch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:skipton-girls-high-school-2026-09-30-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:skipton-girls-high-school-5c6264f5642f@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:Skipton Girls' High School: Deadline: Pupil Premium / Universal Cre
@@ -71,8 +73,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/skipton-girls-high-sch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:skipton-girls-high-school-2026-10-19-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:skipton-girls-high-school-12b3d222f0e4@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
 SUMMARY:Skipton Girls' High School: Results emailed by this date
@@ -81,8 +83,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/skipton-girls-high-sch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:skipton-girls-high-school-2026-10-31-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:skipton-girls-high-school-12b72e86d7fe@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Skipton Girls' High School: CAF deadline
@@ -91,8 +93,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/skipton-girls-high-sch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:skipton-girls-high-school-2027-03-01-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:skipton-girls-high-school-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Skipton Girls' High School: National Offer Day

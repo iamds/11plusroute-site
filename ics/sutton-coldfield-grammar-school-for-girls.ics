@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Sutton Coldfield Grammar School for Girls admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:sutton-coldfield-grammar-school-for-girls-2026-05-05-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:sutton-coldfield-grammar-school-for-girls-c4a5826e1e29@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260505
 DTEND;VALUE=DATE:20260506
 SUMMARY:Sutton Coldfield Grammar School for Girls: Test registration opens 
@@ -15,8 +17,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/sutton-coldfield-gramm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:sutton-coldfield-grammar-school-for-girls-2026-06-12-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:sutton-coldfield-grammar-school-for-girls-bbc42125a58e@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260612
 DTEND;VALUE=DATE:20260613
 SUMMARY:Sutton Coldfield Grammar School for Girls: 4pm: reasonable adjustme
@@ -26,8 +28,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/sutton-coldfield-gramm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:sutton-coldfield-grammar-school-for-girls-2026-06-24-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:sutton-coldfield-grammar-school-for-girls-780ff341304a@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260624
 DTEND;VALUE=DATE:20260625
 SUMMARY:Sutton Coldfield Grammar School for Girls: Open evening
@@ -36,8 +38,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/sutton-coldfield-gramm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:sutton-coldfield-grammar-school-for-girls-2026-06-26-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:sutton-coldfield-grammar-school-for-girls-fdf29dbd597e@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:Sutton Coldfield Grammar School for Girls: 4pm: test registration d
@@ -47,8 +49,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/sutton-coldfield-gramm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:sutton-coldfield-grammar-school-for-girls-2026-09-11-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:sutton-coldfield-grammar-school-for-girls-4321f539b7fe@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:Sutton Coldfield Grammar School for Girls: Deadline: Pupil Premium 
@@ -58,8 +60,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/sutton-coldfield-gramm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:sutton-coldfield-grammar-school-for-girls-2026-09-12-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:sutton-coldfield-grammar-school-for-girls-b00ebd09e0bd@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Sutton Coldfield Grammar School for Girls: Entrance test (Saturday\
@@ -69,8 +71,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/sutton-coldfield-gramm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:sutton-coldfield-grammar-school-for-girls-2026-10-16-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:sutton-coldfield-grammar-school-for-girls-edfb930b61ba@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Sutton Coldfield Grammar School for Girls: Test results emailed (by
@@ -80,8 +82,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/sutton-coldfield-gramm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:sutton-coldfield-grammar-school-for-girls-2026-10-31-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:sutton-coldfield-grammar-school-for-girls-a1a855dd06e1@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Sutton Coldfield Grammar School for Girls: Home LA preference form 
@@ -91,8 +93,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/sutton-coldfield-gramm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:sutton-coldfield-grammar-school-for-girls-2027-03-01-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:sutton-coldfield-grammar-school-for-girls-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Sutton Coldfield Grammar School for Girls: National Offer Day

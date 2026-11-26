@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Simon Langton Grammar School for Boys admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:simon-langton-grammar-school-for-boys-2026-06-01-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:simon-langton-grammar-school-for-boys-048371a3aa36@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 SUMMARY:Simon Langton Grammar School for Boys: Kent Test registration opens
@@ -15,8 +17,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:simon-langton-grammar-school-for-boys-2026-07-01-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:simon-langton-grammar-school-for-boys-4449d0dc7157@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Simon Langton Grammar School for Boys: Kent Test registration close
@@ -26,8 +28,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:simon-langton-grammar-school-for-boys-2026-07-21-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:simon-langton-grammar-school-for-boys-dc367874cd3e@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260721
 DTEND;VALUE=DATE:20260722
 SUMMARY:Simon Langton Grammar School for Boys: Late paper KTAF deadline (ch
@@ -37,8 +39,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:simon-langton-grammar-school-for-boys-2026-09-01-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:simon-langton-grammar-school-for-boys-f7e2cb2f52bb@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Simon Langton Grammar School for Boys: Secondary applications open
@@ -47,8 +49,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:simon-langton-grammar-school-for-boys-2026-09-10-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:simon-langton-grammar-school-for-boys-ab2da8706ba3@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Simon Langton Grammar School for Boys: Kent Test for children at Ke
@@ -58,8 +60,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:simon-langton-grammar-school-for-boys-2026-09-12-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:simon-langton-grammar-school-for-boys-05d62c71d2db@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Simon Langton Grammar School for Boys: Kent Test at test centres fo
@@ -69,8 +71,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:simon-langton-grammar-school-for-boys-2026-10-15-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:simon-langton-grammar-school-for-boys-430271fea67e@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Simon Langton Grammar School for Boys: Kent Test assessment decisio
@@ -80,8 +82,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:simon-langton-grammar-school-for-boys-2026-10-31-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:simon-langton-grammar-school-for-boys-ecafa3887e48@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Simon Langton Grammar School for Boys: Pupil Premium SIF to the sch
@@ -91,8 +93,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:simon-langton-grammar-school-for-boys-2026-11-02-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:simon-langton-grammar-school-for-boys-9fbbbdd37152@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:Simon Langton Grammar School for Boys: Secondary application (SCAF)
@@ -102,8 +104,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:simon-langton-grammar-school-for-boys-2026-12-07-9@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:simon-langton-grammar-school-for-boys-995de5ee548d@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Simon Langton Grammar School for Boys: Last day to change your appl
@@ -113,8 +115,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:simon-langton-grammar-school-for-boys-2027-03-01-10@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:simon-langton-grammar-school-for-boys-e66f0502bb93@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Simon Langton Grammar School for Boys: National Offer Day (emails a
@@ -124,8 +126,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:simon-langton-grammar-school-for-boys-2027-03-15-11@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:simon-langton-grammar-school-for-boys-0c61eb2dde83@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Simon Langton Grammar School for Boys: Accept/decline the offer\; d
@@ -136,8 +138,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:simon-langton-grammar-school-for-boys-2027-04-13-12@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:simon-langton-grammar-school-for-boys-32f76fbd9c71@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Simon Langton Grammar School for Boys: Lodge appeals by this date t
@@ -147,8 +149,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:simon-langton-grammar-school-for-boys-2027-04-27-13@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:simon-langton-grammar-school-for-boys-07657d7a5e83@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
 SUMMARY:Simon Langton Grammar School for Boys: Kent Reallocation Day: place

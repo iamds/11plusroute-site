@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Budmouth Academy admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:budmouth-academy-2026-09-24-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:budmouth-academy-fd62952f0e0f@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:Budmouth Academy: Open Evening (from 5pm)
@@ -13,8 +15,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/budmouth-academy.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:budmouth-academy-2026-09-28-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:budmouth-academy-3e88eb9d6e31@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 SUMMARY:Budmouth Academy: Ability Test Application Form deadline (12 noon)
@@ -22,8 +24,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/budmouth-academy.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:budmouth-academy-2026-10-03-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:budmouth-academy-e1ed74ab7799@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:Budmouth Academy: Ability Tests (Saturday\; no alternative dates)
@@ -31,8 +33,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/budmouth-academy.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:budmouth-academy-2026-10-31-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:budmouth-academy-d9b0609e1b79@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Budmouth Academy: Council application deadline
@@ -40,8 +42,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/budmouth-academy.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:budmouth-academy-2027-03-01-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:budmouth-academy-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Budmouth Academy: National Offer Day
@@ -49,8 +51,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/budmouth-academy.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:budmouth-academy-2027-03-30-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:budmouth-academy-9393e89a0fec@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270330
 DTEND;VALUE=DATE:20270331
 SUMMARY:Budmouth Academy: Outcome of late applications

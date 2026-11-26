@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:South Wilts Grammar School admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:south-wilts-grammar-school-2026-06-02-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:south-wilts-grammar-school-197331215fb2@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260602
 DTEND;VALUE=DATE:20260603
 SUMMARY:South Wilts Grammar School: 11+ online registration opens
@@ -14,8 +16,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/south-wilts-grammar-sc
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:south-wilts-grammar-school-2026-09-01-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:south-wilts-grammar-school-a1681a1fa6d9@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:South Wilts Grammar School: 11+ registration closes (midnight)
@@ -24,8 +26,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/south-wilts-grammar-sc
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:south-wilts-grammar-school-2026-09-26-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:south-wilts-grammar-school-4394d7227b8c@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260927
 SUMMARY:South Wilts Grammar School: 11+ test
@@ -34,8 +36,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/south-wilts-grammar-sc
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:south-wilts-grammar-school-2026-09-28-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:south-wilts-grammar-school-f39194ada9f5@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 SUMMARY:South Wilts Grammar School: Last day for late registrations (altern
@@ -45,8 +47,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/south-wilts-grammar-sc
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:south-wilts-grammar-school-2026-10-31-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:south-wilts-grammar-school-d9b0609e1b79@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:South Wilts Grammar School: Council application deadline
@@ -55,8 +57,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/south-wilts-grammar-sc
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:south-wilts-grammar-school-2027-03-01-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:south-wilts-grammar-school-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:South Wilts Grammar School: National Offer Day
@@ -65,8 +67,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/south-wilts-grammar-sc
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:south-wilts-grammar-school-2027-03-15-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:south-wilts-grammar-school-c3c5b9e0358d@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:South Wilts Grammar School: Deadline to respond to an offer (also a

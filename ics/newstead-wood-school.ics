@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Newstead Wood School admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:newstead-wood-school-2026-05-01-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:newstead-wood-school-fa29b94f42cc@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 SUMMARY:Newstead Wood School: SIF (test registration) opens on the school w
@@ -15,8 +17,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/newstead-wood-school.h
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:newstead-wood-school-2026-06-30-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:newstead-wood-school-23bab7ad7288@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 SUMMARY:Newstead Wood School: SIF deadline (midnight)\, with photo\, proof 
@@ -26,8 +28,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/newstead-wood-school.h
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:newstead-wood-school-2026-09-04-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:newstead-wood-school-29f53e6d13cc@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:Newstead Wood School: Test timings and details emailed (by Friday 4
@@ -37,8 +39,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/newstead-wood-school.h
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:newstead-wood-school-2026-09-25-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:newstead-wood-school-f38fafa6c02b@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Newstead Wood School: Selection test (25/26 September 2026)
@@ -47,8 +49,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/newstead-wood-school.h
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:newstead-wood-school-2026-09-30-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:newstead-wood-school-c9410cc71e01@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:Newstead Wood School: Deadline for medical evidence to get the alte
@@ -58,8 +60,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/newstead-wood-school.h
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:newstead-wood-school-2026-10-16-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:newstead-wood-school-3eb2666afbe8@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Newstead Wood School: Results emailed between 16 and 22 October 202
@@ -69,8 +71,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/newstead-wood-school.h
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:newstead-wood-school-2026-10-31-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:newstead-wood-school-779e98cc208f@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Newstead Wood School: CAF deadline (national)
@@ -79,8 +81,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/newstead-wood-school.h
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:newstead-wood-school-2026-12-07-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:newstead-wood-school-7dab07bc48d4@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Newstead Wood School: Bromley deadline for changes of address and l
@@ -90,8 +92,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/newstead-wood-school.h
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:newstead-wood-school-2027-03-01-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:newstead-wood-school-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Newstead Wood School: National Offer Day
@@ -100,8 +102,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/newstead-wood-school.h
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:newstead-wood-school-2027-03-04-9@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:newstead-wood-school-1366b6b698be@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270304
 DTEND;VALUE=DATE:20270305
 SUMMARY:Newstead Wood School: School waiting list starts (runs to 31 Decemb

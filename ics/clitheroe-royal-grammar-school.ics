@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Clitheroe Royal Grammar School admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:clitheroe-royal-grammar-school-2026-06-01-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:clitheroe-royal-grammar-school-8b6b289db076@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 SUMMARY:Clitheroe Royal Grammar School: CRGS online application form opens 
@@ -15,8 +17,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/clitheroe-royal-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:clitheroe-royal-grammar-school-2026-07-01-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:clitheroe-royal-grammar-school-562bf40e78c5@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Clitheroe Royal Grammar School: Open Evening\, 5.30-7.30pm
@@ -25,8 +27,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/clitheroe-royal-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:clitheroe-royal-grammar-school-2026-09-01-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:clitheroe-royal-grammar-school-bae3ddeeb959@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Clitheroe Royal Grammar School: Lancashire online application syste
@@ -36,8 +38,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/clitheroe-royal-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:clitheroe-royal-grammar-school-2026-09-04-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:clitheroe-royal-grammar-school-70b4716e72a2@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:Clitheroe Royal Grammar School: Closing date for the CRGS applicati
@@ -47,8 +49,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/clitheroe-royal-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:clitheroe-royal-grammar-school-2026-09-22-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:clitheroe-royal-grammar-school-c51e122d1301@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
 SUMMARY:Clitheroe Royal Grammar School: School confirms registration\, catc
@@ -58,8 +60,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/clitheroe-royal-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:clitheroe-royal-grammar-school-2026-09-26-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:clitheroe-royal-grammar-school-03cd73d06716@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260927
 SUMMARY:Clitheroe Royal Grammar School: Entrance examination at CRGS (Satur
@@ -69,8 +71,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/clitheroe-royal-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:clitheroe-royal-grammar-school-2026-10-09-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:clitheroe-royal-grammar-school-d133be1db4eb@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:Clitheroe Royal Grammar School: Parents told by 12 noon whether the
@@ -80,8 +82,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/clitheroe-royal-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:clitheroe-royal-grammar-school-2026-10-31-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:clitheroe-royal-grammar-school-2e1f216d45ce@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Clitheroe Royal Grammar School: Local authority closing date for ap
@@ -91,8 +93,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/clitheroe-royal-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:clitheroe-royal-grammar-school-2027-03-01-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:clitheroe-royal-grammar-school-0a120938eff1@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Clitheroe Royal Grammar School: National Offer Day (CRGS also write

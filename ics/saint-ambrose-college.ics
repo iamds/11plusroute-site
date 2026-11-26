@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Saint Ambrose College admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:saint-ambrose-college-2026-04-21-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:saint-ambrose-college-ff0a5a60f60d@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260421
 DTEND;VALUE=DATE:20260422
 SUMMARY:Saint Ambrose College: Online entrance exam applications open
@@ -14,8 +16,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/saint-ambrose-college.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:saint-ambrose-college-2026-06-27-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:saint-ambrose-college-e47654f03363@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260627
 DTEND;VALUE=DATE:20260628
 SUMMARY:Saint Ambrose College: Open Morning\, 9.30am-12.30pm (no appointmen
@@ -25,8 +27,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/saint-ambrose-college.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:saint-ambrose-college-2026-07-06-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:saint-ambrose-college-a4e69a7eb2bc@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260706
 DTEND;VALUE=DATE:20260707
 SUMMARY:Saint Ambrose College: Applications\, supporting evidence and acces
@@ -36,8 +38,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/saint-ambrose-college.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:saint-ambrose-college-2026-09-07-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:saint-ambrose-college-7676add3394d@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:Saint Ambrose College: Exam arrangements and candidate sheet sent (
@@ -47,8 +49,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/saint-ambrose-college.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:saint-ambrose-college-2026-09-18-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:saint-ambrose-college-8abc9dca08cd@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Saint Ambrose College: Entrance Examination at the College
@@ -57,8 +59,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/saint-ambrose-college.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:saint-ambrose-college-2026-09-18-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:saint-ambrose-college-d2c482415cf5@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Saint Ambrose College: Deadline: Candidate sheet stamped by the pri
@@ -68,8 +70,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/saint-ambrose-college.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:saint-ambrose-college-2026-09-25-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:saint-ambrose-college-63678d2907d8@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Saint Ambrose College: Doctor's note due if ill on exam day
@@ -78,8 +80,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/saint-ambrose-college.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:saint-ambrose-college-2026-10-23-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:saint-ambrose-college-766dd8fed75f@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Saint Ambrose College: Results sent by this date
@@ -88,8 +90,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/saint-ambrose-college.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:saint-ambrose-college-2026-10-31-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:saint-ambrose-college-31c9b5b5916c@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Saint Ambrose College: CAF deadline (home LA)
@@ -98,8 +100,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/saint-ambrose-college.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:saint-ambrose-college-2027-03-01-9@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:saint-ambrose-college-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Saint Ambrose College: National Offer Day
@@ -108,8 +110,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/saint-ambrose-college.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:saint-ambrose-college-2027-12-31-10@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:saint-ambrose-college-fcfe6ab18c0c@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
 SUMMARY:Saint Ambrose College: Waiting list closes

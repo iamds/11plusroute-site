@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Reading Girls' School admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:reading-girls-school-2026-09-02-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:reading-girls-school-948dad742487@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
 SUMMARY:Reading Girls' School: Reading online applications open
@@ -14,8 +16,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/reading-girls-school.h
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:reading-girls-school-2026-10-31-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:reading-girls-school-fa52d8400264@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Reading Girls' School: Application deadline (home LA)\; selective t
@@ -25,8 +27,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/reading-girls-school.h
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:reading-girls-school-2026-12-31-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:reading-girls-school-accd41a6cb43@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Reading Girls' School: Last date for late applications or changes w
@@ -36,8 +38,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/reading-girls-school.h
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:reading-girls-school-2027-03-01-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:reading-girls-school-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Reading Girls' School: National Offer Day
@@ -46,8 +48,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/reading-girls-school.h
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:reading-girls-school-2027-03-14-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:reading-girls-school-4e8378910477@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:Reading Girls' School: Accept your offer by (Reading)

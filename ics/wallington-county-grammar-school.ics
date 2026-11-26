@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Wallington County Grammar School admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:wallington-county-grammar-school-2026-05-01-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:wallington-county-grammar-school-0bdbd5d6a5bd@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 SUMMARY:Wallington County Grammar School: SET registration opens
@@ -14,8 +16,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/wallington-county-gram
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wallington-county-grammar-school-2026-06-12-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:wallington-county-grammar-school-8e65a43200aa@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260612
 DTEND;VALUE=DATE:20260613
 SUMMARY:Wallington County Grammar School: Deadline for access-arrangement r
@@ -25,8 +27,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/wallington-county-gram
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wallington-county-grammar-school-2026-07-02-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:wallington-county-grammar-school-7e4eac8b337c@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260702
 DTEND;VALUE=DATE:20260703
 SUMMARY:Wallington County Grammar School: WCGS open evening (4.30pm to 8pm)
@@ -35,8 +37,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/wallington-county-gram
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wallington-county-grammar-school-2026-07-31-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:wallington-county-grammar-school-63e41cf27cee@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 SUMMARY:Wallington County Grammar School: SET registration closes (midnight
@@ -46,8 +48,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/wallington-county-gram
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wallington-county-grammar-school-2026-09-15-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:wallington-county-grammar-school-adaa02c598c5@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:Wallington County Grammar School: Selective Eligibility Test (SET)
@@ -56,8 +58,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/wallington-county-gram
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wallington-county-grammar-school-2026-09-18-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:wallington-county-grammar-school-0ac5a61403e7@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Wallington County Grammar School: Deadline for SET unfit-to-sit evi
@@ -67,8 +69,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/wallington-county-gram
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wallington-county-grammar-school-2026-10-03-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:wallington-county-grammar-school-be9e15736c24@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:Wallington County Grammar School: Shared Second Stage test (Saturda
@@ -78,8 +80,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/wallington-county-gram
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wallington-county-grammar-school-2026-10-07-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:wallington-county-grammar-school-f3804420d52c@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 SUMMARY:Wallington County Grammar School: Deadline for Second Stage unfit-t
@@ -89,8 +91,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/wallington-county-gram
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wallington-county-grammar-school-2026-10-31-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:wallington-county-grammar-school-e20f5effb575@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Wallington County Grammar School: CAF deadline\; Pupil Premium elig
@@ -100,8 +102,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/wallington-county-gram
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wallington-county-grammar-school-2026-12-07-9@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:wallington-county-grammar-school-c2ce969f7228@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Wallington County Grammar School: Last date for applications late f
@@ -111,8 +113,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/wallington-county-gram
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wallington-county-grammar-school-2027-03-01-10@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:wallington-county-grammar-school-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Wallington County Grammar School: National Offer Day
@@ -121,8 +123,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/wallington-county-gram
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wallington-county-grammar-school-2027-04-16-11@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:wallington-county-grammar-school-18e4b09af015@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270416
 DTEND;VALUE=DATE:20270417
 SUMMARY:Wallington County Grammar School: Appeals deadline to be heard by 2
@@ -132,8 +134,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/wallington-county-gram
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wallington-county-grammar-school-2027-12-31-12@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:wallington-county-grammar-school-e80c585e8aaa@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
 SUMMARY:Wallington County Grammar School: Waiting list cancelled

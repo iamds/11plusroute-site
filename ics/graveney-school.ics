@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Graveney School admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:graveney-school-2026-09-03-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:graveney-school-6894c751e2c6@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
 SUMMARY:Graveney School: Wandsworth Year 6 Test registration closes
@@ -13,8 +15,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/graveney-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:graveney-school-2026-09-24-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:graveney-school-b586a2ff8a14@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:Graveney School: Wandsworth Year 6 Test (24\, 25\, 26 or 28 Septemb
@@ -23,8 +25,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/graveney-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:graveney-school-2026-10-15-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:graveney-school-e1e1faa513ff@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Graveney School: Graveney open morning (8.45am-12pm\, tours by appo
@@ -33,8 +35,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/graveney-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:graveney-school-2026-10-23-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:graveney-school-173303365d48@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Graveney School: Wandsworth Test results emailed
@@ -42,8 +44,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/graveney-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:graveney-school-2026-10-31-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:graveney-school-7b4cc4209a98@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Graveney School: Application deadline (midnight)
@@ -51,8 +53,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/graveney-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:graveney-school-2026-12-04-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:graveney-school-c411d761e9a5@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Graveney School: Late Test (4\, 5 and 7 December) for children who 
@@ -61,8 +63,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/graveney-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:graveney-school-2027-03-01-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:graveney-school-c7894f147de8@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Graveney School: National Offer Day (outcome emails from 5pm)

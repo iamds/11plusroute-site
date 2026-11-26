@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Parkstone Grammar School admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:parkstone-grammar-school-2026-04-13-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:parkstone-grammar-school-4beeb08a0512@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260413
 DTEND;VALUE=DATE:20260414
 SUMMARY:Parkstone Grammar School: Test registration opens
@@ -14,8 +16,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/parkstone-grammar-scho
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:parkstone-grammar-school-2026-07-09-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:parkstone-grammar-school-ac96c05858d8@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260709
 DTEND;VALUE=DATE:20260710
 SUMMARY:Parkstone Grammar School: Open Evening (6-8pm)
@@ -24,8 +26,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/parkstone-grammar-scho
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:parkstone-grammar-school-2026-09-04-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:parkstone-grammar-school-c35a520ca8bd@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:Parkstone Grammar School: Test registration closes (12 noon)
@@ -34,8 +36,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/parkstone-grammar-scho
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:parkstone-grammar-school-2026-09-07-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:parkstone-grammar-school-11ca557a97fb@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:Parkstone Grammar School: Access arrangements deadline (12 noon)
@@ -44,8 +46,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/parkstone-grammar-scho
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:parkstone-grammar-school-2026-09-18-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:parkstone-grammar-school-66b31d3f0431@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Parkstone Grammar School: Test-day information pack posted
@@ -54,8 +56,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/parkstone-grammar-scho
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:parkstone-grammar-school-2026-09-26-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:parkstone-grammar-school-b2c12a91912f@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260927
 SUMMARY:Parkstone Grammar School: Consortium entrance test
@@ -64,8 +66,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/parkstone-grammar-scho
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:parkstone-grammar-school-2026-10-02-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:parkstone-grammar-school-bfd878724a49@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Parkstone Grammar School: Catch-up test
@@ -74,8 +76,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/parkstone-grammar-scho
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:parkstone-grammar-school-2026-10-16-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:parkstone-grammar-school-f709544c7c30@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Parkstone Grammar School: Test results emailed (by 4pm)
@@ -84,8 +86,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/parkstone-grammar-scho
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:parkstone-grammar-school-2026-10-31-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:parkstone-grammar-school-d9b0609e1b79@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Parkstone Grammar School: Council application deadline
@@ -94,8 +96,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/parkstone-grammar-scho
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:parkstone-grammar-school-2027-01-29-9@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:parkstone-grammar-school-7e2086a730fd@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Parkstone Grammar School: Late test registration closes (12 noon)
@@ -104,8 +106,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/parkstone-grammar-scho
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:parkstone-grammar-school-2027-02-23-10@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:parkstone-grammar-school-35a5bcb02fe5@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270223
 DTEND;VALUE=DATE:20270224
 SUMMARY:Parkstone Grammar School: Late test (for late registrations/applica
@@ -115,8 +117,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/parkstone-grammar-scho
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:parkstone-grammar-school-2027-03-01-11@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:parkstone-grammar-school-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Parkstone Grammar School: National Offer Day
@@ -125,8 +127,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/parkstone-grammar-scho
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:parkstone-grammar-school-2027-03-15-12@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:parkstone-grammar-school-953c6ee1e62e@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Parkstone Grammar School: Deadline to accept offer (BCP)

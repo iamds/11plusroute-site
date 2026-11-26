@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Beaconsfield High School admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:beaconsfield-high-school-2026-05-01-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:beaconsfield-high-school-8b86f16b35cc@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 SUMMARY:Beaconsfield High School: Test registration opens (10am) for childr
@@ -15,8 +17,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/beaconsfield-high-scho
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:beaconsfield-high-school-2026-06-02-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:beaconsfield-high-school-3892702b8397@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260602
 DTEND;VALUE=DATE:20260603
 SUMMARY:Beaconsfield High School: Test registration closes (3pm)\; opt-out 
@@ -27,8 +29,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/beaconsfield-high-scho
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:beaconsfield-high-school-2026-06-16-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:beaconsfield-high-school-6340a5a4077d@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260616
 DTEND;VALUE=DATE:20260617
 SUMMARY:Beaconsfield High School: Access arrangement requests from all othe
@@ -38,8 +40,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/beaconsfield-high-scho
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:beaconsfield-high-school-2026-08-07-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:beaconsfield-high-school-af3e9352b947@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 SUMMARY:Beaconsfield High School: Test invitations emailed for children tes
@@ -49,8 +51,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/beaconsfield-high-scho
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:beaconsfield-high-school-2026-09-01-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:beaconsfield-high-school-6f49168790ca@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Beaconsfield High School: Must be living at the home address by thi
@@ -60,8 +62,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/beaconsfield-high-scho
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:beaconsfield-high-school-2026-09-08-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:beaconsfield-high-school-6d393b5d2a2f@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:Beaconsfield High School: Practice Test
@@ -70,8 +72,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/beaconsfield-high-scho
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:beaconsfield-high-school-2026-09-10-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:beaconsfield-high-school-8ff6b2356e5e@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Beaconsfield High School: Secondary Transfer Test
@@ -80,8 +82,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/beaconsfield-high-scho
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:beaconsfield-high-school-2026-10-09-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:beaconsfield-high-school-ce189e95620d@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:Beaconsfield High School: Test results released
@@ -90,8 +92,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/beaconsfield-high-scho
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:beaconsfield-high-school-2026-10-30-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:beaconsfield-high-school-7d97d264ed55@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:Beaconsfield High School: Selection Review deadline (full case)
@@ -100,8 +102,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/beaconsfield-high-scho
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:beaconsfield-high-school-2026-10-31-9@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:beaconsfield-high-school-3262517da203@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Beaconsfield High School: Application deadline (home council)
@@ -110,8 +112,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/beaconsfield-high-scho
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:beaconsfield-high-school-2027-01-30-10@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:beaconsfield-high-school-50da406e28b3@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:Beaconsfield High School: Evidence deadline for Service/Crown famil
@@ -121,8 +123,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/beaconsfield-high-scho
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:beaconsfield-high-school-2027-02-12-11@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:beaconsfield-high-school-c7d39e723e1a@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:Beaconsfield High School: Selection Review outcomes
@@ -131,8 +133,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/beaconsfield-high-scho
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:beaconsfield-high-school-2027-03-01-12@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:beaconsfield-high-school-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Beaconsfield High School: National Offer Day
@@ -141,8 +143,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/beaconsfield-high-scho
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:beaconsfield-high-school-2027-03-15-13@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:beaconsfield-high-school-7844aedc2a04@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Beaconsfield High School: Deadline to accept or decline the offer (

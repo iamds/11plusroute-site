@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:The North Halifax Grammar School admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:north-halifax-grammar-school-2026-03-20-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:north-halifax-grammar-school-993ea5418de9@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260320
 DTEND;VALUE=DATE:20260321
 SUMMARY:The North Halifax Grammar School: Test registration opens (either s
@@ -15,8 +17,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/north-halifax-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:north-halifax-grammar-school-2026-06-23-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:north-halifax-grammar-school-3133bf52d6f9@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260623
 DTEND;VALUE=DATE:20260624
 SUMMARY:The North Halifax Grammar School: Crossley Heath open evening (5-8p
@@ -26,8 +28,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/north-halifax-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:north-halifax-grammar-school-2026-06-25-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:north-halifax-grammar-school-1c4e8d54bcbe@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260625
 DTEND;VALUE=DATE:20260626
 SUMMARY:The North Halifax Grammar School: North Halifax Grammar School open
@@ -37,8 +39,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/north-halifax-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:north-halifax-grammar-school-2026-06-26-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:north-halifax-grammar-school-4076d19b0d13@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:The North Halifax Grammar School: Test registration deadline
@@ -47,8 +49,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/north-halifax-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:north-halifax-grammar-school-2026-09-07-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:north-halifax-grammar-school-3f4e82121a74@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:The North Halifax Grammar School: Venue and timetable details recei
@@ -58,8 +60,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/north-halifax-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:north-halifax-grammar-school-2026-09-19-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:north-halifax-grammar-school-2cefaa49b9b6@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:The North Halifax Grammar School: Admissions test at the Halifax Gr
@@ -69,8 +71,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/north-halifax-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:north-halifax-grammar-school-2026-09-25-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:north-halifax-grammar-school-932ced96008a@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:The North Halifax Grammar School: Supplementary test at Crossley He
@@ -80,8 +82,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/north-halifax-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:north-halifax-grammar-school-2026-09-30-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:north-halifax-grammar-school-66f3b3735419@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:The North Halifax Grammar School: End of September: Pupil/Service P
@@ -91,8 +93,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/north-halifax-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:north-halifax-grammar-school-2026-10-16-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:north-halifax-grammar-school-4aaaa6a7088a@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:The North Halifax Grammar School: Test results uploaded to Applicaa
@@ -102,8 +104,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/north-halifax-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:north-halifax-grammar-school-2026-10-31-9@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:north-halifax-grammar-school-1dac74ddf9fd@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:The North Halifax Grammar School: CAF deadline (Calderdale and neig
@@ -113,8 +115,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/north-halifax-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:north-halifax-grammar-school-2027-03-01-10@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:north-halifax-grammar-school-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:The North Halifax Grammar School: National Offer Day

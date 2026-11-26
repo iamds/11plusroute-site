@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Reading School admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:reading-school-2026-03-25-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:reading-school-5537a2610c46@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260325
 DTEND;VALUE=DATE:20260326
 SUMMARY:Reading School: Open Day
@@ -13,8 +15,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/reading-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:reading-school-2026-03-27-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:reading-school-a89256d85830@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260327
 DTEND;VALUE=DATE:20260328
 SUMMARY:Reading School: Online test registration opens
@@ -22,8 +24,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/reading-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:reading-school-2026-05-17-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:reading-school-8f48639b7594@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260517
 DTEND;VALUE=DATE:20260518
 SUMMARY:Reading School: Test registration closes (midnight)
@@ -31,8 +33,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/reading-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:reading-school-2026-05-31-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:reading-school-e4edaa4e074d@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260531
 DTEND;VALUE=DATE:20260601
 SUMMARY:Reading School: Evidence deadline (PP/SP/SEN/EHCP)
@@ -40,8 +42,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/reading-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:reading-school-2026-06-30-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:reading-school-55887fd6b50b@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 SUMMARY:Reading School: Test venue and time\, and access arrangements\, con
@@ -50,8 +52,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/reading-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:reading-school-2026-07-12-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:reading-school-881c2e875d7e@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260712
 DTEND;VALUE=DATE:20260713
 SUMMARY:Reading School: Sporting Aptitude Assessment
@@ -59,8 +61,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/reading-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:reading-school-2026-07-15-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:reading-school-54e1fefc146b@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260716
 SUMMARY:Reading School: Test for candidates with special arrangements
@@ -68,8 +70,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/reading-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:reading-school-2026-07-16-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:reading-school-b537a7221b72@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260716
 DTEND;VALUE=DATE:20260717
 SUMMARY:Reading School: Entrance test (in-catchment day and boarding candid
@@ -78,8 +80,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/reading-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:reading-school-2026-07-16-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:reading-school-6b7adf23f728@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260716
 DTEND;VALUE=DATE:20260717
 SUMMARY:Reading School: Deadline: Test Details form
@@ -87,8 +89,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/reading-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:reading-school-2026-09-25-9@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:reading-school-19f35bf7b554@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Reading School: Online test for day applicants outside the catchmen
@@ -97,8 +99,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/reading-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:reading-school-2026-10-09-10@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:reading-school-bc0aa1157fea@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:Reading School: Results emailed (eligible or not\, and oversubscrip
@@ -107,8 +109,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/reading-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:reading-school-2026-10-31-11@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:reading-school-481d2d9cbd37@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Reading School: CAF deadline (11.59pm)
@@ -116,8 +118,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/reading-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:reading-school-2027-03-01-12@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:reading-school-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Reading School: National Offer Day
@@ -125,8 +127,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/reading-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:reading-school-2027-03-12-13@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:reading-school-a08b935ab24d@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:Reading School: Acceptance deadline
@@ -134,8 +136,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/reading-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:reading-school-2027-03-17-14@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:reading-school-dd2ceadeb031@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
 SUMMARY:Reading School: Open Day and registration opening for 2028 entry
@@ -143,8 +145,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/reading-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:reading-school-2027-04-01-15@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:reading-school-0d727b6a3a30@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 SUMMARY:Reading School: Waiting list re-ranked
@@ -152,8 +154,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/reading-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:reading-school-2028-01-31-16@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:reading-school-65d7134fd8a9@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20280131
 DTEND;VALUE=DATE:20280201
 SUMMARY:Reading School: Year 7 waiting list closes

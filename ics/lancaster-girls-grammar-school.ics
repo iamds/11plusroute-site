@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Lancaster Girls' Grammar School admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:lancaster-girls-grammar-school-2026-06-01-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:lancaster-girls-grammar-school-1823a4757e31@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 SUMMARY:Lancaster Girls' Grammar School: 11+ registration opens
@@ -14,8 +16,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/lancaster-girls-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:lancaster-girls-grammar-school-2026-06-25-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:lancaster-girls-grammar-school-00b9044b781c@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260625
 DTEND;VALUE=DATE:20260626
 SUMMARY:Lancaster Girls' Grammar School: Open evening for Year 4/5 families
@@ -24,8 +26,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/lancaster-girls-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:lancaster-girls-grammar-school-2026-09-09-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:lancaster-girls-grammar-school-2a6ef7f097cb@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
 SUMMARY:Lancaster Girls' Grammar School: 11+ registration closes (12 noon)
@@ -34,8 +36,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/lancaster-girls-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:lancaster-girls-grammar-school-2026-09-26-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:lancaster-girls-grammar-school-577cbcadf936@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260927
 SUMMARY:Lancaster Girls' Grammar School: FSCE entrance test (Saturday)
@@ -44,8 +46,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/lancaster-girls-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:lancaster-girls-grammar-school-2026-09-29-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:lancaster-girls-grammar-school-71cbf7f0db3e@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:Lancaster Girls' Grammar School: Deadline to tell LGGS about circum
@@ -55,8 +57,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/lancaster-girls-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:lancaster-girls-grammar-school-2026-10-17-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:lancaster-girls-grammar-school-90ab04ff00df@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:Lancaster Girls' Grammar School: Parents told whether she reached t
@@ -66,8 +68,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/lancaster-girls-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:lancaster-girls-grammar-school-2026-10-31-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:lancaster-girls-grammar-school-524517f532d9@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Lancaster Girls' Grammar School: Local authority application deadli
@@ -77,8 +79,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/lancaster-girls-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:lancaster-girls-grammar-school-2027-03-01-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:lancaster-girls-grammar-school-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Lancaster Girls' Grammar School: National Offer Day
@@ -87,8 +89,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/lancaster-girls-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:lancaster-girls-grammar-school-2027-03-15-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:lancaster-girls-grammar-school-1dc082f7d11c@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Lancaster Girls' Grammar School: Deadline to accept or decline a pl
@@ -98,8 +100,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/lancaster-girls-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:lancaster-girls-grammar-school-2027-04-01-9@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:lancaster-girls-grammar-school-7caa6833c0c0@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 SUMMARY:Lancaster Girls' Grammar School: Further offers from the waiting li

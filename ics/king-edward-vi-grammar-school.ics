@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:King Edward VI Grammar School admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:king-edward-vi-grammar-school-2026-01-07-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:king-edward-vi-grammar-school-97d140405448@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260107
 DTEND;VALUE=DATE:20260108
 SUMMARY:King Edward VI Grammar School: Registration for the September 11+ o
@@ -15,8 +17,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:king-edward-vi-grammar-school-2026-03-31-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:king-edward-vi-grammar-school-126cc91fdee7@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260331
 DTEND;VALUE=DATE:20260401
 SUMMARY:King Edward VI Grammar School: 11+ registration closes
@@ -25,8 +27,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:king-edward-vi-grammar-school-2026-09-12-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:king-edward-vi-grammar-school-5491ef5f278f@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:King Edward VI Grammar School: Verbal reasoning test (Fri 11 or Sat
@@ -36,8 +38,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:king-edward-vi-grammar-school-2026-09-19-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:king-edward-vi-grammar-school-42d0704eccf3@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:King Edward VI Grammar School: Non-verbal reasoning test (Fri 18 or
@@ -47,8 +49,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:king-edward-vi-grammar-school-2026-10-09-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:king-edward-vi-grammar-school-d667e3ba7c8a@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:King Edward VI Grammar School: 11+ results emailed to parents (midd
@@ -58,8 +60,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:king-edward-vi-grammar-school-2026-10-31-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:king-edward-vi-grammar-school-b23a0bf38c13@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:King Edward VI Grammar School: National closing date for applicatio
@@ -69,8 +71,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:king-edward-vi-grammar-school-2026-12-14-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:king-edward-vi-grammar-school-b244b033d8c7@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:King Edward VI Grammar School: Lincolnshire's last date for applica
@@ -80,8 +82,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:king-edward-vi-grammar-school-2027-03-01-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:king-edward-vi-grammar-school-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:King Edward VI Grammar School: National Offer Day
@@ -90,8 +92,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:king-edward-vi-grammar-school-2027-03-26-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:king-edward-vi-grammar-school-fe7a1000272b@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
 SUMMARY:King Edward VI Grammar School: School appeal deadline
@@ -100,8 +102,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/king-edward-vi-grammar
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:king-edward-vi-grammar-school-2027-04-14-9@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:king-edward-vi-grammar-school-29e89191a185@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270414
 DTEND;VALUE=DATE:20270415
 SUMMARY:King Edward VI Grammar School: Lincolnshire's deadline for on-time 

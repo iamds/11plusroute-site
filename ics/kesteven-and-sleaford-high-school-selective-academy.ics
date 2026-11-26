@@ -3,10 +3,12 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Kesteven and Sleaford High School Selective Academy admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:kesteven-and-sleaford-high-school-selective-academy-2026-03-31-0@iamds.
+UID:kesteven-and-sleaford-high-school-selective-academy-76801f731f25@iamds.
  github.io
-DTSTAMP:20261126T091009Z
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260331
 DTEND;VALUE=DATE:20260401
 SUMMARY:Kesteven and Sleaford High School Selective Academy: Consortium dea
@@ -16,9 +18,9 @@ URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-sleaford-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kesteven-and-sleaford-high-school-selective-academy-2026-06-13-1@iamds.
+UID:kesteven-and-sleaford-high-school-selective-academy-5b2e5edda84a@iamds.
  github.io
-DTSTAMP:20261126T091009Z
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260613
 DTEND;VALUE=DATE:20260614
 SUMMARY:Kesteven and Sleaford High School Selective Academy: Familiarisatio
@@ -28,9 +30,9 @@ URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-sleaford-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kesteven-and-sleaford-high-school-selective-academy-2026-06-30-2@iamds.
+UID:kesteven-and-sleaford-high-school-selective-academy-72105c260b20@iamds.
  github.io
-DTSTAMP:20261126T091009Z
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 SUMMARY:Kesteven and Sleaford High School Selective Academy: Open Evening
@@ -39,9 +41,9 @@ URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-sleaford-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kesteven-and-sleaford-high-school-selective-academy-2026-09-12-3@iamds.
+UID:kesteven-and-sleaford-high-school-selective-academy-a1159b22cd0c@iamds.
  github.io
-DTSTAMP:20261126T091009Z
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Kesteven and Sleaford High School Selective Academy: 11+ Verbal Rea
@@ -51,9 +53,9 @@ URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-sleaford-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kesteven-and-sleaford-high-school-selective-academy-2026-09-19-4@iamds.
+UID:kesteven-and-sleaford-high-school-selective-academy-7822fe920fd7@iamds.
  github.io
-DTSTAMP:20261126T091009Z
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Kesteven and Sleaford High School Selective Academy: 11+ Non-Verbal
@@ -63,9 +65,9 @@ URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-sleaford-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kesteven-and-sleaford-high-school-selective-academy-2026-10-09-5@iamds.
+UID:kesteven-and-sleaford-high-school-selective-academy-427a7481f4b2@iamds.
  github.io
-DTSTAMP:20261126T091009Z
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:Kesteven and Sleaford High School Selective Academy: 11+ results em
@@ -75,9 +77,9 @@ URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-sleaford-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kesteven-and-sleaford-high-school-selective-academy-2026-10-14-6@iamds.
+UID:kesteven-and-sleaford-high-school-selective-academy-c78b31709677@iamds.
  github.io
-DTSTAMP:20261126T091009Z
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 SUMMARY:Kesteven and Sleaford High School Selective Academy: Open Morning
@@ -86,9 +88,9 @@ URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-sleaford-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kesteven-and-sleaford-high-school-selective-academy-2026-10-31-7@iamds.
+UID:kesteven-and-sleaford-high-school-selective-academy-fa0210f8df80@iamds.
  github.io
-DTSTAMP:20261126T091009Z
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Kesteven and Sleaford High School Selective Academy: Secondary appl
@@ -98,9 +100,9 @@ URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-sleaford-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kesteven-and-sleaford-high-school-selective-academy-2026-12-14-8@iamds.
+UID:kesteven-and-sleaford-high-school-selective-academy-ce7ca1406a54@iamds.
  github.io
-DTSTAMP:20261126T091009Z
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:Kesteven and Sleaford High School Selective Academy: Lincolnshire's
@@ -111,9 +113,9 @@ URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-sleaford-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kesteven-and-sleaford-high-school-selective-academy-2027-03-01-9@iamds.
+UID:kesteven-and-sleaford-high-school-selective-academy-b6c34c92fe76@iamds.
  github.io
-DTSTAMP:20261126T091009Z
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Kesteven and Sleaford High School Selective Academy: National Offer
@@ -123,9 +125,9 @@ URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-sleaford-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kesteven-and-sleaford-high-school-selective-academy-2027-03-02-10@iamds
- .github.io
-DTSTAMP:20261126T091009Z
+UID:kesteven-and-sleaford-high-school-selective-academy-d530ca459066@iamds.
+ github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270302
 DTEND;VALUE=DATE:20270303
 SUMMARY:Kesteven and Sleaford High School Selective Academy: School writes 
@@ -135,9 +137,9 @@ URL:https://iamds.github.io/11plusroute-site/schools/kesteven-and-sleaford-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kesteven-and-sleaford-high-school-selective-academy-2027-03-12-11@iamds
- .github.io
-DTSTAMP:20261126T091009Z
+UID:kesteven-and-sleaford-high-school-selective-academy-b38e51aeb9c4@iamds.
+ github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:Kesteven and Sleaford High School Selective Academy: Deadline to ac

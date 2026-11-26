@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Chatham Grammar admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:chatham-grammar-2026-05-18-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:chatham-grammar-a28ad7bff497@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260518
 DTEND;VALUE=DATE:20260519
 SUMMARY:Chatham Grammar: Medway Test registration opens (9am)
@@ -13,8 +15,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/chatham-grammar.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chatham-grammar-2026-06-12-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:chatham-grammar-de40b12e1a55@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260612
 DTEND;VALUE=DATE:20260613
 SUMMARY:Chatham Grammar: Medway Test registration closes (5pm)
@@ -22,8 +24,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/chatham-grammar.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chatham-grammar-2026-06-22-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:chatham-grammar-e44a93af3c62@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260622
 DTEND;VALUE=DATE:20260623
 SUMMARY:Chatham Grammar: Deadline for schools to request special arrangemen
@@ -32,8 +34,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/chatham-grammar.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chatham-grammar-2026-07-01-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:chatham-grammar-2641c049c380@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Chatham Grammar: Kent Test registration closes (Kent route only)
@@ -41,8 +43,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/chatham-grammar.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chatham-grammar-2026-09-01-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:chatham-grammar-f7e2cb2f52bb@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Chatham Grammar: Secondary applications open
@@ -50,8 +52,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/chatham-grammar.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chatham-grammar-2026-09-10-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:chatham-grammar-73e632119542@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Chatham Grammar: Kent Test for children at Kent primary schools (ot
@@ -60,8 +62,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/chatham-grammar.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chatham-grammar-2026-09-15-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:chatham-grammar-8f61cef589f2@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:Chatham Grammar: Medway Test at Medway primary/junior schools (15-1
@@ -70,8 +72,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/chatham-grammar.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chatham-grammar-2026-09-19-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:chatham-grammar-4f7dfb2fc399@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Chatham Grammar: Medway Test at test centres for children from non-
@@ -80,8 +82,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/chatham-grammar.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chatham-grammar-2026-10-14-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:chatham-grammar-e0b670fc9777@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 SUMMARY:Chatham Grammar: Medway Test results
@@ -89,8 +91,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/chatham-grammar.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chatham-grammar-2026-10-15-9@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:chatham-grammar-1aeee6f43c18@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Chatham Grammar: Kent Test results
@@ -98,8 +100,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/chatham-grammar.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chatham-grammar-2026-10-31-10@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:chatham-grammar-26af544e7ccb@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Chatham Grammar: Secondary application deadline (5pm)
@@ -107,8 +109,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/chatham-grammar.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chatham-grammar-2027-03-01-11@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:chatham-grammar-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Chatham Grammar: National Offer Day
@@ -116,8 +118,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/chatham-grammar.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chatham-grammar-2027-03-12-12@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:chatham-grammar-4a7b9ea92e75@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:Chatham Grammar: Deadline to accept/refuse offers and ask for waiti
@@ -126,8 +128,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/chatham-grammar.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chatham-grammar-2027-04-13-13@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:chatham-grammar-22c795ae14c5@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Chatham Grammar: Deadline for on-time appeal requests
@@ -135,8 +137,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/chatham-grammar.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chatham-grammar-2027-04-19-14@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:chatham-grammar-6935c51441a1@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270419
 DTEND;VALUE=DATE:20270420
 SUMMARY:Chatham Grammar: Reallocation from waiting lists and late applicati
@@ -145,8 +147,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/chatham-grammar.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chatham-grammar-2027-08-31-15@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:chatham-grammar-fb0435b4f969@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270831
 DTEND;VALUE=DATE:20270901
 SUMMARY:Chatham Grammar: Council waiting lists close

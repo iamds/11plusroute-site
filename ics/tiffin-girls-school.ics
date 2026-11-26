@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:The Tiffin Girls' School admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:tiffin-girls-school-2026-06-02-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:tiffin-girls-school-c6d762b9a2d2@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260602
 DTEND;VALUE=DATE:20260603
 SUMMARY:The Tiffin Girls' School: Online SIF registration opens
@@ -14,8 +16,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/tiffin-girls-school.ht
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tiffin-girls-school-2026-07-07-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:tiffin-girls-school-e252342bbcb6@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260707
 DTEND;VALUE=DATE:20260708
 SUMMARY:The Tiffin Girls' School: Open Evening for Year 7 entry 2027
@@ -24,8 +26,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/tiffin-girls-school.ht
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tiffin-girls-school-2026-07-16-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:tiffin-girls-school-5c2410ee2214@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260716
 DTEND;VALUE=DATE:20260717
 SUMMARY:The Tiffin Girls' School: Preferred registration date for catchment
@@ -35,8 +37,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/tiffin-girls-school.ht
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tiffin-girls-school-2026-09-01-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:tiffin-girls-school-d14aefe86945@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:The Tiffin Girls' School: SIF deadline (12 noon)\, also the deadlin
@@ -46,8 +48,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/tiffin-girls-school.ht
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tiffin-girls-school-2026-10-01-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:tiffin-girls-school-e0537451afb8@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:The Tiffin Girls' School: Stage One test (1 and 2 October\, day all
@@ -57,8 +59,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/tiffin-girls-school.ht
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tiffin-girls-school-2026-10-14-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:tiffin-girls-school-4ca6bc54d405@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 SUMMARY:The Tiffin Girls' School: Stage Two invitations / not-invited email
@@ -68,8 +70,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/tiffin-girls-school.ht
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tiffin-girls-school-2026-10-31-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:tiffin-girls-school-12b72e86d7fe@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:The Tiffin Girls' School: CAF deadline
@@ -78,8 +80,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/tiffin-girls-school.ht
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tiffin-girls-school-2026-11-07-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:tiffin-girls-school-6437e70e8a4c@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:The Tiffin Girls' School: Stage Two test
@@ -88,8 +90,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/tiffin-girls-school.ht
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tiffin-girls-school-2027-03-01-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:tiffin-girls-school-10bf0c0e145d@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:The Tiffin Girls' School: National Offer Day (offers after 5pm)
@@ -98,8 +100,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/tiffin-girls-school.ht
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tiffin-girls-school-2027-03-02-9@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:tiffin-girls-school-e191792e5006@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270302
 DTEND;VALUE=DATE:20270303
 SUMMARY:The Tiffin Girls' School: Stage Two results emailed to waiting-list

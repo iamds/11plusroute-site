@@ -41,7 +41,7 @@
     if (!items.length) {
       $("sl-list").innerHTML = `<div class="card sl-empty"><p><b>Your shortlist is empty.</b></p>
         <p>Tap the ☆ next to a school in the <a href="index.html">school list</a>, on the map, or on a school's page to add it here.</p></div>`;
-      $("sl-dates-card").hidden = true;
+      $("sl-dates-card").hidden = true; $("sl-sub-card").hidden = true;
       return;
     }
     $("sl-list").innerHTML = `<div class="card table-wrap" style="padding:0"><table class="sltable"><thead><tr>
@@ -65,6 +65,8 @@
     $("sl-dates").innerHTML = `<ul class="evlist">${evs.slice(0, 12).map(e => `<li class="ev ev-${e.k}"><time>${new Date(e.d + "T12:00").toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "long", year: "numeric" })}</time>
       <span><a href="schools/${e.s.slug}.html${pcq}">${esc(e.s.name)}</a>: ${esc(e.t)}</span></li>`).join("")}</ul>`;
     window._slEvents = evs;
+    $("sl-sub-card").hidden = false;
+    $("sl-subs").innerHTML = items.map(s => `<li><a href="${esc((s.ics || "").replace(/^https?:/, "webcal:"))}">${esc(s.name)}</a> <input class="icsurl" readonly value="${esc(s.ics || "")}" aria-label="Calendar link for ${esc(s.name)}" onfocus="this.select()"></li>`).join("");
   }
 
   // Unstarring keeps the row (faded) until the page is reloaded, with an Undo, so a slip is easy to fix

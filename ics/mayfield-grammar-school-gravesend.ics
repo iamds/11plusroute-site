@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Mayfield Grammar School\, Gravesend admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:mayfield-grammar-school-gravesend-2026-06-01-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:mayfield-grammar-school-gravesend-d243f6744a52@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 SUMMARY:Mayfield Grammar School\, Gravesend: Kent Test registration opens (
@@ -15,8 +17,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:mayfield-grammar-school-gravesend-2026-07-01-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:mayfield-grammar-school-gravesend-8d841080b810@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Mayfield Grammar School\, Gravesend: Kent Test registration and acc
@@ -26,8 +28,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:mayfield-grammar-school-gravesend-2026-07-03-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:mayfield-grammar-school-gravesend-7ae3f0a62963@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260703
 DTEND;VALUE=DATE:20260704
 SUMMARY:Mayfield Grammar School\, Gravesend: Mayfield test registration clo
@@ -37,8 +39,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:mayfield-grammar-school-gravesend-2026-07-21-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:mayfield-grammar-school-gravesend-c11010fa1142@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260721
 DTEND;VALUE=DATE:20260722
 SUMMARY:Mayfield Grammar School\, Gravesend: Last date for late paper regis
@@ -48,8 +50,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:mayfield-grammar-school-gravesend-2026-09-01-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:mayfield-grammar-school-gravesend-916601f3d6b1@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Mayfield Grammar School\, Gravesend: Secondary applications (SCAF) 
@@ -59,8 +61,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:mayfield-grammar-school-gravesend-2026-09-10-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:mayfield-grammar-school-gravesend-425301044e7d@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Mayfield Grammar School\, Gravesend: Kent Test in Kent primary scho
@@ -70,8 +72,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:mayfield-grammar-school-gravesend-2026-09-12-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:mayfield-grammar-school-gravesend-2e02080775d8@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Mayfield Grammar School\, Gravesend: Kent Test at test centres for 
@@ -81,8 +83,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:mayfield-grammar-school-gravesend-2026-09-12-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:mayfield-grammar-school-gravesend-dfda56b13983@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Mayfield Grammar School\, Gravesend: Mayfield test at Mayfield Gram
@@ -92,8 +94,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:mayfield-grammar-school-gravesend-2026-10-13-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:mayfield-grammar-school-gravesend-9e471aed5495@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
 SUMMARY:Mayfield Grammar School\, Gravesend: Open mornings (13 and 14 Octob
@@ -103,8 +105,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:mayfield-grammar-school-gravesend-2026-10-15-9@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:mayfield-grammar-school-gravesend-9a0a1bb01bfb@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Mayfield Grammar School\, Gravesend: Kent Test decisions emailed af
@@ -114,8 +116,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:mayfield-grammar-school-gravesend-2026-10-15-10@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:mayfield-grammar-school-gravesend-71f7cc0da540@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Mayfield Grammar School\, Gravesend: Mayfield test results emailed\
@@ -125,8 +127,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:mayfield-grammar-school-gravesend-2026-11-02-11@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:mayfield-grammar-school-gravesend-aec12d9ca45a@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:Mayfield Grammar School\, Gravesend: National closing date for seco
@@ -136,8 +138,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:mayfield-grammar-school-gravesend-2026-12-07-12@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:mayfield-grammar-school-gravesend-f80cd6766b64@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Mayfield Grammar School\, Gravesend: Final date for on-time changes
@@ -147,8 +149,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:mayfield-grammar-school-gravesend-2027-03-01-13@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:mayfield-grammar-school-gravesend-e66f0502bb93@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Mayfield Grammar School\, Gravesend: National Offer Day (emails aft
@@ -158,8 +160,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:mayfield-grammar-school-gravesend-2027-03-15-14@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:mayfield-grammar-school-gravesend-10c78c9623b8@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Mayfield Grammar School\, Gravesend: Accept/decline offers\; deadli
@@ -170,8 +172,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:mayfield-grammar-school-gravesend-2027-04-13-15@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:mayfield-grammar-school-gravesend-03d8152b75d5@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Mayfield Grammar School\, Gravesend: Deadline for lodging appeals (
@@ -181,8 +183,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/mayfield-grammar-schoo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:mayfield-grammar-school-gravesend-2027-04-27-16@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:mayfield-grammar-school-gravesend-b77a76eb0903@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
 SUMMARY:Mayfield Grammar School\, Gravesend: KCC reallocation of places tha

@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Chelmsford County High School for Girls admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:chelmsford-county-high-school-for-girls-2026-04-13-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:chelmsford-county-high-school-for-girls-3f1ddb886cdd@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260413
 DTEND;VALUE=DATE:20260414
 SUMMARY:Chelmsford County High School for Girls: Test registration opens (9
@@ -15,8 +17,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/chelmsford-county-high
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chelmsford-county-high-school-for-girls-2026-04-30-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:chelmsford-county-high-school-for-girls-3e8e9596aa49@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
 SUMMARY:Chelmsford County High School for Girls: CCHS open evening
@@ -25,8 +27,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/chelmsford-county-high
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chelmsford-county-high-school-for-girls-2026-06-03-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:chelmsford-county-high-school-for-girls-a294ae9fcc15@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260603
 DTEND;VALUE=DATE:20260604
 SUMMARY:Chelmsford County High School for Girls: Test registration closes (
@@ -36,8 +38,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/chelmsford-county-high
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chelmsford-county-high-school-for-girls-2026-09-03-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:chelmsford-county-high-school-for-girls-d5eaeb6a6d5b@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
 SUMMARY:Chelmsford County High School for Girls: CCHS Entrance Test (Thursd
@@ -47,8 +49,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/chelmsford-county-high
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chelmsford-county-high-school-for-girls-2026-10-12-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:chelmsford-county-high-school-for-girls-c3d0d9b54521@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 SUMMARY:Chelmsford County High School for Girls: Results emailed
@@ -57,8 +59,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/chelmsford-county-high
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chelmsford-county-high-school-for-girls-2026-10-31-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:chelmsford-county-high-school-for-girls-92efd38aa67d@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Chelmsford County High School for Girls: Application deadline\; Pup
@@ -69,8 +71,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/chelmsford-county-high
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chelmsford-county-high-school-for-girls-2026-11-06-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:chelmsford-county-high-school-for-girls-fa2552d34024@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Chelmsford County High School for Girls: Consultation on 2028 admis
@@ -80,8 +82,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/chelmsford-county-high
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chelmsford-county-high-school-for-girls-2027-03-01-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:chelmsford-county-high-school-for-girls-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Chelmsford County High School for Girls: National Offer Day

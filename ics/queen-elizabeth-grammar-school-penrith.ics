@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Queen Elizabeth Grammar School Penrith admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:queen-elizabeth-grammar-school-penrith-2026-07-11-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:queen-elizabeth-grammar-school-penrith-5af331b58e1b@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260711
 DTEND;VALUE=DATE:20260712
 SUMMARY:Queen Elizabeth Grammar School Penrith: Deadline for access-arrange
@@ -16,8 +18,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeth-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:queen-elizabeth-grammar-school-penrith-2026-07-12-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:queen-elizabeth-grammar-school-penrith-63902977db2e@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260712
 DTEND;VALUE=DATE:20260713
 SUMMARY:Queen Elizabeth Grammar School Penrith: Entrance test registration 
@@ -27,8 +29,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeth-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:queen-elizabeth-grammar-school-penrith-2026-10-31-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:queen-elizabeth-grammar-school-penrith-45ec8c7dccc0@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Queen Elizabeth Grammar School Penrith: Council application (SA3) d
@@ -38,8 +40,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeth-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:queen-elizabeth-grammar-school-penrith-2027-03-01-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:queen-elizabeth-grammar-school-penrith-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Queen Elizabeth Grammar School Penrith: National Offer Day
@@ -48,8 +50,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/queen-elizabeth-gramma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:queen-elizabeth-grammar-school-penrith-2027-12-31-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:queen-elizabeth-grammar-school-penrith-d606f47d9540@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
 SUMMARY:Queen Elizabeth Grammar School Penrith: Year 7 waiting list closes

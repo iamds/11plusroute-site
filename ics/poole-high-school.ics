@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Poole High School admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:poole-high-school-2026-07-02-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:poole-high-school-a318996aeac6@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260702
 DTEND;VALUE=DATE:20260703
 SUMMARY:Poole High School: Year 5 Open Evening
@@ -13,8 +15,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/poole-high-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:poole-high-school-2026-09-18-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:poole-high-school-14f8cd7c3df9@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Poole High School: Expressly Academic test registration closes (23:
@@ -23,8 +25,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/poole-high-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:poole-high-school-2026-09-28-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:poole-high-school-d59a86fb4ed8@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 SUMMARY:Poole High School: Test-day arrangements sent to families
@@ -32,8 +34,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/poole-high-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:poole-high-school-2026-10-03-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:poole-high-school-eecdfcbd7bd8@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:Poole High School: Expressly Academic tests (Saturday morning)
@@ -41,8 +43,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/poole-high-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:poole-high-school-2026-10-16-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:poole-high-school-5a052ab48f12@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Poole High School: Test results letter (score and likelihood of suc
@@ -51,8 +53,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/poole-high-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:poole-high-school-2026-10-31-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:poole-high-school-d9b0609e1b79@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Poole High School: Council application deadline
@@ -60,8 +62,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/poole-high-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:poole-high-school-2027-03-01-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:poole-high-school-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Poole High School: National Offer Day
@@ -69,8 +71,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/poole-high-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:poole-high-school-2027-03-15-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:poole-high-school-953c6ee1e62e@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Poole High School: Deadline to accept offer (BCP)

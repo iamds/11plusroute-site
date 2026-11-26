@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Haberdashers' Adams admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:haberdashers-adams-2026-01-19-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:haberdashers-adams-d83e8a9fa319@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260119
 DTEND;VALUE=DATE:20260120
 SUMMARY:Haberdashers' Adams: Open week (19-23 January 2026)
@@ -14,8 +16,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/haberdashers-adams.htm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:haberdashers-adams-2026-05-05-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:haberdashers-adams-af3a15b17e84@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260505
 DTEND;VALUE=DATE:20260506
 SUMMARY:Haberdashers' Adams: Consortium online registration opens
@@ -24,8 +26,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/haberdashers-adams.htm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:haberdashers-adams-2026-06-12-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:haberdashers-adams-3c29ec18fd5e@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260612
 DTEND;VALUE=DATE:20260613
 SUMMARY:Haberdashers' Adams: Special Arrangements Form deadline (4pm)
@@ -34,8 +36,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/haberdashers-adams.htm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:haberdashers-adams-2026-06-26-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:haberdashers-adams-e3a583b2f447@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:Haberdashers' Adams: Registration and Pupil Premium Form deadline (
@@ -45,8 +47,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/haberdashers-adams.htm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:haberdashers-adams-2026-09-14-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:haberdashers-adams-59cdfdc7c982@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 SUMMARY:Haberdashers' Adams: Entrance test
@@ -55,8 +57,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/haberdashers-adams.htm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:haberdashers-adams-2026-10-14-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:haberdashers-adams-c53ccf49d1e9@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 SUMMARY:Haberdashers' Adams: Results released
@@ -65,8 +67,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/haberdashers-adams.htm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:haberdashers-adams-2026-10-31-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:haberdashers-adams-209ac71e0679@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Haberdashers' Adams: Deadline for preference forms to home council
@@ -75,8 +77,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/haberdashers-adams.htm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:haberdashers-adams-2026-11-01-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:haberdashers-adams-3c0513625848@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Haberdashers' Adams: Boarding interviews (November)
@@ -85,8 +87,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/haberdashers-adams.htm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:haberdashers-adams-2027-03-01-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:haberdashers-adams-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Haberdashers' Adams: National Offer Day
@@ -95,8 +97,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/haberdashers-adams.htm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:haberdashers-adams-2027-12-31-9@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:haberdashers-adams-d606f47d9540@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
 SUMMARY:Haberdashers' Adams: Year 7 waiting list closes

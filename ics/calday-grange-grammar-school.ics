@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Calday Grange Grammar School admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:calday-grange-grammar-school-2026-05-01-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:calday-grange-grammar-school-758d532d5ad1@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 SUMMARY:Calday Grange Grammar School: Wirral 11+ registration opens
@@ -14,8 +16,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/calday-grange-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:calday-grange-grammar-school-2026-05-31-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:calday-grange-grammar-school-3dd73a4a4e8e@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260531
 DTEND;VALUE=DATE:20260601
 SUMMARY:Calday Grange Grammar School: Wirral 11+ registration deadline
@@ -24,8 +26,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/calday-grange-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:calday-grange-grammar-school-2026-06-07-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:calday-grange-grammar-school-9899c58c6f08@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260607
 DTEND;VALUE=DATE:20260608
 SUMMARY:Calday Grange Grammar School: Deadline for access-arrangement evide
@@ -35,8 +37,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/calday-grange-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:calday-grange-grammar-school-2026-07-17-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:calday-grange-grammar-school-f75ec6201548@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260717
 DTEND;VALUE=DATE:20260718
 SUMMARY:Calday Grange Grammar School: Access-arrangement decisions confirme
@@ -46,8 +48,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/calday-grange-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:calday-grange-grammar-school-2026-09-15-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:calday-grange-grammar-school-61e42ac247ec@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:Calday Grange Grammar School: Wirral 11+ test day
@@ -56,8 +58,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/calday-grange-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:calday-grange-grammar-school-2026-10-21-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:calday-grange-grammar-school-c313ba171700@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 SUMMARY:Calday Grange Grammar School: Results sent to parents
@@ -66,8 +68,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/calday-grange-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:calday-grange-grammar-school-2026-10-31-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:calday-grange-grammar-school-578e61e97c23@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Calday Grange Grammar School: Secondary application (CAF) deadline
@@ -76,8 +78,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/calday-grange-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:calday-grange-grammar-school-2027-03-01-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:calday-grange-grammar-school-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Calday Grange Grammar School: National Offer Day
@@ -86,8 +88,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/calday-grange-grammar-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:calday-grange-grammar-school-2027-03-15-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:calday-grange-grammar-school-6f7c391c3fe3@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Calday Grange Grammar School: Deadline to decline an offer or ask t

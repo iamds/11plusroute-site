@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Boston High School admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:boston-high-school-2026-01-07-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:boston-high-school-5f92435577f3@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260107
 DTEND;VALUE=DATE:20260108
 SUMMARY:Boston High School: 11+ registration opens
@@ -14,8 +16,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/boston-high-school.htm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:boston-high-school-2026-03-31-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:boston-high-school-434a23554c85@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260331
 DTEND;VALUE=DATE:20260401
 SUMMARY:Boston High School: 11+ registration deadline
@@ -24,8 +26,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/boston-high-school.htm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:boston-high-school-2026-09-11-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:boston-high-school-01151851f46c@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:Boston High School: First 11+ test: Verbal Reasoning (Friday 11 or 
@@ -35,8 +37,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/boston-high-school.htm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:boston-high-school-2026-09-18-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:boston-high-school-05577f5c328f@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Boston High School: Second 11+ test: Non-Verbal Reasoning and Spati
@@ -46,8 +48,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/boston-high-school.htm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:boston-high-school-2026-10-09-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:boston-high-school-4b0a5644b863@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:Boston High School: 11+ results emailed to parents (midday\, consor
@@ -57,8 +59,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/boston-high-school.htm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:boston-high-school-2026-10-31-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:boston-high-school-27f62a864dce@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Boston High School: National closing date for secondary application
@@ -68,8 +70,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/boston-high-school.htm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:boston-high-school-2026-12-14-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:boston-high-school-3005d4d4734e@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:Boston High School: Last date Lincolnshire accepts applications as 
@@ -79,8 +81,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/boston-high-school.htm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:boston-high-school-2027-03-01-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:boston-high-school-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Boston High School: National Offer Day
@@ -89,8 +91,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/boston-high-school.htm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:boston-high-school-2027-04-14-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:boston-high-school-67c46df037c7@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20270414
 DTEND;VALUE=DATE:20270415
 SUMMARY:Boston High School: Lincolnshire deadline for on-time appeals (midn

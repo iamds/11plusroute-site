@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Altrincham Grammar School for Girls admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:altrincham-grammar-school-for-girls-2026-04-23-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:altrincham-grammar-school-for-girls-8453164905e3@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260423
 DTEND;VALUE=DATE:20260424
 SUMMARY:Altrincham Grammar School for Girls: Entrance exam applications ope
@@ -15,8 +17,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/altrincham-grammar-sch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:altrincham-grammar-school-for-girls-2026-06-11-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:altrincham-grammar-school-for-girls-c589be4998b9@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260611
 DTEND;VALUE=DATE:20260612
 SUMMARY:Altrincham Grammar School for Girls: AGGS Open Evening\, 4pm-8pm (n
@@ -26,8 +28,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/altrincham-grammar-sch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:altrincham-grammar-school-for-girls-2026-06-19-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:altrincham-grammar-school-for-girls-e5c47b5a986c@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
 SUMMARY:Altrincham Grammar School for Girls: Consortium exam applications c
@@ -37,8 +39,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/altrincham-grammar-sch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:altrincham-grammar-school-for-girls-2026-06-20-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:altrincham-grammar-school-for-girls-6ff7360d007e@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260620
 DTEND;VALUE=DATE:20260621
 SUMMARY:Altrincham Grammar School for Girls: Requests for admission outside
@@ -48,8 +50,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/altrincham-grammar-sch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:altrincham-grammar-school-for-girls-2026-06-20-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:altrincham-grammar-school-for-girls-e061ee2d969b@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260620
 DTEND;VALUE=DATE:20260621
 SUMMARY:Altrincham Grammar School for Girls: Deadline: Request for admissio
@@ -59,8 +61,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/altrincham-grammar-sch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:altrincham-grammar-school-for-girls-2026-07-13-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:altrincham-grammar-school-for-girls-3b0c85d460d0@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260713
 DTEND;VALUE=DATE:20260714
 SUMMARY:Altrincham Grammar School for Girls: Exam details and attendance fo
@@ -70,8 +72,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/altrincham-grammar-sch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:altrincham-grammar-school-for-girls-2026-09-07-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:altrincham-grammar-school-for-girls-c409df557078@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:Altrincham Grammar School for Girls: Exam details and attendance fo
@@ -81,8 +83,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/altrincham-grammar-sch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:altrincham-grammar-school-for-girls-2026-09-14-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:altrincham-grammar-school-for-girls-336300bd3dba@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 SUMMARY:Altrincham Grammar School for Girls: Trafford Consortium Entrance E
@@ -92,8 +94,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/altrincham-grammar-sch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:altrincham-grammar-school-for-girls-2026-09-14-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:altrincham-grammar-school-for-girls-bef2f2ad1480@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 SUMMARY:Altrincham Grammar School for Girls: Deadline: Attendance Form with
@@ -103,8 +105,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/altrincham-grammar-sch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:altrincham-grammar-school-for-girls-2026-09-17-9@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:altrincham-grammar-school-for-girls-5bf0533973fa@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:Altrincham Grammar School for Girls: Special Circumstances Forms (i
@@ -114,8 +116,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/altrincham-grammar-sch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:altrincham-grammar-school-for-girls-2026-10-31-10@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:altrincham-grammar-school-for-girls-31c9b5b5916c@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Altrincham Grammar School for Girls: CAF deadline (home LA)
@@ -124,8 +126,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/altrincham-grammar-sch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:altrincham-grammar-school-for-girls-2027-03-01-11@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:altrincham-grammar-school-for-girls-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Altrincham Grammar School for Girls: National Offer Day
@@ -134,8 +136,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/altrincham-grammar-sch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:altrincham-grammar-school-for-girls-2027-03-15-12@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:altrincham-grammar-school-for-girls-308c729c2327@iamds.github.io
+DTSTAMP:20261126T092008Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Altrincham Grammar School for Girls: Deadline to accept offers

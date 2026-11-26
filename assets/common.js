@@ -149,6 +149,51 @@ window.GS = (function () {
   }
   window.addEventListener("storage", e => { if (e.key === SL_KEY) paintCount(); });
   const STAR = on => `<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="${on ? "currentColor" : "none"}" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg>`;
+  // ---------- glossary: dotted-underline the first mention of each term; tap/hover/focus shows a short definition ----------
+  function glossarize(root, entries) {
+    entries = entries || window.GLOSSARY || [];
+    if (!root || !entries.length) return;
+    const seen = new Set([...document.querySelectorAll(".gl")].map(e => e.dataset.term));
+    const SKIP = "A,BUTTON,INPUT,SELECT,TEXTAREA,LABEL,SCRIPT,STYLE,SVG,SUMMARY,H1,H2,TIME,CODE,.gl,.kicker,.crumbs,.keybar dt,.sharemenu,.maplegend";
+    const res = entries.map(e => ({ e, re: new RegExp("(" + e.match + ")", "i") }));
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: n => n.nodeValue.trim().length > 2 && !n.parentElement.closest(SKIP) ? 1 : 2 });
+    const queue = []; while (walker.nextNode()) queue.push(walker.currentNode);
+    while (queue.length && seen.size < entries.length) {
+      const node = queue.shift();
+      let best = null;  // earliest unseen term in this text
+      for (const { e, re } of res) {
+        if (seen.has(e.term)) continue;
+        const m = re.exec(node.nodeValue);
+        if (m && (!best || m.index < best.m.index)) best = { e, m };
+      }
+      if (!best) continue;
+      const { e, m } = best;
+      const span = document.createElement("span"); span.className = "gl"; span.tabIndex = 0; span.dataset.term = e.term; span.dataset.def = e.def;
+      span.setAttribute("role", "button"); span.setAttribute("aria-label", m[1] + ": " + e.def);
+      const after = node.splitText(m.index); after.nodeValue = after.nodeValue.slice(m[1].length);
+      span.textContent = m[1]; node.parentNode.insertBefore(span, after);
+      seen.add(e.term);
+      if (after.nodeValue.trim().length > 2) queue.unshift(after);  // the rest of this text may hold other terms
+    }
+  }
+  let tip = null, tipFor = null;
+  function showGl(el) {
+    if (!tip) { tip = document.createElement("div"); tip.className = "gltip"; tip.setAttribute("role", "tooltip"); document.body.appendChild(tip); }
+    tip.innerHTML = `<b>${esc(el.dataset.term)}</b><br>${esc(el.dataset.def)}`;
+    tip.hidden = false; tipFor = el;
+    const r = el.getBoundingClientRect(), w = Math.min(320, window.innerWidth - 24);
+    tip.style.width = w + "px";
+    tip.style.left = Math.max(12, Math.min(window.scrollX + r.left, window.scrollX + window.innerWidth - w - 12)) + "px";
+    tip.style.top = (window.scrollY + r.bottom + 6) + "px";
+  }
+  function hideGl() { if (tip) tip.hidden = true; tipFor = null; }
+  document.addEventListener("mouseover", e => { const g = e.target.closest && e.target.closest(".gl"); if (g) showGl(g); });
+  document.addEventListener("mouseout", e => { const g = e.target.closest && e.target.closest(".gl"); if (g && !g.contains(e.relatedTarget)) hideGl(); });
+  document.addEventListener("focusin", e => { if (e.target.classList && e.target.classList.contains("gl")) showGl(e.target); });
+  document.addEventListener("focusout", e => { if (e.target.classList && e.target.classList.contains("gl")) hideGl(); });
+  document.addEventListener("click", e => { const g = e.target.closest && e.target.closest(".gl"); if (g) { e.preventDefault(); e.stopPropagation(); tipFor === g ? hideGl() : showGl(g); } else if (tipFor) hideGl(); }, true);
+  document.addEventListener("keydown", e => { if (e.key === "Escape") hideGl(); });
+
   function loadHome() { try { return JSON.parse(localStorage.getItem(HOME_KEY) || "null"); } catch (e) { return null; } }
   function saveHome(h) { try { h ? localStorage.setItem(HOME_KEY, JSON.stringify(h)) : localStorage.removeItem(HOME_KEY); } catch (e) {} }
   function miles(a, b) {
@@ -193,5 +238,5 @@ window.GS = (function () {
     if (r.score_based) out.push(`<span class="gchip neutral">Places go by test score</span>`);
     return out.join("");
   }
-  return { CATEGORIES, SUBJECTS, GENDER, esc, fmtDate, catBadge, lookupPostcode, addLocateButton, loadMapLib, mapStyle, isDark, circleGeo, homeMarkerEl, onStyle, loadHome, saveHome, miles, assess, statusChips, shortlist, shortlistTip, STAR };
+  return { CATEGORIES, SUBJECTS, GENDER, esc, fmtDate, catBadge, lookupPostcode, addLocateButton, loadMapLib, mapStyle, isDark, circleGeo, homeMarkerEl, onStyle, loadHome, saveHome, miles, assess, statusChips, shortlist, shortlistTip, STAR, glossarize };
 })();

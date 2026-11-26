@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Burnham Grammar School admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:burnham-grammar-school-2026-05-01-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:burnham-grammar-school-8b86f16b35cc@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 SUMMARY:Burnham Grammar School: Test registration opens (10am) for children
@@ -15,8 +17,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/burnham-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:burnham-grammar-school-2026-06-02-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:burnham-grammar-school-3892702b8397@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260602
 DTEND;VALUE=DATE:20260603
 SUMMARY:Burnham Grammar School: Test registration closes (3pm)\; opt-out de
@@ -27,8 +29,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/burnham-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:burnham-grammar-school-2026-06-16-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:burnham-grammar-school-6340a5a4077d@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260616
 DTEND;VALUE=DATE:20260617
 SUMMARY:Burnham Grammar School: Access arrangement requests from all other 
@@ -38,8 +40,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/burnham-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:burnham-grammar-school-2026-08-07-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:burnham-grammar-school-af3e9352b947@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 SUMMARY:Burnham Grammar School: Test invitations emailed for children teste
@@ -49,8 +51,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/burnham-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:burnham-grammar-school-2026-09-01-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:burnham-grammar-school-238fcd4d3216@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Burnham Grammar School: Must be living at the catchment address fro
@@ -60,8 +62,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/burnham-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:burnham-grammar-school-2026-09-08-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:burnham-grammar-school-6d393b5d2a2f@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:Burnham Grammar School: Practice Test
@@ -70,8 +72,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/burnham-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:burnham-grammar-school-2026-09-10-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:burnham-grammar-school-8ff6b2356e5e@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Burnham Grammar School: Secondary Transfer Test
@@ -80,8 +82,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/burnham-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:burnham-grammar-school-2026-10-09-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:burnham-grammar-school-ce189e95620d@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:Burnham Grammar School: Test results released
@@ -90,8 +92,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/burnham-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:burnham-grammar-school-2026-10-30-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:burnham-grammar-school-7d97d264ed55@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:Burnham Grammar School: Selection Review deadline (full case)
@@ -100,8 +102,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/burnham-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:burnham-grammar-school-2026-10-31-9@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:burnham-grammar-school-3262517da203@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Burnham Grammar School: Application deadline (home council)
@@ -110,8 +112,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/burnham-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:burnham-grammar-school-2026-10-31-10@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:burnham-grammar-school-bc1ef5eb2800@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Burnham Grammar School: Tell the school about Pupil Premium / staff
@@ -121,8 +123,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/burnham-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:burnham-grammar-school-2027-02-12-11@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:burnham-grammar-school-c7d39e723e1a@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:Burnham Grammar School: Selection Review outcomes
@@ -131,8 +133,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/burnham-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:burnham-grammar-school-2027-03-01-12@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:burnham-grammar-school-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Burnham Grammar School: National Offer Day
@@ -141,8 +143,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/burnham-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:burnham-grammar-school-2027-03-15-13@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:burnham-grammar-school-7844aedc2a04@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Burnham Grammar School: Deadline to accept or decline the offer (11

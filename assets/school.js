@@ -431,6 +431,16 @@
     document.addEventListener("shortlist", paint);
     paint();
   }
+  // Printing: open every fold and special station first, then put them back afterwards
+  let printState = null;
+  window.addEventListener("beforeprint", () => {
+    printState = { folds: [...out.querySelectorAll("details")].map(d => [d, d.open]), stops: [...out.querySelectorAll("li.special")].map(l => [l, l.classList.contains("expanded")]) };
+    printState.folds.forEach(([d]) => d.open = true); printState.stops.forEach(([l]) => l.classList.add("expanded"));
+  });
+  window.addEventListener("afterprint", () => {
+    if (!printState) return;
+    printState.folds.forEach(([d, o]) => d.open = o); printState.stops.forEach(([l, o]) => l.classList.toggle("expanded", o)); printState = null;
+  });
   function initShare() {
     out.addEventListener("click", async e => {
       const b = e.target.closest(".seclink");
@@ -459,6 +469,7 @@
       }
       const open = menu.hidden; menu.hidden = !open; btn.setAttribute("aria-expanded", String(open)); refresh();
     });
+    menu.querySelector(".share-print").addEventListener("click", () => { menu.hidden = true; btn.setAttribute("aria-expanded", "false"); window.print(); });
     menu.querySelector(".share-copy").addEventListener("click", async () => { toast(await copyText(shareUrl("", pcBox.checked)) ? "Link copied" : shareUrl("", pcBox.checked)); menu.hidden = true; btn.setAttribute("aria-expanded", "false"); });
     document.addEventListener("click", e => { if (!e.target.closest(".sharewrap")) { menu.hidden = true; btn.setAttribute("aria-expanded", "false"); } });
     document.addEventListener("keydown", e => { if (e.key === "Escape" && !menu.hidden) { menu.hidden = true; btn.setAttribute("aria-expanded", "false"); btn.focus(); } });
@@ -573,6 +584,40 @@
 `;
     }).join("");
   }
+  // ---------- trend charts: one measure per chart (no dual axes), thin line, markers, end labels, hover titles ----------
+  function trendSeries() {
+    const by = {};
+    const put = (yr, k, v) => { if (v == null || v === "" || isNaN(+v)) return; const key = String(yr || "").slice(0, 4); if (!key) return; (by[key] = by[key] || {})[k] ??= +v; };
+    (y.stats || []).forEach(r => put(r.entry_year, "score", r.lowest_offer_score));
+    (y.allocations || []).forEach(a => { const lo = a.last_offered || {}; put(a.entry_year, "score", lo.score); put(a.entry_year, "dist", lo.distance_miles); });
+    const yrs = Object.keys(by).sort();
+    return { score: yrs.filter(k => by[k].score != null).map(k => [k, by[k].score]), dist: yrs.filter(k => by[k].dist != null).map(k => [k, by[k].dist]) };
+  }
+  function sparkChart(title, pts, unit, dp) {
+    if (pts.length < 2) return "";
+    const W = 300, H = 120, L = 34, R = 38, T = 14, B = 24;
+    const vals = pts.map(p => p[1]); let lo = Math.min(...vals), hi = Math.max(...vals);
+    if (hi === lo) { lo -= 1; hi += 1; }
+    const pad = (hi - lo) * 0.15; lo -= pad; hi += pad;
+    const x = i => L + i * (W - L - R) / (pts.length - 1), yv = v => T + (hi - v) * (H - T - B) / (hi - lo);
+    const f = v => dp ? v.toFixed(dp) : String(Math.round(v * 10) / 10);
+    const line = pts.map((p, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${yv(p[1]).toFixed(1)}`).join("");
+    const last = pts[pts.length - 1], first = pts[0];
+    return `<figure class="trend"><figcaption>${title}</figcaption>
+      <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(title)}: ${pts.map(p => `${p[0]} ${f(p[1])}${unit}`).join(", ")}">
+        <line class="grid" x1="${L}" x2="${W - R}" y1="${yv(Math.max(...vals))}" y2="${yv(Math.max(...vals))}"/><line class="grid" x1="${L}" x2="${W - R}" y1="${yv(Math.min(...vals))}" y2="${yv(Math.min(...vals))}"/>
+        <path class="ln" d="${line}"/>
+        ${pts.map((p, i) => `<g class="pt"><circle class="hit" cx="${x(i)}" cy="${yv(p[1])}" r="12"/><circle class="dot" cx="${x(i)}" cy="${yv(p[1])}" r="4.5"/><title>${p[0]} entry: ${f(p[1])}${unit}</title></g>`).join("")}
+        <text class="val" x="${x(pts.length - 1) + 8}" y="${yv(last[1]) + 4}">${f(last[1])}${unit}</text>
+        <text class="val muted" x="${x(0) - 8}" y="${yv(first[1]) + 4}" text-anchor="end">${f(first[1])}</text>
+        ${pts.map((p, i) => `<text class="yr" x="${x(i)}" y="${H - 6}" text-anchor="middle">${p[0]}</text>`).join("")}
+      </svg></figure>`;
+  }
+  function trendHtml() {
+    const t = trendSeries();
+    const charts = sparkChart("Lowest score offered", t.score, "", 0) + sparkChart("Furthest distance offered", t.dist, " mi", 2);
+    return charts ? `<div class="trends">${charts}</div><p class="small muted">By year of entry. Hover a point for the exact figure; the tables below have every number.</p>` : "";
+  }
   function statsHtml() {
     const st = y.stats || [];
     if (!st.length) return "";
@@ -655,7 +700,7 @@
       <div class="headrow"><p class="crumbs"><a href="../index.html">All schools</a></p>
         <div class="headtools"><button type="button" class="star sharebtn" data-slug="${esc(s.slug)}" aria-pressed="false"></button><div class="sharewrap"><button type="button" class="sharebtn" aria-haspopup="true" aria-expanded="false"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M18 16a3 3 0 0 0-2.4 1.2l-6.7-3.4a3 3 0 0 0 0-1.6l6.7-3.4A3 3 0 1 0 15 7l-6.7 3.4a3 3 0 1 0 0 3.2L15 17a3 3 0 1 0 3-1Z"/></svg>Share</button>
         <div class="sharemenu" hidden><label class="small"><input type="checkbox" class="share-pc"> Include my postcode</label>
-          <button type="button" class="share-copy">Copy link</button><a class="share-wa" target="_blank" rel="noopener">Send on WhatsApp</a><a class="share-mail" target="_blank" rel="noopener">Email</a></div></div></div></div>
+          <button type="button" class="share-copy">Copy link</button><a class="share-wa" target="_blank" rel="noopener">Send on WhatsApp</a><a class="share-mail" target="_blank" rel="noopener">Email</a><button type="button" class="share-print">Print or save as PDF</button></div></div></div></div>
       <h1>${esc(s.name)}</h1>
       <p class="facts">
         <span>${esc(s.town)}</span><span class="g g-${s.gender}">${window.GS.GENDER[s.gender]}</span>
@@ -686,12 +731,12 @@
     </section>
 
     <div class="folds">
-      ${fold("dates", "Important dates", timeline() && timeline() + `<p class="small"><a href="../ics/${esc(s.slug)}.ics" download>Add these dates to your calendar</a> · <a href="../deadlines.html">Deadlines for all schools</a></p>`)}
+      ${fold("dates", "Important dates", timeline() && timeline() + `<p class="small calsub">${s._ics ? `<a href="${esc(s._ics.replace(/^https?:/, "webcal:"))}"><b>Subscribe in your calendar</b></a> (updates automatically if dates change) · ` : ""}<a href="../ics/${esc(s.slug)}.ics" download>Download once (.ics)</a> · <a href="../deadlines.html">Deadlines for all schools</a>${s._ics ? `<br><span class="muted">Google Calendar on a computer: Other calendars → From URL, then paste <input class="icsurl" readonly value="${esc(s._ics)}" aria-label="Calendar link" onfocus="this.select()"></span>` : ""}</p>`)}
       ${fold("test", "About the test", (s._test ? `<p class="sharedtest">This school uses the <a href="../tests/${esc(s._test.id)}.html"><b>${esc(s._test.name)}</b></a>. See every school that uses it.</p>` : "") + dl([["Overview", esc(a.description || "")], ["Set by", esc(a.provider || "")], ["Consortium", esc(a.consortium || "")],
         ["Attempts", esc(a.attempts || "")], ["Access arrangements", esc(a.access_arrangements || "")], ["Missing the test", esc(a.missed_test || "")],
         ["Results", (a.stages || []).filter(x => x.results).map(x => `<b>${esc(x.name)}:</b> ${esc(x.results)}`).join("<br>")],
         ["Before the council deadline", esc(y.outcomes_before_caf || "")]]))}
-      ${fold("allocations", "How many got in", allocationsHtml() + statsHtml())}
+      ${fold("allocations", "How many got in", trendHtml() + allocationsHtml() + statsHtml())}
       ${fold("areas", "Priority areas", areasHtml() && areaMapHolder() + areasHtml())}
       ${fold("distance", "Distance and tie-breaks", tie + dl([["Method", esc(y.distance?.method?.replace("_", " ") || "")], ["From", esc(y.distance?.from || "")],
         ["To", esc(y.distance?.to || "")], ["Measured by", esc(y.distance?.system || "")], ["Home address", esc(y.distance?.home_address_rule || "")]]))}
@@ -769,6 +814,7 @@
   });
   out.addEventListener("click", e => { const a = e.target.closest("a.ppill, a.pmini"); if (a && a.getAttribute("href") === location.hash) openTarget(); });
   openTarget();
+  window.GS.glossarize(out);
   initMiniMaps();
   initShare();
   initStar();

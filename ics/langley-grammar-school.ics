@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Langley Grammar School admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:langley-grammar-school-2026-04-28-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:langley-grammar-school-0c440106834f@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260428
 DTEND;VALUE=DATE:20260429
 SUMMARY:Langley Grammar School: Consortium online 11+ information evening (
@@ -15,8 +17,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/langley-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:langley-grammar-school-2026-05-01-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:langley-grammar-school-a56393c485c6@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 SUMMARY:Langley Grammar School: 11+ registration opens (10am)
@@ -25,8 +27,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/langley-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:langley-grammar-school-2026-05-01-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:langley-grammar-school-eeb8fc7b95c5@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 SUMMARY:Langley Grammar School: Start of the continuous-residence period fo
@@ -36,8 +38,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/langley-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:langley-grammar-school-2026-06-05-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:langley-grammar-school-ff2ca0e82e9c@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260605
 DTEND;VALUE=DATE:20260606
 SUMMARY:Langley Grammar School: 11+ registration closes (10am)
@@ -46,8 +48,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/langley-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:langley-grammar-school-2026-06-12-4@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:langley-grammar-school-e74de3737936@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260612
 DTEND;VALUE=DATE:20260613
 SUMMARY:Langley Grammar School: Evidence for access arrangements due (3pm)
@@ -56,8 +58,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/langley-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:langley-grammar-school-2026-09-19-5@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:langley-grammar-school-d99985e2a073@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Langley Grammar School: Slough Consortium 11+ test
@@ -66,8 +68,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/langley-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:langley-grammar-school-2026-10-01-6@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:langley-grammar-school-579373572d4b@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:Langley Grammar School: Langley Grammar School open evening (4.30-8
@@ -77,8 +79,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/langley-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:langley-grammar-school-2026-10-15-7@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:langley-grammar-school-1b344e1312e1@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Langley Grammar School: Results online from 4pm
@@ -87,8 +89,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/langley-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:langley-grammar-school-2026-10-31-8@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:langley-grammar-school-5bc2889ed70a@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Langley Grammar School: CAF deadline (home council)
@@ -97,8 +99,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/langley-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:langley-grammar-school-2027-03-01-9@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:langley-grammar-school-b6c34c92fe76@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Langley Grammar School: National Offer Day
@@ -107,8 +109,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/langley-grammar-school
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:langley-grammar-school-2027-12-31-10@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:langley-grammar-school-6c97c432ecdf@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
 SUMMARY:Langley Grammar School: First waiting list closes (extension on req

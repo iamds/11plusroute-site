@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//11plusroute//admissions//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Old Swinford Hospital admissions
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:old-swinford-hospital-2026-09-19-0@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:old-swinford-hospital-c0c15c2b5c90@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Old Swinford Hospital: Open Morning
@@ -14,8 +16,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/old-swinford-hospital.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:old-swinford-hospital-2026-09-25-1@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:old-swinford-hospital-a750bae66d63@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Old Swinford Hospital: Flexi-boarding registration closes (12 noon)
@@ -24,8 +26,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/old-swinford-hospital.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:old-swinford-hospital-2026-10-31-2@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:old-swinford-hospital-576384d4ac0e@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Old Swinford Hospital: Day and tailored-boarding registration close
@@ -35,8 +37,8 @@ URL:https://iamds.github.io/11plusroute-site/schools/old-swinford-hospital.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:old-swinford-hospital-2027-03-01-3@iamds.github.io
-DTSTAMP:20261126T091009Z
+UID:old-swinford-hospital-2d55311789fc@iamds.github.io
+DTSTAMP:20261126T092009Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Old Swinford Hospital: National Offer Day (offers for all place typ
