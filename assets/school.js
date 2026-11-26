@@ -71,7 +71,11 @@
       case "sibling": return `Has a sibling at the school?${c.description ? ` <span class="muted">${esc(c.description)}</span>` : ""}`;
       case "staff_child": return `Child of a member of staff?${c.description ? ` <span class="muted">${esc(c.description)}</span>` : ""}`;
       case "faith": return `Meets the faith requirement?${c.requirement ? ` <span class="muted">${esc(c.faith ? c.faith + ": " : "")}${esc(c.requirement)}</span>` : ""}`;
-      case "feeder_school": return `Attends a feeder school?${c.schools ? ` <span class="muted">${esc(c.schools.join(", "))}</span>` : ""}`;
+      case "feeder_school": {
+        const l = c.schools || [];
+        if (l.length <= 4) return `Attends a feeder school?${l.length ? ` <span class="muted">${esc(l.join(", "))}</span>` : ""}`;
+        return `Attends one of ${l.length} feeder schools? <details class="feeders"><summary>Show the list</summary><span class="muted">${esc(l.join(", "))}</span></details>`;
+      }
       case "in_area": return `${areaQ(c.ref, false)} <span class="you" data-area="${esc(c.ref)}"></span>`;
       case "not_in_area": return `${areaQ(c.ref, true)} <span class="you" data-area="${esc(c.ref)}" data-neg="1"></span>`;
       case "aptitude": return `Shows ${esc(c.subject || "")} aptitude${c.ref ? ` in the ${esc(stageName(c.ref))}` : ""}?${c.requirement ? ` <span class="muted">${esc(c.requirement)}</span>` : ""}`;
