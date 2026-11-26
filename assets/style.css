@@ -516,7 +516,8 @@ summary:hover .seclink, .stop:hover .seclink, .seclink:focus-visible { opacity: 
 .slbtn.on svg { color: var(--gold); }
 .slbtn:disabled { opacity: .55; cursor: default; }
 .sl-shared { padding: 12px 16px; margin-bottom: 10px; border-left: 4px solid var(--gold); }
-.maplibregl-popup-content .star { margin: -4px 2px 0 -6px; width: 24px; height: 24px; }
+.maplibregl-popup-content .star { margin: 0 4px 0 0; width: 22px; height: 22px; vertical-align: -5px; }
+.maplibregl-popup-content { padding-right: 26px; }
 .sltip { position: fixed; right: 16px; bottom: 16px; z-index: 60; width: min(380px, calc(100vw - 32px)); padding: 16px 18px; border: 1px solid var(--line); border-left: 4px solid var(--gold); border-radius: 10px; background: var(--surface); color: var(--ink); box-shadow: 0 10px 30px rgba(0,0,0,.35); }
 .sltip p { margin: 6px 0; }
 .sltip ul { margin: 6px 0 12px; padding-left: 1.2em; }

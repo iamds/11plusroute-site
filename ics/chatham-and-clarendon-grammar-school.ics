@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Chatham & Clarendon Grammar School admissions
 BEGIN:VEVENT
 UID:chatham-and-clarendon-grammar-school-2026-06-01-0@iamds.github.io
-DTSTAMP:20261126T084538Z
+DTSTAMP:20261126T084907Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 SUMMARY:Chatham & Clarendon Grammar School: Kent Test registration opens (k
@@ -16,7 +16,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chatham-and-clarendon-grammar-school-2026-07-01-1@iamds.github.io
-DTSTAMP:20261126T084538Z
+DTSTAMP:20261126T084907Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Chatham & Clarendon Grammar School: Kent Test registration closes a
@@ -27,7 +27,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chatham-and-clarendon-grammar-school-2026-07-21-2@iamds.github.io
-DTSTAMP:20261126T084538Z
+DTSTAMP:20261126T084907Z
 DTSTART;VALUE=DATE:20260721
 DTEND;VALUE=DATE:20260722
 SUMMARY:Chatham & Clarendon Grammar School: Last date for late Kent Test re
@@ -38,7 +38,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chatham-and-clarendon-grammar-school-2026-09-01-3@iamds.github.io
-DTSTAMP:20261126T084538Z
+DTSTAMP:20261126T084907Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Chatham & Clarendon Grammar School: Secondary application (SCAF) op
@@ -49,7 +49,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chatham-and-clarendon-grammar-school-2026-09-10-4@iamds.github.io
-DTSTAMP:20261126T084538Z
+DTSTAMP:20261126T084907Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Chatham & Clarendon Grammar School: Kent Test in Kent primary schoo
@@ -60,7 +60,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chatham-and-clarendon-grammar-school-2026-09-12-5@iamds.github.io
-DTSTAMP:20261126T084538Z
+DTSTAMP:20261126T084907Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Chatham & Clarendon Grammar School: Kent Test at test centres for c
@@ -71,7 +71,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chatham-and-clarendon-grammar-school-2026-10-15-6@iamds.github.io
-DTSTAMP:20261126T084538Z
+DTSTAMP:20261126T084907Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Chatham & Clarendon Grammar School: Kent Test decisions and scores 
@@ -82,7 +82,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chatham-and-clarendon-grammar-school-2026-11-02-7@iamds.github.io
-DTSTAMP:20261126T084538Z
+DTSTAMP:20261126T084907Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:Chatham & Clarendon Grammar School: SCAF closing date (midnight) fo
@@ -93,7 +93,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chatham-and-clarendon-grammar-school-2026-12-07-8@iamds.github.io
-DTSTAMP:20261126T084538Z
+DTSTAMP:20261126T084907Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Chatham & Clarendon Grammar School: Last date for changes to on-tim
@@ -104,7 +104,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chatham-and-clarendon-grammar-school-2027-03-01-9@iamds.github.io
-DTSTAMP:20261126T084538Z
+DTSTAMP:20261126T084907Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Chatham & Clarendon Grammar School: National Offer Day (emails afte
@@ -115,7 +115,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chatham-and-clarendon-grammar-school-2027-03-15-10@iamds.github.io
-DTSTAMP:20261126T084538Z
+DTSTAMP:20261126T084907Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Chatham & Clarendon Grammar School: Accept or decline the offer\; d
@@ -126,7 +126,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chatham-and-clarendon-grammar-school-2027-04-13-11@iamds.github.io
-DTSTAMP:20261126T084538Z
+DTSTAMP:20261126T084907Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Chatham & Clarendon Grammar School: Deadline for lodging appeals to
@@ -137,7 +137,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chatham-and-clarendon-grammar-school-2027-04-27-12@iamds.github.io
-DTSTAMP:20261126T084538Z
+DTSTAMP:20261126T084907Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
 SUMMARY:Chatham & Clarendon Grammar School: KCC reallocation of vacant plac
