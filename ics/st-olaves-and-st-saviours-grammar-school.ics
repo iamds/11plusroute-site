@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:St Olave's and St Saviour's Grammar School admissions
 BEGIN:VEVENT
 UID:st-olaves-and-st-saviours-grammar-school-2026-06-08-0@iamds.github.io
-DTSTAMP:20261126T064605Z
+DTSTAMP:20261126T064637Z
 DTSTART;VALUE=DATE:20260608
 DTEND;VALUE=DATE:20260609
 SUMMARY:St Olave's and St Saviour's Grammar School: SIF (test registration)
@@ -16,7 +16,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-olaves-and-st-saviours-grammar-school-2026-06-29-1@iamds.github.io
-DTSTAMP:20261126T064605Z
+DTSTAMP:20261126T064637Z
 DTSTART;VALUE=DATE:20260629
 DTEND;VALUE=DATE:20260630
 SUMMARY:St Olave's and St Saviour's Grammar School: SIF deadline (midday). 
@@ -27,7 +27,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-olaves-and-st-saviours-grammar-school-2026-07-03-2@iamds.github.io
-DTSTAMP:20261126T064605Z
+DTSTAMP:20261126T064637Z
 DTSTART;VALUE=DATE:20260703
 DTEND;VALUE=DATE:20260704
 SUMMARY:St Olave's and St Saviour's Grammar School: Deadline for the primar
@@ -38,7 +38,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-olaves-and-st-saviours-grammar-school-2026-09-01-3@iamds.github.io
-DTSTAMP:20261126T064605Z
+DTSTAMP:20261126T064637Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:St Olave's and St Saviour's Grammar School: SET arrangements emaile
@@ -49,7 +49,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-olaves-and-st-saviours-grammar-school-2026-09-18-4@iamds.github.io
-DTSTAMP:20261126T064605Z
+DTSTAMP:20261126T064637Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:St Olave's and St Saviour's Grammar School: Stage 1 Selective Eligi
@@ -60,7 +60,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-olaves-and-st-saviours-grammar-school-2026-10-15-5@iamds.github.io
-DTSTAMP:20261126T064605Z
+DTSTAMP:20261126T064637Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:St Olave's and St Saviour's Grammar School: SET outcome sent (schoo
@@ -71,7 +71,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-olaves-and-st-saviours-grammar-school-2026-10-31-6@iamds.github.io
-DTSTAMP:20261126T064605Z
+DTSTAMP:20261126T064637Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:St Olave's and St Saviour's Grammar School: CAF deadline (national)
@@ -81,7 +81,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-olaves-and-st-saviours-grammar-school-2026-11-13-7@iamds.github.io
-DTSTAMP:20261126T064605Z
+DTSTAMP:20261126T064637Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:St Olave's and St Saviour's Grammar School: Stage 2 Entrance Test (
@@ -92,7 +92,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-olaves-and-st-saviours-grammar-school-2026-12-07-8@iamds.github.io
-DTSTAMP:20261126T064605Z
+DTSTAMP:20261126T064637Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:St Olave's and St Saviour's Grammar School: Bromley deadline for la
@@ -103,7 +103,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-olaves-and-st-saviours-grammar-school-2027-03-01-9@iamds.github.io
-DTSTAMP:20261126T064605Z
+DTSTAMP:20261126T064637Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:St Olave's and St Saviour's Grammar School: National Offer Day
@@ -113,7 +113,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-olaves-and-st-saviours-grammar-school-2027-03-15-10@iamds.github.io
-DTSTAMP:20261126T064605Z
+DTSTAMP:20261126T064637Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:St Olave's and St Saviour's Grammar School: Deadline to accept or d
