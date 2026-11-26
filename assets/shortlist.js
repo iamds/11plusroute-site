@@ -21,7 +21,8 @@
   const today = new Date().toISOString().slice(0, 10);
   const pcq = home ? "?pc=" + encodeURIComponent(home.postcode).replace(/%20/g, "+") : "";
 
-  function list() { return (shared.length ? shared : GS.shortlist.get()).map(s => bySlug[s]).filter(Boolean); }
+  const initial = GS.shortlist.get();
+  function list() { return (shared.length ? shared : initial).map(s => bySlug[s]).filter(Boolean); }
 
   function render() {
     const items = list();
@@ -66,21 +67,57 @@
     window._slEvents = evs;
   }
 
+  // Unstarring keeps the row (faded) until the page is reloaded, with an Undo, so a slip is easy to fix
+  let shown = null;
+  function setStar(st, on) {
+    st.classList.toggle("on", on); st.setAttribute("aria-pressed", String(on)); st.innerHTML = GS.STAR(on);
+    const row = st.closest("tr"); if (row) row.classList.toggle("removed", !on);
+    const name = bySlug[st.dataset.slug].name;
+    st.setAttribute("aria-label", (on ? "Remove " : "Add ") + name + (on ? " from" : " to") + " your shortlist");
+    const n = GS.shortlist.get().length;
+    $("sl-count").textContent = `${n} school${n === 1 ? "" : "s"} on your shortlist${home ? ` · distances from ${home.postcode}` : ""}`;
+  }
+  function undoToast(st) {
+    let t = document.getElementById("sl-undo");
+    if (!t) { t = document.createElement("div"); t.id = "sl-undo"; t.setAttribute("role", "status"); document.body.appendChild(t); }
+    t.innerHTML = `Removed ${esc(bySlug[st.dataset.slug].name)} <button type="button" class="linkbtn">Undo</button>`;
+    t.classList.add("show"); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove("show"), 6000);
+    t.querySelector("button").onclick = () => { GS.shortlist.toggle(st.dataset.slug); setStar(st, true); t.classList.remove("show"); };
+  }
   document.addEventListener("click", e => {
     const st = e.target.closest(".star[data-slug]");
     if (!st) return;
-    GS.shortlist.toggle(st.dataset.slug);
-    render();
+    const on = GS.shortlist.toggle(st.dataset.slug);
+    setStar(st, on);
+    if (!on) undoToast(st); else { const t = document.getElementById("sl-undo"); if (t) t.classList.remove("show"); }
   });
-  window.addEventListener("storage", e => { if (e.key === "gs-shortlist") render(); });
+  window.addEventListener("storage", e => { if (e.key === "gs-shortlist" && !document.querySelector("tr.removed")) render(); });
 
+  // Share: copy the link and show it in a small box, in case someone wants to copy it themselves
+  async function copy(t) { try { await navigator.clipboard.writeText(t); return true; } catch (x) { return false; } }
+  function sharePanel(url, copied) {
+    let p = document.getElementById("sl-sharebox");
+    if (!p) {
+      p = document.createElement("div"); p.id = "sl-sharebox"; p.className = "sharebox"; p.setAttribute("role", "dialog"); p.setAttribute("aria-label", "Share your shortlist");
+      $("sl-share").insertAdjacentElement("afterend", p);
+      document.addEventListener("click", e => { if (!e.target.closest("#sl-sharebox, #sl-share")) p.hidden = true; });
+      document.addEventListener("keydown", e => { if (e.key === "Escape") p.hidden = true; });
+    }
+    p.innerHTML = `<p class="small"><b>${copied ? "✓ Link copied to your clipboard." : "Copy this link:"}</b> Anyone who opens it sees this shortlist and can add it to theirs.</p>
+      <div class="sharebox-row"><input type="text" readonly value="${esc(url)}" aria-label="Shortlist link"><button type="button" class="slbtn">Copy${copied ? " again" : ""}</button></div>`;
+    p.hidden = false;
+    const inp = p.querySelector("input");
+    inp.focus(); inp.select();
+    inp.addEventListener("focus", () => inp.select());
+    p.querySelector("button").onclick = async () => { const ok = await copy(url); if (!ok) { inp.select(); try { document.execCommand("copy"); } catch (x) {} } p.querySelector("button").textContent = "Copied"; };
+  }
   $("sl-share").addEventListener("click", async () => {
     const u = new URL(location.href); u.search = ""; u.hash = "";
-    u.searchParams.set("sl", list().map(s => s.slug).join(","));
-    const url = u.toString();
-    if (navigator.share && matchMedia("(pointer: coarse)").matches) { try { await navigator.share({ title: "My grammar school shortlist", url }); } catch (x) {} return; }
-    try { await navigator.clipboard.writeText(url); $("sl-share").textContent = "Link copied"; setTimeout(() => { $("sl-share").textContent = "Share shortlist"; }, 1800); }
-    catch (x) { prompt("Copy this link:", url); }
+    u.searchParams.set("sl", list().filter(s => shared.length || GS.shortlist.has(s.slug)).map(s => s.slug).join(","));
+    const url = u.toString().replace(/%2C/gi, ",");
+    if (navigator.share && matchMedia("(pointer: coarse)").matches) { try { await navigator.share({ title: "My grammar school shortlist", url }); return; } catch (x) { if (x && x.name === "AbortError") return; } }
+    // don't wait forever if the browser is slow to answer a clipboard request
+    sharePanel(url, await Promise.race([copy(url), new Promise(r => setTimeout(() => r(false), 800))]));
   });
 
   $("sl-ics").addEventListener("click", () => {
