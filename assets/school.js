@@ -243,7 +243,7 @@
 
   function ehcpBlock() {
     if (!y.ehcp) return "";
-    return stop({ id: "ehcp", cls: "decision", kicker: "Checked first", title: "Does an EHCP name the school?",
+    return stop({ id: "ehcp", cls: "crit c-other", marker: "E", kicker: "EHCP · before all other priorities", title: "Has an EHCP that names the school",
       branch: { label: "Yes", cls: "in", html: `<div class="title">Admitted</div>${more(`<div class="desc">${esc(y.ehcp.description || "")}</div>`)}` } }) + seg("No", "no");
   }
 
@@ -256,14 +256,11 @@
     let h = "";
     const pos = p => crit.findIndex(c => String(c.priority) === String(p));
     const hasSize = g => g.places != null || g.max_places != null || g.min_places != null || g.percent != null;
-    const sized = groups.filter(hasSize).slice().sort((a, b) => Math.min(...(a.priorities || []).map(pos)) - Math.min(...(b.priorities || []).map(pos)));
-    const restExists = groups.some(g => !hasSize(g));
     const listOrder = crit.map(c => String(c.priority));
     const ao = (ov.allocation_order || []).map(String);
     const aoDiffers = ao.length && ao.join("|") !== listOrder.filter(p => ao.includes(p)).join("|");
-    if (sized.length || aoDiffers) {
-      h += stop({ id: "place-split", cls: "minor note", kicker: "Before you read the priorities", title: "How the places are split", body: `${sized.map(g => `<div class="pool">${groupSentence(g)}${g.description ? more(`<div class="desc">${esc(g.description)}</div>`) : ""}</div>`).join("")}
-        ${sized.length && restExists ? `<div class="pool desc">All other places go through the remaining priorities, in the order shown below.</div>` : ""}
+    if (aoDiffers) {
+      h += stop({ id: "place-split", cls: "minor note", kicker: "Before you read the priorities", title: "Places are given in a different order", body: `
         ${aoDiffers ? `<div class="pool">Places are actually handed out in a different order from the list below:<div class="pills">${ao.map(pill).join('<span class="parrow">→</span>')}</div>${ov.allocation_order_description ? more(`<div class="desc">${esc(ov.allocation_order_description)}</div>`) : ""}</div>` : ""}` });
     }
     const SPECIAL = { looked_after: "looked-after children", disadvantaged: "Pupil Premium or free school meals", medical_social: "medical or social need", staff: "staff children" };
@@ -276,10 +273,11 @@
         `<ol class="subcrit">${(o.criteria || []).map(sc => `<li>${esc(sc.label)}${sc.description ? ` <span class="muted">· ${esc(sc.description)}</span>` : ""}</li>`).join("")}</ol>`).join("");
       const outcome = `<div class="title">${esc(c.label)}</div>
         ${c.quota && quotaSize(c.quota) ? `<div class="quota">${esc(quotaSize(c.quota))}</div>` : ""}
+        ${groupOf(c.priority).filter(hasSize).map(g => { const others = (g.priorities || []).map(String).filter(x => x !== String(c.priority)); return others.length ? `<div class="quota">Shares ${esc(groupAmount(g))} with ${others.map(x => esc(shortLabel(critByP()[x]?.label || x))).join(" and ")}</div>` : ""; }).join("")}
         ${al && al.offers != null ? `<div class="alloc"><b>${al.offers}</b> offered in ${esc(latestAlloc.entry_year)}${al.last_distance_miles != null ? ` · furthest ${al.last_distance_miles} mi` : ""}${al.last_score != null ? ` · lowest score ${al.last_score}` : ""}</div>` : ""}
         ${(() => { if (al && al.last_distance_miles != null) return ""; const f = furthestFor(c, i === lastDistIdx); return f ? `<div class="alloc">Furthest offer in ${esc(String(f.year).slice(0, 4))}: <b>${f.mi} mi</b></div>` : ""; })()}
         ${more(`${c.quota ? quota(c.quota).replace(/^<div class="quota">.*?<\/div>/, "") : ""}
-        ${groupOf(c.priority).map(g => `<div class="desc">Counts towards the ${esc(groupAmount(g).replace(/^(up to|at least) /, ""))} shared with: ${(g.priorities || []).map(String).filter(x => x !== String(c.priority)).map(x => esc(shortLabel(critByP()[x]?.label || x))).join("; ") || "no other priority"}.</div>`).join("")}
+        ${groupOf(c.priority).filter(hasSize).map(g => g.description ? `<div class="desc">${esc(g.description)}</div>` : "").join("")}
         ${c.applies_at === "initial_allocation" ? `<div class="desc">Only applies when places are first offered on National Offer Day, not to later offers from the waiting list.</div>` : ""}
         ${c.description ? `<div class="desc">${esc(c.description)}</div>` : ""}
         ${subs}
