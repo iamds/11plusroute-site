@@ -119,7 +119,36 @@
   const colour = r => r.selection === "grammar" ? "#1f4e79" : r.selection === "aptitude_only" ? "#c2186b" : "#c98a00";
   const pcq = () => home ? "?pc=" + encodeURIComponent(home.postcode).replace(/%20/g, "+") : "";
   const circleGeo = GS.circleGeo;
+  // Hover (or tap) a school to see its priority areas: circles from the index data, other shapes from assets/areas.json
+  let areaShapes = null, areaShapesLoading = null, pinned = null;
+  function loadAreaShapes() {
+    if (!areaShapesLoading) areaShapesLoading = fetch("assets/areas.json").then(r => r.ok ? r.json() : {}).catch(() => ({})).then(d => (areaShapes = d));
+    return areaShapesLoading;
+  }
+  const areaColour = r => isDark()
+    ? (r.selection === "grammar" ? "#79b4ff" : r.selection === "aptitude_only" ? "#ff7eb6" : "#f2c14e")
+    : colour(r);
+  const EMPTY = { type: "FeatureCollection", features: [] };
+  function schoolAreas(r) {
+    if (!r || !r.geo || r.geo.lat == null) return EMPTY;
+    const shapes = (areaShapes || {})[r.slug] || {};
+    const feats = (r.geo.areas || []).map(x =>
+      x.radius != null && x.centred_on_school ? circleGeo(r.geo.lat, r.geo.lng, x.radius)
+      : shapes[x.id] ? { type: "Feature", geometry: shapes[x.id] } : null).filter(Boolean);
+    // no priority area at all (places go purely by score, e.g. QE Barnet): show a 100-mile circle
+    if (!(r.geo.areas || []).length) feats.push(circleGeo(r.geo.lat, r.geo.lng, 100));
+    feats.forEach(f => f.properties = { c: areaColour(r) });
+    return { type: "FeatureCollection", features: feats };
+  }
+  function showAreas(r) {
+    const src = map && map.getSource("hover-areas");
+    if (!src) return;
+    src.setData(schoolAreas(r));
+    if (r && !areaShapes) loadAreaShapes().then(() => { if ((pinned || hovered) === r) src.setData(schoolAreas(r)); });
+  }
+  let hovered = null;
   async function drawMap(list) {
+    loadAreaShapes();
     try { await loadMapLib(); } catch (e) { $("map").innerHTML = '<p class="empty">The map couldn\'t load. Check your connection.</p>'; return; }
     if (!map) {
       map = new maplibregl.Map({ container: "map", style: "https://tiles.openfreemap.org/styles/" + (isDark() ? "dark" : "positron"),
@@ -134,6 +163,12 @@
       const pop = new maplibregl.Popup({ offset: 10, maxWidth: "280px" }).setHTML(
         `<b><a href="schools/${r.slug}.html${pcq()}">${esc(r.name)}</a></b><br>${esc(r.town)} · ${GENDER[r.gender]}${r.miles != null ? ` · ${r.miles.toFixed(1)} mi` : ""}${home ? `<div class="gchips">${GS.statusChips(r._a, esc)}</div>` : ""}`);
       const mk = new maplibregl.Marker({ element: el }).setLngLat([r.geo.lng, r.geo.lat]).setPopup(pop).addTo(map);
+      el.addEventListener("mouseenter", () => { hovered = r; showAreas(r); });
+      el.addEventListener("mouseleave", () => { hovered = null; showAreas(pinned); });
+      el.addEventListener("focus", () => { hovered = r; showAreas(r); });
+      el.addEventListener("blur", () => { hovered = null; showAreas(pinned); });
+      pop.on("open", () => { pinned = r; showAreas(r); });
+      pop.on("close", () => { if (pinned === r) { pinned = null; showAreas(hovered); } });
       mk.getElement().setAttribute("aria-label", r.name + (r.miles != null ? `, ${r.miles.toFixed(1)} miles` : ""));
       markers.push(mk);
       bounds.extend([r.geo.lng, r.geo.lat]);
@@ -147,7 +182,13 @@
       map.addLayer({ id: "radius-fill", type: "fill", source: "radius", paint: { "fill-color": "#1f4e79", "fill-opacity": 0.06 } });
       map.addLayer({ id: "radius-line", type: "line", source: "radius", paint: { "line-color": "#1f4e79", "line-width": 1.5 } });
     };
-    const setLayers = setRadius;
+    const setHover = () => {
+      if (map.getSource("hover-areas")) return;
+      map.addSource("hover-areas", { type: "geojson", data: EMPTY });
+      map.addLayer({ id: "hover-fill", type: "fill", source: "hover-areas", paint: { "fill-color": ["get", "c"], "fill-opacity": 0.12 } });
+      map.addLayer({ id: "hover-line", type: "line", source: "hover-areas", paint: { "line-color": ["get", "c"], "line-width": 2 } });
+    };
+    const setLayers = () => { setHover(); setRadius(); };
     GS.onStyle(map, setLayers);
     if (home) {
       const hel = GS.homeMarkerEl(home.postcode);
