@@ -233,6 +233,11 @@
     const rank = order.length ? `<div class="rank"><span class="rk-l">Ranked by</span>${order.map((o, k) => `<span class="rk-v${k ? " tb" : ""}">${o}</span>`).join('<span class="rk-arrow">→</span>')}</div>` : "";
     return gate || rank ? `<div class="decides">${gate}${rank}</div>` : "";
   }
+  // full rule once at the top of "Who gets the places"; each address-based step just repeats the date
+  function addressShort() {
+    const ad = y.address_date;
+    return `<div class="addr"><b>Address date:</b> ${ad && ad.date ? fmtDate(ad.date) + " " : ""}<a href="#addr-rule">(see above)</a></div>`;
+  }
   function addressLine() {
     const ad = y.address_date;
     if (!ad || (!ad.date && !ad.when)) return `<div class="addr"><b>Address date:</b> the policy doesn't say which date your address is taken on. Ask the school or council.${ad && ad.after_move ? ` <span class="muted">${esc(ad.after_move)}</span>` : ""}</div>`;
@@ -400,7 +405,8 @@
     if (reordered) crit = ao.map(p => byP[p]);
     const groups = ov.quota_groups || [];
     const groupOf = p => groups.filter(g => (g.priorities || []).map(String).includes(String(p)));
-    let h = reordered ? `<li class="seg"><div class="rail"></div><div class="seglabel muted small">Shown in the order places are given out, which differs from the school's numbering.</div></li>` : "";
+    const addrTop = crit.some(c => usesAddress(c)) ? `<li class="seg" id="addr-rule"><div class="rail"></div><div class="seglabel addrtop">${addressLine().replace(/<b>Address date:<\/b>/, "<b>Address date for every step below that depends on where you live:</b>")}</div></li>` : "";
+    let h = addrTop + (reordered ? `<li class="seg"><div class="rail"></div><div class="seglabel muted small">Shown in the order places are given out, which differs from the school's numbering.</div></li>` : "");
     const hasSize = g => g.places != null || g.max_places != null || g.min_places != null || g.percent != null;
     const SPECIAL = { looked_after: "looked-after children", disadvantaged: "Pupil Premium or free school meals", medical_social: "medical or social need", staff: "staff children" };
     const pos = p => crit.findIndex(x => String(x.priority) === String(p));
@@ -413,7 +419,7 @@
       const subs = (c.order_within || []).filter(o => o.type === "sub_criteria").map(o =>
         `<ol class="subcrit">${(o.criteria || []).map(sc => `<li>${esc(sc.label)}${sc.description ? ` <span class="muted">· ${esc(sc.description)}</span>` : ""}</li>`).join("")}</ol>`).join("");
       const outcome = `<div class="title">${esc(c.label)}</div>
-        ${usesAddress(c) ? addressLine() : ""}
+        ${usesAddress(c) ? addressShort() : ""}
         ${c.quota && quotaSize(c.quota) ? `<div class="quota">${esc(quotaSize(c.quota))}</div>` : ""}
         ${groupOf(c.priority).filter(hasSize).filter(g => !together(g)).map(g => { const others = (g.priorities || []).map(String).filter(x => x !== String(c.priority)); return others.length ? `<div class="quota">Shares ${esc(groupAmount(g))} with ${others.map(x => esc(shortLabel(critByP()[x]?.label || x))).join(" and ")}</div>` : ""; }).join("")}
         ${al && al.offers != null ? `<div class="alloc"><b>${al.offers}</b> got a place this way in ${esc(latestAlloc.entry_year)}${al.last_distance_miles != null ? ` · furthest ${al.last_distance_miles} mi` : ""}${al.last_score != null ? ` · lowest score ${al.last_score}` : ""}</div>` : ""}

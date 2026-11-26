@@ -695,3 +695,5 @@ footer { background: var(--surface); border: 1px solid var(--line); border-top: 
 .feeders { display: inline; font-weight: 400; font-size: .86rem; } .feeders summary { display: inline; cursor: pointer; color: var(--link); text-decoration: underline; } .feeders[open] span { display: block; margin-top: 4px; }
 
 .title .cdesc, .sg-full .cdesc { display: none; }
+
+.seglabel.addrtop { grid-column: 2 / span 2; padding: 6px 0 10px; } .seglabel.addrtop .addr { font-size: .9rem; margin: 0; }
