@@ -132,13 +132,12 @@ td.empty { text-align: center; padding: 36px; color: var(--ink-2); }
 
 .zlabel { grid-column: 2 / span 2; padding: 20px 0 6px; font-weight: 800; font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; display: flex; align-items: center; gap: 10px; color: var(--ink); }
 .zlabel span { display: inline-grid; place-items: center; width: 24px; height: 24px; background: var(--crimson); color: #fff; border-radius: 3px; font-size: .78rem; letter-spacing: 0; }
-.zlabel::after { content: ""; flex: 1; height: 2px; background: var(--line); }
-/* strong break between the big sections (Apply, Entrance test, Who gets the places) */
-.zlabel { font-size: .9rem; }
+/* one strong bar per big section (Apply, Entrance test, Who gets the places), running the full width through the heading */
+.zlabel { font-size: .9rem; justify-self: start; background: var(--surface); padding-right: 14px; position: relative; }
 .zlabel span { width: 28px; height: 28px; font-size: .9rem; }
-.line > li.zone:not(:first-child) .zlabel { padding-top: 64px; }
-.line > li.zone:not(:first-child)::before { content: ""; position: absolute; left: -24px; right: -24px; top: 26px; height: 3px; background: color-mix(in srgb, var(--ink) 22%, transparent); }
-@media (max-width: 640px) { .line > li.zone:not(:first-child)::before { left: -12px; right: -12px; } .line > li.zone:not(:first-child) .zlabel { padding-top: 52px; } .line > li.zone:not(:first-child)::before { top: 20px; } }
+.line > li.zone:not(:first-child) .zlabel { padding-top: 44px; }
+.line > li.zone::before { content: ""; position: absolute; left: -24px; right: -24px; bottom: 18.5px; height: 3px; background: color-mix(in srgb, var(--ink) 22%, transparent); }
+@media (max-width: 640px) { .line > li.zone::before { left: -12px; right: -12px; } .line > li.zone:not(:first-child) .zlabel { padding-top: 36px; } }
 
 .seg { min-height: 30px; }
 .seglabel { grid-column: 2 / span 2; align-self: center; font-size: .82rem; font-weight: 700; padding: 2px 0 8px; }
