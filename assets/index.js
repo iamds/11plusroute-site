@@ -144,11 +144,16 @@
   const tag = (f, c, k) => Object.assign(f, { properties: { c, k } });
   function schoolAreas(r) {
     if (!r || !r.geo || r.geo.lat == null) return EMPTY;
-    const g = r.geo, areas = g.areas || [], feats = [];
+    const g = r.geo, feats = [];
+    // merged display groups replace their member areas
+    const shp = (areaShapes || {})[r.slug] || {}, grp = (g.groups || []).filter(x => shp[x.id]);
+    const inGroup = new Set(grp.flatMap(x => x.members));
+    const areas = (g.areas || []).filter(x => !inGroup.has(x.id)).concat(grp.map(x => ({ id: x.id, name: x.name, members: x.members })));
     if (r.selection && r.selection !== "grammar") {
       // Selective places in the selective colour, other places in the non-selective colour
       const sel = new Set(g.sel_areas || []);
-      areas.forEach(x => { const f = areaGeom(r, x); if (f) feats.push(tag(f, sel.has(x.id) ? SEL_C() : NONSEL_C(), sel.has(x.id) ? "sel" : "nonsel")); });
+      const isSel = x => sel.has(x.id) || (x.members || []).some(m => sel.has(m));
+      areas.forEach(x => { const f = areaGeom(r, x); if (f) feats.push(tag(f, isSel(x) ? SEL_C() : NONSEL_C(), isSel(x) ? "sel" : "nonsel")); });
       if (g.sel_open || (sel.size && !feats.some(f => f.properties.k === "sel"))) feats.push(tag(circleGeo(g.lat, g.lng, 100), SEL_C(), "sel"));
       if (!feats.some(f => f.properties.k === "nonsel") && g.last && g.last.miles) feats.push(tag(circleGeo(g.lat, g.lng, g.last.miles), NONSEL_C(), "last"));
       return { type: "FeatureCollection", features: feats };

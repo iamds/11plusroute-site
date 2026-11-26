@@ -267,7 +267,7 @@
       const noLabel = !conds.length ? "" : c.quota ? (qs ? `No, or its ${esc(qs)} have gone` : "No, or its share of places has gone") : "No";
       // small fixed map for stations that depend on where you live
       const refs = []; (function walk(cs) { (cs || []).forEach(k => { if (k.type === "in_area" && k.ref) refs.push(k.ref); if (k.type === "any_of") walk(k.conditions); }); })(c.conditions);
-      const ids = refs.filter(id => drawable.some(x => x.id === id));
+      const ids = [...new Set(refs.map(id => areaGroupOf[id] || id))].filter(id => drawable.some(x => x.id === id));
       const far = !ids.length ? furthestFor(c, i === lastDistIdx) : null;
       const mini = G0.lat != null && (ids.length || far) ? `<div class="minimap${ids.length ? " linked" : ""}" role="${ids.length ? "link" : "img"}" tabindex="${ids.length ? 0 : -1}" data-areas="${esc(ids.join(","))}" data-last="${far ? far.mi : ""}" aria-label="${ids.length ? "Open the priority areas map" : "Map of last year's furthest offer"}"></div>` : "";
       return { c, cat, conds, outcome, title, acad: acad + mini, noLabel, id: "p-" + String(c.priority).replace(/[^\w-]/g, "_"), special: !!SPECIAL[c.category] };
@@ -311,7 +311,11 @@
   // Map of radius-based priority areas, the school and (if known) the visitor's home
   const G0 = s._geo || {};
   const SHAPES = s._shapes || {};
-  const drawable = (G0.areas || []).filter(x => SHAPES[x.id] || (x.radius != null && (x.centred_on_school || x.centre)));
+  // areas merged for display (one priority accepts any of them) are drawn as their group shape instead
+  const GROUPS = (G0.groups || []).filter(g => SHAPES[g.id]);
+  const areaGroupOf = {}; GROUPS.forEach(g => g.members.forEach(m => areaGroupOf[m] = g.id));
+  const drawable = (G0.areas || []).filter(x => !areaGroupOf[x.id] && (SHAPES[x.id] || (x.radius != null && (x.centred_on_school || x.centre))))
+    .concat(GROUPS.map(g => ({ id: g.id, name: g.name })));
   // a built shape wins (e.g. "3 miles plus named parishes"); otherwise a circle round the school or a landmark
   const areaFeature = x => SHAPES[x.id] ? { type: "Feature", geometry: SHAPES[x.id] }
     : x.centre ? window.GS.circleGeo(x.centre.lat, x.centre.lng, x.radius) : window.GS.circleGeo(G0.lat, G0.lng, x.radius);

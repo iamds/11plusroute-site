@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Bacup and Rawtenstall Grammar School admissions
 BEGIN:VEVENT
 UID:bacup-and-rawtenstall-grammar-school-2026-10-31-0@iamds.github.io
-DTSTAMP:20261126T075922Z
+DTSTAMP:20261126T080639Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Bacup and Rawtenstall Grammar School: Council application deadline 
@@ -16,7 +16,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bacup-and-rawtenstall-grammar-school-2027-03-01-1@iamds.github.io
-DTSTAMP:20261126T075922Z
+DTSTAMP:20261126T080639Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Bacup and Rawtenstall Grammar School: National Offer Day

@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Chislehurst and Sidcup Grammar School admissions
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-2026-03-01-0@iamds.github.io
-DTSTAMP:20261126T075922Z
+DTSTAMP:20261126T080639Z
 DTSTART;VALUE=DATE:20260301
 DTEND;VALUE=DATE:20260302
 SUMMARY:Chislehurst and Sidcup Grammar School: Bexley Selection Test regist
@@ -16,7 +16,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-2026-03-31-1@iamds.github.io
-DTSTAMP:20261126T075922Z
+DTSTAMP:20261126T080639Z
 DTSTART;VALUE=DATE:20260331
 DTEND;VALUE=DATE:20260401
 SUMMARY:Chislehurst and Sidcup Grammar School: Registration closes (midnigh
@@ -28,7 +28,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-2026-04-30-2@iamds.github.io
-DTSTAMP:20261126T075922Z
+DTSTAMP:20261126T080639Z
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
 SUMMARY:Chislehurst and Sidcup Grammar School: Primary schools send special
@@ -39,7 +39,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-2026-08-03-3@iamds.github.io
-DTSTAMP:20261126T075922Z
+DTSTAMP:20261126T080639Z
 DTSTART;VALUE=DATE:20260803
 DTEND;VALUE=DATE:20260804
 SUMMARY:Chislehurst and Sidcup Grammar School: Test centre\, date and time 
@@ -50,7 +50,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-2026-09-02-4@iamds.github.io
-DTSTAMP:20261126T075922Z
+DTSTAMP:20261126T080639Z
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
 SUMMARY:Chislehurst and Sidcup Grammar School: Bexley Selection Test window
@@ -62,7 +62,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-2026-09-10-5@iamds.github.io
-DTSTAMP:20261126T075922Z
+DTSTAMP:20261126T080639Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Chislehurst and Sidcup Grammar School: Last day of the test window
@@ -72,7 +72,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-2026-10-02-6@iamds.github.io
-DTSTAMP:20261126T075922Z
+DTSTAMP:20261126T080639Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Chislehurst and Sidcup Grammar School: Test results emailed (from 4
@@ -83,7 +83,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-2026-10-31-7@iamds.github.io
-DTSTAMP:20261126T075922Z
+DTSTAMP:20261126T080639Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Chislehurst and Sidcup Grammar School: Pupil Premium Supplementary 
@@ -94,7 +94,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-2026-10-31-8@iamds.github.io
-DTSTAMP:20261126T075922Z
+DTSTAMP:20261126T080639Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Chislehurst and Sidcup Grammar School: CAF deadline (national)
@@ -104,7 +104,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-2026-12-07-9@iamds.github.io
-DTSTAMP:20261126T075922Z
+DTSTAMP:20261126T080639Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Chislehurst and Sidcup Grammar School: Bexley deadline for evidence
@@ -115,7 +115,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-2026-12-09-10@iamds.github.io
-DTSTAMP:20261126T075922Z
+DTSTAMP:20261126T080639Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Chislehurst and Sidcup Grammar School: Bexley deadline for late app
@@ -126,7 +126,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-2027-03-01-11@iamds.github.io
-DTSTAMP:20261126T075922Z
+DTSTAMP:20261126T080639Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Chislehurst and Sidcup Grammar School: National Offer Day
@@ -136,7 +136,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-2027-03-17-12@iamds.github.io
-DTSTAMP:20261126T075922Z
+DTSTAMP:20261126T080639Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
 SUMMARY:Chislehurst and Sidcup Grammar School: Bexley deadline to accept or
@@ -147,7 +147,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chislehurst-and-sidcup-grammar-school-2027-04-13-13@iamds.github.io
-DTSTAMP:20261126T075922Z
+DTSTAMP:20261126T080639Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Chislehurst and Sidcup Grammar School: Bexley's published deadline 
