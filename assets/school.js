@@ -311,15 +311,17 @@
   // Map of radius-based priority areas, the school and (if known) the visitor's home
   const G0 = s._geo || {};
   const SHAPES = s._shapes || {};
-  const drawable = (G0.areas || []).filter(x => (x.radius != null && x.centred_on_school) || SHAPES[x.id]);
-  const areaFeature = x => x.radius != null && x.centred_on_school ? window.GS.circleGeo(G0.lat, G0.lng, x.radius) : { type: "Feature", geometry: SHAPES[x.id] };
+  const drawable = (G0.areas || []).filter(x => SHAPES[x.id] || (x.radius != null && (x.centred_on_school || x.centre)));
+  // a built shape wins (e.g. "3 miles plus named parishes"); otherwise a circle round the school or a landmark
+  const areaFeature = x => SHAPES[x.id] ? { type: "Feature", geometry: SHAPES[x.id] }
+    : x.centre ? window.GS.circleGeo(x.centre.lat, x.centre.lng, x.radius) : window.GS.circleGeo(G0.lat, G0.lng, x.radius);
   const eachCoord = (geom, fn) => { const walk = c => typeof c[0] === "number" ? fn(c) : c.forEach(walk); walk(geom.coordinates); };
   const AREA_COLOURS = ["#0f7b4f", "#0a58b8", "#c25a00", "#7a2ea0", "#c2186b"];
   function areaMapHolder() {
     if (G0.lat == null || !drawable.length) return "";
     const others = (G0.areas || []).length - drawable.length;
     return `<div class="areamap-wrap"><div id="areamap" class="areamap" role="img" aria-label="Map of ${esc(s.name)}'s priority areas"></div>
-      <p class="small muted maplegend">${drawable.map((x, i) => `<span class="dot" style="background:${AREA_COLOURS[i % 5]}"></span>${esc(x.name)}${x.radius != null && x.centred_on_school ? ` (${x.radius} mi)` : ""}`).join(" ")}
+      <p class="small muted maplegend">${drawable.map((x, i) => `<span class="dot" style="background:${AREA_COLOURS[i % 5]}"></span>${esc(x.name)}${x.radius != null && !SHAPES[x.id] && !/mile/i.test(x.name) ? ` (${x.radius} mi)` : ""}`).join(" ")}
       <span class="dot sch"></span>School <span class="dot hm"></span>Your postcode${Object.keys(SHAPES).length ? `<br>Shapes are approximate: check the school's own map or the details below if you live near an edge.` : ""}${others ? `<br>Some areas can't be drawn: see the details below.` : ""}</p></div>`;
   }
   let areaMap = null, homeMk = null;

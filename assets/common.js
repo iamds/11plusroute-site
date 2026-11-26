@@ -127,12 +127,12 @@ window.GS = (function () {
   }
   function areaStatus(a, home, d) {
     const checks = [];
-    if (a.radius != null) checks.push(a.centred_on_school ? d <= a.radius : null);
+    if (a.radius != null) checks.push(a.centre ? miles(home, a.centre) <= a.radius : a.centred_on_school ? d <= a.radius : null);
     const pcs = [...(a.postcode_districts || []).map(x => ["d", x]), ...(a.postcode_sectors || []).map(x => ["s", x])];
     if (pcs.length) checks.push(pcs.some(([k, x]) => k === "d" ? norm(x) === norm(home.outcode) : norm(x) === norm(home.sector)));
     if (a.units) checks.push(a.units.includes(home.postcode.replace(/\s/g, "")));
     // When an area lists wards or parishes, its councils only say where those wards are; they aren't part of the area.
-    const fine = (a.wards && a.wards.length) || (a.parishes && a.parishes.length);
+    const fine = a.wards && a.wards.length;  // parish lists add to their councils (e.g. "Dartford borough plus 10 parishes")
     const near = (x, mine) => mine.some(m => m && (norm(m) === norm(x) || norm(m).includes(norm(x)) || norm(x).includes(norm(m))));
     const places = [...(fine ? [] : (a.local_authorities || []).map(x => [x, [home.district, home.county]])), ...(a.wards || []).map(x => [x, [home.ward]]), ...(a.parishes || []).map(x => [x, [home.parish]])];
     if (places.length) {
@@ -146,7 +146,7 @@ window.GS = (function () {
   function assess(g, home) {
     if (!g || g.lat == null || !home) return null;
     const d = miles(home, g);
-    const areas = (g.areas || []).map(a => ({ id: a.id, name: a.name, radius: a.radius, centred_on_school: a.centred_on_school, status: areaStatus(a, home, d) }));
+    const areas = (g.areas || []).map(a => ({ id: a.id, name: a.name, radius: a.radius, centre: a.centre, centred_on_school: a.centred_on_school, status: areaStatus(a, home, d) }));
     return { miles: d, areas, score_based: g.score_based,
              last: g.last ? { miles: g.last.miles, year: g.last.year, within: d <= g.last.miles } : null };
   }

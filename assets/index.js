@@ -137,8 +137,9 @@
   const SEL_C = () => isDark() ? "#79b4ff" : "#1f4e79", NONSEL_C = () => isDark() ? "#c0c8d2" : "#646d78";
   function areaGeom(r, x) {
     const shapes = (areaShapes || {})[r.slug] || {};
-    return x.radius != null && x.centred_on_school ? circleGeo(r.geo.lat, r.geo.lng, x.radius)
-      : shapes[x.id] ? { type: "Feature", geometry: shapes[x.id] } : null;
+    return shapes[x.id] ? { type: "Feature", geometry: shapes[x.id] }
+      : x.radius != null && x.centre ? circleGeo(x.centre.lat, x.centre.lng, x.radius)
+      : x.radius != null && x.centred_on_school ? circleGeo(r.geo.lat, r.geo.lng, x.radius) : null;
   }
   const tag = (f, c, k) => Object.assign(f, { properties: { c, k } });
   function schoolAreas(r) {
