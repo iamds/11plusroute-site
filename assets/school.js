@@ -262,21 +262,18 @@
   }
 
   function criteriaBlock() {
-    const crit = (y.oversubscription || {}).criteria || [];
-    if (!crit.length) return stop({ cls: "end crit-missing", kicker: "Not available", title: "Priority order not available", body: `<div class="desc">Check the school's admissions policy for how places are given.</div>` });
     const ov = y.oversubscription || {};
+    let crit = ov.criteria || [];
+    if (!crit.length) return stop({ cls: "end crit-missing", kicker: "Not available", title: "Priority order not available", body: `<div class="desc">Check the school's admissions policy for how places are given.</div>` });
+    // Some schools hand out places in a different order from their numbered list: draw the line in the real order
+    const ao = (ov.allocation_order || []).map(String);
+    const byP = Object.fromEntries(crit.map(c => [String(c.priority), c]));
+    const reordered = ao.length === crit.length && ao.every(p => byP[p]) && ao.join("|") !== crit.map(c => String(c.priority)).join("|");
+    if (reordered) crit = ao.map(p => byP[p]);
     const groups = ov.quota_groups || [];
     const groupOf = p => groups.filter(g => (g.priorities || []).map(String).includes(String(p)));
-    let h = "";
-    const pos = p => crit.findIndex(c => String(c.priority) === String(p));
+    let h = reordered ? `<li class="seg"><div class="rail"></div><div class="seglabel muted small">Shown in the order places are given out, which differs from the school's numbering.</div></li>` : "";
     const hasSize = g => g.places != null || g.max_places != null || g.min_places != null || g.percent != null;
-    const listOrder = crit.map(c => String(c.priority));
-    const ao = (ov.allocation_order || []).map(String);
-    const aoDiffers = ao.length && ao.join("|") !== listOrder.filter(p => ao.includes(p)).join("|");
-    if (aoDiffers) {
-      h += stop({ id: "place-split", cls: "minor note", kicker: "Before you read the priorities", title: "Places are given in a different order", body: `
-        ${aoDiffers ? `<div class="pool">Places are actually handed out in a different order from the list below:<div class="pills">${ao.map(pill).join('<span class="parrow">→</span>')}</div>${ov.allocation_order_description ? more(`<div class="desc">${esc(ov.allocation_order_description)}</div>`) : ""}</div>` : ""}` });
-    }
     const SPECIAL = { looked_after: "looked-after children", disadvantaged: "Pupil Premium or free school meals", medical_social: "medical or social need", staff: "staff children" };
     const lastDistIdx = (() => { let k = -1; crit.forEach((c, i) => { if (byDistance(c)) k = i; }); return k; })();
     const built = crit.map((c, i) => {

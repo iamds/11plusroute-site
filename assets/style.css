@@ -98,9 +98,14 @@ td.num, th.num { text-align: right; }
 td.num:first-child { font-weight: 800; color: var(--ink-2); }
 tbody tr:hover { background: var(--surface-2); }
 td.name a { font-weight: 700; color: var(--ink); text-decoration: none; }
-td.name a::after { content: "→"; display: inline-block; margin-left: 6px; color: var(--ink-2); font-weight: 600; transition: transform .15s; }
 td.name a:hover { color: var(--link); }
-td.name a:hover::after { color: var(--link); transform: translateX(3px); }
+.mtown { display: none; }
+/* phones: keep the list narrow (town moves under the name; type and places are on each school's page) */
+@media (max-width: 640px) {
+  #listview table th:nth-child(3), #rows td:nth-child(3), #listview table th:nth-child(5), #rows td:nth-child(5), #listview table th:nth-child(7), #rows td:nth-child(7) { display: none; }
+  .mtown { display: block; font-size: .8rem; color: var(--ink-2); font-weight: 400; }
+  #listview table th, #rows td { padding-left: 8px; padding-right: 8px; }
+}
 tr.pending td { color: var(--ink-2); }
 td.pri { white-space: nowrap; } td.pri .arrow { color: var(--ink-2); margin: 0 1px; }
 td.empty { text-align: center; padding: 36px; color: var(--ink-2); }

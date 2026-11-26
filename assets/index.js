@@ -122,7 +122,7 @@
     $("rows").innerHTML = list.map(r => {
       const chips = home ? `<div class="gchips">${GS.statusChips(r._a, esc)}</div>` : "";
       return `<tr>
-        <td class="name"><button type="button" class="star${GS.shortlist.has(r.slug) ? " on" : ""}" data-slug="${r.slug}" aria-pressed="${GS.shortlist.has(r.slug)}" aria-label="Shortlist ${esc(r.name)}">${GS.STAR(GS.shortlist.has(r.slug))}</button><a href="schools/${r.slug}.html${home ? "?pc=" + encodeURIComponent(home.postcode).replace(/%20/g, "+") : ""}">${esc(r.name)}</a>${chips}</td>
+        <td class="name"><button type="button" class="star${GS.shortlist.has(r.slug) ? " on" : ""}" data-slug="${r.slug}" aria-pressed="${GS.shortlist.has(r.slug)}" aria-label="Shortlist ${esc(r.name)}">${GS.STAR(GS.shortlist.has(r.slug))}</button><a href="schools/${r.slug}.html${home ? "?pc=" + encodeURIComponent(home.postcode).replace(/%20/g, "+") : ""}">${esc(r.name)}</a><span class="mtown">${esc(r.town)}</span>${chips}</td>
         <td class="num dist">${r.miles != null ? r.miles.toFixed(1) + " mi" : ""}</td>
         <td>${esc(r.town)}</td>
         <td><span class="g g-${r.gender}">${GENDER[r.gender]}</span></td>
