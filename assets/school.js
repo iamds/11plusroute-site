@@ -129,7 +129,7 @@
   function stop(o) {
     return `<li class="stop ${o.cls || ""}${o.branch ? " has-branch" : ""}"${o.id ? ` id="${o.id}"` : ""}>
       <div class="rail"><span class="marker">${o.marker || ""}</span></div>
-      <div class="main">${o.kicker ? `<div class="kicker">${o.kicker}${o.id ? linkBtn(o.id) : ""}</div>` : ""}${o.title ? `<div class="title">${o.title}</div>` : ""}${o.body || ""}</div>
+      <div class="main">${o.kicker ? `<div class="kicker">${o.kicker}</div>` : ""}${o.title ? `<div class="title">${o.title}</div>` : ""}${o.body || ""}</div>
       ${o.branch ? `<div class="branch ${o.branch.cls || ""}"><div class="bcard"><span class="blabel">${o.branch.label}</span>${o.branch.html}</div></div>` : ""}
     </li>`;
   }
