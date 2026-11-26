@@ -319,7 +319,7 @@ thead th { border-bottom: 1px solid var(--line); }
 .near { border-top: 4px solid var(--gold); }
 .pc-form label { display: block; margin-bottom: 8px; font-size: 1.05rem; }
 .pc-row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
-.pc-row input { font: inherit; padding: 10px 12px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); color: var(--ink); flex: 1 1 220px; min-width: 0; text-transform: uppercase; }
+.pc-row input { font: inherit; padding: 10px 12px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); color: var(--ink); flex: 1 1 220px; min-width: 0; }
 .pc-row input::placeholder { text-transform: none; }
 .pc-row input:focus { border-color: var(--link); outline: none; box-shadow: 0 0 0 3px color-mix(in srgb, var(--link) 20%, transparent); }
 .btn-primary { font: inherit; font-weight: 700; padding: 10px 16px; border: 0; border-radius: var(--radius); background: var(--link); color: #fff; cursor: pointer; }
@@ -353,7 +353,7 @@ td.dist { white-space: nowrap; font-weight: 700; }
 .nm-res { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; padding: 10px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
 .nm-form { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 10px 14px; background: var(--surface); border: 1px dashed var(--line); border-radius: var(--radius); }
 .nm-form label { font-weight: 600; font-size: .95rem; }
-.nm-form input { font: inherit; padding: 7px 10px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); color: var(--ink); width: 150px; text-transform: uppercase; }
+.nm-form input { font: inherit; padding: 7px 10px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); color: var(--ink); width: 180px; }
 .nm-form .btn-primary { padding: 7px 14px; }
 .nm-form .err { color: var(--no); }
 

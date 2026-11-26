@@ -11,18 +11,17 @@
   try {
     const p = new URLSearchParams(location.search.length > 1 ? location.search.slice(1) : location.hash.slice(1));
     pcParam = (p.get("pc") || "").trim();
-    state.q = p.get("q") || ""; state.type = p.get("ty") || ""; state.gender = p.get("g") || ""; state.town = p.get("t") || "";
+    state.q = p.get("q") || ""; state.type = p.get("ty") || ""; state.gender = p.get("g") || "";
     state.la = p.get("la") || ""; state.within = p.get("w") || ""; if (p.get("only") === "sl" || p.get("sl")) { location.replace("shortlist.html" + (p.get("sl") ? "?sl=" + encodeURIComponent(p.get("sl")) : "")); return; } state.view = p.get("v") === "map" ? "map" : "list";
     if (p.get("s")) { state.sort = p.get("s"); state.dir = p.get("d") === "-1" ? -1 : 1; }
   } catch (e) {}
 
   const $ = id => document.getElementById(id);
   const fill = (sel, vals) => { sel.innerHTML += vals.map(v => `<option value="${esc(v)}">${esc(v)}</option>`).join(""); };
-  fill($("f-town"), [...new Set(rows.map(r => r.town))].sort());
   fill($("f-la"), [...new Set(rows.map(r => r.local_authority).filter(Boolean))].sort());
 
 
-  $("f-q").value = state.q; $("f-type").value = state.type; $("f-gender").value = state.gender; $("f-town").value = state.town;
+  $("f-q").value = state.q; $("f-type").value = state.type; $("f-gender").value = state.gender;
   $("f-la").value = state.la; $("f-within").value = state.within;
 
   // ---------- home postcode ----------
@@ -63,7 +62,7 @@
   function sync() {
     const p = new URLSearchParams();
     if (state.q) p.set("q", state.q); if (state.type) p.set("ty", state.type); if (state.gender) p.set("g", state.gender);
-    if (state.town) p.set("t", state.town); if (state.la) p.set("la", state.la); if (state.within) p.set("w", state.within);
+    if (state.la) p.set("la", state.la); if (state.within) p.set("w", state.within);
     if (state.view === "map") p.set("v", "map");
     if (state.sortChosen) { p.set("s", state.sort); p.set("d", state.dir); }
     const qs = p.toString();
@@ -75,10 +74,9 @@
     const q = state.q.trim().toLowerCase();
     const w = home && state.within ? +state.within : null;
     return rows.filter(r =>
-      (!q || (r.name + " " + r.town + " " + (r.local_authority || "")).toLowerCase().includes(q)) &&
+      (!q || r.name.toLowerCase().includes(q)) &&
       (!state.type || r.selection === state.type) &&
       (!state.gender || r.gender === state.gender) &&
-      (!state.town || r.town === state.town) &&
       (!state.la || r.local_authority === state.la) &&
       (w == null || (r.miles != null && r.miles <= w)) &&
       [...state.cats].every(c => (r.categories || []).includes(c)));
@@ -308,12 +306,11 @@
   $("f-q").addEventListener("input", e => { state.q = e.target.value; render(); });
   $("f-type").addEventListener("change", e => { state.type = e.target.value; render(); });
   $("f-gender").addEventListener("change", e => { state.gender = e.target.value; render(); });
-  $("f-town").addEventListener("change", e => { state.town = e.target.value; render(); });
   $("f-la").addEventListener("change", e => { state.la = e.target.value; render(); });
   $("f-within").addEventListener("change", e => { state.within = e.target.value; render(); });
   $("f-reset").addEventListener("click", () => {
     Object.assign(state, { q: "", type: "", gender: "", town: "", la: "", within: "", sortChosen: false }); state.cats.clear();
-    ["f-q", "f-type", "f-gender", "f-town", "f-la", "f-within"].forEach(id => $(id).value = "");
+    ["f-q", "f-type", "f-gender", "f-la", "f-within"].forEach(id => $(id).value = "");
     if (home) { state.sort = "miles"; state.dir = 1; } else { state.sort = "attainment8"; state.dir = -1; }
     render();
   });
