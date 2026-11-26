@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:bacup-and-rawtenstall-grammar-school-94de910f40c7@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T133120Z
+DTSTAMP:20261126T134314Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Bacup and Rawtenstall Grammar School: Council application deadline 
@@ -22,7 +22,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:bacup-and-rawtenstall-grammar-school-b6c34c92fe76@www.11plusadmissions.
  co.uk
-DTSTAMP:20261126T133120Z
+DTSTAMP:20261126T134314Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Bacup and Rawtenstall Grammar School: National Offer Day

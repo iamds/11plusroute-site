@@ -450,9 +450,11 @@
     out.addEventListener("click", async e => {
       const b = e.target.closest(".seclink");
       if (!b) return;
-      e.preventDefault(); e.stopPropagation();  // don't toggle the fold
+      e.preventDefault(); e.stopPropagation();  // handle the fold ourselves: open it, never close it
+      const f = document.getElementById(b.dataset.target);
+      if (f && f.tagName === "DETAILS") f.open = true;
       const url = shareUrl(b.dataset.target, false);
-      history.replaceState(null, "", location.pathname + location.search + "#" + b.dataset.target);
+      // leave the address bar alone, so pasting the link into this tab still jumps and opens the section
       toast(await copyText(url) ? "Link copied" : url);
     });
     const btn = out.querySelector(".sharewrap .sharebtn"), menu = out.querySelector(".sharemenu");
