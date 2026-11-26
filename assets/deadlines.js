@@ -69,7 +69,7 @@
 
   async function setPostcode(pc) {
     $("dl-error").textContent = "";
-    try { home = await GS.lookupPostcode(pc); GS.saveHome(home); $("dl-pc").value = home.postcode; }
+    try { home = await GS.lookupPostcode(pc, S); GS.saveHome(home); $("dl-pc").value = home.postcode; }
     catch (err) { $("dl-error").textContent = err.message; }
     render();
   }

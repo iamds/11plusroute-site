@@ -904,17 +904,17 @@
       history.replaceState(null, "", location.pathname + pcq + location.hash);
       const back = out.querySelector(".crumbs a"); if (back) back.href = "../index.html" + pcq;
       if (r) {
-        holder.innerHTML = `<div class="nm-res"><span class="nm-dist"><b>${r.miles.toFixed(1)} miles</b> from ${esc(home.postcode)} <span class="muted small">(straight line)</span></span>
+        holder.innerHTML = `<div class="nm-res"><span class="nm-dist"><b>${r.miles.toFixed(1)} miles</b> from ${esc(home.postcode)}${home.place ? " town centre" : ""} <span class="muted small">(straight line${home.place ? "; enter a full postcode to check priority areas" : ""})</span></span>
           <span class="gchips">${G.statusChips(r, esc)}</span> <button type="button" class="linkbtn small" id="nm-change">Change postcode</button></div>`;
         holder.querySelector("#nm-change").onclick = () => show(null);
       } else {
         holder.innerHTML = `<form class="nm-form"><label for="nm-pc">How far are you from this school?</label>
-          <input id="nm-pc" autocomplete="postal-code" placeholder="Your postcode" value="${home ? esc(home.postcode) : ""}"><button class="btn-primary" type="submit">Check</button>
+          <input id="nm-pc" autocomplete="postal-code" placeholder="Postcode or town" value="${home ? esc(home.postcode) : ""}"><button class="btn-primary" type="submit">Check</button>
           <span class="small err" role="alert"></span></form>`;
         G.addLocateButton(holder.querySelector("#nm-pc"), holder.querySelector("form"), holder.querySelector(".err"));
         holder.querySelector("form").onsubmit = async e => {
           e.preventDefault(); const err = holder.querySelector(".err"); err.textContent = "";
-          try { const h = await G.lookupPostcode(holder.querySelector("#nm-pc").value); G.saveHome(h); show(h); } catch (x) { err.textContent = x.message; }
+          try { const h = await G.lookupPostcode(holder.querySelector("#nm-pc").value, [G0]); G.saveHome(h); show(h); } catch (x) { err.textContent = x.message; }
         };
       }
     }
@@ -923,7 +923,7 @@
     const same = (x, y) => String(x || "").replace(/\s/g, "").toUpperCase() === String(y || "").replace(/\s/g, "").toUpperCase();
     if (pcParam && !(saved && same(saved.postcode, pcParam))) {
       holder.innerHTML = `<div class="nm-res muted">Looking up ${esc(pcParam)}…</div>`;
-      G.lookupPostcode(pcParam).then(h => { G.saveHome(h); show(h); }).catch(() => show(null));
+      G.lookupPostcode(pcParam, [G0]).then(h => { G.saveHome(h); show(h); }).catch(() => show(null));
     } else show(saved);
   })();
 })();

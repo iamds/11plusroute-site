@@ -32,8 +32,10 @@
     $("f-within").disabled = !home;
     $("pc").value = home ? home.postcode : "";
     $("pc-status").innerHTML = home
-      ? `Showing distances from <b>${esc(home.postcode)}</b> (straight line). <button type="button" class="linkbtn" id="pc-clear">Clear</button>`
-      : `Enter your postcode to see how far each school is and whether you're in its priority area.`;
+      ? `Showing distances from <b>${esc(home.postcode)}</b>${home.place ? " town centre" : ""} (straight line). <button type="button" class="linkbtn" id="pc-clear">Clear</button>`
+        + (home.place ? `<br><span class="muted">Enter a full postcode to check priority areas.</span>` : "")
+        + (home.place && home.others && home.others.length ? `<br>Not the right place? ${home.others.map(o => `<button type="button" class="linkbtn pc-alt">${esc(o)}</button>`).join(" · ")}` : "")
+      : `Enter your postcode or town to see how far each school is, and a postcode to check whether you're in its priority area.`;
     if (home && !state.sortChosen) { state.sort = "miles"; state.dir = 1; }
     if (!home && state.sort === "miles") { state.sort = "attainment8"; state.dir = -1; }
   }
@@ -42,7 +44,7 @@
     e.preventDefault();
     const btn = $("pc-go"); btn.disabled = true; $("pc-error").textContent = "";
     try {
-      home = await GS.lookupPostcode($("pc").value); GS.saveHome(home); state.sortChosen = false; applyHome(); render();
+      home = await GS.lookupPostcode($("pc").value, rows.map(r => r.geo)); GS.saveHome(home); state.sortChosen = false; applyHome(); render();
       const target = document.querySelector(".listbar");
       if (target) {
         const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -54,6 +56,7 @@
     finally { btn.disabled = false; }
   });
   document.addEventListener("click", e => {
+    if (e.target.classList.contains("pc-alt")) { $("pc").value = e.target.textContent; $("pc-form").requestSubmit(); return; }
     if (e.target.id === "pc-clear") { home = null; GS.saveHome(null); state.within = ""; $("f-within").value = ""; applyHome(); render(); }
   });
 
@@ -286,7 +289,7 @@
     if (home) {
       const hel = GS.homeMarkerEl(home.postcode);
       markers.push(new maplibregl.Marker({ element: hel }).setLngLat([home.lng, home.lat])
-        .setPopup(new maplibregl.Popup({ offset: 12 }).setHTML(`Your postcode: <b>${esc(home.postcode)}</b>`)).addTo(map));
+        .setPopup(new maplibregl.Popup({ offset: 12 }).setHTML(`${home.place ? "From" : "Your postcode"}: <b>${esc(home.postcode)}</b>`)).addTo(map));
       bounds.extend([home.lng, home.lat]);
       if (state.within) radius.geometry.coordinates[0].forEach(c => bounds.extend(c));
     }
@@ -326,7 +329,7 @@
   render();
   if (pcParam && !(home && same(home.postcode, pcParam))) {
     $("pc").value = pcParam; $("pc-status").textContent = "Looking up " + pcParam + "…";
-    GS.lookupPostcode(pcParam).then(h => { home = h; GS.saveHome(h); applyHome(); render(); })
+    GS.lookupPostcode(pcParam, rows.map(r => r.geo)).then(h => { home = h; GS.saveHome(h); applyHome(); render(); })
       .catch(err => { $("pc-error").textContent = err.message; applyHome(); });
   }
 })();

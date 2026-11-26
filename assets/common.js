@@ -41,17 +41,49 @@ window.GS = (function () {
   // ---------- home postcode: lookup (postcodes.io, in the browser), distance and area checks ----------
   const HOME_KEY = "gs-home";
   const norm = t => String(t || "").toLowerCase().replace(/&/g, "and").replace(/\bst\.?\s/g, "st ").replace(/[^a-z0-9]+/g, " ").trim();
-  async function lookupPostcode(pc) {
+  // Accepts a full postcode or a town / village name. A place name gives distances from its centre; area checks
+  // (wards, parishes, postcode districts) need a real postcode, so they come back as unknown for places.
+  const PC_RE = /^[A-Z]{1,2}\d[A-Z\d]?\s*\d[A-Z]{2}$/i;
+  const TYPE_PENALTY = { City: 0, Town: 0, "Other Settlement": 1, "Suburban Area": 1, Village: 3, Hamlet: 6 };
+  const ENGLAND = r => !/Wales|Scotland|Northern Ireland/i.test(r.region || r.country || "");
+  const placeArea = r => r.county_unitary || r.district_borough || r.region || "";
+  async function lookupPostcode(pc, refs) {
     const q = String(pc || "").trim();
-    if (!q) throw new Error("Enter a postcode");
+    if (!q) throw new Error("Enter a postcode or town");
+    if (PC_RE.test(q)) {
+      let r;
+      try { r = await fetch("https://api.postcodes.io/postcodes/" + encodeURIComponent(q)); }
+      catch (e) { throw new Error("Couldn't reach the postcode service. Check your connection and try again."); }
+      if (r.status === 404) throw new Error("That postcode wasn't recognised");
+      if (!r.ok) throw new Error("The postcode service didn't respond. Try again in a moment.");
+      const d = (await r.json()).result;
+      return { postcode: d.postcode, lat: d.latitude, lng: d.longitude, outcode: d.outcode, sector: d.postcode.slice(0, -2).trim(),
+               district: d.admin_district, county: d.admin_county, ward: d.admin_ward, parish: d.parish };
+    }
+    return lookupPlace(q, refs);
+  }
+  async function lookupPlace(q, refs) {
+    const m = /^(.*?)\s*\(([^)]+)\)\s*$/.exec(q);  // "Sutton (Greater London)" picks that one
+    const name = (m ? m[1] : q).trim(), area = m ? m[2].trim().toLowerCase() : "";
     let r;
-    try { r = await fetch("https://api.postcodes.io/postcodes/" + encodeURIComponent(q)); }
-    catch (e) { throw new Error("Couldn't reach the postcode service. Check your connection and try again."); }
-    if (r.status === 404) throw new Error("That postcode wasn't recognised");
-    if (!r.ok) throw new Error("The postcode service didn't respond. Try again in a moment.");
-    const d = (await r.json()).result;
-    return { postcode: d.postcode, lat: d.latitude, lng: d.longitude, outcode: d.outcode, sector: d.postcode.slice(0, -2).trim(),
-             district: d.admin_district, county: d.admin_county, ward: d.admin_ward, parish: d.parish };
+    try { r = await fetch("https://api.postcodes.io/places?limit=60&q=" + encodeURIComponent(name)); }
+    catch (e) { throw new Error("Couldn't reach the lookup service. Check your connection and try again."); }
+    if (!r.ok) throw new Error("The lookup service didn't respond. Try again in a moment.");
+    const all = ((await r.json()).result || []).filter(ENGLAND).filter(x => TYPE_PENALTY[x.local_type] != null);
+    const exact = all.filter(x => norm(x.name_1) === norm(name) || norm(x.name_2 || "") === norm(name));
+    let list = exact.length ? exact : all.filter(x => norm(x.name_1).startsWith(norm(name)));
+    if (area) { const f = list.filter(x => [x.county_unitary, x.district_borough, x.region].some(v => v && v.toLowerCase() === area)); if (f.length) list = f; }
+    if (!list.length) throw new Error("That postcode or place wasn't recognised. Try a full postcode.");
+    refs = (refs || []).filter(x => x && x.lat != null);
+    const near = x => refs.length ? Math.min(...refs.map(s => miles({ lat: x.latitude, lng: x.longitude }, s))) : 0;
+    list = list.map(x => ({ x, score: near(x) + TYPE_PENALTY[x.local_type] })).sort((a, b) => a.score - b.score).map(o => o.x);
+    // the same name in different places is labelled with its county, e.g. "Sutton (Greater London)"
+    const dup = new Set(list.map(x => x.name_1)).size < list.length || exact.length > 1;
+    const label = x => dup ? `${x.name_1} (${placeArea(x)})` : x.name_1;
+    const seen = new Set(), others = [];
+    list.slice(1).forEach(x => { const l = label(x); if (l !== label(list[0]) && !seen.has(l) && others.length < 6) { seen.add(l); others.push(l); } });
+    const best = list[0];
+    return { postcode: label(best), place: true, lat: best.latitude, lng: best.longitude, others };
   }
   // "Use my location": browser geolocation -> nearest postcode (postcodes.io) -> fill the input and submit its form
   async function nearestPostcode() {
@@ -265,6 +297,7 @@ window.GS = (function () {
     return 2 * R * Math.asin(Math.sqrt(h));
   }
   function areaStatus(a, home, d) {
+    if (home.place) return "unknown";  // a town centre can't say which side of a boundary a family lives
     const checks = [];
     if (a.radius != null) checks.push(a.centre ? miles(home, a.centre) <= a.radius : a.centred_on_school ? d <= a.radius : null);
     const pcs = [...(a.postcode_districts || []).map(x => ["d", x]), ...(a.postcode_sectors || []).map(x => ["s", x])];
