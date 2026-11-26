@@ -193,13 +193,22 @@ td.empty { text-align: center; padding: 36px; color: var(--ink-2); }
 .stop.crit .marker { width: 34px; height: 34px; top: 10px; border-color: var(--rail); background: var(--c); color: #fff; font-weight: 800; font-size: .78rem; }
 .stop.crit .kicker { color: var(--c); }
 .stop.crit .branch { --bc: var(--c); }
-.needs { font-size: .84rem; margin: 6px 0 2px; padding: 5px 8px; border-radius: 4px; border-left: 3px solid var(--ink-2); background: var(--surface-2); }
+.needs-old { font-size: .84rem; margin: 6px 0 2px; padding: 5px 8px; border-radius: 4px; border-left: 3px solid var(--ink-2); background: var(--surface-2); }
 .needs.both { border-left-color: var(--crimson); } .needs.only { border-left-color: var(--yes); }
 .addr { font-size: .84rem; margin: 6px 0 2px; padding: 5px 8px; border-radius: 4px; background: var(--surface-2); }
 .addr b { font-weight: 700; }
 .stop.crit .branch .bcard { background: color-mix(in srgb, var(--c) 6%, var(--surface)); }
 .stop.crit .and { display: block; font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--ink-2); margin: 3px 0; }
 b.or { color: var(--c, var(--link)); text-transform: uppercase; font-size: .7rem; letter-spacing: .06em; margin: 0 3px; }
+.decides { margin-top: 10px; display: grid; gap: 6px; }
+.decides .rk-l { display: inline-block; min-width: 76px; font-size: .68rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-2); margin-right: 6px; }
+.gate, .rank { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; font-size: .9rem; }
+.gate .rk-v { font-weight: 700; padding: 2px 9px; border-radius: 4px; }
+.gate.need .rk-v { background: color-mix(in srgb, var(--crimson) 10%, var(--surface)); color: var(--crimson); border: 1px solid color-mix(in srgb, var(--crimson) 35%, transparent); }
+.gate.free .rk-v { background: color-mix(in srgb, var(--yes) 10%, var(--surface)); color: var(--yes); border: 1px solid color-mix(in srgb, var(--yes) 35%, transparent); }
+.rank .rk-v { font-weight: 700; padding: 2px 9px; border-radius: 4px; background: color-mix(in srgb, var(--c, var(--ink)) 12%, var(--surface)); border: 1px solid color-mix(in srgb, var(--c, var(--ink)) 35%, transparent); }
+.rank .rk-v.tb { font-weight: 500; background: var(--surface-2); border-color: var(--line); color: var(--ink-2); }
+.rk-arrow { color: var(--ink-2); font-size: .8rem; }
 .acad { margin-top: 8px; font-size: .88rem; }
 .acad span { display: inline-block; font-size: .68rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; color: var(--c); margin-right: 4px; }
 .alloc { margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--line); font-size: .88rem; }

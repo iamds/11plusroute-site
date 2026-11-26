@@ -120,21 +120,31 @@
   // which home address counts, and on what date: shown on every step that depends on where you live
   const usesAddress = c => byDistance(c) || c.category === "area" || JSON.stringify(c.conditions || []).match(/"(in_area|not_in_area)"/);
   // Does this step need a test result as well as the address, or is the address enough?
+  // How places are decided inside a priority: shown on the left with the question, because it decides who gets in.
+  const SHORT_ORDER = o => {
+    switch (o.type) {
+      case "score": return "Test score" + (o.component ? ` (${esc(SUBJECTS[o.component] || o.component)})` : "");
+      case "distance": return o.area_first ? `Living in ${esc(areas[o.area_first]?.name || o.area_first)} first, then distance` : "Distance";
+      case "random": return "Random draw";
+      case "sub_criteria": return "Sub-priorities in order";
+      default: { const t = String(o.description || (o.type === "condition" ? cond(o.condition || {}).replace(/<[^>]+>/g, "").replace(/\?.*$/, "") : o.type)); return esc(t.length > 60 ? t.slice(0, 57) + "…" : t); }
+    }
+  };
   function needsLine(c) {
     const q = a.qualification || {};
     const scoreOrder = (c.order_within || []).some(o => o.type === "score") || c.category === "score_rank";
-    let req = "";
     const tested = scoreOrder || c.category === "aptitude";
-    if (c.academic_requirement && c.academic_requirement.type === "none") req = tested ? "To take the test (there's no minimum score)" : "";
+    let req = "";
+    if (c.academic_requirement && c.academic_requirement.type === "none") req = tested ? "Must sit the test (no minimum score)" : "";
     else if (c.academic_requirement) req = rule(c.academic_requirement);
-    else if (s.selection === "grammar" && q.type && q.type !== "none") req = q.type === "sat_stage" ? `To have sat ${esc(stageShort(q.ref))}` : "The pass mark (see Pass mark above)";
-    // lead with the order places go in within this priority (score, distance, random...), then any test requirement
-    const chain = (c.order_within || []).length ? c.order_within : (y.tie_breaks || []);
-    const order = chain.map(ordering).filter(Boolean);
-    const orderTxt = order.length ? `<b>Places go to:</b> ${order.join(", then ")}.` : "";
+    else if (s.selection === "grammar" && q.type && q.type !== "none") req = q.type === "sat_stage" ? `Must have sat ${esc(stageShort(q.ref))}` : "Must reach the pass mark";
     req = req.replace(/[.\s]+$/, "");
-    const reqTxt = req ? ` <b>Also needs:</b> ${req.replace(/^./, m => m.toUpperCase())}.` : (s.selection !== "grammar" && !tested ? " No test needed." : "");
-    return orderTxt || reqTxt ? `<div class="needs${req ? " both" : " only"}">${orderTxt}${reqTxt}</div>` : "";
+    const chain = (c.order_within || []).length ? c.order_within : (y.tie_breaks || []);
+    const order = chain.map(SHORT_ORDER).filter(Boolean);
+    const gate = req ? `<div class="gate need"><span class="rk-l">Needs</span><span class="rk-v">${req.replace(/^./, m => m.toUpperCase())}</span></div>`
+      : (!tested ? `<div class="gate free"><span class="rk-l">Needs</span><span class="rk-v">No test needed</span></div>` : "");
+    const rank = order.length ? `<div class="rank"><span class="rk-l">Ranked by</span>${order.map((o, k) => `<span class="rk-v${k ? " tb" : ""}">${o}</span>`).join('<span class="rk-arrow">→</span>')}</div>` : "";
+    return gate || rank ? `<div class="decides">${gate}${rank}</div>` : "";
   }
   function addressLine() {
     const ad = y.address_date;
@@ -311,7 +321,7 @@
       const subs = (c.order_within || []).filter(o => o.type === "sub_criteria").map(o =>
         `<ol class="subcrit">${(o.criteria || []).map(sc => `<li>${esc(sc.label)}${sc.description ? ` <span class="muted">· ${esc(sc.description)}</span>` : ""}</li>`).join("")}</ol>`).join("");
       const outcome = `<div class="title">${esc(c.label)}</div>
-        ${needsLine(c)}${usesAddress(c) ? addressLine() : ""}
+        ${usesAddress(c) ? addressLine() : ""}
         ${c.quota && quotaSize(c.quota) ? `<div class="quota">${esc(quotaSize(c.quota))}</div>` : ""}
         ${groupOf(c.priority).filter(hasSize).map(g => { const others = (g.priorities || []).map(String).filter(x => x !== String(c.priority)); return others.length ? `<div class="quota">Shares ${esc(groupAmount(g))} with ${others.map(x => esc(shortLabel(critByP()[x]?.label || x))).join(" and ")}</div>` : ""; }).join("")}
         ${al && al.offers != null ? `<div class="alloc"><b>${al.offers}</b> offered in ${esc(latestAlloc.entry_year)}${al.last_distance_miles != null ? ` · furthest ${al.last_distance_miles} mi` : ""}${al.last_score != null ? ` · lowest score ${al.last_score}` : ""}</div>` : ""}
@@ -328,7 +338,7 @@
         : c.category === "distance" ? `${i < crit.length - 1 ? anyone : "Everyone else" + (s.selection === "grammar" ? " who qualifies" : "")}, nearest first`
         : (i < crit.length - 1 || (c.category === "score_rank" && s.selection && s.selection !== "grammar")) ? "Took the test for these places?"
         : "Everyone else who qualifies";
-      const acad = c.academic_requirement ? `<div class="acad"><span>Academic bar</span> ${rule(c.academic_requirement)}</div>` : "";
+      const acad = needsLine(c);
       const qs = c.quota ? quotaSize(c.quota).replace(/^Up to /, "").replace(/^At least /, "") : "";
       const noLabel = !conds.length ? "" : c.quota ? (qs ? `No, or its ${esc(qs)} have gone` : "No, or its share of places has gone") : "No";
       // small fixed map for stations that depend on where you live
