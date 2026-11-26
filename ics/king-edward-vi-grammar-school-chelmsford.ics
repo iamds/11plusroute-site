@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:king-edward-vi-grammar-school-chelmsford-305f2611e092@www.11plusadmissi
  ons.co.uk
-DTSTAMP:20261126T114953Z
+DTSTAMP:20261126T120537Z
 DTSTART;VALUE=DATE:20260512
 DTEND;VALUE=DATE:20260513
 SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): CSSE registratio
@@ -22,7 +22,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-grammar-school-chelmsford-a76b42f9be75@www.11plusadmissi
  ons.co.uk
-DTSTAMP:20261126T114953Z
+DTSTAMP:20261126T120537Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
 SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): CSSE registratio
@@ -36,7 +36,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-grammar-school-chelmsford-5441773fb595@www.11plusadmissi
  ons.co.uk
-DTSTAMP:20261126T114953Z
+DTSTAMP:20261126T120537Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): Deadline for acc
@@ -50,7 +50,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-grammar-school-chelmsford-ca5d2fe9df50@www.11plusadmissi
  ons.co.uk
-DTSTAMP:20261126T114953Z
+DTSTAMP:20261126T120537Z
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260716
 SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): Test centre lett
@@ -64,7 +64,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-grammar-school-chelmsford-efaa19ae8f6e@www.11plusadmissi
  ons.co.uk
-DTSTAMP:20261126T114953Z
+DTSTAMP:20261126T120537Z
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): Last date to wit
@@ -78,7 +78,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-grammar-school-chelmsford-e03e9e37a826@www.11plusadmissi
  ons.co.uk
-DTSTAMP:20261126T114953Z
+DTSTAMP:20261126T120537Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): CSSE 11+ test (S
@@ -92,7 +92,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-grammar-school-chelmsford-cfbaaea9a323@www.11plusadmissi
  ons.co.uk
-DTSTAMP:20261126T114953Z
+DTSTAMP:20261126T120537Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): Alternative test
@@ -106,7 +106,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-grammar-school-chelmsford-c05c7d6ea91a@www.11plusadmissi
  ons.co.uk
-DTSTAMP:20261126T114953Z
+DTSTAMP:20261126T120537Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): Priority-area re
@@ -121,7 +121,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-grammar-school-chelmsford-a519e776e18a@www.11plusadmissi
  ons.co.uk
-DTSTAMP:20261126T114953Z
+DTSTAMP:20261126T120537Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): Results emailed 
@@ -135,7 +135,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-grammar-school-chelmsford-8652b6c44c5c@www.11plusadmissi
  ons.co.uk
-DTSTAMP:20261126T114953Z
+DTSTAMP:20261126T120537Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): CAF deadline\; C
@@ -149,7 +149,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-grammar-school-chelmsford-044e716fdc59@www.11plusadmissi
  ons.co.uk
-DTSTAMP:20261126T114953Z
+DTSTAMP:20261126T120537Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): Essex: last date
@@ -163,7 +163,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-edward-vi-grammar-school-chelmsford-b6c34c92fe76@www.11plusadmissi
  ons.co.uk
-DTSTAMP:20261126T114953Z
+DTSTAMP:20261126T120537Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:King Edward VI Grammar School\, Chelmsford (KEGS): National Offer D

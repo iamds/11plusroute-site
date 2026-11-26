@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:wilmington-grammar-school-for-boys-d243f6744a52@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T114954Z
+DTSTAMP:20261126T120537Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 SUMMARY:Wilmington Grammar School for Boys: Kent Test registration opens (k
@@ -22,7 +22,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wilmington-grammar-school-for-boys-8d841080b810@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T114954Z
+DTSTAMP:20261126T120537Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Wilmington Grammar School for Boys: Kent Test registration and acce
@@ -36,7 +36,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wilmington-grammar-school-for-boys-c11010fa1142@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T114954Z
+DTSTAMP:20261126T120537Z
 DTSTART;VALUE=DATE:20260721
 DTEND;VALUE=DATE:20260722
 SUMMARY:Wilmington Grammar School for Boys: Last date for late paper regist
@@ -50,7 +50,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wilmington-grammar-school-for-boys-916601f3d6b1@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T114954Z
+DTSTAMP:20261126T120537Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Wilmington Grammar School for Boys: Secondary applications (SCAF) o
@@ -64,7 +64,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wilmington-grammar-school-for-boys-425301044e7d@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T114954Z
+DTSTAMP:20261126T120537Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Wilmington Grammar School for Boys: Kent Test in Kent primary schoo
@@ -78,7 +78,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wilmington-grammar-school-for-boys-2e02080775d8@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T114954Z
+DTSTAMP:20261126T120537Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Wilmington Grammar School for Boys: Kent Test at test centres for c
@@ -92,7 +92,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wilmington-grammar-school-for-boys-9a0a1bb01bfb@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T114954Z
+DTSTAMP:20261126T120537Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Wilmington Grammar School for Boys: Kent Test decisions emailed aft
@@ -106,7 +106,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wilmington-grammar-school-for-boys-1408f3db0a4f@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T114954Z
+DTSTAMP:20261126T120537Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Wilmington Grammar School for Boys: Deadline: Supplementary Form (s
@@ -120,7 +120,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wilmington-grammar-school-for-boys-aec12d9ca45a@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T114954Z
+DTSTAMP:20261126T120537Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:Wilmington Grammar School for Boys: National closing date for secon
@@ -134,7 +134,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wilmington-grammar-school-for-boys-f80cd6766b64@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T114954Z
+DTSTAMP:20261126T120537Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Wilmington Grammar School for Boys: Final date for on-time changes 
@@ -148,7 +148,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wilmington-grammar-school-for-boys-e66f0502bb93@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T114954Z
+DTSTAMP:20261126T120537Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Wilmington Grammar School for Boys: National Offer Day (emails afte
@@ -162,7 +162,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wilmington-grammar-school-for-boys-10c78c9623b8@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T114954Z
+DTSTAMP:20261126T120537Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Wilmington Grammar School for Boys: Accept/decline offers\; deadlin
@@ -176,7 +176,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wilmington-grammar-school-for-boys-fc750a636cf8@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T114954Z
+DTSTAMP:20261126T120537Z
 DTSTART;VALUE=DATE:20270407
 DTEND;VALUE=DATE:20270408
 SUMMARY:Wilmington Grammar School for Boys: Deadline for lodging appeals (t
@@ -190,7 +190,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wilmington-grammar-school-for-boys-b77a76eb0903@www.11plusadmissions.co
  .uk
-DTSTAMP:20261126T114954Z
+DTSTAMP:20261126T120537Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
 SUMMARY:Wilmington Grammar School for Boys: KCC reallocation of places that
