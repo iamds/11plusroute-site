@@ -329,8 +329,6 @@ window.GS = (function () {
     const known = r.areas.filter(a => a.status !== "unknown");
     if (inA) out.push(`<span class="gchip in" title="${esc(inA.name)}">✓ Inside priority area</span>`);
     else if (known.length) out.push(`<span class="gchip out" title="${esc(known.map(a => a.name).join("; "))}">Outside priority area</span>`);
-    else if (r.areas.length) out.push(`<span class="gchip maybe">Check the catchment map</span>`);
-    if (r.score_based) out.push(`<span class="gchip neutral">Places go by test score</span>`);
     return out.join("");
   }
   return { CATEGORIES, SUBJECTS, GENDER, esc, fmtDate, catBadge, lookupPostcode, addLocateButton, loadMapLib, mapStyle, isDark, circleGeo, homeMarkerEl, onStyle, loadHome, saveHome, miles, assess, statusChips, shortlist, shortlistTip, STAR, glossarize, calButtons, calMenu, calItems, ensureShortlistCalendar, calFeed };
