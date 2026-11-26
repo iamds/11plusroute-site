@@ -60,7 +60,7 @@
       return;
     }
     $("sl-list").innerHTML = `<div class="card table-wrap" style="padding:0"><table class="sltable"><thead><tr>
-      <th>School</th>${home ? '<th class="num">Distance</th>' : ""}<th>Register by</th><th>Test</th><th>Apply by</th><th>Offers</th><th class="num">Places</th><th><span class="vh">Calendar</span></th></tr></thead><tbody>
+      <th>School</th>${home ? '<th class="num">Distance</th>' : ""}<th>Register by</th><th>Test</th><th>Apply by</th><th>Offers</th><th class="num">Places</th></tr></thead><tbody>
       ${items.map(s => {
         const on = GS.shortlist.has(s.slug);
 
@@ -70,7 +70,7 @@
             <div class="small muted">${esc(s.town || "")} · ${GENDER[s.gender] || ""} · ${TYPE[s.selection] || ""}${s.test ? ` · ${esc(s.test)}` : ""}</div></td>
           ${home ? `<td class="num">${s._mi != null ? s._mi.toFixed(1) + " mi" : ""}</td>` : ""}
           <td${past(s.reg)}>${fmt(s.reg) || "–"}</td><td${past(s.testDate)}>${fmt(s.testDate) || "–"}</td>
-          <td${past(s.caf)}>${fmt(s.caf) || "–"}</td><td${past(s.offer)}>${fmt(s.offer) || "–"}</td><td class="num">${s.pan ?? ""}</td><td class="cal">${s.ics ? GS.calMenu(GS.calItems(s.ics, s.name + " admissions", "ics/" + s.slug + ".ics"), "Add to calendar") : ""}</td></tr>`;
+          <td${past(s.caf)}>${fmt(s.caf) || "–"}</td><td${past(s.offer)}>${fmt(s.offer) || "–"}</td><td class="num">${s.pan ?? ""}</td></tr>`;
       }).join("")}</tbody></table></div>
       <p class="small muted">Dates already passed are greyed out. Always check each school's page and admissions policy.</p>`;
 
