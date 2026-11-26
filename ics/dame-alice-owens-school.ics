@@ -6,103 +6,95 @@ X-WR-CALNAME:Dame Alice Owen's School admissions
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:dame-alice-owens-school-4e48ceff4dbf@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:dame-alice-owens-school-4e48ceff4dbf@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260429
 DTEND;VALUE=DATE:20260430
 SUMMARY:Dame Alice Owen's School: Test registration opens (10am)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/dame-alice-owens-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/dame-alice-owens-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ dame-alice-owens-school.html
+URL:https://www.11plusadmissions.co.uk/schools/dame-alice-owens-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dame-alice-owens-school-2867dcc96cca@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:dame-alice-owens-school-2867dcc96cca@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260610
 DTEND;VALUE=DATE:20260611
 SUMMARY:Dame Alice Owen's School: Test registration closes (4pm)\; access-a
  rrangement forms due from primary schools
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/dame-alice-owens-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/dame-alice-owens-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ dame-alice-owens-school.html
+URL:https://www.11plusadmissions.co.uk/schools/dame-alice-owens-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dame-alice-owens-school-9120ec814a33@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:dame-alice-owens-school-9120ec814a33@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260716
 DTEND;VALUE=DATE:20260717
 SUMMARY:Dame Alice Owen's School: Open afternoon
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/dame-alice-owens-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/dame-alice-owens-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ dame-alice-owens-school.html
+URL:https://www.11plusadmissions.co.uk/schools/dame-alice-owens-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dame-alice-owens-school-8ae2628f778f@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:dame-alice-owens-school-8ae2628f778f@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Dame Alice Owen's School: Part I verbal reasoning test and Music Te
  st 1 (2 September only if needed)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/dame-alice-owens-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/dame-alice-owens-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ dame-alice-owens-school.html
+URL:https://www.11plusadmissions.co.uk/schools/dame-alice-owens-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dame-alice-owens-school-34f832b28a09@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:dame-alice-owens-school-34f832b28a09@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260927
 SUMMARY:Dame Alice Owen's School: Part II English and maths (top 325 only)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/dame-alice-owens-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/dame-alice-owens-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ dame-alice-owens-school.html
+URL:https://www.11plusadmissions.co.uk/schools/dame-alice-owens-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dame-alice-owens-school-c58e525ad142@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:dame-alice-owens-school-c58e525ad142@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 SUMMARY:Dame Alice Owen's School: Music Test 2 individual tests from the we
  ek of 28 September
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/dame-alice-owens-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/dame-alice-owens-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ dame-alice-owens-school.html
+URL:https://www.11plusadmissions.co.uk/schools/dame-alice-owens-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dame-alice-owens-school-44ad6f05d469@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:dame-alice-owens-school-44ad6f05d469@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Dame Alice Owen's School: CAF deadline (home LA). Ranks and recent 
  lowest-offered ranks emailed before this date
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/dame-alice-owens-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/dame-alice-owens-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ dame-alice-owens-school.html
+URL:https://www.11plusadmissions.co.uk/schools/dame-alice-owens-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dame-alice-owens-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:dame-alice-owens-school-b6c34c92fe76@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Dame Alice Owen's School: National Offer Day
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/dame-alice-owens-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/dame-alice-owens-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ dame-alice-owens-school.html
+URL:https://www.11plusadmissions.co.uk/schools/dame-alice-owens-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

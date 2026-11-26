@@ -6,144 +6,144 @@ X-WR-CALNAME:Heckmondwike Grammar School admissions
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:heckmondwike-grammar-school-f58d11397b99@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:heckmondwike-grammar-school-f58d11397b99@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260617
 DTEND;VALUE=DATE:20260618
 SUMMARY:Heckmondwike Grammar School: Open evenings (17 and 18 June)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/heckmondwike-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/heckmondwike-grammar-s
- chool.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ heckmondwike-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/heckmondwike-grammar-school.
+ html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:heckmondwike-grammar-school-95a0eec4518d@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:heckmondwike-grammar-school-95a0eec4518d@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260622
 DTEND;VALUE=DATE:20260623
 SUMMARY:Heckmondwike Grammar School: Online test registration closes (midda
  y)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/heckmondwike-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/heckmondwike-grammar-s
- chool.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ heckmondwike-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/heckmondwike-grammar-school.
+ html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:heckmondwike-grammar-school-40f4980d15cf@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:heckmondwike-grammar-school-40f4980d15cf@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:Heckmondwike Grammar School: Deadline (midday) for proof of EHCP\, 
  SEND (access arrangements) and Pupil Premium
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/heckmondwike-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/heckmondwike-grammar-s
- chool.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ heckmondwike-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/heckmondwike-grammar-school.
+ html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:heckmondwike-grammar-school-51b8e86de8fd@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:heckmondwike-grammar-school-51b8e86de8fd@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:Heckmondwike Grammar School: Deadline (midday) for original Grade 2
  + music certificate
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/heckmondwike-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/heckmondwike-grammar-s
- chool.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ heckmondwike-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/heckmondwike-grammar-school.
+ html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:heckmondwike-grammar-school-7acade016f8f@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:heckmondwike-grammar-school-7acade016f8f@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 SUMMARY:Heckmondwike Grammar School: Entrance examination
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/heckmondwike-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/heckmondwike-grammar-s
- chool.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ heckmondwike-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/heckmondwike-grammar-school.
+ html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:heckmondwike-grammar-school-af00c6e1816c@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:heckmondwike-grammar-school-af00c6e1816c@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:Heckmondwike Grammar School: Target date for letters saying whether
   the child reached the standard
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/heckmondwike-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/heckmondwike-grammar-s
- chool.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ heckmondwike-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/heckmondwike-grammar-school.
+ html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:heckmondwike-grammar-school-1e53bbfcf5df@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:heckmondwike-grammar-school-1e53bbfcf5df@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Heckmondwike Grammar School: Usual CAF deadline (check with your ho
  me LA)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/heckmondwike-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/heckmondwike-grammar-s
- chool.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ heckmondwike-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/heckmondwike-grammar-school.
+ html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:heckmondwike-grammar-school-a08cdc871b7c@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:heckmondwike-grammar-school-a08cdc871b7c@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Heckmondwike Grammar School: National Offer Day (offers from the LA
  )
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/heckmondwike-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/heckmondwike-grammar-s
- chool.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ heckmondwike-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/heckmondwike-grammar-school.
+ html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:heckmondwike-grammar-school-f3aadc221c6b@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:heckmondwike-grammar-school-f3aadc221c6b@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270319
 DTEND;VALUE=DATE:20270320
 SUMMARY:Heckmondwike Grammar School: Deadline (tbc) to confirm you want to 
  stay on the Year 7 waiting list
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/heckmondwike-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/heckmondwike-grammar-s
- chool.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ heckmondwike-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/heckmondwike-grammar-school.
+ html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:heckmondwike-grammar-school-757243c81ad6@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:heckmondwike-grammar-school-757243c81ad6@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 SUMMARY:Heckmondwike Grammar School: Waiting list places offered via the LA
   (tbc)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/heckmondwike-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/heckmondwike-grammar-s
- chool.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ heckmondwike-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/heckmondwike-grammar-school.
+ html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:heckmondwike-grammar-school-7c36ea16569f@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:heckmondwike-grammar-school-7c36ea16569f@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270402
 DTEND;VALUE=DATE:20270403
 SUMMARY:Heckmondwike Grammar School: Deadline (tbc) to lodge an admission a
  ppeal
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/heckmondwike-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/heckmondwike-grammar-s
- chool.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ heckmondwike-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/heckmondwike-grammar-school.
+ html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

@@ -6,167 +6,180 @@ X-WR-CALNAME:Wallington County Grammar School admissions
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:wallington-county-grammar-school-0bdbd5d6a5bd@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:wallington-county-grammar-school-0bdbd5d6a5bd@www.11plusadmissions.co.u
+ k
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 SUMMARY:Wallington County Grammar School: SET registration opens
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/wallington-county-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/wallington-county-gram
- mar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ wallington-county-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/wallington-county-grammar-sc
+ hool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wallington-county-grammar-school-8e65a43200aa@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:wallington-county-grammar-school-8e65a43200aa@www.11plusadmissions.co.u
+ k
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260612
 DTEND;VALUE=DATE:20260613
 SUMMARY:Wallington County Grammar School: Deadline for access-arrangement r
  equests and SENCO evidence
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/wallington-county-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/wallington-county-gram
- mar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ wallington-county-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/wallington-county-grammar-sc
+ hool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wallington-county-grammar-school-7e4eac8b337c@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:wallington-county-grammar-school-7e4eac8b337c@www.11plusadmissions.co.u
+ k
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260702
 DTEND;VALUE=DATE:20260703
 SUMMARY:Wallington County Grammar School: WCGS open evening (4.30pm to 8pm)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/wallington-county-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/wallington-county-gram
- mar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ wallington-county-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/wallington-county-grammar-sc
+ hool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wallington-county-grammar-school-63e41cf27cee@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:wallington-county-grammar-school-63e41cf27cee@www.11plusadmissions.co.u
+ k
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 SUMMARY:Wallington County Grammar School: SET registration closes (midnight
  ). No late registrations
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/wallington-county-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/wallington-county-gram
- mar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ wallington-county-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/wallington-county-grammar-sc
+ hool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wallington-county-grammar-school-adaa02c598c5@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:wallington-county-grammar-school-adaa02c598c5@www.11plusadmissions.co.u
+ k
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:Wallington County Grammar School: Selective Eligibility Test (SET)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/wallington-county-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/wallington-county-gram
- mar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ wallington-county-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/wallington-county-grammar-sc
+ hool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wallington-county-grammar-school-0ac5a61403e7@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:wallington-county-grammar-school-0ac5a61403e7@www.11plusadmissions.co.u
+ k
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Wallington County Grammar School: Deadline for SET unfit-to-sit evi
  dence
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/wallington-county-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/wallington-county-gram
- mar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ wallington-county-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/wallington-county-grammar-sc
+ hool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wallington-county-grammar-school-be9e15736c24@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:wallington-county-grammar-school-be9e15736c24@www.11plusadmissions.co.u
+ k
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:Wallington County Grammar School: Shared Second Stage test (Saturda
  y morning)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/wallington-county-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/wallington-county-gram
- mar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ wallington-county-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/wallington-county-grammar-sc
+ hool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wallington-county-grammar-school-f3804420d52c@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:wallington-county-grammar-school-f3804420d52c@www.11plusadmissions.co.u
+ k
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 SUMMARY:Wallington County Grammar School: Deadline for Second Stage unfit-t
  o-sit evidence
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/wallington-county-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/wallington-county-gram
- mar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ wallington-county-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/wallington-county-grammar-sc
+ hool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wallington-county-grammar-school-e20f5effb575@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:wallington-county-grammar-school-e20f5effb575@www.11plusadmissions.co.u
+ k
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Wallington County Grammar School: CAF deadline\; Pupil Premium elig
  ibility and postcode residence judged on this date
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/wallington-county-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/wallington-county-gram
- mar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ wallington-county-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/wallington-county-grammar-sc
+ hool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wallington-county-grammar-school-c2ce969f7228@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:wallington-county-grammar-school-c2ce969f7228@www.11plusadmissions.co.u
+ k
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Wallington County Grammar School: Last date for applications late f
  or good reason (Sutton scheme)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/wallington-county-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/wallington-county-gram
- mar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ wallington-county-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/wallington-county-grammar-sc
+ hool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wallington-county-grammar-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:wallington-county-grammar-school-b6c34c92fe76@www.11plusadmissions.co.u
+ k
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Wallington County Grammar School: National Offer Day
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/wallington-county-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/wallington-county-gram
- mar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ wallington-county-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/wallington-county-grammar-sc
+ hool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wallington-county-grammar-school-18e4b09af015@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:wallington-county-grammar-school-18e4b09af015@www.11plusadmissions.co.u
+ k
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270416
 DTEND;VALUE=DATE:20270417
 SUMMARY:Wallington County Grammar School: Appeals deadline to be heard by 2
  1 June 2027
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/wallington-county-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/wallington-county-gram
- mar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ wallington-county-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/wallington-county-grammar-sc
+ hool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wallington-county-grammar-school-e80c585e8aaa@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:wallington-county-grammar-school-e80c585e8aaa@www.11plusadmissions.co.u
+ k
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
 SUMMARY:Wallington County Grammar School: Waiting list cancelled
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/wallington-county-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/wallington-county-gram
- mar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ wallington-county-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/wallington-county-grammar-sc
+ hool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

@@ -6,182 +6,168 @@ X-WR-CALNAME:Lawrence Sheriff School admissions
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:lawrence-sheriff-school-e8d2107d70e0@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:lawrence-sheriff-school-e8d2107d70e0@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260507
 DTEND;VALUE=DATE:20260508
 SUMMARY:Lawrence Sheriff School: 11+ registration opens (Warwickshire Paren
  t Portal)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/lawrence-sheriff-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/lawrence-sheriff-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ lawrence-sheriff-school.html
+URL:https://www.11plusadmissions.co.uk/schools/lawrence-sheriff-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:lawrence-sheriff-school-5411839e8052@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:lawrence-sheriff-school-5411839e8052@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 SUMMARY:Lawrence Sheriff School: 11+ registration and special testing requi
  rements deadline (4pm)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/lawrence-sheriff-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/lawrence-sheriff-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ lawrence-sheriff-school.html
+URL:https://www.11plusadmissions.co.uk/schools/lawrence-sheriff-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:lawrence-sheriff-school-1d3f4000902f@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:lawrence-sheriff-school-1d3f4000902f@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 SUMMARY:Lawrence Sheriff School: Test invitation packs sent in batches this
   week (email elevenplus@warwickshire.gov.uk from 17 August if nothing by 1
  4 August)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/lawrence-sheriff-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/lawrence-sheriff-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ lawrence-sheriff-school.html
+URL:https://www.11plusadmissions.co.uk/schools/lawrence-sheriff-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:lawrence-sheriff-school-467cb23b94bc@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:lawrence-sheriff-school-467cb23b94bc@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Lawrence Sheriff School: Warwickshire 11+ test (Saturday 12 and Sun
  day 13 September)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/lawrence-sheriff-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/lawrence-sheriff-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ lawrence-sheriff-school.html
+URL:https://www.11plusadmissions.co.uk/schools/lawrence-sheriff-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:lawrence-sheriff-school-9108d3c40b81@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:lawrence-sheriff-school-9108d3c40b81@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Lawrence Sheriff School: Main supplementary test session
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/lawrence-sheriff-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/lawrence-sheriff-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ lawrence-sheriff-school.html
+URL:https://www.11plusadmissions.co.uk/schools/lawrence-sheriff-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:lawrence-sheriff-school-3def32696424@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:lawrence-sheriff-school-3def32696424@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Lawrence Sheriff School: 11+ results
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/lawrence-sheriff-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/lawrence-sheriff-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ lawrence-sheriff-school.html
+URL:https://www.11plusadmissions.co.uk/schools/lawrence-sheriff-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:lawrence-sheriff-school-d9e8ed2cec37@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:lawrence-sheriff-school-d9e8ed2cec37@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Lawrence Sheriff School: Secondary application deadline (home LA\, 
  11.59pm)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/lawrence-sheriff-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/lawrence-sheriff-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ lawrence-sheriff-school.html
+URL:https://www.11plusadmissions.co.uk/schools/lawrence-sheriff-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:lawrence-sheriff-school-1c5346d9e343@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:lawrence-sheriff-school-1c5346d9e343@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Lawrence Sheriff School: Proof-of-address requests sent (beginning 
  of December)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/lawrence-sheriff-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/lawrence-sheriff-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ lawrence-sheriff-school.html
+URL:https://www.11plusadmissions.co.uk/schools/lawrence-sheriff-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:lawrence-sheriff-school-66c99103035d@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:lawrence-sheriff-school-66c99103035d@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Lawrence Sheriff School: Proof of address and residence deadline (1
  1.59pm)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/lawrence-sheriff-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/lawrence-sheriff-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ lawrence-sheriff-school.html
+URL:https://www.11plusadmissions.co.uk/schools/lawrence-sheriff-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:lawrence-sheriff-school-4bf3917526ed@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:lawrence-sheriff-school-4bf3917526ed@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Lawrence Sheriff School: Additional test sessions for movers comple
  ted by this date
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/lawrence-sheriff-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/lawrence-sheriff-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ lawrence-sheriff-school.html
+URL:https://www.11plusadmissions.co.uk/schools/lawrence-sheriff-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:lawrence-sheriff-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:lawrence-sheriff-school-b6c34c92fe76@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Lawrence Sheriff School: National Offer Day
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/lawrence-sheriff-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/lawrence-sheriff-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ lawrence-sheriff-school.html
+URL:https://www.11plusadmissions.co.uk/schools/lawrence-sheriff-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:lawrence-sheriff-school-be1d68336d88@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:lawrence-sheriff-school-be1d68336d88@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
 SUMMARY:Lawrence Sheriff School: Late candidates tested by this date (for t
  he first round of re-offers)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/lawrence-sheriff-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/lawrence-sheriff-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ lawrence-sheriff-school.html
+URL:https://www.11plusadmissions.co.uk/schools/lawrence-sheriff-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:lawrence-sheriff-school-f0517225e0b6@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:lawrence-sheriff-school-f0517225e0b6@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Lawrence Sheriff School: Accept the offer by this date (subject to 
  your home LA's arrangements)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/lawrence-sheriff-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/lawrence-sheriff-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ lawrence-sheriff-school.html
+URL:https://www.11plusadmissions.co.uk/schools/lawrence-sheriff-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:lawrence-sheriff-school-ae6aa2cca72a@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:lawrence-sheriff-school-ae6aa2cca72a@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
 SUMMARY:Lawrence Sheriff School: Year 7 waiting list dissolved
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/lawrence-sheriff-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/lawrence-sheriff-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ lawrence-sheriff-school.html
+URL:https://www.11plusadmissions.co.uk/schools/lawrence-sheriff-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

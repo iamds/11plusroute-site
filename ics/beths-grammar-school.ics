@@ -6,179 +6,165 @@ X-WR-CALNAME:Beths Grammar School admissions
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:beths-grammar-school-1e281e40c576@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:beths-grammar-school-1e281e40c576@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260301
 DTEND;VALUE=DATE:20260302
 SUMMARY:Beths Grammar School: Bexley Selection Test registration opens
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/beths-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/beths-grammar-school.h
- tml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ beths-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/beths-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:beths-grammar-school-3eb2b30ef881@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:beths-grammar-school-3eb2b30ef881@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260331
 DTEND;VALUE=DATE:20260401
 SUMMARY:Beths Grammar School: Registration closes (midnight). Special-arran
  gement requests due at the primary school by the end of the spring term.
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/beths-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/beths-grammar-school.h
- tml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ beths-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/beths-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:beths-grammar-school-403acbe2bbf7@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:beths-grammar-school-403acbe2bbf7@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
 SUMMARY:Beths Grammar School: Primary schools send special-arrangement appl
  ications to Bexley
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/beths-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/beths-grammar-school.h
- tml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ beths-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/beths-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:beths-grammar-school-8cedbd7ac2c4@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:beths-grammar-school-8cedbd7ac2c4@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260803
 DTEND;VALUE=DATE:20260804
 SUMMARY:Beths Grammar School: Test centre\, date and time emailed
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/beths-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/beths-grammar-school.h
- tml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ beths-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/beths-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:beths-grammar-school-aef6469b22d2@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:beths-grammar-school-aef6469b22d2@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
 SUMMARY:Beths Grammar School: Bexley Selection Test window opens (in partic
  ipating primary schools\, 2-10 Sept\; at the grammar schools\, 7-10 Sept)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/beths-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/beths-grammar-school.h
- tml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ beths-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/beths-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:beths-grammar-school-a498d6803113@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:beths-grammar-school-a498d6803113@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Beths Grammar School: Last day of the test window
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/beths-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/beths-grammar-school.h
- tml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ beths-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/beths-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:beths-grammar-school-52b0b322393d@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:beths-grammar-school-52b0b322393d@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Beths Grammar School: Test results emailed (from 4pm)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/beths-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/beths-grammar-school.h
- tml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ beths-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/beths-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:beths-grammar-school-7ef0f86e7e06@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:beths-grammar-school-7ef0f86e7e06@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:Beths Grammar School: Beths Supplementary Form deadline (sibling\, 
  staff\, FSM/Pupil Premium\, Kent test)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/beths-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/beths-grammar-school.h
- tml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ beths-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/beths-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:beths-grammar-school-779e98cc208f@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:beths-grammar-school-779e98cc208f@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Beths Grammar School: CAF deadline (national)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/beths-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/beths-grammar-school.h
- tml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ beths-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/beths-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:beths-grammar-school-01b830ee0f97@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:beths-grammar-school-01b830ee0f97@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Beths Grammar School: Bexley deadline for evidence of a change of a
  ddress within Bexley
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/beths-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/beths-grammar-school.h
- tml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ beths-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/beths-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:beths-grammar-school-189e2ef7c69a@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:beths-grammar-school-189e2ef7c69a@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Beths Grammar School: Bexley deadline for late applications with a 
  good reason
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/beths-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/beths-grammar-school.h
- tml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ beths-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/beths-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:beths-grammar-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:beths-grammar-school-b6c34c92fe76@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Beths Grammar School: National Offer Day
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/beths-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/beths-grammar-school.h
- tml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ beths-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/beths-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:beths-grammar-school-44a61e091ecf@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:beths-grammar-school-44a61e091ecf@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
 SUMMARY:Beths Grammar School: Bexley deadline to accept or decline offers (
  first-preference offers are accepted automatically)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/beths-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/beths-grammar-school.h
- tml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ beths-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/beths-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:beths-grammar-school-cf3180b81cf6@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:beths-grammar-school-cf3180b81cf6@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Beths Grammar School: Bexley's published deadline for lodging Year 
  7 appeals (appeals go to the school)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/beths-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/beths-grammar-school.h
- tml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ beths-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/beths-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

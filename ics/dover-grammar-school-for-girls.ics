@@ -6,235 +6,235 @@ X-WR-CALNAME:Dover Grammar School for Girls admissions
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:dover-grammar-school-for-girls-d243f6744a52@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:dover-grammar-school-for-girls-d243f6744a52@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 SUMMARY:Dover Grammar School for Girls: Kent Test registration opens (kent.
  gov.uk/kenttest)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/dover-grammar-school-for-girls.html
-URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
- or-girls.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ dover-grammar-school-for-girls.html
+URL:https://www.11plusadmissions.co.uk/schools/dover-grammar-school-for-gir
+ ls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dover-grammar-school-for-girls-9b4b08eb32f0@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:dover-grammar-school-for-girls-9b4b08eb32f0@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260611
 DTEND;VALUE=DATE:20260612
 SUMMARY:Dover Grammar School for Girls: Year 5 open evening (5.30pm)\; tour
  s 17-19 June
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/dover-grammar-school-for-girls.html
-URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
- or-girls.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ dover-grammar-school-for-girls.html
+URL:https://www.11plusadmissions.co.uk/schools/dover-grammar-school-for-gir
+ ls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dover-grammar-school-for-girls-2106ebf2c429@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:dover-grammar-school-for-girls-2106ebf2c429@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Dover Grammar School for Girls: Kent Test registration closes at mi
  dnight\; deadline for primary schools to request special arrangements
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/dover-grammar-school-for-girls.html
-URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
- or-girls.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ dover-grammar-school-for-girls.html
+URL:https://www.11plusadmissions.co.uk/schools/dover-grammar-school-for-gir
+ ls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dover-grammar-school-for-girls-e041823fa3cd@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:dover-grammar-school-for-girls-e041823fa3cd@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 SUMMARY:Dover Grammar School for Girls: Dover Assessment Test registration 
  deadline
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/dover-grammar-school-for-girls.html
-URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
- or-girls.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ dover-grammar-school-for-girls.html
+URL:https://www.11plusadmissions.co.uk/schools/dover-grammar-school-for-gir
+ ls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dover-grammar-school-for-girls-aec1d67d12b7@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:dover-grammar-school-for-girls-aec1d67d12b7@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260721
 DTEND;VALUE=DATE:20260722
 SUMMARY:Dover Grammar School for Girls: Last date for late Kent Test regist
  rations (paper form\, children at KCC-maintained primary schools only)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/dover-grammar-school-for-girls.html
-URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
- or-girls.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ dover-grammar-school-for-girls.html
+URL:https://www.11plusadmissions.co.uk/schools/dover-grammar-school-for-gir
+ ls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dover-grammar-school-for-girls-9e0db8c63a66@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:dover-grammar-school-for-girls-9e0db8c63a66@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Dover Grammar School for Girls: Secondary application (SCAF) opens
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/dover-grammar-school-for-girls.html
-URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
- or-girls.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ dover-grammar-school-for-girls.html
+URL:https://www.11plusadmissions.co.uk/schools/dover-grammar-school-for-gir
+ ls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dover-grammar-school-for-girls-425301044e7d@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:dover-grammar-school-for-girls-425301044e7d@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Dover Grammar School for Girls: Kent Test in Kent primary schools
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/dover-grammar-school-for-girls.html
-URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
- or-girls.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ dover-grammar-school-for-girls.html
+URL:https://www.11plusadmissions.co.uk/schools/dover-grammar-school-for-gir
+ ls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dover-grammar-school-for-girls-8cb0fc8b6a00@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:dover-grammar-school-for-girls-8cb0fc8b6a00@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Dover Grammar School for Girls: Kent Test at test centres for child
  ren at schools outside Kent (12/13 September)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/dover-grammar-school-for-girls.html
-URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
- or-girls.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ dover-grammar-school-for-girls.html
+URL:https://www.11plusadmissions.co.uk/schools/dover-grammar-school-for-gir
+ ls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dover-grammar-school-for-girls-55cd37ee0f4f@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:dover-grammar-school-for-girls-55cd37ee0f4f@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Dover Grammar School for Girls: Dover Assessment Test at DGGS (Satu
  rday morning)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/dover-grammar-school-for-girls.html
-URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
- or-girls.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ dover-grammar-school-for-girls.html
+URL:https://www.11plusadmissions.co.uk/schools/dover-grammar-school-for-gir
+ ls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dover-grammar-school-for-girls-739b9031e357@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:dover-grammar-school-for-girls-739b9031e357@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Dover Grammar School for Girls: Kent Test decisions and scores emai
  led after 4pm
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/dover-grammar-school-for-girls.html
-URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
- or-girls.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ dover-grammar-school-for-girls.html
+URL:https://www.11plusadmissions.co.uk/schools/dover-grammar-school-for-gir
+ ls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dover-grammar-school-for-girls-ba1a0cdbec17@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:dover-grammar-school-for-girls-ba1a0cdbec17@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Dover Grammar School for Girls: Pupil Premium Supplementary Form du
  e at the school
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/dover-grammar-school-for-girls.html
-URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
- or-girls.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ dover-grammar-school-for-girls.html
+URL:https://www.11plusadmissions.co.uk/schools/dover-grammar-school-for-gir
+ ls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dover-grammar-school-for-girls-37a416b0cc00@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:dover-grammar-school-for-girls-37a416b0cc00@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Dover Grammar School for Girls: Deadline: Supplementary Form for Pu
  pil Premium Information
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/dover-grammar-school-for-girls.html
-URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
- or-girls.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ dover-grammar-school-for-girls.html
+URL:https://www.11plusadmissions.co.uk/schools/dover-grammar-school-for-gir
+ ls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dover-grammar-school-for-girls-07816bb3da62@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:dover-grammar-school-for-girls-07816bb3da62@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:Dover Grammar School for Girls: SCAF closing date (midnight) for Ke
  nt residents
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/dover-grammar-school-for-girls.html
-URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
- or-girls.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ dover-grammar-school-for-girls.html
+URL:https://www.11plusadmissions.co.uk/schools/dover-grammar-school-for-gir
+ ls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dover-grammar-school-for-girls-7a7fc89d717d@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:dover-grammar-school-for-girls-7a7fc89d717d@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Dover Grammar School for Girls: Last date for changes to on-time ap
  plications
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/dover-grammar-school-for-girls.html
-URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
- or-girls.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ dover-grammar-school-for-girls.html
+URL:https://www.11plusadmissions.co.uk/schools/dover-grammar-school-for-gir
+ ls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dover-grammar-school-for-girls-e66f0502bb93@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:dover-grammar-school-for-girls-e66f0502bb93@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Dover Grammar School for Girls: National Offer Day (emails after 4p
  m)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/dover-grammar-school-for-girls.html
-URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
- or-girls.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ dover-grammar-school-for-girls.html
+URL:https://www.11plusadmissions.co.uk/schools/dover-grammar-school-for-gir
+ ls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dover-grammar-school-for-girls-a44ef2d19a32@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:dover-grammar-school-for-girls-a44ef2d19a32@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Dover Grammar School for Girls: Accept or decline the offer\; deadl
  ine to join waiting lists for the reallocation
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/dover-grammar-school-for-girls.html
-URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
- or-girls.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ dover-grammar-school-for-girls.html
+URL:https://www.11plusadmissions.co.uk/schools/dover-grammar-school-for-gir
+ ls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dover-grammar-school-for-girls-d9d16f6627f7@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:dover-grammar-school-for-girls-d9d16f6627f7@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Dover Grammar School for Girls: Deadline for lodging appeals to be 
  heard in the main round
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/dover-grammar-school-for-girls.html
-URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
- or-girls.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ dover-grammar-school-for-girls.html
+URL:https://www.11plusadmissions.co.uk/schools/dover-grammar-school-for-gir
+ ls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dover-grammar-school-for-girls-c2c9033db383@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:dover-grammar-school-for-girls-c2c9033db383@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
 SUMMARY:Dover Grammar School for Girls: KCC reallocation of vacant places\;
   schools run their own waiting lists after this
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/dover-grammar-school-for-girls.html
-URL:https://iamds.github.io/11plusroute-site/schools/dover-grammar-school-f
- or-girls.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ dover-grammar-school-for-girls.html
+URL:https://www.11plusadmissions.co.uk/schools/dover-grammar-school-for-gir
+ ls.html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

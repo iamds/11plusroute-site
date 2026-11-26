@@ -6,117 +6,117 @@ X-WR-CALNAME:Stretford Grammar School admissions
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:stretford-grammar-school-861268aee194@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:stretford-grammar-school-861268aee194@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260423
 DTEND;VALUE=DATE:20260424
 SUMMARY:Stretford Grammar School: Test registration opens (12 noon)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/stretford-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/stretford-grammar-scho
- ol.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ stretford-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/stretford-grammar-school.htm
+ l
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:stretford-grammar-school-dc06c673c0a2@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:stretford-grammar-school-dc06c673c0a2@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
 SUMMARY:Stretford Grammar School: Test registration and access-arrangement 
  evidence deadline (12 noon)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/stretford-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/stretford-grammar-scho
- ol.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ stretford-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/stretford-grammar-school.htm
+ l
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:stretford-grammar-school-125e48e17425@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:stretford-grammar-school-125e48e17425@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260625
 DTEND;VALUE=DATE:20260626
 SUMMARY:Stretford Grammar School: Stretford Grammar School open evening (5-
  8pm)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/stretford-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/stretford-grammar-scho
- ol.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ stretford-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/stretford-grammar-school.htm
+ l
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:stretford-grammar-school-a5665e51e186@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:stretford-grammar-school-a5665e51e186@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260713
 DTEND;VALUE=DATE:20260714
 SUMMARY:Stretford Grammar School: Week of 13 July: exam details\, Attendanc
  e Form and Special Circumstances Form sent out
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/stretford-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/stretford-grammar-scho
- ol.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ stretford-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/stretford-grammar-school.htm
+ l
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:stretford-grammar-school-33214c00327f@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:stretford-grammar-school-33214c00327f@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 SUMMARY:Stretford Grammar School: Trafford Consortium entrance test
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/stretford-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/stretford-grammar-scho
- ol.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ stretford-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/stretford-grammar-school.htm
+ l
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:stretford-grammar-school-9dbca7f5b0be@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:stretford-grammar-school-9dbca7f5b0be@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:Stretford Grammar School: Special Circumstances Form / illness noti
  fication deadline (12 noon)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/stretford-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/stretford-grammar-scho
- ol.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ stretford-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/stretford-grammar-school.htm
+ l
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:stretford-grammar-school-811eb539ab14@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:stretford-grammar-school-811eb539ab14@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Stretford Grammar School: Results released before this date\; CAF d
  eadline
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/stretford-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/stretford-grammar-scho
- ol.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ stretford-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/stretford-grammar-school.htm
+ l
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:stretford-grammar-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:stretford-grammar-school-b6c34c92fe76@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Stretford Grammar School: National Offer Day
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/stretford-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/stretford-grammar-scho
- ol.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ stretford-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/stretford-grammar-school.htm
+ l
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:stretford-grammar-school-d6afd442b354@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:stretford-grammar-school-d6afd442b354@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Stretford Grammar School: Deadline to accept offers with your counc
  il
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/stretford-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/stretford-grammar-scho
- ol.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ stretford-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/stretford-grammar-school.htm
+ l
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

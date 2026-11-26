@@ -6,101 +6,101 @@ X-WR-CALNAME:Upton Court Grammar School admissions
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:upton-court-grammar-school-0c440106834f@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:upton-court-grammar-school-0c440106834f@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260428
 DTEND;VALUE=DATE:20260429
 SUMMARY:Upton Court Grammar School: Consortium online 11+ information eveni
  ng (6pm)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/upton-court-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/upton-court-grammar-sc
- hool.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ upton-court-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/upton-court-grammar-school.h
+ tml
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:upton-court-grammar-school-a56393c485c6@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:upton-court-grammar-school-a56393c485c6@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 SUMMARY:Upton Court Grammar School: 11+ registration opens (10am)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/upton-court-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/upton-court-grammar-sc
- hool.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ upton-court-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/upton-court-grammar-school.h
+ tml
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:upton-court-grammar-school-ff2ca0e82e9c@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:upton-court-grammar-school-ff2ca0e82e9c@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260605
 DTEND;VALUE=DATE:20260606
 SUMMARY:Upton Court Grammar School: 11+ registration closes (10am)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/upton-court-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/upton-court-grammar-sc
- hool.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ upton-court-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/upton-court-grammar-school.h
+ tml
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:upton-court-grammar-school-e74de3737936@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:upton-court-grammar-school-e74de3737936@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260612
 DTEND;VALUE=DATE:20260613
 SUMMARY:Upton Court Grammar School: Evidence for access arrangements due (3
  pm)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/upton-court-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/upton-court-grammar-sc
- hool.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ upton-court-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/upton-court-grammar-school.h
+ tml
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:upton-court-grammar-school-d99985e2a073@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:upton-court-grammar-school-d99985e2a073@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Upton Court Grammar School: Slough Consortium 11+ test
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/upton-court-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/upton-court-grammar-sc
- hool.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ upton-court-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/upton-court-grammar-school.h
+ tml
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:upton-court-grammar-school-1b344e1312e1@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:upton-court-grammar-school-1b344e1312e1@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Upton Court Grammar School: Results online from 4pm
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/upton-court-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/upton-court-grammar-sc
- hool.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ upton-court-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/upton-court-grammar-school.h
+ tml
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:upton-court-grammar-school-5bc2889ed70a@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:upton-court-grammar-school-5bc2889ed70a@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Upton Court Grammar School: CAF deadline (home council)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/upton-court-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/upton-court-grammar-sc
- hool.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ upton-court-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/upton-court-grammar-school.h
+ tml
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:upton-court-grammar-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:upton-court-grammar-school-b6c34c92fe76@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Upton Court Grammar School: National Offer Day
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/upton-court-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/upton-court-grammar-sc
- hool.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ upton-court-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/upton-court-grammar-school.h
+ tml
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

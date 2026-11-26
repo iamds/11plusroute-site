@@ -6,115 +6,115 @@ X-WR-CALNAME:Wirral Grammar School for Boys admissions
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:wirral-grammar-school-for-boys-758d532d5ad1@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:wirral-grammar-school-for-boys-758d532d5ad1@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 SUMMARY:Wirral Grammar School for Boys: Wirral 11+ registration opens
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/wirral-grammar-school-for-boys.html
-URL:https://iamds.github.io/11plusroute-site/schools/wirral-grammar-school-
- for-boys.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ wirral-grammar-school-for-boys.html
+URL:https://www.11plusadmissions.co.uk/schools/wirral-grammar-school-for-bo
+ ys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wirral-grammar-school-for-boys-3dd73a4a4e8e@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:wirral-grammar-school-for-boys-3dd73a4a4e8e@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260531
 DTEND;VALUE=DATE:20260601
 SUMMARY:Wirral Grammar School for Boys: Wirral 11+ registration deadline
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/wirral-grammar-school-for-boys.html
-URL:https://iamds.github.io/11plusroute-site/schools/wirral-grammar-school-
- for-boys.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ wirral-grammar-school-for-boys.html
+URL:https://www.11plusadmissions.co.uk/schools/wirral-grammar-school-for-bo
+ ys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wirral-grammar-school-for-boys-9899c58c6f08@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:wirral-grammar-school-for-boys-9899c58c6f08@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260607
 DTEND;VALUE=DATE:20260608
 SUMMARY:Wirral Grammar School for Boys: Deadline for access-arrangement evi
  dence
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/wirral-grammar-school-for-boys.html
-URL:https://iamds.github.io/11plusroute-site/schools/wirral-grammar-school-
- for-boys.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ wirral-grammar-school-for-boys.html
+URL:https://www.11plusadmissions.co.uk/schools/wirral-grammar-school-for-bo
+ ys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wirral-grammar-school-for-boys-f75ec6201548@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:wirral-grammar-school-for-boys-f75ec6201548@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260717
 DTEND;VALUE=DATE:20260718
 SUMMARY:Wirral Grammar School for Boys: Access-arrangement decisions confir
  med
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/wirral-grammar-school-for-boys.html
-URL:https://iamds.github.io/11plusroute-site/schools/wirral-grammar-school-
- for-boys.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ wirral-grammar-school-for-boys.html
+URL:https://www.11plusadmissions.co.uk/schools/wirral-grammar-school-for-bo
+ ys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wirral-grammar-school-for-boys-61e42ac247ec@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:wirral-grammar-school-for-boys-61e42ac247ec@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:Wirral Grammar School for Boys: Wirral 11+ test day
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/wirral-grammar-school-for-boys.html
-URL:https://iamds.github.io/11plusroute-site/schools/wirral-grammar-school-
- for-boys.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ wirral-grammar-school-for-boys.html
+URL:https://www.11plusadmissions.co.uk/schools/wirral-grammar-school-for-bo
+ ys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wirral-grammar-school-for-boys-c313ba171700@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:wirral-grammar-school-for-boys-c313ba171700@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 SUMMARY:Wirral Grammar School for Boys: Results sent to parents
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/wirral-grammar-school-for-boys.html
-URL:https://iamds.github.io/11plusroute-site/schools/wirral-grammar-school-
- for-boys.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ wirral-grammar-school-for-boys.html
+URL:https://www.11plusadmissions.co.uk/schools/wirral-grammar-school-for-bo
+ ys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wirral-grammar-school-for-boys-578e61e97c23@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:wirral-grammar-school-for-boys-578e61e97c23@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Wirral Grammar School for Boys: Secondary application (CAF) deadlin
  e
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/wirral-grammar-school-for-boys.html
-URL:https://iamds.github.io/11plusroute-site/schools/wirral-grammar-school-
- for-boys.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ wirral-grammar-school-for-boys.html
+URL:https://www.11plusadmissions.co.uk/schools/wirral-grammar-school-for-bo
+ ys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wirral-grammar-school-for-boys-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:wirral-grammar-school-for-boys-b6c34c92fe76@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Wirral Grammar School for Boys: National Offer Day
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/wirral-grammar-school-for-boys.html
-URL:https://iamds.github.io/11plusroute-site/schools/wirral-grammar-school-
- for-boys.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ wirral-grammar-school-for-boys.html
+URL:https://www.11plusadmissions.co.uk/schools/wirral-grammar-school-for-bo
+ ys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wirral-grammar-school-for-boys-6f7c391c3fe3@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:wirral-grammar-school-for-boys-6f7c391c3fe3@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Wirral Grammar School for Boys: Deadline to decline an offer or ask
   to join other schools' continuing interest lists
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/wirral-grammar-school-for-boys.html
-URL:https://iamds.github.io/11plusroute-site/schools/wirral-grammar-school-
- for-boys.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ wirral-grammar-school-for-boys.html
+URL:https://www.11plusadmissions.co.uk/schools/wirral-grammar-school-for-bo
+ ys.html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

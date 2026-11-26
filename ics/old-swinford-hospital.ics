@@ -6,53 +6,49 @@ X-WR-CALNAME:Old Swinford Hospital admissions
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:old-swinford-hospital-c0c15c2b5c90@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:old-swinford-hospital-c0c15c2b5c90@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Old Swinford Hospital: Open Morning
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/old-swinford-hospital.html
-URL:https://iamds.github.io/11plusroute-site/schools/old-swinford-hospital.
- html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ old-swinford-hospital.html
+URL:https://www.11plusadmissions.co.uk/schools/old-swinford-hospital.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:old-swinford-hospital-a750bae66d63@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:old-swinford-hospital-a750bae66d63@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Old Swinford Hospital: Flexi-boarding registration closes (12 noon)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/old-swinford-hospital.html
-URL:https://iamds.github.io/11plusroute-site/schools/old-swinford-hospital.
- html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ old-swinford-hospital.html
+URL:https://www.11plusadmissions.co.uk/schools/old-swinford-hospital.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:old-swinford-hospital-576384d4ac0e@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:old-swinford-hospital-576384d4ac0e@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Old Swinford Hospital: Day and tailored-boarding registration close
  s\; council application deadline
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/old-swinford-hospital.html
-URL:https://iamds.github.io/11plusroute-site/schools/old-swinford-hospital.
- html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ old-swinford-hospital.html
+URL:https://www.11plusadmissions.co.uk/schools/old-swinford-hospital.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:old-swinford-hospital-2d55311789fc@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:old-swinford-hospital-2d55311789fc@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Old Swinford Hospital: National Offer Day (offers for all place typ
  es)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/old-swinford-hospital.html
-URL:https://iamds.github.io/11plusroute-site/schools/old-swinford-hospital.
- html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ old-swinford-hospital.html
+URL:https://www.11plusadmissions.co.uk/schools/old-swinford-hospital.html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

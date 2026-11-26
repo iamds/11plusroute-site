@@ -6,103 +6,95 @@ X-WR-CALNAME:Chestnut Grove Academy admissions
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:chestnut-grove-academy-6894c751e2c6@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:chestnut-grove-academy-6894c751e2c6@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
 SUMMARY:Chestnut Grove Academy: Wandsworth Year 6 Test registration closes
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/chestnut-grove-academy.html
-URL:https://iamds.github.io/11plusroute-site/schools/chestnut-grove-academy
- .html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ chestnut-grove-academy.html
+URL:https://www.11plusadmissions.co.uk/schools/chestnut-grove-academy.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chestnut-grove-academy-460afe3fad02@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:chestnut-grove-academy-460afe3fad02@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:Chestnut Grove Academy: Specialist place SIF deadline (midday)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/chestnut-grove-academy.html
-URL:https://iamds.github.io/11plusroute-site/schools/chestnut-grove-academy
- .html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ chestnut-grove-academy.html
+URL:https://www.11plusadmissions.co.uk/schools/chestnut-grove-academy.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chestnut-grove-academy-9e19d4fb0241@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:chestnut-grove-academy-9e19d4fb0241@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
 SUMMARY:Chestnut Grove Academy: Open mornings (also 1 October)\; open eveni
  ng 24 September 5-8pm
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/chestnut-grove-academy.html
-URL:https://iamds.github.io/11plusroute-site/schools/chestnut-grove-academy
- .html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ chestnut-grove-academy.html
+URL:https://www.11plusadmissions.co.uk/schools/chestnut-grove-academy.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chestnut-grove-academy-9421556142a0@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:chestnut-grove-academy-9421556142a0@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Chestnut Grove Academy: Art and Design / Languages aptitude tests a
  t the Academy (9am-1pm)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/chestnut-grove-academy.html
-URL:https://iamds.github.io/11plusroute-site/schools/chestnut-grove-academy
- .html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ chestnut-grove-academy.html
+URL:https://www.11plusadmissions.co.uk/schools/chestnut-grove-academy.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chestnut-grove-academy-ff1d9a522891@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:chestnut-grove-academy-ff1d9a522891@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:Chestnut Grove Academy: Wandsworth Year 6 Test (24\, 25\, 26 or 28 
  September)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/chestnut-grove-academy.html
-URL:https://iamds.github.io/11plusroute-site/schools/chestnut-grove-academy
- .html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ chestnut-grove-academy.html
+URL:https://www.11plusadmissions.co.uk/schools/chestnut-grove-academy.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chestnut-grove-academy-173303365d48@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:chestnut-grove-academy-173303365d48@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Chestnut Grove Academy: Wandsworth Test results emailed
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/chestnut-grove-academy.html
-URL:https://iamds.github.io/11plusroute-site/schools/chestnut-grove-academy
- .html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ chestnut-grove-academy.html
+URL:https://www.11plusadmissions.co.uk/schools/chestnut-grove-academy.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chestnut-grove-academy-7b4cc4209a98@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:chestnut-grove-academy-7b4cc4209a98@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Chestnut Grove Academy: Application deadline (midnight)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/chestnut-grove-academy.html
-URL:https://iamds.github.io/11plusroute-site/schools/chestnut-grove-academy
- .html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ chestnut-grove-academy.html
+URL:https://www.11plusadmissions.co.uk/schools/chestnut-grove-academy.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:chestnut-grove-academy-c7894f147de8@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:chestnut-grove-academy-c7894f147de8@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Chestnut Grove Academy: National Offer Day (outcome emails from 5pm
  )
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/chestnut-grove-academy.html
-URL:https://iamds.github.io/11plusroute-site/schools/chestnut-grove-academy
- .html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ chestnut-grove-academy.html
+URL:https://www.11plusadmissions.co.uk/schools/chestnut-grove-academy.html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

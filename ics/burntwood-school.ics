@@ -6,83 +6,83 @@ X-WR-CALNAME:Burntwood School admissions
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:burntwood-school-6894c751e2c6@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:burntwood-school-6894c751e2c6@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
 SUMMARY:Burntwood School: Wandsworth Year 6 Test registration closes
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/burntwood-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/burntwood-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ burntwood-school.html
+URL:https://www.11plusadmissions.co.uk/schools/burntwood-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:burntwood-school-4e2173804271@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:burntwood-school-4e2173804271@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
 SUMMARY:Burntwood School: Burntwood open evening (6-8pm)\; open mornings 22
   September and 1 October (9.15-11am)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/burntwood-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/burntwood-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ burntwood-school.html
+URL:https://www.11plusadmissions.co.uk/schools/burntwood-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:burntwood-school-b586a2ff8a14@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:burntwood-school-b586a2ff8a14@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:Burntwood School: Wandsworth Year 6 Test (24\, 25\, 26 or 28 Septem
  ber) at a secondary test centre
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/burntwood-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/burntwood-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ burntwood-school.html
+URL:https://www.11plusadmissions.co.uk/schools/burntwood-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:burntwood-school-173303365d48@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:burntwood-school-173303365d48@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Burntwood School: Wandsworth Test results emailed
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/burntwood-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/burntwood-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ burntwood-school.html
+URL:https://www.11plusadmissions.co.uk/schools/burntwood-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:burntwood-school-7b4cc4209a98@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:burntwood-school-7b4cc4209a98@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Burntwood School: Application deadline (midnight)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/burntwood-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/burntwood-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ burntwood-school.html
+URL:https://www.11plusadmissions.co.uk/schools/burntwood-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:burntwood-school-c411d761e9a5@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:burntwood-school-c411d761e9a5@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Burntwood School: Late Test (4\, 5 and 7 December) for children who
   missed September
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/burntwood-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/burntwood-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ burntwood-school.html
+URL:https://www.11plusadmissions.co.uk/schools/burntwood-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:burntwood-school-c7894f147de8@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:burntwood-school-c7894f147de8@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Burntwood School: National Offer Day (outcome emails from 5pm)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/burntwood-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/burntwood-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ burntwood-school.html
+URL:https://www.11plusadmissions.co.uk/schools/burntwood-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

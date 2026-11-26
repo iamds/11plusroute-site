@@ -6,179 +6,165 @@ X-WR-CALNAME:Highsted Grammar School admissions
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:highsted-grammar-school-a86b1ba5487a@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:highsted-grammar-school-a86b1ba5487a@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 SUMMARY:Highsted Grammar School: Kent Test registration opens
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/highsted-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/highsted-grammar-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ highsted-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/highsted-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:highsted-grammar-school-1febe30ba189@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:highsted-grammar-school-1febe30ba189@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Highsted Grammar School: Kent Test registration and special-arrange
  ments requests close (midnight)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/highsted-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/highsted-grammar-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ highsted-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/highsted-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:highsted-grammar-school-4770fd0c40f8@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:highsted-grammar-school-4770fd0c40f8@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260722
 DTEND;VALUE=DATE:20260723
 SUMMARY:Highsted Grammar School: Late Highsted Test registrations (exceptio
  nal cases) and special-arrangements requests close
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/highsted-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/highsted-grammar-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ highsted-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/highsted-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:highsted-grammar-school-f7e2cb2f52bb@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:highsted-grammar-school-f7e2cb2f52bb@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Highsted Grammar School: Secondary applications open
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/highsted-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/highsted-grammar-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ highsted-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/highsted-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:highsted-grammar-school-425301044e7d@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:highsted-grammar-school-425301044e7d@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Highsted Grammar School: Kent Test in Kent primary schools
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/highsted-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/highsted-grammar-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ highsted-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/highsted-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:highsted-grammar-school-e7d5ca1a2498@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:highsted-grammar-school-e7d5ca1a2498@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Highsted Grammar School: Highsted Test at the school (also Kent Tes
  t centre weekend for out-of-county children)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/highsted-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/highsted-grammar-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ highsted-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/highsted-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:highsted-grammar-school-9a0a1bb01bfb@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:highsted-grammar-school-9a0a1bb01bfb@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Highsted Grammar School: Kent Test decisions emailed after 4pm
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/highsted-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/highsted-grammar-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ highsted-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/highsted-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:highsted-grammar-school-ea9071300313@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:highsted-grammar-school-ea9071300313@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:Highsted Grammar School: Pupil Premium SIF deadline
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/highsted-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/highsted-grammar-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ highsted-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/highsted-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:highsted-grammar-school-9d86cb5a794b@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:highsted-grammar-school-9d86cb5a794b@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:Highsted Grammar School: Application deadline for Kent residents (m
  idnight)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/highsted-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/highsted-grammar-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ highsted-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/highsted-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:highsted-grammar-school-995de5ee548d@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:highsted-grammar-school-995de5ee548d@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Highsted Grammar School: Last day to change your application detail
  s in time for offer day
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/highsted-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/highsted-grammar-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ highsted-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/highsted-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:highsted-grammar-school-e66f0502bb93@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:highsted-grammar-school-e66f0502bb93@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Highsted Grammar School: National Offer Day (emails after 4pm)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/highsted-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/highsted-grammar-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ highsted-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/highsted-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:highsted-grammar-school-a305afa8c96e@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:highsted-grammar-school-a305afa8c96e@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Highsted Grammar School: Accept/decline the offer\; deadline for la
  te applications and waiting-list requests for KCC's reallocation
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/highsted-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/highsted-grammar-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ highsted-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/highsted-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:highsted-grammar-school-22f68b3e8025@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:highsted-grammar-school-22f68b3e8025@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Highsted Grammar School: Deadline to lodge an appeal to be heard be
  fore September
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/highsted-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/highsted-grammar-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ highsted-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/highsted-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:highsted-grammar-school-d79cbbda45bc@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:highsted-grammar-school-d79cbbda45bc@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
 SUMMARY:Highsted Grammar School: KCC reallocates places from waiting lists\
  ; schools then run their own waiting lists
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/highsted-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/highsted-grammar-schoo
- l.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ highsted-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/highsted-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

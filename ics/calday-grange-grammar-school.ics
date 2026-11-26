@@ -6,114 +6,114 @@ X-WR-CALNAME:Calday Grange Grammar School admissions
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:calday-grange-grammar-school-758d532d5ad1@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:calday-grange-grammar-school-758d532d5ad1@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 SUMMARY:Calday Grange Grammar School: Wirral 11+ registration opens
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/calday-grange-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/calday-grange-grammar-
- school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ calday-grange-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/calday-grange-grammar-school
+ .html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:calday-grange-grammar-school-3dd73a4a4e8e@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:calday-grange-grammar-school-3dd73a4a4e8e@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260531
 DTEND;VALUE=DATE:20260601
 SUMMARY:Calday Grange Grammar School: Wirral 11+ registration deadline
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/calday-grange-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/calday-grange-grammar-
- school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ calday-grange-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/calday-grange-grammar-school
+ .html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:calday-grange-grammar-school-9899c58c6f08@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:calday-grange-grammar-school-9899c58c6f08@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260607
 DTEND;VALUE=DATE:20260608
 SUMMARY:Calday Grange Grammar School: Deadline for access-arrangement evide
  nce
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/calday-grange-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/calday-grange-grammar-
- school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ calday-grange-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/calday-grange-grammar-school
+ .html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:calday-grange-grammar-school-f75ec6201548@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:calday-grange-grammar-school-f75ec6201548@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260717
 DTEND;VALUE=DATE:20260718
 SUMMARY:Calday Grange Grammar School: Access-arrangement decisions confirme
  d
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/calday-grange-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/calday-grange-grammar-
- school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ calday-grange-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/calday-grange-grammar-school
+ .html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:calday-grange-grammar-school-61e42ac247ec@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:calday-grange-grammar-school-61e42ac247ec@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:Calday Grange Grammar School: Wirral 11+ test day
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/calday-grange-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/calday-grange-grammar-
- school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ calday-grange-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/calday-grange-grammar-school
+ .html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:calday-grange-grammar-school-c313ba171700@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:calday-grange-grammar-school-c313ba171700@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 SUMMARY:Calday Grange Grammar School: Results sent to parents
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/calday-grange-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/calday-grange-grammar-
- school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ calday-grange-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/calday-grange-grammar-school
+ .html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:calday-grange-grammar-school-578e61e97c23@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:calday-grange-grammar-school-578e61e97c23@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Calday Grange Grammar School: Secondary application (CAF) deadline
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/calday-grange-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/calday-grange-grammar-
- school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ calday-grange-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/calday-grange-grammar-school
+ .html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:calday-grange-grammar-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:calday-grange-grammar-school-b6c34c92fe76@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Calday Grange Grammar School: National Offer Day
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/calday-grange-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/calday-grange-grammar-
- school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ calday-grange-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/calday-grange-grammar-school
+ .html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:calday-grange-grammar-school-6f7c391c3fe3@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:calday-grange-grammar-school-6f7c391c3fe3@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Calday Grange Grammar School: Deadline to decline an offer or ask t
  o join other schools' continuing interest lists
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/calday-grange-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/calday-grange-grammar-
- school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ calday-grange-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/calday-grange-grammar-school
+ .html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

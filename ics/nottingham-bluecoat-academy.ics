@@ -6,54 +6,54 @@ X-WR-CALNAME:Nottingham Bluecoat Academy admissions
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:nottingham-bluecoat-academy-3fd4b223bc21@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:nottingham-bluecoat-academy-3fd4b223bc21@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Nottingham Bluecoat Academy: Supplementary form deadline for the te
  chnology aptitude test
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/nottingham-bluecoat-academy.html
-URL:https://iamds.github.io/11plusroute-site/schools/nottingham-bluecoat-ac
- ademy.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ nottingham-bluecoat-academy.html
+URL:https://www.11plusadmissions.co.uk/schools/nottingham-bluecoat-academy.
+ html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:nottingham-bluecoat-academy-133389689728@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:nottingham-bluecoat-academy-133389689728@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
 SUMMARY:Nottingham Bluecoat Academy: Technology aptitude tests (week of 5 O
  ctober)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/nottingham-bluecoat-academy.html
-URL:https://iamds.github.io/11plusroute-site/schools/nottingham-bluecoat-ac
- ademy.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ nottingham-bluecoat-academy.html
+URL:https://www.11plusadmissions.co.uk/schools/nottingham-bluecoat-academy.
+ html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:nottingham-bluecoat-academy-4dbd4e977419@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:nottingham-bluecoat-academy-4dbd4e977419@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Nottingham Bluecoat Academy: Application deadline (council form and
   supplementary form)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/nottingham-bluecoat-academy.html
-URL:https://iamds.github.io/11plusroute-site/schools/nottingham-bluecoat-ac
- ademy.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ nottingham-bluecoat-academy.html
+URL:https://www.11plusadmissions.co.uk/schools/nottingham-bluecoat-academy.
+ html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:nottingham-bluecoat-academy-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:nottingham-bluecoat-academy-b6c34c92fe76@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Nottingham Bluecoat Academy: National Offer Day
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/nottingham-bluecoat-academy.html
-URL:https://iamds.github.io/11plusroute-site/schools/nottingham-bluecoat-ac
- ademy.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ nottingham-bluecoat-academy.html
+URL:https://www.11plusadmissions.co.uk/schools/nottingham-bluecoat-academy.
+ html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

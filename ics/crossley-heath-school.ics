@@ -6,142 +6,131 @@ X-WR-CALNAME:The Crossley Heath School admissions
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:crossley-heath-school-993ea5418de9@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:crossley-heath-school-993ea5418de9@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260320
 DTEND;VALUE=DATE:20260321
 SUMMARY:The Crossley Heath School: Test registration opens (either school's
   website)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/crossley-heath-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/crossley-heath-school.
- html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ crossley-heath-school.html
+URL:https://www.11plusadmissions.co.uk/schools/crossley-heath-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:crossley-heath-school-3133bf52d6f9@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:crossley-heath-school-3133bf52d6f9@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260623
 DTEND;VALUE=DATE:20260624
 SUMMARY:The Crossley Heath School: Crossley Heath open evening (5-8pm)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/crossley-heath-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/crossley-heath-school.
- html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ crossley-heath-school.html
+URL:https://www.11plusadmissions.co.uk/schools/crossley-heath-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:crossley-heath-school-1c4e8d54bcbe@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:crossley-heath-school-1c4e8d54bcbe@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260625
 DTEND;VALUE=DATE:20260626
 SUMMARY:The Crossley Heath School: North Halifax Grammar School open evenin
  g (5-8pm)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/crossley-heath-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/crossley-heath-school.
- html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ crossley-heath-school.html
+URL:https://www.11plusadmissions.co.uk/schools/crossley-heath-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:crossley-heath-school-4076d19b0d13@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:crossley-heath-school-4076d19b0d13@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:The Crossley Heath School: Test registration deadline
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/crossley-heath-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/crossley-heath-school.
- html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ crossley-heath-school.html
+URL:https://www.11plusadmissions.co.uk/schools/crossley-heath-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:crossley-heath-school-3f4e82121a74@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:crossley-heath-school-3f4e82121a74@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:The Crossley Heath School: Venue and timetable details received by 
  this date
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/crossley-heath-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/crossley-heath-school.
- html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ crossley-heath-school.html
+URL:https://www.11plusadmissions.co.uk/schools/crossley-heath-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:crossley-heath-school-2cefaa49b9b6@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:crossley-heath-school-2cefaa49b9b6@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:The Crossley Heath School: Admissions test at the Halifax Grammar S
  chools
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/crossley-heath-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/crossley-heath-school.
- html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ crossley-heath-school.html
+URL:https://www.11plusadmissions.co.uk/schools/crossley-heath-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:crossley-heath-school-932ced96008a@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:crossley-heath-school-932ced96008a@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:The Crossley Heath School: Supplementary test at Crossley Heath
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/crossley-heath-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/crossley-heath-school.
- html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ crossley-heath-school.html
+URL:https://www.11plusadmissions.co.uk/schools/crossley-heath-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:crossley-heath-school-66f3b3735419@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:crossley-heath-school-66f3b3735419@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:The Crossley Heath School: End of September: Pupil/Service Premium 
  evidence deadline
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/crossley-heath-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/crossley-heath-school.
- html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ crossley-heath-school.html
+URL:https://www.11plusadmissions.co.uk/schools/crossley-heath-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:crossley-heath-school-4aaaa6a7088a@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:crossley-heath-school-4aaaa6a7088a@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:The Crossley Heath School: Test results uploaded to Applicaa (not a
  n offer)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/crossley-heath-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/crossley-heath-school.
- html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ crossley-heath-school.html
+URL:https://www.11plusadmissions.co.uk/schools/crossley-heath-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:crossley-heath-school-1dac74ddf9fd@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:crossley-heath-school-1dac74ddf9fd@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:The Crossley Heath School: CAF deadline (Calderdale and neighbourin
  g LAs)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/crossley-heath-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/crossley-heath-school.
- html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ crossley-heath-school.html
+URL:https://www.11plusadmissions.co.uk/schools/crossley-heath-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:crossley-heath-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:crossley-heath-school-b6c34c92fe76@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:The Crossley Heath School: National Offer Day
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/crossley-heath-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/crossley-heath-school.
- html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ crossley-heath-school.html
+URL:https://www.11plusadmissions.co.uk/schools/crossley-heath-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

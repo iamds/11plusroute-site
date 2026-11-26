@@ -6,117 +6,108 @@ X-WR-CALNAME:Boston High School admissions
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:boston-high-school-5f92435577f3@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:boston-high-school-5f92435577f3@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260107
 DTEND;VALUE=DATE:20260108
 SUMMARY:Boston High School: 11+ registration opens
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/boston-high-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/boston-high-school.htm
- l
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ boston-high-school.html
+URL:https://www.11plusadmissions.co.uk/schools/boston-high-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:boston-high-school-434a23554c85@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:boston-high-school-434a23554c85@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260331
 DTEND;VALUE=DATE:20260401
 SUMMARY:Boston High School: 11+ registration deadline
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/boston-high-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/boston-high-school.htm
- l
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ boston-high-school.html
+URL:https://www.11plusadmissions.co.uk/schools/boston-high-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:boston-high-school-01151851f46c@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:boston-high-school-01151851f46c@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:Boston High School: First 11+ test: Verbal Reasoning (Friday 11 or 
  Saturday 12 September)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/boston-high-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/boston-high-school.htm
- l
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ boston-high-school.html
+URL:https://www.11plusadmissions.co.uk/schools/boston-high-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:boston-high-school-05577f5c328f@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:boston-high-school-05577f5c328f@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Boston High School: Second 11+ test: Non-Verbal Reasoning and Spati
  al Awareness (Friday 18 or Saturday 19 September)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/boston-high-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/boston-high-school.htm
- l
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ boston-high-school.html
+URL:https://www.11plusadmissions.co.uk/schools/boston-high-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:boston-high-school-4b0a5644b863@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:boston-high-school-4b0a5644b863@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:Boston High School: 11+ results emailed to parents (midday\, consor
  tium timetable)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/boston-high-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/boston-high-school.htm
- l
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ boston-high-school.html
+URL:https://www.11plusadmissions.co.uk/schools/boston-high-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:boston-high-school-27f62a864dce@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:boston-high-school-27f62a864dce@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Boston High School: National closing date for secondary application
  s
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/boston-high-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/boston-high-school.htm
- l
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ boston-high-school.html
+URL:https://www.11plusadmissions.co.uk/schools/boston-high-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:boston-high-school-3005d4d4734e@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:boston-high-school-3005d4d4734e@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:Boston High School: Last date Lincolnshire accepts applications as 
  on time
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/boston-high-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/boston-high-school.htm
- l
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ boston-high-school.html
+URL:https://www.11plusadmissions.co.uk/schools/boston-high-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:boston-high-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:boston-high-school-b6c34c92fe76@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Boston High School: National Offer Day
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/boston-high-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/boston-high-school.htm
- l
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ boston-high-school.html
+URL:https://www.11plusadmissions.co.uk/schools/boston-high-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:boston-high-school-67c46df037c7@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:boston-high-school-67c46df037c7@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270414
 DTEND;VALUE=DATE:20270415
 SUMMARY:Boston High School: Lincolnshire deadline for on-time appeals (midn
  ight)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/boston-high-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/boston-high-school.htm
- l
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ boston-high-school.html
+URL:https://www.11plusadmissions.co.uk/schools/boston-high-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

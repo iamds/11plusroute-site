@@ -6,90 +6,90 @@ X-WR-CALNAME:Churston Ferrers Grammar School admissions
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:churston-ferrers-grammar-school-6e050b19540c@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:churston-ferrers-grammar-school-6e050b19540c@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260716
 SUMMARY:Churston Ferrers Grammar School: Preferred date for returning test 
  registration forms (Torbay Council)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/churston-ferrers-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/churston-ferrers-gramm
- ar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ churston-ferrers-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/churston-ferrers-grammar-sch
+ ool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:churston-ferrers-grammar-school-96ee07f37f3f@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:churston-ferrers-grammar-school-96ee07f37f3f@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
 SUMMARY:Churston Ferrers Grammar School: Test registration closes (midday)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/churston-ferrers-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/churston-ferrers-gramm
- ar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ churston-ferrers-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/churston-ferrers-grammar-sch
+ ool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:churston-ferrers-grammar-school-c8637c02f929@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:churston-ferrers-grammar-school-c8637c02f929@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Churston Ferrers Grammar School: Torbay 11+ test
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/churston-ferrers-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/churston-ferrers-gramm
- ar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ churston-ferrers-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/churston-ferrers-grammar-sch
+ ool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:churston-ferrers-grammar-school-7c98588bcfe5@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:churston-ferrers-grammar-school-7c98588bcfe5@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:Churston Ferrers Grammar School: About 14 days after the test: dead
  line for extenuating circumstances
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/churston-ferrers-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/churston-ferrers-gramm
- ar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ churston-ferrers-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/churston-ferrers-grammar-sch
+ ool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:churston-ferrers-grammar-school-846cc7a9b046@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:churston-ferrers-grammar-school-846cc7a9b046@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
 SUMMARY:Churston Ferrers Grammar School: Yes/No outcome letters (on or afte
  r)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/churston-ferrers-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/churston-ferrers-gramm
- ar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ churston-ferrers-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/churston-ferrers-grammar-sch
+ ool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:churston-ferrers-grammar-school-f29e39788c33@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:churston-ferrers-grammar-school-f29e39788c33@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Churston Ferrers Grammar School: Common Application Form deadline
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/churston-ferrers-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/churston-ferrers-gramm
- ar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ churston-ferrers-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/churston-ferrers-grammar-sch
+ ool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:churston-ferrers-grammar-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:churston-ferrers-grammar-school-b6c34c92fe76@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Churston Ferrers Grammar School: National Offer Day
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/churston-ferrers-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/churston-ferrers-gramm
- ar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ churston-ferrers-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/churston-ferrers-grammar-sch
+ ool.html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

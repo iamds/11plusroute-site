@@ -6,152 +6,140 @@ X-WR-CALNAME:Bourne Grammar School admissions
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:bourne-grammar-school-50acf189c9e0@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:bourne-grammar-school-50acf189c9e0@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 SUMMARY:Bourne Grammar School: Normal 11+ registration deadline
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/bourne-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/bourne-grammar-school.
- html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ bourne-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/bourne-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bourne-grammar-school-45ff2fc1bed0@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:bourne-grammar-school-45ff2fc1bed0@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20260906
 SUMMARY:Bourne Grammar School: Familiarisation test at BGS (optional)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/bourne-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/bourne-grammar-school.
- html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ bourne-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/bourne-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bourne-grammar-school-2cf123359da8@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:bourne-grammar-school-2cf123359da8@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:Bourne Grammar School: VR test at Bourne primaries\, Malcolm Sargen
  t and St Gilbert's (Stamford)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/bourne-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/bourne-grammar-school.
- html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ bourne-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/bourne-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bourne-grammar-school-a1159b22cd0c@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:bourne-grammar-school-a1159b22cd0c@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Bourne Grammar School: 11+ Verbal Reasoning test
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/bourne-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/bourne-grammar-school.
- html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ bourne-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/bourne-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bourne-grammar-school-a61c64181421@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:bourne-grammar-school-a61c64181421@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Bourne Grammar School: NVR test at Bourne primaries\, Malcolm Sarge
  nt and St Gilbert's (Stamford)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/bourne-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/bourne-grammar-school.
- html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ bourne-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/bourne-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bourne-grammar-school-7822fe920fd7@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:bourne-grammar-school-7822fe920fd7@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Bourne Grammar School: 11+ Non-Verbal & Spatial Reasoning test
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/bourne-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/bourne-grammar-school.
- html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ bourne-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/bourne-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bourne-grammar-school-427a7481f4b2@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:bourne-grammar-school-427a7481f4b2@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:Bourne Grammar School: 11+ results emailed to parents (12 noon)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/bourne-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/bourne-grammar-school.
- html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ bourne-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/bourne-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bourne-grammar-school-54e723615a0f@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:bourne-grammar-school-54e723615a0f@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Bourne Grammar School: Pupil Premium evidence deadline
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/bourne-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/bourne-grammar-school.
- html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ bourne-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/bourne-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bourne-grammar-school-fa0210f8df80@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:bourne-grammar-school-fa0210f8df80@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Bourne Grammar School: Secondary application deadline (national clo
  sing date)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/bourne-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/bourne-grammar-school.
- html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ bourne-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/bourne-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bourne-grammar-school-ce7ca1406a54@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:bourne-grammar-school-ce7ca1406a54@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:Bourne Grammar School: Lincolnshire's final closing date for applic
  ations to be co-ordinated with the main round (12 noon)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/bourne-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/bourne-grammar-school.
- html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ bourne-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/bourne-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bourne-grammar-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:bourne-grammar-school-b6c34c92fe76@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Bourne Grammar School: National Offer Day
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/bourne-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/bourne-grammar-school.
- html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ bourne-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/bourne-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bourne-grammar-school-0b9f568695ea@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:bourne-grammar-school-0b9f568695ea@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270330
 DTEND;VALUE=DATE:20270331
 SUMMARY:Bourne Grammar School: Revised offers after refusals and late entri
  es (week commencing 30 March)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/bourne-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/bourne-grammar-school.
- html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ bourne-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/bourne-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

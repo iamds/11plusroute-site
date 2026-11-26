@@ -6,141 +6,141 @@ X-WR-CALNAME:Kendrick School admissions
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:kendrick-school-85c4b637fa7f@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:kendrick-school-85c4b637fa7f@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260301
 DTEND;VALUE=DATE:20260302
 SUMMARY:Kendrick School: GL familiarisation material available on the schoo
  l website (March)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/kendrick-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/kendrick-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ kendrick-school.html
+URL:https://www.11plusadmissions.co.uk/schools/kendrick-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kendrick-school-d6cf7341d445@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:kendrick-school-d6cf7341d445@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260422
 DTEND;VALUE=DATE:20260423
 SUMMARY:Kendrick School: Open Day sessions
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/kendrick-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/kendrick-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ kendrick-school.html
+URL:https://www.11plusadmissions.co.uk/schools/kendrick-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kendrick-school-56a9aa88c510@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:kendrick-school-56a9aa88c510@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 SUMMARY:Kendrick School: Online test registration opens
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/kendrick-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/kendrick-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ kendrick-school.html
+URL:https://www.11plusadmissions.co.uk/schools/kendrick-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kendrick-school-202469bbc29c@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:kendrick-school-202469bbc29c@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Kendrick School: Test registration deadline (midnight)\, including 
  access-arrangement requests
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/kendrick-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/kendrick-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ kendrick-school.html
+URL:https://www.11plusadmissions.co.uk/schools/kendrick-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kendrick-school-ee9c829373d1@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:kendrick-school-ee9c829373d1@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260717
 DTEND;VALUE=DATE:20260718
 SUMMARY:Kendrick School: Session time and test arrangements emailed by this
   date
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/kendrick-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/kendrick-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ kendrick-school.html
+URL:https://www.11plusadmissions.co.uk/schools/kendrick-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kendrick-school-c021f2d6d695@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:kendrick-school-c021f2d6d695@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 SUMMARY:Kendrick School: Date for permanent home address and Pupil/Service 
  Premium status
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/kendrick-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/kendrick-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ kendrick-school.html
+URL:https://www.11plusadmissions.co.uk/schools/kendrick-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kendrick-school-f88bfc08fd33@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:kendrick-school-f88bfc08fd33@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Kendrick School: Admission Test (am or pm) at Kendrick School
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/kendrick-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/kendrick-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ kendrick-school.html
+URL:https://www.11plusadmissions.co.uk/schools/kendrick-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kendrick-school-1efcf92ba9ad@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:kendrick-school-1efcf92ba9ad@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Kendrick School: Deadline: Test Day Registration Card
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/kendrick-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/kendrick-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ kendrick-school.html
+URL:https://www.11plusadmissions.co.uk/schools/kendrick-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kendrick-school-21204d0f6e7e@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:kendrick-school-21204d0f6e7e@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Kendrick School: Test results emailed before this date. CAF deadlin
  e (home LA)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/kendrick-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/kendrick-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ kendrick-school.html
+URL:https://www.11plusadmissions.co.uk/schools/kendrick-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kendrick-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:kendrick-school-b6c34c92fe76@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Kendrick School: National Offer Day
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/kendrick-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/kendrick-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ kendrick-school.html
+URL:https://www.11plusadmissions.co.uk/schools/kendrick-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kendrick-school-94777535f9ee@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:kendrick-school-94777535f9ee@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270908
 DTEND;VALUE=DATE:20270909
 SUMMARY:Kendrick School: Waiting list re-ranked for families who moved into
   a higher priority area
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/kendrick-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/kendrick-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ kendrick-school.html
+URL:https://www.11plusadmissions.co.uk/schools/kendrick-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kendrick-school-8b26629fa849@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:kendrick-school-8b26629fa849@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20280131
 DTEND;VALUE=DATE:20280201
 SUMMARY:Kendrick School: Year 7 waiting list from the routine round closes
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/kendrick-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/kendrick-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ kendrick-school.html
+URL:https://www.11plusadmissions.co.uk/schools/kendrick-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

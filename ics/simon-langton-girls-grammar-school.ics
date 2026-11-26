@@ -6,198 +6,213 @@ X-WR-CALNAME:Simon Langton Girls' Grammar School admissions
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:simon-langton-girls-grammar-school-048371a3aa36@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:simon-langton-girls-grammar-school-048371a3aa36@www.11plusadmissions.co
+ .uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 SUMMARY:Simon Langton Girls' Grammar School: Kent Test registration opens (
  KTAF online at kent.gov.uk/ola)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/simon-langton-girls-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-girls-gr
- ammar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ simon-langton-girls-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/simon-langton-girls-grammar-
+ school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:simon-langton-girls-grammar-school-4449d0dc7157@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:simon-langton-girls-grammar-school-4449d0dc7157@www.11plusadmissions.co
+ .uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Simon Langton Girls' Grammar School: Kent Test registration closes\
  ; deadline for schools to request special arrangements
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/simon-langton-girls-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-girls-gr
- ammar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ simon-langton-girls-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/simon-langton-girls-grammar-
+ school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:simon-langton-girls-grammar-school-dc367874cd3e@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:simon-langton-girls-grammar-school-dc367874cd3e@www.11plusadmissions.co
+ .uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260721
 DTEND;VALUE=DATE:20260722
 SUMMARY:Simon Langton Girls' Grammar School: Late paper KTAF deadline (chil
  dren at KCC primary schools only)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/simon-langton-girls-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-girls-gr
- ammar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ simon-langton-girls-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/simon-langton-girls-grammar-
+ school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:simon-langton-girls-grammar-school-f7e2cb2f52bb@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:simon-langton-girls-grammar-school-f7e2cb2f52bb@www.11plusadmissions.co
+ .uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Simon Langton Girls' Grammar School: Secondary applications open
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/simon-langton-girls-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-girls-gr
- ammar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ simon-langton-girls-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/simon-langton-girls-grammar-
+ school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:simon-langton-girls-grammar-school-ab2da8706ba3@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:simon-langton-girls-grammar-school-ab2da8706ba3@www.11plusadmissions.co
+ .uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Simon Langton Girls' Grammar School: Kent Test for children at Kent
   primary schools
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/simon-langton-girls-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-girls-gr
- ammar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ simon-langton-girls-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/simon-langton-girls-grammar-
+ school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:simon-langton-girls-grammar-school-05d62c71d2db@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:simon-langton-girls-grammar-school-05d62c71d2db@www.11plusadmissions.co
+ .uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Simon Langton Girls' Grammar School: Kent Test at test centres for 
  children not at Kent schools (weekend of 12/13 September)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/simon-langton-girls-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-girls-gr
- ammar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ simon-langton-girls-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/simon-langton-girls-grammar-
+ school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:simon-langton-girls-grammar-school-430271fea67e@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:simon-langton-girls-grammar-school-430271fea67e@www.11plusadmissions.co
+ .uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Simon Langton Girls' Grammar School: Kent Test assessment decisions
   sent (after 4pm)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/simon-langton-girls-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-girls-gr
- ammar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ simon-langton-girls-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/simon-langton-girls-grammar-
+ school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:simon-langton-girls-grammar-school-f3b0258594e7@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:simon-langton-girls-grammar-school-f3b0258594e7@www.11plusadmissions.co
+ .uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Simon Langton Girls' Grammar School: Pupil Premium supplementary fo
  rm to the school
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/simon-langton-girls-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-girls-gr
- ammar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ simon-langton-girls-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/simon-langton-girls-grammar-
+ school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:simon-langton-girls-grammar-school-efadfe905a38@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:simon-langton-girls-grammar-school-efadfe905a38@www.11plusadmissions.co
+ .uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Simon Langton Girls' Grammar School: Deadline: Supplementary Form f
  or Pupil Premium
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/simon-langton-girls-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-girls-gr
- ammar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ simon-langton-girls-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/simon-langton-girls-grammar-
+ school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:simon-langton-girls-grammar-school-9fbbbdd37152@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:simon-langton-girls-grammar-school-9fbbbdd37152@www.11plusadmissions.co
+ .uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:Simon Langton Girls' Grammar School: Secondary application (SCAF) d
  eadline for Kent residents (midnight)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/simon-langton-girls-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-girls-gr
- ammar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ simon-langton-girls-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/simon-langton-girls-grammar-
+ school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:simon-langton-girls-grammar-school-995de5ee548d@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:simon-langton-girls-grammar-school-995de5ee548d@www.11plusadmissions.co
+ .uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Simon Langton Girls' Grammar School: Last day to change your applic
  ation details in time for offer day
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/simon-langton-girls-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-girls-gr
- ammar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ simon-langton-girls-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/simon-langton-girls-grammar-
+ school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:simon-langton-girls-grammar-school-e66f0502bb93@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:simon-langton-girls-grammar-school-e66f0502bb93@www.11plusadmissions.co
+ .uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Simon Langton Girls' Grammar School: National Offer Day (emails aft
  er 4pm)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/simon-langton-girls-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-girls-gr
- ammar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ simon-langton-girls-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/simon-langton-girls-grammar-
+ school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:simon-langton-girls-grammar-school-0c61eb2dde83@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:simon-langton-girls-grammar-school-0c61eb2dde83@www.11plusadmissions.co
+ .uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Simon Langton Girls' Grammar School: Accept/decline the offer\; dea
  dline for waiting-list requests and late applications in KCC's reallocatio
  n
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/simon-langton-girls-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-girls-gr
- ammar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ simon-langton-girls-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/simon-langton-girls-grammar-
+ school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:simon-langton-girls-grammar-school-32f76fbd9c71@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:simon-langton-girls-grammar-school-32f76fbd9c71@www.11plusadmissions.co
+ .uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Simon Langton Girls' Grammar School: Lodge appeals by this date to 
  be heard before September
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/simon-langton-girls-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-girls-gr
- ammar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ simon-langton-girls-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/simon-langton-girls-grammar-
+ school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:simon-langton-girls-grammar-school-07657d7a5e83@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:simon-langton-girls-grammar-school-07657d7a5e83@www.11plusadmissions.co
+ .uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
 SUMMARY:Simon Langton Girls' Grammar School: Kent Reallocation Day: places 
  that have come free are offered from waiting lists
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/simon-langton-girls-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/simon-langton-girls-gr
- ammar-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ simon-langton-girls-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/simon-langton-girls-grammar-
+ school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

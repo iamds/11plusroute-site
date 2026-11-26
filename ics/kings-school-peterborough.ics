@@ -6,116 +6,116 @@ X-WR-CALNAME:The King's School\, Peterborough admissions
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:kings-school-peterborough-421d6ed15476@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:kings-school-peterborough-421d6ed15476@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:The King's School\, Peterborough: Applications and exam/audition re
  gistration open
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/kings-school-peterborough.html
-URL:https://iamds.github.io/11plusroute-site/schools/kings-school-peterboro
- ugh.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ kings-school-peterborough.html
+URL:https://www.11plusadmissions.co.uk/schools/kings-school-peterborough.ht
+ ml
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kings-school-peterborough-35a36a978a8d@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:kings-school-peterborough-35a36a978a8d@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
 SUMMARY:The King's School\, Peterborough: Year 6 Open Evening (6-8pm)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/kings-school-peterborough.html
-URL:https://iamds.github.io/11plusroute-site/schools/kings-school-peterboro
- ugh.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ kings-school-peterborough.html
+URL:https://www.11plusadmissions.co.uk/schools/kings-school-peterborough.ht
+ ml
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kings-school-peterborough-0f08a2d919d3@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:kings-school-peterborough-0f08a2d919d3@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 SUMMARY:The King's School\, Peterborough: Entrance exam and music audition 
  registration closes (3.25pm)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/kings-school-peterborough.html
-URL:https://iamds.github.io/11plusroute-site/schools/kings-school-peterboro
- ugh.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ kings-school-peterborough.html
+URL:https://www.11plusadmissions.co.uk/schools/kings-school-peterborough.ht
+ ml
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kings-school-peterborough-c4bf018d182b@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:kings-school-peterborough-c4bf018d182b@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:The King's School\, Peterborough: Music audition booking (10am) and
   exam access arrangements evidence (3.25pm) deadlines
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/kings-school-peterborough.html
-URL:https://iamds.github.io/11plusroute-site/schools/kings-school-peterboro
- ugh.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ kings-school-peterborough.html
+URL:https://www.11plusadmissions.co.uk/schools/kings-school-peterborough.ht
+ ml
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kings-school-peterborough-1012229e00d1@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:kings-school-peterborough-1012229e00d1@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:The King's School\, Peterborough: Music auditions (30 Sept - 2 Oct)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/kings-school-peterborough.html
-URL:https://iamds.github.io/11plusroute-site/schools/kings-school-peterboro
- ugh.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ kings-school-peterborough.html
+URL:https://www.11plusadmissions.co.uk/schools/kings-school-peterborough.ht
+ ml
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kings-school-peterborough-3430c9e36da4@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:kings-school-peterborough-3430c9e36da4@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:The King's School\, Peterborough: Entrance exam (8.45am)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/kings-school-peterborough.html
-URL:https://iamds.github.io/11plusroute-site/schools/kings-school-peterboro
- ugh.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ kings-school-peterborough.html
+URL:https://www.11plusadmissions.co.uk/schools/kings-school-peterborough.ht
+ ml
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kings-school-peterborough-537963e689ce@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:kings-school-peterborough-537963e689ce@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 SUMMARY:The King's School\, Peterborough: Exam and audition results emailed
   (by this date)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/kings-school-peterborough.html
-URL:https://iamds.github.io/11plusroute-site/schools/kings-school-peterboro
- ugh.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ kings-school-peterborough.html
+URL:https://www.11plusadmissions.co.uk/schools/kings-school-peterborough.ht
+ ml
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kings-school-peterborough-782fc0012fa8@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:kings-school-peterborough-782fc0012fa8@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:The King's School\, Peterborough: SIF deadline (to the school) and 
  council application deadline
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/kings-school-peterborough.html
-URL:https://iamds.github.io/11plusroute-site/schools/kings-school-peterboro
- ugh.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ kings-school-peterborough.html
+URL:https://www.11plusadmissions.co.uk/schools/kings-school-peterborough.ht
+ ml
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:kings-school-peterborough-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:kings-school-peterborough-b6c34c92fe76@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:The King's School\, Peterborough: National Offer Day
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/kings-school-peterborough.html
-URL:https://iamds.github.io/11plusroute-site/schools/kings-school-peterboro
- ugh.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ kings-school-peterborough.html
+URL:https://www.11plusadmissions.co.uk/schools/kings-school-peterborough.ht
+ ml
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

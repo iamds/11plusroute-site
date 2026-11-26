@@ -6,136 +6,125 @@ X-WR-CALNAME:Poole Grammar School admissions
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:poole-grammar-school-4beeb08a0512@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:poole-grammar-school-4beeb08a0512@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260413
 DTEND;VALUE=DATE:20260414
 SUMMARY:Poole Grammar School: Test registration opens
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/poole-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/poole-grammar-school.h
- tml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ poole-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/poole-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:poole-grammar-school-c35a520ca8bd@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:poole-grammar-school-c35a520ca8bd@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:Poole Grammar School: Test registration closes (12 noon)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/poole-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/poole-grammar-school.h
- tml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ poole-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/poole-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:poole-grammar-school-11ca557a97fb@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:poole-grammar-school-11ca557a97fb@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:Poole Grammar School: Access arrangements deadline (12 noon)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/poole-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/poole-grammar-school.h
- tml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ poole-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/poole-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:poole-grammar-school-b2c12a91912f@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:poole-grammar-school-b2c12a91912f@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260927
 SUMMARY:Poole Grammar School: Consortium entrance test
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/poole-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/poole-grammar-school.h
- tml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ poole-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/poole-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:poole-grammar-school-bfd878724a49@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:poole-grammar-school-bfd878724a49@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Poole Grammar School: Catch-up test
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/poole-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/poole-grammar-school.h
- tml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ poole-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/poole-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:poole-grammar-school-f709544c7c30@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:poole-grammar-school-f709544c7c30@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Poole Grammar School: Test results emailed (by 4pm)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/poole-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/poole-grammar-school.h
- tml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ poole-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/poole-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:poole-grammar-school-d9b0609e1b79@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:poole-grammar-school-d9b0609e1b79@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Poole Grammar School: Council application deadline
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/poole-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/poole-grammar-school.h
- tml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ poole-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/poole-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:poole-grammar-school-7e2086a730fd@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:poole-grammar-school-7e2086a730fd@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Poole Grammar School: Late test registration closes (12 noon)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/poole-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/poole-grammar-school.h
- tml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ poole-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/poole-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:poole-grammar-school-35a5bcb02fe5@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:poole-grammar-school-35a5bcb02fe5@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270223
 DTEND;VALUE=DATE:20270224
 SUMMARY:Poole Grammar School: Late test (for late registrations/application
  s)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/poole-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/poole-grammar-school.h
- tml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ poole-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/poole-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:poole-grammar-school-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:poole-grammar-school-b6c34c92fe76@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Poole Grammar School: National Offer Day
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/poole-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/poole-grammar-school.h
- tml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ poole-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/poole-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:poole-grammar-school-953c6ee1e62e@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:poole-grammar-school-953c6ee1e62e@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Poole Grammar School: Deadline to accept offer (BCP)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/poole-grammar-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/poole-grammar-school.h
- tml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ poole-grammar-school.html
+URL:https://www.11plusadmissions.co.uk/schools/poole-grammar-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

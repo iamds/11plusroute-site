@@ -6,90 +6,83 @@ X-WR-CALNAME:Shirley High School admissions
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:shirley-high-school-61aa059cfb31@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:shirley-high-school-61aa059cfb31@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:Shirley High School: Open evening (5pm to 7.30pm)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/shirley-high-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/shirley-high-school.ht
- ml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ shirley-high-school.html
+URL:https://www.11plusadmissions.co.uk/schools/shirley-high-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:shirley-high-school-5b970f63d3fb@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:shirley-high-school-5b970f63d3fb@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
 SUMMARY:Shirley High School: Performing Arts Scholarship Application Form d
  eadline\; open-morning week begins (by appointment)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/shirley-high-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/shirley-high-school.ht
- ml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ shirley-high-school.html
+URL:https://www.11plusadmissions.co.uk/schools/shirley-high-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:shirley-high-school-f5fc95f2fe73@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:shirley-high-school-f5fc95f2fe73@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 SUMMARY:Shirley High School: Performing Arts Scholarship workshop
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/shirley-high-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/shirley-high-school.ht
- ml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ shirley-high-school.html
+URL:https://www.11plusadmissions.co.uk/schools/shirley-high-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:shirley-high-school-12b72e86d7fe@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:shirley-high-school-12b72e86d7fe@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Shirley High School: CAF deadline
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/shirley-high-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/shirley-high-school.ht
- ml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ shirley-high-school.html
+URL:https://www.11plusadmissions.co.uk/schools/shirley-high-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:shirley-high-school-899641dbfe37@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:shirley-high-school-899641dbfe37@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Shirley High School: National Offer Day (scholarship offers made th
  e same day)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/shirley-high-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/shirley-high-school.ht
- ml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ shirley-high-school.html
+URL:https://www.11plusadmissions.co.uk/schools/shirley-high-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:shirley-high-school-cd59098b1cde@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:shirley-high-school-cd59098b1cde@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Shirley High School: Accept or decline the place in writing
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/shirley-high-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/shirley-high-school.ht
- ml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ shirley-high-school.html
+URL:https://www.11plusadmissions.co.uk/schools/shirley-high-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:shirley-high-school-39eed8377569@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:shirley-high-school-39eed8377569@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
 SUMMARY:Shirley High School: Deadline to lodge an appeal with the Chair of 
  Governors
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/shirley-high-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/shirley-high-school.ht
- ml
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ shirley-high-school.html
+URL:https://www.11plusadmissions.co.uk/schools/shirley-high-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

@@ -6,124 +6,114 @@ X-WR-CALNAME:Haberdashers' Adams admissions
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:haberdashers-adams-d83e8a9fa319@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:haberdashers-adams-d83e8a9fa319@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260119
 DTEND;VALUE=DATE:20260120
 SUMMARY:Haberdashers' Adams: Open week (19-23 January 2026)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/haberdashers-adams.html
-URL:https://iamds.github.io/11plusroute-site/schools/haberdashers-adams.htm
- l
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ haberdashers-adams.html
+URL:https://www.11plusadmissions.co.uk/schools/haberdashers-adams.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:haberdashers-adams-af3a15b17e84@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:haberdashers-adams-af3a15b17e84@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260505
 DTEND;VALUE=DATE:20260506
 SUMMARY:Haberdashers' Adams: Consortium online registration opens
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/haberdashers-adams.html
-URL:https://iamds.github.io/11plusroute-site/schools/haberdashers-adams.htm
- l
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ haberdashers-adams.html
+URL:https://www.11plusadmissions.co.uk/schools/haberdashers-adams.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:haberdashers-adams-3c29ec18fd5e@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:haberdashers-adams-3c29ec18fd5e@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260612
 DTEND;VALUE=DATE:20260613
 SUMMARY:Haberdashers' Adams: Special Arrangements Form deadline (4pm)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/haberdashers-adams.html
-URL:https://iamds.github.io/11plusroute-site/schools/haberdashers-adams.htm
- l
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ haberdashers-adams.html
+URL:https://www.11plusadmissions.co.uk/schools/haberdashers-adams.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:haberdashers-adams-e3a583b2f447@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:haberdashers-adams-e3a583b2f447@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:Haberdashers' Adams: Registration and Pupil Premium Form deadline (
  4pm)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/haberdashers-adams.html
-URL:https://iamds.github.io/11plusroute-site/schools/haberdashers-adams.htm
- l
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ haberdashers-adams.html
+URL:https://www.11plusadmissions.co.uk/schools/haberdashers-adams.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:haberdashers-adams-59cdfdc7c982@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:haberdashers-adams-59cdfdc7c982@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 SUMMARY:Haberdashers' Adams: Entrance test
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/haberdashers-adams.html
-URL:https://iamds.github.io/11plusroute-site/schools/haberdashers-adams.htm
- l
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ haberdashers-adams.html
+URL:https://www.11plusadmissions.co.uk/schools/haberdashers-adams.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:haberdashers-adams-c53ccf49d1e9@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:haberdashers-adams-c53ccf49d1e9@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 SUMMARY:Haberdashers' Adams: Results released
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/haberdashers-adams.html
-URL:https://iamds.github.io/11plusroute-site/schools/haberdashers-adams.htm
- l
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ haberdashers-adams.html
+URL:https://www.11plusadmissions.co.uk/schools/haberdashers-adams.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:haberdashers-adams-209ac71e0679@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:haberdashers-adams-209ac71e0679@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Haberdashers' Adams: Deadline for preference forms to home council
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/haberdashers-adams.html
-URL:https://iamds.github.io/11plusroute-site/schools/haberdashers-adams.htm
- l
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ haberdashers-adams.html
+URL:https://www.11plusadmissions.co.uk/schools/haberdashers-adams.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:haberdashers-adams-3c0513625848@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:haberdashers-adams-3c0513625848@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Haberdashers' Adams: Boarding interviews (November)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/haberdashers-adams.html
-URL:https://iamds.github.io/11plusroute-site/schools/haberdashers-adams.htm
- l
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ haberdashers-adams.html
+URL:https://www.11plusadmissions.co.uk/schools/haberdashers-adams.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:haberdashers-adams-b6c34c92fe76@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:haberdashers-adams-b6c34c92fe76@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Haberdashers' Adams: National Offer Day
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/haberdashers-adams.html
-URL:https://iamds.github.io/11plusroute-site/schools/haberdashers-adams.htm
- l
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ haberdashers-adams.html
+URL:https://www.11plusadmissions.co.uk/schools/haberdashers-adams.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:haberdashers-adams-d606f47d9540@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:haberdashers-adams-d606f47d9540@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
 SUMMARY:Haberdashers' Adams: Year 7 waiting list closes
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/haberdashers-adams.html
-URL:https://iamds.github.io/11plusroute-site/schools/haberdashers-adams.htm
- l
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ haberdashers-adams.html
+URL:https://www.11plusadmissions.co.uk/schools/haberdashers-adams.html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

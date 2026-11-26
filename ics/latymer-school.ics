@@ -6,128 +6,128 @@ X-WR-CALNAME:The Latymer School admissions
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:latymer-school-d91f618320fb@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:latymer-school-d91f618320fb@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260317
 DTEND;VALUE=DATE:20260318
 SUMMARY:The Latymer School: Online SIF opens (12pm)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/latymer-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/latymer-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ latymer-school.html
+URL:https://www.11plusadmissions.co.uk/schools/latymer-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:latymer-school-da0a8fdfa49b@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:latymer-school-da0a8fdfa49b@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
 SUMMARY:The Latymer School: Open afternoon (12pm-5pm)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/latymer-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/latymer-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ latymer-school.html
+URL:https://www.11plusadmissions.co.uk/schools/latymer-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:latymer-school-aba8ee074d0a@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:latymer-school-aba8ee074d0a@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260602
 DTEND;VALUE=DATE:20260603
 SUMMARY:The Latymer School: Online SIF closes
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/latymer-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/latymer-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ latymer-school.html
+URL:https://www.11plusadmissions.co.uk/schools/latymer-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:latymer-school-4114d5b33344@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:latymer-school-4114d5b33344@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260616
 DTEND;VALUE=DATE:20260617
 SUMMARY:The Latymer School: Deadline for supporting evidence (LAC\, FSM/UC\
  , SEND\, music)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/latymer-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/latymer-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ latymer-school.html
+URL:https://www.11plusadmissions.co.uk/schools/latymer-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:latymer-school-9070e2d39118@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:latymer-school-9070e2d39118@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 SUMMARY:The Latymer School: Test invitations sent by end of July
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/latymer-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/latymer-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ latymer-school.html
+URL:https://www.11plusadmissions.co.uk/schools/latymer-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:latymer-school-3c5d860780c3@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:latymer-school-3c5d860780c3@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
 SUMMARY:The Latymer School: Test days: 3\, 4 or 5 September 2026
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/latymer-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/latymer-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ latymer-school.html
+URL:https://www.11plusadmissions.co.uk/schools/latymer-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:latymer-school-12337e5bd99a@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:latymer-school-12337e5bd99a@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:The Latymer School: Maths and verbal reasoning results by end of Se
  ptember
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/latymer-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/latymer-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ latymer-school.html
+URL:https://www.11plusadmissions.co.uk/schools/latymer-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:latymer-school-d8a3d566fb8b@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:latymer-school-d8a3d566fb8b@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:The Latymer School: Music auditions (October)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/latymer-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/latymer-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ latymer-school.html
+URL:https://www.11plusadmissions.co.uk/schools/latymer-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:latymer-school-ff7262abb748@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:latymer-school-ff7262abb748@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:The Latymer School: Final results (with English) before end of Octo
  ber. CAF deadline 31 October
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/latymer-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/latymer-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ latymer-school.html
+URL:https://www.11plusadmissions.co.uk/schools/latymer-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:latymer-school-4c510f76165e@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:latymer-school-4c510f76165e@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
 SUMMARY:The Latymer School: Inner Area residence date (evidence of a new ad
  dress by now)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/latymer-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/latymer-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ latymer-school.html
+URL:https://www.11plusadmissions.co.uk/schools/latymer-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:latymer-school-a4fbf22d1b65@iamds.github.io
-DTSTAMP:20261126T092400Z
+UID:latymer-school-a4fbf22d1b65@www.11plusadmissions.co.uk
+DTSTAMP:20261126T094658Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:The Latymer School: National Offer Day (early March)
-DESCRIPTION:Admissions details: https://iamds.github.io/11plusroute-site/sc
- hools/latymer-school.html
-URL:https://iamds.github.io/11plusroute-site/schools/latymer-school.html
+DESCRIPTION:Admissions details: https://www.11plusadmissions.co.uk/schools/
+ latymer-school.html
+URL:https://www.11plusadmissions.co.uk/schools/latymer-school.html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
