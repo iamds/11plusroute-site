@@ -152,7 +152,7 @@
   }
   function seg(label, cls = "") { return `<li class="seg ${cls}"><div class="rail"></div><div class="seglabel">${label || ""}</div></li>`; }
   function zone(n, label) { return `<li class="zone"><div class="rail"></div><div class="zlabel"><span>${n}</span>${label}</div></li>`; }
-  const dur = d => d == null ? "" : typeof d === "object" ? `${d.min}–${d.max} min` : `${d} min`;
+  const dur = d => d == null ? "" : typeof d === "object" ? (d.min != null && d.max != null ? `${d.min}–${d.max} min` : d.max != null ? `up to ${d.max} min` : `${d.min}+ min`) : `${d} min`;
   const range = d => !d ? "" : (d.from === d.to || !d.to ? fmtDate(d.from) : `${fmtDate(d.from)} – ${fmtDate(d.to)}`) + (d.approximate ? " (approx.)" : "");
 
   function registrationBlock() {
@@ -188,7 +188,7 @@
         FORMAT[c.format] ? `<b>${FORMAT[c.format]}</b>${c.duration_minutes != null ? ` · ${dur(c.duration_minutes)}` : ""}` : c.duration_minutes != null ? `<b>${dur(c.duration_minutes)}</b>` : "",
         c.label && c.subject !== "other" ? esc(c.label) : "",
         c.description ? esc(c.description) : "",
-        c.weight != null ? `Counts for ${esc(c.weight)}% of the score.` : "",
+        c.weight != null && +c.weight > 0 ? `Counts for ${+c.weight <= 1 ? Math.round(c.weight * 100) : esc(c.weight)}% of the score.` : "",
         SUBJECT_INFO[c.subject] ? `<span class="muted">What it usually means: ${SUBJECT_INFO[c.subject]}</span>` : "",
       ].filter(Boolean);
       if (!lines.length) return `<span class="subj">${name}</span>`;
