@@ -134,20 +134,29 @@
     ? (r.selection === "grammar" ? "#79b4ff" : r.selection === "aptitude_only" ? "#ff7eb6" : "#f2c14e")
     : colour(r);
   const EMPTY = { type: "FeatureCollection", features: [] };
+  const SEL_C = () => isDark() ? "#79b4ff" : "#1f4e79", NONSEL_C = () => isDark() ? "#c0c8d2" : "#646d78";
+  function areaGeom(r, x) {
+    const shapes = (areaShapes || {})[r.slug] || {};
+    return x.radius != null && x.centred_on_school ? circleGeo(r.geo.lat, r.geo.lng, x.radius)
+      : shapes[x.id] ? { type: "Feature", geometry: shapes[x.id] } : null;
+  }
+  const tag = (f, c, k) => Object.assign(f, { properties: { c, k } });
   function schoolAreas(r) {
     if (!r || !r.geo || r.geo.lat == null) return EMPTY;
-    const shapes = (areaShapes || {})[r.slug] || {};
-    const feats = (r.geo.areas || []).map(x =>
-      x.radius != null && x.centred_on_school ? circleGeo(r.geo.lat, r.geo.lng, x.radius)
-      : shapes[x.id] ? { type: "Feature", geometry: shapes[x.id] } : null).filter(Boolean);
-    // no priority area at all (places go purely by score, e.g. QE Barnet): show a 100-mile circle
-    feats.forEach(f => f.properties = { c: areaColour(r), k: "area" });
+    const g = r.geo, areas = g.areas || [], feats = [];
+    if (r.selection && r.selection !== "grammar") {
+      // Selective places in the selective colour, other places in the non-selective colour
+      const sel = new Set(g.sel_areas || []);
+      areas.forEach(x => { const f = areaGeom(r, x); if (f) feats.push(tag(f, sel.has(x.id) ? SEL_C() : NONSEL_C(), sel.has(x.id) ? "sel" : "nonsel")); });
+      if (g.sel_open || (sel.size && !feats.some(f => f.properties.k === "sel"))) feats.push(tag(circleGeo(g.lat, g.lng, 100), SEL_C(), "sel"));
+      if (!feats.some(f => f.properties.k === "nonsel") && g.last && g.last.miles) feats.push(tag(circleGeo(g.lat, g.lng, g.last.miles), NONSEL_C(), "last"));
+      return { type: "FeatureCollection", features: feats };
+    }
+    areas.forEach(x => { const f = areaGeom(r, x); if (f) feats.push(tag(f, areaColour(r), "area")); });
     // nothing drawable but places went by distance: last year's furthest offer, dashed
-    if (!feats.length && r.geo.last && r.geo.last.miles)
-      feats.push(Object.assign(circleGeo(r.geo.lat, r.geo.lng, r.geo.last.miles), { properties: { c: areaColour(r), k: "last" } }));
+    if (!feats.length && g.last && g.last.miles) feats.push(tag(circleGeo(g.lat, g.lng, g.last.miles), areaColour(r), "last"));
     // no priority area at all, or "anywhere in the UK": show a 100-mile circle
-    else if (!(r.geo.areas || []).length || (r.geo.areas || []).some(x => /anywhere/i.test(x.name || "")))
-      feats.push(Object.assign(circleGeo(r.geo.lat, r.geo.lng, 100), { properties: { c: areaColour(r), k: "area" } }));
+    else if (!areas.length || areas.some(x => /anywhere/i.test(x.name || ""))) feats.push(tag(circleGeo(g.lat, g.lng, 100), areaColour(r), "area"));
     return { type: "FeatureCollection", features: feats };
   }
   function showAreas(r) {
@@ -164,7 +173,15 @@
     hoverTip.innerHTML = `<b>${esc(r.name)}</b>${r.miles != null ? ` · ${r.miles.toFixed(1)} mi` : ""}${tipNote(r)}`;
     hoverTip.hidden = false;
   }
-  const tipNote = r => { const f = schoolAreas(r).features; return f.length && f[0].properties.k === "last" ? `<br><span class="small">Dashed: furthest offer in ${esc(String(r.geo.last.year).slice(0, 4))}, ${r.geo.last.miles.toFixed(2)} mi</span>` : ""; };
+  const tipNote = r => {
+    const f = schoolAreas(r).features, has = k => f.some(x => x.properties.k === k), sw = c => `<span class="sw" style="border-color:${c}"></span>`;
+    const yr = r.geo.last ? esc(String(r.geo.last.year).slice(0, 4)) : "", mi = r.geo.last ? r.geo.last.miles.toFixed(2) : "";
+    const lines = [];
+    if (has("sel")) lines.push(`${sw(SEL_C())}Selective places${r.geo.sel_open && !(r.geo.sel_areas || []).length ? ": by test score, from any distance" : ""}`);
+    if (has("nonsel")) lines.push(`${sw(NONSEL_C())}Other places`);
+    if (has("last")) lines.push(`<span class="sw dash" style="border-color:${f.find(x => x.properties.k === "last").properties.c}"></span>${r.selection && r.selection !== "grammar" ? "Other places: f" : "F"}urthest offer in ${yr}, ${mi} mi`);
+    return lines.length ? `<div class="small tiplines">${lines.join("<br>")}</div>` : "";
+  };
   async function drawMap(list) {
     loadAreaShapes();
     try { await loadMapLib(); } catch (e) { $("map").innerHTML = '<p class="empty">The map couldn\'t load. Check your connection.</p>'; return; }

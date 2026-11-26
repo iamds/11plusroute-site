@@ -470,3 +470,6 @@ li.special .kicker { color: var(--c); }
 #map { position: relative; }
 .maptip { position: absolute; top: 10px; right: 10px; z-index: 3; max-width: min(320px, 60%); padding: 7px 11px; border-radius: 6px; background: var(--surface); color: var(--ink); border: 1px solid var(--line); box-shadow: 0 2px 8px rgba(0,0,0,.25); font-size: .85rem; line-height: 1.35; pointer-events: none; }
 .maptip[hidden] { display: none; }
+.maptip .tiplines { margin-top: 3px; color: var(--ink-2); }
+.maptip .sw { display: inline-block; width: 14px; height: 0; border-top: 3px solid; margin-right: 6px; vertical-align: 3px; }
+.maptip .sw.dash { border-top-style: dashed; }
