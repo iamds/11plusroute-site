@@ -112,40 +112,14 @@
   }
 
   // ---------- map (MapLibre + OpenFreeMap vector tiles: free, no API key; loaded on first use) ----------
-  let map, markers = [], mapLoading, lastList = [];
+  let map, markers = [], mapLoading;
   const CDN = "https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/";
   const loadMapLib = GS.loadMapLib;
   const isDark = () => document.documentElement.dataset.theme === "dark" || (document.documentElement.dataset.theme !== "light" && matchMedia("(prefers-color-scheme: dark)").matches);
   const colour = r => r.selection === "grammar" ? "#1f4e79" : r.selection === "aptitude_only" ? "#c2186b" : "#c98a00";
   const pcq = () => home ? "?pc=" + encodeURIComponent(home.postcode).replace(/%20/g, "+") : "";
   const circleGeo = GS.circleGeo;
-  // Priority-area outlines for every school (circles from the index data; other shapes from assets/areas.json, loaded on first map view)
-  let areaShapes = null, areaShapesLoading = null;
-  function loadAreaShapes() {
-    if (areaShapes) return Promise.resolve(areaShapes);
-    if (!areaShapesLoading) areaShapesLoading = fetch("assets/areas.json").then(r => r.ok ? r.json() : {}).catch(() => ({})).then(d => (areaShapes = d));
-    return areaShapesLoading;
-  }
-  const areaColour = r => isDark()
-    ? (r.selection === "grammar" ? "#79b4ff" : r.selection === "aptitude_only" ? "#ff7eb6" : "#f2c14e")
-    : colour(r);
-  function areaFeatures(list) {
-    const feats = [];
-    list.forEach(r => {
-      if (!r.geo || r.geo.lat == null) return;
-      const shapes = (areaShapes || {})[r.slug] || {};
-      (r.geo.areas || []).forEach(x => {
-        let f = null;
-        if (x.radius != null && x.centred_on_school) f = circleGeo(r.geo.lat, r.geo.lng, x.radius);
-        else if (shapes[x.id]) f = { type: "Feature", geometry: shapes[x.id] };
-        if (f) feats.push(Object.assign(f, { properties: { c: areaColour(r), name: r.name + ": " + x.name } }));
-      });
-    });
-    return { type: "FeatureCollection", features: feats };
-  }
   async function drawMap(list) {
-    loadAreaShapes().then(() => { const src = map && map.getSource("areas"); if (src) src.setData(areaFeatures(lastList)); });
-    lastList = list;
     try { await loadMapLib(); } catch (e) { $("map").innerHTML = '<p class="empty">The map couldn\'t load. Check your connection.</p>'; return; }
     if (!map) {
       map = new maplibregl.Map({ container: "map", style: "https://tiles.openfreemap.org/styles/" + (isDark() ? "dark" : "positron"),
@@ -173,14 +147,7 @@
       map.addLayer({ id: "radius-fill", type: "fill", source: "radius", paint: { "fill-color": "#1f4e79", "fill-opacity": 0.06 } });
       map.addLayer({ id: "radius-line", type: "line", source: "radius", paint: { "line-color": "#1f4e79", "line-width": 1.5 } });
     };
-    const setAreas = () => {
-      const data = areaFeatures(list), src = map.getSource("areas");
-      if (src) { src.setData(data); return; }
-      map.addSource("areas", { type: "geojson", data });
-      map.addLayer({ id: "areas-fill", type: "fill", source: "areas", paint: { "fill-color": ["get", "c"], "fill-opacity": 0.06 } });
-      map.addLayer({ id: "areas-line", type: "line", source: "areas", paint: { "line-color": ["get", "c"], "line-opacity": 0.65, "line-width": 1.2 } });
-    };
-    const setLayers = () => { setAreas(); setRadius(); };
+    const setLayers = setRadius;
     GS.onStyle(map, setLayers);
     if (home) {
       const hel = GS.homeMarkerEl(home.postcode);
