@@ -228,7 +228,7 @@
         // say who goes through to the next round, rather than a "not invited" exit off to the side
         const exc = (st.progression.exceptions || []).map(e => `<div class="exc">${esc(e.applies_to || "Some groups")}: ${rule(e.rule)}</div>`).join("");
         const ties = st.progression.ties ? `<div class="exc">Ties: ${esc(st.progression.ties)}</div>` : "";
-        h += seg(`<span class="go">Through to ${esc(next.name)} if:</span> ${rule(st.progression)}<div class="muted small">${s.selection === "grammar" ? "If not, there's no place at this school." : "If not, the test places are closed, but the other priorities below still apply."}</div>${exc || ties ? more(exc + ties, exc ? "Exceptions" : "Ties") : ""}`, "yes");
+        h += seg(`<span class="go">Through to ${esc(next.name)} if:</span> ${rule(st.progression)}${exc || ties ? more(exc + ties, exc ? "Exceptions" : "Ties") : ""}`, "yes");
       }
     });
     if (apt.length) h += stop({ id: "aptitude", cls: "apt", kicker: "Optional, alongside", title: "Aptitude tests", body: `<div class="steps">${apt.map(st => `
