@@ -117,9 +117,6 @@
   const loadMapLib = GS.loadMapLib;
   const isDark = () => document.documentElement.dataset.theme === "dark" || (document.documentElement.dataset.theme !== "light" && matchMedia("(prefers-color-scheme: dark)").matches);
   const colour = r => r.selection === "grammar" ? "#1f4e79" : r.selection === "aptitude_only" ? "#c2186b" : "#c98a00";
-  const areaColour = r => isDark()
-    ? (r.selection === "grammar" ? "#79b4ff" : r.selection === "aptitude_only" ? "#ff7eb6" : "#f2c14e")
-    : colour(r);
   const pcq = () => home ? "?pc=" + encodeURIComponent(home.postcode).replace(/%20/g, "+") : "";
   const circleGeo = GS.circleGeo;
   async function drawMap(list) {
@@ -150,19 +147,7 @@
       map.addLayer({ id: "radius-fill", type: "fill", source: "radius", paint: { "fill-color": "#1f4e79", "fill-opacity": 0.06 } });
       map.addLayer({ id: "radius-line", type: "line", source: "radius", paint: { "line-color": "#1f4e79", "line-width": 1.5 } });
     };
-    // Faint priority-area circles for each school shown (radius areas centred on the school)
-    const areaFC = { type: "FeatureCollection", features: list.flatMap(r => (r.geo && r.geo.lat != null ? (r.geo.areas || []) : [])
-      .filter(x => x.radius != null && x.centred_on_school)
-      .map(x => Object.assign(circleGeo(r.geo.lat, r.geo.lng, x.radius), { properties: { c: areaColour(r) } }))) };
-    const setAreas = () => {
-      const src = map.getSource("areas");
-      if (src) { src.setData(areaFC); return; }
-      map.addSource("areas", { type: "geojson", data: areaFC });
-      const before = map.getLayer("radius-fill") ? "radius-fill" : undefined;
-      map.addLayer({ id: "areas-fill", type: "fill", source: "areas", paint: { "fill-color": ["get", "c"], "fill-opacity": 0.07 } }, before);
-      map.addLayer({ id: "areas-line", type: "line", source: "areas", paint: { "line-color": ["get", "c"], "line-opacity": 0.7, "line-width": 1.5, "line-dasharray": [2, 1.5] } }, before);
-    };
-    const setLayers = () => { setAreas(); setRadius(); };
+    const setLayers = setRadius;
     GS.onStyle(map, setLayers);
     if (home) {
       const hel = GS.homeMarkerEl(home.postcode);
