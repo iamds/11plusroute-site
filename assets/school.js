@@ -283,7 +283,11 @@
         ${subs}
         ${(c.order_within || []).length ? `<div class="desc"><b>If oversubscribed:</b> ${c.order_within.map(ordering).join(", then ")}</div>` : ""}
         ${c.evidence ? `<div class="desc"><b>Evidence:</b> ${esc(c.evidence)}${c.evidence_deadline ? ` by ${fmtDate(c.evidence_deadline)}` : ""}</div>` : ""}`)}`;
-      const title = conds.length ? conds.join(`<span class="and">and</span>`) : (i < crit.length - 1 || (c.category === "score_rank" && s.selection && s.selection !== "grammar") ? "Took the test for these places?" : "Everyone else who qualifies");
+      const anyone = s.selection === "grammar" ? "Anyone who qualifies" : "Any applicant";
+      const title = conds.length ? conds.join(`<span class="and">and</span>`)
+        : c.category === "distance" ? `${i < crit.length - 1 ? anyone : "Everyone else" + (s.selection === "grammar" ? " who qualifies" : "")}, nearest first`
+        : (i < crit.length - 1 || (c.category === "score_rank" && s.selection && s.selection !== "grammar")) ? "Took the test for these places?"
+        : "Everyone else who qualifies";
       const acad = c.academic_requirement ? `<div class="acad"><span>Academic bar</span> ${rule(c.academic_requirement)}</div>` : "";
       const qs = c.quota ? quotaSize(c.quota).replace(/^Up to /, "").replace(/^At least /, "") : "";
       const noLabel = !conds.length ? "" : c.quota ? (qs ? `No, or its ${esc(qs)} have gone` : "No, or its share of places has gone") : "No";
