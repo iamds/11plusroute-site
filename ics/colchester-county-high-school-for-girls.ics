@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:colchester-county-high-school-for-girls-305f2611e092@www.11plusadmissio
  ns.co.uk
-DTSTAMP:20261126T231301Z
+DTSTAMP:20261126T231649Z
 DTSTART;VALUE=DATE:20260512
 DTEND;VALUE=DATE:20260513
 SUMMARY:Colchester County High School for Girls: CSSE registration opens
@@ -21,7 +21,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:colchester-county-high-school-for-girls-a76b42f9be75@www.11plusadmissio
  ns.co.uk
-DTSTAMP:20261126T231301Z
+DTSTAMP:20261126T231649Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
 SUMMARY:Colchester County High School for Girls: CSSE registration deadline
@@ -35,7 +35,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:colchester-county-high-school-for-girls-5441773fb595@www.11plusadmissio
  ns.co.uk
-DTSTAMP:20261126T231301Z
+DTSTAMP:20261126T231649Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:Colchester County High School for Girls: Deadline for access-arrang
@@ -49,7 +49,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:colchester-county-high-school-for-girls-7e8c288c0b71@www.11plusadmissio
  ns.co.uk
-DTSTAMP:20261126T231301Z
+DTSTAMP:20261126T231649Z
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260716
 SUMMARY:Colchester County High School for Girls: Test centre information sh
@@ -63,7 +63,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:colchester-county-high-school-for-girls-efaa19ae8f6e@www.11plusadmissio
  ns.co.uk
-DTSTAMP:20261126T231301Z
+DTSTAMP:20261126T231649Z
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 SUMMARY:Colchester County High School for Girls: Last date to withdraw from
@@ -77,7 +77,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:colchester-county-high-school-for-girls-e03e9e37a826@www.11plusadmissio
  ns.co.uk
-DTSTAMP:20261126T231301Z
+DTSTAMP:20261126T231649Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Colchester County High School for Girls: CSSE 11+ test (Saturday)
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:colchester-county-high-school-for-girls-cfbaaea9a323@www.11plusadmissio
  ns.co.uk
-DTSTAMP:20261126T231301Z
+DTSTAMP:20261126T231649Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:Colchester County High School for Girls: Alternative test day (reli
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:colchester-county-high-school-for-girls-0f5391e2310d@www.11plusadmissio
  ns.co.uk
-DTSTAMP:20261126T231301Z
+DTSTAMP:20261126T231649Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 SUMMARY:Colchester County High School for Girls: Results emailed after clos
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:colchester-county-high-school-for-girls-3262517da203@www.11plusadmissio
  ns.co.uk
-DTSTAMP:20261126T231301Z
+DTSTAMP:20261126T231649Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Colchester County High School for Girls: Application deadline (home
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:colchester-county-high-school-for-girls-3a4fd0a453ef@www.11plusadmissio
  ns.co.uk
-DTSTAMP:20261126T231301Z
+DTSTAMP:20261126T231649Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Colchester County High School for Girls: CCHSG Supplementary Inform
@@ -147,7 +147,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:colchester-county-high-school-for-girls-49bbb31233c2@www.11plusadmissio
  ns.co.uk
-DTSTAMP:20261126T231301Z
+DTSTAMP:20261126T231649Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Colchester County High School for Girls: Essex: last date for addre
@@ -161,7 +161,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:colchester-county-high-school-for-girls-b6c34c92fe76@www.11plusadmissio
  ns.co.uk
-DTSTAMP:20261126T231301Z
+DTSTAMP:20261126T231649Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Colchester County High School for Girls: National Offer Day
