@@ -815,3 +815,8 @@ section.open-panel .fold-body { padding: 0 20px 20px; }
 .rgate-l { font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-2); }
 .rgate-l::before { content: "↓ "; }
 .rgate-v { font-weight: 700; }
+/* the three main steps (Apply, Entrance test, Who gets the places) read as headings, not as small labels */
+.zlabel { font-size: 1.4rem; letter-spacing: -.01em; text-transform: none; font-weight: 800; gap: 12px; }
+.zlabel span { width: 38px; height: 38px; font-size: 1.15rem; border-radius: 4px; }
+.line > li.zone::before { bottom: 25px; height: 4px; }
+@media (max-width: 640px) { .zlabel { font-size: 1.2rem; } .zlabel span { width: 32px; height: 32px; font-size: 1rem; } .line > li.zone::before { bottom: 22px; } }

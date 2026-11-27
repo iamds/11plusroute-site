@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:wallington-high-school-for-girls-0bdbd5d6a5bd@www.11plusadmissions.co.u
  k
-DTSTAMP:20261127T153504Z
+DTSTAMP:20261127T153806Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 SUMMARY:Wallington High School for Girls: SET registration opens
@@ -21,7 +21,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wallington-high-school-for-girls-8e65a43200aa@www.11plusadmissions.co.u
  k
-DTSTAMP:20261127T153504Z
+DTSTAMP:20261127T153806Z
 DTSTART;VALUE=DATE:20260612
 DTEND;VALUE=DATE:20260613
 SUMMARY:Wallington High School for Girls: Deadline for access-arrangement r
@@ -35,7 +35,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wallington-high-school-for-girls-63e41cf27cee@www.11plusadmissions.co.u
  k
-DTSTAMP:20261127T153504Z
+DTSTAMP:20261127T153806Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 SUMMARY:Wallington High School for Girls: SET registration closes (midnight
@@ -49,7 +49,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wallington-high-school-for-girls-7b092ed978e5@www.11plusadmissions.co.u
  k
-DTSTAMP:20261127T153504Z
+DTSTAMP:20261127T153806Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 SUMMARY:Wallington High School for Girls: Latest date for the primary schoo
@@ -63,7 +63,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wallington-high-school-for-girls-adaa02c598c5@www.11plusadmissions.co.u
  k
-DTSTAMP:20261127T153504Z
+DTSTAMP:20261127T153806Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:Wallington High School for Girls: Selective Eligibility Test (SET)
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wallington-high-school-for-girls-0ac5a61403e7@www.11plusadmissions.co.u
  k
-DTSTAMP:20261127T153504Z
+DTSTAMP:20261127T153806Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Wallington High School for Girls: Deadline for SET unfit-to-sit evi
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wallington-high-school-for-girls-1a37351fbb4a@www.11plusadmissions.co.u
  k
-DTSTAMP:20261127T153504Z
+DTSTAMP:20261127T153806Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260927
 SUMMARY:Wallington High School for Girls: NWSSEE (Saturday morning)
@@ -103,7 +103,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wallington-high-school-for-girls-950609178635@www.11plusadmissions.co.u
  k
-DTSTAMP:20261127T153504Z
+DTSTAMP:20261127T153806Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:Wallington High School for Girls: Deadline for NWSSEE unfit-to-sit 
@@ -117,7 +117,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wallington-high-school-for-girls-635d035fb662@www.11plusadmissions.co.u
  k
-DTSTAMP:20261127T153504Z
+DTSTAMP:20261127T153806Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Wallington High School for Girls: CAF deadline\; home address on th
@@ -131,7 +131,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wallington-high-school-for-girls-c2ce969f7228@www.11plusadmissions.co.u
  k
-DTSTAMP:20261127T153504Z
+DTSTAMP:20261127T153806Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Wallington High School for Girls: Last date for applications late f
@@ -145,7 +145,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wallington-high-school-for-girls-b6c34c92fe76@www.11plusadmissions.co.u
  k
-DTSTAMP:20261127T153504Z
+DTSTAMP:20261127T153806Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Wallington High School for Girls: National Offer Day
@@ -158,7 +158,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wallington-high-school-for-girls-121951845897@www.11plusadmissions.co.u
  k
-DTSTAMP:20261127T153504Z
+DTSTAMP:20261127T153806Z
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
 SUMMARY:Wallington High School for Girls: Ranked waiting lists close
