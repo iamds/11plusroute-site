@@ -829,3 +829,4 @@ section.open-panel .fold-body { padding: 0 20px 20px; }
 .rgate-l { color: var(--ink-2); }
 .rgate::after { content: "▼"; position: absolute; left: -8.5px; bottom: -9px; font-size: .7rem; color: var(--gold); }
 .rgate::after { content: none; }
+.rgate + .round { margin-top: 0; }
