@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:maidstone-grammar-school-for-girls-a86b1ba5487a@www.11plusadmissions.co
  .uk
-DTSTAMP:20261127T161659Z
+DTSTAMP:20261127T161944Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 SUMMARY:Maidstone Grammar School for Girls: Kent Test registration opens
@@ -21,7 +21,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:maidstone-grammar-school-for-girls-1febe30ba189@www.11plusadmissions.co
  .uk
-DTSTAMP:20261127T161659Z
+DTSTAMP:20261127T161944Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Maidstone Grammar School for Girls: Kent Test registration and spec
@@ -35,7 +35,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:maidstone-grammar-school-for-girls-f7e2cb2f52bb@www.11plusadmissions.co
  .uk
-DTSTAMP:20261127T161659Z
+DTSTAMP:20261127T161944Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Maidstone Grammar School for Girls: Secondary applications open
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:maidstone-grammar-school-for-girls-425301044e7d@www.11plusadmissions.co
  .uk
-DTSTAMP:20261127T161659Z
+DTSTAMP:20261127T161944Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Maidstone Grammar School for Girls: Kent Test in Kent primary schoo
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:maidstone-grammar-school-for-girls-8961a247e8bc@www.11plusadmissions.co
  .uk
-DTSTAMP:20261127T161659Z
+DTSTAMP:20261127T161944Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Maidstone Grammar School for Girls: Kent Test at test centres for c
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:maidstone-grammar-school-for-girls-9a0a1bb01bfb@www.11plusadmissions.co
  .uk
-DTSTAMP:20261127T161659Z
+DTSTAMP:20261127T161944Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Maidstone Grammar School for Girls: Kent Test decisions emailed aft
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:maidstone-grammar-school-for-girls-27eb649a0afc@www.11plusadmissions.co
  .uk
-DTSTAMP:20261127T161659Z
+DTSTAMP:20261127T161944Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Maidstone Grammar School for Girls: Deadline: Supplementary Informa
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:maidstone-grammar-school-for-girls-9d86cb5a794b@www.11plusadmissions.co
  .uk
-DTSTAMP:20261127T161659Z
+DTSTAMP:20261127T161944Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:Maidstone Grammar School for Girls: Application deadline for Kent r
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:maidstone-grammar-school-for-girls-995de5ee548d@www.11plusadmissions.co
  .uk
-DTSTAMP:20261127T161659Z
+DTSTAMP:20261127T161944Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Maidstone Grammar School for Girls: Last day to change your applica
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:maidstone-grammar-school-for-girls-e66f0502bb93@www.11plusadmissions.co
  .uk
-DTSTAMP:20261127T161659Z
+DTSTAMP:20261127T161944Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Maidstone Grammar School for Girls: National Offer Day (emails afte
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:maidstone-grammar-school-for-girls-a305afa8c96e@www.11plusadmissions.co
  .uk
-DTSTAMP:20261127T161659Z
+DTSTAMP:20261127T161944Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Maidstone Grammar School for Girls: Accept/decline the offer\; dead
@@ -161,7 +161,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:maidstone-grammar-school-for-girls-22f68b3e8025@www.11plusadmissions.co
  .uk
-DTSTAMP:20261127T161659Z
+DTSTAMP:20261127T161944Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Maidstone Grammar School for Girls: Deadline to lodge an appeal to 
@@ -175,7 +175,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:maidstone-grammar-school-for-girls-d79cbbda45bc@www.11plusadmissions.co
  .uk
-DTSTAMP:20261127T161659Z
+DTSTAMP:20261127T161944Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
 SUMMARY:Maidstone Grammar School for Girls: KCC reallocates places from wai

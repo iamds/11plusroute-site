@@ -376,11 +376,12 @@
   const setBy = st => st.provider === undefined ? "" : `<div class="setby">Set by: <b>${provHtml(st.provider)}</b>${st.provider_note ? ` <span class="muted">· ${esc(st.provider_note)}</span>` : ""}</div>`;
 
   function setByAll() {
-    const st = (a.stages || []).filter(x => x.provider !== undefined);
+    const acadSt = (a.stages || []).filter(x => x.kind !== "aptitude");
+    const st = acadSt.filter(x => x.provider !== undefined);
     if (!st.length) return esc(a.provider || "");
     const name = x => provHtml(x.provider);
     const uniq = [...new Set(st.map(name))];
-    return uniq.length === 1 && st.length === (a.stages || []).length ? uniq[0] : st.map(x => `<b>${esc(x.name)}:</b> ${name(x)}`).join("<br>");
+    return uniq.length === 1 && st.length === acadSt.length ? uniq[0] : st.map(x => `<b>${esc(x.name)}:</b> ${name(x)}`).join("<br>");
   }
 
   // where the test is: only worth showing when it isn't simply at this school (other venues, online, a campus)
