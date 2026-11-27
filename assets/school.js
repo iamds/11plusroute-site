@@ -353,7 +353,7 @@
       const name = esc(c.label && c.subject === "other" ? c.label : SUBJECTS[c.subject] || c.subject);
       const tag = [FORMAT[c.format] && FORMAT[c.format].replace("Multiple choice", "multiple choice").replace("Written answers", "written").replace("Write-in answers", "write-in"), c.duration_minutes != null ? dur(c.duration_minutes) : "",
         c.weight != null && +c.weight > 0 ? `${+c.weight <= 1 ? Math.round(c.weight * 100) : esc(c.weight)}% of the score` : ""].filter(Boolean).join(" · ");
-      const extra = [c.label && c.subject !== "other" ? esc(c.label) : "", c.description ? esc(c.description) : ""].filter(Boolean).join(". ");
+      const extra = [c.label && c.subject !== "other" && c.label.toLowerCase() !== (SUBJECTS[c.subject] || "").toLowerCase() ? esc(c.label) : "", c.description ? esc(c.description) : ""].filter(Boolean).join(". ");
       const pg = subjPage(st, c.subject);
       return `<li><b>${name}</b>${tag ? ` <span class="muted">· ${tag}</span>` : ""}${extra ? `<div class="small">${extra}</div>` : ""}${pg ? `<div class="small"><a href="../providers/${pg.href}">${esc(pg.label)}: question types and practice materials</a></div>` : ""}</li>`;
     });
@@ -1076,7 +1076,7 @@
 
     <div class="folds">
       ${fold("dates", "Important dates", timeline() && timeline() + `<div class="calsub">${s._ics ? window.GS.calMenu(window.GS.calItems(s._ics, s.name + " admissions", "../ics/" + s.slug + ".ics"), "Add these dates to your calendar") : ""} <a class="small" href="../deadlines.html">Deadlines for all schools</a></div>`)}
-      ${panel("test", "About the test", (s._test ? `<p class="sharedtest">This school uses the <a href="../tests/${esc(s._test.id)}.html"><b>${esc(s._test.name)}</b></a>. See every school that uses it.</p>` : "") + dl([["Overview", esc(a.description || "")], ["Set by", setByAll()], ["Consortium", esc(a.consortium || "")],
+      ${fold("test", "About the test", (s._test ? `<p class="sharedtest">This school uses the <a href="../tests/${esc(s._test.id)}.html"><b>${esc(s._test.name)}</b></a>. See every school that uses it.</p>` : "") + dl([["Overview", esc(a.description || "")], ["Set by", setByAll()], ["Consortium", esc(a.consortium || "")],
         ["Attempts", esc(a.attempts || "")], ["Access arrangements", esc(a.access_arrangements || "")], ["Missing the test", esc(a.missed_test || "")],
         ["Results", (a.stages || []).filter(x => x.results).map(x => `<b>${esc(x.name)}:</b> ${esc(x.results)}`).join("<br>")],
         ["Before the council deadline", esc(y.outcomes_before_caf || "")]]))}
