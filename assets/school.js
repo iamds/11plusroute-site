@@ -262,7 +262,7 @@
       }
       return [o.type === "score" && !o.component && chain.filter(x => x.type === "score").length > 1 ? "Total test score" : SHORT_ORDER(o)];
     }).filter(Boolean).map(tidy);
-    const gate = req ? `<div class="gate need"><span class="rk-l">Needs</span><span class="rk-v">${req.replace(/^./, m => m.toUpperCase())}</span>${reqFull ? `<details class="feeders"><summary>more</summary><span class="muted">${reqFull}</span></details>` : ""}</div>`
+    const gate = req ? `<div class="gate need"><span class="rk-l">Needs</span><span class="rk-v">${req.replace(/^./, m => m.toUpperCase())}</span>${reqFull && reqFull !== req ? (reqFull.replace(/<[^>]+>/g, "").length <= 170 ? `<span class="muted small gate-full">${reqFull}</span>` : `<details class="feeders"><summary>more</summary><span class="muted">${reqFull}</span></details>`) : ""}</div>`
       : noMin ? `<div class="gate free"><span class="rk-l">Test score</span><span class="rk-v">No minimum score</span></div>` : (!tested && !req0 ? `<div class="gate free"><span class="rk-l">Test score</span><span class="rk-v">Not needed</span></div>` : "");
     const rank = order.length ? `<div class="rank"><span class="rk-l">${rkLabel}</span>${order.map((o, k) => `<span class="rk-v${k ? " tb" : ""}">${o}</span>`).join('<span class="rk-arrow">→</span>')}${sfx ? `<span class="rk-sfx">· ${sfx}</span>` : ""}</div>` : "";
     return gate || rank ? `<div class="decides">${gate}${rank}</div>` : "";
@@ -322,8 +322,11 @@
     const names = [...new Set(found)].map(t => String(t).replace(/_/g, " ")).map(t => t.charAt(0).toUpperCase() + t.slice(1));
     return names.length ? " · " + esc(names.join(" / ")) : "";
   }
+  // hide only what is long: a line or two takes no more room than the button that would hide it
   function more(inner, label = "Details") {
-    return inner && inner.replace(/<[^>]+>|\s/g, "") ? `<details class="more"><summary>${label}</summary><div class="more-body">${inner}</div></details>` : "";
+    if (!inner || !inner.replace(/<[^>]+>|\s/g, "")) return "";
+    const len = inner.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim().length;
+    return len <= 170 ? `<div class="more-inline">${inner}</div>` : `<details class="more"><summary>${label}</summary><div class="more-body">${inner}</div></details>`;
   }
   function seg(label, cls = "") { return `<li class="seg ${cls}"><div class="rail"></div><div class="seglabel">${label || ""}</div></li>`; }
   function zone(n, label) { return `<li class="zone"><div class="rail"></div><div class="zlabel"><span>${n}</span>${label}</div></li>`; }
@@ -387,6 +390,21 @@
     return uniq.length === 1 && st.length === (a.stages || []).length ? uniq[0] : st.map(x => `<b>${esc(x.name)}:</b> ${name(x)}`).join("<br>");
   }
 
+  // where the test is: worth showing unless it only names this school
+  function whereLine(loc) {
+    if (!loc) return "";
+    const names = [s.name, s.name.replace(/^The /, ""), s.name.replace(/ (School|Academy|College)$/, "")].map(n => n.toLowerCase());
+    const bare = loc.toLowerCase().replace(/\.$/, "").replace(/^(at|on site at|in)\s+/, "").replace(/^the\s+/, "").trim();
+    if (/^(the )?venue isn'?t published$/.test(bare) || /^(school|the school|on site at the school|on site|at the school)$/.test(bare) || bare === "school" || names.some(n => bare === n || bare === n.replace(/^the /, ""))) return "";
+    return `<div class="desc where"><b>Where:</b> ${esc(loc)}</div>`;
+  }
+  // a shared test's member list is on its own page; keep only the point that matters
+  function sharedLine(st) {
+    if (!(st.shared_with || []).length) return "";
+    if (s._test) return st.pass_mark_set_by === "school" ? `<div class="desc">Each school sets its own pass mark.</div>` : "";
+    return `<div class="desc">Shared with ${esc(st.shared_with.join(", "))}${st.pass_mark_set_by === "school" ? ". Each school sets its own pass mark." : ""}</div>`;
+  }
+
   function stagesBlock() {
     const all = a.stages || [];
     const list = all.filter(st => st.kind !== "aptitude");
@@ -406,9 +424,8 @@
       if (papersHaveSubjects && !paperDescs) comps = st.papers.map(pp => `<span class="subj paper"><b>${esc(pp.name || "Paper")}</b>${pp.duration_minutes != null ? ` · ${dur(pp.duration_minutes)}` : ""}${(pp.subjects || []).filter(x => x !== "other").length ? ": " + pp.subjects.filter(x => x !== "other").map(x => esc(SUBJECTS[x] || x)).join(", ") : ""}</span>`).join("");
       const body = `${st.dates ? `<div class="when">${range(st.dates)}</div>` : ""}${setBy(st)}
         ${comps ? `<div class="subjects">${comps}</div>` : ""}${paperLine}
-        ${more(`${st.location ? `<div class="desc">${esc(st.location)}</div>` : ""}
-        ${(st.shared_with || []).length ? `<div class="desc">Shared with ${esc(st.shared_with.join(", "))}${st.pass_mark_set_by === "school" ? "; each school sets its own pass mark" : ""}</div>` : ""}
-        ${(st.alternative_dates || []).map(ad => `<div class="desc">Alternative sitting${ad.who ? ` for ${esc(ad.who)}` : ""}${ad.dates?.from ? `: ${fmtDate(ad.dates.from)}` : ""}${ad.description ? ` (${esc(ad.description)})` : ""}</div>`).join("")}`)}`;
+        ${whereLine(st.location)}${sharedLine(st)}
+        ${(st.alternative_dates || []).length ? more((st.alternative_dates || []).map(ad => `<div class="desc">${ad.who ? `<b>${esc(ad.who.replace(/^./, m => m.toUpperCase()))}</b>` : "Another sitting"}${ad.dates?.from && ad.dates.from !== st.dates?.from ? `: ${fmtDate(ad.dates.from)}` : ""}${ad.description ? `. ${esc(ad.description.trim())}` : ""}</div>`).join(""), "Ill, late or moved house?") : ""}`;
       const next = list[i + 1];
       h += stop({ id: list.length > 1 ? `test-${i + 1}` : "test-day", cls: "test", kicker: list.length > 1 ? `Test · stage ${i + 1} of ${list.length}` : "Entrance test", title: esc(st.name), body,
         branch: null });
@@ -417,7 +434,7 @@
         const exc = (st.progression.exceptions || []).map(e => `<div class="exc">${esc(e.applies_to || "Some groups")}: ${rule(e.rule)}</div>`).join("");
         const ties = st.progression.ties ? `<div class="exc">Ties: ${esc(st.progression.ties)}</div>` : "";
         const full = st.progression.description && shortRule(st.progression) !== esc(st.progression.description) ? `<div class="exc">${esc(st.progression.description)}</div>` : "";
-        h += seg(`<span class="go">To reach ${esc(stageShort(next.id) || next.name)}:</span> ${shortRule(st.progression).replace(/^./, m => m.toLowerCase())}${full || exc || ties ? more(full + exc + ties, "More") : ""}`, "yes");
+        h += seg(`<span class="go">To reach ${esc(stageShort(next.id) || next.name)}:</span> ${shortRule(st.progression).replace(/^./, m => m.toLowerCase())}${full || exc || ties ? `<div class="segmore">${full + exc + ties}</div>` : ""}`, "yes");
       }
     });
     // aptitude tests: one station each, like the academic test, with "To reach …" between rounds
@@ -429,12 +446,12 @@
       const comps = subjectChips(st, 50 + i);
       h += stop({ id: i ? `aptitude-${i + 1}` : "aptitude", cls: "test apt", kicker: `Aptitude test · optional${grp.length > 1 ? ` · round ${gi + 1} of ${grp.length}` : ""}`, title: esc(st.name),
         body: `${st.dates?.from ? `<div class="when">${range(st.dates)}</div>` : ""}${setBy(st)}${comps ? `<div class="subjects">${comps}</div>` : ""}
-        ${more(`${st.entry ? `<div class="desc">Who can sit it: ${rule(st.entry)}</div>` : ""}
-        ${(st.used_for || []).length ? `<div class="desc">Counts only for criteria ${st.used_for.map(esc).join(", ")}</div>` : ""}`)}` });
+        ${whereLine(st.location)}${st.entry ? `<div class="desc"><b>Who can sit it:</b> ${rule(st.entry)}</div>` : ""}
+        ${(st.used_for || []).length ? `<div class="desc">Counts only for criteria ${st.used_for.map(esc).join(", ")}.</div>` : ""}` });
       if (st.progression) {
         const full = st.progression.description && shortRule(st.progression) !== esc(st.progression.description) ? `<div class="exc">${esc(st.progression.description)}</div>` : "";
         const label = next ? `To reach ${esc(stageShort(next.id) || next.name)}:` : "To go on:";
-        h += seg(`<span class="go">${label}</span> ${shortRule(st.progression).replace(/^./, m => m.toLowerCase())}${full ? more(full, "More") : ""}`, "yes");
+        h += seg(`<span class="go">${label}</span> ${shortRule(st.progression).replace(/^./, m => m.toLowerCase())}${full ? `<div class="segmore">${full}</div>` : ""}`, "yes");
       }
     });
     return h;
@@ -447,14 +464,14 @@
       const unit = fs.weights_unit === "percent" ? "%" : "";
       const w = (Array.isArray(fs.weights) ? fs.weights : []).map(x => `<span class="subj">${esc(stageShort(x.stage))}${x.subject ? " · " + esc(SUBJECTS[x.subject] || x.subject) : ""} <b>${esc(x.weight)}${unit}</b></span>`).join("");
       const adj = (fs.adjustments || []).map(x => esc(x.description || x.type)).join("; ");
-      h += stop({ id: "final-score", cls: "minor", kicker: "Scoring", title: "Final score", body: more(`<div class="desc">${esc(fs.description || "")}</div>
+      h += stop({ id: "final-score", cls: "minor", kicker: "Scoring", title: "Final score", body: `${fs.description ? `<div class="desc">${esc(fs.description)}</div>` : ""}
         ${w ? `<div class="subjects">${fs.weights_unit === "ratio" ? '<span class="muted small">Ratio</span>' : ""}${w}</div>` : ""}
-        ${adj ? `<div class="desc">Adjusted for: ${adj}</div>` : ""}`, "How it's worked out") });
+        ${adj && !/standardis|age/i.test(fs.description || "") ? `<div class="desc">Adjusted for: ${adj}</div>` : ""}` });
     }
     if (q && q.type !== "none") {
       const short = passTitle(q);
       const full = rule(q);
-      h += stop({ id: "pass-mark", cls: "decision passmark", kicker: "Pass mark", title: short.replace(/^./, m => m.toUpperCase()), body: full && full !== short ? more(`<div class="desc">${full}</div>`, "How it's set") : "" });
+      h += stop({ id: "pass-mark", cls: "decision passmark", kicker: "Pass mark", title: short.replace(/^./, m => m.toUpperCase()), body: full && full !== short ? `<div class="desc">${full}</div>` : "" });
     }
     return h;
   }
@@ -496,16 +513,16 @@
         `<ol class="subcrit">${(o.criteria || []).map(sc => `<li>${esc(sc.label)}${sc.description ? ` <span class="muted">· ${esc(sc.description)}</span>` : ""}</li>`).join("")}</ol>`).join("");
       const qchip = c.quota && quotaSize(c.quota) ? `<span class="quota">${esc(quotaSize(c.quota))}</span>` : "";
       const facts = usesAddress(c) ? addressShort() : "";
-      const det = more(`<div class="desc"><b>Name in the policy document:</b> ${esc(c.label)}</div>
-        ${rq.reqFull ? `<div class="desc"><b>Score needed:</b> ${rq.reqFull}</div>` : ""}
+      // shown: who counts, what to send, when it applies. Hidden: the policy's own wording, for checking
+      const shown = `${condNotes(c.conditions)}
+        ${c.evidence ? `<div class="desc"><b>Evidence:</b> ${esc(c.evidence)}${c.evidence_deadline ? ` by ${fmtDate(c.evidence_deadline)}` : ""}</div>` : ""}
+        ${c.applies_at === "initial_allocation" ? `<div class="desc">Only applies when places are first offered on National Offer Day, not to later offers from the waiting list.</div>` : ""}`;
+      const det = shown + more(`<div class="desc"><b>Name in the policy document:</b> ${esc(c.label)}</div>
+        ${rq.reqFull && rq.reqFull !== rq.req ? `<div class="desc"><b>Score needed:</b> ${rq.reqFull}</div>` : ""}
         ${c.quota ? quota(c.quota).replace(/^<div class="quota">.*?<\/div>/, "") : ""}
         ${groupOf(c.priority).filter(hasSize).map(g => g.description ? `<div class="desc">${esc(g.description)}</div>` : "").join("")}
-        ${c.applies_at === "initial_allocation" ? `<div class="desc">Only applies when places are first offered on National Offer Day, not to later offers from the waiting list.</div>` : ""}
-        ${condNotes(c.conditions)}
         ${c.description ? `<div class="desc">${esc(c.description)}</div>` : ""}
-        ${subs}
-        ${(c.order_within || []).length ? `<div class="desc"><b>If oversubscribed:</b> ${c.order_within.map(ordering).join(", then ")}</div>` : ""}
-        ${c.evidence ? `<div class="desc"><b>Evidence:</b> ${esc(c.evidence)}${c.evidence_deadline ? ` by ${fmtDate(c.evidence_deadline)}` : ""}</div>` : ""}`);
+        ${subs}`, "Policy wording");
       // in a shared pot after other priorities: these places are what's left of the pot, not a fixed number
       const shG = groupOf(c.priority).find(g => hasSize(g) && together(g) && String((g.priorities || [])[0]) !== String(c.priority) && pos(c.priority) > Math.min(...(g.priorities || []).map(pos)));
       const sharedRest = shG ? (shG.places ?? shG.max_places ?? "") + "" : "";
