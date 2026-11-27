@@ -390,12 +390,16 @@
     return uniq.length === 1 && st.length === (a.stages || []).length ? uniq[0] : st.map(x => `<b>${esc(x.name)}:</b> ${name(x)}`).join("<br>");
   }
 
-  // where the test is: worth showing unless it only names this school
+  // where the test is: only worth showing when it isn't simply at this school (other venues, online, a campus)
   function whereLine(loc) {
     if (!loc) return "";
-    const names = [s.name, s.name.replace(/^The /, ""), s.name.replace(/ (School|Academy|College)$/, "")].map(n => n.toLowerCase());
-    const bare = loc.toLowerCase().replace(/\.$/, "").replace(/^(at|on site at|in)\s+/, "").replace(/^the\s+/, "").trim();
-    if (/^(the )?venue isn'?t published$/.test(bare) || /^(school|the school|on site at the school|on site|at the school)$/.test(bare) || bare === "school" || names.some(n => bare === n || bare === n.replace(/^the /, ""))) return "";
+    const abbr = s.name.match(/[A-Z][a-z']+/g).filter(w => !["The", "Of", "For", "And"].includes(w)).map(w => w[0]).join("");
+    const short = s.name.replace(/^The /, "").replace(/ (School|Academy|College)\b.*$/, "");
+    const here = new RegExp(`^(at |on site at |in )?(the )?(school|college|academy|${short.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}|${abbr}\\b|music department)`, "i").test(loc.trim());
+    const tok = (loc.match(/^(?:at )?([A-Z]{3,7})\b/i) || [])[1];
+    const hereAbbr = tok && tok === tok.toUpperCase() && abbr.startsWith(tok);
+    const elsewhere = /\bor\b(?! afternoon)|another|other|consortium|primary|online|video|computer|campus|\bsite\b|book|one of|venue isn'?t/i.test(loc);
+    if (/venue isn'?t published/i.test(loc) || ((here || hereAbbr) && !elsewhere)) return "";
     return `<div class="desc where"><b>Where:</b> ${esc(loc)}</div>`;
   }
   // a shared test's member list is on its own page; keep only the point that matters
@@ -404,6 +408,9 @@
     if (s._test) return st.pass_mark_set_by === "school" ? `<div class="desc">Each school sets its own pass mark.</div>` : "";
     return `<div class="desc">Shared with ${esc(st.shared_with.join(", "))}${st.pass_mark_set_by === "school" ? ". Each school sets its own pass mark." : ""}</div>`;
   }
+
+  const STOP = new Set("the and for who are any than with that this from into each not but its their they them has have was were will can all also only one two per".split(" "));
+  const words = h => String(h).replace(/<[^>]+>/g, " ").toLowerCase().match(/[a-z0-9%]+/g)?.filter(t => t.length > 2 && !STOP.has(t)) || [];
 
   function stagesBlock() {
     const all = a.stages || [];
@@ -424,7 +431,7 @@
       if (papersHaveSubjects && !paperDescs) comps = st.papers.map(pp => `<span class="subj paper"><b>${esc(pp.name || "Paper")}</b>${pp.duration_minutes != null ? ` · ${dur(pp.duration_minutes)}` : ""}${(pp.subjects || []).filter(x => x !== "other").length ? ": " + pp.subjects.filter(x => x !== "other").map(x => esc(SUBJECTS[x] || x)).join(", ") : ""}</span>`).join("");
       const body = `${st.dates ? `<div class="when">${range(st.dates)}</div>` : ""}${setBy(st)}
         ${comps ? `<div class="subjects">${comps}</div>` : ""}${paperLine}
-        ${whereLine(st.location)}${sharedLine(st)}
+        ${st.location_at_school ? "" : whereLine(st.location)}${sharedLine(st)}
         ${(st.alternative_dates || []).length ? more((st.alternative_dates || []).map(ad => `<div class="desc">${ad.who ? `<b>${esc(ad.who.replace(/^./, m => m.toUpperCase()))}</b>` : "Another sitting"}${ad.dates?.from && ad.dates.from !== st.dates?.from ? `: ${fmtDate(ad.dates.from)}` : ""}${ad.description ? `. ${esc(ad.description.trim())}` : ""}</div>`).join(""), "Ill, late or moved house?") : ""}`;
       const next = list[i + 1];
       h += stop({ id: list.length > 1 ? `test-${i + 1}` : "test-day", cls: "test", kicker: list.length > 1 ? `Test · stage ${i + 1} of ${list.length}` : "Entrance test", title: esc(st.name), body,
@@ -446,7 +453,7 @@
       const comps = subjectChips(st, 50 + i);
       h += stop({ id: i ? `aptitude-${i + 1}` : "aptitude", cls: "test apt", kicker: `Aptitude test · optional${grp.length > 1 ? ` · round ${gi + 1} of ${grp.length}` : ""}`, title: esc(st.name),
         body: `${st.dates?.from ? `<div class="when">${range(st.dates)}</div>` : ""}${setBy(st)}${comps ? `<div class="subjects">${comps}</div>` : ""}
-        ${whereLine(st.location)}${st.entry ? `<div class="desc"><b>Who can sit it:</b> ${rule(st.entry)}</div>` : ""}
+        ${st.location_at_school ? "" : whereLine(st.location)}${st.entry ? `<div class="desc"><b>Who can sit it:</b> ${rule(st.entry)}</div>` : ""}
         ${(st.used_for || []).length ? `<div class="desc">Counts only for criteria ${st.used_for.map(esc).join(", ")}.</div>` : ""}` });
       if (st.progression) {
         const full = st.progression.description && shortRule(st.progression) !== esc(st.progression.description) ? `<div class="exc">${esc(st.progression.description)}</div>` : "";
@@ -517,12 +524,23 @@
       const shown = `${condNotes(c.conditions)}
         ${c.evidence ? `<div class="desc"><b>Evidence:</b> ${esc(c.evidence)}${c.evidence_deadline ? ` by ${fmtDate(c.evidence_deadline)}` : ""}</div>` : ""}
         ${c.applies_at === "initial_allocation" ? `<div class="desc">Only applies when places are first offered on National Offer Day, not to later offers from the waiting list.</div>` : ""}`;
+      // the policy's own wording: the fullest statement first, then only lines that add something it doesn't say
+      const pw = [
+        { k: 3, h: rq.reqFull && rq.reqFull !== rq.req ? `<div class="desc"><b>Score needed:</b> ${rq.reqFull}</div>` : "" },
+        { k: 4, h: c.quota ? quota(c.quota).replace(/^<div class="quota">.*?<\/div>/, "") : "" },
+        { k: 5, h: groupOf(c.priority).filter(hasSize).filter(g => String((g.priorities || [])[0]) === String(c.priority)).map(g => g.description ? `<div class="desc">${esc(g.description)}</div>` : "").join("") },
+        { k: 1, h: c.description ? `<div class="desc">${esc(c.description)}</div>` : "" },
+        { k: 2, h: subs },
+      ];
+      const kept = [], seen = new Set(words(c.label));
+      pw.slice().sort((a, b) => a.k - b.k).forEach(x => {
+        if (!x.h || !x.h.replace(/<[^>]+>|\s/g, "")) return;
+        const w = words(x.h);
+        if (x.k !== 1 && x.k !== 2 && w.length && w.filter(t => seen.has(t)).length / w.length >= 0.5) return;
+        w.forEach(t => seen.add(t)); kept.push(x);
+      });
       const det = shown + more(`<div class="desc"><b>Name in the policy document:</b> ${esc(c.label)}</div>
-        ${rq.reqFull && rq.reqFull !== rq.req ? `<div class="desc"><b>Score needed:</b> ${rq.reqFull}</div>` : ""}
-        ${c.quota ? quota(c.quota).replace(/^<div class="quota">.*?<\/div>/, "") : ""}
-        ${groupOf(c.priority).filter(hasSize).map(g => g.description ? `<div class="desc">${esc(g.description)}</div>` : "").join("")}
-        ${c.description ? `<div class="desc">${esc(c.description)}</div>` : ""}
-        ${subs}`, "Policy wording");
+        ${pw.filter(x => kept.includes(x)).map(x => x.h).join("")}`, "Policy wording");
       // in a shared pot after other priorities: these places are what's left of the pot, not a fixed number
       const shG = groupOf(c.priority).find(g => hasSize(g) && together(g) && String((g.priorities || [])[0]) !== String(c.priority) && pos(c.priority) > Math.min(...(g.priorities || []).map(pos)));
       const sharedRest = shG ? (shG.places ?? shG.max_places ?? "") + "" : "";
@@ -1028,6 +1046,7 @@
     ["Offers", offerDay ? `<b>${fmtDate(offerDay.date)}</b>` : ""],
   ].filter(([, v]) => v);
   const fold = (id, title, body, open = false) => body && body.replace(/<[^>]+>|\s/g, "") ? `<details class="fold card" id="${id}"${open ? " open" : ""}><summary><h2>${title}${linkBtn(id)}</h2></summary><div class="fold-body">${body}</div></details>` : "";
+  const panel = (id, title, body) => body && body.replace(/<[^>]+>|\s/g, "") ? `<section class="fold card open-panel" id="${id}"><h2>${title}${linkBtn(id)}</h2><div class="fold-body">${body}</div></section>` : "";
   const tie = (y.tie_breaks || []).length ? `<p><b>Tie-breaks:</b> ${(y.tie_breaks).map(t => esc(t.description || ordering(t))).join(" → ")}</p>` : "";
 
   out.innerHTML = `
@@ -1065,7 +1084,7 @@
 
     <div class="folds">
       ${fold("dates", "Important dates", timeline() && timeline() + `<div class="calsub">${s._ics ? window.GS.calMenu(window.GS.calItems(s._ics, s.name + " admissions", "../ics/" + s.slug + ".ics"), "Add these dates to your calendar") : ""} <a class="small" href="../deadlines.html">Deadlines for all schools</a></div>`)}
-      ${fold("test", "About the test", (s._test ? `<p class="sharedtest">This school uses the <a href="../tests/${esc(s._test.id)}.html"><b>${esc(s._test.name)}</b></a>. See every school that uses it.</p>` : "") + dl([["Overview", esc(a.description || "")], ["Set by", setByAll()], ["Consortium", esc(a.consortium || "")],
+      ${panel("test", "About the test", (s._test ? `<p class="sharedtest">This school uses the <a href="../tests/${esc(s._test.id)}.html"><b>${esc(s._test.name)}</b></a>. See every school that uses it.</p>` : "") + dl([["Overview", esc(a.description || "")], ["Set by", setByAll()], ["Consortium", esc(a.consortium || "")],
         ["Attempts", esc(a.attempts || "")], ["Access arrangements", esc(a.access_arrangements || "")], ["Missing the test", esc(a.missed_test || "")],
         ["Results", (a.stages || []).filter(x => x.results).map(x => `<b>${esc(x.name)}:</b> ${esc(x.results)}`).join("<br>")],
         ["Before the council deadline", esc(y.outcomes_before_caf || "")]]))}

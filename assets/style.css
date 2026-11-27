@@ -795,3 +795,7 @@ footer { background: var(--surface); border: 1px solid var(--line); border-top: 
 .segmore .exc { margin-top: 2px; }
 .more-inline { margin-top: 4px; }
 .gate-full { display: block; flex-basis: 100%; margin-top: 2px; }
+section.open-panel { padding: 0; margin: 10px 0; }
+section.open-panel > h2 { margin: 0; padding: 16px 20px; font-size: 1.1rem; display: flex; align-items: center; gap: 10px; }
+section.open-panel > h2::before { content: ""; width: 12px; height: 12px; border-radius: 50%; border: 3.5px solid var(--crimson); }
+section.open-panel .fold-body { padding: 0 20px 20px; }
