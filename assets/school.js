@@ -1177,6 +1177,11 @@
         const v = inShape(SHAPES[ar.id], home.lng, home.lat);
         if (v !== null) ar.status = v ? "in" : "out";
       });
+      // an area that lies inside another (Priority Area A inside the catchment): outside the bigger one means outside it too
+      if (r) r.areas.forEach(ar => {
+        const def = (y.areas || []).find(x => x.id === ar.id), par = def && def.within && r.areas.find(x => x.id === def.within);
+        if (ar.status === "unknown" && par && par.status === "out") ar.status = "out";
+      });
       home_pc = home ? home.postcode : ""; home_place = !!(home && home.place);
       markStations(r);
       setAreaMapHome(home);
