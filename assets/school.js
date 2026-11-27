@@ -364,12 +364,14 @@
   }
 
   // who writes the test; null after research means no source says
-  const setBy = st => st.provider === undefined ? "" : `<div class="setby">Set by: <b>${st.provider ? esc(st.provider) : "Not published"}</b>${st.provider_note ? ` <span class="muted">· ${esc(st.provider_note)}</span>` : ""}</div>`;
+  const PROV = { "GL Assessment": "gl-assessment", "Quest Assessments": "quest-assessments", "FSCE": "fsce", "CEM": "cem" };
+  const provHtml = p => p && PROV[p] ? `<a href="../providers/${PROV[p]}.html">${esc(p)}</a>` : esc(p || "Not published");
+  const setBy = st => st.provider === undefined ? "" : `<div class="setby">Set by: <b>${provHtml(st.provider)}</b>${st.provider_note ? ` <span class="muted">· ${esc(st.provider_note)}</span>` : ""}</div>`;
 
   function setByAll() {
     const st = (a.stages || []).filter(x => x.provider !== undefined);
     if (!st.length) return esc(a.provider || "");
-    const name = x => x.provider ? esc(x.provider) : "Not published";
+    const name = x => provHtml(x.provider);
     const uniq = [...new Set(st.map(name))];
     return uniq.length === 1 && st.length === (a.stages || []).length ? uniq[0] : st.map(x => `<b>${esc(x.name)}:</b> ${name(x)}`).join("<br>");
   }

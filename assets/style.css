@@ -775,3 +775,18 @@ footer { background: var(--surface); border: 1px solid var(--line); border-top: 
 /* green banner muted to match the red one */
 .stop.crit.for-you .youbanner { background: color-mix(in srgb, var(--yes) 14%, var(--surface)); color: var(--yes); }
 .minimap .mm-note { position: absolute; z-index: 2; left: 6px; bottom: 6px; right: 40px; padding: 2px 7px; border-radius: 4px; background: var(--surface); color: var(--ink-2); font-size: .72rem; font-weight: 700; pointer-events: none; opacity: .92; }
+
+/* provider pages */
+.qtypes { padding-left: 1.3em; margin: 0; }
+.qtype { margin: 0 0 14px; }
+.qtype p { margin: 2px 0 6px; }
+.qex { background: var(--surface-2); border-radius: var(--radius); padding: 8px 12px; font-size: .92rem; }
+.qex-l { font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-2); margin-right: 6px; }
+.qex-a summary { cursor: pointer; color: var(--link); font-size: .86rem; margin-top: 4px; }
+.qex-a p { margin: 4px 0 0; }
+.famlist li { margin-bottom: 8px; }
+.papers dt { font-weight: 700; margin-top: 8px; }
+.papers dd { margin: 2px 0 0; }
+.areatable th { text-align: left; vertical-align: top; padding: 6px 12px 6px 0; white-space: nowrap; font-weight: 700; }
+.areatable td { padding: 6px 0; vertical-align: top; }
+@media (max-width: 600px) { .areatable th { white-space: normal; } .areatable tr { display: block; padding: 6px 0; } .areatable th, .areatable td { display: block; padding: 0; } }
