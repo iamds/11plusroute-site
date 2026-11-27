@@ -98,6 +98,8 @@
     return neg ? `Lives outside ${link(name)}?` : `Lives in ${link(name)}?`;
   }
   function cond(c) {
+    // a condition whose meaning the generic wording would hide (twins of a child given a test place) carries its own question
+    if (c.question) return esc(c.question);
     switch (c.type) {
       case "looked_after": return "Is looked after, or was previously looked after?";
       case "pupil_premium": return `Eligible for Pupil Premium${c.basis && !/^eligible for pupil premium/i.test(c.basis) ?` <span class="cdesc">(${esc(c.basis)})</span>` : ""}?`;

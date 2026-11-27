@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:sir-william-borlases-grammar-school-8b86f16b35cc@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261127T161944Z
+DTSTAMP:20261127T165722Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 SUMMARY:Sir William Borlase's Grammar School: Test registration opens (10am
@@ -22,7 +22,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sir-william-borlases-grammar-school-3892702b8397@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261127T161944Z
+DTSTAMP:20261127T165722Z
 DTSTART;VALUE=DATE:20260602
 DTEND;VALUE=DATE:20260603
 SUMMARY:Sir William Borlase's Grammar School: Test registration closes (3pm
@@ -37,7 +37,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sir-william-borlases-grammar-school-6340a5a4077d@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261127T161944Z
+DTSTAMP:20261127T165722Z
 DTSTART;VALUE=DATE:20260616
 DTEND;VALUE=DATE:20260617
 SUMMARY:Sir William Borlase's Grammar School: Access arrangement requests f
@@ -51,7 +51,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sir-william-borlases-grammar-school-af3e9352b947@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261127T161944Z
+DTSTAMP:20261127T165722Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 SUMMARY:Sir William Borlase's Grammar School: Test invitations emailed for 
@@ -65,7 +65,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sir-william-borlases-grammar-school-6d393b5d2a2f@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261127T161944Z
+DTSTAMP:20261127T165722Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:Sir William Borlase's Grammar School: Practice Test
@@ -78,7 +78,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sir-william-borlases-grammar-school-8ff6b2356e5e@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261127T161944Z
+DTSTAMP:20261127T165722Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Sir William Borlase's Grammar School: Secondary Transfer Test
@@ -91,7 +91,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sir-william-borlases-grammar-school-ce189e95620d@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261127T161944Z
+DTSTAMP:20261127T165722Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:Sir William Borlase's Grammar School: Test results released
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sir-william-borlases-grammar-school-7d97d264ed55@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261127T161944Z
+DTSTAMP:20261127T165722Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:Sir William Borlase's Grammar School: Selection Review deadline (fu
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sir-william-borlases-grammar-school-3262517da203@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261127T161944Z
+DTSTAMP:20261127T165722Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Sir William Borlase's Grammar School: Application deadline (home co
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sir-william-borlases-grammar-school-bdd058feffa0@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261127T161944Z
+DTSTAMP:20261127T165722Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Sir William Borlase's Grammar School: Pupil Premium letter and evid
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sir-william-borlases-grammar-school-c7d39e723e1a@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261127T161944Z
+DTSTAMP:20261127T165722Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:Sir William Borlase's Grammar School: Selection Review outcomes
@@ -159,7 +159,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sir-william-borlases-grammar-school-b6c34c92fe76@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261127T161944Z
+DTSTAMP:20261127T165722Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Sir William Borlase's Grammar School: National Offer Day
@@ -172,7 +172,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sir-william-borlases-grammar-school-7844aedc2a04@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261127T161944Z
+DTSTAMP:20261127T165722Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Sir William Borlase's Grammar School: Deadline to accept or decline
