@@ -353,7 +353,8 @@
       const name = esc(c.label && c.subject === "other" ? c.label : SUBJECTS[c.subject] || c.subject);
       const tag = [FORMAT[c.format] && FORMAT[c.format].replace("Multiple choice", "multiple choice").replace("Written answers", "written").replace("Write-in answers", "write-in"), c.duration_minutes != null ? dur(c.duration_minutes) : "",
         c.weight != null && +c.weight > 0 ? `${+c.weight <= 1 ? Math.round(c.weight * 100) : esc(c.weight)}% of the score` : ""].filter(Boolean).join(" · ");
-      const extra = [c.label && c.subject !== "other" && c.label.toLowerCase() !== (SUBJECTS[c.subject] || "").toLowerCase() ? esc(c.label) : "", c.description ? esc(c.description) : ""].filter(Boolean).join(". ");
+      const same = t => [SUBJECTS[c.subject] || "", FORMAT[c.format] || ""].some(x => x && t.toLowerCase().replace(/[.\s]+$/, "") === x.toLowerCase());
+      const extra = [c.label && c.subject !== "other" && !same(c.label) ? esc(c.label) : "", c.description && !same(c.description) ? esc(c.description) : ""].filter(Boolean).join(". ");
       const pg = subjPage(st, c.subject);
       return `<li><b>${name}</b>${tag ? ` <span class="muted">· ${tag}</span>` : ""}${extra ? `<div class="small">${extra}</div>` : ""}${pg ? `<div class="small"><a href="../providers/${pg.href}">${esc(pg.label)}: question types and practice materials</a></div>` : ""}</li>`;
     });

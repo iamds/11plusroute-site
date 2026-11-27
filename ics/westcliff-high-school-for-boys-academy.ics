@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:westcliff-high-school-for-boys-academy-305f2611e092@www.11plusadmission
  s.co.uk
-DTSTAMP:20261127T150542Z
+DTSTAMP:20261127T150910Z
 DTSTART;VALUE=DATE:20260512
 DTEND;VALUE=DATE:20260513
 SUMMARY:Westcliff High School for Boys Academy: CSSE registration opens
@@ -21,7 +21,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:westcliff-high-school-for-boys-academy-a76b42f9be75@www.11plusadmission
  s.co.uk
-DTSTAMP:20261127T150542Z
+DTSTAMP:20261127T150910Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
 SUMMARY:Westcliff High School for Boys Academy: CSSE registration deadline 
@@ -35,7 +35,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:westcliff-high-school-for-boys-academy-5441773fb595@www.11plusadmission
  s.co.uk
-DTSTAMP:20261127T150542Z
+DTSTAMP:20261127T150910Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:Westcliff High School for Boys Academy: Deadline for access-arrange
@@ -49,7 +49,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:westcliff-high-school-for-boys-academy-7e8c288c0b71@www.11plusadmission
  s.co.uk
-DTSTAMP:20261127T150542Z
+DTSTAMP:20261127T150910Z
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260716
 SUMMARY:Westcliff High School for Boys Academy: Test centre information sho
@@ -63,7 +63,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:westcliff-high-school-for-boys-academy-efaa19ae8f6e@www.11plusadmission
  s.co.uk
-DTSTAMP:20261127T150542Z
+DTSTAMP:20261127T150910Z
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 SUMMARY:Westcliff High School for Boys Academy: Last date to withdraw from 
@@ -77,7 +77,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:westcliff-high-school-for-boys-academy-e03e9e37a826@www.11plusadmission
  s.co.uk
-DTSTAMP:20261127T150542Z
+DTSTAMP:20261127T150910Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Westcliff High School for Boys Academy: CSSE 11+ test (Saturday)
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:westcliff-high-school-for-boys-academy-cfbaaea9a323@www.11plusadmission
  s.co.uk
-DTSTAMP:20261127T150542Z
+DTSTAMP:20261127T150910Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:Westcliff High School for Boys Academy: Alternative test day (relig
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:westcliff-high-school-for-boys-academy-0f5391e2310d@www.11plusadmission
  s.co.uk
-DTSTAMP:20261127T150542Z
+DTSTAMP:20261127T150910Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 SUMMARY:Westcliff High School for Boys Academy: Results emailed after close
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:westcliff-high-school-for-boys-academy-3262517da203@www.11plusadmission
  s.co.uk
-DTSTAMP:20261127T150542Z
+DTSTAMP:20261127T150910Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Westcliff High School for Boys Academy: Application deadline (home 
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:westcliff-high-school-for-boys-academy-179d319137d2@www.11plusadmission
  s.co.uk
-DTSTAMP:20261127T150542Z
+DTSTAMP:20261127T150910Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Westcliff High School for Boys Academy: Southend: last date for a c
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:westcliff-high-school-for-boys-academy-db14ecf43d82@www.11plusadmission
  s.co.uk
-DTSTAMP:20261127T150542Z
+DTSTAMP:20261127T150910Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Westcliff High School for Boys Academy: Deadline: Proof of address 
@@ -160,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:westcliff-high-school-for-boys-academy-b6c34c92fe76@www.11plusadmission
  s.co.uk
-DTSTAMP:20261127T150542Z
+DTSTAMP:20261127T150910Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Westcliff High School for Boys Academy: National Offer Day
