@@ -419,7 +419,7 @@
     if (papersHaveSubjects && !paperDescs && !comps) comps = st.papers.map(pp => `<span class="subj paper"><b>${esc(pp.name || "Paper")}</b>${pp.duration_minutes != null ? ` · ${dur(pp.duration_minutes)}` : ""}${(pp.subjects || []).filter(x => x !== "other").length ? ": " + pp.subjects.filter(x => x !== "other").map(x => esc(SUBJECTS[x] || x)).join(", ") : ""}</span>`).join("");
     return `${st.dates?.from ? `<div class="when">${range(st.dates)}</div>` : ""}${setBy(st)}
       ${comps ? (comps.startsWith("<ul") ? comps : `<div class="subjects">${comps}</div>`) : ""}${paperDescs || !papersHaveSubjects ? paperLine : ""}
-      ${st.location_at_school ? "" : whereLine(st.location)}${sharedLine(st)}
+      ${sharedLine(st)}
       ${st.kind === "aptitude" && st.entry ? `<div class="desc"><b>Who can sit it:</b> ${rule(st.entry)}</div>` : ""}
       ${(st.used_for || []).length ? `<div class="desc">Counts only for criteria ${st.used_for.map(esc).join(", ")}.</div>` : ""}
 `;
@@ -430,7 +430,18 @@
     if (!pr) return "";
     const exc = (pr.exceptions || []).map(e => `<div class="exc">${esc(e.applies_to || "Some groups")}: ${rule(e.rule)}</div>`).join("");
     const ties = pr.ties ? `<div class="exc">Ties: ${esc(pr.ties)}</div>` : "";
-    const full = pr.description && shortRule(pr) !== esc(pr.description) ? `<div class="exc">${esc(pr.description)}</div>` : "";
+    // keep only sentences of the full rule that add something: not the threshold again, not the same words again
+    const sr = shortRule(pr), srNums = (sr.match(/\d+/g) || []), known = new Set(words(sr + " " + (next ? next.name : "")));
+    const extraTxt = (pr.description || "").split(/(?<=\.)\s+/).filter(x => {
+      if (srNums.some(nm => new RegExp(`\\b${nm}\\b`).test(x))) return false;
+      // the same rule in other words: "meets the pass mark and is invited", "the highest scorers are invited"
+      if (!/\(/.test(x) && /\b(meets? or exceeds|at or above|reach(es)?|achieve(s)? the required|score above)\b.*\b(mark|score|threshold)\b/i.test(x) && /\b(invited|goes? on|eligible|scored)\b/i.test(x)) return false;
+      if (/^(qualifying|invitation) (mark|score) set each year\.?$/i.test(x) || /^(everyone|children) at or above it\b/i.test(x)) return false;
+      if (/^the highest(-scoring)? (scorers|candidates) are invited to [^(]*$/i.test(x)) return false;
+      if (/^the school (decides how many|invites at least enough)[^.]*(places|PAN)\b/i.test(x)) return false;
+      const w = words(x); return w.length && w.filter(t => known.has(t)).length / w.length < 0.6;
+    }).join(" ");
+    const full = extraTxt ? `<div class="exc">${esc(extraTxt)}</div>` : "";
     const label = next ? `To go on to ${esc(stageShort(next.id) || next.name)}` : "To qualify";
     return `<div class="rgate"><div class="rgate-l">${label}</div><div class="rgate-v">${shortRule(pr).replace(/^./, m => m.toUpperCase())}</div>${full || exc || ties ? `<div class="segmore">${full + exc + ties}</div>` : ""}</div>`;
   }
