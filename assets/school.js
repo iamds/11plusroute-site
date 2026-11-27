@@ -417,7 +417,7 @@
       : (st.papers || []).length && !papersHaveSubjects
       ? `<div class="desc">${nums[st.papers.length] || st.papers.length} paper${st.papers.length > 1 ? "s" : ""}: ${st.papers.map(paperDesc).join("; ")}</div>` : "";
     if (papersHaveSubjects && !paperDescs && !comps) comps = st.papers.map(pp => `<span class="subj paper"><b>${esc(pp.name || "Paper")}</b>${pp.duration_minutes != null ? ` · ${dur(pp.duration_minutes)}` : ""}${(pp.subjects || []).filter(x => x !== "other").length ? ": " + pp.subjects.filter(x => x !== "other").map(x => esc(SUBJECTS[x] || x)).join(", ") : ""}</span>`).join("");
-    return `${st.dates?.from ? `<div class="when">${range(st.dates)}</div>` : ""}${setBy(st)}
+    return `${st.dates?.from ? `<div class="when">${range(st.dates)}</div>` : ""}${st.kind === "aptitude" ? "" : setBy(st)}
       ${comps ? (comps.startsWith("<ul") ? comps : `<div class="subjects">${comps}</div>`) : ""}${paperDescs || !papersHaveSubjects ? paperLine : ""}
       ${sharedLine(st)}
       ${st.kind === "aptitude" && st.entry ? `<div class="desc"><b>Who can sit it:</b> ${rule(st.entry)}</div>` : ""}
