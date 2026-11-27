@@ -117,7 +117,7 @@
       case "in_area": return `${areaQ(c.ref, false)} <span class="you" data-area="${esc(c.ref)}"></span>`;
       case "not_in_area": return `${areaQ(c.ref, true)} <span class="you" data-area="${esc(c.ref)}" data-neg="1"></span>`;
       // the test details (who goes on, how it's marked) live in the test section; keep the question short
-      case "aptitude": return `Shows ${esc(c.subject || "")} aptitude?${c.requirement && !/test|score|mark|assess|audition|round|stage/i.test(c.requirement) ? ` <span class="cdesc">${esc(c.requirement)}</span>` : ""}`;
+      case "aptitude": return `Shows ${c.subject && c.subject !== "other" ? esc(c.subject) + " " : ""}aptitude?${c.requirement && !/test|score|mark|assess|audition|round|stage/i.test(c.requirement) ? ` <span class="cdesc">${esc(c.requirement)}</span>` : ""}`;
       case "any_of": return (c.conditions || []).map(x => cond(x).replace(/\?(?=(\s*<span[^>]*>[^<]*<\/span>)*\s*$)/, "").replace(/\?\s*(<details)/, " $1")).join(` <b class="or">or</b> `).replace(/\?\s*$/, "") + "?";
       default: {
         // long free-text conditions: keep the first sentence without brackets as the question, the rest goes in the details
@@ -1253,7 +1253,8 @@
       const r = home ? G.assess(s._geo, home) : null;
       // where the council's own boundary is drawn, use it to say in or out (unless the postcode is too close to the line to tell)
       if (r && !home.place) r.areas.forEach(ar => {
-        if (ar.status !== "unknown" || !(s._official || []).includes(ar.id) || !SHAPES[ar.id]) return;
+        // the council's own outline beats a postcode or parish list, unless the home is right on the line
+        if (!(s._official || []).includes(ar.id) || !SHAPES[ar.id]) return;
         const v = inShape(SHAPES[ar.id], home.lng, home.lat);
         if (v !== null) ar.status = v ? "in" : "out";
       });
