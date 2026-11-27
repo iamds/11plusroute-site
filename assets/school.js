@@ -472,7 +472,7 @@
         `<ol class="subcrit">${(o.criteria || []).map(sc => `<li>${esc(sc.label)}${sc.description ? ` <span class="muted">· ${esc(sc.description)}</span>` : ""}</li>`).join("")}</ol>`).join("");
       const qchip = c.quota && quotaSize(c.quota) ? `<span class="quota">${esc(quotaSize(c.quota))}</span>` : "";
       const facts = usesAddress(c) ? addressShort() : "";
-      const det = more(`<div class="desc"><b>Name in the policy:</b> ${esc(c.label)}</div>
+      const det = more(`<div class="desc"><b>Name in the policy document:</b> ${esc(c.label)}</div>
         ${rq.reqFull ? `<div class="desc"><b>Score needed:</b> ${rq.reqFull}</div>` : ""}
         ${c.quota ? quota(c.quota).replace(/^<div class="quota">.*?<\/div>/, "") : ""}
         ${groupOf(c.priority).filter(hasSize).map(g => g.description ? `<div class="desc">${esc(g.description)}</div>` : "").join("")}

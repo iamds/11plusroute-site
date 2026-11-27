@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:mayfield-grammar-school-gravesend-d243f6744a52@www.11plusadmissions.co.
  uk
-DTSTAMP:20261127T064627Z
+DTSTAMP:20261127T064923Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 SUMMARY:Mayfield Grammar School\, Gravesend: Kent Test registration opens (
@@ -22,7 +22,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mayfield-grammar-school-gravesend-8d841080b810@www.11plusadmissions.co.
  uk
-DTSTAMP:20261127T064627Z
+DTSTAMP:20261127T064923Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Mayfield Grammar School\, Gravesend: Kent Test registration and acc
@@ -36,7 +36,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mayfield-grammar-school-gravesend-7ae3f0a62963@www.11plusadmissions.co.
  uk
-DTSTAMP:20261127T064627Z
+DTSTAMP:20261127T064923Z
 DTSTART;VALUE=DATE:20260703
 DTEND;VALUE=DATE:20260704
 SUMMARY:Mayfield Grammar School\, Gravesend: Mayfield test registration clo
@@ -50,7 +50,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mayfield-grammar-school-gravesend-c11010fa1142@www.11plusadmissions.co.
  uk
-DTSTAMP:20261127T064627Z
+DTSTAMP:20261127T064923Z
 DTSTART;VALUE=DATE:20260721
 DTEND;VALUE=DATE:20260722
 SUMMARY:Mayfield Grammar School\, Gravesend: Last date for late paper regis
@@ -64,7 +64,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mayfield-grammar-school-gravesend-916601f3d6b1@www.11plusadmissions.co.
  uk
-DTSTAMP:20261127T064627Z
+DTSTAMP:20261127T064923Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Mayfield Grammar School\, Gravesend: Secondary applications (SCAF) 
@@ -78,7 +78,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mayfield-grammar-school-gravesend-425301044e7d@www.11plusadmissions.co.
  uk
-DTSTAMP:20261127T064627Z
+DTSTAMP:20261127T064923Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Mayfield Grammar School\, Gravesend: Kent Test in Kent primary scho
@@ -92,7 +92,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mayfield-grammar-school-gravesend-2e02080775d8@www.11plusadmissions.co.
  uk
-DTSTAMP:20261127T064627Z
+DTSTAMP:20261127T064923Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Mayfield Grammar School\, Gravesend: Kent Test at test centres for 
@@ -106,7 +106,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mayfield-grammar-school-gravesend-dfda56b13983@www.11plusadmissions.co.
  uk
-DTSTAMP:20261127T064627Z
+DTSTAMP:20261127T064923Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Mayfield Grammar School\, Gravesend: Mayfield test at Mayfield Gram
@@ -120,7 +120,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mayfield-grammar-school-gravesend-9e471aed5495@www.11plusadmissions.co.
  uk
-DTSTAMP:20261127T064627Z
+DTSTAMP:20261127T064923Z
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
 SUMMARY:Mayfield Grammar School\, Gravesend: Open mornings (13 and 14 Octob
@@ -134,7 +134,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mayfield-grammar-school-gravesend-9a0a1bb01bfb@www.11plusadmissions.co.
  uk
-DTSTAMP:20261127T064627Z
+DTSTAMP:20261127T064923Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Mayfield Grammar School\, Gravesend: Kent Test decisions emailed af
@@ -148,7 +148,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mayfield-grammar-school-gravesend-71f7cc0da540@www.11plusadmissions.co.
  uk
-DTSTAMP:20261127T064627Z
+DTSTAMP:20261127T064923Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Mayfield Grammar School\, Gravesend: Mayfield test results emailed\
@@ -162,7 +162,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mayfield-grammar-school-gravesend-aec12d9ca45a@www.11plusadmissions.co.
  uk
-DTSTAMP:20261127T064627Z
+DTSTAMP:20261127T064923Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:Mayfield Grammar School\, Gravesend: National closing date for seco
@@ -176,7 +176,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mayfield-grammar-school-gravesend-f80cd6766b64@www.11plusadmissions.co.
  uk
-DTSTAMP:20261127T064627Z
+DTSTAMP:20261127T064923Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Mayfield Grammar School\, Gravesend: Final date for on-time changes
@@ -190,7 +190,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mayfield-grammar-school-gravesend-e66f0502bb93@www.11plusadmissions.co.
  uk
-DTSTAMP:20261127T064627Z
+DTSTAMP:20261127T064923Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Mayfield Grammar School\, Gravesend: National Offer Day (emails aft
@@ -204,7 +204,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mayfield-grammar-school-gravesend-10c78c9623b8@www.11plusadmissions.co.
  uk
-DTSTAMP:20261127T064627Z
+DTSTAMP:20261127T064923Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Mayfield Grammar School\, Gravesend: Accept/decline offers\; deadli
@@ -219,7 +219,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mayfield-grammar-school-gravesend-03d8152b75d5@www.11plusadmissions.co.
  uk
-DTSTAMP:20261127T064627Z
+DTSTAMP:20261127T064923Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Mayfield Grammar School\, Gravesend: Deadline for lodging appeals (
@@ -233,7 +233,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mayfield-grammar-school-gravesend-b77a76eb0903@www.11plusadmissions.co.
  uk
-DTSTAMP:20261127T064627Z
+DTSTAMP:20261127T064923Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
 SUMMARY:Mayfield Grammar School\, Gravesend: KCC reallocation of places tha
