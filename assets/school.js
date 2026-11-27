@@ -358,14 +358,25 @@
       const gl = (window.GLOSSARY || []).find(g => { try { return new RegExp(`^(?:${g.match})$`, "i").test(SUBJECTS[c.subject] || ""); } catch (e) { return false; } });
       if (gl) lines.push(`<span class="muted">${esc(gl.term)}: ${esc(gl.def)}</span>`);
       if (!lines.length) lines.push(`<span class="muted">The school hasn't published more detail about this part of the test.</span>`);
+      const pg = subjPage(st, c.subject);
+      if (pg) lines.unshift(`<a class="subjpage" href="../providers/${pg.href}">${esc(pg.label)}: question types, format and practice materials →</a>`);
       const id = `si-${i}-${j}`;
       return `<button type="button" class="subj subjbtn" aria-expanded="false" aria-controls="${id}">${name}${tag ? `<small>${tag}</small>` : ""}</button><div class="subjinfo" id="${id}" hidden>${lines.map(l => `<p>${l}</p>`).join("")}</div>`;
     }).join("");
   }
 
-  // who writes the test; null after research means no source says
-  const PROV = { "GL Assessment": "gl-assessment", "Quest Assessments": "quest-assessments", "FSCE": "fsce", "CEM": "cem" };
-  const provHtml = p => p && PROV[p] ? `<a href="../providers/${PROV[p]}.html">${esc(p)}</a>` : esc(p || "Not published");
+  // pages about one company's version of one subject (GL verbal reasoning, Quest maths ...)
+  const PROV = { "GL Assessment": "gl-assessment", "Quest Assessments": "quest-assessments" };
+  const SUBJ_PAGE = { verbal_reasoning: ["verbal-reasoning", "verbal reasoning"], non_verbal_reasoning: ["non-verbal-reasoning", "non-verbal and spatial reasoning"],
+    spatial_reasoning: ["non-verbal-reasoning", "non-verbal and spatial reasoning"], maths: ["maths", "maths"], english: ["english", "English"], comprehension: ["english", "English"] };
+  function subjPage(st, subject) {
+    const paper = (st.papers || []).find(pp => (pp.subjects || []).includes(subject) && pp.provider);
+    const prov = paper ? paper.provider : st.provider;
+    const sp = SUBJ_PAGE[subject];
+    if (!prov || !PROV[prov] || !sp) return null;
+    return { href: `${PROV[prov]}-${sp[0]}.html`, label: `${prov} ${prov === "Quest Assessments" && sp[0] === "non-verbal-reasoning" ? "non-verbal reasoning" : sp[1]}` };
+  }
+  const provHtml = p => esc(p || "Not published");
   const setBy = st => st.provider === undefined ? "" : `<div class="setby">Set by: <b>${provHtml(st.provider)}</b>${st.provider_note ? ` <span class="muted">· ${esc(st.provider_note)}</span>` : ""}</div>`;
 
   function setByAll() {

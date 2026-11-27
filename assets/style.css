@@ -790,3 +790,4 @@ footer { background: var(--surface); border: 1px solid var(--line); border-top: 
 .areatable th { text-align: left; vertical-align: top; padding: 6px 12px 6px 0; white-space: nowrap; font-weight: 700; }
 .areatable td { padding: 6px 0; vertical-align: top; }
 @media (max-width: 600px) { .areatable th { white-space: normal; } .areatable tr { display: block; padding: 6px 0; } .areatable th, .areatable td { display: block; padding: 0; } }
+.subjpage { font-weight: 700; }
