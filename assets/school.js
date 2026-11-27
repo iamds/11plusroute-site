@@ -516,10 +516,16 @@
       const noLabel = !conds.length ? "" : c.quota ? (qs ? `No, or its ${esc(qs)} have gone` : "No, or its share of places has gone") : "No";
       // small fixed map for stations that depend on where you live
       const refs = []; (function walk(cs) { (cs || []).forEach(k => { if (k.type === "in_area" && k.ref) refs.push(k.ref); if (k.type === "any_of") walk(k.conditions); }); })(c.conditions);
-      const ids = [...new Set(refs.map(id => areaGroupOf[id] || id))].filter(id => drawable.some(x => x.id === id));
+      let ids = [...new Set(refs.map(id => areaGroupOf[id] || id))].filter(id => drawable.some(x => x.id === id));
+      // no outline for this area itself (e.g. Priority Area A), but it lies inside one we have: show that, and say so
+      let wholeNote = "";
+      if (!ids.length && refs.length) {
+        const par = [...new Set(refs.map(id => ((y.areas || []).find(x => x.id === id) || {}).within).filter(Boolean))].filter(id => drawable.some(x => x.id === id));
+        if (par.length) { ids = par; wholeNote = `Shows the whole ${esc(String(((y.areas || []).find(x => x.id === par[0]) || {}).name || "catchment").replace(/\s*\(.*\)\s*/g, "").replace(/^./, m => m.toLowerCase()))}`; }
+      }
       const farAny = !ids.length ? furthestFor(c, i === lastDistIdx) : null;
       const far = farAny && farAny.own ? farAny : null;  // only map a priority's own furthest-offer figure
-      const mini = G0.lat != null && (ids.length || far) ? `<div class="minimap linked" role="button" tabindex="0" data-areas="${esc(ids.join(","))}" data-last="${far ? far.mi : ""}" aria-label="Open a larger map"><span class="mm-hint" aria-hidden="true">⤢ Enlarge</span></div>` : "";
+      const mini = G0.lat != null && (ids.length || far) ? `<div class="minimap linked" role="button" tabindex="0" data-areas="${esc(ids.join(","))}" data-last="${far ? far.mi : ""}" aria-label="Open a larger map"><span class="mm-hint" aria-hidden="true">⤢ Enlarge</span>${wholeNote ? `<span class="mm-note">${wholeNote}</span>` : ""}</div>` : "";
       const facthtml = facts.replace(/<[^>]+>|\s/g, "") ? `<div class="cfacts">${facts}</div>` : "";
       const rows = acad.replace(/<\/div>$/, placesRow + "</div>") || `<div class="decides">${placesRow}</div>`;
       const card = `<div class="cbody${mini ? " hasmap" : ""}"><div class="cmain">${acad ? rows : `<div class="decides">${placesRow}</div>`}${facthtml}${det}</div>${mini}</div>`;
