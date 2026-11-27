@@ -133,6 +133,7 @@ td.empty { text-align: center; padding: 36px; color: var(--ink-2); }
 .desc { font-size: .9rem; color: var(--ink-2); margin-top: 4px; }
 .desc b { color: var(--ink); font-weight: 600; }
 .when { font-weight: 700; font-size: .92rem; color: var(--crimson); }
+.setby { font-size: .88rem; margin-top: 2px; }
 
 .zlabel { grid-column: 2 / span 2; padding: 20px 0 6px; font-weight: 800; font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; display: flex; align-items: center; gap: 10px; color: var(--ink); }
 .zlabel span { display: inline-grid; place-items: center; width: 24px; height: 24px; background: var(--crimson); color: #fff; border-radius: 3px; font-size: .78rem; letter-spacing: 0; }

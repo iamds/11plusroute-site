@@ -363,6 +363,17 @@
     }).join("");
   }
 
+  // who writes the test; null after research means no source says
+  const setBy = st => st.provider === undefined ? "" : `<div class="setby">Set by: <b>${st.provider ? esc(st.provider) : "Not published"}</b>${st.provider_note ? ` <span class="muted">· ${esc(st.provider_note)}</span>` : ""}</div>`;
+
+  function setByAll() {
+    const st = (a.stages || []).filter(x => x.provider !== undefined);
+    if (!st.length) return esc(a.provider || "");
+    const name = x => x.provider ? esc(x.provider) : "Not published";
+    const uniq = [...new Set(st.map(name))];
+    return uniq.length === 1 && st.length === (a.stages || []).length ? uniq[0] : st.map(x => `<b>${esc(x.name)}:</b> ${name(x)}`).join("<br>");
+  }
+
   function stagesBlock() {
     const all = a.stages || [];
     const list = all.filter(st => st.kind !== "aptitude");
@@ -380,7 +391,7 @@
         : (st.papers || []).length && !papersHaveSubjects
         ? `<div class="desc">${nums[st.papers.length] || st.papers.length} paper${st.papers.length > 1 ? "s" : ""}: ${st.papers.map(paperDesc).join("; ")}</div>` : "";
       if (papersHaveSubjects && !paperDescs) comps = st.papers.map(pp => `<span class="subj paper"><b>${esc(pp.name || "Paper")}</b>${pp.duration_minutes != null ? ` · ${dur(pp.duration_minutes)}` : ""}${(pp.subjects || []).filter(x => x !== "other").length ? ": " + pp.subjects.filter(x => x !== "other").map(x => esc(SUBJECTS[x] || x)).join(", ") : ""}</span>`).join("");
-      const body = `${st.dates ? `<div class="when">${range(st.dates)}</div>` : ""}
+      const body = `${st.dates ? `<div class="when">${range(st.dates)}</div>` : ""}${setBy(st)}
         ${comps ? `<div class="subjects">${comps}</div>` : ""}${paperLine}
         ${more(`${st.location ? `<div class="desc">${esc(st.location)}</div>` : ""}
         ${(st.shared_with || []).length ? `<div class="desc">Shared with ${esc(st.shared_with.join(", "))}${st.pass_mark_set_by === "school" ? "; each school sets its own pass mark" : ""}</div>` : ""}
@@ -404,7 +415,7 @@
       const next = grp[gi + 1];
       const comps = subjectChips(st, 50 + i);
       h += stop({ id: i ? `aptitude-${i + 1}` : "aptitude", cls: "test apt", kicker: `Aptitude test · optional${grp.length > 1 ? ` · round ${gi + 1} of ${grp.length}` : ""}`, title: esc(st.name),
-        body: `${st.dates?.from ? `<div class="when">${range(st.dates)}</div>` : ""}${comps ? `<div class="subjects">${comps}</div>` : ""}
+        body: `${st.dates?.from ? `<div class="when">${range(st.dates)}</div>` : ""}${setBy(st)}${comps ? `<div class="subjects">${comps}</div>` : ""}
         ${more(`${st.entry ? `<div class="desc">Who can sit it: ${rule(st.entry)}</div>` : ""}
         ${(st.used_for || []).length ? `<div class="desc">Counts only for criteria ${st.used_for.map(esc).join(", ")}</div>` : ""}`)}` });
       if (st.progression) {
@@ -1024,7 +1035,7 @@
 
     <div class="folds">
       ${fold("dates", "Important dates", timeline() && timeline() + `<div class="calsub">${s._ics ? window.GS.calMenu(window.GS.calItems(s._ics, s.name + " admissions", "../ics/" + s.slug + ".ics"), "Add these dates to your calendar") : ""} <a class="small" href="../deadlines.html">Deadlines for all schools</a></div>`)}
-      ${fold("test", "About the test", (s._test ? `<p class="sharedtest">This school uses the <a href="../tests/${esc(s._test.id)}.html"><b>${esc(s._test.name)}</b></a>. See every school that uses it.</p>` : "") + dl([["Overview", esc(a.description || "")], ["Set by", esc(a.provider || "")], ["Consortium", esc(a.consortium || "")],
+      ${fold("test", "About the test", (s._test ? `<p class="sharedtest">This school uses the <a href="../tests/${esc(s._test.id)}.html"><b>${esc(s._test.name)}</b></a>. See every school that uses it.</p>` : "") + dl([["Overview", esc(a.description || "")], ["Set by", setByAll()], ["Consortium", esc(a.consortium || "")],
         ["Attempts", esc(a.attempts || "")], ["Access arrangements", esc(a.access_arrangements || "")], ["Missing the test", esc(a.missed_test || "")],
         ["Results", (a.stages || []).filter(x => x.results).map(x => `<b>${esc(x.name)}:</b> ${esc(x.results)}`).join("<br>")],
         ["Before the council deadline", esc(y.outcomes_before_caf || "")]]))}
