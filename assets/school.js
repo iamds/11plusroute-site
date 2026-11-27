@@ -347,25 +347,17 @@
 
   // ---------- subject chips: tap one to see this school's details for that part of the test ----------
   const FORMAT = { multiple_choice: "Multiple choice", written: "Written answers", standard_answer: "Write-in answers" };
+  // each subject on its own line: format and time, what the school says about it, and the page about that kind of paper
   function subjectChips(st, i) {
-    return (st.components || []).map((c, j) => {
+    const items = (st.components || []).map(c => {
       const name = esc(c.label && c.subject === "other" ? c.label : SUBJECTS[c.subject] || c.subject);
-      const tag = [FORMAT[c.format] && FORMAT[c.format].replace("Multiple choice", "multiple choice").replace("Written answers", "written").replace("Write-in answers", "write-in"), c.duration_minutes != null ? dur(c.duration_minutes) : ""].filter(Boolean).join(" · ");
-      const lines = [
-        FORMAT[c.format] ? `<b>${FORMAT[c.format]}</b>${c.duration_minutes != null ? ` · ${dur(c.duration_minutes)}` : ""}` : c.duration_minutes != null ? `<b>${dur(c.duration_minutes)}</b>` : "",
-        c.label && c.subject !== "other" ? esc(c.label) : "",
-        c.description ? esc(c.description) : "",
-        c.weight != null && +c.weight > 0 ? `Counts for ${+c.weight <= 1 ? Math.round(c.weight * 100) : esc(c.weight)}% of the score.` : "",
-      ].filter(Boolean);
-      // every subject opens the same way; add the glossary definition of the term, if there is one
-      const gl = (window.GLOSSARY || []).find(g => { try { return new RegExp(`^(?:${g.match})$`, "i").test(SUBJECTS[c.subject] || ""); } catch (e) { return false; } });
-      if (gl) lines.push(`<span class="muted">${esc(gl.term)}: ${esc(gl.def)}</span>`);
-      if (!lines.length) lines.push(`<span class="muted">The school hasn't published more detail about this part of the test.</span>`);
+      const tag = [FORMAT[c.format] && FORMAT[c.format].replace("Multiple choice", "multiple choice").replace("Written answers", "written").replace("Write-in answers", "write-in"), c.duration_minutes != null ? dur(c.duration_minutes) : "",
+        c.weight != null && +c.weight > 0 ? `${+c.weight <= 1 ? Math.round(c.weight * 100) : esc(c.weight)}% of the score` : ""].filter(Boolean).join(" · ");
+      const extra = [c.label && c.subject !== "other" ? esc(c.label) : "", c.description ? esc(c.description) : ""].filter(Boolean).join(". ");
       const pg = subjPage(st, c.subject);
-      if (pg) lines.unshift(`<a class="subjpage" href="../providers/${pg.href}">${esc(pg.label)}: question types, format and practice materials →</a>`);
-      const id = `si-${i}-${j}`;
-      return `<button type="button" class="subj subjbtn" aria-expanded="false" aria-controls="${id}">${name}${tag ? `<small>${tag}</small>` : ""}</button><div class="subjinfo" id="${id}" hidden>${lines.map(l => `<p>${l}</p>`).join("")}</div>`;
-    }).join("");
+      return `<li><b>${name}</b>${tag ? ` <span class="muted">· ${tag}</span>` : ""}${extra ? `<div class="small">${extra}</div>` : ""}${pg ? `<div class="small"><a href="../providers/${pg.href}">${esc(pg.label)}: question types and practice materials</a></div>` : ""}</li>`;
+    });
+    return items.length ? `<ul class="subjlist">${items.join("")}</ul>` : "";
   }
 
   // pages about one company's version of one subject (GL verbal reasoning, Quest maths ...)
@@ -430,7 +422,7 @@
         ? `<div class="desc">${nums[st.papers.length] || st.papers.length} paper${st.papers.length > 1 ? "s" : ""}: ${st.papers.map(paperDesc).join("; ")}</div>` : "";
       if (papersHaveSubjects && !paperDescs) comps = st.papers.map(pp => `<span class="subj paper"><b>${esc(pp.name || "Paper")}</b>${pp.duration_minutes != null ? ` · ${dur(pp.duration_minutes)}` : ""}${(pp.subjects || []).filter(x => x !== "other").length ? ": " + pp.subjects.filter(x => x !== "other").map(x => esc(SUBJECTS[x] || x)).join(", ") : ""}</span>`).join("");
       const body = `${st.dates ? `<div class="when">${range(st.dates)}</div>` : ""}${setBy(st)}
-        ${comps ? `<div class="subjects">${comps}</div>` : ""}${paperLine}
+        ${comps ? (comps.startsWith("<ul") ? comps : `<div class="subjects">${comps}</div>`) : ""}${paperLine}
         ${st.location_at_school ? "" : whereLine(st.location)}${sharedLine(st)}
         ${(st.alternative_dates || []).length ? more((st.alternative_dates || []).map(ad => `<div class="desc">${ad.who ? `<b>${esc(ad.who.replace(/^./, m => m.toUpperCase()))}</b>` : "Another sitting"}${ad.dates?.from && ad.dates.from !== st.dates?.from ? `: ${fmtDate(ad.dates.from)}` : ""}${ad.description ? `. ${esc(ad.description.trim())}` : ""}</div>`).join(""), "Ill, late or moved house?") : ""}`;
       const next = list[i + 1];
@@ -452,7 +444,7 @@
       const next = grp[gi + 1];
       const comps = subjectChips(st, 50 + i);
       h += stop({ id: i ? `aptitude-${i + 1}` : "aptitude", cls: "test apt", kicker: `Aptitude test · optional${grp.length > 1 ? ` · round ${gi + 1} of ${grp.length}` : ""}`, title: esc(st.name),
-        body: `${st.dates?.from ? `<div class="when">${range(st.dates)}</div>` : ""}${setBy(st)}${comps ? `<div class="subjects">${comps}</div>` : ""}
+        body: `${st.dates?.from ? `<div class="when">${range(st.dates)}</div>` : ""}${setBy(st)}${comps ? (comps.startsWith("<ul") ? comps : `<div class="subjects">${comps}</div>`) : ""}
         ${st.location_at_school ? "" : whereLine(st.location)}${st.entry ? `<div class="desc"><b>Who can sit it:</b> ${rule(st.entry)}</div>` : ""}
         ${(st.used_for || []).length ? `<div class="desc">Counts only for criteria ${st.used_for.map(esc).join(", ")}.</div>` : ""}` });
       if (st.progression) {

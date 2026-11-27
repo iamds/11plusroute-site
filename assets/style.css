@@ -799,3 +799,6 @@ section.open-panel { padding: 0; margin: 10px 0; }
 section.open-panel > h2 { margin: 0; padding: 16px 20px; font-size: 1.1rem; display: flex; align-items: center; gap: 10px; }
 section.open-panel > h2::before { content: ""; width: 12px; height: 12px; border-radius: 50%; border: 3.5px solid var(--crimson); }
 section.open-panel .fold-body { padding: 0 20px 20px; }
+.subjlist { list-style: none; padding: 0; margin: 8px 0 4px; }
+.subjlist li { padding: 6px 0 6px 12px; border-left: 3px solid var(--line); margin-bottom: 4px; }
+.subjlist .small { margin-top: 2px; }
