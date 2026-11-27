@@ -1011,7 +1011,6 @@
 
     <section class="flow">
       <h2>How to get a place</h2>
-      <p class="muted small flow-intro">Follow the line from top to bottom. A child leaves the line at the first station where the answer is yes.</p>
       <ol class="line">
         ${zone("1", "Apply")}
         ${registrationBlock()}

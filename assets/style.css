@@ -118,7 +118,6 @@ td.empty { text-align: center; padding: 36px; color: var(--ink-2); }
 .lede { font-size: 1.15rem; max-width: 72ch; border-left: 4px solid var(--gold); padding-left: 14px; margin: 14px 0; }
 
 /* ---------- the line (flowchart) ---------- */
-.flow-intro { margin: -6px 0 10px; }
 .line { list-style: none; margin: 0; padding: 0; max-width: 1000px; }
 .line > li { display: grid; grid-template-columns: 52px minmax(0, 1fr) minmax(0, 1fr); column-gap: 22px; position: relative; }
 .line > li.stop:not(.has-branch) .main { grid-column: 2 / span 2; }
