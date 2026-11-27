@@ -564,6 +564,22 @@
   // Map of radius-based priority areas, the school and (if known) the visitor's home
   const G0 = s._geo || {};
   const SHAPES = s._shapes || {};
+  // point in (Multi)Polygon, with null when within ~150 m of the boundary
+  function inShape(g, x, y) {
+    const polys = g.type === "Polygon" ? [g.coordinates] : g.type === "MultiPolygon" ? g.coordinates : [];
+    const kx = 69.1 * Math.cos(y * Math.PI / 180), ky = 69.1;  // miles per degree
+    let inside = false, near = Infinity;
+    polys.forEach(poly => poly.forEach(ring => {
+      for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+        const [xi, yi] = ring[i], [xj, yj] = ring[j];
+        if ((yi > y) !== (yj > y) && x < (xj - xi) * (y - yi) / (yj - yi) + xi) inside = !inside;
+        const ax = (xi - x) * kx, ay = (yi - y) * ky, bx = (xj - x) * kx, by = (yj - y) * ky, dx = bx - ax, dy = by - ay;
+        const t = Math.max(0, Math.min(1, -(ax * dx + ay * dy) / ((dx * dx + dy * dy) || 1)));
+        near = Math.min(near, Math.hypot(ax + t * dx, ay + t * dy));
+      }
+    }));
+    return near < 0.093 ? null : inside;
+  }
   // areas merged for display (one priority accepts any of them) are drawn as their group shape instead
   const GROUPS = (G0.groups || []).filter(g => SHAPES[g.id]);
   const areaGroupOf = {}; GROUPS.forEach(g => g.members.forEach(m => areaGroupOf[m] = g.id));
@@ -1155,6 +1171,12 @@
     let home_pc = "", home_place = false;
     function show(home) {
       const r = home ? G.assess(s._geo, home) : null;
+      // where the council's own boundary is drawn, use it to say in or out (unless the postcode is too close to the line to tell)
+      if (r && !home.place) r.areas.forEach(ar => {
+        if (ar.status !== "unknown" || !(s._official || []).includes(ar.id) || !SHAPES[ar.id]) return;
+        const v = inShape(SHAPES[ar.id], home.lng, home.lat);
+        if (v !== null) ar.status = v ? "in" : "out";
+      });
       home_pc = home ? home.postcode : ""; home_place = !!(home && home.place);
       markStations(r);
       setAreaMapHome(home);
