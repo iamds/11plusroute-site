@@ -422,7 +422,7 @@
       ${st.location_at_school ? "" : whereLine(st.location)}${sharedLine(st)}
       ${st.kind === "aptitude" && st.entry ? `<div class="desc"><b>Who can sit it:</b> ${rule(st.entry)}</div>` : ""}
       ${(st.used_for || []).length ? `<div class="desc">Counts only for criteria ${st.used_for.map(esc).join(", ")}.</div>` : ""}
-      ${(st.alternative_dates || []).length ? more((st.alternative_dates || []).map(ad => `<div class="desc">${ad.who ? `<b>${esc(ad.who.replace(/^./, m => m.toUpperCase()))}</b>` : "Another sitting"}${ad.dates?.from && ad.dates.from !== st.dates?.from ? `: ${fmtDate(ad.dates.from)}` : ""}${ad.description ? `. ${esc(ad.description.trim())}` : ""}</div>`).join(""), "Ill, late or moved house?") : ""}`;
+`;
   }
   // the score needed to go on, between two rounds (or after the last round of an aptitude test)
   function gateHtml(st, next) {
