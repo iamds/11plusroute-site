@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:st-michaels-catholic-grammar-school-82f1cecc14b6@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261127T153806Z
+DTSTAMP:20261127T154057Z
 DTSTART;VALUE=DATE:20260414
 DTEND;VALUE=DATE:20260415
 SUMMARY:St Michael's Catholic Grammar School: Online test application opens
@@ -22,7 +22,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:st-michaels-catholic-grammar-school-e6f927ed4393@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261127T153806Z
+DTSTAMP:20261127T154057Z
 DTSTART;VALUE=DATE:20260707
 DTEND;VALUE=DATE:20260708
 SUMMARY:St Michael's Catholic Grammar School: Deadline (4pm): SIF\, baptism
@@ -36,7 +36,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:st-michaels-catholic-grammar-school-3e714dc2594c@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261127T153806Z
+DTSTAMP:20261127T154057Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:St Michael's Catholic Grammar School: Entrance test (by invitation)
@@ -49,7 +49,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:st-michaels-catholic-grammar-school-62f312a0868f@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261127T153806Z
+DTSTAMP:20261127T154057Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:St Michael's Catholic Grammar School: CAF deadline (London)
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:st-michaels-catholic-grammar-school-b6c34c92fe76@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261127T153806Z
+DTSTAMP:20261127T154057Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:St Michael's Catholic Grammar School: National Offer Day
@@ -75,7 +75,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:st-michaels-catholic-grammar-school-c020647e1e93@www.11plusadmissions.c
  o.uk
-DTSTAMP:20261127T153806Z
+DTSTAMP:20261127T154057Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 SUMMARY:St Michael's Catholic Grammar School: Appeal deadline (4pm)
