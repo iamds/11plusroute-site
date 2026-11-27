@@ -404,56 +404,64 @@
   const STOP = new Set("the and for who are any than with that this from into each not but its their they them has have was were will can all also only one two per".split(" "));
   const words = h => String(h).replace(/<[^>]+>/g, " ").toLowerCase().match(/[a-z0-9%]+/g)?.filter(t => t.length > 2 && !STOP.has(t)) || [];
 
+  // one round of a test: date, who sets it, the subjects, where, who can sit it
+  function roundBody(st, i) {
+    let comps = subjectChips(st, i);
+    const papersHaveSubjects = (st.papers || []).some(pp => (pp.subjects || []).filter(x => x !== "other").length);
+    const nums = ["", "One", "Two", "Three", "Four", "Five", "Six"];
+    const paperDesc = pp => esc(pp.name || "Paper") + (pp.duration_minutes != null ? `, ${dur(pp.duration_minutes)}` : "");
+    const paperDescs = (st.papers || []).some(pp => pp.description);
+    const paperLine = paperDescs
+      ? `<ul class="paperlist">${st.papers.map(pp => `<li><b>${esc(pp.name || "Paper")}</b>${pp.duration_minutes != null ? ` · ${dur(pp.duration_minutes)}` : ""}${pp.description ? `: ${esc(pp.description)}` : ""}</li>`).join("")}</ul>`
+      : (st.papers || []).length && !papersHaveSubjects
+      ? `<div class="desc">${nums[st.papers.length] || st.papers.length} paper${st.papers.length > 1 ? "s" : ""}: ${st.papers.map(paperDesc).join("; ")}</div>` : "";
+    if (papersHaveSubjects && !paperDescs && !comps) comps = st.papers.map(pp => `<span class="subj paper"><b>${esc(pp.name || "Paper")}</b>${pp.duration_minutes != null ? ` · ${dur(pp.duration_minutes)}` : ""}${(pp.subjects || []).filter(x => x !== "other").length ? ": " + pp.subjects.filter(x => x !== "other").map(x => esc(SUBJECTS[x] || x)).join(", ") : ""}</span>`).join("");
+    return `${st.dates?.from ? `<div class="when">${range(st.dates)}</div>` : ""}${setBy(st)}
+      ${comps ? (comps.startsWith("<ul") ? comps : `<div class="subjects">${comps}</div>`) : ""}${paperDescs || !papersHaveSubjects ? paperLine : ""}
+      ${st.location_at_school ? "" : whereLine(st.location)}${sharedLine(st)}
+      ${st.kind === "aptitude" && st.entry ? `<div class="desc"><b>Who can sit it:</b> ${rule(st.entry)}</div>` : ""}
+      ${(st.used_for || []).length ? `<div class="desc">Counts only for criteria ${st.used_for.map(esc).join(", ")}.</div>` : ""}
+      ${(st.alternative_dates || []).length ? more((st.alternative_dates || []).map(ad => `<div class="desc">${ad.who ? `<b>${esc(ad.who.replace(/^./, m => m.toUpperCase()))}</b>` : "Another sitting"}${ad.dates?.from && ad.dates.from !== st.dates?.from ? `: ${fmtDate(ad.dates.from)}` : ""}${ad.description ? `. ${esc(ad.description.trim())}` : ""}</div>`).join(""), "Ill, late or moved house?") : ""}`;
+  }
+  // the score needed to go on, between two rounds (or after the last round of an aptitude test)
+  function gateHtml(st, next) {
+    const pr = st.progression;
+    if (!pr) return "";
+    const exc = (pr.exceptions || []).map(e => `<div class="exc">${esc(e.applies_to || "Some groups")}: ${rule(e.rule)}</div>`).join("");
+    const ties = pr.ties ? `<div class="exc">Ties: ${esc(pr.ties)}</div>` : "";
+    const full = pr.description && shortRule(pr) !== esc(pr.description) ? `<div class="exc">${esc(pr.description)}</div>` : "";
+    const label = next ? `To go on to ${esc(stageShort(next.id) || next.name)}` : "To qualify";
+    return `<div class="rgate"><div class="rgate-l">${label}</div><div class="rgate-v">${shortRule(pr).replace(/^./, m => m.toUpperCase())}</div>${full || exc || ties ? `<div class="segmore">${full + exc + ties}</div>` : ""}</div>`;
+  }
+
+  // each route (the academic test, a music test, a sport test) is one box: its rounds, with the score to go on between them
   function stagesBlock() {
     const all = a.stages || [];
-    const list = all.filter(st => st.kind !== "aptitude");
-    const apt = all.filter(st => st.kind === "aptitude");
     if (!all.length) return stop({ title: "No entrance test details recorded" });
-    let h = "";
-    list.forEach((st, i) => {
-      let comps = subjectChips(st, i);
-      const papersHaveSubjects = (st.papers || []).some(pp => (pp.subjects || []).filter(x => x !== "other").length);
-      const nums = ["", "One", "Two", "Three", "Four", "Five", "Six"];
-      const paperDesc = pp => esc(pp.name || "Paper") + (pp.duration_minutes != null ? `, ${dur(pp.duration_minutes)}` : "");
-      const paperDescs = (st.papers || []).some(pp => pp.description);
-      const paperLine = paperDescs
-        ? `<ul class="paperlist">${st.papers.map(pp => `<li><b>${esc(pp.name || "Paper")}</b>${pp.duration_minutes != null ? ` · ${dur(pp.duration_minutes)}` : ""}${pp.description ? `: ${esc(pp.description)}` : ""}</li>`).join("")}</ul>`
-        : (st.papers || []).length && !papersHaveSubjects
-        ? `<div class="desc">${nums[st.papers.length] || st.papers.length} paper${st.papers.length > 1 ? "s" : ""}: ${st.papers.map(paperDesc).join("; ")}</div>` : "";
-      if (papersHaveSubjects && !paperDescs) comps = st.papers.map(pp => `<span class="subj paper"><b>${esc(pp.name || "Paper")}</b>${pp.duration_minutes != null ? ` · ${dur(pp.duration_minutes)}` : ""}${(pp.subjects || []).filter(x => x !== "other").length ? ": " + pp.subjects.filter(x => x !== "other").map(x => esc(SUBJECTS[x] || x)).join(", ") : ""}</span>`).join("");
-      const body = `${st.dates ? `<div class="when">${range(st.dates)}</div>` : ""}${setBy(st)}
-        ${comps ? (comps.startsWith("<ul") ? comps : `<div class="subjects">${comps}</div>`) : ""}${paperLine}
-        ${st.location_at_school ? "" : whereLine(st.location)}${sharedLine(st)}
-        ${(st.alternative_dates || []).length ? more((st.alternative_dates || []).map(ad => `<div class="desc">${ad.who ? `<b>${esc(ad.who.replace(/^./, m => m.toUpperCase()))}</b>` : "Another sitting"}${ad.dates?.from && ad.dates.from !== st.dates?.from ? `: ${fmtDate(ad.dates.from)}` : ""}${ad.description ? `. ${esc(ad.description.trim())}` : ""}</div>`).join(""), "Ill, late or moved house?") : ""}`;
-      const next = list[i + 1];
-      h += stop({ id: list.length > 1 ? `test-${i + 1}` : "test-day", cls: "test", kicker: list.length > 1 ? `Test · stage ${i + 1} of ${list.length}` : "Entrance test", title: esc(st.name), body,
-        branch: null });
-      if (st.progression && next) {
-        // say who goes through to the next round, rather than a "not invited" exit off to the side
-        const exc = (st.progression.exceptions || []).map(e => `<div class="exc">${esc(e.applies_to || "Some groups")}: ${rule(e.rule)}</div>`).join("");
-        const ties = st.progression.ties ? `<div class="exc">Ties: ${esc(st.progression.ties)}</div>` : "";
-        const full = st.progression.description && shortRule(st.progression) !== esc(st.progression.description) ? `<div class="exc">${esc(st.progression.description)}</div>` : "";
-        h += seg(`<span class="go">To reach ${esc(stageShort(next.id) || next.name)}:</span> ${shortRule(st.progression).replace(/^./, m => m.toLowerCase())}${full || exc || ties ? `<div class="segmore">${full + exc + ties}</div>` : ""}`, "yes");
-      }
+    const stem = x => String(x.id || "").replace(/_?r?\d+$/, "");
+    const routes = [];
+    const acad = all.filter(st => st.kind !== "aptitude");
+    if (acad.length) routes.push({ apt: false, stages: acad });
+    all.filter(st => st.kind === "aptitude").forEach(st => {
+      const r = routes.find(r => r.apt && r.stem === stem(st));
+      if (r) r.stages.push(st); else routes.push({ apt: true, stem: stem(st), stages: [st] });
     });
-    // aptitude tests: one station each, like the academic test, with "To reach …" between rounds
-    apt.forEach((st, i) => {
-      // rounds of the same test (music1, music2) go one after the other; different tests (sport, music) stand alone
-      const stem = x => String(x.id || "").replace(/_?r?\d+$/, "");
-      const grp = apt.filter(x => stem(x) === stem(st)), gi = grp.indexOf(st);
-      const next = grp[gi + 1];
-      const comps = subjectChips(st, 50 + i);
-      h += stop({ id: i ? `aptitude-${i + 1}` : "aptitude", cls: "test apt", kicker: `Aptitude test · optional${grp.length > 1 ? ` · round ${gi + 1} of ${grp.length}` : ""}`, title: esc(st.name),
-        body: `${st.dates?.from ? `<div class="when">${range(st.dates)}</div>` : ""}${setBy(st)}${comps ? (comps.startsWith("<ul") ? comps : `<div class="subjects">${comps}</div>`) : ""}
-        ${st.location_at_school ? "" : whereLine(st.location)}${st.entry ? `<div class="desc"><b>Who can sit it:</b> ${rule(st.entry)}</div>` : ""}
-        ${(st.used_for || []).length ? `<div class="desc">Counts only for criteria ${st.used_for.map(esc).join(", ")}.</div>` : ""}` });
-      if (st.progression) {
-        const full = st.progression.description && shortRule(st.progression) !== esc(st.progression.description) ? `<div class="exc">${esc(st.progression.description)}</div>` : "";
-        const label = next ? `To reach ${esc(stageShort(next.id) || next.name)}:` : "To go on:";
-        h += seg(`<span class="go">${label}</span> ${shortRule(st.progression).replace(/^./, m => m.toLowerCase())}${full ? `<div class="segmore">${full}</div>` : ""}`, "yes");
-      }
-    });
-    return h;
+    const aptName = r => {
+      const sj = ((r.stages[0].components || [])[0] || {}).subject;
+      const nm = sj && sj !== "other" && SUBJECTS[sj] ? SUBJECTS[sj] : r.stages[0].name.replace(/\s*(aptitude|test|assessment|round|part|stage)\b.*$/i, "").trim();
+      return `${nm.replace(/^./, m => m.toUpperCase())} aptitude test`;
+    };
+    const hasApt = routes.some(r => r.apt);
+    let n = 0, ai = 0;
+    return routes.map(r => {
+      const head = r.apt ? `${esc(aptName(r))} <span class="route-opt">optional</span>` : hasApt ? "Academic test" : "Entrance test";
+      const rounds = r.stages.map((st, k) => {
+        const id = r.apt ? (ai++ ? `aptitude-${ai}` : "aptitude") : (acad.length > 1 ? `test-${k + 1}` : "test-day");
+        const kick = r.stages.length > 1 ? `Round ${k + 1} of ${r.stages.length}` : "";
+        return `<div class="round" id="${id}">${kick ? `<div class="kicker">${kick}${linkBtn(id)}</div>` : ""}<div class="title">${esc(st.name)}</div>${roundBody(st, n++)}</div>${gateHtml(st, r.stages[k + 1])}`;
+      }).join("");
+      return `<li class="stop test route${r.apt ? " apt" : ""}"><div class="rail"><span class="marker"></span></div><div class="main"><div class="routebox"><div class="route-h">${head}</div>${rounds}</div></div></li>`;
+    }).join("");
   }
 
   function qualificationBlock() {

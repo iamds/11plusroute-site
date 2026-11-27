@@ -802,3 +802,16 @@ section.open-panel .fold-body { padding: 0 20px 20px; }
 .subjlist { list-style: none; padding: 0; margin: 8px 0 4px; }
 .subjlist li { padding: 6px 0 6px 12px; border-left: 3px solid var(--line); margin-bottom: 4px; }
 .subjlist .small { margin-top: 2px; }
+/* entrance test routes: one box per route, rounds inside, the score to go on between rounds */
+.routebox { border: 1px solid var(--line); border-top: 4px solid var(--rail); border-radius: var(--radius); background: var(--surface); padding: 4px 16px 12px; margin: 4px 0 10px; }
+.stop.apt .routebox { border-top-color: var(--c-apt); }
+.route-h { font-weight: 800; font-size: .78rem; text-transform: uppercase; letter-spacing: .07em; color: var(--ink-2); padding: 8px 0 2px; }
+.stop.apt .route-h { color: var(--c-apt); }
+.route-opt { font-weight: 600; text-transform: none; letter-spacing: 0; color: var(--ink-2); margin-left: 6px; font-size: .8rem; }
+.round { padding: 8px 0 6px; }
+.round + .round { border-top: 1px solid var(--line); }
+.round .title { font-weight: 700; font-size: 1.04rem; margin: 2px 0 4px; }
+.rgate { margin: 6px 0 6px; padding: 8px 12px; border-left: 4px solid var(--gold); background: color-mix(in srgb, var(--gold) 12%, transparent); border-radius: var(--radius); }
+.rgate-l { font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-2); }
+.rgate-l::before { content: "↓ "; }
+.rgate-v { font-weight: 700; }
