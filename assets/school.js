@@ -617,13 +617,17 @@
       el.style.setProperty("--mh", Math.max(150, main.clientHeight - el.offsetTop - 12) + "px");
     });
   }
-  window.addEventListener("resize", () => { clearTimeout(sizeMaps.t); sizeMaps.t = setTimeout(sizeMaps, 150); });
-  out.addEventListener("toggle", e => { if (e.target.closest && e.target.closest(".stop.crit") && !e.target.open) sizeMaps(); }, true);
-  out.addEventListener("click", e => { if (e.target.closest(".sg-toggle")) setTimeout(sizeMaps, 0); });
+  // re-measure whenever a card changes size (web font arriving, banner added, Details closed, window resized)
+  const resizeAll = () => { clearTimeout(sizeMaps.t); sizeMaps.t = setTimeout(sizeMaps, 60); };
+  window.addEventListener("resize", resizeAll);
+  window.addEventListener("load", resizeAll);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(resizeAll);
+  out.addEventListener("toggle", e => { if (e.target.closest && e.target.closest(".stop.crit") && !e.target.open) resizeAll(); }, true);
   function initMiniMaps() {
     const els = [...out.querySelectorAll(".minimap")];
     if (!els.length || G0.lat == null) return;
     sizeMaps();
+    if ("ResizeObserver" in window) { const ro = new ResizeObserver(resizeAll); out.querySelectorAll(".stop.crit .main").forEach(m => { if (m.querySelector(".cbody.hasmap")) ro.observe(m); }); }
     const build = async el => {
       try { await window.GS.loadMapLib(); } catch (e) { el.remove(); return; }
       const feats = miniFeatures(el);

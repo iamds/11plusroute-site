@@ -772,3 +772,5 @@ footer { background: var(--surface); border: 1px solid var(--line); border-top: 
 /* banner corners follow the card's inner edge: the 5px left border leaves a square inner corner on the left, 1px top border leaves radius-1 on the right */
 .youbanner { border-radius: 0 calc(var(--radius) - 1px) 0 0; }
 @media (min-width: 721px) { .cbody.hasmap .minimap { bottom: auto; height: var(--mh, calc(100% - 24px)); } }
+/* green banner muted to match the red one */
+.stop.crit.for-you .youbanner { background: color-mix(in srgb, var(--yes) 14%, var(--surface)); color: var(--yes); }
